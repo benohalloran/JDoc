@@ -3,8 +3,8 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.concurrent.BlockingQueue;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipInputStream;
+import java.util.jar.JarEntry;
+import java.util.jar.JarInputStream;
 
 public class ProducerThread implements Runnable {
 	BlockingQueue<String> queue;
@@ -18,14 +18,14 @@ public class ProducerThread implements Runnable {
 
 	@Override
 	public void run() {
-		ZipInputStream zipInput;
+		JarInputStream jarInput;
 		try {
-			zipInput = new ZipInputStream(
+			jarInput = new JarInputStream(
 					new FileInputStream(new File(jarPath)));
-			ZipEntry current;
+			JarEntry current;
 			String name;
 			int i = 0;
-			while ((current = zipInput.getNextEntry()) != null && i < 10) {
+			while ((current = jarInput.getNextJarEntry()) != null) {
 				name = current.getName();
 				if (name.contains(".class")) {
 					queue.put(name);
@@ -33,7 +33,7 @@ public class ProducerThread implements Runnable {
 					i++;
 				}
 			}
-			zipInput.close();
+			jarInput.close();
 			Driver.classCount = i;
 			queue.put(KILL);
 		} catch (FileNotFoundException e) {
@@ -44,5 +44,4 @@ public class ProducerThread implements Runnable {
 			e.printStackTrace();
 		}
 	}
-	
 }

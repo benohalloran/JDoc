@@ -4,8 +4,9 @@ import java.util.concurrent.LinkedBlockingQueue;
 public class Driver {
 	public static final String jarPath = "C:\\Program Files (x86)\\Android\\android-studio\\sdk\\platforms\\android-L\\android.jar";
 	public static final String jdkBin = "";
-	public static final String outputPath = "output_multi5\\";
+	public static final String outputPath = "output_multi\\";
 
+	static final boolean WRITE_OUT = true;
 	static int classCount = 0;
 
 	public static void main(String[] args) throws IOException {
