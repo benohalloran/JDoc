@@ -1,0 +1,30 @@
+Compiled from "ProgressDialog.java"
+public class android.app.ProgressDialog extends android.app.AlertDialog {
+  public static final int STYLE_HORIZONTAL;
+  public static final int STYLE_SPINNER;
+  public android.app.ProgressDialog(android.content.Context);
+  public android.app.ProgressDialog(android.content.Context, int);
+  public static android.app.ProgressDialog show(android.content.Context, java.lang.CharSequence, java.lang.CharSequence);
+  public static android.app.ProgressDialog show(android.content.Context, java.lang.CharSequence, java.lang.CharSequence, boolean);
+  public static android.app.ProgressDialog show(android.content.Context, java.lang.CharSequence, java.lang.CharSequence, boolean, boolean);
+  public static android.app.ProgressDialog show(android.content.Context, java.lang.CharSequence, java.lang.CharSequence, boolean, boolean, android.content.DialogInterface$OnCancelListener);
+  protected void onCreate(android.os.Bundle);
+  public void onStart();
+  protected void onStop();
+  public void setProgress(int);
+  public void setSecondaryProgress(int);
+  public int getProgress();
+  public int getSecondaryProgress();
+  public int getMax();
+  public void setMax(int);
+  public void incrementProgressBy(int);
+  public void incrementSecondaryProgressBy(int);
+  public void setProgressDrawable(android.graphics.drawable.Drawable);
+  public void setIndeterminateDrawable(android.graphics.drawable.Drawable);
+  public void setIndeterminate(boolean);
+  public boolean isIndeterminate();
+  public void setMessage(java.lang.CharSequence);
+  public void setProgressStyle(int);
+  public void setProgressNumberFormat(java.lang.String);
+  public void setProgressPercentFormat(java.text.NumberFormat);
+}

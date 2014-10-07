@@ -1,0 +1,8 @@
+Compiled from "Notification.java"
+public class android.app.Notification$BigTextStyle extends android.app.Notification$Style {
+  public android.app.Notification$BigTextStyle();
+  public android.app.Notification$BigTextStyle(android.app.Notification$Builder);
+  public android.app.Notification$BigTextStyle setBigContentTitle(java.lang.CharSequence);
+  public android.app.Notification$BigTextStyle setSummaryText(java.lang.CharSequence);
+  public android.app.Notification$BigTextStyle bigText(java.lang.CharSequence);
+}

@@ -1,0 +1,10 @@
+Compiled from "ScriptIntrinsicResize.java"
+public final class android.renderscript.ScriptIntrinsicResize extends android.renderscript.ScriptIntrinsic {
+  android.renderscript.ScriptIntrinsicResize();
+  public static android.renderscript.ScriptIntrinsicResize create(android.renderscript.RenderScript);
+  public void setInput(android.renderscript.Allocation);
+  public android.renderscript.Script$FieldID getFieldID_Input();
+  public void forEach_bicubic(android.renderscript.Allocation);
+  public void forEach_bicubic(android.renderscript.Allocation, android.renderscript.Script$LaunchOptions);
+  public android.renderscript.Script$KernelID getKernelID_bicubic();
+}

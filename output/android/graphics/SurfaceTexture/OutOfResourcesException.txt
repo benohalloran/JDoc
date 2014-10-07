@@ -1,0 +1,5 @@
+Compiled from "SurfaceTexture.java"
+public class android.graphics.SurfaceTexture$OutOfResourcesException extends java.lang.Exception {
+  public android.graphics.SurfaceTexture$OutOfResourcesException();
+  public android.graphics.SurfaceTexture$OutOfResourcesException(java.lang.String);
+}

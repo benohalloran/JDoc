@@ -1,0 +1,11 @@
+Compiled from "ApplicationErrorReport.java"
+public class android.app.ApplicationErrorReport$BatteryInfo {
+  public java.lang.String checkinDetails;
+  public long durationMicros;
+  public java.lang.String usageDetails;
+  public int usagePercent;
+  public android.app.ApplicationErrorReport$BatteryInfo();
+  public android.app.ApplicationErrorReport$BatteryInfo(android.os.Parcel);
+  public void writeToParcel(android.os.Parcel, int);
+  public void dump(android.util.Printer, java.lang.String);
+}

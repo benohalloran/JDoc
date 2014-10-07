@@ -1,0 +1,4 @@
+Compiled from "ParcelFileDescriptor.java"
+public class android.os.ParcelFileDescriptor$FileDescriptorDetachedException extends java.io.IOException {
+  public android.os.ParcelFileDescriptor$FileDescriptorDetachedException();
+}

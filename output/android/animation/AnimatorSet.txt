@@ -1,0 +1,30 @@
+Compiled from "AnimatorSet.java"
+public final class android.animation.AnimatorSet extends android.animation.Animator {
+  public android.animation.AnimatorSet();
+  public void playTogether(android.animation.Animator...);
+  public void playTogether(java.util.Collection<android.animation.Animator>);
+  public void playSequentially(android.animation.Animator...);
+  public void playSequentially(java.util.List<android.animation.Animator>);
+  public java.util.ArrayList<android.animation.Animator> getChildAnimations();
+  public void setTarget(java.lang.Object);
+  public void setInterpolator(android.animation.TimeInterpolator);
+  public android.animation.TimeInterpolator getInterpolator();
+  public android.animation.AnimatorSet$Builder play(android.animation.Animator);
+  public void cancel();
+  public void end();
+  public boolean isRunning();
+  public boolean isStarted();
+  public long getStartDelay();
+  public void setStartDelay(long);
+  public long getDuration();
+  public android.animation.AnimatorSet setDuration(long);
+  public void setupStartValues();
+  public void setupEndValues();
+  public void pause();
+  public void resume();
+  public void start();
+  public android.animation.AnimatorSet clone();
+  public android.animation.Animator clone();
+  public android.animation.Animator setDuration(long);
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

@@ -1,0 +1,47 @@
+Compiled from "Path.java"
+public class android.graphics.Path {
+  public android.graphics.Path();
+  public android.graphics.Path(android.graphics.Path);
+  public void reset();
+  public void rewind();
+  public void set(android.graphics.Path);
+  public boolean op(android.graphics.Path, android.graphics.Path$Op);
+  public boolean op(android.graphics.Path, android.graphics.Path, android.graphics.Path$Op);
+  public boolean isConvex();
+  public android.graphics.Path$FillType getFillType();
+  public void setFillType(android.graphics.Path$FillType);
+  public boolean isInverseFillType();
+  public void toggleInverseFillType();
+  public boolean isEmpty();
+  public boolean isRect(android.graphics.RectF);
+  public void computeBounds(android.graphics.RectF, boolean);
+  public void incReserve(int);
+  public void moveTo(float, float);
+  public void rMoveTo(float, float);
+  public void lineTo(float, float);
+  public void rLineTo(float, float);
+  public void quadTo(float, float, float, float);
+  public void rQuadTo(float, float, float, float);
+  public void cubicTo(float, float, float, float, float, float);
+  public void rCubicTo(float, float, float, float, float, float);
+  public void arcTo(android.graphics.RectF, float, float, boolean);
+  public void arcTo(android.graphics.RectF, float, float);
+  public void close();
+  public void addRect(android.graphics.RectF, android.graphics.Path$Direction);
+  public void addRect(float, float, float, float, android.graphics.Path$Direction);
+  public void addOval(android.graphics.RectF, android.graphics.Path$Direction);
+  public void addOval(float, float, float, float, android.graphics.Path$Direction);
+  public void addCircle(float, float, float, android.graphics.Path$Direction);
+  public void addArc(android.graphics.RectF, float, float);
+  public void addRoundRect(android.graphics.RectF, float, float, android.graphics.Path$Direction);
+  public void addRoundRect(android.graphics.RectF, float[], android.graphics.Path$Direction);
+  public void addPath(android.graphics.Path, float, float);
+  public void addPath(android.graphics.Path);
+  public void addPath(android.graphics.Path, android.graphics.Matrix);
+  public void offset(float, float, android.graphics.Path);
+  public void offset(float, float);
+  public void setLastPoint(float, float);
+  public void transform(android.graphics.Matrix, android.graphics.Path);
+  public void transform(android.graphics.Matrix);
+  protected void finalize() throws java.lang.Throwable;
+}

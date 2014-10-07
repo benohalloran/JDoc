@@ -1,0 +1,8 @@
+Compiled from "RenderScript.java"
+public final class android.renderscript.RenderScript$Priority extends java.lang.Enum<android.renderscript.RenderScript$Priority> {
+  public static final android.renderscript.RenderScript$Priority LOW;
+  public static final android.renderscript.RenderScript$Priority NORMAL;
+  public static android.renderscript.RenderScript$Priority[] values();
+  public static android.renderscript.RenderScript$Priority valueOf(java.lang.String);
+  static {};
+}

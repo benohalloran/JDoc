@@ -1,0 +1,5 @@
+Compiled from "SQLiteMisuseException.java"
+public class android.database.sqlite.SQLiteMisuseException extends android.database.sqlite.SQLiteException {
+  public android.database.sqlite.SQLiteMisuseException();
+  public android.database.sqlite.SQLiteMisuseException(java.lang.String);
+}

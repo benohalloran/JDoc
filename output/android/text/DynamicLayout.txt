@@ -1,0 +1,18 @@
+Compiled from "DynamicLayout.java"
+public class android.text.DynamicLayout extends android.text.Layout {
+  public android.text.DynamicLayout(java.lang.CharSequence, android.text.TextPaint, int, android.text.Layout$Alignment, float, float, boolean);
+  public android.text.DynamicLayout(java.lang.CharSequence, java.lang.CharSequence, android.text.TextPaint, int, android.text.Layout$Alignment, float, float, boolean);
+  public android.text.DynamicLayout(java.lang.CharSequence, java.lang.CharSequence, android.text.TextPaint, int, android.text.Layout$Alignment, float, float, boolean, android.text.TextUtils$TruncateAt, int);
+  public int getLineCount();
+  public int getLineTop(int);
+  public int getLineDescent(int);
+  public int getLineStart(int);
+  public boolean getLineContainsTab(int);
+  public int getParagraphDirection(int);
+  public final android.text.Layout$Directions getLineDirections(int);
+  public int getTopPadding();
+  public int getBottomPadding();
+  public int getEllipsizedWidth();
+  public int getEllipsisStart(int);
+  public int getEllipsisCount(int);
+}

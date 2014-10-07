@@ -1,0 +1,10 @@
+Compiled from "MoveImage.java"
+public class android.transition.MoveImage extends android.transition.Transition {
+  public android.transition.MoveImage();
+  public void captureStartValues(android.transition.TransitionValues);
+  public void captureEndValues(android.transition.TransitionValues);
+  public java.lang.String[] getTransitionProperties();
+  public android.animation.Animator createAnimator(android.view.ViewGroup, android.transition.TransitionValues, android.transition.TransitionValues);
+  public android.transition.Transition clone();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

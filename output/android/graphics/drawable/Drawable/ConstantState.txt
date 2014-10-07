@@ -1,0 +1,9 @@
+Compiled from "Drawable.java"
+public abstract class android.graphics.drawable.Drawable$ConstantState {
+  public android.graphics.drawable.Drawable$ConstantState();
+  public abstract android.graphics.drawable.Drawable newDrawable();
+  public android.graphics.drawable.Drawable newDrawable(android.content.res.Resources);
+  public android.graphics.drawable.Drawable newDrawable(android.content.res.Resources, android.content.res.Resources$Theme);
+  public abstract int getChangingConfigurations();
+  public boolean canApplyTheme();
+}

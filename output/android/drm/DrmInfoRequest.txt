@@ -1,0 +1,16 @@
+Compiled from "DrmInfoRequest.java"
+public class android.drm.DrmInfoRequest {
+  public static final java.lang.String ACCOUNT_ID;
+  public static final java.lang.String SUBSCRIPTION_ID;
+  public static final int TYPE_REGISTRATION_INFO;
+  public static final int TYPE_RIGHTS_ACQUISITION_INFO;
+  public static final int TYPE_RIGHTS_ACQUISITION_PROGRESS_INFO;
+  public static final int TYPE_UNREGISTRATION_INFO;
+  public android.drm.DrmInfoRequest(int, java.lang.String);
+  public java.lang.String getMimeType();
+  public int getInfoType();
+  public void put(java.lang.String, java.lang.Object);
+  public java.lang.Object get(java.lang.String);
+  public java.util.Iterator<java.lang.String> keyIterator();
+  public java.util.Iterator<java.lang.Object> iterator();
+}

@@ -1,0 +1,20 @@
+Compiled from "TvInputInfo.java"
+public final class android.media.tv.TvInputInfo implements android.os.Parcelable {
+  public static final java.lang.String EXTRA_SERVICE_NAME;
+  public static final int TYPE_HDMI;
+  public static final int TYPE_PASSTHROUGH;
+  public static final int TYPE_TUNER;
+  public static final int TYPE_VIRTUAL;
+  android.media.tv.TvInputInfo();
+  public java.lang.String getId();
+  public android.content.pm.ServiceInfo getServiceInfo();
+  public android.content.Intent getIntentForSetupActivity();
+  public android.content.Intent getIntentForSettingsActivity();
+  public int getType();
+  public java.lang.CharSequence loadLabel(android.content.pm.PackageManager);
+  public int describeContents();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public void writeToParcel(android.os.Parcel, int);
+}

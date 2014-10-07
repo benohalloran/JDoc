@@ -1,0 +1,35 @@
+Compiled from "NinePatchDrawable.java"
+public class android.graphics.drawable.NinePatchDrawable extends android.graphics.drawable.Drawable {
+  public android.graphics.drawable.NinePatchDrawable(android.graphics.Bitmap, byte[], android.graphics.Rect, java.lang.String);
+  public android.graphics.drawable.NinePatchDrawable(android.content.res.Resources, android.graphics.Bitmap, byte[], android.graphics.Rect, java.lang.String);
+  public android.graphics.drawable.NinePatchDrawable(android.graphics.NinePatch);
+  public android.graphics.drawable.NinePatchDrawable(android.content.res.Resources, android.graphics.NinePatch);
+  public void setTargetDensity(android.graphics.Canvas);
+  public void setTargetDensity(android.util.DisplayMetrics);
+  public void setTargetDensity(int);
+  public void draw(android.graphics.Canvas);
+  public int getChangingConfigurations();
+  public boolean getPadding(android.graphics.Rect);
+  public void setAlpha(int);
+  public int getAlpha();
+  public void setColorFilter(android.graphics.ColorFilter);
+  public void setTint(android.content.res.ColorStateList, android.graphics.PorterDuff$Mode);
+  public void setDither(boolean);
+  public void setAutoMirrored(boolean);
+  public boolean isAutoMirrored();
+  public void setFilterBitmap(boolean);
+  public void inflate(android.content.res.Resources, org.xmlpull.v1.XmlPullParser, android.util.AttributeSet, android.content.res.Resources$Theme) throws org.xmlpull.v1.XmlPullParserException, java.io.IOException;
+  public void applyTheme(android.content.res.Resources$Theme);
+  public boolean canApplyTheme();
+  public android.graphics.Paint getPaint();
+  public int getIntrinsicWidth();
+  public int getIntrinsicHeight();
+  public int getMinimumWidth();
+  public int getMinimumHeight();
+  public int getOpacity();
+  public android.graphics.Region getTransparentRegion();
+  public android.graphics.drawable.Drawable$ConstantState getConstantState();
+  public android.graphics.drawable.Drawable mutate();
+  protected boolean onStateChange(int[]);
+  public boolean isStateful();
+}

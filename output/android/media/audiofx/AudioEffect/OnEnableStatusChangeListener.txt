@@ -1,0 +1,4 @@
+Compiled from "AudioEffect.java"
+public interface android.media.audiofx.AudioEffect$OnEnableStatusChangeListener {
+  public abstract void onEnableStatusChange(android.media.audiofx.AudioEffect, boolean);
+}

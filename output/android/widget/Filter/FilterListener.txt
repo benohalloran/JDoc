@@ -1,0 +1,4 @@
+Compiled from "Filter.java"
+public interface android.widget.Filter$FilterListener {
+  public abstract void onFilterComplete(int);
+}

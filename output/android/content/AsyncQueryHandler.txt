@@ -1,0 +1,15 @@
+Compiled from "AsyncQueryHandler.java"
+public abstract class android.content.AsyncQueryHandler extends android.os.Handler {
+  public android.content.AsyncQueryHandler(android.content.ContentResolver);
+  protected android.os.Handler createHandler(android.os.Looper);
+  public void startQuery(int, java.lang.Object, android.net.Uri, java.lang.String[], java.lang.String, java.lang.String[], java.lang.String);
+  public final void cancelOperation(int);
+  public final void startInsert(int, java.lang.Object, android.net.Uri, android.content.ContentValues);
+  public final void startUpdate(int, java.lang.Object, android.net.Uri, android.content.ContentValues, java.lang.String, java.lang.String[]);
+  public final void startDelete(int, java.lang.Object, android.net.Uri, java.lang.String, java.lang.String[]);
+  protected void onQueryComplete(int, java.lang.Object, android.database.Cursor);
+  protected void onInsertComplete(int, java.lang.Object, android.net.Uri);
+  protected void onUpdateComplete(int, java.lang.Object, int);
+  protected void onDeleteComplete(int, java.lang.Object, int);
+  public void handleMessage(android.os.Message);
+}

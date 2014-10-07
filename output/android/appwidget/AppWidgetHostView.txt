@@ -1,0 +1,21 @@
+Compiled from "AppWidgetHostView.java"
+public class android.appwidget.AppWidgetHostView extends android.widget.FrameLayout {
+  public android.appwidget.AppWidgetHostView(android.content.Context);
+  public android.appwidget.AppWidgetHostView(android.content.Context, int, int);
+  public void setAppWidget(int, android.appwidget.AppWidgetProviderInfo);
+  public static android.graphics.Rect getDefaultPaddingForWidget(android.content.Context, android.content.ComponentName, android.graphics.Rect);
+  public int getAppWidgetId();
+  public android.appwidget.AppWidgetProviderInfo getAppWidgetInfo();
+  protected void dispatchSaveInstanceState(android.util.SparseArray<android.os.Parcelable>);
+  protected void dispatchRestoreInstanceState(android.util.SparseArray<android.os.Parcelable>);
+  public void updateAppWidgetSize(android.os.Bundle, int, int, int, int);
+  public void updateAppWidgetOptions(android.os.Bundle);
+  public android.widget.FrameLayout$LayoutParams generateLayoutParams(android.util.AttributeSet);
+  public void updateAppWidget(android.widget.RemoteViews);
+  protected boolean drawChild(android.graphics.Canvas, android.view.View, long);
+  protected void prepareView(android.view.View);
+  protected android.view.View getDefaultView();
+  protected android.view.View getErrorView();
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet);
+}

@@ -1,0 +1,18 @@
+Compiled from "Collection.java"
+public interface java.util.Collection<E> extends java.lang.Iterable<E> {
+  public abstract boolean add(E);
+  public abstract boolean addAll(java.util.Collection<? extends E>);
+  public abstract void clear();
+  public abstract boolean contains(java.lang.Object);
+  public abstract boolean containsAll(java.util.Collection<?>);
+  public abstract boolean equals(java.lang.Object);
+  public abstract int hashCode();
+  public abstract boolean isEmpty();
+  public abstract java.util.Iterator<E> iterator();
+  public abstract boolean remove(java.lang.Object);
+  public abstract boolean removeAll(java.util.Collection<?>);
+  public abstract boolean retainAll(java.util.Collection<?>);
+  public abstract int size();
+  public abstract java.lang.Object[] toArray();
+  public abstract <T extends java/lang/Object> T[] toArray(T[]);
+}

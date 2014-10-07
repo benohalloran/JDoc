@@ -1,0 +1,6 @@
+Compiled from "CircularRedirectException.java"
+public class org.apache.http.client.CircularRedirectException extends org.apache.http.client.RedirectException {
+  public org.apache.http.client.CircularRedirectException();
+  public org.apache.http.client.CircularRedirectException(java.lang.String);
+  public org.apache.http.client.CircularRedirectException(java.lang.String, java.lang.Throwable);
+}

@@ -1,0 +1,21 @@
+Compiled from "R.java"
+public final class android.R$dimen {
+  public static final int app_icon_size;
+  public static final int dialog_min_width_major;
+  public static final int dialog_min_width_minor;
+  public static final int l_resource_pad1;
+  public static final int l_resource_pad10;
+  public static final int l_resource_pad2;
+  public static final int l_resource_pad3;
+  public static final int l_resource_pad4;
+  public static final int l_resource_pad5;
+  public static final int l_resource_pad6;
+  public static final int l_resource_pad7;
+  public static final int l_resource_pad8;
+  public static final int l_resource_pad9;
+  public static final int notification_large_icon_height;
+  public static final int notification_large_icon_width;
+  public static final int thumbnail_height;
+  public static final int thumbnail_width;
+  public android.R$dimen();
+}

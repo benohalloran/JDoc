@@ -1,0 +1,4 @@
+Compiled from "Camera.java"
+public interface android.hardware.Camera$ShutterCallback {
+  public abstract void onShutter();
+}

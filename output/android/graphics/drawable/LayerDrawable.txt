@@ -1,0 +1,43 @@
+Compiled from "LayerDrawable.java"
+public class android.graphics.drawable.LayerDrawable extends android.graphics.drawable.Drawable implements android.graphics.drawable.Drawable$Callback {
+  public static final int PADDING_MODE_NEST;
+  public static final int PADDING_MODE_STACK;
+  public android.graphics.drawable.LayerDrawable(android.graphics.drawable.Drawable[]);
+  public void inflate(android.content.res.Resources, org.xmlpull.v1.XmlPullParser, android.util.AttributeSet, android.content.res.Resources$Theme) throws org.xmlpull.v1.XmlPullParserException, java.io.IOException;
+  public void applyTheme(android.content.res.Resources$Theme);
+  public boolean canApplyTheme();
+  public android.graphics.drawable.Drawable findDrawableByLayerId(int);
+  public void setId(int, int);
+  public int getNumberOfLayers();
+  public android.graphics.drawable.Drawable getDrawable(int);
+  public int getId(int);
+  public boolean setDrawableByLayerId(int, android.graphics.drawable.Drawable);
+  public void setLayerInset(int, int, int, int, int);
+  public void setPaddingMode(int);
+  public int getPaddingMode();
+  public void invalidateDrawable(android.graphics.drawable.Drawable);
+  public void scheduleDrawable(android.graphics.drawable.Drawable, java.lang.Runnable, long);
+  public void unscheduleDrawable(android.graphics.drawable.Drawable, java.lang.Runnable);
+  public void draw(android.graphics.Canvas);
+  public int getChangingConfigurations();
+  public boolean getPadding(android.graphics.Rect);
+  public void setHotspot(float, float);
+  public void setHotspotBounds(int, int, int, int);
+  public boolean setVisible(boolean, boolean);
+  public void setDither(boolean);
+  public void setAlpha(int);
+  public int getAlpha();
+  public void setColorFilter(android.graphics.ColorFilter);
+  public void setOpacity(int);
+  public int getOpacity();
+  public void setAutoMirrored(boolean);
+  public boolean isAutoMirrored();
+  public boolean isStateful();
+  protected boolean onStateChange(int[]);
+  protected boolean onLevelChange(int);
+  protected void onBoundsChange(android.graphics.Rect);
+  public int getIntrinsicWidth();
+  public int getIntrinsicHeight();
+  public android.graphics.drawable.Drawable$ConstantState getConstantState();
+  public android.graphics.drawable.Drawable mutate();
+}

@@ -1,0 +1,6 @@
+Compiled from "PdfDocument.java"
+public final class android.graphics.pdf.PdfDocument$PageInfo$Builder {
+  public android.graphics.pdf.PdfDocument$PageInfo$Builder(int, int, int);
+  public android.graphics.pdf.PdfDocument$PageInfo$Builder setContentRect(android.graphics.Rect);
+  public android.graphics.pdf.PdfDocument$PageInfo create();
+}

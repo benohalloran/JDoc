@@ -1,0 +1,4 @@
+Compiled from "Loader.java"
+public interface android.content.Loader$OnLoadCompleteListener<D> {
+  public abstract void onLoadComplete(android.content.Loader<D>, D);
+}

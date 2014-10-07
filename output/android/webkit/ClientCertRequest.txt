@@ -1,0 +1,11 @@
+Compiled from "ClientCertRequest.java"
+public abstract class android.webkit.ClientCertRequest {
+  public android.webkit.ClientCertRequest();
+  public abstract java.lang.String[] getKeyTypes();
+  public abstract java.security.Principal[] getPrincipals();
+  public abstract java.lang.String getHost();
+  public abstract int getPort();
+  public abstract void proceed(java.security.PrivateKey, java.security.cert.X509Certificate[]);
+  public abstract void ignore();
+  public abstract void cancel();
+}

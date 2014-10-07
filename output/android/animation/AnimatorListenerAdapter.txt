@@ -1,0 +1,10 @@
+Compiled from "AnimatorListenerAdapter.java"
+public abstract class android.animation.AnimatorListenerAdapter implements android.animation.Animator$AnimatorListener,android.animation.Animator$AnimatorPauseListener {
+  public android.animation.AnimatorListenerAdapter();
+  public void onAnimationCancel(android.animation.Animator);
+  public void onAnimationEnd(android.animation.Animator);
+  public void onAnimationRepeat(android.animation.Animator);
+  public void onAnimationStart(android.animation.Animator);
+  public void onAnimationPause(android.animation.Animator);
+  public void onAnimationResume(android.animation.Animator);
+}

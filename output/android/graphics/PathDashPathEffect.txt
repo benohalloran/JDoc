@@ -1,0 +1,4 @@
+Compiled from "PathDashPathEffect.java"
+public class android.graphics.PathDashPathEffect extends android.graphics.PathEffect {
+  public android.graphics.PathDashPathEffect(android.graphics.Path, float, float, android.graphics.PathDashPathEffect$Style);
+}

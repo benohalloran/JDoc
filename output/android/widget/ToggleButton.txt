@@ -1,0 +1,17 @@
+Compiled from "ToggleButton.java"
+public class android.widget.ToggleButton extends android.widget.CompoundButton {
+  public android.widget.ToggleButton(android.content.Context, android.util.AttributeSet, int, int);
+  public android.widget.ToggleButton(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.ToggleButton(android.content.Context, android.util.AttributeSet);
+  public android.widget.ToggleButton(android.content.Context);
+  public void setChecked(boolean);
+  public java.lang.CharSequence getTextOn();
+  public void setTextOn(java.lang.CharSequence);
+  public java.lang.CharSequence getTextOff();
+  public void setTextOff(java.lang.CharSequence);
+  protected void onFinishInflate();
+  public void setBackgroundDrawable(android.graphics.drawable.Drawable);
+  protected void drawableStateChanged();
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

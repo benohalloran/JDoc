@@ -1,0 +1,7 @@
+Compiled from "AnticipateInterpolator.java"
+public class android.view.animation.AnticipateInterpolator implements android.view.animation.Interpolator {
+  public android.view.animation.AnticipateInterpolator();
+  public android.view.animation.AnticipateInterpolator(float);
+  public android.view.animation.AnticipateInterpolator(android.content.Context, android.util.AttributeSet);
+  public float getInterpolation(float);
+}

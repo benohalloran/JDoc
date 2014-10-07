@@ -1,0 +1,11 @@
+Compiled from "GeomagneticField.java"
+public class android.hardware.GeomagneticField {
+  public android.hardware.GeomagneticField(float, float, float, long);
+  public float getX();
+  public float getY();
+  public float getZ();
+  public float getDeclination();
+  public float getInclination();
+  public float getHorizontalStrength();
+  public float getFieldStrength();
+}

@@ -1,0 +1,12 @@
+Compiled from "Scheme.java"
+public final class org.apache.http.conn.scheme.Scheme {
+  public org.apache.http.conn.scheme.Scheme(java.lang.String, org.apache.http.conn.scheme.SocketFactory, int);
+  public final int getDefaultPort();
+  public final org.apache.http.conn.scheme.SocketFactory getSocketFactory();
+  public final java.lang.String getName();
+  public final boolean isLayered();
+  public final int resolvePort(int);
+  public final java.lang.String toString();
+  public final boolean equals(java.lang.Object);
+  public int hashCode();
+}

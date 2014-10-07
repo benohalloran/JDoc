@@ -1,0 +1,4 @@
+Compiled from "Equalizer.java"
+public interface android.media.audiofx.Equalizer$OnParameterChangeListener {
+  public abstract void onParameterChange(android.media.audiofx.Equalizer, int, int, int, int);
+}

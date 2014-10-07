@@ -1,0 +1,15 @@
+Compiled from "ImageReader.java"
+public class android.media.ImageReader implements java.lang.AutoCloseable {
+  android.media.ImageReader();
+  public static android.media.ImageReader newInstance(int, int, int, int);
+  public int getWidth();
+  public int getHeight();
+  public int getImageFormat();
+  public int getMaxImages();
+  public android.view.Surface getSurface();
+  public android.media.Image acquireLatestImage();
+  public android.media.Image acquireNextImage();
+  public void setOnImageAvailableListener(android.media.ImageReader$OnImageAvailableListener, android.os.Handler);
+  public void close();
+  protected void finalize() throws java.lang.Throwable;
+}

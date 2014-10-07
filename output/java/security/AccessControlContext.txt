@@ -1,0 +1,7 @@
+Compiled from "AccessControlContext.java"
+public final class java.security.AccessControlContext {
+  public java.security.AccessControlContext(java.security.AccessControlContext, java.security.DomainCombiner);
+  public java.security.AccessControlContext(java.security.ProtectionDomain[]);
+  public void checkPermission(java.security.Permission) throws java.security.AccessControlException;
+  public java.security.DomainCombiner getDomainCombiner();
+}

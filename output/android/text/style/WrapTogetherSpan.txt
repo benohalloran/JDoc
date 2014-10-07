@@ -1,0 +1,3 @@
+Compiled from "WrapTogetherSpan.java"
+public interface android.text.style.WrapTogetherSpan extends android.text.style.ParagraphStyle {
+}

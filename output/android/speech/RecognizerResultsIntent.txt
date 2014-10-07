@@ -1,0 +1,11 @@
+Compiled from "RecognizerResultsIntent.java"
+public class android.speech.RecognizerResultsIntent {
+  public static final java.lang.String ACTION_VOICE_SEARCH_RESULTS;
+  public static final java.lang.String EXTRA_VOICE_SEARCH_RESULT_HTML;
+  public static final java.lang.String EXTRA_VOICE_SEARCH_RESULT_HTML_BASE_URLS;
+  public static final java.lang.String EXTRA_VOICE_SEARCH_RESULT_HTTP_HEADERS;
+  public static final java.lang.String EXTRA_VOICE_SEARCH_RESULT_STRINGS;
+  public static final java.lang.String EXTRA_VOICE_SEARCH_RESULT_URLS;
+  public static final java.lang.String URI_SCHEME_INLINE;
+  android.speech.RecognizerResultsIntent();
+}

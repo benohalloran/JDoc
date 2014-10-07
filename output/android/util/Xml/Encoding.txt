@@ -1,0 +1,10 @@
+Compiled from "Xml.java"
+public final class android.util.Xml$Encoding extends java.lang.Enum<android.util.Xml$Encoding> {
+  public static final android.util.Xml$Encoding ISO_8859_1;
+  public static final android.util.Xml$Encoding US_ASCII;
+  public static final android.util.Xml$Encoding UTF_16;
+  public static final android.util.Xml$Encoding UTF_8;
+  public static android.util.Xml$Encoding[] values();
+  public static android.util.Xml$Encoding valueOf(java.lang.String);
+  static {};
+}

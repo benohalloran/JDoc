@@ -1,0 +1,5 @@
+Compiled from "TestSuiteLoader.java"
+public interface junit.runner.TestSuiteLoader {
+  public abstract java.lang.Class load(java.lang.String) throws java.lang.ClassNotFoundException;
+  public abstract java.lang.Class reload(java.lang.Class) throws java.lang.ClassNotFoundException;
+}

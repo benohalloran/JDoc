@@ -1,0 +1,22 @@
+Compiled from "CheckedTextView.java"
+public class android.widget.CheckedTextView extends android.widget.TextView implements android.widget.Checkable {
+  public android.widget.CheckedTextView(android.content.Context);
+  public android.widget.CheckedTextView(android.content.Context, android.util.AttributeSet);
+  public android.widget.CheckedTextView(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.CheckedTextView(android.content.Context, android.util.AttributeSet, int, int);
+  public void toggle();
+  public boolean isChecked();
+  public void setChecked(boolean);
+  public void setCheckMarkDrawable(int);
+  public void setCheckMarkDrawable(android.graphics.drawable.Drawable);
+  public void setVisibility(int);
+  public void jumpDrawablesToCurrentState();
+  protected boolean verifyDrawable(android.graphics.drawable.Drawable);
+  public android.graphics.drawable.Drawable getCheckMarkDrawable();
+  public void onRtlPropertiesChanged(int);
+  protected void onDraw(android.graphics.Canvas);
+  protected int[] onCreateDrawableState(int);
+  protected void drawableStateChanged();
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

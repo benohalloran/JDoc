@@ -1,0 +1,15 @@
+Compiled from "SQLiteOpenHelper.java"
+public abstract class android.database.sqlite.SQLiteOpenHelper {
+  public android.database.sqlite.SQLiteOpenHelper(android.content.Context, java.lang.String, android.database.sqlite.SQLiteDatabase$CursorFactory, int);
+  public android.database.sqlite.SQLiteOpenHelper(android.content.Context, java.lang.String, android.database.sqlite.SQLiteDatabase$CursorFactory, int, android.database.DatabaseErrorHandler);
+  public java.lang.String getDatabaseName();
+  public void setWriteAheadLoggingEnabled(boolean);
+  public android.database.sqlite.SQLiteDatabase getWritableDatabase();
+  public android.database.sqlite.SQLiteDatabase getReadableDatabase();
+  public synchronized void close();
+  public void onConfigure(android.database.sqlite.SQLiteDatabase);
+  public abstract void onCreate(android.database.sqlite.SQLiteDatabase);
+  public abstract void onUpgrade(android.database.sqlite.SQLiteDatabase, int, int);
+  public void onDowngrade(android.database.sqlite.SQLiteDatabase, int, int);
+  public void onOpen(android.database.sqlite.SQLiteDatabase);
+}

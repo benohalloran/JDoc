@@ -1,0 +1,12 @@
+Compiled from "PSSParameterSpec.java"
+public class java.security.spec.PSSParameterSpec implements java.security.spec.AlgorithmParameterSpec {
+  public static final java.security.spec.PSSParameterSpec DEFAULT;
+  public java.security.spec.PSSParameterSpec(int);
+  public java.security.spec.PSSParameterSpec(java.lang.String, java.lang.String, java.security.spec.AlgorithmParameterSpec, int, int);
+  public int getSaltLength();
+  public java.lang.String getDigestAlgorithm();
+  public java.lang.String getMGFAlgorithm();
+  public java.security.spec.AlgorithmParameterSpec getMGFParameters();
+  public int getTrailerField();
+  static {};
+}

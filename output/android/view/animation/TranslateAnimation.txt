@@ -1,0 +1,8 @@
+Compiled from "TranslateAnimation.java"
+public class android.view.animation.TranslateAnimation extends android.view.animation.Animation {
+  public android.view.animation.TranslateAnimation(android.content.Context, android.util.AttributeSet);
+  public android.view.animation.TranslateAnimation(float, float, float, float);
+  public android.view.animation.TranslateAnimation(int, float, int, float, int, float, int, float);
+  protected void applyTransformation(float, android.view.animation.Transformation);
+  public void initialize(int, int, int, int);
+}

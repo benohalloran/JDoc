@@ -1,0 +1,4 @@
+Compiled from "Thread.java"
+public interface java.lang.Thread$UncaughtExceptionHandler {
+  public abstract void uncaughtException(java.lang.Thread, java.lang.Throwable);
+}

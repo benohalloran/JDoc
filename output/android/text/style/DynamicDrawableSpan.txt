@@ -1,0 +1,12 @@
+Compiled from "DynamicDrawableSpan.java"
+public abstract class android.text.style.DynamicDrawableSpan extends android.text.style.ReplacementSpan {
+  public static final int ALIGN_BASELINE;
+  public static final int ALIGN_BOTTOM;
+  protected final int mVerticalAlignment;
+  public android.text.style.DynamicDrawableSpan();
+  protected android.text.style.DynamicDrawableSpan(int);
+  public int getVerticalAlignment();
+  public abstract android.graphics.drawable.Drawable getDrawable();
+  public int getSize(android.graphics.Paint, java.lang.CharSequence, int, int, android.graphics.Paint$FontMetricsInt);
+  public void draw(android.graphics.Canvas, java.lang.CharSequence, int, int, float, int, int, int, android.graphics.Paint);
+}

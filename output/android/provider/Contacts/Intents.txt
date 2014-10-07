@@ -1,0 +1,11 @@
+Compiled from "Contacts.java"
+public final class android.provider.Contacts$Intents {
+  public static final java.lang.String ATTACH_IMAGE;
+  public static final java.lang.String EXTRA_CREATE_DESCRIPTION;
+  public static final java.lang.String EXTRA_FORCE_CREATE;
+  public static final java.lang.String SEARCH_SUGGESTION_CLICKED;
+  public static final java.lang.String SEARCH_SUGGESTION_CREATE_CONTACT_CLICKED;
+  public static final java.lang.String SEARCH_SUGGESTION_DIAL_NUMBER_CLICKED;
+  public static final java.lang.String SHOW_OR_CREATE_CONTACT;
+  public android.provider.Contacts$Intents();
+}

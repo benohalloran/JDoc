@@ -1,0 +1,7 @@
+Compiled from "ReferenceQueue.java"
+public class java.lang.ref.ReferenceQueue<T> {
+  public java.lang.ref.ReferenceQueue();
+  public synchronized java.lang.ref.Reference<? extends T> poll();
+  public java.lang.ref.Reference<? extends T> remove() throws java.lang.InterruptedException;
+  public synchronized java.lang.ref.Reference<? extends T> remove(long) throws java.lang.InterruptedException;
+}

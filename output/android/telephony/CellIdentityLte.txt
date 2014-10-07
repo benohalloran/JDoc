@@ -1,0 +1,16 @@
+Compiled from "CellIdentityLte.java"
+public final class android.telephony.CellIdentityLte implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.telephony.CellIdentityLte> CREATOR;
+  android.telephony.CellIdentityLte();
+  public int getMcc();
+  public int getMnc();
+  public int getCi();
+  public int getPci();
+  public int getTac();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

@@ -1,0 +1,4 @@
+Compiled from "SimpleCursorAdapter.java"
+public interface android.widget.SimpleCursorAdapter$ViewBinder {
+  public abstract boolean setViewValue(android.view.View, android.database.Cursor, int);
+}

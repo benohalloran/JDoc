@@ -1,0 +1,17 @@
+Compiled from "RemoteInput.java"
+public final class android.app.RemoteInput implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.app.RemoteInput> CREATOR;
+  public static final java.lang.String EXTRA_RESULTS_DATA;
+  public static final java.lang.String RESULTS_CLIP_LABEL;
+  android.app.RemoteInput();
+  public java.lang.String getResultKey();
+  public java.lang.CharSequence getLabel();
+  public java.lang.CharSequence[] getChoices();
+  public boolean getAllowFreeFormInput();
+  public android.os.Bundle getExtras();
+  public static android.os.Bundle getResultsFromIntent(android.content.Intent);
+  public static void addResultsToIntent(android.app.RemoteInput[], android.content.Intent, android.os.Bundle);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

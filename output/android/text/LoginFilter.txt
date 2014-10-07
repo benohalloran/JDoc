@@ -1,0 +1,9 @@
+Compiled from "LoginFilter.java"
+public abstract class android.text.LoginFilter implements android.text.InputFilter {
+  android.text.LoginFilter();
+  public java.lang.CharSequence filter(java.lang.CharSequence, int, int, android.text.Spanned, int, int);
+  public void onStart();
+  public void onInvalidCharacter(char);
+  public void onStop();
+  public abstract boolean isAllowed(char);
+}

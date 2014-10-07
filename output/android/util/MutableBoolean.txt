@@ -1,0 +1,5 @@
+Compiled from "MutableBoolean.java"
+public final class android.util.MutableBoolean {
+  public boolean value;
+  public android.util.MutableBoolean(boolean);
+}

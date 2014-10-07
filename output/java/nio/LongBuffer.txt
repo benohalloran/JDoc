@@ -1,0 +1,30 @@
+Compiled from "LongBuffer.java"
+public abstract class java.nio.LongBuffer extends java.nio.Buffer implements java.lang.Comparable<java.nio.LongBuffer> {
+  java.nio.LongBuffer();
+  public static java.nio.LongBuffer allocate(int);
+  public static java.nio.LongBuffer wrap(long[]);
+  public static java.nio.LongBuffer wrap(long[], int, int);
+  public final long[] array();
+  public final int arrayOffset();
+  public abstract java.nio.LongBuffer asReadOnlyBuffer();
+  public abstract java.nio.LongBuffer compact();
+  public int compareTo(java.nio.LongBuffer);
+  public abstract java.nio.LongBuffer duplicate();
+  public boolean equals(java.lang.Object);
+  public abstract long get();
+  public java.nio.LongBuffer get(long[]);
+  public java.nio.LongBuffer get(long[], int, int);
+  public abstract long get(int);
+  public final boolean hasArray();
+  public int hashCode();
+  public abstract boolean isDirect();
+  public abstract java.nio.ByteOrder order();
+  public abstract java.nio.LongBuffer put(long);
+  public final java.nio.LongBuffer put(long[]);
+  public java.nio.LongBuffer put(long[], int, int);
+  public java.nio.LongBuffer put(java.nio.LongBuffer);
+  public abstract java.nio.LongBuffer put(int, long);
+  public abstract java.nio.LongBuffer slice();
+  public java.lang.Object array();
+  public int compareTo(java.lang.Object);
+}

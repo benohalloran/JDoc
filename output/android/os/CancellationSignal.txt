@@ -1,0 +1,8 @@
+Compiled from "CancellationSignal.java"
+public final class android.os.CancellationSignal {
+  public android.os.CancellationSignal();
+  public boolean isCanceled();
+  public void throwIfCanceled();
+  public void cancel();
+  public void setOnCancelListener(android.os.CancellationSignal$OnCancelListener);
+}

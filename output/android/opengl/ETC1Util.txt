@@ -1,0 +1,10 @@
+Compiled from "ETC1Util.java"
+public class android.opengl.ETC1Util {
+  public android.opengl.ETC1Util();
+  public static void loadTexture(int, int, int, int, int, java.io.InputStream) throws java.io.IOException;
+  public static void loadTexture(int, int, int, int, int, android.opengl.ETC1Util$ETC1Texture);
+  public static boolean isETC1Supported();
+  public static android.opengl.ETC1Util$ETC1Texture createTexture(java.io.InputStream) throws java.io.IOException;
+  public static android.opengl.ETC1Util$ETC1Texture compressTexture(java.nio.Buffer, int, int, int, int);
+  public static void writeTexture(android.opengl.ETC1Util$ETC1Texture, java.io.OutputStream) throws java.io.IOException;
+}

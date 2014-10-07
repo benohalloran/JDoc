@@ -1,0 +1,17 @@
+Compiled from "BasicHeaderValueParser.java"
+public class org.apache.http.message.BasicHeaderValueParser implements org.apache.http.message.HeaderValueParser {
+  public static final org.apache.http.message.BasicHeaderValueParser DEFAULT;
+  public org.apache.http.message.BasicHeaderValueParser();
+  public static final org.apache.http.HeaderElement[] parseElements(java.lang.String, org.apache.http.message.HeaderValueParser) throws org.apache.http.ParseException;
+  public org.apache.http.HeaderElement[] parseElements(org.apache.http.util.CharArrayBuffer, org.apache.http.message.ParserCursor);
+  public static final org.apache.http.HeaderElement parseHeaderElement(java.lang.String, org.apache.http.message.HeaderValueParser) throws org.apache.http.ParseException;
+  public org.apache.http.HeaderElement parseHeaderElement(org.apache.http.util.CharArrayBuffer, org.apache.http.message.ParserCursor);
+  protected org.apache.http.HeaderElement createHeaderElement(java.lang.String, java.lang.String, org.apache.http.NameValuePair[]);
+  public static final org.apache.http.NameValuePair[] parseParameters(java.lang.String, org.apache.http.message.HeaderValueParser) throws org.apache.http.ParseException;
+  public org.apache.http.NameValuePair[] parseParameters(org.apache.http.util.CharArrayBuffer, org.apache.http.message.ParserCursor);
+  public static final org.apache.http.NameValuePair parseNameValuePair(java.lang.String, org.apache.http.message.HeaderValueParser) throws org.apache.http.ParseException;
+  public org.apache.http.NameValuePair parseNameValuePair(org.apache.http.util.CharArrayBuffer, org.apache.http.message.ParserCursor);
+  public org.apache.http.NameValuePair parseNameValuePair(org.apache.http.util.CharArrayBuffer, org.apache.http.message.ParserCursor, char[]);
+  protected org.apache.http.NameValuePair createNameValuePair(java.lang.String, java.lang.String);
+  static {};
+}

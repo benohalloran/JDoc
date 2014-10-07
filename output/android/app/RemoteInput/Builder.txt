@@ -1,0 +1,10 @@
+Compiled from "RemoteInput.java"
+public final class android.app.RemoteInput$Builder {
+  public android.app.RemoteInput$Builder(java.lang.String);
+  public android.app.RemoteInput$Builder setLabel(java.lang.CharSequence);
+  public android.app.RemoteInput$Builder setChoices(java.lang.CharSequence[]);
+  public android.app.RemoteInput$Builder setAllowFreeFormInput(boolean);
+  public android.app.RemoteInput$Builder addExtras(android.os.Bundle);
+  public android.os.Bundle getExtras();
+  public android.app.RemoteInput build();
+}

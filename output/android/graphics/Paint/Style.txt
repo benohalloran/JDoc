@@ -1,0 +1,9 @@
+Compiled from "Paint.java"
+public final class android.graphics.Paint$Style extends java.lang.Enum<android.graphics.Paint$Style> {
+  public static final android.graphics.Paint$Style FILL;
+  public static final android.graphics.Paint$Style FILL_AND_STROKE;
+  public static final android.graphics.Paint$Style STROKE;
+  public static android.graphics.Paint$Style[] values();
+  public static android.graphics.Paint$Style valueOf(java.lang.String);
+  static {};
+}

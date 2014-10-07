@@ -1,0 +1,8 @@
+Compiled from "RouteInfo.java"
+public final class org.apache.http.conn.routing.RouteInfo$LayerType extends java.lang.Enum<org.apache.http.conn.routing.RouteInfo$LayerType> {
+  public static final org.apache.http.conn.routing.RouteInfo$LayerType LAYERED;
+  public static final org.apache.http.conn.routing.RouteInfo$LayerType PLAIN;
+  public static org.apache.http.conn.routing.RouteInfo$LayerType[] values();
+  public static org.apache.http.conn.routing.RouteInfo$LayerType valueOf(java.lang.String);
+  static {};
+}

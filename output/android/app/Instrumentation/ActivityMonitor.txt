@@ -1,0 +1,12 @@
+Compiled from "Instrumentation.java"
+public class android.app.Instrumentation$ActivityMonitor {
+  public android.app.Instrumentation$ActivityMonitor(android.content.IntentFilter, android.app.Instrumentation$ActivityResult, boolean);
+  public android.app.Instrumentation$ActivityMonitor(java.lang.String, android.app.Instrumentation$ActivityResult, boolean);
+  public final android.content.IntentFilter getFilter();
+  public final android.app.Instrumentation$ActivityResult getResult();
+  public final boolean isBlocking();
+  public final int getHits();
+  public final android.app.Activity getLastActivity();
+  public final android.app.Activity waitForActivity();
+  public final android.app.Activity waitForActivityWithTimeout(long);
+}

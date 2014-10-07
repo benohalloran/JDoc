@@ -1,0 +1,9 @@
+Compiled from "FragmentManager.java"
+public interface android.app.FragmentManager$BackStackEntry {
+  public abstract int getId();
+  public abstract java.lang.String getName();
+  public abstract int getBreadCrumbTitleRes();
+  public abstract int getBreadCrumbShortTitleRes();
+  public abstract java.lang.CharSequence getBreadCrumbTitle();
+  public abstract java.lang.CharSequence getBreadCrumbShortTitle();
+}

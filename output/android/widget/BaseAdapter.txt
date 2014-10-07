@@ -1,0 +1,15 @@
+Compiled from "BaseAdapter.java"
+public abstract class android.widget.BaseAdapter implements android.widget.ListAdapter,android.widget.SpinnerAdapter {
+  public android.widget.BaseAdapter();
+  public boolean hasStableIds();
+  public void registerDataSetObserver(android.database.DataSetObserver);
+  public void unregisterDataSetObserver(android.database.DataSetObserver);
+  public void notifyDataSetChanged();
+  public void notifyDataSetInvalidated();
+  public boolean areAllItemsEnabled();
+  public boolean isEnabled(int);
+  public android.view.View getDropDownView(int, android.view.View, android.view.ViewGroup);
+  public int getItemViewType(int);
+  public int getViewTypeCount();
+  public boolean isEmpty();
+}

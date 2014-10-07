@@ -1,0 +1,35 @@
+Compiled from "Keyboard.java"
+public class android.inputmethodservice.Keyboard {
+  public static final int EDGE_BOTTOM;
+  public static final int EDGE_LEFT;
+  public static final int EDGE_RIGHT;
+  public static final int EDGE_TOP;
+  public static final int KEYCODE_ALT;
+  public static final int KEYCODE_CANCEL;
+  public static final int KEYCODE_DELETE;
+  public static final int KEYCODE_DONE;
+  public static final int KEYCODE_MODE_CHANGE;
+  public static final int KEYCODE_SHIFT;
+  public android.inputmethodservice.Keyboard(android.content.Context, int);
+  public android.inputmethodservice.Keyboard(android.content.Context, int, int, int, int);
+  public android.inputmethodservice.Keyboard(android.content.Context, int, int);
+  public android.inputmethodservice.Keyboard(android.content.Context, int, java.lang.CharSequence, int, int);
+  public java.util.List<android.inputmethodservice.Keyboard$Key> getKeys();
+  public java.util.List<android.inputmethodservice.Keyboard$Key> getModifierKeys();
+  protected int getHorizontalGap();
+  protected void setHorizontalGap(int);
+  protected int getVerticalGap();
+  protected void setVerticalGap(int);
+  protected int getKeyHeight();
+  protected void setKeyHeight(int);
+  protected int getKeyWidth();
+  protected void setKeyWidth(int);
+  public int getHeight();
+  public int getMinWidth();
+  public boolean setShifted(boolean);
+  public boolean isShifted();
+  public int getShiftKeyIndex();
+  public int[] getNearestKeys(int, int);
+  protected android.inputmethodservice.Keyboard$Row createRowFromXml(android.content.res.Resources, android.content.res.XmlResourceParser);
+  protected android.inputmethodservice.Keyboard$Key createKeyFromXml(android.content.res.Resources, android.inputmethodservice.Keyboard$Row, int, int, android.content.res.XmlResourceParser);
+}

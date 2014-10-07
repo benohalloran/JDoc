@@ -1,0 +1,19 @@
+Compiled from "ProtocolVersion.java"
+public class org.apache.http.ProtocolVersion implements java.io.Serializable,java.lang.Cloneable {
+  protected final int major;
+  protected final int minor;
+  protected final java.lang.String protocol;
+  public org.apache.http.ProtocolVersion(java.lang.String, int, int);
+  public final java.lang.String getProtocol();
+  public final int getMajor();
+  public final int getMinor();
+  public org.apache.http.ProtocolVersion forVersion(int, int);
+  public final int hashCode();
+  public final boolean equals(java.lang.Object);
+  public boolean isComparable(org.apache.http.ProtocolVersion);
+  public int compareToVersion(org.apache.http.ProtocolVersion);
+  public final boolean greaterEquals(org.apache.http.ProtocolVersion);
+  public final boolean lessEquals(org.apache.http.ProtocolVersion);
+  public java.lang.String toString();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

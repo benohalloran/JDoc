@@ -1,0 +1,7 @@
+Compiled from "Permissions.java"
+public final class java.security.Permissions extends java.security.PermissionCollection implements java.io.Serializable {
+  public java.security.Permissions();
+  public void add(java.security.Permission);
+  public java.util.Enumeration<java.security.Permission> elements();
+  public boolean implies(java.security.Permission);
+}

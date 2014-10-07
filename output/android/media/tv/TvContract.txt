@@ -1,0 +1,13 @@
+Compiled from "TvContract.java"
+public final class android.media.tv.TvContract {
+  public static final java.lang.String AUTHORITY;
+  android.media.tv.TvContract();
+  public static final android.net.Uri buildChannelUri(long);
+  public static final android.net.Uri buildChannelLogoUri(long);
+  public static final android.net.Uri buildChannelLogoUri(android.net.Uri);
+  public static final android.net.Uri buildChannelsUriForInput(android.content.ComponentName);
+  public static final android.net.Uri buildChannelsUriForInput(android.content.ComponentName, boolean);
+  public static final android.net.Uri buildProgramUri(long);
+  public static final android.net.Uri buildProgramsUriForChannel(android.net.Uri);
+  public static final android.net.Uri buildProgramsUriForChannel(android.net.Uri, long, long);
+}

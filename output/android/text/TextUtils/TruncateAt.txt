@@ -1,0 +1,10 @@
+Compiled from "TextUtils.java"
+public final class android.text.TextUtils$TruncateAt extends java.lang.Enum<android.text.TextUtils$TruncateAt> {
+  public static final android.text.TextUtils$TruncateAt END;
+  public static final android.text.TextUtils$TruncateAt MARQUEE;
+  public static final android.text.TextUtils$TruncateAt MIDDLE;
+  public static final android.text.TextUtils$TruncateAt START;
+  public static android.text.TextUtils$TruncateAt[] values();
+  public static android.text.TextUtils$TruncateAt valueOf(java.lang.String);
+  static {};
+}

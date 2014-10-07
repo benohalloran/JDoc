@@ -1,0 +1,42 @@
+Compiled from "MediaFormat.java"
+public final class android.media.MediaFormat {
+  public static final java.lang.String KEY_AAC_PROFILE;
+  public static final java.lang.String KEY_BIT_RATE;
+  public static final java.lang.String KEY_CHANNEL_COUNT;
+  public static final java.lang.String KEY_CHANNEL_MASK;
+  public static final java.lang.String KEY_COLOR_FORMAT;
+  public static final java.lang.String KEY_DURATION;
+  public static final java.lang.String KEY_FLAC_COMPRESSION_LEVEL;
+  public static final java.lang.String KEY_FRAME_RATE;
+  public static final java.lang.String KEY_HEIGHT;
+  public static final java.lang.String KEY_IS_ADTS;
+  public static final java.lang.String KEY_IS_AUTOSELECT;
+  public static final java.lang.String KEY_IS_DEFAULT;
+  public static final java.lang.String KEY_IS_FORCED_SUBTITLE;
+  public static final java.lang.String KEY_I_FRAME_INTERVAL;
+  public static final java.lang.String KEY_LANGUAGE;
+  public static final java.lang.String KEY_MAX_HEIGHT;
+  public static final java.lang.String KEY_MAX_INPUT_SIZE;
+  public static final java.lang.String KEY_MAX_WIDTH;
+  public static final java.lang.String KEY_MIME;
+  public static final java.lang.String KEY_PUSH_BLANK_BUFFERS_ON_STOP;
+  public static final java.lang.String KEY_REPEAT_PREVIOUS_FRAME_AFTER;
+  public static final java.lang.String KEY_SAMPLE_RATE;
+  public static final java.lang.String KEY_WIDTH;
+  public android.media.MediaFormat();
+  public final boolean containsKey(java.lang.String);
+  public final int getInteger(java.lang.String);
+  public final long getLong(java.lang.String);
+  public final float getFloat(java.lang.String);
+  public final java.lang.String getString(java.lang.String);
+  public final java.nio.ByteBuffer getByteBuffer(java.lang.String);
+  public final void setInteger(java.lang.String, int);
+  public final void setLong(java.lang.String, long);
+  public final void setFloat(java.lang.String, float);
+  public final void setString(java.lang.String, java.lang.String);
+  public final void setByteBuffer(java.lang.String, java.nio.ByteBuffer);
+  public static final android.media.MediaFormat createAudioFormat(java.lang.String, int, int);
+  public static final android.media.MediaFormat createSubtitleFormat(java.lang.String, java.lang.String);
+  public static final android.media.MediaFormat createVideoFormat(java.lang.String, int, int);
+  public java.lang.String toString();
+}

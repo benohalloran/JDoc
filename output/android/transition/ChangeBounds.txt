@@ -1,0 +1,10 @@
+Compiled from "ChangeBounds.java"
+public class android.transition.ChangeBounds extends android.transition.Transition {
+  public android.transition.ChangeBounds();
+  public java.lang.String[] getTransitionProperties();
+  public void setResizeClip(boolean);
+  public void setReparent(boolean);
+  public void captureStartValues(android.transition.TransitionValues);
+  public void captureEndValues(android.transition.TransitionValues);
+  public android.animation.Animator createAnimator(android.view.ViewGroup, android.transition.TransitionValues, android.transition.TransitionValues);
+}

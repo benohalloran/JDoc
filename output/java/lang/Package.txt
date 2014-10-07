@@ -1,0 +1,22 @@
+Compiled from "Package.java"
+public class java.lang.Package implements java.lang.reflect.AnnotatedElement {
+  java.lang.Package();
+  public <A extends java/lang/annotation/Annotation> A getAnnotation(java.lang.Class<A>);
+  public java.lang.annotation.Annotation[] getAnnotations();
+  public java.lang.annotation.Annotation[] getDeclaredAnnotations();
+  public boolean isAnnotationPresent(java.lang.Class<? extends java.lang.annotation.Annotation>);
+  public java.lang.String getImplementationTitle();
+  public java.lang.String getImplementationVendor();
+  public java.lang.String getImplementationVersion();
+  public java.lang.String getName();
+  public static java.lang.Package getPackage(java.lang.String);
+  public static java.lang.Package[] getPackages();
+  public java.lang.String getSpecificationTitle();
+  public java.lang.String getSpecificationVendor();
+  public java.lang.String getSpecificationVersion();
+  public int hashCode();
+  public boolean isCompatibleWith(java.lang.String) throws java.lang.NumberFormatException;
+  public boolean isSealed();
+  public boolean isSealed(java.net.URL);
+  public java.lang.String toString();
+}

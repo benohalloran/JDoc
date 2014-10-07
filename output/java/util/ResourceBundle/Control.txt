@@ -1,0 +1,20 @@
+Compiled from "ResourceBundle.java"
+public class java.util.ResourceBundle$Control {
+  public static final java.util.List<java.lang.String> FORMAT_CLASS;
+  public static final java.util.List<java.lang.String> FORMAT_DEFAULT;
+  public static final java.util.List<java.lang.String> FORMAT_PROPERTIES;
+  public static final long TTL_DONT_CACHE;
+  public static final long TTL_NO_EXPIRATION_CONTROL;
+  protected java.util.ResourceBundle$Control();
+  public static java.util.ResourceBundle$Control getControl(java.util.List<java.lang.String>);
+  public static java.util.ResourceBundle$Control getNoFallbackControl(java.util.List<java.lang.String>);
+  public java.util.List<java.util.Locale> getCandidateLocales(java.lang.String, java.util.Locale);
+  public java.util.List<java.lang.String> getFormats(java.lang.String);
+  public java.util.Locale getFallbackLocale(java.lang.String, java.util.Locale);
+  public java.util.ResourceBundle newBundle(java.lang.String, java.util.Locale, java.lang.String, java.lang.ClassLoader, boolean) throws java.lang.IllegalAccessException, java.lang.InstantiationException, java.io.IOException;
+  public long getTimeToLive(java.lang.String, java.util.Locale);
+  public boolean needsReload(java.lang.String, java.util.Locale, java.lang.String, java.lang.ClassLoader, java.util.ResourceBundle, long);
+  public java.lang.String toBundleName(java.lang.String, java.util.Locale);
+  public final java.lang.String toResourceName(java.lang.String, java.lang.String);
+  static {};
+}

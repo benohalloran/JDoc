@@ -1,0 +1,26 @@
+Compiled from "Matrix4f.java"
+public class android.renderscript.Matrix4f {
+  public android.renderscript.Matrix4f();
+  public android.renderscript.Matrix4f(float[]);
+  public float[] getArray();
+  public float get(int, int);
+  public void set(int, int, float);
+  public void loadIdentity();
+  public void load(android.renderscript.Matrix4f);
+  public void loadRotate(float, float, float, float);
+  public void loadScale(float, float, float);
+  public void loadTranslate(float, float, float);
+  public void loadMultiply(android.renderscript.Matrix4f, android.renderscript.Matrix4f);
+  public void loadOrtho(float, float, float, float, float, float);
+  public void loadOrthoWindow(int, int);
+  public void loadFrustum(float, float, float, float, float, float);
+  public void loadPerspective(float, float, float, float);
+  public void loadProjectionNormalized(int, int);
+  public void multiply(android.renderscript.Matrix4f);
+  public void rotate(float, float, float, float);
+  public void scale(float, float, float);
+  public void translate(float, float, float);
+  public boolean inverse();
+  public boolean inverseTranspose();
+  public void transpose();
+}

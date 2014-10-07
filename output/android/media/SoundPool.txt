@@ -1,0 +1,21 @@
+Compiled from "SoundPool.java"
+public class android.media.SoundPool {
+  public android.media.SoundPool(int, int, int);
+  public int load(java.lang.String, int);
+  public int load(android.content.Context, int, int);
+  public int load(android.content.res.AssetFileDescriptor, int);
+  public int load(java.io.FileDescriptor, long, long, int);
+  public final boolean unload(int);
+  public final int play(int, float, float, int, int, float);
+  public final void pause(int);
+  public final void resume(int);
+  public final void autoPause();
+  public final void autoResume();
+  public final void stop(int);
+  public final void setVolume(int, float, float);
+  public final void setPriority(int, int);
+  public final void setLoop(int, int);
+  public final void setRate(int, float);
+  public void setOnLoadCompleteListener(android.media.SoundPool$OnLoadCompleteListener);
+  public final void release();
+}

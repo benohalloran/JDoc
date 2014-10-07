@@ -1,0 +1,7 @@
+Compiled from "ClientProtocolException.java"
+public class org.apache.http.client.ClientProtocolException extends java.io.IOException {
+  public org.apache.http.client.ClientProtocolException();
+  public org.apache.http.client.ClientProtocolException(java.lang.String);
+  public org.apache.http.client.ClientProtocolException(java.lang.Throwable);
+  public org.apache.http.client.ClientProtocolException(java.lang.String, java.lang.Throwable);
+}

@@ -1,0 +1,5 @@
+Compiled from "GLSurfaceView.java"
+public interface android.opengl.GLSurfaceView$EGLWindowSurfaceFactory {
+  public abstract javax.microedition.khronos.egl.EGLSurface createWindowSurface(javax.microedition.khronos.egl.EGL10, javax.microedition.khronos.egl.EGLDisplay, javax.microedition.khronos.egl.EGLConfig, java.lang.Object);
+  public abstract void destroySurface(javax.microedition.khronos.egl.EGL10, javax.microedition.khronos.egl.EGLDisplay, javax.microedition.khronos.egl.EGLSurface);
+}

@@ -1,0 +1,6 @@
+Compiled from "FilePermission.java"
+public final class java.io.FilePermission extends java.security.Permission implements java.io.Serializable {
+  public java.io.FilePermission(java.lang.String, java.lang.String);
+  public java.lang.String getActions();
+  public boolean implies(java.security.Permission);
+}

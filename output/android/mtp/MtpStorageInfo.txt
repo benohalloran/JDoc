@@ -1,0 +1,9 @@
+Compiled from "MtpStorageInfo.java"
+public final class android.mtp.MtpStorageInfo {
+  android.mtp.MtpStorageInfo();
+  public final int getStorageId();
+  public final long getMaxCapacity();
+  public final long getFreeSpace();
+  public final java.lang.String getDescription();
+  public final java.lang.String getVolumeIdentifier();
+}

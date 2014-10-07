@@ -1,0 +1,4 @@
+Compiled from "ParcelableSpan.java"
+public interface android.text.ParcelableSpan extends android.os.Parcelable {
+  public abstract int getSpanTypeId();
+}

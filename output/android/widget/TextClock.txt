@@ -1,0 +1,19 @@
+Compiled from "TextClock.java"
+public class android.widget.TextClock extends android.widget.TextView {
+  public static final java.lang.CharSequence DEFAULT_FORMAT_12_HOUR;
+  public static final java.lang.CharSequence DEFAULT_FORMAT_24_HOUR;
+  public android.widget.TextClock(android.content.Context);
+  public android.widget.TextClock(android.content.Context, android.util.AttributeSet);
+  public android.widget.TextClock(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.TextClock(android.content.Context, android.util.AttributeSet, int, int);
+  public java.lang.CharSequence getFormat12Hour();
+  public void setFormat12Hour(java.lang.CharSequence);
+  public java.lang.CharSequence getFormat24Hour();
+  public void setFormat24Hour(java.lang.CharSequence);
+  public boolean is24HourModeEnabled();
+  public java.lang.String getTimeZone();
+  public void setTimeZone(java.lang.String);
+  protected void onAttachedToWindow();
+  protected void onDetachedFromWindow();
+  static {};
+}

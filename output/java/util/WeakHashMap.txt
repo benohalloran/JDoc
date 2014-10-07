@@ -1,0 +1,19 @@
+Compiled from "WeakHashMap.java"
+public class java.util.WeakHashMap<K, V> extends java.util.AbstractMap<K, V> implements java.util.Map<K, V> {
+  public java.util.WeakHashMap();
+  public java.util.WeakHashMap(int);
+  public java.util.WeakHashMap(int, float);
+  public java.util.WeakHashMap(java.util.Map<? extends K, ? extends V>);
+  public void clear();
+  public boolean containsKey(java.lang.Object);
+  public java.util.Set<java.util.Map$Entry<K, V>> entrySet();
+  public java.util.Set<K> keySet();
+  public java.util.Collection<V> values();
+  public V get(java.lang.Object);
+  public boolean containsValue(java.lang.Object);
+  public boolean isEmpty();
+  public V put(K, V);
+  public void putAll(java.util.Map<? extends K, ? extends V>);
+  public V remove(java.lang.Object);
+  public int size();
+}

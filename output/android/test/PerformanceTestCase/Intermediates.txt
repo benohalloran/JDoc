@@ -1,0 +1,8 @@
+Compiled from "PerformanceTestCase.java"
+public interface android.test.PerformanceTestCase$Intermediates {
+  public abstract void setInternalIterations(int);
+  public abstract void startTiming(boolean);
+  public abstract void addIntermediate(java.lang.String);
+  public abstract void addIntermediate(java.lang.String, long);
+  public abstract void finishTiming(boolean);
+}

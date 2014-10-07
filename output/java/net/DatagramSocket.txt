@@ -1,0 +1,38 @@
+Compiled from "DatagramSocket.java"
+public class java.net.DatagramSocket implements java.io.Closeable {
+  public java.net.DatagramSocket() throws java.net.SocketException;
+  public java.net.DatagramSocket(int) throws java.net.SocketException;
+  public java.net.DatagramSocket(int, java.net.InetAddress) throws java.net.SocketException;
+  protected java.net.DatagramSocket(java.net.DatagramSocketImpl);
+  public java.net.DatagramSocket(java.net.SocketAddress) throws java.net.SocketException;
+  public void close();
+  public void disconnect();
+  public java.net.InetAddress getInetAddress();
+  public java.net.InetAddress getLocalAddress();
+  public int getLocalPort();
+  public int getPort();
+  public synchronized int getReceiveBufferSize() throws java.net.SocketException;
+  public synchronized int getSendBufferSize() throws java.net.SocketException;
+  public synchronized int getSoTimeout() throws java.net.SocketException;
+  public synchronized void receive(java.net.DatagramPacket) throws java.io.IOException;
+  public void send(java.net.DatagramPacket) throws java.io.IOException;
+  public synchronized void setSendBufferSize(int) throws java.net.SocketException;
+  public synchronized void setReceiveBufferSize(int) throws java.net.SocketException;
+  public synchronized void setSoTimeout(int) throws java.net.SocketException;
+  public static synchronized void setDatagramSocketImplFactory(java.net.DatagramSocketImplFactory) throws java.io.IOException;
+  public void bind(java.net.SocketAddress) throws java.net.SocketException;
+  public void connect(java.net.SocketAddress) throws java.net.SocketException;
+  public void connect(java.net.InetAddress, int);
+  public boolean isBound();
+  public boolean isConnected();
+  public java.net.SocketAddress getRemoteSocketAddress();
+  public java.net.SocketAddress getLocalSocketAddress();
+  public void setReuseAddress(boolean) throws java.net.SocketException;
+  public boolean getReuseAddress() throws java.net.SocketException;
+  public void setBroadcast(boolean) throws java.net.SocketException;
+  public boolean getBroadcast() throws java.net.SocketException;
+  public void setTrafficClass(int) throws java.net.SocketException;
+  public int getTrafficClass() throws java.net.SocketException;
+  public boolean isClosed();
+  public java.nio.channels.DatagramChannel getChannel();
+}

@@ -1,0 +1,10 @@
+Compiled from "Image.java"
+public abstract class android.media.Image implements java.lang.AutoCloseable {
+  android.media.Image();
+  public abstract int getFormat();
+  public abstract int getWidth();
+  public abstract int getHeight();
+  public abstract long getTimestamp();
+  public abstract android.media.Image$Plane[] getPlanes();
+  public abstract void close();
+}

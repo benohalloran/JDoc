@@ -1,0 +1,5 @@
+Compiled from "View.java"
+public interface android.view.View$OnAttachStateChangeListener {
+  public abstract void onViewAttachedToWindow(android.view.View);
+  public abstract void onViewDetachedFromWindow(android.view.View);
+}

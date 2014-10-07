@@ -1,0 +1,8 @@
+Compiled from "Formatter.java"
+public final class java.util.Formatter$BigDecimalLayoutForm extends java.lang.Enum<java.util.Formatter$BigDecimalLayoutForm> {
+  public static final java.util.Formatter$BigDecimalLayoutForm DECIMAL_FLOAT;
+  public static final java.util.Formatter$BigDecimalLayoutForm SCIENTIFIC;
+  public static java.util.Formatter$BigDecimalLayoutForm[] values();
+  public static java.util.Formatter$BigDecimalLayoutForm valueOf(java.lang.String);
+  static {};
+}

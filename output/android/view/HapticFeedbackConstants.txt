@@ -1,0 +1,10 @@
+Compiled from "HapticFeedbackConstants.java"
+public class android.view.HapticFeedbackConstants {
+  public static final int CLOCK_TICK;
+  public static final int FLAG_IGNORE_GLOBAL_SETTING;
+  public static final int FLAG_IGNORE_VIEW_SETTING;
+  public static final int KEYBOARD_TAP;
+  public static final int LONG_PRESS;
+  public static final int VIRTUAL_KEY;
+  android.view.HapticFeedbackConstants();
+}

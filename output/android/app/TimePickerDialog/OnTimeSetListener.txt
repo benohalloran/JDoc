@@ -1,0 +1,4 @@
+Compiled from "TimePickerDialog.java"
+public interface android.app.TimePickerDialog$OnTimeSetListener {
+  public abstract void onTimeSet(android.widget.TimePicker, int, int);
+}

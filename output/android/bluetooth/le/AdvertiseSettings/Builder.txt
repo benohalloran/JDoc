@@ -1,0 +1,8 @@
+Compiled from "AdvertiseSettings.java"
+public final class android.bluetooth.le.AdvertiseSettings$Builder {
+  public android.bluetooth.le.AdvertiseSettings$Builder();
+  public android.bluetooth.le.AdvertiseSettings$Builder setAdvertiseMode(int);
+  public android.bluetooth.le.AdvertiseSettings$Builder setTxPowerLevel(int);
+  public android.bluetooth.le.AdvertiseSettings$Builder setType(int);
+  public android.bluetooth.le.AdvertiseSettings build();
+}

@@ -1,0 +1,30 @@
+Compiled from "MediaExtractor.java"
+public final class android.media.MediaExtractor {
+  public static final int SAMPLE_FLAG_ENCRYPTED;
+  public static final int SAMPLE_FLAG_SYNC;
+  public static final int SEEK_TO_CLOSEST_SYNC;
+  public static final int SEEK_TO_NEXT_SYNC;
+  public static final int SEEK_TO_PREVIOUS_SYNC;
+  public android.media.MediaExtractor();
+  public final void setDataSource(android.content.Context, android.net.Uri, java.util.Map<java.lang.String, java.lang.String>) throws java.io.IOException;
+  public final void setDataSource(java.lang.String, java.util.Map<java.lang.String, java.lang.String>) throws java.io.IOException;
+  public final void setDataSource(java.lang.String) throws java.io.IOException;
+  public final void setDataSource(java.io.FileDescriptor) throws java.io.IOException;
+  public final native void setDataSource(java.io.FileDescriptor, long, long) throws java.io.IOException;
+  protected void finalize();
+  public final native void release();
+  public final native int getTrackCount();
+  public java.util.Map<java.util.UUID, byte[]> getPsshInfo();
+  public android.media.MediaFormat getTrackFormat(int);
+  public native void selectTrack(int);
+  public native void unselectTrack(int);
+  public native void seekTo(long, int);
+  public native boolean advance();
+  public native int readSampleData(java.nio.ByteBuffer, int);
+  public native int getSampleTrackIndex();
+  public native long getSampleTime();
+  public native int getSampleFlags();
+  public native boolean getSampleCryptoInfo(android.media.MediaCodec$CryptoInfo);
+  public native long getCachedDuration();
+  public native boolean hasCacheReachedEndOfStream();
+}

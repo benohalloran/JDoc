@@ -1,0 +1,15 @@
+Compiled from "MediaRouter.java"
+public class android.media.MediaRouter$RouteGroup extends android.media.MediaRouter$RouteInfo {
+  android.media.MediaRouter$RouteGroup();
+  public void addRoute(android.media.MediaRouter$RouteInfo);
+  public void addRoute(android.media.MediaRouter$RouteInfo, int);
+  public void removeRoute(android.media.MediaRouter$RouteInfo);
+  public void removeRoute(int);
+  public int getRouteCount();
+  public android.media.MediaRouter$RouteInfo getRouteAt(int);
+  public void setIconDrawable(android.graphics.drawable.Drawable);
+  public void setIconResource(int);
+  public void requestSetVolume(int);
+  public void requestUpdateVolume(int);
+  public java.lang.String toString();
+}

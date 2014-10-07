@@ -1,0 +1,5 @@
+Compiled from "SQLiteDatatypeMismatchException.java"
+public class android.database.sqlite.SQLiteDatatypeMismatchException extends android.database.sqlite.SQLiteException {
+  public android.database.sqlite.SQLiteDatatypeMismatchException();
+  public android.database.sqlite.SQLiteDatatypeMismatchException(java.lang.String);
+}

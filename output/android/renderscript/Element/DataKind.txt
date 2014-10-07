@@ -1,0 +1,14 @@
+Compiled from "Element.java"
+public final class android.renderscript.Element$DataKind extends java.lang.Enum<android.renderscript.Element$DataKind> {
+  public static final android.renderscript.Element$DataKind PIXEL_A;
+  public static final android.renderscript.Element$DataKind PIXEL_DEPTH;
+  public static final android.renderscript.Element$DataKind PIXEL_L;
+  public static final android.renderscript.Element$DataKind PIXEL_LA;
+  public static final android.renderscript.Element$DataKind PIXEL_RGB;
+  public static final android.renderscript.Element$DataKind PIXEL_RGBA;
+  public static final android.renderscript.Element$DataKind PIXEL_YUV;
+  public static final android.renderscript.Element$DataKind USER;
+  public static android.renderscript.Element$DataKind[] values();
+  public static android.renderscript.Element$DataKind valueOf(java.lang.String);
+  static {};
+}

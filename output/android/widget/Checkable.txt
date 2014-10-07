@@ -1,0 +1,6 @@
+Compiled from "Checkable.java"
+public interface android.widget.Checkable {
+  public abstract void setChecked(boolean);
+  public abstract boolean isChecked();
+  public abstract void toggle();
+}

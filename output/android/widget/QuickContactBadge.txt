@@ -1,0 +1,22 @@
+Compiled from "QuickContactBadge.java"
+public class android.widget.QuickContactBadge extends android.widget.ImageView implements android.view.View$OnClickListener {
+  protected java.lang.String[] mExcludeMimes;
+  public android.widget.QuickContactBadge(android.content.Context);
+  public android.widget.QuickContactBadge(android.content.Context, android.util.AttributeSet);
+  public android.widget.QuickContactBadge(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.QuickContactBadge(android.content.Context, android.util.AttributeSet, int, int);
+  protected void drawableStateChanged();
+  public void setMode(int);
+  protected void onDraw(android.graphics.Canvas);
+  public void setImageToDefault();
+  public void assignContactUri(android.net.Uri);
+  public void assignContactFromEmail(java.lang.String, boolean);
+  public void assignContactFromEmail(java.lang.String, boolean, android.os.Bundle);
+  public void assignContactFromPhone(java.lang.String, boolean);
+  public void assignContactFromPhone(java.lang.String, boolean, android.os.Bundle);
+  public void setOverlay(android.graphics.drawable.Drawable);
+  public void onClick(android.view.View);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public void setExcludeMimes(java.lang.String[]);
+}

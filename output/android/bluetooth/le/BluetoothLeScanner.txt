@@ -1,0 +1,6 @@
+Compiled from "BluetoothLeScanner.java"
+public final class android.bluetooth.le.BluetoothLeScanner {
+  android.bluetooth.le.BluetoothLeScanner();
+  public void startScan(java.util.List<android.bluetooth.le.ScanFilter>, android.bluetooth.le.ScanSettings, android.bluetooth.le.ScanCallback);
+  public void stopScan(android.bluetooth.le.ScanCallback);
+}

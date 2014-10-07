@@ -1,0 +1,10 @@
+Compiled from "BlurMaskFilter.java"
+public final class android.graphics.BlurMaskFilter$Blur extends java.lang.Enum<android.graphics.BlurMaskFilter$Blur> {
+  public static final android.graphics.BlurMaskFilter$Blur INNER;
+  public static final android.graphics.BlurMaskFilter$Blur NORMAL;
+  public static final android.graphics.BlurMaskFilter$Blur OUTER;
+  public static final android.graphics.BlurMaskFilter$Blur SOLID;
+  public static android.graphics.BlurMaskFilter$Blur[] values();
+  public static android.graphics.BlurMaskFilter$Blur valueOf(java.lang.String);
+  static {};
+}

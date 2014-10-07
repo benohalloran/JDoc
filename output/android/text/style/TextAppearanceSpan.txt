@@ -1,0 +1,17 @@
+Compiled from "TextAppearanceSpan.java"
+public class android.text.style.TextAppearanceSpan extends android.text.style.MetricAffectingSpan implements android.text.ParcelableSpan {
+  public android.text.style.TextAppearanceSpan(android.content.Context, int);
+  public android.text.style.TextAppearanceSpan(android.content.Context, int, int);
+  public android.text.style.TextAppearanceSpan(java.lang.String, int, int, android.content.res.ColorStateList, android.content.res.ColorStateList);
+  public android.text.style.TextAppearanceSpan(android.os.Parcel);
+  public int getSpanTypeId();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String getFamily();
+  public android.content.res.ColorStateList getTextColor();
+  public android.content.res.ColorStateList getLinkTextColor();
+  public int getTextSize();
+  public int getTextStyle();
+  public void updateDrawState(android.text.TextPaint);
+  public void updateMeasureState(android.text.TextPaint);
+}

@@ -1,0 +1,13 @@
+Compiled from "AbsoluteSizeSpan.java"
+public class android.text.style.AbsoluteSizeSpan extends android.text.style.MetricAffectingSpan implements android.text.ParcelableSpan {
+  public android.text.style.AbsoluteSizeSpan(int);
+  public android.text.style.AbsoluteSizeSpan(int, boolean);
+  public android.text.style.AbsoluteSizeSpan(android.os.Parcel);
+  public int getSpanTypeId();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int getSize();
+  public boolean getDip();
+  public void updateDrawState(android.text.TextPaint);
+  public void updateMeasureState(android.text.TextPaint);
+}

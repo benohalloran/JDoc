@@ -1,0 +1,6 @@
+Compiled from "LauncherActivity.java"
+public class android.app.LauncherActivity$IconResizer {
+  final android.app.LauncherActivity this$0;
+  public android.app.LauncherActivity$IconResizer(android.app.LauncherActivity);
+  public android.graphics.drawable.Drawable createIconThumbnail(android.graphics.drawable.Drawable);
+}

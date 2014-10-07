@@ -1,0 +1,5 @@
+Compiled from "ParseException.java"
+public class org.apache.http.ParseException extends java.lang.RuntimeException {
+  public org.apache.http.ParseException();
+  public org.apache.http.ParseException(java.lang.String);
+}

@@ -1,0 +1,4 @@
+Compiled from "ValueCallback.java"
+public interface android.webkit.ValueCallback<T> {
+  public abstract void onReceiveValue(T);
+}

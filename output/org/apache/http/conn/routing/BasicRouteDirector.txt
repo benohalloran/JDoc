@@ -1,0 +1,8 @@
+Compiled from "BasicRouteDirector.java"
+public class org.apache.http.conn.routing.BasicRouteDirector implements org.apache.http.conn.routing.HttpRouteDirector {
+  public org.apache.http.conn.routing.BasicRouteDirector();
+  public int nextStep(org.apache.http.conn.routing.RouteInfo, org.apache.http.conn.routing.RouteInfo);
+  protected int firstStep(org.apache.http.conn.routing.RouteInfo);
+  protected int directStep(org.apache.http.conn.routing.RouteInfo, org.apache.http.conn.routing.RouteInfo);
+  protected int proxiedStep(org.apache.http.conn.routing.RouteInfo, org.apache.http.conn.routing.RouteInfo);
+}

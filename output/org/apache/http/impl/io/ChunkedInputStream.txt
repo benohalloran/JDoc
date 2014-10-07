@@ -1,0 +1,9 @@
+Compiled from "ChunkedInputStream.java"
+public class org.apache.http.impl.io.ChunkedInputStream extends java.io.InputStream {
+  public org.apache.http.impl.io.ChunkedInputStream(org.apache.http.io.SessionInputBuffer);
+  public int read() throws java.io.IOException;
+  public int read(byte[], int, int) throws java.io.IOException;
+  public int read(byte[]) throws java.io.IOException;
+  public void close() throws java.io.IOException;
+  public org.apache.http.Header[] getFooters();
+}

@@ -1,0 +1,7 @@
+Compiled from "Checksum.java"
+public interface java.util.zip.Checksum {
+  public abstract long getValue();
+  public abstract void reset();
+  public abstract void update(byte[], int, int);
+  public abstract void update(int);
+}

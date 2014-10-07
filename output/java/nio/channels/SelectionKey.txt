@@ -1,0 +1,21 @@
+Compiled from "SelectionKey.java"
+public abstract class java.nio.channels.SelectionKey {
+  public static final int OP_ACCEPT;
+  public static final int OP_CONNECT;
+  public static final int OP_READ;
+  public static final int OP_WRITE;
+  protected java.nio.channels.SelectionKey();
+  public final java.lang.Object attach(java.lang.Object);
+  public final java.lang.Object attachment();
+  public abstract void cancel();
+  public abstract java.nio.channels.SelectableChannel channel();
+  public abstract int interestOps();
+  public abstract java.nio.channels.SelectionKey interestOps(int);
+  public final boolean isAcceptable();
+  public final boolean isConnectable();
+  public final boolean isReadable();
+  public abstract boolean isValid();
+  public final boolean isWritable();
+  public abstract int readyOps();
+  public abstract java.nio.channels.Selector selector();
+}

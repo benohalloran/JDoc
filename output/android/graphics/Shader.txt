@@ -1,0 +1,7 @@
+Compiled from "Shader.java"
+public class android.graphics.Shader {
+  public android.graphics.Shader();
+  public boolean getLocalMatrix(android.graphics.Matrix);
+  public void setLocalMatrix(android.graphics.Matrix);
+  protected void finalize() throws java.lang.Throwable;
+}

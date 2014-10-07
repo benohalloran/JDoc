@@ -1,0 +1,11 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$CommonDataKinds$SipAddress implements android.provider.ContactsContract$DataColumnsWithJoins,android.provider.ContactsContract$CommonDataKinds$CommonColumns {
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String SIP_ADDRESS;
+  public static final int TYPE_HOME;
+  public static final int TYPE_OTHER;
+  public static final int TYPE_WORK;
+  android.provider.ContactsContract$CommonDataKinds$SipAddress();
+  public static final int getTypeLabelResource(int);
+  public static final java.lang.CharSequence getTypeLabel(android.content.res.Resources, int, java.lang.CharSequence);
+}

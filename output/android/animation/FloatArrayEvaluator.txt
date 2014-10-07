@@ -1,0 +1,7 @@
+Compiled from "FloatArrayEvaluator.java"
+public class android.animation.FloatArrayEvaluator implements android.animation.TypeEvaluator<float[]> {
+  public android.animation.FloatArrayEvaluator();
+  public android.animation.FloatArrayEvaluator(float[]);
+  public float[] evaluate(float, float[], float[]);
+  public java.lang.Object evaluate(float, java.lang.Object, java.lang.Object);
+}

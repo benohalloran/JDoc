@@ -1,0 +1,16 @@
+Compiled from "SipProfile.java"
+public class android.net.sip.SipProfile$Builder {
+  public android.net.sip.SipProfile$Builder(android.net.sip.SipProfile);
+  public android.net.sip.SipProfile$Builder(java.lang.String) throws java.text.ParseException;
+  public android.net.sip.SipProfile$Builder(java.lang.String, java.lang.String) throws java.text.ParseException;
+  public android.net.sip.SipProfile$Builder setAuthUserName(java.lang.String);
+  public android.net.sip.SipProfile$Builder setProfileName(java.lang.String);
+  public android.net.sip.SipProfile$Builder setPassword(java.lang.String);
+  public android.net.sip.SipProfile$Builder setPort(int) throws java.lang.IllegalArgumentException;
+  public android.net.sip.SipProfile$Builder setProtocol(java.lang.String) throws java.lang.IllegalArgumentException;
+  public android.net.sip.SipProfile$Builder setOutboundProxy(java.lang.String);
+  public android.net.sip.SipProfile$Builder setDisplayName(java.lang.String);
+  public android.net.sip.SipProfile$Builder setSendKeepAlive(boolean);
+  public android.net.sip.SipProfile$Builder setAutoRegistration(boolean);
+  public android.net.sip.SipProfile build();
+}

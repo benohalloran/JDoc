@@ -1,0 +1,5 @@
+Compiled from "ComponentCallbacks.java"
+public interface android.content.ComponentCallbacks {
+  public abstract void onConfigurationChanged(android.content.res.Configuration);
+  public abstract void onLowMemory();
+}

@@ -1,0 +1,12 @@
+Compiled from "GLUtils.java"
+public final class android.opengl.GLUtils {
+  android.opengl.GLUtils();
+  public static int getInternalFormat(android.graphics.Bitmap);
+  public static int getType(android.graphics.Bitmap);
+  public static void texImage2D(int, int, int, android.graphics.Bitmap, int);
+  public static void texImage2D(int, int, int, android.graphics.Bitmap, int, int);
+  public static void texImage2D(int, int, android.graphics.Bitmap, int);
+  public static void texSubImage2D(int, int, int, int, android.graphics.Bitmap);
+  public static void texSubImage2D(int, int, int, int, android.graphics.Bitmap, int, int);
+  public static java.lang.String getEGLErrorString(int);
+}

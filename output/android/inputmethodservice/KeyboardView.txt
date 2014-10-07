@@ -1,0 +1,35 @@
+Compiled from "KeyboardView.java"
+public class android.inputmethodservice.KeyboardView extends android.view.View implements android.view.View$OnClickListener {
+  public android.inputmethodservice.KeyboardView(android.content.Context, android.util.AttributeSet);
+  public android.inputmethodservice.KeyboardView(android.content.Context, android.util.AttributeSet, int);
+  public android.inputmethodservice.KeyboardView(android.content.Context, android.util.AttributeSet, int, int);
+  public void setOnKeyboardActionListener(android.inputmethodservice.KeyboardView$OnKeyboardActionListener);
+  protected android.inputmethodservice.KeyboardView$OnKeyboardActionListener getOnKeyboardActionListener();
+  public void setKeyboard(android.inputmethodservice.Keyboard);
+  public android.inputmethodservice.Keyboard getKeyboard();
+  public boolean setShifted(boolean);
+  public boolean isShifted();
+  public void setPreviewEnabled(boolean);
+  public boolean isPreviewEnabled();
+  public void setVerticalCorrection(int);
+  public void setPopupParent(android.view.View);
+  public void setPopupOffset(int, int);
+  public void setProximityCorrectionEnabled(boolean);
+  public boolean isProximityCorrectionEnabled();
+  public void onMeasure(int, int);
+  public void onSizeChanged(int, int, int, int);
+  public void onDraw(android.graphics.Canvas);
+  public void invalidateAllKeys();
+  public void invalidateKey(int);
+  protected boolean onLongPress(android.inputmethodservice.Keyboard$Key);
+  public boolean onHoverEvent(android.view.MotionEvent);
+  public boolean onTouchEvent(android.view.MotionEvent);
+  protected void swipeRight();
+  protected void swipeLeft();
+  protected void swipeUp();
+  protected void swipeDown();
+  public void closing();
+  public void onDetachedFromWindow();
+  public boolean handleBack();
+  public void onClick(android.view.View);
+}

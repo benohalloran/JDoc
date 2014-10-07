@@ -1,0 +1,7 @@
+Compiled from "ScriptGroup.java"
+public final class android.renderscript.ScriptGroup extends android.renderscript.BaseObj {
+  android.renderscript.ScriptGroup();
+  public void setInput(android.renderscript.Script$KernelID, android.renderscript.Allocation);
+  public void setOutput(android.renderscript.Script$KernelID, android.renderscript.Allocation);
+  public void execute();
+}

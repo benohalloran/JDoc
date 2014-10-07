@@ -1,0 +1,10 @@
+Compiled from "FrameLayout.java"
+public class android.widget.FrameLayout$LayoutParams extends android.view.ViewGroup$MarginLayoutParams {
+  public int gravity;
+  public android.widget.FrameLayout$LayoutParams(android.content.Context, android.util.AttributeSet);
+  public android.widget.FrameLayout$LayoutParams(int, int);
+  public android.widget.FrameLayout$LayoutParams(int, int, int);
+  public android.widget.FrameLayout$LayoutParams(android.view.ViewGroup$LayoutParams);
+  public android.widget.FrameLayout$LayoutParams(android.view.ViewGroup$MarginLayoutParams);
+  public android.widget.FrameLayout$LayoutParams(android.widget.FrameLayout$LayoutParams);
+}

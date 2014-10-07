@@ -1,0 +1,5 @@
+Compiled from "PrintWriterPrinter.java"
+public class android.util.PrintWriterPrinter implements android.util.Printer {
+  public android.util.PrintWriterPrinter(java.io.PrintWriter);
+  public void println(java.lang.String);
+}

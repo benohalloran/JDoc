@@ -1,0 +1,4 @@
+Compiled from "Camera.java"
+public interface android.hardware.Camera$AutoFocusMoveCallback {
+  public abstract void onAutoFocusMoving(boolean, android.hardware.Camera);
+}

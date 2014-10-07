@@ -1,0 +1,6 @@
+Compiled from "CookiePathComparator.java"
+public class org.apache.http.cookie.CookiePathComparator implements java.io.Serializable, java.util.Comparator<org.apache.http.cookie.Cookie> {
+  public org.apache.http.cookie.CookiePathComparator();
+  public int compare(org.apache.http.cookie.Cookie, org.apache.http.cookie.Cookie);
+  public int compare(java.lang.Object, java.lang.Object);
+}

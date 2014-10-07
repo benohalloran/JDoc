@@ -1,0 +1,9 @@
+Compiled from "Proxy.java"
+public final class java.net.Proxy$Type extends java.lang.Enum<java.net.Proxy$Type> {
+  public static final java.net.Proxy$Type DIRECT;
+  public static final java.net.Proxy$Type HTTP;
+  public static final java.net.Proxy$Type SOCKS;
+  public static java.net.Proxy$Type[] values();
+  public static java.net.Proxy$Type valueOf(java.lang.String);
+  static {};
+}

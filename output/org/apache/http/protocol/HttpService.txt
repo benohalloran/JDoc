@@ -1,0 +1,14 @@
+Compiled from "HttpService.java"
+public class org.apache.http.protocol.HttpService {
+  public org.apache.http.protocol.HttpService(org.apache.http.protocol.HttpProcessor, org.apache.http.ConnectionReuseStrategy, org.apache.http.HttpResponseFactory);
+  public void setHttpProcessor(org.apache.http.protocol.HttpProcessor);
+  public void setConnReuseStrategy(org.apache.http.ConnectionReuseStrategy);
+  public void setResponseFactory(org.apache.http.HttpResponseFactory);
+  public void setHandlerResolver(org.apache.http.protocol.HttpRequestHandlerResolver);
+  public void setExpectationVerifier(org.apache.http.protocol.HttpExpectationVerifier);
+  public org.apache.http.params.HttpParams getParams();
+  public void setParams(org.apache.http.params.HttpParams);
+  public void handleRequest(org.apache.http.HttpServerConnection, org.apache.http.protocol.HttpContext) throws java.io.IOException, org.apache.http.HttpException;
+  protected void handleException(org.apache.http.HttpException, org.apache.http.HttpResponse);
+  protected void doService(org.apache.http.HttpRequest, org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException, java.io.IOException;
+}

@@ -1,0 +1,8 @@
+Compiled from "BaseKeyListener.java"
+public abstract class android.text.method.BaseKeyListener extends android.text.method.MetaKeyKeyListener implements android.text.method.KeyListener {
+  public android.text.method.BaseKeyListener();
+  public boolean backspace(android.view.View, android.text.Editable, int, android.view.KeyEvent);
+  public boolean forwardDelete(android.view.View, android.text.Editable, int, android.view.KeyEvent);
+  public boolean onKeyDown(android.view.View, android.text.Editable, int, android.view.KeyEvent);
+  public boolean onKeyOther(android.view.View, android.text.Editable, android.view.KeyEvent);
+}

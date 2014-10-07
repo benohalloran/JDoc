@@ -1,0 +1,36 @@
+Compiled from "BatteryManager.java"
+public class android.os.BatteryManager {
+  public static final int BATTERY_HEALTH_COLD;
+  public static final int BATTERY_HEALTH_DEAD;
+  public static final int BATTERY_HEALTH_GOOD;
+  public static final int BATTERY_HEALTH_OVERHEAT;
+  public static final int BATTERY_HEALTH_OVER_VOLTAGE;
+  public static final int BATTERY_HEALTH_UNKNOWN;
+  public static final int BATTERY_HEALTH_UNSPECIFIED_FAILURE;
+  public static final int BATTERY_PLUGGED_AC;
+  public static final int BATTERY_PLUGGED_USB;
+  public static final int BATTERY_PLUGGED_WIRELESS;
+  public static final int BATTERY_PROPERTY_CAPACITY;
+  public static final int BATTERY_PROPERTY_CHARGE_COUNTER;
+  public static final int BATTERY_PROPERTY_CURRENT_AVERAGE;
+  public static final int BATTERY_PROPERTY_CURRENT_NOW;
+  public static final int BATTERY_PROPERTY_ENERGY_COUNTER;
+  public static final int BATTERY_STATUS_CHARGING;
+  public static final int BATTERY_STATUS_DISCHARGING;
+  public static final int BATTERY_STATUS_FULL;
+  public static final int BATTERY_STATUS_NOT_CHARGING;
+  public static final int BATTERY_STATUS_UNKNOWN;
+  public static final java.lang.String EXTRA_HEALTH;
+  public static final java.lang.String EXTRA_ICON_SMALL;
+  public static final java.lang.String EXTRA_LEVEL;
+  public static final java.lang.String EXTRA_PLUGGED;
+  public static final java.lang.String EXTRA_PRESENT;
+  public static final java.lang.String EXTRA_SCALE;
+  public static final java.lang.String EXTRA_STATUS;
+  public static final java.lang.String EXTRA_TECHNOLOGY;
+  public static final java.lang.String EXTRA_TEMPERATURE;
+  public static final java.lang.String EXTRA_VOLTAGE;
+  public android.os.BatteryManager();
+  public int getIntProperty(int);
+  public long getLongProperty(int);
+}

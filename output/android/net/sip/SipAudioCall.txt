@@ -1,0 +1,24 @@
+Compiled from "SipAudioCall.java"
+public class android.net.sip.SipAudioCall {
+  public android.net.sip.SipAudioCall(android.content.Context, android.net.sip.SipProfile);
+  public void setListener(android.net.sip.SipAudioCall$Listener);
+  public void setListener(android.net.sip.SipAudioCall$Listener, boolean);
+  public boolean isInCall();
+  public boolean isOnHold();
+  public void close();
+  public android.net.sip.SipProfile getLocalProfile();
+  public android.net.sip.SipProfile getPeerProfile();
+  public int getState();
+  public void attachCall(android.net.sip.SipSession, java.lang.String) throws android.net.sip.SipException;
+  public void makeCall(android.net.sip.SipProfile, android.net.sip.SipSession, int) throws android.net.sip.SipException;
+  public void endCall() throws android.net.sip.SipException;
+  public void holdCall(int) throws android.net.sip.SipException;
+  public void answerCall(int) throws android.net.sip.SipException;
+  public void continueCall(int) throws android.net.sip.SipException;
+  public void toggleMute();
+  public boolean isMuted();
+  public void setSpeakerMode(boolean);
+  public void sendDtmf(int);
+  public void sendDtmf(int, android.os.Message);
+  public void startAudio();
+}

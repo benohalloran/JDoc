@@ -1,0 +1,10 @@
+Compiled from "WifiConfiguration.java"
+public class android.net.wifi.WifiConfiguration$PairwiseCipher {
+  public static final int CCMP;
+  public static final int NONE;
+  public static final int TKIP;
+  public static final java.lang.String[] strings;
+  public static final java.lang.String varName;
+  android.net.wifi.WifiConfiguration$PairwiseCipher();
+  static {};
+}

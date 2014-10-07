@@ -1,0 +1,15 @@
+Compiled from "RelativeLayout.java"
+public class android.widget.RelativeLayout$LayoutParams extends android.view.ViewGroup$MarginLayoutParams {
+  public boolean alignWithParent;
+  public android.widget.RelativeLayout$LayoutParams(android.content.Context, android.util.AttributeSet);
+  public android.widget.RelativeLayout$LayoutParams(int, int);
+  public android.widget.RelativeLayout$LayoutParams(android.view.ViewGroup$LayoutParams);
+  public android.widget.RelativeLayout$LayoutParams(android.view.ViewGroup$MarginLayoutParams);
+  public android.widget.RelativeLayout$LayoutParams(android.widget.RelativeLayout$LayoutParams);
+  public java.lang.String debug(java.lang.String);
+  public void addRule(int);
+  public void addRule(int, int);
+  public void removeRule(int);
+  public int[] getRules();
+  public void resolveLayoutDirection(int);
+}

@@ -1,0 +1,6 @@
+Compiled from "CircularPropagation.java"
+public class android.transition.CircularPropagation extends android.transition.VisibilityPropagation {
+  public android.transition.CircularPropagation();
+  public void setPropagationSpeed(float);
+  public long getStartDelay(android.view.ViewGroup, android.transition.Transition, android.transition.TransitionValues, android.transition.TransitionValues);
+}

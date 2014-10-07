@@ -1,0 +1,4 @@
+Compiled from "ExpandableListView.java"
+public interface android.widget.ExpandableListView$OnChildClickListener {
+  public abstract boolean onChildClick(android.widget.ExpandableListView, android.view.View, int, int, long);
+}

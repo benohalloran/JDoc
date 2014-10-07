@@ -1,0 +1,11 @@
+Compiled from "ConnPerRouteBean.java"
+public final class org.apache.http.conn.params.ConnPerRouteBean implements org.apache.http.conn.params.ConnPerRoute {
+  public static final int DEFAULT_MAX_CONNECTIONS_PER_ROUTE;
+  public org.apache.http.conn.params.ConnPerRouteBean(int);
+  public org.apache.http.conn.params.ConnPerRouteBean();
+  public int getDefaultMax();
+  public void setDefaultMaxPerRoute(int);
+  public void setMaxForRoute(org.apache.http.conn.routing.HttpRoute, int);
+  public int getMaxForRoute(org.apache.http.conn.routing.HttpRoute);
+  public void setMaxForRoutes(java.util.Map<org.apache.http.conn.routing.HttpRoute, java.lang.Integer>);
+}

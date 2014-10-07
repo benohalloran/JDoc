@@ -1,0 +1,10 @@
+Compiled from "SessionOutputBuffer.java"
+public interface org.apache.http.io.SessionOutputBuffer {
+  public abstract void write(byte[], int, int) throws java.io.IOException;
+  public abstract void write(byte[]) throws java.io.IOException;
+  public abstract void write(int) throws java.io.IOException;
+  public abstract void writeLine(java.lang.String) throws java.io.IOException;
+  public abstract void writeLine(org.apache.http.util.CharArrayBuffer) throws java.io.IOException;
+  public abstract void flush() throws java.io.IOException;
+  public abstract org.apache.http.io.HttpTransportMetrics getMetrics();
+}

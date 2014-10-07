@@ -1,0 +1,6 @@
+Compiled from "CalendarContract.java"
+public final class android.provider.CalendarContract$ExtendedProperties implements android.provider.BaseColumns,android.provider.CalendarContract$ExtendedPropertiesColumns,android.provider.CalendarContract$EventsColumns {
+  public static final android.net.Uri CONTENT_URI;
+  android.provider.CalendarContract$ExtendedProperties();
+  static {};
+}

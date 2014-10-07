@@ -1,0 +1,4 @@
+Compiled from "OnAccountsUpdateListener.java"
+public interface android.accounts.OnAccountsUpdateListener {
+  public abstract void onAccountsUpdated(android.accounts.Account[]);
+}

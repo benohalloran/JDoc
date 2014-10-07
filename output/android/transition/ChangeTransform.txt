@@ -1,0 +1,8 @@
+Compiled from "ChangeTransform.java"
+public class android.transition.ChangeTransform extends android.transition.Transition {
+  public android.transition.ChangeTransform();
+  public java.lang.String[] getTransitionProperties();
+  public void captureStartValues(android.transition.TransitionValues);
+  public void captureEndValues(android.transition.TransitionValues);
+  public android.animation.Animator createAnimator(android.view.ViewGroup, android.transition.TransitionValues, android.transition.TransitionValues);
+}

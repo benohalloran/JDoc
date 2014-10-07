@@ -1,0 +1,17 @@
+Compiled from "Base64.java"
+public class android.util.Base64 {
+  public static final int CRLF;
+  public static final int DEFAULT;
+  public static final int NO_CLOSE;
+  public static final int NO_PADDING;
+  public static final int NO_WRAP;
+  public static final int URL_SAFE;
+  android.util.Base64();
+  public static byte[] decode(java.lang.String, int);
+  public static byte[] decode(byte[], int);
+  public static byte[] decode(byte[], int, int, int);
+  public static java.lang.String encodeToString(byte[], int);
+  public static java.lang.String encodeToString(byte[], int, int, int);
+  public static byte[] encode(byte[], int);
+  public static byte[] encode(byte[], int, int, int);
+}

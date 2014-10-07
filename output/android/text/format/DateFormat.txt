@@ -1,0 +1,27 @@
+Compiled from "DateFormat.java"
+public class android.text.format.DateFormat {
+  public static final char AM_PM;
+  public static final char CAPITAL_AM_PM;
+  public static final char DATE;
+  public static final char DAY;
+  public static final char HOUR;
+  public static final char HOUR_OF_DAY;
+  public static final char MINUTE;
+  public static final char MONTH;
+  public static final char QUOTE;
+  public static final char SECONDS;
+  public static final char STANDALONE_MONTH;
+  public static final char TIME_ZONE;
+  public static final char YEAR;
+  public android.text.format.DateFormat();
+  public static boolean is24HourFormat(android.content.Context);
+  public static java.lang.String getBestDateTimePattern(java.util.Locale, java.lang.String);
+  public static java.text.DateFormat getTimeFormat(android.content.Context);
+  public static java.text.DateFormat getDateFormat(android.content.Context);
+  public static java.text.DateFormat getLongDateFormat(android.content.Context);
+  public static java.text.DateFormat getMediumDateFormat(android.content.Context);
+  public static char[] getDateFormatOrder(android.content.Context);
+  public static java.lang.CharSequence format(java.lang.CharSequence, long);
+  public static java.lang.CharSequence format(java.lang.CharSequence, java.util.Date);
+  public static java.lang.CharSequence format(java.lang.CharSequence, java.util.Calendar);
+}

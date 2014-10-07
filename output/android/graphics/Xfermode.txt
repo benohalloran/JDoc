@@ -1,0 +1,5 @@
+Compiled from "Xfermode.java"
+public class android.graphics.Xfermode {
+  public android.graphics.Xfermode();
+  protected void finalize() throws java.lang.Throwable;
+}

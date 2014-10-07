@@ -1,0 +1,16 @@
+Compiled from "CookieManager.java"
+public class android.webkit.CookieManager {
+  android.webkit.CookieManager();
+  protected java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+  public static synchronized android.webkit.CookieManager getInstance();
+  public synchronized void setAcceptCookie(boolean);
+  public synchronized boolean acceptCookie();
+  public void setCookie(java.lang.String, java.lang.String);
+  public java.lang.String getCookie(java.lang.String);
+  public void removeSessionCookie();
+  public void removeAllCookie();
+  public synchronized boolean hasCookies();
+  public void removeExpiredCookie();
+  public static boolean allowFileSchemeCookies();
+  public static void setAcceptFileSchemeCookies(boolean);
+}

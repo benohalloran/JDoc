@@ -1,0 +1,31 @@
+Compiled from "SlidingDrawer.java"
+public class android.widget.SlidingDrawer extends android.view.ViewGroup {
+  public static final int ORIENTATION_HORIZONTAL;
+  public static final int ORIENTATION_VERTICAL;
+  public android.widget.SlidingDrawer(android.content.Context, android.util.AttributeSet);
+  public android.widget.SlidingDrawer(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.SlidingDrawer(android.content.Context, android.util.AttributeSet, int, int);
+  protected void onFinishInflate();
+  protected void onMeasure(int, int);
+  protected void dispatchDraw(android.graphics.Canvas);
+  protected void onLayout(boolean, int, int, int, int);
+  public boolean onInterceptTouchEvent(android.view.MotionEvent);
+  public boolean onTouchEvent(android.view.MotionEvent);
+  public void toggle();
+  public void animateToggle();
+  public void open();
+  public void close();
+  public void animateClose();
+  public void animateOpen();
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public void setOnDrawerOpenListener(android.widget.SlidingDrawer$OnDrawerOpenListener);
+  public void setOnDrawerCloseListener(android.widget.SlidingDrawer$OnDrawerCloseListener);
+  public void setOnDrawerScrollListener(android.widget.SlidingDrawer$OnDrawerScrollListener);
+  public android.view.View getHandle();
+  public android.view.View getContent();
+  public void unlock();
+  public void lock();
+  public boolean isOpened();
+  public boolean isMoving();
+}

@@ -1,0 +1,41 @@
+Compiled from "SmsMessage.java"
+public class android.telephony.gsm.SmsMessage {
+  public static final int ENCODING_16BIT;
+  public static final int ENCODING_7BIT;
+  public static final int ENCODING_8BIT;
+  public static final int ENCODING_UNKNOWN;
+  public static final int MAX_USER_DATA_BYTES;
+  public static final int MAX_USER_DATA_SEPTETS;
+  public static final int MAX_USER_DATA_SEPTETS_WITH_HEADER;
+  public android.telephony.gsm.SmsMessage();
+  public static android.telephony.gsm.SmsMessage createFromPdu(byte[]);
+  public static int getTPLayerLengthForPDU(java.lang.String);
+  public static int[] calculateLength(java.lang.CharSequence, boolean);
+  public static int[] calculateLength(java.lang.String, boolean);
+  public static android.telephony.gsm.SmsMessage$SubmitPdu getSubmitPdu(java.lang.String, java.lang.String, java.lang.String, boolean);
+  public static android.telephony.gsm.SmsMessage$SubmitPdu getSubmitPdu(java.lang.String, java.lang.String, short, byte[], boolean);
+  public java.lang.String getServiceCenterAddress();
+  public java.lang.String getOriginatingAddress();
+  public java.lang.String getDisplayOriginatingAddress();
+  public java.lang.String getMessageBody();
+  public android.telephony.gsm.SmsMessage$MessageClass getMessageClass();
+  public java.lang.String getDisplayMessageBody();
+  public java.lang.String getPseudoSubject();
+  public long getTimestampMillis();
+  public boolean isEmail();
+  public java.lang.String getEmailBody();
+  public java.lang.String getEmailFrom();
+  public int getProtocolIdentifier();
+  public boolean isReplace();
+  public boolean isCphsMwiMessage();
+  public boolean isMWIClearMessage();
+  public boolean isMWISetMessage();
+  public boolean isMwiDontStore();
+  public byte[] getUserData();
+  public byte[] getPdu();
+  public int getStatusOnSim();
+  public int getIndexOnSim();
+  public int getStatus();
+  public boolean isStatusReportMessage();
+  public boolean isReplyPathPresent();
+}

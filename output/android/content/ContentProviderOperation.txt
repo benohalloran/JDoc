@@ -1,0 +1,20 @@
+Compiled from "ContentProviderOperation.java"
+public class android.content.ContentProviderOperation implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.ContentProviderOperation> CREATOR;
+  android.content.ContentProviderOperation();
+  public void writeToParcel(android.os.Parcel, int);
+  public static android.content.ContentProviderOperation$Builder newInsert(android.net.Uri);
+  public static android.content.ContentProviderOperation$Builder newUpdate(android.net.Uri);
+  public static android.content.ContentProviderOperation$Builder newDelete(android.net.Uri);
+  public static android.content.ContentProviderOperation$Builder newAssertQuery(android.net.Uri);
+  public android.net.Uri getUri();
+  public boolean isYieldAllowed();
+  public boolean isWriteOperation();
+  public boolean isReadOperation();
+  public android.content.ContentProviderResult apply(android.content.ContentProvider, android.content.ContentProviderResult[], int) throws android.content.OperationApplicationException;
+  public android.content.ContentValues resolveValueBackReferences(android.content.ContentProviderResult[], int);
+  public java.lang.String[] resolveSelectionArgsBackReferences(android.content.ContentProviderResult[], int);
+  public java.lang.String toString();
+  public int describeContents();
+  static {};
+}

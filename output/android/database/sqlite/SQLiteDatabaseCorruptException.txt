@@ -1,0 +1,5 @@
+Compiled from "SQLiteDatabaseCorruptException.java"
+public class android.database.sqlite.SQLiteDatabaseCorruptException extends android.database.sqlite.SQLiteException {
+  public android.database.sqlite.SQLiteDatabaseCorruptException();
+  public android.database.sqlite.SQLiteDatabaseCorruptException(java.lang.String);
+}

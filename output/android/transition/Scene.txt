@@ -1,0 +1,12 @@
+Compiled from "Scene.java"
+public final class android.transition.Scene {
+  public android.transition.Scene(android.view.ViewGroup);
+  public android.transition.Scene(android.view.ViewGroup, android.view.View);
+  public android.transition.Scene(android.view.ViewGroup, android.view.ViewGroup);
+  public static android.transition.Scene getSceneForLayout(android.view.ViewGroup, int, android.content.Context);
+  public android.view.ViewGroup getSceneRoot();
+  public void exit();
+  public void enter();
+  public void setEnterAction(java.lang.Runnable);
+  public void setExitAction(java.lang.Runnable);
+}

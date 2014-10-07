@@ -1,0 +1,4 @@
+Compiled from "PreferenceFragment.java"
+public interface android.preference.PreferenceFragment$OnPreferenceStartFragmentCallback {
+  public abstract boolean onPreferenceStartFragment(android.preference.PreferenceFragment, android.preference.Preference);
+}

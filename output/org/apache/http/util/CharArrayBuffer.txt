@@ -1,0 +1,27 @@
+Compiled from "CharArrayBuffer.java"
+public final class org.apache.http.util.CharArrayBuffer {
+  public org.apache.http.util.CharArrayBuffer(int);
+  public void append(char[], int, int);
+  public void append(java.lang.String);
+  public void append(org.apache.http.util.CharArrayBuffer, int, int);
+  public void append(org.apache.http.util.CharArrayBuffer);
+  public void append(char);
+  public void append(byte[], int, int);
+  public void append(org.apache.http.util.ByteArrayBuffer, int, int);
+  public void append(java.lang.Object);
+  public void clear();
+  public char[] toCharArray();
+  public char charAt(int);
+  public char[] buffer();
+  public int capacity();
+  public int length();
+  public void ensureCapacity(int);
+  public void setLength(int);
+  public boolean isEmpty();
+  public boolean isFull();
+  public int indexOf(int, int, int);
+  public int indexOf(int);
+  public java.lang.String substring(int, int);
+  public java.lang.String substringTrimmed(int, int);
+  public java.lang.String toString();
+}

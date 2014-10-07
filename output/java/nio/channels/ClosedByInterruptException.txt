@@ -1,0 +1,4 @@
+Compiled from "ClosedByInterruptException.java"
+public class java.nio.channels.ClosedByInterruptException extends java.nio.channels.AsynchronousCloseException {
+  public java.nio.channels.ClosedByInterruptException();
+}

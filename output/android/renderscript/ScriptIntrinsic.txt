@@ -1,0 +1,4 @@
+Compiled from "ScriptIntrinsic.java"
+public abstract class android.renderscript.ScriptIntrinsic extends android.renderscript.Script {
+  android.renderscript.ScriptIntrinsic();
+}

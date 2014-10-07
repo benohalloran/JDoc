@@ -1,0 +1,12 @@
+Compiled from "Contacts.java"
+public class android.provider.Contacts {
+  public static final java.lang.String AUTHORITY;
+  public static final android.net.Uri CONTENT_URI;
+  public static final int KIND_EMAIL;
+  public static final int KIND_IM;
+  public static final int KIND_ORGANIZATION;
+  public static final int KIND_PHONE;
+  public static final int KIND_POSTAL;
+  android.provider.Contacts();
+  static {};
+}

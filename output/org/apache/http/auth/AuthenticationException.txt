@@ -1,0 +1,6 @@
+Compiled from "AuthenticationException.java"
+public class org.apache.http.auth.AuthenticationException extends org.apache.http.ProtocolException {
+  public org.apache.http.auth.AuthenticationException();
+  public org.apache.http.auth.AuthenticationException(java.lang.String);
+  public org.apache.http.auth.AuthenticationException(java.lang.String, java.lang.Throwable);
+}

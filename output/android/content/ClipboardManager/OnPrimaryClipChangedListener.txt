@@ -1,0 +1,4 @@
+Compiled from "ClipboardManager.java"
+public interface android.content.ClipboardManager$OnPrimaryClipChangedListener {
+  public abstract void onPrimaryClipChanged();
+}

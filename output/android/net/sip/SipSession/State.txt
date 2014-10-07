@@ -1,0 +1,16 @@
+Compiled from "SipSession.java"
+public class android.net.sip.SipSession$State {
+  public static final int DEREGISTERING;
+  public static final int INCOMING_CALL;
+  public static final int INCOMING_CALL_ANSWERING;
+  public static final int IN_CALL;
+  public static final int NOT_DEFINED;
+  public static final int OUTGOING_CALL;
+  public static final int OUTGOING_CALL_CANCELING;
+  public static final int OUTGOING_CALL_RING_BACK;
+  public static final int PINGING;
+  public static final int READY_TO_CALL;
+  public static final int REGISTERING;
+  android.net.sip.SipSession$State();
+  public static java.lang.String toString(int);
+}

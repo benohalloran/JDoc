@@ -1,0 +1,18 @@
+Compiled from "SimpleExpandableListAdapter.java"
+public class android.widget.SimpleExpandableListAdapter extends android.widget.BaseExpandableListAdapter {
+  public android.widget.SimpleExpandableListAdapter(android.content.Context, java.util.List<? extends java.util.Map<java.lang.String, ?>>, int, java.lang.String[], int[], java.util.List<? extends java.util.List<? extends java.util.Map<java.lang.String, ?>>>, int, java.lang.String[], int[]);
+  public android.widget.SimpleExpandableListAdapter(android.content.Context, java.util.List<? extends java.util.Map<java.lang.String, ?>>, int, int, java.lang.String[], int[], java.util.List<? extends java.util.List<? extends java.util.Map<java.lang.String, ?>>>, int, java.lang.String[], int[]);
+  public android.widget.SimpleExpandableListAdapter(android.content.Context, java.util.List<? extends java.util.Map<java.lang.String, ?>>, int, int, java.lang.String[], int[], java.util.List<? extends java.util.List<? extends java.util.Map<java.lang.String, ?>>>, int, int, java.lang.String[], int[]);
+  public java.lang.Object getChild(int, int);
+  public long getChildId(int, int);
+  public android.view.View getChildView(int, int, boolean, android.view.View, android.view.ViewGroup);
+  public android.view.View newChildView(boolean, android.view.ViewGroup);
+  public int getChildrenCount(int);
+  public java.lang.Object getGroup(int);
+  public int getGroupCount();
+  public long getGroupId(int);
+  public android.view.View getGroupView(int, boolean, android.view.View, android.view.ViewGroup);
+  public android.view.View newGroupView(boolean, android.view.ViewGroup);
+  public boolean isChildSelectable(int, int);
+  public boolean hasStableIds();
+}

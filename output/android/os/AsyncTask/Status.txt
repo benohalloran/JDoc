@@ -1,0 +1,9 @@
+Compiled from "AsyncTask.java"
+public final class android.os.AsyncTask$Status extends java.lang.Enum<android.os.AsyncTask$Status> {
+  public static final android.os.AsyncTask$Status FINISHED;
+  public static final android.os.AsyncTask$Status PENDING;
+  public static final android.os.AsyncTask$Status RUNNING;
+  public static android.os.AsyncTask$Status[] values();
+  public static android.os.AsyncTask$Status valueOf(java.lang.String);
+  static {};
+}

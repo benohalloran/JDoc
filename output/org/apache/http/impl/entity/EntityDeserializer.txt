@@ -1,0 +1,6 @@
+Compiled from "EntityDeserializer.java"
+public class org.apache.http.impl.entity.EntityDeserializer {
+  public org.apache.http.impl.entity.EntityDeserializer(org.apache.http.entity.ContentLengthStrategy);
+  protected org.apache.http.entity.BasicHttpEntity doDeserialize(org.apache.http.io.SessionInputBuffer, org.apache.http.HttpMessage) throws org.apache.http.HttpException, java.io.IOException;
+  public org.apache.http.HttpEntity deserialize(org.apache.http.io.SessionInputBuffer, org.apache.http.HttpMessage) throws org.apache.http.HttpException, java.io.IOException;
+}

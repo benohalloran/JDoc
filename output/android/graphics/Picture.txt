@@ -1,0 +1,13 @@
+Compiled from "Picture.java"
+public class android.graphics.Picture {
+  public android.graphics.Picture();
+  public android.graphics.Picture(android.graphics.Picture);
+  public android.graphics.Canvas beginRecording(int, int);
+  public void endRecording();
+  public native int getWidth();
+  public native int getHeight();
+  public void draw(android.graphics.Canvas);
+  public static android.graphics.Picture createFromStream(java.io.InputStream);
+  public void writeToStream(java.io.OutputStream);
+  protected void finalize() throws java.lang.Throwable;
+}

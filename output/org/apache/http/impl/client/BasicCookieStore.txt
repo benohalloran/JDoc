@@ -1,0 +1,10 @@
+Compiled from "BasicCookieStore.java"
+public class org.apache.http.impl.client.BasicCookieStore implements org.apache.http.client.CookieStore {
+  public org.apache.http.impl.client.BasicCookieStore();
+  public synchronized void addCookie(org.apache.http.cookie.Cookie);
+  public synchronized void addCookies(org.apache.http.cookie.Cookie[]);
+  public synchronized java.util.List<org.apache.http.cookie.Cookie> getCookies();
+  public synchronized boolean clearExpired(java.util.Date);
+  public java.lang.String toString();
+  public synchronized void clear();
+}

@@ -1,0 +1,9 @@
+Compiled from "Config.java"
+public final class android.util.Config {
+  public static final boolean DEBUG;
+  public static final boolean LOGD;
+  public static final boolean LOGV;
+  public static final boolean PROFILE;
+  public static final boolean RELEASE;
+  android.util.Config();
+}

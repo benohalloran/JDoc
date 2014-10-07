@@ -1,0 +1,4 @@
+Compiled from "PorterDuff.java"
+public class android.graphics.PorterDuff {
+  public android.graphics.PorterDuff();
+}

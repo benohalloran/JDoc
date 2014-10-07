@@ -1,0 +1,4 @@
+Compiled from "CompoundButton.java"
+public interface android.widget.CompoundButton$OnCheckedChangeListener {
+  public abstract void onCheckedChanged(android.widget.CompoundButton, boolean);
+}

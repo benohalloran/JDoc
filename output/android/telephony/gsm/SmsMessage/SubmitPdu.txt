@@ -1,0 +1,7 @@
+Compiled from "SmsMessage.java"
+public class android.telephony.gsm.SmsMessage$SubmitPdu {
+  public byte[] encodedMessage;
+  public byte[] encodedScAddress;
+  public android.telephony.gsm.SmsMessage$SubmitPdu();
+  public java.lang.String toString();
+}

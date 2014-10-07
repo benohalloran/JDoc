@@ -1,0 +1,16 @@
+Compiled from "SQLiteCursor.java"
+public class android.database.sqlite.SQLiteCursor extends android.database.AbstractWindowedCursor {
+  public android.database.sqlite.SQLiteCursor(android.database.sqlite.SQLiteDatabase, android.database.sqlite.SQLiteCursorDriver, java.lang.String, android.database.sqlite.SQLiteQuery);
+  public android.database.sqlite.SQLiteCursor(android.database.sqlite.SQLiteCursorDriver, java.lang.String, android.database.sqlite.SQLiteQuery);
+  public android.database.sqlite.SQLiteDatabase getDatabase();
+  public boolean onMove(int, int);
+  public int getCount();
+  public int getColumnIndex(java.lang.String);
+  public java.lang.String[] getColumnNames();
+  public void deactivate();
+  public void close();
+  public boolean requery();
+  public void setWindow(android.database.CursorWindow);
+  public void setSelectionArguments(java.lang.String[]);
+  protected void finalize();
+}

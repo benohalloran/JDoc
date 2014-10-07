@@ -1,0 +1,10 @@
+Compiled from "NotificationListenerService.java"
+public class android.service.notification.NotificationListenerService$RankingMap implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.service.notification.NotificationListenerService$RankingMap> CREATOR;
+  android.service.notification.NotificationListenerService$RankingMap();
+  public java.lang.String[] getOrderedKeys();
+  public android.service.notification.NotificationListenerService$Ranking getRanking(java.lang.String);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

@@ -1,0 +1,4 @@
+Compiled from "EmbossMaskFilter.java"
+public class android.graphics.EmbossMaskFilter extends android.graphics.MaskFilter {
+  public android.graphics.EmbossMaskFilter(float[], float, float, float);
+}

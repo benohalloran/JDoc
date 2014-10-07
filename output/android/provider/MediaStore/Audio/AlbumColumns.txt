@@ -1,0 +1,12 @@
+Compiled from "MediaStore.java"
+public interface android.provider.MediaStore$Audio$AlbumColumns {
+  public static final java.lang.String ALBUM;
+  public static final java.lang.String ALBUM_ART;
+  public static final java.lang.String ALBUM_ID;
+  public static final java.lang.String ALBUM_KEY;
+  public static final java.lang.String ARTIST;
+  public static final java.lang.String FIRST_YEAR;
+  public static final java.lang.String LAST_YEAR;
+  public static final java.lang.String NUMBER_OF_SONGS;
+  public static final java.lang.String NUMBER_OF_SONGS_FOR_ARTIST;
+}

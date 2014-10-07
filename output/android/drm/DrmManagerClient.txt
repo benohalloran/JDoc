@@ -1,0 +1,36 @@
+Compiled from "DrmManagerClient.java"
+public class android.drm.DrmManagerClient {
+  public static final int ERROR_NONE;
+  public static final int ERROR_UNKNOWN;
+  public android.drm.DrmManagerClient(android.content.Context);
+  protected void finalize() throws java.lang.Throwable;
+  public void release();
+  public synchronized void setOnInfoListener(android.drm.DrmManagerClient$OnInfoListener);
+  public synchronized void setOnEventListener(android.drm.DrmManagerClient$OnEventListener);
+  public synchronized void setOnErrorListener(android.drm.DrmManagerClient$OnErrorListener);
+  public java.lang.String[] getAvailableDrmEngines();
+  public android.content.ContentValues getConstraints(java.lang.String, int);
+  public android.content.ContentValues getMetadata(java.lang.String);
+  public android.content.ContentValues getConstraints(android.net.Uri, int);
+  public android.content.ContentValues getMetadata(android.net.Uri);
+  public int saveRights(android.drm.DrmRights, java.lang.String, java.lang.String) throws java.io.IOException;
+  public boolean canHandle(java.lang.String, java.lang.String);
+  public boolean canHandle(android.net.Uri, java.lang.String);
+  public int processDrmInfo(android.drm.DrmInfo);
+  public android.drm.DrmInfo acquireDrmInfo(android.drm.DrmInfoRequest);
+  public int acquireRights(android.drm.DrmInfoRequest);
+  public int getDrmObjectType(java.lang.String, java.lang.String);
+  public int getDrmObjectType(android.net.Uri, java.lang.String);
+  public java.lang.String getOriginalMimeType(java.lang.String);
+  public java.lang.String getOriginalMimeType(android.net.Uri);
+  public int checkRightsStatus(java.lang.String);
+  public int checkRightsStatus(android.net.Uri);
+  public int checkRightsStatus(java.lang.String, int);
+  public int checkRightsStatus(android.net.Uri, int);
+  public int removeRights(java.lang.String);
+  public int removeRights(android.net.Uri);
+  public int removeAllRights();
+  public int openConvertSession(java.lang.String);
+  public android.drm.DrmConvertedStatus convertData(int, byte[]);
+  public android.drm.DrmConvertedStatus closeConvertSession(int);
+}

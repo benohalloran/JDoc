@@ -1,0 +1,4 @@
+Compiled from "Linkify.java"
+public interface android.text.util.Linkify$MatchFilter {
+  public abstract boolean acceptMatch(java.lang.CharSequence, int, int);
+}

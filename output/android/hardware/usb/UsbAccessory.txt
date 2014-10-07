@@ -1,0 +1,17 @@
+Compiled from "UsbAccessory.java"
+public class android.hardware.usb.UsbAccessory implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.hardware.usb.UsbAccessory> CREATOR;
+  android.hardware.usb.UsbAccessory();
+  public java.lang.String getManufacturer();
+  public java.lang.String getModel();
+  public java.lang.String getDescription();
+  public java.lang.String getVersion();
+  public java.lang.String getUri();
+  public java.lang.String getSerial();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

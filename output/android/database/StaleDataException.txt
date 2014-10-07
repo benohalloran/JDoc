@@ -1,0 +1,5 @@
+Compiled from "StaleDataException.java"
+public class android.database.StaleDataException extends java.lang.RuntimeException {
+  public android.database.StaleDataException();
+  public android.database.StaleDataException(java.lang.String);
+}

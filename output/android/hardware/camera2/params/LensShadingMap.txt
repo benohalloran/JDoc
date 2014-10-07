@@ -1,0 +1,13 @@
+Compiled from "LensShadingMap.java"
+public final class android.hardware.camera2.params.LensShadingMap {
+  public static final float MINIMUM_GAIN_FACTOR;
+  android.hardware.camera2.params.LensShadingMap();
+  public int getRowCount();
+  public int getColumnCount();
+  public int getGainFactorCount();
+  public float getGainFactor(int, int, int);
+  public android.hardware.camera2.params.RggbChannelVector getGainFactorVector(int, int);
+  public void copyGainFactors(float[], int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

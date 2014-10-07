@@ -1,0 +1,4 @@
+Compiled from "AutoTransition.java"
+public class android.transition.AutoTransition extends android.transition.TransitionSet {
+  public android.transition.AutoTransition();
+}

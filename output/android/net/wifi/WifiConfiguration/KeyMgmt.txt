@@ -1,0 +1,11 @@
+Compiled from "WifiConfiguration.java"
+public class android.net.wifi.WifiConfiguration$KeyMgmt {
+  public static final int IEEE8021X;
+  public static final int NONE;
+  public static final int WPA_EAP;
+  public static final int WPA_PSK;
+  public static final java.lang.String[] strings;
+  public static final java.lang.String varName;
+  android.net.wifi.WifiConfiguration$KeyMgmt();
+  static {};
+}

@@ -1,0 +1,8 @@
+Compiled from "PorterDuffColorFilter.java"
+public class android.graphics.PorterDuffColorFilter extends android.graphics.ColorFilter {
+  public android.graphics.PorterDuffColorFilter(int, android.graphics.PorterDuff$Mode);
+  public int getColor();
+  public void setColor(int);
+  public android.graphics.PorterDuff$Mode getMode();
+  public void setMode(android.graphics.PorterDuff$Mode);
+}

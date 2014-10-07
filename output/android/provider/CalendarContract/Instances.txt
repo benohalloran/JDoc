@@ -1,0 +1,18 @@
+Compiled from "CalendarContract.java"
+public final class android.provider.CalendarContract$Instances implements android.provider.BaseColumns,android.provider.CalendarContract$EventsColumns,android.provider.CalendarContract$CalendarColumns {
+  public static final java.lang.String BEGIN;
+  public static final android.net.Uri CONTENT_BY_DAY_URI;
+  public static final android.net.Uri CONTENT_SEARCH_BY_DAY_URI;
+  public static final android.net.Uri CONTENT_SEARCH_URI;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String END;
+  public static final java.lang.String END_DAY;
+  public static final java.lang.String END_MINUTE;
+  public static final java.lang.String EVENT_ID;
+  public static final java.lang.String START_DAY;
+  public static final java.lang.String START_MINUTE;
+  android.provider.CalendarContract$Instances();
+  public static final android.database.Cursor query(android.content.ContentResolver, java.lang.String[], long, long);
+  public static final android.database.Cursor query(android.content.ContentResolver, java.lang.String[], long, long, java.lang.String);
+  static {};
+}

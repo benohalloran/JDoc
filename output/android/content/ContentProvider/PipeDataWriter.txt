@@ -1,0 +1,4 @@
+Compiled from "ContentProvider.java"
+public interface android.content.ContentProvider$PipeDataWriter<T> {
+  public abstract void writeDataToPipe(android.os.ParcelFileDescriptor, android.net.Uri, java.lang.String, android.os.Bundle, T);
+}

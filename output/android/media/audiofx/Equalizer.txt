@@ -1,0 +1,28 @@
+Compiled from "Equalizer.java"
+public class android.media.audiofx.Equalizer extends android.media.audiofx.AudioEffect {
+  public static final int PARAM_BAND_FREQ_RANGE;
+  public static final int PARAM_BAND_LEVEL;
+  public static final int PARAM_CENTER_FREQ;
+  public static final int PARAM_CURRENT_PRESET;
+  public static final int PARAM_GET_BAND;
+  public static final int PARAM_GET_NUM_OF_PRESETS;
+  public static final int PARAM_GET_PRESET_NAME;
+  public static final int PARAM_LEVEL_RANGE;
+  public static final int PARAM_NUM_BANDS;
+  public static final int PARAM_STRING_SIZE_MAX;
+  public android.media.audiofx.Equalizer(int, int) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException, java.lang.RuntimeException;
+  public short getNumberOfBands() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public short[] getBandLevelRange() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setBandLevel(short, short) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public short getBandLevel(short) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public int getCenterFreq(short) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public int[] getBandFreqRange(short) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public short getBand(int) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public short getCurrentPreset() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void usePreset(short) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public short getNumberOfPresets() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public java.lang.String getPresetName(short);
+  public void setParameterListener(android.media.audiofx.Equalizer$OnParameterChangeListener);
+  public android.media.audiofx.Equalizer$Settings getProperties() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setProperties(android.media.audiofx.Equalizer$Settings) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+}

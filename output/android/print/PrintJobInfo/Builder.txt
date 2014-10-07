@@ -1,0 +1,10 @@
+Compiled from "PrintJobInfo.java"
+public final class android.print.PrintJobInfo$Builder {
+  public android.print.PrintJobInfo$Builder(android.print.PrintJobInfo);
+  public void setCopies(int);
+  public void setAttributes(android.print.PrintAttributes);
+  public void setPages(android.print.PageRange[]);
+  public void putAdvancedOption(java.lang.String, java.lang.String);
+  public void putAdvancedOption(java.lang.String, int);
+  public android.print.PrintJobInfo build();
+}

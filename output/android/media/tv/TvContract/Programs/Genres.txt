@@ -1,0 +1,17 @@
+Compiled from "TvContract.java"
+public final class android.media.tv.TvContract$Programs$Genres {
+  public static final java.lang.String ANIMAL_WILDLIFE;
+  public static final java.lang.String COMEDY;
+  public static final java.lang.String DRAMA;
+  public static final java.lang.String EDUCATION;
+  public static final java.lang.String FAMILY_KIDS;
+  public static final java.lang.String GAMING;
+  public static final java.lang.String MOVIES;
+  public static final java.lang.String NEWS;
+  public static final java.lang.String SHOPPING;
+  public static final java.lang.String SPORTS;
+  public static final java.lang.String TRAVEL;
+  android.media.tv.TvContract$Programs$Genres();
+  public static java.lang.String encode(java.lang.String...);
+  public static java.lang.String[] decode(java.lang.String);
+}

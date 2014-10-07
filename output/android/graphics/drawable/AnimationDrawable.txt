@@ -1,0 +1,18 @@
+Compiled from "AnimationDrawable.java"
+public class android.graphics.drawable.AnimationDrawable extends android.graphics.drawable.DrawableContainer implements java.lang.Runnable,android.graphics.drawable.Animatable {
+  public android.graphics.drawable.AnimationDrawable();
+  public boolean setVisible(boolean, boolean);
+  public void start();
+  public void stop();
+  public boolean isRunning();
+  public void run();
+  public void unscheduleSelf(java.lang.Runnable);
+  public int getNumberOfFrames();
+  public android.graphics.drawable.Drawable getFrame(int);
+  public int getDuration(int);
+  public boolean isOneShot();
+  public void setOneShot(boolean);
+  public void addFrame(android.graphics.drawable.Drawable, int);
+  public void inflate(android.content.res.Resources, org.xmlpull.v1.XmlPullParser, android.util.AttributeSet, android.content.res.Resources$Theme) throws org.xmlpull.v1.XmlPullParserException, java.io.IOException;
+  public android.graphics.drawable.Drawable mutate();
+}

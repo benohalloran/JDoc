@@ -1,0 +1,20 @@
+Compiled from "PreferenceFragment.java"
+public abstract class android.preference.PreferenceFragment extends android.app.Fragment {
+  public android.preference.PreferenceFragment();
+  public void onCreate(android.os.Bundle);
+  public android.view.View onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle);
+  public void onActivityCreated(android.os.Bundle);
+  public void onStart();
+  public void onStop();
+  public void onDestroyView();
+  public void onDestroy();
+  public void onSaveInstanceState(android.os.Bundle);
+  public void onActivityResult(int, int, android.content.Intent);
+  public android.preference.PreferenceManager getPreferenceManager();
+  public void setPreferenceScreen(android.preference.PreferenceScreen);
+  public android.preference.PreferenceScreen getPreferenceScreen();
+  public void addPreferencesFromIntent(android.content.Intent);
+  public void addPreferencesFromResource(int);
+  public boolean onPreferenceTreeClick(android.preference.PreferenceScreen, android.preference.Preference);
+  public android.preference.Preference findPreference(java.lang.CharSequence);
+}

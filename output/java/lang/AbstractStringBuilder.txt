@@ -1,0 +1,24 @@
+Compiled from "AbstractStringBuilder.java"
+abstract class java.lang.AbstractStringBuilder {
+  java.lang.AbstractStringBuilder();
+  public int capacity();
+  public char charAt(int);
+  public void ensureCapacity(int);
+  public void getChars(int, int, char[], int);
+  public int length();
+  public void setCharAt(int, char);
+  public void setLength(int);
+  public java.lang.String substring(int);
+  public java.lang.String substring(int, int);
+  public java.lang.String toString();
+  public java.lang.CharSequence subSequence(int, int);
+  public int indexOf(java.lang.String);
+  public int indexOf(java.lang.String, int);
+  public int lastIndexOf(java.lang.String);
+  public int lastIndexOf(java.lang.String, int);
+  public void trimToSize();
+  public int codePointAt(int);
+  public int codePointBefore(int);
+  public int codePointCount(int, int);
+  public int offsetByCodePoints(int, int);
+}

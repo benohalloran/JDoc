@@ -1,0 +1,4 @@
+Compiled from "EGLSurface.java"
+public abstract class javax.microedition.khronos.egl.EGLSurface {
+  public javax.microedition.khronos.egl.EGLSurface();
+}

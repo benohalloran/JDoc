@@ -1,0 +1,7 @@
+Compiled from "CallLog.java"
+public class android.provider.CallLog {
+  public static final java.lang.String AUTHORITY;
+  public static final android.net.Uri CONTENT_URI;
+  public android.provider.CallLog();
+  static {};
+}

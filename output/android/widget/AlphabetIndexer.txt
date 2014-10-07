@@ -1,0 +1,14 @@
+Compiled from "AlphabetIndexer.java"
+public class android.widget.AlphabetIndexer extends android.database.DataSetObserver implements android.widget.SectionIndexer {
+  protected java.lang.CharSequence mAlphabet;
+  protected int mColumnIndex;
+  protected android.database.Cursor mDataCursor;
+  public android.widget.AlphabetIndexer(android.database.Cursor, int, java.lang.CharSequence);
+  public java.lang.Object[] getSections();
+  public void setCursor(android.database.Cursor);
+  protected int compare(java.lang.String, java.lang.String);
+  public int getPositionForSection(int);
+  public int getSectionForPosition(int);
+  public void onChanged();
+  public void onInvalidated();
+}

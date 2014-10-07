@@ -1,0 +1,6 @@
+Compiled from "ViewGroupOverlay.java"
+public class android.view.ViewGroupOverlay extends android.view.ViewOverlay {
+  android.view.ViewGroupOverlay();
+  public void add(android.view.View);
+  public void remove(android.view.View);
+}

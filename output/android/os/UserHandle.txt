@@ -1,0 +1,13 @@
+Compiled from "UserHandle.java"
+public final class android.os.UserHandle implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.os.UserHandle> CREATOR;
+  public android.os.UserHandle(android.os.Parcel);
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public static void writeToParcel(android.os.UserHandle, android.os.Parcel);
+  public static android.os.UserHandle readFromParcel(android.os.Parcel);
+  static {};
+}

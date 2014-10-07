@@ -1,0 +1,24 @@
+Compiled from "InputMethodInfo.java"
+public final class android.view.inputmethod.InputMethodInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.inputmethod.InputMethodInfo> CREATOR;
+  public android.view.inputmethod.InputMethodInfo(android.content.Context, android.content.pm.ResolveInfo) throws org.xmlpull.v1.XmlPullParserException, java.io.IOException;
+  public android.view.inputmethod.InputMethodInfo(java.lang.String, java.lang.String, java.lang.CharSequence, java.lang.String);
+  public java.lang.String getId();
+  public java.lang.String getPackageName();
+  public java.lang.String getServiceName();
+  public android.content.pm.ServiceInfo getServiceInfo();
+  public android.content.ComponentName getComponent();
+  public java.lang.CharSequence loadLabel(android.content.pm.PackageManager);
+  public android.graphics.drawable.Drawable loadIcon(android.content.pm.PackageManager);
+  public java.lang.String getSettingsActivity();
+  public int getSubtypeCount();
+  public android.view.inputmethod.InputMethodSubtype getSubtypeAt(int);
+  public int getIsDefaultResourceId();
+  public void dump(android.util.Printer, java.lang.String);
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  static {};
+}

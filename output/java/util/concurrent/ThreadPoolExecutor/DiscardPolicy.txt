@@ -1,0 +1,5 @@
+Compiled from "ThreadPoolExecutor.java"
+public class java.util.concurrent.ThreadPoolExecutor$DiscardPolicy implements java.util.concurrent.RejectedExecutionHandler {
+  public java.util.concurrent.ThreadPoolExecutor$DiscardPolicy();
+  public void rejectedExecution(java.lang.Runnable, java.util.concurrent.ThreadPoolExecutor);
+}

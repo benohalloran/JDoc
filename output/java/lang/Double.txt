@@ -1,0 +1,40 @@
+Compiled from "Double.java"
+public final class java.lang.Double extends java.lang.Number implements java.lang.Comparable<java.lang.Double> {
+  public static final int MAX_EXPONENT;
+  public static final double MAX_VALUE;
+  public static final int MIN_EXPONENT;
+  public static final double MIN_NORMAL;
+  public static final double MIN_VALUE;
+  public static final double NEGATIVE_INFINITY;
+  public static final double NaN;
+  public static final double POSITIVE_INFINITY;
+  public static final int SIZE;
+  public static final java.lang.Class<java.lang.Double> TYPE;
+  public java.lang.Double(double);
+  public java.lang.Double(java.lang.String) throws java.lang.NumberFormatException;
+  public int compareTo(java.lang.Double);
+  public byte byteValue();
+  public static long doubleToLongBits(double);
+  public static native long doubleToRawLongBits(double);
+  public double doubleValue();
+  public boolean equals(java.lang.Object);
+  public float floatValue();
+  public int hashCode();
+  public int intValue();
+  public boolean isInfinite();
+  public static boolean isInfinite(double);
+  public boolean isNaN();
+  public static boolean isNaN(double);
+  public static native double longBitsToDouble(long);
+  public long longValue();
+  public static double parseDouble(java.lang.String) throws java.lang.NumberFormatException;
+  public short shortValue();
+  public java.lang.String toString();
+  public static java.lang.String toString(double);
+  public static java.lang.Double valueOf(java.lang.String) throws java.lang.NumberFormatException;
+  public static int compare(double, double);
+  public static java.lang.Double valueOf(double);
+  public static java.lang.String toHexString(double);
+  public int compareTo(java.lang.Object);
+  static {};
+}

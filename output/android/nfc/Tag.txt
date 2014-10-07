@@ -1,0 +1,11 @@
+Compiled from "Tag.java"
+public final class android.nfc.Tag implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.nfc.Tag> CREATOR;
+  android.nfc.Tag();
+  public byte[] getId();
+  public java.lang.String[] getTechList();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

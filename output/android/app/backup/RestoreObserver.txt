@@ -1,0 +1,7 @@
+Compiled from "RestoreObserver.java"
+public abstract class android.app.backup.RestoreObserver {
+  public android.app.backup.RestoreObserver();
+  public void restoreStarting(int);
+  public void onUpdate(int, java.lang.String);
+  public void restoreFinished(int);
+}

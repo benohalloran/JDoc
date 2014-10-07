@@ -1,0 +1,31 @@
+Compiled from "DialogFragment.java"
+public class android.app.DialogFragment extends android.app.Fragment implements android.content.DialogInterface$OnCancelListener,android.content.DialogInterface$OnDismissListener {
+  public static final int STYLE_NORMAL;
+  public static final int STYLE_NO_FRAME;
+  public static final int STYLE_NO_INPUT;
+  public static final int STYLE_NO_TITLE;
+  public android.app.DialogFragment();
+  public void setStyle(int, int);
+  public void show(android.app.FragmentManager, java.lang.String);
+  public int show(android.app.FragmentTransaction, java.lang.String);
+  public void dismiss();
+  public void dismissAllowingStateLoss();
+  public android.app.Dialog getDialog();
+  public int getTheme();
+  public void setCancelable(boolean);
+  public boolean isCancelable();
+  public void setShowsDialog(boolean);
+  public boolean getShowsDialog();
+  public void onAttach(android.app.Activity);
+  public void onDetach();
+  public void onCreate(android.os.Bundle);
+  public android.app.Dialog onCreateDialog(android.os.Bundle);
+  public void onCancel(android.content.DialogInterface);
+  public void onDismiss(android.content.DialogInterface);
+  public void onActivityCreated(android.os.Bundle);
+  public void onStart();
+  public void onSaveInstanceState(android.os.Bundle);
+  public void onStop();
+  public void onDestroyView();
+  public void dump(java.lang.String, java.io.FileDescriptor, java.io.PrintWriter, java.lang.String[]);
+}

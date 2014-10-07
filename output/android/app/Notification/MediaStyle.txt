@@ -1,0 +1,8 @@
+Compiled from "Notification.java"
+public class android.app.Notification$MediaStyle extends android.app.Notification$Style {
+  public android.app.Notification$MediaStyle();
+  public android.app.Notification$MediaStyle(android.app.Notification$Builder);
+  public android.app.Notification$MediaStyle setShowActionsInCompactView(int...);
+  public android.app.Notification$MediaStyle setMediaSession(android.media.session.MediaSessionToken);
+  public android.app.Notification buildStyled(android.app.Notification);
+}

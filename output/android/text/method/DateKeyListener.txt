@@ -1,0 +1,9 @@
+Compiled from "DateKeyListener.java"
+public class android.text.method.DateKeyListener extends android.text.method.NumberKeyListener {
+  public static final char[] CHARACTERS;
+  public android.text.method.DateKeyListener();
+  public int getInputType();
+  protected char[] getAcceptedChars();
+  public static android.text.method.DateKeyListener getInstance();
+  static {};
+}

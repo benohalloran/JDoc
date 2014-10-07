@@ -1,0 +1,18 @@
+Compiled from "SocketChannel.java"
+public abstract class java.nio.channels.SocketChannel extends java.nio.channels.spi.AbstractSelectableChannel implements java.nio.channels.ByteChannel,java.nio.channels.ScatteringByteChannel,java.nio.channels.GatheringByteChannel {
+  protected java.nio.channels.SocketChannel(java.nio.channels.spi.SelectorProvider);
+  public static java.nio.channels.SocketChannel open() throws java.io.IOException;
+  public static java.nio.channels.SocketChannel open(java.net.SocketAddress) throws java.io.IOException;
+  public final int validOps();
+  public abstract java.net.Socket socket();
+  public abstract boolean isConnected();
+  public abstract boolean isConnectionPending();
+  public abstract boolean connect(java.net.SocketAddress) throws java.io.IOException;
+  public abstract boolean finishConnect() throws java.io.IOException;
+  public abstract int read(java.nio.ByteBuffer) throws java.io.IOException;
+  public abstract long read(java.nio.ByteBuffer[], int, int) throws java.io.IOException;
+  public final synchronized long read(java.nio.ByteBuffer[]) throws java.io.IOException;
+  public abstract int write(java.nio.ByteBuffer) throws java.io.IOException;
+  public abstract long write(java.nio.ByteBuffer[], int, int) throws java.io.IOException;
+  public final synchronized long write(java.nio.ByteBuffer[]) throws java.io.IOException;
+}

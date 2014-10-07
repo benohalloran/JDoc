@@ -1,0 +1,5 @@
+Compiled from "MutableByte.java"
+public final class android.util.MutableByte {
+  public byte value;
+  public android.util.MutableByte(byte);
+}

@@ -1,0 +1,9 @@
+Compiled from "NetworkRequest.java"
+public class android.net.NetworkRequest$Builder {
+  public android.net.NetworkRequest$Builder();
+  public android.net.NetworkRequest build();
+  public android.net.NetworkRequest$Builder addCapability(int);
+  public android.net.NetworkRequest$Builder removeCapability(int);
+  public android.net.NetworkRequest$Builder addTransportType(int);
+  public android.net.NetworkRequest$Builder removeTransportType(int);
+}

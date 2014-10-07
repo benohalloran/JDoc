@@ -1,0 +1,13 @@
+Compiled from "DrmEvent.java"
+public class android.drm.DrmEvent {
+  public static final java.lang.String DRM_INFO_OBJECT;
+  public static final java.lang.String DRM_INFO_STATUS_OBJECT;
+  public static final int TYPE_ALL_RIGHTS_REMOVED;
+  public static final int TYPE_DRM_INFO_PROCESSED;
+  protected android.drm.DrmEvent(int, int, java.lang.String, java.util.HashMap<java.lang.String, java.lang.Object>);
+  protected android.drm.DrmEvent(int, int, java.lang.String);
+  public int getUniqueId();
+  public int getType();
+  public java.lang.String getMessage();
+  public java.lang.Object getAttribute(java.lang.String);
+}

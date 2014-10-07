@@ -1,0 +1,4 @@
+Compiled from "R.java"
+public final class android.R$fraction {
+  public android.R$fraction();
+}

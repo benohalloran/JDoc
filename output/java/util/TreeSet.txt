@@ -1,0 +1,33 @@
+Compiled from "TreeSet.java"
+public class java.util.TreeSet<E> extends java.util.AbstractSet<E> implements java.util.NavigableSet<E>, java.lang.Cloneable, java.io.Serializable {
+  public java.util.TreeSet();
+  public java.util.TreeSet(java.util.Collection<? extends E>);
+  public java.util.TreeSet(java.util.Comparator<? super E>);
+  public java.util.TreeSet(java.util.SortedSet<E>);
+  public boolean add(E);
+  public boolean addAll(java.util.Collection<? extends E>);
+  public void clear();
+  public java.lang.Object clone();
+  public java.util.Comparator<? super E> comparator();
+  public boolean contains(java.lang.Object);
+  public boolean isEmpty();
+  public java.util.Iterator<E> iterator();
+  public java.util.Iterator<E> descendingIterator();
+  public boolean remove(java.lang.Object);
+  public int size();
+  public E first();
+  public E last();
+  public E pollFirst();
+  public E pollLast();
+  public E higher(E);
+  public E lower(E);
+  public E ceiling(E);
+  public E floor(E);
+  public java.util.NavigableSet<E> descendingSet();
+  public java.util.NavigableSet<E> subSet(E, boolean, E, boolean);
+  public java.util.NavigableSet<E> headSet(E, boolean);
+  public java.util.NavigableSet<E> tailSet(E, boolean);
+  public java.util.SortedSet<E> subSet(E, E);
+  public java.util.SortedSet<E> headSet(E);
+  public java.util.SortedSet<E> tailSet(E);
+}

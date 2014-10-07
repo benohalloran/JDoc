@@ -1,0 +1,7 @@
+Compiled from "TriggerEvent.java"
+public final class android.hardware.TriggerEvent {
+  public android.hardware.Sensor sensor;
+  public long timestamp;
+  public final float[] values;
+  android.hardware.TriggerEvent();
+}

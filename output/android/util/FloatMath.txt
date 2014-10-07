@@ -1,0 +1,12 @@
+Compiled from "FloatMath.java"
+public class android.util.FloatMath {
+  android.util.FloatMath();
+  public static native float floor(float);
+  public static native float ceil(float);
+  public static native float sin(float);
+  public static native float cos(float);
+  public static native float sqrt(float);
+  public static native float exp(float);
+  public static native float pow(float, float);
+  public static native float hypot(float, float);
+}

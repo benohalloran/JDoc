@@ -1,0 +1,7 @@
+Compiled from "MediaStore.java"
+public interface android.provider.MediaStore$Audio$PlaylistsColumns {
+  public static final java.lang.String DATA;
+  public static final java.lang.String DATE_ADDED;
+  public static final java.lang.String DATE_MODIFIED;
+  public static final java.lang.String NAME;
+}

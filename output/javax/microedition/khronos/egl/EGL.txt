@@ -1,0 +1,3 @@
+Compiled from "EGL.java"
+public interface javax.microedition.khronos.egl.EGL {
+}

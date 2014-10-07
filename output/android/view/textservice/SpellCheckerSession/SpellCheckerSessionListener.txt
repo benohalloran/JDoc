@@ -1,0 +1,5 @@
+Compiled from "SpellCheckerSession.java"
+public interface android.view.textservice.SpellCheckerSession$SpellCheckerSessionListener {
+  public abstract void onGetSuggestions(android.view.textservice.SuggestionsInfo[]);
+  public abstract void onGetSentenceSuggestions(android.view.textservice.SentenceSuggestionsInfo[]);
+}

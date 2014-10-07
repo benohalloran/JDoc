@@ -1,0 +1,15 @@
+Compiled from "Interpolator.java"
+public class android.graphics.Interpolator {
+  public android.graphics.Interpolator(int);
+  public android.graphics.Interpolator(int, int);
+  public void reset(int);
+  public void reset(int, int);
+  public final int getKeyFrameCount();
+  public final int getValueCount();
+  public void setKeyFrame(int, int, float[]);
+  public void setKeyFrame(int, int, float[], float[]);
+  public void setRepeatMirror(float, boolean);
+  public android.graphics.Interpolator$Result timeToValues(float[]);
+  public android.graphics.Interpolator$Result timeToValues(int, float[]);
+  protected void finalize() throws java.lang.Throwable;
+}

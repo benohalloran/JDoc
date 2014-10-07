@@ -1,0 +1,11 @@
+Compiled from "StyleSpan.java"
+public class android.text.style.StyleSpan extends android.text.style.MetricAffectingSpan implements android.text.ParcelableSpan {
+  public android.text.style.StyleSpan(int);
+  public android.text.style.StyleSpan(android.os.Parcel);
+  public int getSpanTypeId();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int getStyle();
+  public void updateDrawState(android.text.TextPaint);
+  public void updateMeasureState(android.text.TextPaint);
+}

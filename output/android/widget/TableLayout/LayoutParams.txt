@@ -1,0 +1,10 @@
+Compiled from "TableLayout.java"
+public class android.widget.TableLayout$LayoutParams extends android.widget.LinearLayout$LayoutParams {
+  public android.widget.TableLayout$LayoutParams(android.content.Context, android.util.AttributeSet);
+  public android.widget.TableLayout$LayoutParams(int, int);
+  public android.widget.TableLayout$LayoutParams(int, int, float);
+  public android.widget.TableLayout$LayoutParams();
+  public android.widget.TableLayout$LayoutParams(android.view.ViewGroup$LayoutParams);
+  public android.widget.TableLayout$LayoutParams(android.view.ViewGroup$MarginLayoutParams);
+  protected void setBaseAttributes(android.content.res.TypedArray, int, int);
+}

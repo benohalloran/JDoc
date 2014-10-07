@@ -1,0 +1,6 @@
+Compiled from "MalformedCookieException.java"
+public class org.apache.http.cookie.MalformedCookieException extends org.apache.http.ProtocolException {
+  public org.apache.http.cookie.MalformedCookieException();
+  public org.apache.http.cookie.MalformedCookieException(java.lang.String);
+  public org.apache.http.cookie.MalformedCookieException(java.lang.String, java.lang.Throwable);
+}

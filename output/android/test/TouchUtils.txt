@@ -1,0 +1,35 @@
+Compiled from "TouchUtils.java"
+public class android.test.TouchUtils {
+  public android.test.TouchUtils();
+  public static void dragQuarterScreenDown(android.test.ActivityInstrumentationTestCase);
+  public static void dragQuarterScreenDown(android.test.InstrumentationTestCase, android.app.Activity);
+  public static void dragQuarterScreenUp(android.test.ActivityInstrumentationTestCase);
+  public static void dragQuarterScreenUp(android.test.InstrumentationTestCase, android.app.Activity);
+  public static void scrollToBottom(android.test.ActivityInstrumentationTestCase, android.view.ViewGroup);
+  public static void scrollToBottom(android.test.InstrumentationTestCase, android.app.Activity, android.view.ViewGroup);
+  public static void scrollToTop(android.test.ActivityInstrumentationTestCase, android.view.ViewGroup);
+  public static void scrollToTop(android.test.InstrumentationTestCase, android.app.Activity, android.view.ViewGroup);
+  public static void dragViewToBottom(android.test.ActivityInstrumentationTestCase, android.view.View);
+  public static void dragViewToBottom(android.test.InstrumentationTestCase, android.app.Activity, android.view.View);
+  public static void dragViewToBottom(android.test.ActivityInstrumentationTestCase, android.view.View, int);
+  public static void dragViewToBottom(android.test.InstrumentationTestCase, android.app.Activity, android.view.View, int);
+  public static void tapView(android.test.InstrumentationTestCase, android.view.View);
+  public static void touchAndCancelView(android.test.InstrumentationTestCase, android.view.View);
+  public static void clickView(android.test.InstrumentationTestCase, android.view.View);
+  public static void longClickView(android.test.ActivityInstrumentationTestCase, android.view.View);
+  public static void longClickView(android.test.InstrumentationTestCase, android.view.View);
+  public static void dragViewToTop(android.test.ActivityInstrumentationTestCase, android.view.View);
+  public static void dragViewToTop(android.test.ActivityInstrumentationTestCase, android.view.View, int);
+  public static void dragViewToTop(android.test.InstrumentationTestCase, android.view.View);
+  public static void dragViewToTop(android.test.InstrumentationTestCase, android.view.View, int);
+  public static int dragViewBy(android.test.ActivityInstrumentationTestCase, android.view.View, int, int, int);
+  public static int dragViewBy(android.test.InstrumentationTestCase, android.view.View, int, int, int);
+  public static int dragViewTo(android.test.ActivityInstrumentationTestCase, android.view.View, int, int, int);
+  public static int dragViewTo(android.test.InstrumentationTestCase, android.view.View, int, int, int);
+  public static int dragViewToX(android.test.ActivityInstrumentationTestCase, android.view.View, int, int);
+  public static int dragViewToX(android.test.InstrumentationTestCase, android.view.View, int, int);
+  public static int dragViewToY(android.test.ActivityInstrumentationTestCase, android.view.View, int, int);
+  public static int dragViewToY(android.test.InstrumentationTestCase, android.view.View, int, int);
+  public static void drag(android.test.ActivityInstrumentationTestCase, float, float, float, float, int);
+  public static void drag(android.test.InstrumentationTestCase, float, float, float, float, int);
+}

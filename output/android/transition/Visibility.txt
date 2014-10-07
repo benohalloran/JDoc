@@ -1,0 +1,13 @@
+Compiled from "Visibility.java"
+public abstract class android.transition.Visibility extends android.transition.Transition {
+  public android.transition.Visibility();
+  public java.lang.String[] getTransitionProperties();
+  public void captureStartValues(android.transition.TransitionValues);
+  public void captureEndValues(android.transition.TransitionValues);
+  public boolean isVisible(android.transition.TransitionValues);
+  public android.animation.Animator createAnimator(android.view.ViewGroup, android.transition.TransitionValues, android.transition.TransitionValues);
+  public android.animation.Animator onAppear(android.view.ViewGroup, android.transition.TransitionValues, int, android.transition.TransitionValues, int);
+  public android.animation.Animator onAppear(android.view.ViewGroup, android.view.View, android.transition.TransitionValues, android.transition.TransitionValues);
+  public android.animation.Animator onDisappear(android.view.ViewGroup, android.transition.TransitionValues, int, android.transition.TransitionValues, int);
+  public android.animation.Animator onDisappear(android.view.ViewGroup, android.view.View, android.transition.TransitionValues, android.transition.TransitionValues);
+}

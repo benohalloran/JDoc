@@ -1,0 +1,8 @@
+Compiled from "HttpTransportMetricsImpl.java"
+public class org.apache.http.impl.io.HttpTransportMetricsImpl implements org.apache.http.io.HttpTransportMetrics {
+  public org.apache.http.impl.io.HttpTransportMetricsImpl();
+  public long getBytesTransferred();
+  public void setBytesTransferred(long);
+  public void incrementBytesTransferred(long);
+  public void reset();
+}

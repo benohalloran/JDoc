@@ -1,0 +1,14 @@
+Compiled from "SSLParameters.java"
+public class javax.net.ssl.SSLParameters {
+  public javax.net.ssl.SSLParameters();
+  public javax.net.ssl.SSLParameters(java.lang.String[]);
+  public javax.net.ssl.SSLParameters(java.lang.String[], java.lang.String[]);
+  public java.lang.String[] getCipherSuites();
+  public void setCipherSuites(java.lang.String[]);
+  public java.lang.String[] getProtocols();
+  public void setProtocols(java.lang.String[]);
+  public boolean getNeedClientAuth();
+  public void setNeedClientAuth(boolean);
+  public boolean getWantClientAuth();
+  public void setWantClientAuth(boolean);
+}

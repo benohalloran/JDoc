@@ -1,0 +1,6 @@
+Compiled from "PackageItemInfo.java"
+public class android.content.pm.PackageItemInfo$DisplayNameComparator implements java.util.Comparator<android.content.pm.PackageItemInfo> {
+  public android.content.pm.PackageItemInfo$DisplayNameComparator(android.content.pm.PackageManager);
+  public final int compare(android.content.pm.PackageItemInfo, android.content.pm.PackageItemInfo);
+  public int compare(java.lang.Object, java.lang.Object);
+}

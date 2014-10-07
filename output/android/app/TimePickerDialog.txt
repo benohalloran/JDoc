@@ -1,0 +1,11 @@
+Compiled from "TimePickerDialog.java"
+public class android.app.TimePickerDialog extends android.app.AlertDialog implements android.content.DialogInterface$OnClickListener,android.widget.TimePicker$OnTimeChangedListener {
+  public android.app.TimePickerDialog(android.content.Context, android.app.TimePickerDialog$OnTimeSetListener, int, int, boolean);
+  public android.app.TimePickerDialog(android.content.Context, int, android.app.TimePickerDialog$OnTimeSetListener, int, int, boolean);
+  public void onClick(android.content.DialogInterface, int);
+  public void updateTime(int, int);
+  public void onTimeChanged(android.widget.TimePicker, int, int);
+  protected void onStop();
+  public android.os.Bundle onSaveInstanceState();
+  public void onRestoreInstanceState(android.os.Bundle);
+}

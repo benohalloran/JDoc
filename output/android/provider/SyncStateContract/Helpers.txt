@@ -1,0 +1,11 @@
+Compiled from "SyncStateContract.java"
+public final class android.provider.SyncStateContract$Helpers {
+  public android.provider.SyncStateContract$Helpers();
+  public static byte[] get(android.content.ContentProviderClient, android.net.Uri, android.accounts.Account) throws android.os.RemoteException;
+  public static void set(android.content.ContentProviderClient, android.net.Uri, android.accounts.Account, byte[]) throws android.os.RemoteException;
+  public static android.net.Uri insert(android.content.ContentProviderClient, android.net.Uri, android.accounts.Account, byte[]) throws android.os.RemoteException;
+  public static void update(android.content.ContentProviderClient, android.net.Uri, byte[]) throws android.os.RemoteException;
+  public static android.util.Pair<android.net.Uri, byte[]> getWithUri(android.content.ContentProviderClient, android.net.Uri, android.accounts.Account) throws android.os.RemoteException;
+  public static android.content.ContentProviderOperation newSetOperation(android.net.Uri, android.accounts.Account, byte[]);
+  public static android.content.ContentProviderOperation newUpdateOperation(android.net.Uri, byte[]);
+}

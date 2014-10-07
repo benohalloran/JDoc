@@ -1,0 +1,6 @@
+Compiled from "CellLocation.java"
+public abstract class android.telephony.CellLocation {
+  public android.telephony.CellLocation();
+  public static void requestLocationUpdate();
+  public static android.telephony.CellLocation getEmpty();
+}

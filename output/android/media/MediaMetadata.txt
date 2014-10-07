@@ -1,0 +1,36 @@
+Compiled from "MediaMetadata.java"
+public final class android.media.MediaMetadata implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.media.MediaMetadata> CREATOR;
+  public static final java.lang.String METADATA_KEY_ALBUM;
+  public static final java.lang.String METADATA_KEY_ALBUM_ART;
+  public static final java.lang.String METADATA_KEY_ALBUM_ARTIST;
+  public static final java.lang.String METADATA_KEY_ALBUM_ART_URI;
+  public static final java.lang.String METADATA_KEY_ART;
+  public static final java.lang.String METADATA_KEY_ARTIST;
+  public static final java.lang.String METADATA_KEY_ART_URI;
+  public static final java.lang.String METADATA_KEY_AUTHOR;
+  public static final java.lang.String METADATA_KEY_COMPILATION;
+  public static final java.lang.String METADATA_KEY_COMPOSER;
+  public static final java.lang.String METADATA_KEY_DATE;
+  public static final java.lang.String METADATA_KEY_DISC_NUMBER;
+  public static final java.lang.String METADATA_KEY_DURATION;
+  public static final java.lang.String METADATA_KEY_GENRE;
+  public static final java.lang.String METADATA_KEY_NUM_TRACKS;
+  public static final java.lang.String METADATA_KEY_RATING;
+  public static final java.lang.String METADATA_KEY_TITLE;
+  public static final java.lang.String METADATA_KEY_TRACK_NUMBER;
+  public static final java.lang.String METADATA_KEY_USER_RATING;
+  public static final java.lang.String METADATA_KEY_WRITER;
+  public static final java.lang.String METADATA_KEY_YEAR;
+  android.media.MediaMetadata();
+  public boolean containsKey(java.lang.String);
+  public java.lang.String getString(java.lang.String);
+  public long getLong(java.lang.String);
+  public android.media.Rating getRating(java.lang.String);
+  public android.graphics.Bitmap getBitmap(java.lang.String);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int size();
+  public java.util.Set<java.lang.String> keySet();
+  static {};
+}

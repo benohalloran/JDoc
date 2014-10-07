@@ -1,0 +1,12 @@
+Compiled from "Contacts.java"
+public final class android.provider.Contacts$Groups implements android.provider.BaseColumns,android.provider.Contacts$GroupsColumns {
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final android.net.Uri DELETED_CONTENT_URI;
+  public static final java.lang.String GROUP_ANDROID_STARRED;
+  public static final java.lang.String GROUP_MY_CONTACTS;
+  android.provider.Contacts$Groups();
+  static {};
+}

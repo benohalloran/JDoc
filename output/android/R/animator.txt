@@ -1,0 +1,6 @@
+Compiled from "R.java"
+public final class android.R$animator {
+  public static final int fade_in;
+  public static final int fade_out;
+  public android.R$animator();
+}

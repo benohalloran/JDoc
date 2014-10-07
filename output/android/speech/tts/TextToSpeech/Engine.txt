@@ -1,0 +1,31 @@
+Compiled from "TextToSpeech.java"
+public class android.speech.tts.TextToSpeech$Engine {
+  public static final java.lang.String ACTION_CHECK_TTS_DATA;
+  public static final java.lang.String ACTION_GET_SAMPLE_TEXT;
+  public static final java.lang.String ACTION_INSTALL_TTS_DATA;
+  public static final java.lang.String ACTION_TTS_DATA_INSTALLED;
+  public static final int CHECK_VOICE_DATA_BAD_DATA;
+  public static final int CHECK_VOICE_DATA_FAIL;
+  public static final int CHECK_VOICE_DATA_MISSING_DATA;
+  public static final int CHECK_VOICE_DATA_MISSING_VOLUME;
+  public static final int CHECK_VOICE_DATA_PASS;
+  public static final int DEFAULT_STREAM;
+  public static final java.lang.String EXTRA_AVAILABLE_VOICES;
+  public static final java.lang.String EXTRA_CHECK_VOICE_DATA_FOR;
+  public static final java.lang.String EXTRA_SAMPLE_TEXT;
+  public static final java.lang.String EXTRA_TTS_DATA_INSTALLED;
+  public static final java.lang.String EXTRA_UNAVAILABLE_VOICES;
+  public static final java.lang.String EXTRA_VOICE_DATA_FILES;
+  public static final java.lang.String EXTRA_VOICE_DATA_FILES_INFO;
+  public static final java.lang.String EXTRA_VOICE_DATA_ROOT_DIRECTORY;
+  public static final java.lang.String INTENT_ACTION_TTS_SERVICE;
+  public static final java.lang.String KEY_FEATURE_EMBEDDED_SYNTHESIS;
+  public static final java.lang.String KEY_FEATURE_NETWORK_SYNTHESIS;
+  public static final java.lang.String KEY_PARAM_PAN;
+  public static final java.lang.String KEY_PARAM_STREAM;
+  public static final java.lang.String KEY_PARAM_UTTERANCE_ID;
+  public static final java.lang.String KEY_PARAM_VOLUME;
+  public static final java.lang.String SERVICE_META_DATA;
+  final android.speech.tts.TextToSpeech this$0;
+  public android.speech.tts.TextToSpeech$Engine(android.speech.tts.TextToSpeech);
+}

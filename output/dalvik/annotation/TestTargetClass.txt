@@ -1,0 +1,4 @@
+Compiled from "TestTargetClass.java"
+public interface dalvik.annotation.TestTargetClass extends java.lang.annotation.Annotation {
+  public abstract java.lang.Class<?> value();
+}

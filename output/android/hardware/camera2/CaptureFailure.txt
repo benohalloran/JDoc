@@ -1,0 +1,11 @@
+Compiled from "CaptureFailure.java"
+public class android.hardware.camera2.CaptureFailure {
+  public static final int REASON_ERROR;
+  public static final int REASON_FLUSHED;
+  android.hardware.camera2.CaptureFailure();
+  public android.hardware.camera2.CaptureRequest getRequest();
+  public int getFrameNumber();
+  public int getReason();
+  public boolean wasImageCaptured();
+  public int getSequenceId();
+}

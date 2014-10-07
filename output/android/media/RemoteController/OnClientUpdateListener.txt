@@ -1,0 +1,8 @@
+Compiled from "RemoteController.java"
+public interface android.media.RemoteController$OnClientUpdateListener {
+  public abstract void onClientChange(boolean);
+  public abstract void onClientPlaybackStateUpdate(int);
+  public abstract void onClientPlaybackStateUpdate(int, long, long, float);
+  public abstract void onClientTransportControlUpdate(int);
+  public abstract void onClientMetadataUpdate(android.media.RemoteController$MetadataEditor);
+}

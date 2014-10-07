@@ -1,0 +1,27 @@
+Compiled from "AccessibilityWindowInfo.java"
+public final class android.view.accessibility.AccessibilityWindowInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.accessibility.AccessibilityWindowInfo> CREATOR;
+  public static final int TYPE_APPLICATION;
+  public static final int TYPE_INPUT_METHOD;
+  public static final int TYPE_SYSTEM;
+  android.view.accessibility.AccessibilityWindowInfo();
+  public int getType();
+  public int getLayer();
+  public android.view.accessibility.AccessibilityNodeInfo getRoot();
+  public android.view.accessibility.AccessibilityWindowInfo getParent();
+  public int getId();
+  public void getBoundsInScreen(android.graphics.Rect);
+  public boolean isActive();
+  public boolean isFocused();
+  public int getChildCount();
+  public android.view.accessibility.AccessibilityWindowInfo getChild(int);
+  public static android.view.accessibility.AccessibilityWindowInfo obtain();
+  public static android.view.accessibility.AccessibilityWindowInfo obtain(android.view.accessibility.AccessibilityWindowInfo);
+  public void recycle();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  static {};
+}

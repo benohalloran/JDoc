@@ -1,0 +1,21 @@
+Compiled from "MultiSelectListPreference.java"
+public class android.preference.MultiSelectListPreference extends android.preference.DialogPreference {
+  public android.preference.MultiSelectListPreference(android.content.Context, android.util.AttributeSet, int, int);
+  public android.preference.MultiSelectListPreference(android.content.Context, android.util.AttributeSet, int);
+  public android.preference.MultiSelectListPreference(android.content.Context, android.util.AttributeSet);
+  public android.preference.MultiSelectListPreference(android.content.Context);
+  public void setEntries(java.lang.CharSequence[]);
+  public void setEntries(int);
+  public java.lang.CharSequence[] getEntries();
+  public void setEntryValues(java.lang.CharSequence[]);
+  public void setEntryValues(int);
+  public java.lang.CharSequence[] getEntryValues();
+  public void setValues(java.util.Set<java.lang.String>);
+  public java.util.Set<java.lang.String> getValues();
+  public int findIndexOfValue(java.lang.String);
+  protected void onPrepareDialogBuilder(android.app.AlertDialog$Builder);
+  protected void onDialogClosed(boolean);
+  protected java.lang.Object onGetDefaultValue(android.content.res.TypedArray, int);
+  protected void onSetInitialValue(boolean, java.lang.Object);
+  protected android.os.Parcelable onSaveInstanceState();
+}

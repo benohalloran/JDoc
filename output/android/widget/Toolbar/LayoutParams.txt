@@ -1,0 +1,11 @@
+Compiled from "Toolbar.java"
+public class android.widget.Toolbar$LayoutParams extends android.app.ActionBar$LayoutParams {
+  public android.widget.Toolbar$LayoutParams(android.content.Context, android.util.AttributeSet);
+  public android.widget.Toolbar$LayoutParams(int, int);
+  public android.widget.Toolbar$LayoutParams(int, int, int);
+  public android.widget.Toolbar$LayoutParams(int);
+  public android.widget.Toolbar$LayoutParams(android.widget.Toolbar$LayoutParams);
+  public android.widget.Toolbar$LayoutParams(android.app.ActionBar$LayoutParams);
+  public android.widget.Toolbar$LayoutParams(android.view.ViewGroup$MarginLayoutParams);
+  public android.widget.Toolbar$LayoutParams(android.view.ViewGroup$LayoutParams);
+}

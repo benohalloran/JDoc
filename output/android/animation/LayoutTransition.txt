@@ -1,0 +1,35 @@
+Compiled from "LayoutTransition.java"
+public class android.animation.LayoutTransition {
+  public static final int APPEARING;
+  public static final int CHANGE_APPEARING;
+  public static final int CHANGE_DISAPPEARING;
+  public static final int CHANGING;
+  public static final int DISAPPEARING;
+  public android.animation.LayoutTransition();
+  public void setDuration(long);
+  public void enableTransitionType(int);
+  public void disableTransitionType(int);
+  public boolean isTransitionTypeEnabled(int);
+  public void setStartDelay(int, long);
+  public long getStartDelay(int);
+  public void setDuration(int, long);
+  public long getDuration(int);
+  public void setStagger(int, long);
+  public long getStagger(int);
+  public void setInterpolator(int, android.animation.TimeInterpolator);
+  public android.animation.TimeInterpolator getInterpolator(int);
+  public void setAnimator(int, android.animation.Animator);
+  public android.animation.Animator getAnimator(int);
+  public void setAnimateParentHierarchy(boolean);
+  public boolean isChangingLayout();
+  public boolean isRunning();
+  public void addChild(android.view.ViewGroup, android.view.View);
+  public void showChild(android.view.ViewGroup, android.view.View);
+  public void showChild(android.view.ViewGroup, android.view.View, int);
+  public void removeChild(android.view.ViewGroup, android.view.View);
+  public void hideChild(android.view.ViewGroup, android.view.View);
+  public void hideChild(android.view.ViewGroup, android.view.View, int);
+  public void addTransitionListener(android.animation.LayoutTransition$TransitionListener);
+  public void removeTransitionListener(android.animation.LayoutTransition$TransitionListener);
+  public java.util.List<android.animation.LayoutTransition$TransitionListener> getTransitionListeners();
+}

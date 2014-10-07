@@ -1,0 +1,8 @@
+Compiled from "CalendarContract.java"
+public interface android.provider.CalendarContract$ColorsColumns extends android.provider.SyncStateContract$Columns {
+  public static final java.lang.String COLOR;
+  public static final java.lang.String COLOR_KEY;
+  public static final java.lang.String COLOR_TYPE;
+  public static final int TYPE_CALENDAR;
+  public static final int TYPE_EVENT;
+}

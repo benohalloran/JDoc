@@ -1,0 +1,8 @@
+Compiled from "RecoverySystem.java"
+public class android.os.RecoverySystem {
+  public android.os.RecoverySystem();
+  public static void verifyPackage(java.io.File, android.os.RecoverySystem$ProgressListener, java.io.File) throws java.io.IOException, java.security.GeneralSecurityException;
+  public static void installPackage(android.content.Context, java.io.File) throws java.io.IOException;
+  public static void rebootWipeUserData(android.content.Context) throws java.io.IOException;
+  public static void rebootWipeCache(android.content.Context) throws java.io.IOException;
+}

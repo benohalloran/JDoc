@@ -1,0 +1,13 @@
+Compiled from "NfcV.java"
+public final class android.nfc.tech.NfcV extends android.nfc.tech.BasicTagTechnology {
+  android.nfc.tech.NfcV();
+  public static android.nfc.tech.NfcV get(android.nfc.Tag);
+  public byte getResponseFlags();
+  public byte getDsfId();
+  public byte[] transceive(byte[]) throws java.io.IOException;
+  public int getMaxTransceiveLength();
+  public void close() throws java.io.IOException;
+  public void connect() throws java.io.IOException;
+  public boolean isConnected();
+  public android.nfc.Tag getTag();
+}

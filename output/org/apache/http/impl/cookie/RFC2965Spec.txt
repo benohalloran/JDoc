@@ -1,0 +1,11 @@
+Compiled from "RFC2965Spec.java"
+public class org.apache.http.impl.cookie.RFC2965Spec extends org.apache.http.impl.cookie.RFC2109Spec {
+  public org.apache.http.impl.cookie.RFC2965Spec();
+  public org.apache.http.impl.cookie.RFC2965Spec(java.lang.String[], boolean);
+  public java.util.List<org.apache.http.cookie.Cookie> parse(org.apache.http.Header, org.apache.http.cookie.CookieOrigin) throws org.apache.http.cookie.MalformedCookieException;
+  public void validate(org.apache.http.cookie.Cookie, org.apache.http.cookie.CookieOrigin) throws org.apache.http.cookie.MalformedCookieException;
+  public boolean match(org.apache.http.cookie.Cookie, org.apache.http.cookie.CookieOrigin);
+  protected void formatCookieAsVer(org.apache.http.util.CharArrayBuffer, org.apache.http.cookie.Cookie, int);
+  public int getVersion();
+  public org.apache.http.Header getVersionHeader();
+}

@@ -1,0 +1,6 @@
+Compiled from "SipRegistrationListener.java"
+public interface android.net.sip.SipRegistrationListener {
+  public abstract void onRegistering(java.lang.String);
+  public abstract void onRegistrationDone(java.lang.String, long);
+  public abstract void onRegistrationFailed(java.lang.String, int, java.lang.String);
+}

@@ -1,0 +1,33 @@
+Compiled from "ActivityManager.java"
+public class android.app.ActivityManager {
+  public static final java.lang.String META_HOME_ALTERNATE;
+  public static final int MOVE_TASK_NO_USER_ACTION;
+  public static final int MOVE_TASK_WITH_HOME;
+  public static final int RECENT_IGNORE_UNAVAILABLE;
+  public static final int RECENT_WITH_EXCLUDED;
+  android.app.ActivityManager();
+  public int getMemoryClass();
+  public int getLargeMemoryClass();
+  public boolean isLowRamDevice();
+  public java.util.List<android.app.ActivityManager$RecentTaskInfo> getRecentTasks(int, int) throws java.lang.SecurityException;
+  public java.util.List<android.app.ActivityManager$AppTask> getAppTasks();
+  public java.util.List<android.app.ActivityManager$RunningTaskInfo> getRunningTasks(int) throws java.lang.SecurityException;
+  public void moveTaskToFront(int, int);
+  public void moveTaskToFront(int, int, android.os.Bundle);
+  public java.util.List<android.app.ActivityManager$RunningServiceInfo> getRunningServices(int) throws java.lang.SecurityException;
+  public android.app.PendingIntent getRunningServiceControlPanel(android.content.ComponentName) throws java.lang.SecurityException;
+  public void getMemoryInfo(android.app.ActivityManager$MemoryInfo);
+  public boolean clearApplicationUserData();
+  public java.util.List<android.app.ActivityManager$ProcessErrorStateInfo> getProcessesInErrorState();
+  public java.util.List<android.app.ActivityManager$RunningAppProcessInfo> getRunningAppProcesses();
+  public static void getMyMemoryState(android.app.ActivityManager$RunningAppProcessInfo);
+  public android.os.Debug$MemoryInfo[] getProcessMemoryInfo(int[]);
+  public void restartPackage(java.lang.String);
+  public void killBackgroundProcesses(java.lang.String);
+  public android.content.pm.ConfigurationInfo getDeviceConfigurationInfo();
+  public int getLauncherLargeIconDensity();
+  public int getLauncherLargeIconSize();
+  public static boolean isUserAMonkey();
+  public static boolean isRunningInTestHarness();
+  public void dumpPackageState(java.io.FileDescriptor, java.lang.String);
+}

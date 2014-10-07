@@ -1,0 +1,39 @@
+Compiled from "CursorWindow.java"
+public class android.database.CursorWindow extends android.database.sqlite.SQLiteClosable implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.database.CursorWindow> CREATOR;
+  public android.database.CursorWindow(java.lang.String);
+  public android.database.CursorWindow(boolean);
+  protected void finalize() throws java.lang.Throwable;
+  public void clear();
+  public int getStartPosition();
+  public void setStartPosition(int);
+  public int getNumRows();
+  public boolean setNumColumns(int);
+  public boolean allocRow();
+  public void freeLastRow();
+  public boolean isNull(int, int);
+  public boolean isBlob(int, int);
+  public boolean isLong(int, int);
+  public boolean isFloat(int, int);
+  public boolean isString(int, int);
+  public int getType(int, int);
+  public byte[] getBlob(int, int);
+  public java.lang.String getString(int, int);
+  public void copyStringToBuffer(int, int, android.database.CharArrayBuffer);
+  public long getLong(int, int);
+  public double getDouble(int, int);
+  public short getShort(int, int);
+  public int getInt(int, int);
+  public float getFloat(int, int);
+  public boolean putBlob(byte[], int, int);
+  public boolean putString(java.lang.String, int, int);
+  public boolean putLong(long, int, int);
+  public boolean putDouble(double, int, int);
+  public boolean putNull(int, int);
+  public static android.database.CursorWindow newFromParcel(android.os.Parcel);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  protected void onAllReferencesReleased();
+  public java.lang.String toString();
+  static {};
+}

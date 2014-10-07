@@ -1,0 +1,7 @@
+Compiled from "CharArrayBuffer.java"
+public final class android.database.CharArrayBuffer {
+  public char[] data;
+  public int sizeCopied;
+  public android.database.CharArrayBuffer(int);
+  public android.database.CharArrayBuffer(char[]);
+}

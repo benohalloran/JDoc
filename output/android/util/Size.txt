@@ -1,0 +1,9 @@
+Compiled from "Size.java"
+public final class android.util.Size {
+  public android.util.Size(int, int);
+  public int getWidth();
+  public int getHeight();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public int hashCode();
+}

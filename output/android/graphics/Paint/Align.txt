@@ -1,0 +1,9 @@
+Compiled from "Paint.java"
+public final class android.graphics.Paint$Align extends java.lang.Enum<android.graphics.Paint$Align> {
+  public static final android.graphics.Paint$Align CENTER;
+  public static final android.graphics.Paint$Align LEFT;
+  public static final android.graphics.Paint$Align RIGHT;
+  public static android.graphics.Paint$Align[] values();
+  public static android.graphics.Paint$Align valueOf(java.lang.String);
+  static {};
+}

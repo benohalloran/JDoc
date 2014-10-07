@@ -1,0 +1,8 @@
+Compiled from "ScanSettings.java"
+public final class android.bluetooth.le.ScanSettings$Builder {
+  public android.bluetooth.le.ScanSettings$Builder();
+  public android.bluetooth.le.ScanSettings$Builder setScanMode(int);
+  public android.bluetooth.le.ScanSettings$Builder setCallbackType(int);
+  public android.bluetooth.le.ScanSettings$Builder setReportDelayNanos(long);
+  public android.bluetooth.le.ScanSettings build();
+}

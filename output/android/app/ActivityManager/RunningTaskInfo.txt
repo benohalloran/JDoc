@@ -1,0 +1,16 @@
+Compiled from "ActivityManager.java"
+public class android.app.ActivityManager$RunningTaskInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.app.ActivityManager$RunningTaskInfo> CREATOR;
+  public android.content.ComponentName baseActivity;
+  public java.lang.CharSequence description;
+  public int id;
+  public int numActivities;
+  public int numRunning;
+  public android.graphics.Bitmap thumbnail;
+  public android.content.ComponentName topActivity;
+  public android.app.ActivityManager$RunningTaskInfo();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public void readFromParcel(android.os.Parcel);
+  static {};
+}

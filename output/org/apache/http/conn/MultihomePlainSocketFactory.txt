@@ -1,0 +1,10 @@
+Compiled from "MultihomePlainSocketFactory.java"
+public final class org.apache.http.conn.MultihomePlainSocketFactory implements org.apache.http.conn.scheme.SocketFactory {
+  org.apache.http.conn.MultihomePlainSocketFactory();
+  public static org.apache.http.conn.MultihomePlainSocketFactory getSocketFactory();
+  public java.net.Socket createSocket();
+  public java.net.Socket connectSocket(java.net.Socket, java.lang.String, int, java.net.InetAddress, int, org.apache.http.params.HttpParams) throws java.io.IOException;
+  public final boolean isSecure(java.net.Socket) throws java.lang.IllegalArgumentException;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

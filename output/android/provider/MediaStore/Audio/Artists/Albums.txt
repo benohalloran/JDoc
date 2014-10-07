@@ -1,0 +1,5 @@
+Compiled from "MediaStore.java"
+public final class android.provider.MediaStore$Audio$Artists$Albums implements android.provider.MediaStore$Audio$AlbumColumns {
+  public android.provider.MediaStore$Audio$Artists$Albums();
+  public static final android.net.Uri getContentUri(java.lang.String, long);
+}

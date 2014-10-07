@@ -1,0 +1,12 @@
+Compiled from "InputMethodService.java"
+public final class android.inputmethodservice.InputMethodService$Insets {
+  public static final int TOUCHABLE_INSETS_CONTENT;
+  public static final int TOUCHABLE_INSETS_FRAME;
+  public static final int TOUCHABLE_INSETS_REGION;
+  public static final int TOUCHABLE_INSETS_VISIBLE;
+  public int contentTopInsets;
+  public int touchableInsets;
+  public final android.graphics.Region touchableRegion;
+  public int visibleTopInsets;
+  public android.inputmethodservice.InputMethodService$Insets();
+}

@@ -1,0 +1,5 @@
+Compiled from "HttpAbstractParamBean.java"
+public abstract class org.apache.http.params.HttpAbstractParamBean {
+  protected final org.apache.http.params.HttpParams params;
+  public org.apache.http.params.HttpAbstractParamBean(org.apache.http.params.HttpParams);
+}

@@ -1,0 +1,33 @@
+Compiled from "AlertDialog.java"
+public class android.app.AlertDialog extends android.app.Dialog implements android.content.DialogInterface {
+  public static final int THEME_DEVICE_DEFAULT_DARK;
+  public static final int THEME_DEVICE_DEFAULT_LIGHT;
+  public static final int THEME_HOLO_DARK;
+  public static final int THEME_HOLO_LIGHT;
+  public static final int THEME_TRADITIONAL;
+  protected android.app.AlertDialog(android.content.Context);
+  protected android.app.AlertDialog(android.content.Context, int);
+  protected android.app.AlertDialog(android.content.Context, boolean, android.content.DialogInterface$OnCancelListener);
+  public android.widget.Button getButton(int);
+  public android.widget.ListView getListView();
+  public void setTitle(java.lang.CharSequence);
+  public void setCustomTitle(android.view.View);
+  public void setMessage(java.lang.CharSequence);
+  public void setView(android.view.View);
+  public void setView(android.view.View, int, int, int, int);
+  public void setButton(int, java.lang.CharSequence, android.os.Message);
+  public void setButton(int, java.lang.CharSequence, android.content.DialogInterface$OnClickListener);
+  public void setButton(java.lang.CharSequence, android.os.Message);
+  public void setButton2(java.lang.CharSequence, android.os.Message);
+  public void setButton3(java.lang.CharSequence, android.os.Message);
+  public void setButton(java.lang.CharSequence, android.content.DialogInterface$OnClickListener);
+  public void setButton2(java.lang.CharSequence, android.content.DialogInterface$OnClickListener);
+  public void setButton3(java.lang.CharSequence, android.content.DialogInterface$OnClickListener);
+  public void setIcon(int);
+  public void setIcon(android.graphics.drawable.Drawable);
+  public void setIconAttribute(int);
+  public void setInverseBackgroundForced(boolean);
+  protected void onCreate(android.os.Bundle);
+  public boolean onKeyDown(int, android.view.KeyEvent);
+  public boolean onKeyUp(int, android.view.KeyEvent);
+}

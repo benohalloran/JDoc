@@ -1,0 +1,11 @@
+Compiled from "AbstractInputMethodService.java"
+public abstract class android.inputmethodservice.AbstractInputMethodService extends android.app.Service implements android.view.KeyEvent$Callback {
+  public android.inputmethodservice.AbstractInputMethodService();
+  public android.view.KeyEvent$DispatcherState getKeyDispatcherState();
+  public abstract android.inputmethodservice.AbstractInputMethodService$AbstractInputMethodImpl onCreateInputMethodInterface();
+  public abstract android.inputmethodservice.AbstractInputMethodService$AbstractInputMethodSessionImpl onCreateInputMethodSessionInterface();
+  protected void dump(java.io.FileDescriptor, java.io.PrintWriter, java.lang.String[]);
+  public final android.os.IBinder onBind(android.content.Intent);
+  public boolean onTrackballEvent(android.view.MotionEvent);
+  public boolean onGenericMotionEvent(android.view.MotionEvent);
+}

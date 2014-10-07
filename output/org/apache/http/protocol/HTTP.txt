@@ -1,0 +1,35 @@
+Compiled from "HTTP.java"
+public final class org.apache.http.protocol.HTTP {
+  public static final java.lang.String ASCII;
+  public static final java.lang.String CHARSET_PARAM;
+  public static final java.lang.String CHUNK_CODING;
+  public static final java.lang.String CONN_CLOSE;
+  public static final java.lang.String CONN_DIRECTIVE;
+  public static final java.lang.String CONN_KEEP_ALIVE;
+  public static final java.lang.String CONTENT_ENCODING;
+  public static final java.lang.String CONTENT_LEN;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final int CR;
+  public static final java.lang.String DATE_HEADER;
+  public static final java.lang.String DEFAULT_CONTENT_CHARSET;
+  public static final java.lang.String DEFAULT_CONTENT_TYPE;
+  public static final java.lang.String DEFAULT_PROTOCOL_CHARSET;
+  public static final java.lang.String EXPECT_CONTINUE;
+  public static final java.lang.String EXPECT_DIRECTIVE;
+  public static final int HT;
+  public static final java.lang.String IDENTITY_CODING;
+  public static final java.lang.String ISO_8859_1;
+  public static final int LF;
+  public static final java.lang.String OCTET_STREAM_TYPE;
+  public static final java.lang.String PLAIN_TEXT_TYPE;
+  public static final java.lang.String SERVER_HEADER;
+  public static final int SP;
+  public static final java.lang.String TARGET_HOST;
+  public static final java.lang.String TRANSFER_ENCODING;
+  public static final java.lang.String USER_AGENT;
+  public static final java.lang.String US_ASCII;
+  public static final java.lang.String UTF_16;
+  public static final java.lang.String UTF_8;
+  org.apache.http.protocol.HTTP();
+  public static boolean isWhitespace(char);
+}

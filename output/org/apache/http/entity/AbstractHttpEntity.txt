@@ -1,0 +1,16 @@
+Compiled from "AbstractHttpEntity.java"
+public abstract class org.apache.http.entity.AbstractHttpEntity implements org.apache.http.HttpEntity {
+  protected boolean chunked;
+  protected org.apache.http.Header contentEncoding;
+  protected org.apache.http.Header contentType;
+  protected org.apache.http.entity.AbstractHttpEntity();
+  public org.apache.http.Header getContentType();
+  public org.apache.http.Header getContentEncoding();
+  public boolean isChunked();
+  public void setContentType(org.apache.http.Header);
+  public void setContentType(java.lang.String);
+  public void setContentEncoding(org.apache.http.Header);
+  public void setContentEncoding(java.lang.String);
+  public void setChunked(boolean);
+  public void consumeContent() throws java.io.IOException, java.lang.UnsupportedOperationException;
+}

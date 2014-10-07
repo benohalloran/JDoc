@@ -1,0 +1,8 @@
+Compiled from "Authenticator.java"
+public final class java.net.Authenticator$RequestorType extends java.lang.Enum<java.net.Authenticator$RequestorType> {
+  public static final java.net.Authenticator$RequestorType PROXY;
+  public static final java.net.Authenticator$RequestorType SERVER;
+  public static java.net.Authenticator$RequestorType[] values();
+  public static java.net.Authenticator$RequestorType valueOf(java.lang.String);
+  static {};
+}

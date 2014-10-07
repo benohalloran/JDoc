@@ -1,0 +1,7 @@
+Compiled from "SharedPreferencesBackupHelper.java"
+public class android.app.backup.SharedPreferencesBackupHelper extends android.app.backup.FileBackupHelperBase implements android.app.backup.BackupHelper {
+  public android.app.backup.SharedPreferencesBackupHelper(android.content.Context, java.lang.String...);
+  public void performBackup(android.os.ParcelFileDescriptor, android.app.backup.BackupDataOutput, android.os.ParcelFileDescriptor);
+  public void restoreEntity(android.app.backup.BackupDataInputStream);
+  public void writeNewStateDescription(android.os.ParcelFileDescriptor);
+}

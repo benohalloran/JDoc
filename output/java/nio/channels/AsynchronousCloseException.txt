@@ -1,0 +1,4 @@
+Compiled from "AsynchronousCloseException.java"
+public class java.nio.channels.AsynchronousCloseException extends java.nio.channels.ClosedChannelException {
+  public java.nio.channels.AsynchronousCloseException();
+}

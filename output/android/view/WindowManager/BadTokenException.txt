@@ -1,0 +1,5 @@
+Compiled from "WindowManager.java"
+public class android.view.WindowManager$BadTokenException extends java.lang.RuntimeException {
+  public android.view.WindowManager$BadTokenException();
+  public android.view.WindowManager$BadTokenException(java.lang.String);
+}

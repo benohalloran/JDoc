@@ -1,0 +1,8 @@
+Compiled from "CheckBoxPreference.java"
+public class android.preference.CheckBoxPreference extends android.preference.TwoStatePreference {
+  public android.preference.CheckBoxPreference(android.content.Context, android.util.AttributeSet, int);
+  public android.preference.CheckBoxPreference(android.content.Context, android.util.AttributeSet, int, int);
+  public android.preference.CheckBoxPreference(android.content.Context, android.util.AttributeSet);
+  public android.preference.CheckBoxPreference(android.content.Context);
+  protected void onBindView(android.view.View);
+}

@@ -1,0 +1,7 @@
+Compiled from "NumberPicker.java"
+public interface android.widget.NumberPicker$OnScrollListener {
+  public static final int SCROLL_STATE_FLING;
+  public static final int SCROLL_STATE_IDLE;
+  public static final int SCROLL_STATE_TOUCH_SCROLL;
+  public abstract void onScrollStateChange(android.widget.NumberPicker, int);
+}

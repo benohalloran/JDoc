@@ -1,0 +1,4 @@
+Compiled from "TimeAnimator.java"
+public interface android.animation.TimeAnimator$TimeListener {
+  public abstract void onTimeUpdate(android.animation.TimeAnimator, long, long);
+}

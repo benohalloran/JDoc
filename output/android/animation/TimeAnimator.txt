@@ -1,0 +1,6 @@
+Compiled from "TimeAnimator.java"
+public class android.animation.TimeAnimator extends android.animation.ValueAnimator {
+  public android.animation.TimeAnimator();
+  public void start();
+  public void setTimeListener(android.animation.TimeAnimator$TimeListener);
+}

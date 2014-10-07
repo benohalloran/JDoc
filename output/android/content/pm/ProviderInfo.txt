@@ -1,0 +1,22 @@
+Compiled from "ProviderInfo.java"
+public final class android.content.pm.ProviderInfo extends android.content.pm.ComponentInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.pm.ProviderInfo> CREATOR;
+  public static final int FLAG_SINGLE_USER;
+  public java.lang.String authority;
+  public int flags;
+  public boolean grantUriPermissions;
+  public int initOrder;
+  public boolean isSyncable;
+  public boolean multiprocess;
+  public android.content.pm.PathPermission[] pathPermissions;
+  public java.lang.String readPermission;
+  public android.os.PatternMatcher[] uriPermissionPatterns;
+  public java.lang.String writePermission;
+  public android.content.pm.ProviderInfo();
+  public android.content.pm.ProviderInfo(android.content.pm.ProviderInfo);
+  public void dump(android.util.Printer, java.lang.String);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String toString();
+  static {};
+}

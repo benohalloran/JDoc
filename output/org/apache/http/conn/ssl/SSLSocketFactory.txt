@@ -1,0 +1,21 @@
+Compiled from "SSLSocketFactory.java"
+public class org.apache.http.conn.ssl.SSLSocketFactory implements org.apache.http.conn.scheme.LayeredSocketFactory {
+  public static final org.apache.http.conn.ssl.X509HostnameVerifier ALLOW_ALL_HOSTNAME_VERIFIER;
+  public static final org.apache.http.conn.ssl.X509HostnameVerifier BROWSER_COMPATIBLE_HOSTNAME_VERIFIER;
+  public static final java.lang.String SSL;
+  public static final java.lang.String SSLV2;
+  public static final org.apache.http.conn.ssl.X509HostnameVerifier STRICT_HOSTNAME_VERIFIER;
+  public static final java.lang.String TLS;
+  public org.apache.http.conn.ssl.SSLSocketFactory(java.lang.String, java.security.KeyStore, java.lang.String, java.security.KeyStore, java.security.SecureRandom, org.apache.http.conn.scheme.HostNameResolver) throws java.security.NoSuchAlgorithmException, java.security.KeyManagementException, java.security.KeyStoreException, java.security.UnrecoverableKeyException;
+  public org.apache.http.conn.ssl.SSLSocketFactory(java.security.KeyStore, java.lang.String, java.security.KeyStore) throws java.security.NoSuchAlgorithmException, java.security.KeyManagementException, java.security.KeyStoreException, java.security.UnrecoverableKeyException;
+  public org.apache.http.conn.ssl.SSLSocketFactory(java.security.KeyStore, java.lang.String) throws java.security.NoSuchAlgorithmException, java.security.KeyManagementException, java.security.KeyStoreException, java.security.UnrecoverableKeyException;
+  public org.apache.http.conn.ssl.SSLSocketFactory(java.security.KeyStore) throws java.security.NoSuchAlgorithmException, java.security.KeyManagementException, java.security.KeyStoreException, java.security.UnrecoverableKeyException;
+  public static org.apache.http.conn.ssl.SSLSocketFactory getSocketFactory();
+  public java.net.Socket createSocket() throws java.io.IOException;
+  public java.net.Socket connectSocket(java.net.Socket, java.lang.String, int, java.net.InetAddress, int, org.apache.http.params.HttpParams) throws java.io.IOException;
+  public boolean isSecure(java.net.Socket) throws java.lang.IllegalArgumentException;
+  public java.net.Socket createSocket(java.net.Socket, java.lang.String, int, boolean) throws java.io.IOException, java.net.UnknownHostException;
+  public void setHostnameVerifier(org.apache.http.conn.ssl.X509HostnameVerifier);
+  public org.apache.http.conn.ssl.X509HostnameVerifier getHostnameVerifier();
+  static {};
+}

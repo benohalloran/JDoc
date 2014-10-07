@@ -1,0 +1,25 @@
+Compiled from "CompoundButton.java"
+public abstract class android.widget.CompoundButton extends android.widget.Button implements android.widget.Checkable {
+  public android.widget.CompoundButton(android.content.Context);
+  public android.widget.CompoundButton(android.content.Context, android.util.AttributeSet);
+  public android.widget.CompoundButton(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.CompoundButton(android.content.Context, android.util.AttributeSet, int, int);
+  public void toggle();
+  public boolean performClick();
+  public boolean isChecked();
+  public void setChecked(boolean);
+  public void setOnCheckedChangeListener(android.widget.CompoundButton$OnCheckedChangeListener);
+  public void setButtonDrawable(int);
+  public void setButtonDrawable(android.graphics.drawable.Drawable);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public int getCompoundPaddingLeft();
+  public int getCompoundPaddingRight();
+  protected void onDraw(android.graphics.Canvas);
+  protected int[] onCreateDrawableState(int);
+  protected void drawableStateChanged();
+  protected boolean verifyDrawable(android.graphics.drawable.Drawable);
+  public void jumpDrawablesToCurrentState();
+  public android.os.Parcelable onSaveInstanceState();
+  public void onRestoreInstanceState(android.os.Parcelable);
+}

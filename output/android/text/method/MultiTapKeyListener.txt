@@ -1,0 +1,10 @@
+Compiled from "MultiTapKeyListener.java"
+public class android.text.method.MultiTapKeyListener extends android.text.method.BaseKeyListener implements android.text.SpanWatcher {
+  public android.text.method.MultiTapKeyListener(android.text.method.TextKeyListener$Capitalize, boolean);
+  public static android.text.method.MultiTapKeyListener getInstance(boolean, android.text.method.TextKeyListener$Capitalize);
+  public int getInputType();
+  public boolean onKeyDown(android.view.View, android.text.Editable, int, android.view.KeyEvent);
+  public void onSpanChanged(android.text.Spannable, java.lang.Object, int, int, int, int);
+  public void onSpanAdded(android.text.Spannable, java.lang.Object, int, int);
+  public void onSpanRemoved(android.text.Spannable, java.lang.Object, int, int);
+}

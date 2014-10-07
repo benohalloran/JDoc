@@ -1,0 +1,6 @@
+Compiled from "ClickableSpan.java"
+public abstract class android.text.style.ClickableSpan extends android.text.style.CharacterStyle implements android.text.style.UpdateAppearance {
+  public android.text.style.ClickableSpan();
+  public abstract void onClick(android.view.View);
+  public void updateDrawState(android.text.TextPaint);
+}

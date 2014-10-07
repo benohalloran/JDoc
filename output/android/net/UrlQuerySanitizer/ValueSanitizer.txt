@@ -1,0 +1,4 @@
+Compiled from "UrlQuerySanitizer.java"
+public interface android.net.UrlQuerySanitizer$ValueSanitizer {
+  public abstract java.lang.String sanitize(java.lang.String);
+}

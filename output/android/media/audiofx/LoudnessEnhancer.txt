@@ -1,0 +1,7 @@
+Compiled from "LoudnessEnhancer.java"
+public class android.media.audiofx.LoudnessEnhancer extends android.media.audiofx.AudioEffect {
+  public static final int PARAM_TARGET_GAIN_MB;
+  public android.media.audiofx.LoudnessEnhancer(int) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException, java.lang.RuntimeException;
+  public void setTargetGain(int) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public float getTargetGain() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+}

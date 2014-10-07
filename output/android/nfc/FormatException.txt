@@ -1,0 +1,6 @@
+Compiled from "FormatException.java"
+public class android.nfc.FormatException extends java.lang.Exception {
+  public android.nfc.FormatException();
+  public android.nfc.FormatException(java.lang.String);
+  public android.nfc.FormatException(java.lang.String, java.lang.Throwable);
+}

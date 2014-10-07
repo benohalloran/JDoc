@@ -1,0 +1,4 @@
+Compiled from "DiscretePathEffect.java"
+public class android.graphics.DiscretePathEffect extends android.graphics.PathEffect {
+  public android.graphics.DiscretePathEffect(float, float);
+}

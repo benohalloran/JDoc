@@ -1,0 +1,16 @@
+Compiled from "VpnService.java"
+public class android.net.VpnService$Builder {
+  final android.net.VpnService this$0;
+  public android.net.VpnService$Builder(android.net.VpnService);
+  public android.net.VpnService$Builder setSession(java.lang.String);
+  public android.net.VpnService$Builder setConfigureIntent(android.app.PendingIntent);
+  public android.net.VpnService$Builder setMtu(int);
+  public android.net.VpnService$Builder addAddress(java.net.InetAddress, int);
+  public android.net.VpnService$Builder addAddress(java.lang.String, int);
+  public android.net.VpnService$Builder addRoute(java.net.InetAddress, int);
+  public android.net.VpnService$Builder addRoute(java.lang.String, int);
+  public android.net.VpnService$Builder addDnsServer(java.net.InetAddress);
+  public android.net.VpnService$Builder addDnsServer(java.lang.String);
+  public android.net.VpnService$Builder addSearchDomain(java.lang.String);
+  public android.os.ParcelFileDescriptor establish();
+}

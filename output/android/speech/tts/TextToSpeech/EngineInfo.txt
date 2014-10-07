@@ -1,0 +1,8 @@
+Compiled from "TextToSpeech.java"
+public class android.speech.tts.TextToSpeech$EngineInfo {
+  public int icon;
+  public java.lang.String label;
+  public java.lang.String name;
+  public android.speech.tts.TextToSpeech$EngineInfo();
+  public java.lang.String toString();
+}

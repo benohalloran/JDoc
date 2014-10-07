@@ -1,0 +1,4 @@
+Compiled from "HttpRequestHandlerResolver.java"
+public interface org.apache.http.protocol.HttpRequestHandlerResolver {
+  public abstract org.apache.http.protocol.HttpRequestHandler lookup(java.lang.String);
+}

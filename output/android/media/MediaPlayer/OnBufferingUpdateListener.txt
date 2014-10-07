@@ -1,0 +1,4 @@
+Compiled from "MediaPlayer.java"
+public interface android.media.MediaPlayer$OnBufferingUpdateListener {
+  public abstract void onBufferingUpdate(android.media.MediaPlayer, int);
+}

@@ -1,0 +1,4 @@
+Compiled from "Chronometer.java"
+public interface android.widget.Chronometer$OnChronometerTickListener {
+  public abstract void onChronometerTick(android.widget.Chronometer);
+}

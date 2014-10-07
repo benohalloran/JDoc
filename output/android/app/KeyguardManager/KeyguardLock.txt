@@ -1,0 +1,7 @@
+Compiled from "KeyguardManager.java"
+public class android.app.KeyguardManager$KeyguardLock {
+  final android.app.KeyguardManager this$0;
+  android.app.KeyguardManager$KeyguardLock(android.app.KeyguardManager);
+  public void disableKeyguard();
+  public void reenableKeyguard();
+}

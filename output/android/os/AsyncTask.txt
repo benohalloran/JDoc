@@ -1,0 +1,22 @@
+Compiled from "AsyncTask.java"
+public abstract class android.os.AsyncTask<Params, Progress, Result> {
+  public static final java.util.concurrent.Executor SERIAL_EXECUTOR;
+  public static final java.util.concurrent.Executor THREAD_POOL_EXECUTOR;
+  public android.os.AsyncTask();
+  public final android.os.AsyncTask$Status getStatus();
+  protected abstract Result doInBackground(Params...);
+  protected void onPreExecute();
+  protected void onPostExecute(Result);
+  protected void onProgressUpdate(Progress...);
+  protected void onCancelled(Result);
+  protected void onCancelled();
+  public final boolean isCancelled();
+  public final boolean cancel(boolean);
+  public final Result get() throws java.lang.InterruptedException, java.util.concurrent.ExecutionException;
+  public final Result get(long, java.util.concurrent.TimeUnit) throws java.lang.InterruptedException, java.util.concurrent.ExecutionException, java.util.concurrent.TimeoutException;
+  public final android.os.AsyncTask<Params, Progress, Result> execute(Params...);
+  public final android.os.AsyncTask<Params, Progress, Result> executeOnExecutor(java.util.concurrent.Executor, Params...);
+  public static void execute(java.lang.Runnable);
+  protected final void publishProgress(Progress...);
+  static {};
+}

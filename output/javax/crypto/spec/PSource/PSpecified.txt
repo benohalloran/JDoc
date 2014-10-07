@@ -1,0 +1,7 @@
+Compiled from "PSource.java"
+public final class javax.crypto.spec.PSource$PSpecified extends javax.crypto.spec.PSource {
+  public static final javax.crypto.spec.PSource$PSpecified DEFAULT;
+  public javax.crypto.spec.PSource$PSpecified(byte[]);
+  public byte[] getValue();
+  static {};
+}

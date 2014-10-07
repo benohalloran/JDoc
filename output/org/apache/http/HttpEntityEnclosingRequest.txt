@@ -1,0 +1,6 @@
+Compiled from "HttpEntityEnclosingRequest.java"
+public interface org.apache.http.HttpEntityEnclosingRequest extends org.apache.http.HttpRequest {
+  public abstract boolean expectContinue();
+  public abstract void setEntity(org.apache.http.HttpEntity);
+  public abstract org.apache.http.HttpEntity getEntity();
+}

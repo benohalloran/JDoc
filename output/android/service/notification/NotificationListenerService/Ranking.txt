@@ -1,0 +1,8 @@
+Compiled from "NotificationListenerService.java"
+public class android.service.notification.NotificationListenerService$Ranking {
+  android.service.notification.NotificationListenerService$Ranking();
+  public java.lang.String getKey();
+  public int getRank();
+  public boolean isAmbient();
+  public boolean isInterceptedByDoNotDisturb();
+}

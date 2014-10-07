@@ -1,0 +1,14 @@
+Compiled from "ViewDebug.java"
+public final class android.view.ViewDebug$HierarchyTraceType extends java.lang.Enum<android.view.ViewDebug$HierarchyTraceType> {
+  public static final android.view.ViewDebug$HierarchyTraceType BUILD_CACHE;
+  public static final android.view.ViewDebug$HierarchyTraceType DRAW;
+  public static final android.view.ViewDebug$HierarchyTraceType INVALIDATE;
+  public static final android.view.ViewDebug$HierarchyTraceType INVALIDATE_CHILD;
+  public static final android.view.ViewDebug$HierarchyTraceType INVALIDATE_CHILD_IN_PARENT;
+  public static final android.view.ViewDebug$HierarchyTraceType ON_LAYOUT;
+  public static final android.view.ViewDebug$HierarchyTraceType ON_MEASURE;
+  public static final android.view.ViewDebug$HierarchyTraceType REQUEST_LAYOUT;
+  public static android.view.ViewDebug$HierarchyTraceType[] values();
+  public static android.view.ViewDebug$HierarchyTraceType valueOf(java.lang.String);
+  static {};
+}

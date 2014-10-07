@@ -1,0 +1,11 @@
+Compiled from "KeyboardView.java"
+public interface android.inputmethodservice.KeyboardView$OnKeyboardActionListener {
+  public abstract void onPress(int);
+  public abstract void onRelease(int);
+  public abstract void onKey(int, int[]);
+  public abstract void onText(java.lang.CharSequence);
+  public abstract void swipeLeft();
+  public abstract void swipeRight();
+  public abstract void swipeDown();
+  public abstract void swipeUp();
+}

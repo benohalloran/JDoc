@@ -1,0 +1,36 @@
+Compiled from "DialogPreference.java"
+public abstract class android.preference.DialogPreference extends android.preference.Preference implements android.content.DialogInterface$OnClickListener,android.content.DialogInterface$OnDismissListener,android.preference.PreferenceManager$OnActivityDestroyListener {
+  public android.preference.DialogPreference(android.content.Context, android.util.AttributeSet, int, int);
+  public android.preference.DialogPreference(android.content.Context, android.util.AttributeSet, int);
+  public android.preference.DialogPreference(android.content.Context, android.util.AttributeSet);
+  public android.preference.DialogPreference(android.content.Context);
+  public void setDialogTitle(java.lang.CharSequence);
+  public void setDialogTitle(int);
+  public java.lang.CharSequence getDialogTitle();
+  public void setDialogMessage(java.lang.CharSequence);
+  public void setDialogMessage(int);
+  public java.lang.CharSequence getDialogMessage();
+  public void setDialogIcon(android.graphics.drawable.Drawable);
+  public void setDialogIcon(int);
+  public android.graphics.drawable.Drawable getDialogIcon();
+  public void setPositiveButtonText(java.lang.CharSequence);
+  public void setPositiveButtonText(int);
+  public java.lang.CharSequence getPositiveButtonText();
+  public void setNegativeButtonText(java.lang.CharSequence);
+  public void setNegativeButtonText(int);
+  public java.lang.CharSequence getNegativeButtonText();
+  public void setDialogLayoutResource(int);
+  public int getDialogLayoutResource();
+  protected void onPrepareDialogBuilder(android.app.AlertDialog$Builder);
+  protected void onClick();
+  protected void showDialog(android.os.Bundle);
+  protected android.view.View onCreateDialogView();
+  protected void onBindDialogView(android.view.View);
+  public void onClick(android.content.DialogInterface, int);
+  public void onDismiss(android.content.DialogInterface);
+  protected void onDialogClosed(boolean);
+  public android.app.Dialog getDialog();
+  public void onActivityDestroy();
+  protected android.os.Parcelable onSaveInstanceState();
+  protected void onRestoreInstanceState(android.os.Parcelable);
+}

@@ -1,0 +1,16 @@
+Compiled from "Reader.java"
+public abstract class java.io.Reader implements java.lang.Readable,java.io.Closeable {
+  protected java.lang.Object lock;
+  protected java.io.Reader();
+  protected java.io.Reader(java.lang.Object);
+  public abstract void close() throws java.io.IOException;
+  public void mark(int) throws java.io.IOException;
+  public boolean markSupported();
+  public int read() throws java.io.IOException;
+  public int read(char[]) throws java.io.IOException;
+  public abstract int read(char[], int, int) throws java.io.IOException;
+  public boolean ready() throws java.io.IOException;
+  public void reset() throws java.io.IOException;
+  public long skip(long) throws java.io.IOException;
+  public int read(java.nio.CharBuffer) throws java.io.IOException;
+}

@@ -1,0 +1,5 @@
+Compiled from "JsPromptResult.java"
+public class android.webkit.JsPromptResult extends android.webkit.JsResult {
+  android.webkit.JsPromptResult();
+  public void confirm(java.lang.String);
+}

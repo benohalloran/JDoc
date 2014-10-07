@@ -1,0 +1,45 @@
+Compiled from "CursorWrapper.java"
+public class android.database.CursorWrapper implements android.database.Cursor {
+  public android.database.CursorWrapper(android.database.Cursor);
+  public android.database.Cursor getWrappedCursor();
+  public void close();
+  public boolean isClosed();
+  public int getCount();
+  public void deactivate();
+  public boolean moveToFirst();
+  public int getColumnCount();
+  public int getColumnIndex(java.lang.String);
+  public int getColumnIndexOrThrow(java.lang.String) throws java.lang.IllegalArgumentException;
+  public java.lang.String getColumnName(int);
+  public java.lang.String[] getColumnNames();
+  public double getDouble(int);
+  public android.os.Bundle getExtras();
+  public float getFloat(int);
+  public int getInt(int);
+  public long getLong(int);
+  public short getShort(int);
+  public java.lang.String getString(int);
+  public void copyStringToBuffer(int, android.database.CharArrayBuffer);
+  public byte[] getBlob(int);
+  public boolean getWantsAllOnMoveCalls();
+  public boolean isAfterLast();
+  public boolean isBeforeFirst();
+  public boolean isFirst();
+  public boolean isLast();
+  public int getType(int);
+  public boolean isNull(int);
+  public boolean moveToLast();
+  public boolean move(int);
+  public boolean moveToPosition(int);
+  public boolean moveToNext();
+  public int getPosition();
+  public boolean moveToPrevious();
+  public void registerContentObserver(android.database.ContentObserver);
+  public void registerDataSetObserver(android.database.DataSetObserver);
+  public boolean requery();
+  public android.os.Bundle respond(android.os.Bundle);
+  public void setNotificationUri(android.content.ContentResolver, android.net.Uri);
+  public android.net.Uri getNotificationUri();
+  public void unregisterContentObserver(android.database.ContentObserver);
+  public void unregisterDataSetObserver(android.database.DataSetObserver);
+}

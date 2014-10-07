@@ -1,0 +1,5 @@
+Compiled from "Version.java"
+public class junit.runner.Version {
+  junit.runner.Version();
+  public static java.lang.String id();
+}

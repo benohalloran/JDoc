@@ -1,0 +1,6 @@
+Compiled from "DataSetObserver.java"
+public abstract class android.database.DataSetObserver {
+  public android.database.DataSetObserver();
+  public void onChanged();
+  public void onInvalidated();
+}

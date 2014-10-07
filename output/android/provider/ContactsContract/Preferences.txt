@@ -1,0 +1,10 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$Preferences {
+  public static final java.lang.String DISPLAY_ORDER;
+  public static final int DISPLAY_ORDER_ALTERNATIVE;
+  public static final int DISPLAY_ORDER_PRIMARY;
+  public static final java.lang.String SORT_ORDER;
+  public static final int SORT_ORDER_ALTERNATIVE;
+  public static final int SORT_ORDER_PRIMARY;
+  public android.provider.ContactsContract$Preferences();
+}

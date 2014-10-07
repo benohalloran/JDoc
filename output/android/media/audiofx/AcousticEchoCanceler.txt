@@ -1,0 +1,6 @@
+Compiled from "AcousticEchoCanceler.java"
+public class android.media.audiofx.AcousticEchoCanceler extends android.media.audiofx.AudioEffect {
+  android.media.audiofx.AcousticEchoCanceler();
+  public static boolean isAvailable();
+  public static android.media.audiofx.AcousticEchoCanceler create(int);
+}

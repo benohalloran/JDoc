@@ -1,0 +1,19 @@
+Compiled from "Linkify.java"
+public class android.text.util.Linkify {
+  public static final int ALL;
+  public static final int EMAIL_ADDRESSES;
+  public static final int MAP_ADDRESSES;
+  public static final int PHONE_NUMBERS;
+  public static final int WEB_URLS;
+  public static final android.text.util.Linkify$MatchFilter sPhoneNumberMatchFilter;
+  public static final android.text.util.Linkify$TransformFilter sPhoneNumberTransformFilter;
+  public static final android.text.util.Linkify$MatchFilter sUrlMatchFilter;
+  public android.text.util.Linkify();
+  public static final boolean addLinks(android.text.Spannable, int);
+  public static final boolean addLinks(android.widget.TextView, int);
+  public static final void addLinks(android.widget.TextView, java.util.regex.Pattern, java.lang.String);
+  public static final void addLinks(android.widget.TextView, java.util.regex.Pattern, java.lang.String, android.text.util.Linkify$MatchFilter, android.text.util.Linkify$TransformFilter);
+  public static final boolean addLinks(android.text.Spannable, java.util.regex.Pattern, java.lang.String);
+  public static final boolean addLinks(android.text.Spannable, java.util.regex.Pattern, java.lang.String, android.text.util.Linkify$MatchFilter, android.text.util.Linkify$TransformFilter);
+  static {};
+}

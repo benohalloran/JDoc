@@ -1,0 +1,30 @@
+Compiled from "Telephony.java"
+public interface android.provider.Telephony$TextBasedSmsColumns {
+  public static final java.lang.String ADDRESS;
+  public static final java.lang.String BODY;
+  public static final java.lang.String DATE;
+  public static final java.lang.String DATE_SENT;
+  public static final java.lang.String ERROR_CODE;
+  public static final java.lang.String LOCKED;
+  public static final int MESSAGE_TYPE_ALL;
+  public static final int MESSAGE_TYPE_DRAFT;
+  public static final int MESSAGE_TYPE_FAILED;
+  public static final int MESSAGE_TYPE_INBOX;
+  public static final int MESSAGE_TYPE_OUTBOX;
+  public static final int MESSAGE_TYPE_QUEUED;
+  public static final int MESSAGE_TYPE_SENT;
+  public static final java.lang.String PERSON;
+  public static final java.lang.String PROTOCOL;
+  public static final java.lang.String READ;
+  public static final java.lang.String REPLY_PATH_PRESENT;
+  public static final java.lang.String SEEN;
+  public static final java.lang.String SERVICE_CENTER;
+  public static final java.lang.String STATUS;
+  public static final int STATUS_COMPLETE;
+  public static final int STATUS_FAILED;
+  public static final int STATUS_NONE;
+  public static final int STATUS_PENDING;
+  public static final java.lang.String SUBJECT;
+  public static final java.lang.String THREAD_ID;
+  public static final java.lang.String TYPE;
+}

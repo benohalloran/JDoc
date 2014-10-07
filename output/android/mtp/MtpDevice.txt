@@ -1,0 +1,21 @@
+Compiled from "MtpDevice.java"
+public final class android.mtp.MtpDevice {
+  public android.mtp.MtpDevice(android.hardware.usb.UsbDevice);
+  public boolean open(android.hardware.usb.UsbDeviceConnection);
+  public void close();
+  protected void finalize() throws java.lang.Throwable;
+  public java.lang.String getDeviceName();
+  public int getDeviceId();
+  public java.lang.String toString();
+  public android.mtp.MtpDeviceInfo getDeviceInfo();
+  public int[] getStorageIds();
+  public int[] getObjectHandles(int, int, int);
+  public byte[] getObject(int, int);
+  public byte[] getThumbnail(int);
+  public android.mtp.MtpStorageInfo getStorageInfo(int);
+  public android.mtp.MtpObjectInfo getObjectInfo(int);
+  public boolean deleteObject(int);
+  public long getParent(int);
+  public long getStorageId(int);
+  public boolean importFile(int, java.lang.String);
+}

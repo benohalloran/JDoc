@@ -1,0 +1,24 @@
+Compiled from "WallpaperService.java"
+public class android.service.wallpaper.WallpaperService$Engine {
+  final android.service.wallpaper.WallpaperService this$0;
+  public android.service.wallpaper.WallpaperService$Engine(android.service.wallpaper.WallpaperService);
+  public android.view.SurfaceHolder getSurfaceHolder();
+  public int getDesiredMinimumWidth();
+  public int getDesiredMinimumHeight();
+  public boolean isVisible();
+  public boolean isPreview();
+  public void setTouchEventsEnabled(boolean);
+  public void setOffsetNotificationsEnabled(boolean);
+  public void onCreate(android.view.SurfaceHolder);
+  public void onDestroy();
+  public void onVisibilityChanged(boolean);
+  public void onTouchEvent(android.view.MotionEvent);
+  public void onOffsetsChanged(float, float, float, float, int, int);
+  public android.os.Bundle onCommand(java.lang.String, int, int, int, android.os.Bundle, boolean);
+  public void onDesiredSizeChanged(int, int);
+  public void onSurfaceChanged(android.view.SurfaceHolder, int, int, int);
+  public void onSurfaceRedrawNeeded(android.view.SurfaceHolder);
+  public void onSurfaceCreated(android.view.SurfaceHolder);
+  public void onSurfaceDestroyed(android.view.SurfaceHolder);
+  protected void dump(java.lang.String, java.io.FileDescriptor, java.io.PrintWriter, java.lang.String[]);
+}

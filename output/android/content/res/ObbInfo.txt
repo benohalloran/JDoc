@@ -1,0 +1,14 @@
+Compiled from "ObbInfo.java"
+public class android.content.res.ObbInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.res.ObbInfo> CREATOR;
+  public static final int OBB_OVERLAY;
+  public java.lang.String filename;
+  public int flags;
+  public java.lang.String packageName;
+  public int version;
+  android.content.res.ObbInfo();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

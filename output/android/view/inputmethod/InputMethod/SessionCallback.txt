@@ -1,0 +1,4 @@
+Compiled from "InputMethod.java"
+public interface android.view.inputmethod.InputMethod$SessionCallback {
+  public abstract void sessionCreated(android.view.inputmethod.InputMethodSession);
+}

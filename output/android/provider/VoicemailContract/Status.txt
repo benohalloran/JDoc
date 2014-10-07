@@ -1,0 +1,23 @@
+Compiled from "VoicemailContract.java"
+public final class android.provider.VoicemailContract$Status implements android.provider.BaseColumns {
+  public static final java.lang.String CONFIGURATION_STATE;
+  public static final int CONFIGURATION_STATE_CAN_BE_CONFIGURED;
+  public static final int CONFIGURATION_STATE_NOT_CONFIGURED;
+  public static final int CONFIGURATION_STATE_OK;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DATA_CHANNEL_STATE;
+  public static final int DATA_CHANNEL_STATE_NO_CONNECTION;
+  public static final int DATA_CHANNEL_STATE_OK;
+  public static final java.lang.String DIR_TYPE;
+  public static final java.lang.String ITEM_TYPE;
+  public static final java.lang.String NOTIFICATION_CHANNEL_STATE;
+  public static final int NOTIFICATION_CHANNEL_STATE_MESSAGE_WAITING;
+  public static final int NOTIFICATION_CHANNEL_STATE_NO_CONNECTION;
+  public static final int NOTIFICATION_CHANNEL_STATE_OK;
+  public static final java.lang.String SETTINGS_URI;
+  public static final java.lang.String SOURCE_PACKAGE;
+  public static final java.lang.String VOICEMAIL_ACCESS_URI;
+  android.provider.VoicemailContract$Status();
+  public static android.net.Uri buildSourceUri(java.lang.String);
+  static {};
+}

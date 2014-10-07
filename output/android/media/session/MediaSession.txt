@@ -1,0 +1,23 @@
+Compiled from "MediaSession.java"
+public final class android.media.session.MediaSession {
+  public static final int FLAG_HANDLES_MEDIA_BUTTONS;
+  public static final int FLAG_HANDLES_TRANSPORT_CONTROLS;
+  android.media.session.MediaSession();
+  public void addCallback(android.media.session.MediaSession$Callback);
+  public void addCallback(android.media.session.MediaSession$Callback, android.os.Handler);
+  public void removeCallback(android.media.session.MediaSession$Callback);
+  public void setLaunchPendingIntent(android.app.PendingIntent);
+  public void setFlags(int);
+  public void setPlaybackToLocal(int);
+  public void setPlaybackToRemote(android.media.session.RemoteVolumeProvider);
+  public void setActive(boolean);
+  public boolean isActive();
+  public void sendSessionEvent(java.lang.String, android.os.Bundle);
+  public void release();
+  public android.media.session.MediaSessionToken getSessionToken();
+  public void addTransportControlsCallback(android.media.session.MediaSession$TransportControlsCallback);
+  public void addTransportControlsCallback(android.media.session.MediaSession$TransportControlsCallback, android.os.Handler);
+  public void removeTransportControlsCallback(android.media.session.MediaSession$TransportControlsCallback);
+  public void setPlaybackState(android.media.session.PlaybackState);
+  public void setMetadata(android.media.MediaMetadata);
+}

@@ -1,0 +1,7 @@
+Compiled from "HideReturnsTransformationMethod.java"
+public class android.text.method.HideReturnsTransformationMethod extends android.text.method.ReplacementTransformationMethod {
+  public android.text.method.HideReturnsTransformationMethod();
+  protected char[] getOriginal();
+  protected char[] getReplacement();
+  public static android.text.method.HideReturnsTransformationMethod getInstance();
+}

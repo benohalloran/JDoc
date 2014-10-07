@@ -1,0 +1,41 @@
+Compiled from "TreeMap.java"
+public class java.util.TreeMap<K, V> extends java.util.AbstractMap<K, V> implements java.util.SortedMap<K, V>, java.util.NavigableMap<K, V>, java.lang.Cloneable, java.io.Serializable {
+  public java.util.TreeMap();
+  public java.util.TreeMap(java.util.Map<? extends K, ? extends V>);
+  public java.util.TreeMap(java.util.Comparator<? super K>);
+  public java.util.TreeMap(java.util.SortedMap<K, ? extends V>);
+  public java.lang.Object clone();
+  public int size();
+  public boolean isEmpty();
+  public V get(java.lang.Object);
+  public boolean containsKey(java.lang.Object);
+  public V put(K, V);
+  public void clear();
+  public V remove(java.lang.Object);
+  public java.util.Map$Entry<K, V> firstEntry();
+  public java.util.Map$Entry<K, V> pollFirstEntry();
+  public K firstKey();
+  public java.util.Map$Entry<K, V> lastEntry();
+  public java.util.Map$Entry<K, V> pollLastEntry();
+  public K lastKey();
+  public java.util.Map$Entry<K, V> lowerEntry(K);
+  public K lowerKey(K);
+  public java.util.Map$Entry<K, V> floorEntry(K);
+  public K floorKey(K);
+  public java.util.Map$Entry<K, V> ceilingEntry(K);
+  public K ceilingKey(K);
+  public java.util.Map$Entry<K, V> higherEntry(K);
+  public K higherKey(K);
+  public java.util.Comparator<? super K> comparator();
+  public java.util.Set<java.util.Map$Entry<K, V>> entrySet();
+  public java.util.Set<K> keySet();
+  public java.util.NavigableSet<K> navigableKeySet();
+  public java.util.NavigableMap<K, V> subMap(K, boolean, K, boolean);
+  public java.util.SortedMap<K, V> subMap(K, K);
+  public java.util.NavigableMap<K, V> headMap(K, boolean);
+  public java.util.SortedMap<K, V> headMap(K);
+  public java.util.NavigableMap<K, V> tailMap(K, boolean);
+  public java.util.SortedMap<K, V> tailMap(K);
+  public java.util.NavigableMap<K, V> descendingMap();
+  public java.util.NavigableSet<K> descendingKeySet();
+}

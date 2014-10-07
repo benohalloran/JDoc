@@ -1,0 +1,7 @@
+Compiled from "SidePropagation.java"
+public class android.transition.SidePropagation extends android.transition.VisibilityPropagation {
+  public android.transition.SidePropagation();
+  public void setSide(int);
+  public void setPropagationSpeed(float);
+  public long getStartDelay(android.view.ViewGroup, android.transition.Transition, android.transition.TransitionValues, android.transition.TransitionValues);
+}

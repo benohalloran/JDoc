@@ -1,0 +1,4 @@
+Compiled from "ReceiverCallNotAllowedException.java"
+public class android.content.ReceiverCallNotAllowedException extends android.util.AndroidRuntimeException {
+  public android.content.ReceiverCallNotAllowedException(java.lang.String);
+}

@@ -1,0 +1,13 @@
+Compiled from "SQLiteProgram.java"
+public abstract class android.database.sqlite.SQLiteProgram extends android.database.sqlite.SQLiteClosable {
+  android.database.sqlite.SQLiteProgram();
+  public final int getUniqueId();
+  public void bindNull(int);
+  public void bindLong(int, long);
+  public void bindDouble(int, double);
+  public void bindString(int, java.lang.String);
+  public void bindBlob(int, byte[]);
+  public void clearBindings();
+  public void bindAllArgsAsStrings(java.lang.String[]);
+  protected void onAllReferencesReleased();
+}

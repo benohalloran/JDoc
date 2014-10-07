@@ -1,0 +1,5 @@
+Compiled from "SQLiteCantOpenDatabaseException.java"
+public class android.database.sqlite.SQLiteCantOpenDatabaseException extends android.database.sqlite.SQLiteException {
+  public android.database.sqlite.SQLiteCantOpenDatabaseException();
+  public android.database.sqlite.SQLiteCantOpenDatabaseException(java.lang.String);
+}

@@ -1,0 +1,6 @@
+Compiled from "Animation.java"
+public class android.view.animation.Animation$Description {
+  public int type;
+  public float value;
+  protected android.view.animation.Animation$Description();
+}

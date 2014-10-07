@@ -1,0 +1,32 @@
+Compiled from "Message.java"
+public final class android.os.Message implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.os.Message> CREATOR;
+  public int arg1;
+  public int arg2;
+  public java.lang.Object obj;
+  public android.os.Messenger replyTo;
+  public int what;
+  public android.os.Message();
+  public static android.os.Message obtain();
+  public static android.os.Message obtain(android.os.Message);
+  public static android.os.Message obtain(android.os.Handler);
+  public static android.os.Message obtain(android.os.Handler, java.lang.Runnable);
+  public static android.os.Message obtain(android.os.Handler, int);
+  public static android.os.Message obtain(android.os.Handler, int, java.lang.Object);
+  public static android.os.Message obtain(android.os.Handler, int, int, int);
+  public static android.os.Message obtain(android.os.Handler, int, int, int, java.lang.Object);
+  public void recycle();
+  public void copyFrom(android.os.Message);
+  public long getWhen();
+  public void setTarget(android.os.Handler);
+  public android.os.Handler getTarget();
+  public java.lang.Runnable getCallback();
+  public android.os.Bundle getData();
+  public android.os.Bundle peekData();
+  public void setData(android.os.Bundle);
+  public void sendToTarget();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

@@ -1,0 +1,8 @@
+Compiled from "RoutedRequest.java"
+public class org.apache.http.impl.client.RoutedRequest {
+  protected final org.apache.http.impl.client.RequestWrapper request;
+  protected final org.apache.http.conn.routing.HttpRoute route;
+  public org.apache.http.impl.client.RoutedRequest(org.apache.http.impl.client.RequestWrapper, org.apache.http.conn.routing.HttpRoute);
+  public final org.apache.http.impl.client.RequestWrapper getRequest();
+  public final org.apache.http.conn.routing.HttpRoute getRoute();
+}

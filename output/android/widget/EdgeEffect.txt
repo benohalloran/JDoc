@@ -1,0 +1,13 @@
+Compiled from "EdgeEffect.java"
+public class android.widget.EdgeEffect {
+  public android.widget.EdgeEffect(android.content.Context);
+  public void setSize(int, int);
+  public boolean isFinished();
+  public void finish();
+  public void onPull(float);
+  public void onPull(float, float);
+  public void onRelease();
+  public void onAbsorb(int);
+  public boolean draw(android.graphics.Canvas);
+  public int getMaxHeight();
+}

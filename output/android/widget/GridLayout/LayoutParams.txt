@@ -1,0 +1,15 @@
+Compiled from "GridLayout.java"
+public class android.widget.GridLayout$LayoutParams extends android.view.ViewGroup$MarginLayoutParams {
+  public android.widget.GridLayout$Spec columnSpec;
+  public android.widget.GridLayout$Spec rowSpec;
+  public android.widget.GridLayout$LayoutParams(android.widget.GridLayout$Spec, android.widget.GridLayout$Spec);
+  public android.widget.GridLayout$LayoutParams();
+  public android.widget.GridLayout$LayoutParams(android.view.ViewGroup$LayoutParams);
+  public android.widget.GridLayout$LayoutParams(android.view.ViewGroup$MarginLayoutParams);
+  public android.widget.GridLayout$LayoutParams(android.widget.GridLayout$LayoutParams);
+  public android.widget.GridLayout$LayoutParams(android.content.Context, android.util.AttributeSet);
+  public void setGravity(int);
+  protected void setBaseAttributes(android.content.res.TypedArray, int, int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

@@ -1,0 +1,8 @@
+Compiled from "BasicUserPrincipal.java"
+public final class org.apache.http.auth.BasicUserPrincipal implements java.security.Principal {
+  public org.apache.http.auth.BasicUserPrincipal(java.lang.String);
+  public java.lang.String getName();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+}

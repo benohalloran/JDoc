@@ -1,0 +1,19 @@
+Compiled from "StackView.java"
+public class android.widget.StackView extends android.widget.AdapterViewAnimator {
+  public android.widget.StackView(android.content.Context);
+  public android.widget.StackView(android.content.Context, android.util.AttributeSet);
+  public android.widget.StackView(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.StackView(android.content.Context, android.util.AttributeSet, int, int);
+  public void showNext();
+  public void showPrevious();
+  protected void dispatchDraw(android.graphics.Canvas);
+  public boolean onGenericMotionEvent(android.view.MotionEvent);
+  public boolean onInterceptTouchEvent(android.view.MotionEvent);
+  public boolean onTouchEvent(android.view.MotionEvent);
+  protected void onLayout(boolean, int, int, int, int);
+  public void advance();
+  protected void onMeasure(int, int);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public boolean performAccessibilityAction(int, android.os.Bundle);
+}

@@ -1,0 +1,4 @@
+Compiled from "Preference.java"
+public interface android.preference.Preference$OnPreferenceClickListener {
+  public abstract boolean onPreferenceClick(android.preference.Preference);
+}

@@ -1,0 +1,11 @@
+Compiled from "HttpRouteDirector.java"
+public interface org.apache.http.conn.routing.HttpRouteDirector {
+  public static final int COMPLETE;
+  public static final int CONNECT_PROXY;
+  public static final int CONNECT_TARGET;
+  public static final int LAYER_PROTOCOL;
+  public static final int TUNNEL_PROXY;
+  public static final int TUNNEL_TARGET;
+  public static final int UNREACHABLE;
+  public abstract int nextStep(org.apache.http.conn.routing.RouteInfo, org.apache.http.conn.routing.RouteInfo);
+}

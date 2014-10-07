@@ -1,0 +1,11 @@
+Compiled from "BluetoothGattServerCallback.java"
+public abstract class android.bluetooth.BluetoothGattServerCallback {
+  public android.bluetooth.BluetoothGattServerCallback();
+  public void onConnectionStateChange(android.bluetooth.BluetoothDevice, int, int);
+  public void onServiceAdded(int, android.bluetooth.BluetoothGattService);
+  public void onCharacteristicReadRequest(android.bluetooth.BluetoothDevice, int, int, android.bluetooth.BluetoothGattCharacteristic);
+  public void onCharacteristicWriteRequest(android.bluetooth.BluetoothDevice, int, android.bluetooth.BluetoothGattCharacteristic, boolean, boolean, int, byte[]);
+  public void onDescriptorReadRequest(android.bluetooth.BluetoothDevice, int, int, android.bluetooth.BluetoothGattDescriptor);
+  public void onDescriptorWriteRequest(android.bluetooth.BluetoothDevice, int, android.bluetooth.BluetoothGattDescriptor, boolean, boolean, int, byte[]);
+  public void onExecuteWrite(android.bluetooth.BluetoothDevice, int, boolean);
+}

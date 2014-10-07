@@ -1,0 +1,4 @@
+Compiled from "MediaCryptoException.java"
+public final class android.media.MediaCryptoException extends java.lang.Exception {
+  public android.media.MediaCryptoException(java.lang.String);
+}

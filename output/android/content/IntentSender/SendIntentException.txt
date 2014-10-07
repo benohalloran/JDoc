@@ -1,0 +1,6 @@
+Compiled from "IntentSender.java"
+public class android.content.IntentSender$SendIntentException extends android.util.AndroidException {
+  public android.content.IntentSender$SendIntentException();
+  public android.content.IntentSender$SendIntentException(java.lang.String);
+  public android.content.IntentSender$SendIntentException(java.lang.Exception);
+}

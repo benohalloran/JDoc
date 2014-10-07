@@ -1,0 +1,9 @@
+Compiled from "SortedMap.java"
+public interface java.util.SortedMap<K, V> extends java.util.Map<K, V> {
+  public abstract java.util.Comparator<? super K> comparator();
+  public abstract K firstKey();
+  public abstract java.util.SortedMap<K, V> headMap(K);
+  public abstract K lastKey();
+  public abstract java.util.SortedMap<K, V> subMap(K, K);
+  public abstract java.util.SortedMap<K, V> tailMap(K);
+}

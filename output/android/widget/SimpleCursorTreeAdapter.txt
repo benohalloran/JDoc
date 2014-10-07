@@ -1,0 +1,12 @@
+Compiled from "SimpleCursorTreeAdapter.java"
+public abstract class android.widget.SimpleCursorTreeAdapter extends android.widget.ResourceCursorTreeAdapter {
+  public android.widget.SimpleCursorTreeAdapter(android.content.Context, android.database.Cursor, int, int, java.lang.String[], int[], int, int, java.lang.String[], int[]);
+  public android.widget.SimpleCursorTreeAdapter(android.content.Context, android.database.Cursor, int, int, java.lang.String[], int[], int, java.lang.String[], int[]);
+  public android.widget.SimpleCursorTreeAdapter(android.content.Context, android.database.Cursor, int, java.lang.String[], int[], int, java.lang.String[], int[]);
+  public android.widget.SimpleCursorTreeAdapter$ViewBinder getViewBinder();
+  public void setViewBinder(android.widget.SimpleCursorTreeAdapter$ViewBinder);
+  protected void bindChildView(android.view.View, android.content.Context, android.database.Cursor, boolean);
+  protected void bindGroupView(android.view.View, android.content.Context, android.database.Cursor, boolean);
+  protected void setViewImage(android.widget.ImageView, java.lang.String);
+  public void setViewText(android.widget.TextView, java.lang.String);
+}

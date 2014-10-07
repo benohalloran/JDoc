@@ -1,0 +1,20 @@
+Compiled from "MediaMetadataEditor.java"
+public abstract class android.media.MediaMetadataEditor {
+  public static final int BITMAP_KEY_ARTWORK;
+  public static final int RATING_KEY_BY_OTHERS;
+  public static final int RATING_KEY_BY_USER;
+  android.media.MediaMetadataEditor();
+  public abstract void apply();
+  public synchronized void clear();
+  public synchronized void addEditableKey(int);
+  public synchronized void removeEditableKeys();
+  public synchronized int[] getEditableKeys();
+  public synchronized android.media.MediaMetadataEditor putString(int, java.lang.String) throws java.lang.IllegalArgumentException;
+  public synchronized android.media.MediaMetadataEditor putLong(int, long) throws java.lang.IllegalArgumentException;
+  public synchronized android.media.MediaMetadataEditor putBitmap(int, android.graphics.Bitmap) throws java.lang.IllegalArgumentException;
+  public synchronized android.media.MediaMetadataEditor putObject(int, java.lang.Object) throws java.lang.IllegalArgumentException;
+  public synchronized long getLong(int, long) throws java.lang.IllegalArgumentException;
+  public synchronized java.lang.String getString(int, java.lang.String) throws java.lang.IllegalArgumentException;
+  public synchronized android.graphics.Bitmap getBitmap(int, android.graphics.Bitmap) throws java.lang.IllegalArgumentException;
+  public synchronized java.lang.Object getObject(int, java.lang.Object) throws java.lang.IllegalArgumentException;
+}

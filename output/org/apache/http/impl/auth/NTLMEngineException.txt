@@ -1,0 +1,6 @@
+Compiled from "NTLMEngineException.java"
+public class org.apache.http.impl.auth.NTLMEngineException extends org.apache.http.auth.AuthenticationException {
+  public org.apache.http.impl.auth.NTLMEngineException();
+  public org.apache.http.impl.auth.NTLMEngineException(java.lang.String);
+  public org.apache.http.impl.auth.NTLMEngineException(java.lang.String, java.lang.Throwable);
+}

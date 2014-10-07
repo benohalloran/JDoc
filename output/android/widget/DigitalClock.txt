@@ -1,0 +1,9 @@
+Compiled from "DigitalClock.java"
+public class android.widget.DigitalClock extends android.widget.TextView {
+  public android.widget.DigitalClock(android.content.Context);
+  public android.widget.DigitalClock(android.content.Context, android.util.AttributeSet);
+  protected void onAttachedToWindow();
+  protected void onDetachedFromWindow();
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

@@ -1,0 +1,15 @@
+Compiled from "BasicHeaderElement.java"
+public class org.apache.http.message.BasicHeaderElement implements org.apache.http.HeaderElement,java.lang.Cloneable {
+  public org.apache.http.message.BasicHeaderElement(java.lang.String, java.lang.String, org.apache.http.NameValuePair[]);
+  public org.apache.http.message.BasicHeaderElement(java.lang.String, java.lang.String);
+  public java.lang.String getName();
+  public java.lang.String getValue();
+  public org.apache.http.NameValuePair[] getParameters();
+  public int getParameterCount();
+  public org.apache.http.NameValuePair getParameter(int);
+  public org.apache.http.NameValuePair getParameterByName(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

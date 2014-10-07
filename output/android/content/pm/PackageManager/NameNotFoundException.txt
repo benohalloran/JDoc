@@ -1,0 +1,5 @@
+Compiled from "PackageManager.java"
+public class android.content.pm.PackageManager$NameNotFoundException extends android.util.AndroidException {
+  public android.content.pm.PackageManager$NameNotFoundException();
+  public android.content.pm.PackageManager$NameNotFoundException(java.lang.String);
+}

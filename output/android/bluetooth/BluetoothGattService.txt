@@ -1,0 +1,16 @@
+Compiled from "BluetoothGattService.java"
+public class android.bluetooth.BluetoothGattService {
+  public static final int SERVICE_TYPE_PRIMARY;
+  public static final int SERVICE_TYPE_SECONDARY;
+  protected java.util.List<android.bluetooth.BluetoothGattCharacteristic> mCharacteristics;
+  protected java.util.List<android.bluetooth.BluetoothGattService> mIncludedServices;
+  public android.bluetooth.BluetoothGattService(java.util.UUID, int);
+  public boolean addService(android.bluetooth.BluetoothGattService);
+  public boolean addCharacteristic(android.bluetooth.BluetoothGattCharacteristic);
+  public java.util.UUID getUuid();
+  public int getInstanceId();
+  public int getType();
+  public java.util.List<android.bluetooth.BluetoothGattService> getIncludedServices();
+  public java.util.List<android.bluetooth.BluetoothGattCharacteristic> getCharacteristics();
+  public android.bluetooth.BluetoothGattCharacteristic getCharacteristic(java.util.UUID);
+}

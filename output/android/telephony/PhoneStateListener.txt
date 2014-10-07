@@ -1,0 +1,26 @@
+Compiled from "PhoneStateListener.java"
+public class android.telephony.PhoneStateListener {
+  public static final int LISTEN_CALL_FORWARDING_INDICATOR;
+  public static final int LISTEN_CALL_STATE;
+  public static final int LISTEN_CELL_INFO;
+  public static final int LISTEN_CELL_LOCATION;
+  public static final int LISTEN_DATA_ACTIVITY;
+  public static final int LISTEN_DATA_CONNECTION_STATE;
+  public static final int LISTEN_MESSAGE_WAITING_INDICATOR;
+  public static final int LISTEN_NONE;
+  public static final int LISTEN_SERVICE_STATE;
+  public static final int LISTEN_SIGNAL_STRENGTH;
+  public static final int LISTEN_SIGNAL_STRENGTHS;
+  public android.telephony.PhoneStateListener();
+  public void onServiceStateChanged(android.telephony.ServiceState);
+  public void onSignalStrengthChanged(int);
+  public void onMessageWaitingIndicatorChanged(boolean);
+  public void onCallForwardingIndicatorChanged(boolean);
+  public void onCellLocationChanged(android.telephony.CellLocation);
+  public void onCallStateChanged(int, java.lang.String);
+  public void onDataConnectionStateChanged(int);
+  public void onDataConnectionStateChanged(int, int);
+  public void onDataActivity(int);
+  public void onSignalStrengthsChanged(android.telephony.SignalStrength);
+  public void onCellInfoChanged(java.util.List<android.telephony.CellInfo>);
+}

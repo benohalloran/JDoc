@@ -1,0 +1,9 @@
+Compiled from "Int4.java"
+public class android.renderscript.Int4 {
+  public int w;
+  public int x;
+  public int y;
+  public int z;
+  public android.renderscript.Int4();
+  public android.renderscript.Int4(int, int, int, int);
+}

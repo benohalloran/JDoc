@@ -1,0 +1,36 @@
+Compiled from "CamcorderProfile.java"
+public class android.media.CamcorderProfile {
+  public static final int QUALITY_1080P;
+  public static final int QUALITY_480P;
+  public static final int QUALITY_720P;
+  public static final int QUALITY_CIF;
+  public static final int QUALITY_HIGH;
+  public static final int QUALITY_LOW;
+  public static final int QUALITY_QCIF;
+  public static final int QUALITY_QVGA;
+  public static final int QUALITY_TIME_LAPSE_1080P;
+  public static final int QUALITY_TIME_LAPSE_480P;
+  public static final int QUALITY_TIME_LAPSE_720P;
+  public static final int QUALITY_TIME_LAPSE_CIF;
+  public static final int QUALITY_TIME_LAPSE_HIGH;
+  public static final int QUALITY_TIME_LAPSE_LOW;
+  public static final int QUALITY_TIME_LAPSE_QCIF;
+  public static final int QUALITY_TIME_LAPSE_QVGA;
+  public int audioBitRate;
+  public int audioChannels;
+  public int audioCodec;
+  public int audioSampleRate;
+  public int duration;
+  public int fileFormat;
+  public int quality;
+  public int videoBitRate;
+  public int videoCodec;
+  public int videoFrameHeight;
+  public int videoFrameRate;
+  public int videoFrameWidth;
+  android.media.CamcorderProfile();
+  public static android.media.CamcorderProfile get(int);
+  public static android.media.CamcorderProfile get(int, int);
+  public static boolean hasProfile(int);
+  public static boolean hasProfile(int, int);
+}

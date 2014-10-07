@@ -1,0 +1,25 @@
+Compiled from "SyncResult.java"
+public final class android.content.SyncResult implements android.os.Parcelable {
+  public static final android.content.SyncResult ALREADY_IN_PROGRESS;
+  public static final android.os.Parcelable$Creator<android.content.SyncResult> CREATOR;
+  public boolean databaseError;
+  public long delayUntil;
+  public boolean fullSyncRequested;
+  public boolean moreRecordsToGet;
+  public boolean partialSyncUnavailable;
+  public final android.content.SyncStats stats;
+  public final boolean syncAlreadyInProgress;
+  public boolean tooManyDeletions;
+  public boolean tooManyRetries;
+  public android.content.SyncResult();
+  public boolean hasHardError();
+  public boolean hasSoftError();
+  public boolean hasError();
+  public boolean madeSomeProgress();
+  public void clear();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String toString();
+  public java.lang.String toDebugString();
+  static {};
+}

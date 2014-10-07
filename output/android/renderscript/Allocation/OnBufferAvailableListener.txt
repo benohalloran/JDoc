@@ -1,0 +1,4 @@
+Compiled from "Allocation.java"
+public interface android.renderscript.Allocation$OnBufferAvailableListener {
+  public abstract void onBufferAvailable(android.renderscript.Allocation);
+}

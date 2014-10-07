@@ -1,0 +1,27 @@
+Compiled from "SuggestionSpan.java"
+public class android.text.style.SuggestionSpan extends android.text.style.CharacterStyle implements android.text.ParcelableSpan {
+  public static final java.lang.String ACTION_SUGGESTION_PICKED;
+  public static final android.os.Parcelable$Creator<android.text.style.SuggestionSpan> CREATOR;
+  public static final int FLAG_AUTO_CORRECTION;
+  public static final int FLAG_EASY_CORRECT;
+  public static final int FLAG_MISSPELLED;
+  public static final int SUGGESTIONS_MAX_SIZE;
+  public static final java.lang.String SUGGESTION_SPAN_PICKED_AFTER;
+  public static final java.lang.String SUGGESTION_SPAN_PICKED_BEFORE;
+  public static final java.lang.String SUGGESTION_SPAN_PICKED_HASHCODE;
+  public android.text.style.SuggestionSpan(android.content.Context, java.lang.String[], int);
+  public android.text.style.SuggestionSpan(java.util.Locale, java.lang.String[], int);
+  public android.text.style.SuggestionSpan(android.content.Context, java.util.Locale, java.lang.String[], int, java.lang.Class<?>);
+  public android.text.style.SuggestionSpan(android.os.Parcel);
+  public java.lang.String[] getSuggestions();
+  public java.lang.String getLocale();
+  public int getFlags();
+  public void setFlags(int);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int getSpanTypeId();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public void updateDrawState(android.text.TextPaint);
+  static {};
+}

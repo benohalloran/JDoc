@@ -1,0 +1,10 @@
+Compiled from "OrientedBoundingBox.java"
+public class android.gesture.OrientedBoundingBox {
+  public final float centerX;
+  public final float centerY;
+  public final float height;
+  public final float orientation;
+  public final float squareness;
+  public final float width;
+  android.gesture.OrientedBoundingBox();
+}

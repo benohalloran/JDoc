@@ -1,0 +1,4 @@
+Compiled from "MalformedJsonException.java"
+public final class android.util.MalformedJsonException extends java.io.IOException {
+  public android.util.MalformedJsonException(java.lang.String);
+}

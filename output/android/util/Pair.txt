@@ -1,0 +1,9 @@
+Compiled from "Pair.java"
+public class android.util.Pair<F, S> {
+  public final F first;
+  public final S second;
+  public android.util.Pair(F, S);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public static <A extends java/lang/Object, B extends java/lang/Object> android.util.Pair<A, B> create(A, B);
+}

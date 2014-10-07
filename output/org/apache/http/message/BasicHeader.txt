@@ -1,0 +1,9 @@
+Compiled from "BasicHeader.java"
+public class org.apache.http.message.BasicHeader implements org.apache.http.Header,java.lang.Cloneable {
+  public org.apache.http.message.BasicHeader(java.lang.String, java.lang.String);
+  public java.lang.String getName();
+  public java.lang.String getValue();
+  public java.lang.String toString();
+  public org.apache.http.HeaderElement[] getElements() throws org.apache.http.ParseException;
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

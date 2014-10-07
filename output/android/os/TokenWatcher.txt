@@ -1,0 +1,12 @@
+Compiled from "TokenWatcher.java"
+public abstract class android.os.TokenWatcher {
+  public android.os.TokenWatcher(android.os.Handler, java.lang.String);
+  public abstract void acquired();
+  public abstract void released();
+  public void acquire(android.os.IBinder, java.lang.String);
+  public void cleanup(android.os.IBinder, boolean);
+  public void release(android.os.IBinder);
+  public boolean isAcquired();
+  public void dump();
+  public void dump(java.io.PrintWriter);
+}

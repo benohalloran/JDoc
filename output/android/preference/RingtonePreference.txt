@@ -1,0 +1,21 @@
+Compiled from "RingtonePreference.java"
+public class android.preference.RingtonePreference extends android.preference.Preference implements android.preference.PreferenceManager$OnActivityResultListener {
+  public android.preference.RingtonePreference(android.content.Context, android.util.AttributeSet, int, int);
+  public android.preference.RingtonePreference(android.content.Context, android.util.AttributeSet, int);
+  public android.preference.RingtonePreference(android.content.Context, android.util.AttributeSet);
+  public android.preference.RingtonePreference(android.content.Context);
+  public int getRingtoneType();
+  public void setRingtoneType(int);
+  public boolean getShowDefault();
+  public void setShowDefault(boolean);
+  public boolean getShowSilent();
+  public void setShowSilent(boolean);
+  protected void onClick();
+  protected void onPrepareRingtonePickerIntent(android.content.Intent);
+  protected void onSaveRingtone(android.net.Uri);
+  protected android.net.Uri onRestoreRingtone();
+  protected java.lang.Object onGetDefaultValue(android.content.res.TypedArray, int);
+  protected void onSetInitialValue(boolean, java.lang.Object);
+  protected void onAttachedToHierarchy(android.preference.PreferenceManager);
+  public boolean onActivityResult(int, int, android.content.Intent);
+}

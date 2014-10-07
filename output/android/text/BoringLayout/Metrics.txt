@@ -1,0 +1,6 @@
+Compiled from "BoringLayout.java"
+public class android.text.BoringLayout$Metrics extends android.graphics.Paint$FontMetricsInt {
+  public int width;
+  public android.text.BoringLayout$Metrics();
+  public java.lang.String toString();
+}

@@ -1,0 +1,27 @@
+Compiled from "ServerSocket.java"
+public class java.net.ServerSocket implements java.io.Closeable {
+  public java.net.ServerSocket() throws java.io.IOException;
+  public java.net.ServerSocket(int) throws java.io.IOException;
+  public java.net.ServerSocket(int, int) throws java.io.IOException;
+  public java.net.ServerSocket(int, int, java.net.InetAddress) throws java.io.IOException;
+  public java.net.Socket accept() throws java.io.IOException;
+  public void close() throws java.io.IOException;
+  public java.net.InetAddress getInetAddress();
+  public int getLocalPort();
+  public synchronized int getSoTimeout() throws java.io.IOException;
+  protected final void implAccept(java.net.Socket) throws java.io.IOException;
+  public static synchronized void setSocketFactory(java.net.SocketImplFactory) throws java.io.IOException;
+  public synchronized void setSoTimeout(int) throws java.net.SocketException;
+  public java.lang.String toString();
+  public void bind(java.net.SocketAddress) throws java.io.IOException;
+  public void bind(java.net.SocketAddress, int) throws java.io.IOException;
+  public java.net.SocketAddress getLocalSocketAddress();
+  public boolean isBound();
+  public boolean isClosed();
+  public void setReuseAddress(boolean) throws java.net.SocketException;
+  public boolean getReuseAddress() throws java.net.SocketException;
+  public void setReceiveBufferSize(int) throws java.net.SocketException;
+  public int getReceiveBufferSize() throws java.net.SocketException;
+  public java.nio.channels.ServerSocketChannel getChannel();
+  public void setPerformancePreferences(int, int, int);
+}

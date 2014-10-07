@@ -1,0 +1,42 @@
+Compiled from "Assert.java"
+public class junit.framework.Assert {
+  protected junit.framework.Assert();
+  public static void assertTrue(java.lang.String, boolean);
+  public static void assertTrue(boolean);
+  public static void assertFalse(java.lang.String, boolean);
+  public static void assertFalse(boolean);
+  public static void fail(java.lang.String);
+  public static void fail();
+  public static void assertEquals(java.lang.String, java.lang.Object, java.lang.Object);
+  public static void assertEquals(java.lang.Object, java.lang.Object);
+  public static void assertEquals(java.lang.String, java.lang.String, java.lang.String);
+  public static void assertEquals(java.lang.String, java.lang.String);
+  public static void assertEquals(java.lang.String, double, double, double);
+  public static void assertEquals(double, double, double);
+  public static void assertEquals(java.lang.String, float, float, float);
+  public static void assertEquals(float, float, float);
+  public static void assertEquals(java.lang.String, long, long);
+  public static void assertEquals(long, long);
+  public static void assertEquals(java.lang.String, boolean, boolean);
+  public static void assertEquals(boolean, boolean);
+  public static void assertEquals(java.lang.String, byte, byte);
+  public static void assertEquals(byte, byte);
+  public static void assertEquals(java.lang.String, char, char);
+  public static void assertEquals(char, char);
+  public static void assertEquals(java.lang.String, short, short);
+  public static void assertEquals(short, short);
+  public static void assertEquals(java.lang.String, int, int);
+  public static void assertEquals(int, int);
+  public static void assertNotNull(java.lang.Object);
+  public static void assertNotNull(java.lang.String, java.lang.Object);
+  public static void assertNull(java.lang.Object);
+  public static void assertNull(java.lang.String, java.lang.Object);
+  public static void assertSame(java.lang.String, java.lang.Object, java.lang.Object);
+  public static void assertSame(java.lang.Object, java.lang.Object);
+  public static void assertNotSame(java.lang.String, java.lang.Object, java.lang.Object);
+  public static void assertNotSame(java.lang.Object, java.lang.Object);
+  public static void failSame(java.lang.String);
+  public static void failNotSame(java.lang.String, java.lang.Object, java.lang.Object);
+  public static void failNotEquals(java.lang.String, java.lang.Object, java.lang.Object);
+  public static java.lang.String format(java.lang.String, java.lang.Object, java.lang.Object);
+}

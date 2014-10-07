@@ -1,0 +1,11 @@
+Compiled from "ApplicationTestCase.java"
+public abstract class android.test.ApplicationTestCase<T extends android.app.Application> extends android.test.AndroidTestCase {
+  public android.test.ApplicationTestCase(java.lang.Class<T>);
+  public T getApplication();
+  protected void setUp() throws java.lang.Exception;
+  protected final void createApplication();
+  protected final void terminateApplication();
+  protected void tearDown() throws java.lang.Exception;
+  public android.content.Context getSystemContext();
+  public final void testApplicationTestCaseSetUpProperly() throws java.lang.Exception;
+}

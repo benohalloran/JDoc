@@ -1,0 +1,11 @@
+Compiled from "View.java"
+public class android.view.View$MeasureSpec {
+  public static final int AT_MOST;
+  public static final int EXACTLY;
+  public static final int UNSPECIFIED;
+  public android.view.View$MeasureSpec();
+  public static int makeMeasureSpec(int, int);
+  public static int getMode(int);
+  public static int getSize(int);
+  public static java.lang.String toString(int);
+}

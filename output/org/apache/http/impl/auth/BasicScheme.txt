@@ -1,0 +1,10 @@
+Compiled from "BasicScheme.java"
+public class org.apache.http.impl.auth.BasicScheme extends org.apache.http.impl.auth.RFC2617Scheme {
+  public org.apache.http.impl.auth.BasicScheme();
+  public java.lang.String getSchemeName();
+  public void processChallenge(org.apache.http.Header) throws org.apache.http.auth.MalformedChallengeException;
+  public boolean isComplete();
+  public boolean isConnectionBased();
+  public org.apache.http.Header authenticate(org.apache.http.auth.Credentials, org.apache.http.HttpRequest) throws org.apache.http.auth.AuthenticationException;
+  public static org.apache.http.Header authenticate(org.apache.http.auth.Credentials, java.lang.String, boolean);
+}

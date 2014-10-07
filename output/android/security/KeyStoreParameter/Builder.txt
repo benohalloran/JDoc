@@ -1,0 +1,6 @@
+Compiled from "KeyStoreParameter.java"
+public final class android.security.KeyStoreParameter$Builder {
+  public android.security.KeyStoreParameter$Builder(android.content.Context);
+  public android.security.KeyStoreParameter$Builder setEncryptionRequired(boolean);
+  public android.security.KeyStoreParameter build();
+}

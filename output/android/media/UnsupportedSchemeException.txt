@@ -1,0 +1,4 @@
+Compiled from "UnsupportedSchemeException.java"
+public final class android.media.UnsupportedSchemeException extends android.media.MediaDrmException {
+  public android.media.UnsupportedSchemeException(java.lang.String);
+}

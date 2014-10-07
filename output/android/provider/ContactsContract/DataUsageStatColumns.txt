@@ -1,0 +1,5 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$DataUsageStatColumns {
+  public static final java.lang.String LAST_TIME_USED;
+  public static final java.lang.String TIMES_USED;
+}

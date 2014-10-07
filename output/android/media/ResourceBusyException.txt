@@ -1,0 +1,4 @@
+Compiled from "ResourceBusyException.java"
+public final class android.media.ResourceBusyException extends android.media.MediaDrmException {
+  public android.media.ResourceBusyException(java.lang.String);
+}

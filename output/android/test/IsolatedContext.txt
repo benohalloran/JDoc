@@ -1,0 +1,15 @@
+Compiled from "IsolatedContext.java"
+public class android.test.IsolatedContext extends android.content.ContextWrapper {
+  public android.test.IsolatedContext(android.content.ContentResolver, android.content.Context);
+  public java.util.List<android.content.Intent> getAndClearBroadcastIntents();
+  public android.content.ContentResolver getContentResolver();
+  public boolean bindService(android.content.Intent, android.content.ServiceConnection, int);
+  public android.content.Intent registerReceiver(android.content.BroadcastReceiver, android.content.IntentFilter);
+  public void unregisterReceiver(android.content.BroadcastReceiver);
+  public void sendBroadcast(android.content.Intent);
+  public void sendOrderedBroadcast(android.content.Intent, java.lang.String);
+  public int checkUriPermission(android.net.Uri, java.lang.String, java.lang.String, int, int, int);
+  public int checkUriPermission(android.net.Uri, int, int, int);
+  public java.lang.Object getSystemService(java.lang.String);
+  public java.io.File getFilesDir();
+}

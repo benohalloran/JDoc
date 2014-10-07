@@ -1,0 +1,9 @@
+Compiled from "PropertyChangeEvent.java"
+public class java.beans.PropertyChangeEvent extends java.util.EventObject {
+  public java.beans.PropertyChangeEvent(java.lang.Object, java.lang.String, java.lang.Object, java.lang.Object);
+  public java.lang.String getPropertyName();
+  public void setPropagationId(java.lang.Object);
+  public java.lang.Object getPropagationId();
+  public java.lang.Object getOldValue();
+  public java.lang.Object getNewValue();
+}

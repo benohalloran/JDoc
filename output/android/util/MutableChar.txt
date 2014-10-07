@@ -1,0 +1,5 @@
+Compiled from "MutableChar.java"
+public final class android.util.MutableChar {
+  public char value;
+  public android.util.MutableChar(char);
+}

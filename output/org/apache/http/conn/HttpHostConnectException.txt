@@ -1,0 +1,5 @@
+Compiled from "HttpHostConnectException.java"
+public class org.apache.http.conn.HttpHostConnectException extends java.net.ConnectException {
+  public org.apache.http.conn.HttpHostConnectException(org.apache.http.HttpHost, java.net.ConnectException);
+  public org.apache.http.HttpHost getHost();
+}

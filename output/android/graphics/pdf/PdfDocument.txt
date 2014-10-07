@@ -1,0 +1,10 @@
+Compiled from "PdfDocument.java"
+public class android.graphics.pdf.PdfDocument {
+  public android.graphics.pdf.PdfDocument();
+  public android.graphics.pdf.PdfDocument$Page startPage(android.graphics.pdf.PdfDocument$PageInfo);
+  public void finishPage(android.graphics.pdf.PdfDocument$Page);
+  public void writeTo(java.io.OutputStream) throws java.io.IOException;
+  public java.util.List<android.graphics.pdf.PdfDocument$PageInfo> getPages();
+  public void close();
+  protected void finalize() throws java.lang.Throwable;
+}

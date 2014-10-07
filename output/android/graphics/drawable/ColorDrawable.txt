@@ -1,0 +1,17 @@
+Compiled from "ColorDrawable.java"
+public class android.graphics.drawable.ColorDrawable extends android.graphics.drawable.Drawable {
+  public android.graphics.drawable.ColorDrawable();
+  public android.graphics.drawable.ColorDrawable(int);
+  public int getChangingConfigurations();
+  public android.graphics.drawable.Drawable mutate();
+  public void draw(android.graphics.Canvas);
+  public int getColor();
+  public void setColor(int);
+  public int getAlpha();
+  public void setAlpha(int);
+  public void setColorFilter(android.graphics.ColorFilter);
+  public int getOpacity();
+  public void inflate(android.content.res.Resources, org.xmlpull.v1.XmlPullParser, android.util.AttributeSet, android.content.res.Resources$Theme) throws org.xmlpull.v1.XmlPullParserException, java.io.IOException;
+  public void applyTheme(android.content.res.Resources$Theme);
+  public android.graphics.drawable.Drawable$ConstantState getConstantState();
+}

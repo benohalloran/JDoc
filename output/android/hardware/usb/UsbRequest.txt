@@ -1,0 +1,12 @@
+Compiled from "UsbRequest.java"
+public class android.hardware.usb.UsbRequest {
+  public android.hardware.usb.UsbRequest();
+  public boolean initialize(android.hardware.usb.UsbDeviceConnection, android.hardware.usb.UsbEndpoint);
+  public void close();
+  protected void finalize() throws java.lang.Throwable;
+  public android.hardware.usb.UsbEndpoint getEndpoint();
+  public java.lang.Object getClientData();
+  public void setClientData(java.lang.Object);
+  public boolean queue(java.nio.ByteBuffer, int);
+  public boolean cancel();
+}

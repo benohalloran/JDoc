@@ -1,0 +1,11 @@
+Compiled from "ActivityInstrumentationTestCase2.java"
+public abstract class android.test.ActivityInstrumentationTestCase2<T extends android.app.Activity> extends android.test.ActivityTestCase {
+  public android.test.ActivityInstrumentationTestCase2(java.lang.String, java.lang.Class<T>);
+  public android.test.ActivityInstrumentationTestCase2(java.lang.Class<T>);
+  public T getActivity();
+  public void setActivityIntent(android.content.Intent);
+  public void setActivityInitialTouchMode(boolean);
+  protected void setUp() throws java.lang.Exception;
+  protected void tearDown() throws java.lang.Exception;
+  protected void runTest() throws java.lang.Throwable;
+}

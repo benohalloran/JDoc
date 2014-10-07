@@ -1,0 +1,14 @@
+Compiled from "HttpEntityWrapper.java"
+public class org.apache.http.entity.HttpEntityWrapper implements org.apache.http.HttpEntity {
+  protected org.apache.http.HttpEntity wrappedEntity;
+  public org.apache.http.entity.HttpEntityWrapper(org.apache.http.HttpEntity);
+  public boolean isRepeatable();
+  public boolean isChunked();
+  public long getContentLength();
+  public org.apache.http.Header getContentType();
+  public org.apache.http.Header getContentEncoding();
+  public java.io.InputStream getContent() throws java.io.IOException;
+  public void writeTo(java.io.OutputStream) throws java.io.IOException;
+  public boolean isStreaming();
+  public void consumeContent() throws java.io.IOException;
+}

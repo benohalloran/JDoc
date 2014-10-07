@@ -1,0 +1,4 @@
+Compiled from "AbsListView.java"
+public interface android.widget.AbsListView$RecyclerListener {
+  public abstract void onMovedToScrapHeap(android.view.View);
+}

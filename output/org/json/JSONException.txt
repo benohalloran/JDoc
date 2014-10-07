@@ -1,0 +1,4 @@
+Compiled from "JSONException.java"
+public class org.json.JSONException extends java.lang.Exception {
+  public org.json.JSONException(java.lang.String);
+}

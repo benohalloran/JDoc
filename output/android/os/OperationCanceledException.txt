@@ -1,0 +1,5 @@
+Compiled from "OperationCanceledException.java"
+public class android.os.OperationCanceledException extends java.lang.RuntimeException {
+  public android.os.OperationCanceledException();
+  public android.os.OperationCanceledException(java.lang.String);
+}

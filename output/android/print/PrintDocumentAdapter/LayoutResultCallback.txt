@@ -1,0 +1,7 @@
+Compiled from "PrintDocumentAdapter.java"
+public abstract class android.print.PrintDocumentAdapter$LayoutResultCallback {
+  android.print.PrintDocumentAdapter$LayoutResultCallback();
+  public void onLayoutFinished(android.print.PrintDocumentInfo, boolean);
+  public void onLayoutFailed(java.lang.CharSequence);
+  public void onLayoutCancelled();
+}

@@ -1,0 +1,6 @@
+Compiled from "Visualizer.java"
+public final class android.media.audiofx.Visualizer$MeasurementPeakRms {
+  public int mPeak;
+  public int mRms;
+  public android.media.audiofx.Visualizer$MeasurementPeakRms();
+}

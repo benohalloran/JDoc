@@ -1,0 +1,15 @@
+Compiled from "MultiAutoCompleteTextView.java"
+public class android.widget.MultiAutoCompleteTextView extends android.widget.AutoCompleteTextView {
+  public android.widget.MultiAutoCompleteTextView(android.content.Context);
+  public android.widget.MultiAutoCompleteTextView(android.content.Context, android.util.AttributeSet);
+  public android.widget.MultiAutoCompleteTextView(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.MultiAutoCompleteTextView(android.content.Context, android.util.AttributeSet, int, int);
+  public void setTokenizer(android.widget.MultiAutoCompleteTextView$Tokenizer);
+  protected void performFiltering(java.lang.CharSequence, int);
+  public boolean enoughToFilter();
+  public void performValidation();
+  protected void performFiltering(java.lang.CharSequence, int, int, int);
+  protected void replaceText(java.lang.CharSequence);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

@@ -1,0 +1,4 @@
+Compiled from "TypeEvaluator.java"
+public interface android.animation.TypeEvaluator<T> {
+  public abstract T evaluate(float, T, T);
+}

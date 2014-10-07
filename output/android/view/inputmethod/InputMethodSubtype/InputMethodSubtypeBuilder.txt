@@ -1,0 +1,14 @@
+Compiled from "InputMethodSubtype.java"
+public class android.view.inputmethod.InputMethodSubtype$InputMethodSubtypeBuilder {
+  public android.view.inputmethod.InputMethodSubtype$InputMethodSubtypeBuilder();
+  public android.view.inputmethod.InputMethodSubtype$InputMethodSubtypeBuilder setIsAuxiliary(boolean);
+  public android.view.inputmethod.InputMethodSubtype$InputMethodSubtypeBuilder setOverridesImplicitlyEnabledSubtype(boolean);
+  public android.view.inputmethod.InputMethodSubtype$InputMethodSubtypeBuilder setIsAsciiCapable(boolean);
+  public android.view.inputmethod.InputMethodSubtype$InputMethodSubtypeBuilder setSubtypeIconResId(int);
+  public android.view.inputmethod.InputMethodSubtype$InputMethodSubtypeBuilder setSubtypeNameResId(int);
+  public android.view.inputmethod.InputMethodSubtype$InputMethodSubtypeBuilder setSubtypeId(int);
+  public android.view.inputmethod.InputMethodSubtype$InputMethodSubtypeBuilder setSubtypeLocale(java.lang.String);
+  public android.view.inputmethod.InputMethodSubtype$InputMethodSubtypeBuilder setSubtypeMode(java.lang.String);
+  public android.view.inputmethod.InputMethodSubtype$InputMethodSubtypeBuilder setSubtypeExtraValue(java.lang.String);
+  public android.view.inputmethod.InputMethodSubtype build();
+}

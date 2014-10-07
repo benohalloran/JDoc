@@ -1,0 +1,15 @@
+Compiled from "ObjectStreamField.java"
+public class java.io.ObjectStreamField implements java.lang.Comparable<java.lang.Object> {
+  public java.io.ObjectStreamField(java.lang.String, java.lang.Class<?>);
+  public java.io.ObjectStreamField(java.lang.String, java.lang.Class<?>, boolean);
+  public int compareTo(java.lang.Object);
+  public java.lang.String getName();
+  public int getOffset();
+  public java.lang.Class<?> getType();
+  public char getTypeCode();
+  public java.lang.String getTypeString();
+  public boolean isPrimitive();
+  protected void setOffset(int);
+  public java.lang.String toString();
+  public boolean isUnshared();
+}

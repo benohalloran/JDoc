@@ -1,0 +1,11 @@
+Compiled from "FileEntity.java"
+public class org.apache.http.entity.FileEntity extends org.apache.http.entity.AbstractHttpEntity implements java.lang.Cloneable {
+  protected final java.io.File file;
+  public org.apache.http.entity.FileEntity(java.io.File, java.lang.String);
+  public boolean isRepeatable();
+  public long getContentLength();
+  public java.io.InputStream getContent() throws java.io.IOException;
+  public void writeTo(java.io.OutputStream) throws java.io.IOException;
+  public boolean isStreaming();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

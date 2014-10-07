@@ -1,0 +1,5 @@
+Compiled from "Spannable.java"
+public interface android.text.Spannable extends android.text.Spanned {
+  public abstract void setSpan(java.lang.Object, int, int, int);
+  public abstract void removeSpan(java.lang.Object);
+}

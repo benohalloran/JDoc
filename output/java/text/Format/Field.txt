@@ -1,0 +1,4 @@
+Compiled from "Format.java"
+public class java.text.Format$Field extends java.text.AttributedCharacterIterator$Attribute {
+  protected java.text.Format$Field(java.lang.String);
+}

@@ -1,0 +1,12 @@
+Compiled from "ProxySelectorRoutePlanner.java"
+public class org.apache.http.impl.conn.ProxySelectorRoutePlanner implements org.apache.http.conn.routing.HttpRoutePlanner {
+  protected java.net.ProxySelector proxySelector;
+  protected org.apache.http.conn.scheme.SchemeRegistry schemeRegistry;
+  public org.apache.http.impl.conn.ProxySelectorRoutePlanner(org.apache.http.conn.scheme.SchemeRegistry, java.net.ProxySelector);
+  public java.net.ProxySelector getProxySelector();
+  public void setProxySelector(java.net.ProxySelector);
+  public org.apache.http.conn.routing.HttpRoute determineRoute(org.apache.http.HttpHost, org.apache.http.HttpRequest, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException;
+  protected org.apache.http.HttpHost determineProxy(org.apache.http.HttpHost, org.apache.http.HttpRequest, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException;
+  protected java.lang.String getHost(java.net.InetSocketAddress);
+  protected java.net.Proxy chooseProxy(java.util.List<java.net.Proxy>, org.apache.http.HttpHost, org.apache.http.HttpRequest, org.apache.http.protocol.HttpContext);
+}

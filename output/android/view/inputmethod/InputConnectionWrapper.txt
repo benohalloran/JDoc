@@ -1,0 +1,26 @@
+Compiled from "InputConnectionWrapper.java"
+public class android.view.inputmethod.InputConnectionWrapper implements android.view.inputmethod.InputConnection {
+  public android.view.inputmethod.InputConnectionWrapper(android.view.inputmethod.InputConnection, boolean);
+  public void setTarget(android.view.inputmethod.InputConnection);
+  public java.lang.CharSequence getTextBeforeCursor(int, int);
+  public java.lang.CharSequence getTextAfterCursor(int, int);
+  public java.lang.CharSequence getSelectedText(int);
+  public int getCursorCapsMode(int);
+  public android.view.inputmethod.ExtractedText getExtractedText(android.view.inputmethod.ExtractedTextRequest, int);
+  public boolean deleteSurroundingText(int, int);
+  public boolean setComposingText(java.lang.CharSequence, int);
+  public boolean setComposingRegion(int, int);
+  public boolean finishComposingText();
+  public boolean commitText(java.lang.CharSequence, int);
+  public boolean commitCompletion(android.view.inputmethod.CompletionInfo);
+  public boolean commitCorrection(android.view.inputmethod.CorrectionInfo);
+  public boolean setSelection(int, int);
+  public boolean performEditorAction(int);
+  public boolean performContextMenuAction(int);
+  public boolean beginBatchEdit();
+  public boolean endBatchEdit();
+  public boolean sendKeyEvent(android.view.KeyEvent);
+  public boolean clearMetaKeyStates(int);
+  public boolean reportFullscreenMode(boolean);
+  public boolean performPrivateCommand(java.lang.String, android.os.Bundle);
+}

@@ -1,0 +1,12 @@
+Compiled from "ScriptIntrinsicLUT.java"
+public final class android.renderscript.ScriptIntrinsicLUT extends android.renderscript.ScriptIntrinsic {
+  android.renderscript.ScriptIntrinsicLUT();
+  public static android.renderscript.ScriptIntrinsicLUT create(android.renderscript.RenderScript, android.renderscript.Element);
+  public void setRed(int, int);
+  public void setGreen(int, int);
+  public void setBlue(int, int);
+  public void setAlpha(int, int);
+  public void forEach(android.renderscript.Allocation, android.renderscript.Allocation);
+  public void forEach(android.renderscript.Allocation, android.renderscript.Allocation, android.renderscript.Script$LaunchOptions);
+  public android.renderscript.Script$KernelID getKernelID();
+}

@@ -1,0 +1,27 @@
+Compiled from "SipManager.java"
+public class android.net.sip.SipManager {
+  public static final java.lang.String EXTRA_CALL_ID;
+  public static final java.lang.String EXTRA_OFFER_SD;
+  public static final int INCOMING_CALL_RESULT_CODE;
+  android.net.sip.SipManager();
+  public static android.net.sip.SipManager newInstance(android.content.Context);
+  public static boolean isApiSupported(android.content.Context);
+  public static boolean isVoipSupported(android.content.Context);
+  public static boolean isSipWifiOnly(android.content.Context);
+  public void open(android.net.sip.SipProfile) throws android.net.sip.SipException;
+  public void open(android.net.sip.SipProfile, android.app.PendingIntent, android.net.sip.SipRegistrationListener) throws android.net.sip.SipException;
+  public void setRegistrationListener(java.lang.String, android.net.sip.SipRegistrationListener) throws android.net.sip.SipException;
+  public void close(java.lang.String) throws android.net.sip.SipException;
+  public boolean isOpened(java.lang.String) throws android.net.sip.SipException;
+  public boolean isRegistered(java.lang.String) throws android.net.sip.SipException;
+  public android.net.sip.SipAudioCall makeAudioCall(android.net.sip.SipProfile, android.net.sip.SipProfile, android.net.sip.SipAudioCall$Listener, int) throws android.net.sip.SipException;
+  public android.net.sip.SipAudioCall makeAudioCall(java.lang.String, java.lang.String, android.net.sip.SipAudioCall$Listener, int) throws android.net.sip.SipException;
+  public android.net.sip.SipAudioCall takeAudioCall(android.content.Intent, android.net.sip.SipAudioCall$Listener) throws android.net.sip.SipException;
+  public static boolean isIncomingCallIntent(android.content.Intent);
+  public static java.lang.String getCallId(android.content.Intent);
+  public static java.lang.String getOfferSessionDescription(android.content.Intent);
+  public void register(android.net.sip.SipProfile, int, android.net.sip.SipRegistrationListener) throws android.net.sip.SipException;
+  public void unregister(android.net.sip.SipProfile, android.net.sip.SipRegistrationListener) throws android.net.sip.SipException;
+  public android.net.sip.SipSession getSessionFor(android.content.Intent) throws android.net.sip.SipException;
+  public android.net.sip.SipSession createSipSession(android.net.sip.SipProfile, android.net.sip.SipSession$Listener) throws android.net.sip.SipException;
+}

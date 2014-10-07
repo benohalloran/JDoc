@@ -1,0 +1,6 @@
+Compiled from "LoginFilter.java"
+public class android.text.LoginFilter$UsernameFilterGMail extends android.text.LoginFilter {
+  public android.text.LoginFilter$UsernameFilterGMail();
+  public android.text.LoginFilter$UsernameFilterGMail(boolean);
+  public boolean isAllowed(char);
+}

@@ -1,0 +1,5 @@
+Compiled from "NsdManager.java"
+public interface android.net.nsd.NsdManager$ResolveListener {
+  public abstract void onResolveFailed(android.net.nsd.NsdServiceInfo, int);
+  public abstract void onServiceResolved(android.net.nsd.NsdServiceInfo);
+}

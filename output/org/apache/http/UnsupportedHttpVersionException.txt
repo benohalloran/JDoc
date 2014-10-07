@@ -1,0 +1,5 @@
+Compiled from "UnsupportedHttpVersionException.java"
+public class org.apache.http.UnsupportedHttpVersionException extends org.apache.http.ProtocolException {
+  public org.apache.http.UnsupportedHttpVersionException();
+  public org.apache.http.UnsupportedHttpVersionException(java.lang.String);
+}

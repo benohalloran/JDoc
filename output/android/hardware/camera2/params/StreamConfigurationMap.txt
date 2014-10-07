@@ -1,0 +1,16 @@
+Compiled from "StreamConfigurationMap.java"
+public final class android.hardware.camera2.params.StreamConfigurationMap {
+  android.hardware.camera2.params.StreamConfigurationMap();
+  public final int[] getOutputFormats();
+  public boolean isOutputSupportedFor(int);
+  public static <T extends java/lang/Object> boolean isOutputSupportedFor(java.lang.Class<T>);
+  public boolean isOutputSupportedFor(android.view.Surface);
+  public <T extends java/lang/Object> android.util.Size[] getOutputSizes(java.lang.Class<T>);
+  public android.util.Size[] getOutputSizes(int);
+  public long getOutputMinFrameDuration(int, android.util.Size);
+  public <T extends java/lang/Object> long getOutputMinFrameDuration(java.lang.Class<T>, android.util.Size);
+  public long getOutputStallDuration(int, android.util.Size);
+  public <T extends java/lang/Object> long getOutputStallDuration(java.lang.Class<T>, android.util.Size);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

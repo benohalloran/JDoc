@@ -1,0 +1,4 @@
+Compiled from "Camera.java"
+public interface android.hardware.Camera$ErrorCallback {
+  public abstract void onError(int, android.hardware.Camera);
+}

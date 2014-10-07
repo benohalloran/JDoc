@@ -1,0 +1,19 @@
+Compiled from "StringCharacterIterator.java"
+public final class java.text.StringCharacterIterator implements java.text.CharacterIterator {
+  public java.text.StringCharacterIterator(java.lang.String);
+  public java.text.StringCharacterIterator(java.lang.String, int);
+  public java.text.StringCharacterIterator(java.lang.String, int, int, int);
+  public java.lang.Object clone();
+  public char current();
+  public boolean equals(java.lang.Object);
+  public char first();
+  public int getBeginIndex();
+  public int getEndIndex();
+  public int getIndex();
+  public int hashCode();
+  public char last();
+  public char next();
+  public char previous();
+  public char setIndex(int);
+  public void setText(java.lang.String);
+}

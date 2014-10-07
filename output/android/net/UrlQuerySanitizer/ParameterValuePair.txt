@@ -1,0 +1,7 @@
+Compiled from "UrlQuerySanitizer.java"
+public class android.net.UrlQuerySanitizer$ParameterValuePair {
+  public java.lang.String mParameter;
+  public java.lang.String mValue;
+  final android.net.UrlQuerySanitizer this$0;
+  public android.net.UrlQuerySanitizer$ParameterValuePair(android.net.UrlQuerySanitizer, java.lang.String, java.lang.String);
+}

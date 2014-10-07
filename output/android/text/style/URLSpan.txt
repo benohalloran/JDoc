@@ -1,0 +1,10 @@
+Compiled from "URLSpan.java"
+public class android.text.style.URLSpan extends android.text.style.ClickableSpan implements android.text.ParcelableSpan {
+  public android.text.style.URLSpan(java.lang.String);
+  public android.text.style.URLSpan(android.os.Parcel);
+  public int getSpanTypeId();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String getURL();
+  public void onClick(android.view.View);
+}

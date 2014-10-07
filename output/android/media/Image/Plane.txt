@@ -1,0 +1,7 @@
+Compiled from "Image.java"
+public abstract class android.media.Image$Plane {
+  android.media.Image$Plane();
+  public abstract int getRowStride();
+  public abstract int getPixelStride();
+  public abstract java.nio.ByteBuffer getBuffer();
+}

@@ -1,0 +1,4 @@
+Compiled from "GpsStatus.java"
+public interface android.location.GpsStatus$Listener {
+  public abstract void onGpsStatusChanged(int);
+}

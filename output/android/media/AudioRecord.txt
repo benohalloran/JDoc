@@ -1,0 +1,35 @@
+Compiled from "AudioRecord.java"
+public class android.media.AudioRecord {
+  public static final int ERROR;
+  public static final int ERROR_BAD_VALUE;
+  public static final int ERROR_INVALID_OPERATION;
+  public static final int RECORDSTATE_RECORDING;
+  public static final int RECORDSTATE_STOPPED;
+  public static final int STATE_INITIALIZED;
+  public static final int STATE_UNINITIALIZED;
+  public static final int SUCCESS;
+  public android.media.AudioRecord(int, int, int, int, int) throws java.lang.IllegalArgumentException;
+  public void release();
+  protected void finalize();
+  public int getSampleRate();
+  public int getAudioSource();
+  public int getAudioFormat();
+  public int getChannelConfiguration();
+  public int getChannelCount();
+  public int getState();
+  public int getRecordingState();
+  public int getNotificationMarkerPosition();
+  public int getPositionNotificationPeriod();
+  public static int getMinBufferSize(int, int, int);
+  public int getAudioSessionId();
+  public void startRecording() throws java.lang.IllegalStateException;
+  public void startRecording(android.media.MediaSyncEvent) throws java.lang.IllegalStateException;
+  public void stop() throws java.lang.IllegalStateException;
+  public int read(byte[], int, int);
+  public int read(short[], int, int);
+  public int read(java.nio.ByteBuffer, int);
+  public void setRecordPositionUpdateListener(android.media.AudioRecord$OnRecordPositionUpdateListener);
+  public void setRecordPositionUpdateListener(android.media.AudioRecord$OnRecordPositionUpdateListener, android.os.Handler);
+  public int setNotificationMarkerPosition(int);
+  public int setPositionNotificationPeriod(int);
+}

@@ -1,0 +1,18 @@
+Compiled from "Timestamp.java"
+public class java.sql.Timestamp extends java.util.Date {
+  public java.sql.Timestamp(int, int, int, int, int, int, int) throws java.lang.IllegalArgumentException;
+  public java.sql.Timestamp(long);
+  public boolean after(java.sql.Timestamp);
+  public boolean before(java.sql.Timestamp);
+  public int compareTo(java.util.Date) throws java.lang.ClassCastException;
+  public int compareTo(java.sql.Timestamp);
+  public boolean equals(java.lang.Object);
+  public boolean equals(java.sql.Timestamp);
+  public int getNanos();
+  public long getTime();
+  public void setNanos(int) throws java.lang.IllegalArgumentException;
+  public void setTime(long);
+  public java.lang.String toString();
+  public static java.sql.Timestamp valueOf(java.lang.String) throws java.lang.IllegalArgumentException;
+  public int compareTo(java.lang.Object);
+}

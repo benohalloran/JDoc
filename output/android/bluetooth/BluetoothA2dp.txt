@@ -1,0 +1,13 @@
+Compiled from "BluetoothA2dp.java"
+public final class android.bluetooth.BluetoothA2dp implements android.bluetooth.BluetoothProfile {
+  public static final java.lang.String ACTION_CONNECTION_STATE_CHANGED;
+  public static final java.lang.String ACTION_PLAYING_STATE_CHANGED;
+  public static final int STATE_NOT_PLAYING;
+  public static final int STATE_PLAYING;
+  android.bluetooth.BluetoothA2dp();
+  public void finalize();
+  public java.util.List<android.bluetooth.BluetoothDevice> getConnectedDevices();
+  public java.util.List<android.bluetooth.BluetoothDevice> getDevicesMatchingConnectionStates(int[]);
+  public int getConnectionState(android.bluetooth.BluetoothDevice);
+  public boolean isA2dpPlaying(android.bluetooth.BluetoothDevice);
+}

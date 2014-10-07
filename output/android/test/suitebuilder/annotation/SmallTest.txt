@@ -1,0 +1,3 @@
+Compiled from "SmallTest.java"
+public interface android.test.suitebuilder.annotation.SmallTest extends java.lang.annotation.Annotation {
+}

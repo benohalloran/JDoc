@@ -1,0 +1,7 @@
+Compiled from "ETC1Util.java"
+public class android.opengl.ETC1Util$ETC1Texture {
+  public android.opengl.ETC1Util$ETC1Texture(int, int, java.nio.ByteBuffer);
+  public int getWidth();
+  public int getHeight();
+  public java.nio.ByteBuffer getData();
+}

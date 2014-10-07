@@ -1,0 +1,28 @@
+Compiled from "ViewAnimator.java"
+public class android.widget.ViewAnimator extends android.widget.FrameLayout {
+  public android.widget.ViewAnimator(android.content.Context);
+  public android.widget.ViewAnimator(android.content.Context, android.util.AttributeSet);
+  public void setDisplayedChild(int);
+  public int getDisplayedChild();
+  public void showNext();
+  public void showPrevious();
+  public void addView(android.view.View, int, android.view.ViewGroup$LayoutParams);
+  public void removeAllViews();
+  public void removeView(android.view.View);
+  public void removeViewAt(int);
+  public void removeViewInLayout(android.view.View);
+  public void removeViews(int, int);
+  public void removeViewsInLayout(int, int);
+  public android.view.View getCurrentView();
+  public android.view.animation.Animation getInAnimation();
+  public void setInAnimation(android.view.animation.Animation);
+  public android.view.animation.Animation getOutAnimation();
+  public void setOutAnimation(android.view.animation.Animation);
+  public void setInAnimation(android.content.Context, int);
+  public void setOutAnimation(android.content.Context, int);
+  public boolean getAnimateFirstView();
+  public void setAnimateFirstView(boolean);
+  public int getBaseline();
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

@@ -1,0 +1,8 @@
+Compiled from "StorageManager.java"
+public class android.os.storage.StorageManager {
+  android.os.storage.StorageManager();
+  public boolean mountObb(java.lang.String, java.lang.String, android.os.storage.OnObbStateChangeListener);
+  public boolean unmountObb(java.lang.String, boolean, android.os.storage.OnObbStateChangeListener);
+  public boolean isObbMounted(java.lang.String);
+  public java.lang.String getMountedObbPath(java.lang.String);
+}

@@ -1,0 +1,12 @@
+Compiled from "PrinterId.java"
+public final class android.print.PrinterId implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.print.PrinterId> CREATOR;
+  android.print.PrinterId();
+  public java.lang.String getLocalId();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  static {};
+}

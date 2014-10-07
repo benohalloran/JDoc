@@ -1,0 +1,5 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$StreamItemPhotos implements android.provider.BaseColumns,android.provider.ContactsContract$StreamItemPhotosColumns {
+  public static final java.lang.String PHOTO;
+  android.provider.ContactsContract$StreamItemPhotos();
+}

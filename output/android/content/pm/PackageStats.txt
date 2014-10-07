@@ -1,0 +1,20 @@
+Compiled from "PackageStats.java"
+public class android.content.pm.PackageStats implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.pm.PackageStats> CREATOR;
+  public long cacheSize;
+  public long codeSize;
+  public long dataSize;
+  public long externalCacheSize;
+  public long externalCodeSize;
+  public long externalDataSize;
+  public long externalMediaSize;
+  public long externalObbSize;
+  public java.lang.String packageName;
+  public android.content.pm.PackageStats(java.lang.String);
+  public android.content.pm.PackageStats(android.os.Parcel);
+  public android.content.pm.PackageStats(android.content.pm.PackageStats);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

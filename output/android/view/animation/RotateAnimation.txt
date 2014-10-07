@@ -1,0 +1,9 @@
+Compiled from "RotateAnimation.java"
+public class android.view.animation.RotateAnimation extends android.view.animation.Animation {
+  public android.view.animation.RotateAnimation(android.content.Context, android.util.AttributeSet);
+  public android.view.animation.RotateAnimation(float, float);
+  public android.view.animation.RotateAnimation(float, float, float, float);
+  public android.view.animation.RotateAnimation(float, float, int, float, int, float);
+  protected void applyTransformation(float, android.view.animation.Transformation);
+  public void initialize(int, int, int, int);
+}

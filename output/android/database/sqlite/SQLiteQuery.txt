@@ -1,0 +1,5 @@
+Compiled from "SQLiteQuery.java"
+public final class android.database.sqlite.SQLiteQuery extends android.database.sqlite.SQLiteProgram {
+  android.database.sqlite.SQLiteQuery();
+  public java.lang.String toString();
+}

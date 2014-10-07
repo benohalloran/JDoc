@@ -1,0 +1,13 @@
+Compiled from "RemoteVolumeProvider.java"
+public abstract class android.media.session.RemoteVolumeProvider {
+  public static final int VOLUME_CONTROL_ABSOLUTE;
+  public static final int VOLUME_CONTROL_FIXED;
+  public static final int VOLUME_CONTROL_RELATIVE;
+  public android.media.session.RemoteVolumeProvider(int, int);
+  public abstract int onGetCurrentVolume();
+  public final int getVolumeControl();
+  public final int getMaxVolume();
+  public final void notifyVolumeChanged();
+  public void onSetVolumeTo(int);
+  public void onAdjustVolumeBy(int);
+}

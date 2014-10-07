@@ -1,0 +1,9 @@
+Compiled from "LocalSocketAddress.java"
+public final class android.net.LocalSocketAddress$Namespace extends java.lang.Enum<android.net.LocalSocketAddress$Namespace> {
+  public static final android.net.LocalSocketAddress$Namespace ABSTRACT;
+  public static final android.net.LocalSocketAddress$Namespace FILESYSTEM;
+  public static final android.net.LocalSocketAddress$Namespace RESERVED;
+  public static android.net.LocalSocketAddress$Namespace[] values();
+  public static android.net.LocalSocketAddress$Namespace valueOf(java.lang.String);
+  static {};
+}

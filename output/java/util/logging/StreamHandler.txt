@@ -1,0 +1,11 @@
+Compiled from "StreamHandler.java"
+public class java.util.logging.StreamHandler extends java.util.logging.Handler {
+  public java.util.logging.StreamHandler();
+  public java.util.logging.StreamHandler(java.io.OutputStream, java.util.logging.Formatter);
+  protected void setOutputStream(java.io.OutputStream);
+  public void setEncoding(java.lang.String) throws java.io.UnsupportedEncodingException;
+  public void close();
+  public void flush();
+  public synchronized void publish(java.util.logging.LogRecord);
+  public boolean isLoggable(java.util.logging.LogRecord);
+}

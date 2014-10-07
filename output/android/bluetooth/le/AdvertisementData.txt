@@ -1,0 +1,15 @@
+Compiled from "AdvertisementData.java"
+public final class android.bluetooth.le.AdvertisementData implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.bluetooth.le.AdvertisementData> CREATOR;
+  android.bluetooth.le.AdvertisementData();
+  public java.util.List<android.os.ParcelUuid> getServiceUuids();
+  public int getManufacturerId();
+  public byte[] getManufacturerSpecificData();
+  public android.os.ParcelUuid getServiceDataUuid();
+  public byte[] getServiceData();
+  public boolean getIncludeTxPowerLevel();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

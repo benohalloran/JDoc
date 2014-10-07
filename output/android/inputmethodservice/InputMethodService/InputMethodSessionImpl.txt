@@ -1,0 +1,14 @@
+Compiled from "InputMethodService.java"
+public class android.inputmethodservice.InputMethodService$InputMethodSessionImpl extends android.inputmethodservice.AbstractInputMethodService$AbstractInputMethodSessionImpl {
+  final android.inputmethodservice.InputMethodService this$0;
+  public android.inputmethodservice.InputMethodService$InputMethodSessionImpl(android.inputmethodservice.InputMethodService);
+  public void finishInput();
+  public void displayCompletions(android.view.inputmethod.CompletionInfo[]);
+  public void updateExtractedText(int, android.view.inputmethod.ExtractedText);
+  public void updateSelection(int, int, int, int, int, int);
+  public void viewClicked(boolean);
+  public void updateCursor(android.graphics.Rect);
+  public void appPrivateCommand(java.lang.String, android.os.Bundle);
+  public void toggleSoftInput(int, int);
+  public void updateCursorAnchorInfo(android.view.inputmethod.CursorAnchorInfo);
+}

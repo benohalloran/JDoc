@@ -1,0 +1,7 @@
+Compiled from "NetworkErrorException.java"
+public class android.accounts.NetworkErrorException extends android.accounts.AccountsException {
+  public android.accounts.NetworkErrorException();
+  public android.accounts.NetworkErrorException(java.lang.String);
+  public android.accounts.NetworkErrorException(java.lang.String, java.lang.Throwable);
+  public android.accounts.NetworkErrorException(java.lang.Throwable);
+}

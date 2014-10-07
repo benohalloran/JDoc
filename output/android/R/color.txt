@@ -1,0 +1,32 @@
+Compiled from "R.java"
+public final class android.R$color {
+  public static final int background_dark;
+  public static final int background_light;
+  public static final int black;
+  public static final int darker_gray;
+  public static final int holo_blue_bright;
+  public static final int holo_blue_dark;
+  public static final int holo_blue_light;
+  public static final int holo_green_dark;
+  public static final int holo_green_light;
+  public static final int holo_orange_dark;
+  public static final int holo_orange_light;
+  public static final int holo_purple;
+  public static final int holo_red_dark;
+  public static final int holo_red_light;
+  public static final int primary_text_dark;
+  public static final int primary_text_dark_nodisable;
+  public static final int primary_text_light;
+  public static final int primary_text_light_nodisable;
+  public static final int secondary_text_dark;
+  public static final int secondary_text_dark_nodisable;
+  public static final int secondary_text_light;
+  public static final int secondary_text_light_nodisable;
+  public static final int tab_indicator_text;
+  public static final int tertiary_text_dark;
+  public static final int tertiary_text_light;
+  public static final int transparent;
+  public static final int white;
+  public static final int widget_edittext_dark;
+  public android.R$color();
+}

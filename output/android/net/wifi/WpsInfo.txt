@@ -1,0 +1,17 @@
+Compiled from "WpsInfo.java"
+public class android.net.wifi.WpsInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.net.wifi.WpsInfo> CREATOR;
+  public static final int DISPLAY;
+  public static final int INVALID;
+  public static final int KEYPAD;
+  public static final int LABEL;
+  public static final int PBC;
+  public java.lang.String pin;
+  public int setup;
+  public android.net.wifi.WpsInfo();
+  public android.net.wifi.WpsInfo(android.net.wifi.WpsInfo);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

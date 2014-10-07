@@ -1,0 +1,15 @@
+Compiled from "InputMethodSession.java"
+public interface android.view.inputmethod.InputMethodSession {
+  public abstract void finishInput();
+  public abstract void updateSelection(int, int, int, int, int, int);
+  public abstract void viewClicked(boolean);
+  public abstract void updateCursor(android.graphics.Rect);
+  public abstract void displayCompletions(android.view.inputmethod.CompletionInfo[]);
+  public abstract void updateExtractedText(int, android.view.inputmethod.ExtractedText);
+  public abstract void dispatchKeyEvent(int, android.view.KeyEvent, android.view.inputmethod.InputMethodSession$EventCallback);
+  public abstract void dispatchTrackballEvent(int, android.view.MotionEvent, android.view.inputmethod.InputMethodSession$EventCallback);
+  public abstract void dispatchGenericMotionEvent(int, android.view.MotionEvent, android.view.inputmethod.InputMethodSession$EventCallback);
+  public abstract void appPrivateCommand(java.lang.String, android.os.Bundle);
+  public abstract void toggleSoftInput(int, int);
+  public abstract void updateCursorAnchorInfo(android.view.inputmethod.CursorAnchorInfo);
+}

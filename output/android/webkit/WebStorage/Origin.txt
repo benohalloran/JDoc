@@ -1,0 +1,7 @@
+Compiled from "WebStorage.java"
+public class android.webkit.WebStorage$Origin {
+  android.webkit.WebStorage$Origin();
+  public java.lang.String getOrigin();
+  public long getQuota();
+  public long getUsage();
+}

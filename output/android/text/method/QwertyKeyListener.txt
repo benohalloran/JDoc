@@ -1,0 +1,9 @@
+Compiled from "QwertyKeyListener.java"
+public class android.text.method.QwertyKeyListener extends android.text.method.BaseKeyListener {
+  public android.text.method.QwertyKeyListener(android.text.method.TextKeyListener$Capitalize, boolean);
+  public static android.text.method.QwertyKeyListener getInstance(boolean, android.text.method.TextKeyListener$Capitalize);
+  public static android.text.method.QwertyKeyListener getInstanceForFullKeyboard();
+  public int getInputType();
+  public boolean onKeyDown(android.view.View, android.text.Editable, int, android.view.KeyEvent);
+  public static void markAsReplaced(android.text.Spannable, int, int, java.lang.String);
+}

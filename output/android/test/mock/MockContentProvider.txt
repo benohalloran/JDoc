@@ -1,0 +1,17 @@
+Compiled from "MockContentProvider.java"
+public class android.test.mock.MockContentProvider extends android.content.ContentProvider {
+  protected android.test.mock.MockContentProvider();
+  public android.test.mock.MockContentProvider(android.content.Context);
+  public android.test.mock.MockContentProvider(android.content.Context, java.lang.String, java.lang.String, android.content.pm.PathPermission[]);
+  public int delete(android.net.Uri, java.lang.String, java.lang.String[]);
+  public java.lang.String getType(android.net.Uri);
+  public android.net.Uri insert(android.net.Uri, android.content.ContentValues);
+  public boolean onCreate();
+  public android.database.Cursor query(android.net.Uri, java.lang.String[], java.lang.String, java.lang.String[], java.lang.String);
+  public int update(android.net.Uri, android.content.ContentValues, java.lang.String, java.lang.String[]);
+  public int bulkInsert(android.net.Uri, android.content.ContentValues[]);
+  public void attachInfo(android.content.Context, android.content.pm.ProviderInfo);
+  public android.content.ContentProviderResult[] applyBatch(java.util.ArrayList<android.content.ContentProviderOperation>);
+  public java.lang.String[] getStreamTypes(android.net.Uri, java.lang.String);
+  public android.content.res.AssetFileDescriptor openTypedAssetFile(android.net.Uri, java.lang.String, android.os.Bundle);
+}

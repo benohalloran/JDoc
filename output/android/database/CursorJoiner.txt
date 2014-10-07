@@ -1,0 +1,9 @@
+Compiled from "CursorJoiner.java"
+public final class android.database.CursorJoiner implements java.util.Iterator<android.database.CursorJoiner$Result>, java.lang.Iterable<android.database.CursorJoiner$Result> {
+  public android.database.CursorJoiner(android.database.Cursor, java.lang.String[], android.database.Cursor, java.lang.String[]);
+  public java.util.Iterator<android.database.CursorJoiner$Result> iterator();
+  public boolean hasNext();
+  public android.database.CursorJoiner$Result next();
+  public void remove();
+  public java.lang.Object next();
+}

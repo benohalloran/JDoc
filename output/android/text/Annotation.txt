@@ -1,0 +1,10 @@
+Compiled from "Annotation.java"
+public class android.text.Annotation implements android.text.ParcelableSpan {
+  public android.text.Annotation(java.lang.String, java.lang.String);
+  public android.text.Annotation(android.os.Parcel);
+  public int getSpanTypeId();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String getKey();
+  public java.lang.String getValue();
+}

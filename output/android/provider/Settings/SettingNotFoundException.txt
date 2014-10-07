@@ -1,0 +1,4 @@
+Compiled from "Settings.java"
+public class android.provider.Settings$SettingNotFoundException extends android.util.AndroidException {
+  public android.provider.Settings$SettingNotFoundException(java.lang.String);
+}

@@ -1,0 +1,24 @@
+Compiled from "BluetoothHealth.java"
+public final class android.bluetooth.BluetoothHealth implements android.bluetooth.BluetoothProfile {
+  public static final int APP_CONFIG_REGISTRATION_FAILURE;
+  public static final int APP_CONFIG_REGISTRATION_SUCCESS;
+  public static final int APP_CONFIG_UNREGISTRATION_FAILURE;
+  public static final int APP_CONFIG_UNREGISTRATION_SUCCESS;
+  public static final int CHANNEL_TYPE_RELIABLE;
+  public static final int CHANNEL_TYPE_STREAMING;
+  public static final int SINK_ROLE;
+  public static final int SOURCE_ROLE;
+  public static final int STATE_CHANNEL_CONNECTED;
+  public static final int STATE_CHANNEL_CONNECTING;
+  public static final int STATE_CHANNEL_DISCONNECTED;
+  public static final int STATE_CHANNEL_DISCONNECTING;
+  android.bluetooth.BluetoothHealth();
+  public boolean registerSinkAppConfiguration(java.lang.String, int, android.bluetooth.BluetoothHealthCallback);
+  public boolean unregisterAppConfiguration(android.bluetooth.BluetoothHealthAppConfiguration);
+  public boolean connectChannelToSource(android.bluetooth.BluetoothDevice, android.bluetooth.BluetoothHealthAppConfiguration);
+  public boolean disconnectChannel(android.bluetooth.BluetoothDevice, android.bluetooth.BluetoothHealthAppConfiguration, int);
+  public android.os.ParcelFileDescriptor getMainChannelFd(android.bluetooth.BluetoothDevice, android.bluetooth.BluetoothHealthAppConfiguration);
+  public int getConnectionState(android.bluetooth.BluetoothDevice);
+  public java.util.List<android.bluetooth.BluetoothDevice> getConnectedDevices();
+  public java.util.List<android.bluetooth.BluetoothDevice> getDevicesMatchingConnectionStates(int[]);
+}

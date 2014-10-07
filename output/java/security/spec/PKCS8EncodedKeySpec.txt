@@ -1,0 +1,6 @@
+Compiled from "PKCS8EncodedKeySpec.java"
+public class java.security.spec.PKCS8EncodedKeySpec extends java.security.spec.EncodedKeySpec {
+  public java.security.spec.PKCS8EncodedKeySpec(byte[]);
+  public byte[] getEncoded();
+  public final java.lang.String getFormat();
+}

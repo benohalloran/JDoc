@@ -1,0 +1,13 @@
+Compiled from "PowerManager.java"
+public final class android.os.PowerManager$WakeLock {
+  final android.os.PowerManager this$0;
+  android.os.PowerManager$WakeLock(android.os.PowerManager);
+  protected void finalize() throws java.lang.Throwable;
+  public void setReferenceCounted(boolean);
+  public void acquire();
+  public void acquire(long);
+  public void release();
+  public boolean isHeld();
+  public void setWorkSource(android.os.WorkSource);
+  public java.lang.String toString();
+}

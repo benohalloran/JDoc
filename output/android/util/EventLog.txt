@@ -1,0 +1,11 @@
+Compiled from "EventLog.java"
+public class android.util.EventLog {
+  android.util.EventLog();
+  public static native int writeEvent(int, int);
+  public static native int writeEvent(int, long);
+  public static native int writeEvent(int, java.lang.String);
+  public static native int writeEvent(int, java.lang.Object...);
+  public static native void readEvents(int[], java.util.Collection<android.util.EventLog$Event>) throws java.io.IOException;
+  public static java.lang.String getTagName(int);
+  public static int getTagCode(java.lang.String);
+}

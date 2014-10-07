@@ -1,0 +1,5 @@
+Compiled from "JobInfo.java"
+public interface android.app.job.JobInfo$BackoffPolicy {
+  public static final int EXPONENTIAL;
+  public static final int LINEAR;
+}

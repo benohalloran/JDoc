@@ -1,0 +1,40 @@
+Compiled from "TextToSpeech.java"
+public class android.speech.tts.TextToSpeech {
+  public static final java.lang.String ACTION_TTS_QUEUE_PROCESSING_COMPLETED;
+  public static final int ERROR;
+  public static final int LANG_AVAILABLE;
+  public static final int LANG_COUNTRY_AVAILABLE;
+  public static final int LANG_COUNTRY_VAR_AVAILABLE;
+  public static final int LANG_MISSING_DATA;
+  public static final int LANG_NOT_SUPPORTED;
+  public static final int QUEUE_ADD;
+  public static final int QUEUE_FLUSH;
+  public static final int SUCCESS;
+  public android.speech.tts.TextToSpeech(android.content.Context, android.speech.tts.TextToSpeech$OnInitListener);
+  public android.speech.tts.TextToSpeech(android.content.Context, android.speech.tts.TextToSpeech$OnInitListener, java.lang.String);
+  public void shutdown();
+  public int addSpeech(java.lang.String, java.lang.String, int);
+  public int addSpeech(java.lang.String, java.lang.String);
+  public int addEarcon(java.lang.String, java.lang.String, int);
+  public int addEarcon(java.lang.String, java.lang.String);
+  public int speak(java.lang.String, int, java.util.HashMap<java.lang.String, java.lang.String>);
+  public int playEarcon(java.lang.String, int, java.util.HashMap<java.lang.String, java.lang.String>);
+  public int playSilence(long, int, java.util.HashMap<java.lang.String, java.lang.String>);
+  public java.util.Set<java.lang.String> getFeatures(java.util.Locale);
+  public boolean isSpeaking();
+  public int stop();
+  public int setSpeechRate(float);
+  public int setPitch(float);
+  public java.util.Locale getDefaultLanguage();
+  public int setLanguage(java.util.Locale);
+  public java.util.Locale getLanguage();
+  public int isLanguageAvailable(java.util.Locale);
+  public int synthesizeToFile(java.lang.String, java.util.HashMap<java.lang.String, java.lang.String>, java.lang.String);
+  public int setOnUtteranceCompletedListener(android.speech.tts.TextToSpeech$OnUtteranceCompletedListener);
+  public int setOnUtteranceProgressListener(android.speech.tts.UtteranceProgressListener);
+  public int setEngineByPackageName(java.lang.String);
+  public java.lang.String getDefaultEngine();
+  public boolean areDefaultsEnforced();
+  public java.util.List<android.speech.tts.TextToSpeech$EngineInfo> getEngines();
+  public static int getMaxSpeechInputLength();
+}

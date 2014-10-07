@@ -1,0 +1,18 @@
+Compiled from "PriorityQueue.java"
+public class java.util.PriorityQueue<E> extends java.util.AbstractQueue<E> implements java.io.Serializable {
+  public java.util.PriorityQueue();
+  public java.util.PriorityQueue(int);
+  public java.util.PriorityQueue(int, java.util.Comparator<? super E>);
+  public java.util.PriorityQueue(java.util.Collection<? extends E>);
+  public java.util.PriorityQueue(java.util.PriorityQueue<? extends E>);
+  public java.util.PriorityQueue(java.util.SortedSet<? extends E>);
+  public java.util.Iterator<E> iterator();
+  public int size();
+  public void clear();
+  public boolean offer(E);
+  public E poll();
+  public E peek();
+  public java.util.Comparator<? super E> comparator();
+  public boolean remove(java.lang.Object);
+  public boolean add(E);
+}

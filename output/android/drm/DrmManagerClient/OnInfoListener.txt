@@ -1,0 +1,4 @@
+Compiled from "DrmManagerClient.java"
+public interface android.drm.DrmManagerClient$OnInfoListener {
+  public abstract void onInfo(android.drm.DrmManagerClient, android.drm.DrmInfoEvent);
+}

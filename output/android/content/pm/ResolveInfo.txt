@@ -1,0 +1,27 @@
+Compiled from "ResolveInfo.java"
+public class android.content.pm.ResolveInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.pm.ResolveInfo> CREATOR;
+  public android.content.pm.ActivityInfo activityInfo;
+  public android.content.IntentFilter filter;
+  public int icon;
+  public boolean isDefault;
+  public int labelRes;
+  public int match;
+  public java.lang.CharSequence nonLocalizedLabel;
+  public int preferredOrder;
+  public int priority;
+  public android.content.pm.ProviderInfo providerInfo;
+  public java.lang.String resolvePackageName;
+  public android.content.pm.ServiceInfo serviceInfo;
+  public int specificIndex;
+  public android.content.pm.ResolveInfo();
+  public android.content.pm.ResolveInfo(android.content.pm.ResolveInfo);
+  public java.lang.CharSequence loadLabel(android.content.pm.PackageManager);
+  public android.graphics.drawable.Drawable loadIcon(android.content.pm.PackageManager);
+  public final int getIconResource();
+  public void dump(android.util.Printer, java.lang.String);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

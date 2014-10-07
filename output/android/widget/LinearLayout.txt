@@ -1,0 +1,46 @@
+Compiled from "LinearLayout.java"
+public class android.widget.LinearLayout extends android.view.ViewGroup {
+  public static final int HORIZONTAL;
+  public static final int SHOW_DIVIDER_BEGINNING;
+  public static final int SHOW_DIVIDER_END;
+  public static final int SHOW_DIVIDER_MIDDLE;
+  public static final int SHOW_DIVIDER_NONE;
+  public static final int VERTICAL;
+  public android.widget.LinearLayout(android.content.Context);
+  public android.widget.LinearLayout(android.content.Context, android.util.AttributeSet);
+  public android.widget.LinearLayout(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.LinearLayout(android.content.Context, android.util.AttributeSet, int, int);
+  public void setShowDividers(int);
+  public boolean shouldDelayChildPressedState();
+  public int getShowDividers();
+  public android.graphics.drawable.Drawable getDividerDrawable();
+  public void setDividerDrawable(android.graphics.drawable.Drawable);
+  public void setDividerPadding(int);
+  public int getDividerPadding();
+  protected void onDraw(android.graphics.Canvas);
+  public boolean isBaselineAligned();
+  public void setBaselineAligned(boolean);
+  public boolean isMeasureWithLargestChildEnabled();
+  public void setMeasureWithLargestChildEnabled(boolean);
+  public int getBaseline();
+  public int getBaselineAlignedChildIndex();
+  public void setBaselineAlignedChildIndex(int);
+  public float getWeightSum();
+  public void setWeightSum(float);
+  protected void onMeasure(int, int);
+  protected void onLayout(boolean, int, int, int, int);
+  public void setOrientation(int);
+  public int getOrientation();
+  public void setGravity(int);
+  public void setHorizontalGravity(int);
+  public void setVerticalGravity(int);
+  public android.widget.LinearLayout$LayoutParams generateLayoutParams(android.util.AttributeSet);
+  protected android.widget.LinearLayout$LayoutParams generateDefaultLayoutParams();
+  protected android.widget.LinearLayout$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams);
+  protected boolean checkLayoutParams(android.view.ViewGroup$LayoutParams);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  protected android.view.ViewGroup$LayoutParams generateDefaultLayoutParams();
+  protected android.view.ViewGroup$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams);
+  public android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet);
+}

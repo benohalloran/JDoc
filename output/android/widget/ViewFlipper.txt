@@ -1,0 +1,16 @@
+Compiled from "ViewFlipper.java"
+public class android.widget.ViewFlipper extends android.widget.ViewAnimator {
+  public android.widget.ViewFlipper(android.content.Context);
+  public android.widget.ViewFlipper(android.content.Context, android.util.AttributeSet);
+  protected void onAttachedToWindow();
+  protected void onDetachedFromWindow();
+  protected void onWindowVisibilityChanged(int);
+  public void setFlipInterval(int);
+  public void startFlipping();
+  public void stopFlipping();
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public boolean isFlipping();
+  public void setAutoStart(boolean);
+  public boolean isAutoStart();
+}

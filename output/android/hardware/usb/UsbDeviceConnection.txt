@@ -1,0 +1,17 @@
+Compiled from "UsbDeviceConnection.java"
+public class android.hardware.usb.UsbDeviceConnection {
+  android.hardware.usb.UsbDeviceConnection();
+  public void close();
+  public int getFileDescriptor();
+  public byte[] getRawDescriptors();
+  public boolean claimInterface(android.hardware.usb.UsbInterface, boolean);
+  public boolean releaseInterface(android.hardware.usb.UsbInterface);
+  public boolean setInterface(android.hardware.usb.UsbInterface);
+  public boolean setConfiguration(android.hardware.usb.UsbConfiguration);
+  public int controlTransfer(int, int, int, int, byte[], int, int);
+  public int controlTransfer(int, int, int, int, byte[], int, int, int);
+  public int bulkTransfer(android.hardware.usb.UsbEndpoint, byte[], int, int);
+  public int bulkTransfer(android.hardware.usb.UsbEndpoint, byte[], int, int, int);
+  public android.hardware.usb.UsbRequest requestWait();
+  public java.lang.String getSerial();
+}

@@ -1,0 +1,9 @@
+Compiled from "ConditionVariable.java"
+public class android.os.ConditionVariable {
+  public android.os.ConditionVariable();
+  public android.os.ConditionVariable(boolean);
+  public void open();
+  public void close();
+  public void block();
+  public boolean block(long);
+}

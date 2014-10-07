@@ -1,0 +1,9 @@
+Compiled from "PathShape.java"
+public class android.graphics.drawable.shapes.PathShape extends android.graphics.drawable.shapes.Shape {
+  public android.graphics.drawable.shapes.PathShape(android.graphics.Path, float, float);
+  public void draw(android.graphics.Canvas, android.graphics.Paint);
+  protected void onResize(float, float);
+  public android.graphics.drawable.shapes.PathShape clone() throws java.lang.CloneNotSupportedException;
+  public android.graphics.drawable.shapes.Shape clone() throws java.lang.CloneNotSupportedException;
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

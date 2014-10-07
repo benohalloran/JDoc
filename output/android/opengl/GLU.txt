@@ -1,0 +1,10 @@
+Compiled from "GLU.java"
+public class android.opengl.GLU {
+  public android.opengl.GLU();
+  public static java.lang.String gluErrorString(int);
+  public static void gluLookAt(javax.microedition.khronos.opengles.GL10, float, float, float, float, float, float, float, float, float);
+  public static void gluOrtho2D(javax.microedition.khronos.opengles.GL10, float, float, float, float);
+  public static void gluPerspective(javax.microedition.khronos.opengles.GL10, float, float, float, float);
+  public static int gluProject(float, float, float, float[], int, float[], int, int[], int, float[], int);
+  public static int gluUnProject(float, float, float, float[], int, float[], int, int[], int, float[], int);
+}

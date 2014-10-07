@@ -1,0 +1,13 @@
+Compiled from "InputMethodService.java"
+public class android.inputmethodservice.InputMethodService$InputMethodImpl extends android.inputmethodservice.AbstractInputMethodService$AbstractInputMethodImpl {
+  final android.inputmethodservice.InputMethodService this$0;
+  public android.inputmethodservice.InputMethodService$InputMethodImpl(android.inputmethodservice.InputMethodService);
+  public void attachToken(android.os.IBinder);
+  public void bindInput(android.view.inputmethod.InputBinding);
+  public void unbindInput();
+  public void startInput(android.view.inputmethod.InputConnection, android.view.inputmethod.EditorInfo);
+  public void restartInput(android.view.inputmethod.InputConnection, android.view.inputmethod.EditorInfo);
+  public void hideSoftInput(int, android.os.ResultReceiver);
+  public void showSoftInput(int, android.os.ResultReceiver);
+  public void changeInputMethodSubtype(android.view.inputmethod.InputMethodSubtype);
+}

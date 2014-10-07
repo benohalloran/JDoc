@@ -1,0 +1,5 @@
+Compiled from "MethodNotSupportedException.java"
+public class org.apache.http.MethodNotSupportedException extends org.apache.http.HttpException {
+  public org.apache.http.MethodNotSupportedException(java.lang.String);
+  public org.apache.http.MethodNotSupportedException(java.lang.String, java.lang.Throwable);
+}

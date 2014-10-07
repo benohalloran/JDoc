@@ -1,0 +1,4 @@
+Compiled from "AuthSchemeFactory.java"
+public interface org.apache.http.auth.AuthSchemeFactory {
+  public abstract org.apache.http.auth.AuthScheme newInstance(org.apache.http.params.HttpParams);
+}

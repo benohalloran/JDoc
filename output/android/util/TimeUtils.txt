@@ -1,0 +1,6 @@
+Compiled from "TimeUtils.java"
+public class android.util.TimeUtils {
+  android.util.TimeUtils();
+  public static java.util.TimeZone getTimeZone(int, boolean, long, java.lang.String);
+  public static java.lang.String getTimeZoneDatabaseVersion();
+}

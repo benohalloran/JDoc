@@ -1,0 +1,20 @@
+Compiled from "EditText.java"
+public class android.widget.EditText extends android.widget.TextView {
+  public android.widget.EditText(android.content.Context);
+  public android.widget.EditText(android.content.Context, android.util.AttributeSet);
+  public android.widget.EditText(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.EditText(android.content.Context, android.util.AttributeSet, int, int);
+  protected boolean getDefaultEditable();
+  protected android.text.method.MovementMethod getDefaultMovementMethod();
+  public android.text.Editable getText();
+  public void setText(java.lang.CharSequence, android.widget.TextView$BufferType);
+  public void setSelection(int, int);
+  public void setSelection(int);
+  public void selectAll();
+  public void extendSelection(int);
+  public void setEllipsize(android.text.TextUtils$TruncateAt);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public boolean performAccessibilityAction(int, android.os.Bundle);
+  public java.lang.CharSequence getText();
+}

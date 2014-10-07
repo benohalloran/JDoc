@@ -1,0 +1,17 @@
+Compiled from "DefaultClientConnection.java"
+public class org.apache.http.impl.conn.DefaultClientConnection extends org.apache.http.impl.SocketHttpClientConnection implements org.apache.http.conn.OperatedClientConnection {
+  public org.apache.http.impl.conn.DefaultClientConnection();
+  public final org.apache.http.HttpHost getTargetHost();
+  public final boolean isSecure();
+  public final java.net.Socket getSocket();
+  public void opening(java.net.Socket, org.apache.http.HttpHost) throws java.io.IOException;
+  public void openCompleted(boolean, org.apache.http.params.HttpParams) throws java.io.IOException;
+  public void shutdown() throws java.io.IOException;
+  public void close() throws java.io.IOException;
+  protected org.apache.http.io.SessionInputBuffer createSessionInputBuffer(java.net.Socket, int, org.apache.http.params.HttpParams) throws java.io.IOException;
+  protected org.apache.http.io.SessionOutputBuffer createSessionOutputBuffer(java.net.Socket, int, org.apache.http.params.HttpParams) throws java.io.IOException;
+  protected org.apache.http.io.HttpMessageParser createResponseParser(org.apache.http.io.SessionInputBuffer, org.apache.http.HttpResponseFactory, org.apache.http.params.HttpParams);
+  public void update(java.net.Socket, org.apache.http.HttpHost, boolean, org.apache.http.params.HttpParams) throws java.io.IOException;
+  public org.apache.http.HttpResponse receiveResponseHeader() throws org.apache.http.HttpException, java.io.IOException;
+  public void sendRequestHeader(org.apache.http.HttpRequest) throws org.apache.http.HttpException, java.io.IOException;
+}

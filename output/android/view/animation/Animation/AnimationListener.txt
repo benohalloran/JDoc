@@ -1,0 +1,6 @@
+Compiled from "Animation.java"
+public interface android.view.animation.Animation$AnimationListener {
+  public abstract void onAnimationStart(android.view.animation.Animation);
+  public abstract void onAnimationEnd(android.view.animation.Animation);
+  public abstract void onAnimationRepeat(android.view.animation.Animation);
+}

@@ -1,0 +1,18 @@
+Compiled from "SmsManager.java"
+public final class android.telephony.gsm.SmsManager {
+  public static final int RESULT_ERROR_GENERIC_FAILURE;
+  public static final int RESULT_ERROR_NO_SERVICE;
+  public static final int RESULT_ERROR_NULL_PDU;
+  public static final int RESULT_ERROR_RADIO_OFF;
+  public static final int STATUS_ON_SIM_FREE;
+  public static final int STATUS_ON_SIM_READ;
+  public static final int STATUS_ON_SIM_SENT;
+  public static final int STATUS_ON_SIM_UNREAD;
+  public static final int STATUS_ON_SIM_UNSENT;
+  android.telephony.gsm.SmsManager();
+  public static final android.telephony.gsm.SmsManager getDefault();
+  public final void sendTextMessage(java.lang.String, java.lang.String, java.lang.String, android.app.PendingIntent, android.app.PendingIntent);
+  public final java.util.ArrayList<java.lang.String> divideMessage(java.lang.String);
+  public final void sendMultipartTextMessage(java.lang.String, java.lang.String, java.util.ArrayList<java.lang.String>, java.util.ArrayList<android.app.PendingIntent>, java.util.ArrayList<android.app.PendingIntent>);
+  public final void sendDataMessage(java.lang.String, java.lang.String, short, byte[], android.app.PendingIntent, android.app.PendingIntent);
+}

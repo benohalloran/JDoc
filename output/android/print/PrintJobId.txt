@@ -1,0 +1,10 @@
+Compiled from "PrintJobId.java"
+public final class android.print.PrintJobId implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.print.PrintJobId> CREATOR;
+  android.print.PrintJobId();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  static {};
+}

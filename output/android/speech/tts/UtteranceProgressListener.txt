@@ -1,0 +1,7 @@
+Compiled from "UtteranceProgressListener.java"
+public abstract class android.speech.tts.UtteranceProgressListener {
+  public android.speech.tts.UtteranceProgressListener();
+  public abstract void onStart(java.lang.String);
+  public abstract void onDone(java.lang.String);
+  public abstract void onError(java.lang.String);
+}

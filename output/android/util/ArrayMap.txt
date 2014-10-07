@@ -1,0 +1,30 @@
+Compiled from "ArrayMap.java"
+public final class android.util.ArrayMap<K, V> implements java.util.Map<K, V> {
+  public android.util.ArrayMap();
+  public android.util.ArrayMap(int);
+  public android.util.ArrayMap(android.util.ArrayMap);
+  public void clear();
+  public void ensureCapacity(int);
+  public boolean containsKey(java.lang.Object);
+  public boolean containsValue(java.lang.Object);
+  public V get(java.lang.Object);
+  public K keyAt(int);
+  public V valueAt(int);
+  public V setValueAt(int, V);
+  public boolean isEmpty();
+  public V put(K, V);
+  public void putAll(android.util.ArrayMap<? extends K, ? extends V>);
+  public V remove(java.lang.Object);
+  public V removeAt(int);
+  public int size();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean containsAll(java.util.Collection<?>);
+  public void putAll(java.util.Map<? extends K, ? extends V>);
+  public boolean removeAll(java.util.Collection<?>);
+  public boolean retainAll(java.util.Collection<?>);
+  public java.util.Set<java.util.Map$Entry<K, V>> entrySet();
+  public java.util.Set<K> keySet();
+  public java.util.Collection<V> values();
+}

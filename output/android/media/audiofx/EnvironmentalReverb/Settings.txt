@@ -1,0 +1,16 @@
+Compiled from "EnvironmentalReverb.java"
+public class android.media.audiofx.EnvironmentalReverb$Settings {
+  public short decayHFRatio;
+  public int decayTime;
+  public short density;
+  public short diffusion;
+  public int reflectionsDelay;
+  public short reflectionsLevel;
+  public int reverbDelay;
+  public short reverbLevel;
+  public short roomHFLevel;
+  public short roomLevel;
+  public android.media.audiofx.EnvironmentalReverb$Settings();
+  public android.media.audiofx.EnvironmentalReverb$Settings(java.lang.String);
+  public java.lang.String toString();
+}

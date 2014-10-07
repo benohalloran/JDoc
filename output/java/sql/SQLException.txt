@@ -1,0 +1,16 @@
+Compiled from "SQLException.java"
+public class java.sql.SQLException extends java.lang.Exception implements java.io.Serializable, java.lang.Iterable<java.lang.Throwable> {
+  public java.sql.SQLException();
+  public java.sql.SQLException(java.lang.String);
+  public java.sql.SQLException(java.lang.String, java.lang.String);
+  public java.sql.SQLException(java.lang.String, java.lang.String, int);
+  public java.sql.SQLException(java.lang.Throwable);
+  public java.sql.SQLException(java.lang.String, java.lang.Throwable);
+  public java.sql.SQLException(java.lang.String, java.lang.String, java.lang.Throwable);
+  public java.sql.SQLException(java.lang.String, java.lang.String, int, java.lang.Throwable);
+  public int getErrorCode();
+  public java.sql.SQLException getNextException();
+  public java.lang.String getSQLState();
+  public void setNextException(java.sql.SQLException);
+  public java.util.Iterator<java.lang.Throwable> iterator();
+}

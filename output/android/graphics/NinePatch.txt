@@ -1,0 +1,19 @@
+Compiled from "NinePatch.java"
+public class android.graphics.NinePatch {
+  public android.graphics.NinePatch(android.graphics.Bitmap, byte[]);
+  public android.graphics.NinePatch(android.graphics.Bitmap, byte[], java.lang.String);
+  protected void finalize() throws java.lang.Throwable;
+  public java.lang.String getName();
+  public android.graphics.Paint getPaint();
+  public void setPaint(android.graphics.Paint);
+  public android.graphics.Bitmap getBitmap();
+  public void draw(android.graphics.Canvas, android.graphics.RectF);
+  public void draw(android.graphics.Canvas, android.graphics.Rect);
+  public void draw(android.graphics.Canvas, android.graphics.Rect, android.graphics.Paint);
+  public int getDensity();
+  public int getWidth();
+  public int getHeight();
+  public final boolean hasAlpha();
+  public final android.graphics.Region getTransparentRegion(android.graphics.Rect);
+  public static native boolean isNinePatchChunk(byte[]);
+}

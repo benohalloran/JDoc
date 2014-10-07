@@ -1,0 +1,7 @@
+Compiled from "CalendarContract.java"
+public final class android.provider.CalendarContract$Events implements android.provider.BaseColumns,android.provider.CalendarContract$SyncColumns,android.provider.CalendarContract$EventsColumns,android.provider.CalendarContract$CalendarColumns {
+  public static final android.net.Uri CONTENT_EXCEPTION_URI;
+  public static final android.net.Uri CONTENT_URI;
+  android.provider.CalendarContract$Events();
+  static {};
+}

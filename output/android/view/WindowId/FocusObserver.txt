@@ -1,0 +1,6 @@
+Compiled from "WindowId.java"
+public abstract class android.view.WindowId$FocusObserver {
+  public android.view.WindowId$FocusObserver();
+  public abstract void onFocusGained(android.view.WindowId);
+  public abstract void onFocusLost(android.view.WindowId);
+}

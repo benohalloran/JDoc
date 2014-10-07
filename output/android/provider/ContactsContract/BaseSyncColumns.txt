@@ -1,0 +1,7 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$BaseSyncColumns {
+  public static final java.lang.String SYNC1;
+  public static final java.lang.String SYNC2;
+  public static final java.lang.String SYNC3;
+  public static final java.lang.String SYNC4;
+}

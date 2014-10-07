@@ -1,0 +1,10 @@
+Compiled from "BaseDexClassLoader.java"
+public class dalvik.system.BaseDexClassLoader extends java.lang.ClassLoader {
+  public dalvik.system.BaseDexClassLoader(java.lang.String, java.io.File, java.lang.String, java.lang.ClassLoader);
+  protected java.lang.Class<?> findClass(java.lang.String) throws java.lang.ClassNotFoundException;
+  protected java.net.URL findResource(java.lang.String);
+  protected java.util.Enumeration<java.net.URL> findResources(java.lang.String);
+  public java.lang.String findLibrary(java.lang.String);
+  protected synchronized java.lang.Package getPackage(java.lang.String);
+  public java.lang.String toString();
+}

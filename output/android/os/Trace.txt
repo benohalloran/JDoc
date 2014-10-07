@@ -1,0 +1,6 @@
+Compiled from "Trace.java"
+public final class android.os.Trace {
+  android.os.Trace();
+  public static void beginSection(java.lang.String);
+  public static void endSection();
+}

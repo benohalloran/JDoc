@@ -1,0 +1,4 @@
+Compiled from "SensorEventListener2.java"
+public interface android.hardware.SensorEventListener2 extends android.hardware.SensorEventListener {
+  public abstract void onFlushCompleted(android.hardware.Sensor);
+}

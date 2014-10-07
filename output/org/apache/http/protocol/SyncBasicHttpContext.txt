@@ -1,0 +1,7 @@
+Compiled from "SyncBasicHttpContext.java"
+public class org.apache.http.protocol.SyncBasicHttpContext extends org.apache.http.protocol.BasicHttpContext {
+  public org.apache.http.protocol.SyncBasicHttpContext(org.apache.http.protocol.HttpContext);
+  public synchronized java.lang.Object getAttribute(java.lang.String);
+  public synchronized void setAttribute(java.lang.String, java.lang.Object);
+  public synchronized java.lang.Object removeAttribute(java.lang.String);
+}

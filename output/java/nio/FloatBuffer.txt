@@ -1,0 +1,30 @@
+Compiled from "FloatBuffer.java"
+public abstract class java.nio.FloatBuffer extends java.nio.Buffer implements java.lang.Comparable<java.nio.FloatBuffer> {
+  java.nio.FloatBuffer();
+  public static java.nio.FloatBuffer allocate(int);
+  public static java.nio.FloatBuffer wrap(float[]);
+  public static java.nio.FloatBuffer wrap(float[], int, int);
+  public final float[] array();
+  public final int arrayOffset();
+  public abstract java.nio.FloatBuffer asReadOnlyBuffer();
+  public abstract java.nio.FloatBuffer compact();
+  public int compareTo(java.nio.FloatBuffer);
+  public abstract java.nio.FloatBuffer duplicate();
+  public boolean equals(java.lang.Object);
+  public abstract float get();
+  public java.nio.FloatBuffer get(float[]);
+  public java.nio.FloatBuffer get(float[], int, int);
+  public abstract float get(int);
+  public final boolean hasArray();
+  public int hashCode();
+  public abstract boolean isDirect();
+  public abstract java.nio.ByteOrder order();
+  public abstract java.nio.FloatBuffer put(float);
+  public final java.nio.FloatBuffer put(float[]);
+  public java.nio.FloatBuffer put(float[], int, int);
+  public java.nio.FloatBuffer put(java.nio.FloatBuffer);
+  public abstract java.nio.FloatBuffer put(int, float);
+  public abstract java.nio.FloatBuffer slice();
+  public java.lang.Object array();
+  public int compareTo(java.lang.Object);
+}

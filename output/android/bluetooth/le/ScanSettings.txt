@@ -1,0 +1,17 @@
+Compiled from "ScanSettings.java"
+public final class android.bluetooth.le.ScanSettings implements android.os.Parcelable {
+  public static final int CALLBACK_TYPE_ON_UPDATE;
+  public static final android.os.Parcelable$Creator<android.bluetooth.le.ScanSettings> CREATOR;
+  public static final int SCAN_MODE_BALANCED;
+  public static final int SCAN_MODE_LOW_LATENCY;
+  public static final int SCAN_MODE_LOW_POWER;
+  public static final int SCAN_RESULT_TYPE_FULL;
+  android.bluetooth.le.ScanSettings();
+  public int getScanMode();
+  public int getCallbackType();
+  public int getScanResultType();
+  public long getReportDelayNanos();
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  static {};
+}

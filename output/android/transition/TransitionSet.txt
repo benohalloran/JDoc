@@ -1,0 +1,35 @@
+Compiled from "TransitionSet.java"
+public class android.transition.TransitionSet extends android.transition.Transition {
+  public static final int ORDERING_SEQUENTIAL;
+  public static final int ORDERING_TOGETHER;
+  public android.transition.TransitionSet();
+  public android.transition.TransitionSet setOrdering(int);
+  public int getOrdering();
+  public android.transition.TransitionSet addTransition(android.transition.Transition);
+  public android.transition.TransitionSet setDuration(long);
+  public android.transition.TransitionSet setStartDelay(long);
+  public android.transition.TransitionSet setInterpolator(android.animation.TimeInterpolator);
+  public android.transition.TransitionSet addTarget(android.view.View);
+  public android.transition.TransitionSet addTarget(int);
+  public android.transition.TransitionSet addListener(android.transition.Transition$TransitionListener);
+  public android.transition.TransitionSet removeTarget(int);
+  public android.transition.TransitionSet removeTarget(android.view.View);
+  public android.transition.TransitionSet removeListener(android.transition.Transition$TransitionListener);
+  public android.transition.TransitionSet removeTransition(android.transition.Transition);
+  public void captureStartValues(android.transition.TransitionValues);
+  public void captureEndValues(android.transition.TransitionValues);
+  public void setPropagation(android.transition.TransitionPropagation);
+  public void setEpicenterCallback(android.transition.Transition$EpicenterCallback);
+  public android.transition.TransitionSet clone();
+  public android.transition.Transition clone();
+  public android.transition.Transition removeListener(android.transition.Transition$TransitionListener);
+  public android.transition.Transition addListener(android.transition.Transition$TransitionListener);
+  public android.transition.Transition removeTarget(android.view.View);
+  public android.transition.Transition addTarget(android.view.View);
+  public android.transition.Transition removeTarget(int);
+  public android.transition.Transition addTarget(int);
+  public android.transition.Transition setInterpolator(android.animation.TimeInterpolator);
+  public android.transition.Transition setStartDelay(long);
+  public android.transition.Transition setDuration(long);
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

@@ -1,0 +1,14 @@
+Compiled from "GradientDrawable.java"
+public final class android.graphics.drawable.GradientDrawable$Orientation extends java.lang.Enum<android.graphics.drawable.GradientDrawable$Orientation> {
+  public static final android.graphics.drawable.GradientDrawable$Orientation BL_TR;
+  public static final android.graphics.drawable.GradientDrawable$Orientation BOTTOM_TOP;
+  public static final android.graphics.drawable.GradientDrawable$Orientation BR_TL;
+  public static final android.graphics.drawable.GradientDrawable$Orientation LEFT_RIGHT;
+  public static final android.graphics.drawable.GradientDrawable$Orientation RIGHT_LEFT;
+  public static final android.graphics.drawable.GradientDrawable$Orientation TL_BR;
+  public static final android.graphics.drawable.GradientDrawable$Orientation TOP_BOTTOM;
+  public static final android.graphics.drawable.GradientDrawable$Orientation TR_BL;
+  public static android.graphics.drawable.GradientDrawable$Orientation[] values();
+  public static android.graphics.drawable.GradientDrawable$Orientation valueOf(java.lang.String);
+  static {};
+}

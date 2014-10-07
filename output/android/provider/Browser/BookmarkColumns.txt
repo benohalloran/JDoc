@@ -1,0 +1,11 @@
+Compiled from "Browser.java"
+public class android.provider.Browser$BookmarkColumns implements android.provider.BaseColumns {
+  public static final java.lang.String BOOKMARK;
+  public static final java.lang.String CREATED;
+  public static final java.lang.String DATE;
+  public static final java.lang.String FAVICON;
+  public static final java.lang.String TITLE;
+  public static final java.lang.String URL;
+  public static final java.lang.String VISITS;
+  public android.provider.Browser$BookmarkColumns();
+}

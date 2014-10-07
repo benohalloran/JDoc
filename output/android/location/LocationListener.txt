@@ -1,0 +1,7 @@
+Compiled from "LocationListener.java"
+public interface android.location.LocationListener {
+  public abstract void onLocationChanged(android.location.Location);
+  public abstract void onStatusChanged(java.lang.String, int, android.os.Bundle);
+  public abstract void onProviderEnabled(java.lang.String);
+  public abstract void onProviderDisabled(java.lang.String);
+}

@@ -1,0 +1,10 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$Groups implements android.provider.BaseColumns,android.provider.ContactsContract$GroupsColumns,android.provider.ContactsContract$SyncColumns {
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final android.net.Uri CONTENT_SUMMARY_URI;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  android.provider.ContactsContract$Groups();
+  public static android.content.EntityIterator newEntityIterator(android.database.Cursor);
+  static {};
+}

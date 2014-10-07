@@ -1,0 +1,6 @@
+Compiled from "KeyStore.java"
+public final class java.security.KeyStore$TrustedCertificateEntry implements java.security.KeyStore$Entry {
+  public java.security.KeyStore$TrustedCertificateEntry(java.security.cert.Certificate);
+  public java.security.cert.Certificate getTrustedCertificate();
+  public java.lang.String toString();
+}

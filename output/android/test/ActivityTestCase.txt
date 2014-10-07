@@ -1,0 +1,7 @@
+Compiled from "ActivityTestCase.java"
+public abstract class android.test.ActivityTestCase extends android.test.InstrumentationTestCase {
+  public android.test.ActivityTestCase();
+  protected android.app.Activity getActivity();
+  protected void setActivity(android.app.Activity);
+  protected void scrubClass(java.lang.Class<?>) throws java.lang.IllegalAccessException;
+}

@@ -1,0 +1,5 @@
+Compiled from "AdapterView.java"
+public interface android.widget.AdapterView$OnItemSelectedListener {
+  public abstract void onItemSelected(android.widget.AdapterView<?>, android.view.View, int, long);
+  public abstract void onNothingSelected(android.widget.AdapterView<?>);
+}

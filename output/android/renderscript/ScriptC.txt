@@ -1,0 +1,5 @@
+Compiled from "ScriptC.java"
+public class android.renderscript.ScriptC extends android.renderscript.Script {
+  protected android.renderscript.ScriptC(int, android.renderscript.RenderScript);
+  protected android.renderscript.ScriptC(android.renderscript.RenderScript, android.content.res.Resources, int);
+}

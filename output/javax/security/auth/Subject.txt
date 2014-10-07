@@ -1,0 +1,21 @@
+Compiled from "Subject.java"
+public final class javax.security.auth.Subject implements java.io.Serializable {
+  public javax.security.auth.Subject();
+  public javax.security.auth.Subject(boolean, java.util.Set<? extends java.security.Principal>, java.util.Set<?>, java.util.Set<?>);
+  public static <T extends java/lang/Object> T doAs(javax.security.auth.Subject, java.security.PrivilegedAction<T>);
+  public static <T extends java/lang/Object> T doAsPrivileged(javax.security.auth.Subject, java.security.PrivilegedAction<T>, java.security.AccessControlContext);
+  public static <T extends java/lang/Object> T doAs(javax.security.auth.Subject, java.security.PrivilegedExceptionAction<T>) throws java.security.PrivilegedActionException;
+  public static <T extends java/lang/Object> T doAsPrivileged(javax.security.auth.Subject, java.security.PrivilegedExceptionAction<T>, java.security.AccessControlContext) throws java.security.PrivilegedActionException;
+  public boolean equals(java.lang.Object);
+  public java.util.Set<java.security.Principal> getPrincipals();
+  public <T extends java/security/Principal> java.util.Set<T> getPrincipals(java.lang.Class<T>);
+  public java.util.Set<java.lang.Object> getPrivateCredentials();
+  public <T extends java/lang/Object> java.util.Set<T> getPrivateCredentials(java.lang.Class<T>);
+  public java.util.Set<java.lang.Object> getPublicCredentials();
+  public <T extends java/lang/Object> java.util.Set<T> getPublicCredentials(java.lang.Class<T>);
+  public int hashCode();
+  public void setReadOnly();
+  public boolean isReadOnly();
+  public java.lang.String toString();
+  public static javax.security.auth.Subject getSubject(java.security.AccessControlContext);
+}

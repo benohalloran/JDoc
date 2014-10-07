@@ -1,0 +1,20 @@
+Compiled from "WifiInfo.java"
+public class android.net.wifi.WifiInfo implements android.os.Parcelable {
+  public static final java.lang.String FREQUENCY_UNITS;
+  public static final java.lang.String LINK_SPEED_UNITS;
+  android.net.wifi.WifiInfo();
+  public java.lang.String getSSID();
+  public java.lang.String getBSSID();
+  public int getRssi();
+  public int getLinkSpeed();
+  public int getFrequency();
+  public java.lang.String getMacAddress();
+  public int getNetworkId();
+  public android.net.wifi.SupplicantState getSupplicantState();
+  public int getIpAddress();
+  public boolean getHiddenSSID();
+  public static android.net.NetworkInfo$DetailedState getDetailedStateOf(android.net.wifi.SupplicantState);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+}

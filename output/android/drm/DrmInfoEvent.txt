@@ -1,0 +1,11 @@
+Compiled from "DrmInfoEvent.java"
+public class android.drm.DrmInfoEvent extends android.drm.DrmEvent {
+  public static final int TYPE_ACCOUNT_ALREADY_REGISTERED;
+  public static final int TYPE_ALREADY_REGISTERED_BY_ANOTHER_ACCOUNT;
+  public static final int TYPE_REMOVE_RIGHTS;
+  public static final int TYPE_RIGHTS_INSTALLED;
+  public static final int TYPE_RIGHTS_REMOVED;
+  public static final int TYPE_WAIT_FOR_RIGHTS;
+  public android.drm.DrmInfoEvent(int, int, java.lang.String);
+  public android.drm.DrmInfoEvent(int, int, java.lang.String, java.util.HashMap<java.lang.String, java.lang.Object>);
+}

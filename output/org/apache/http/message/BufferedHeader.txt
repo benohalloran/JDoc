@@ -1,0 +1,11 @@
+Compiled from "BufferedHeader.java"
+public class org.apache.http.message.BufferedHeader implements org.apache.http.FormattedHeader,java.lang.Cloneable {
+  public org.apache.http.message.BufferedHeader(org.apache.http.util.CharArrayBuffer) throws org.apache.http.ParseException;
+  public java.lang.String getName();
+  public java.lang.String getValue();
+  public org.apache.http.HeaderElement[] getElements() throws org.apache.http.ParseException;
+  public int getValuePos();
+  public org.apache.http.util.CharArrayBuffer getBuffer();
+  public java.lang.String toString();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

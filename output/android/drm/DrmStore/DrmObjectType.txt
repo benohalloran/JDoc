@@ -1,0 +1,8 @@
+Compiled from "DrmStore.java"
+public class android.drm.DrmStore$DrmObjectType {
+  public static final int CONTENT;
+  public static final int RIGHTS_OBJECT;
+  public static final int TRIGGER_OBJECT;
+  public static final int UNKNOWN;
+  public android.drm.DrmStore$DrmObjectType();
+}

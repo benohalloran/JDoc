@@ -1,0 +1,12 @@
+Compiled from "StateSet.java"
+public class android.util.StateSet {
+  public static final int[] NOTHING;
+  public static final int[] WILD_CARD;
+  android.util.StateSet();
+  public static boolean isWildCard(int[]);
+  public static boolean stateSetMatches(int[], int[]);
+  public static boolean stateSetMatches(int[], int);
+  public static int[] trimStateSet(int[], int);
+  public static java.lang.String dump(int[]);
+  static {};
+}

@@ -1,0 +1,6 @@
+Compiled from "RegionIterator.java"
+public class android.graphics.RegionIterator {
+  public android.graphics.RegionIterator(android.graphics.Region);
+  public final boolean next(android.graphics.Rect);
+  protected void finalize() throws java.lang.Throwable;
+}

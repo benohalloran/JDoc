@@ -1,0 +1,23 @@
+Compiled from "TwoStatePreference.java"
+public abstract class android.preference.TwoStatePreference extends android.preference.Preference {
+  public android.preference.TwoStatePreference(android.content.Context, android.util.AttributeSet, int, int);
+  public android.preference.TwoStatePreference(android.content.Context, android.util.AttributeSet, int);
+  public android.preference.TwoStatePreference(android.content.Context, android.util.AttributeSet);
+  public android.preference.TwoStatePreference(android.content.Context);
+  protected void onClick();
+  public void setChecked(boolean);
+  public boolean isChecked();
+  public boolean shouldDisableDependents();
+  public void setSummaryOn(java.lang.CharSequence);
+  public void setSummaryOn(int);
+  public java.lang.CharSequence getSummaryOn();
+  public void setSummaryOff(java.lang.CharSequence);
+  public void setSummaryOff(int);
+  public java.lang.CharSequence getSummaryOff();
+  public boolean getDisableDependentsState();
+  public void setDisableDependentsState(boolean);
+  protected java.lang.Object onGetDefaultValue(android.content.res.TypedArray, int);
+  protected void onSetInitialValue(boolean, java.lang.Object);
+  protected android.os.Parcelable onSaveInstanceState();
+  protected void onRestoreInstanceState(android.os.Parcelable);
+}

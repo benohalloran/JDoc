@@ -1,0 +1,9 @@
+Compiled from "Interpolator.java"
+public final class android.graphics.Interpolator$Result extends java.lang.Enum<android.graphics.Interpolator$Result> {
+  public static final android.graphics.Interpolator$Result FREEZE_END;
+  public static final android.graphics.Interpolator$Result FREEZE_START;
+  public static final android.graphics.Interpolator$Result NORMAL;
+  public static android.graphics.Interpolator$Result[] values();
+  public static android.graphics.Interpolator$Result valueOf(java.lang.String);
+  static {};
+}

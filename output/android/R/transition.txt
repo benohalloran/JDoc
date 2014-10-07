@@ -1,0 +1,5 @@
+Compiled from "R.java"
+public final class android.R$transition {
+  public static final int no_transition;
+  public android.R$transition();
+}

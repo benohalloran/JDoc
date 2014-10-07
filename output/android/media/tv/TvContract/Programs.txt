@@ -1,0 +1,21 @@
+Compiled from "TvContract.java"
+public final class android.media.tv.TvContract$Programs implements android.media.tv.TvContract$BaseTvColumns {
+  public static final java.lang.String COLUMN_AUDIO_LANGUAGE;
+  public static final java.lang.String COLUMN_BROADCAST_GENRE;
+  public static final java.lang.String COLUMN_CANONICAL_GENRE;
+  public static final java.lang.String COLUMN_CHANNEL_ID;
+  public static final java.lang.String COLUMN_END_TIME_UTC_MILLIS;
+  public static final java.lang.String COLUMN_INTERNAL_PROVIDER_DATA;
+  public static final java.lang.String COLUMN_LONG_DESCRIPTION;
+  public static final java.lang.String COLUMN_POSTER_ART_URI;
+  public static final java.lang.String COLUMN_SHORT_DESCRIPTION;
+  public static final java.lang.String COLUMN_START_TIME_UTC_MILLIS;
+  public static final java.lang.String COLUMN_THUMBNAIL_URI;
+  public static final java.lang.String COLUMN_TITLE;
+  public static final java.lang.String COLUMN_VERSION_NUMBER;
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  android.media.tv.TvContract$Programs();
+  static {};
+}

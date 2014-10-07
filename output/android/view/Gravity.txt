@@ -1,0 +1,40 @@
+Compiled from "Gravity.java"
+public class android.view.Gravity {
+  public static final int AXIS_CLIP;
+  public static final int AXIS_PULL_AFTER;
+  public static final int AXIS_PULL_BEFORE;
+  public static final int AXIS_SPECIFIED;
+  public static final int AXIS_X_SHIFT;
+  public static final int AXIS_Y_SHIFT;
+  public static final int BOTTOM;
+  public static final int CENTER;
+  public static final int CENTER_HORIZONTAL;
+  public static final int CENTER_VERTICAL;
+  public static final int CLIP_HORIZONTAL;
+  public static final int CLIP_VERTICAL;
+  public static final int DISPLAY_CLIP_HORIZONTAL;
+  public static final int DISPLAY_CLIP_VERTICAL;
+  public static final int END;
+  public static final int FILL;
+  public static final int FILL_HORIZONTAL;
+  public static final int FILL_VERTICAL;
+  public static final int HORIZONTAL_GRAVITY_MASK;
+  public static final int LEFT;
+  public static final int NO_GRAVITY;
+  public static final int RELATIVE_HORIZONTAL_GRAVITY_MASK;
+  public static final int RELATIVE_LAYOUT_DIRECTION;
+  public static final int RIGHT;
+  public static final int START;
+  public static final int TOP;
+  public static final int VERTICAL_GRAVITY_MASK;
+  public android.view.Gravity();
+  public static void apply(int, int, int, android.graphics.Rect, android.graphics.Rect);
+  public static void apply(int, int, int, android.graphics.Rect, android.graphics.Rect, int);
+  public static void apply(int, int, int, android.graphics.Rect, int, int, android.graphics.Rect);
+  public static void apply(int, int, int, android.graphics.Rect, int, int, android.graphics.Rect, int);
+  public static void applyDisplay(int, android.graphics.Rect, android.graphics.Rect);
+  public static void applyDisplay(int, android.graphics.Rect, android.graphics.Rect, int);
+  public static boolean isVertical(int);
+  public static boolean isHorizontal(int);
+  public static int getAbsoluteGravity(int, int);
+}

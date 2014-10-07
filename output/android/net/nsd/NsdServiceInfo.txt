@@ -1,0 +1,20 @@
+Compiled from "NsdServiceInfo.java"
+public final class android.net.nsd.NsdServiceInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.net.nsd.NsdServiceInfo> CREATOR;
+  public android.net.nsd.NsdServiceInfo();
+  public java.lang.String getServiceName();
+  public void setServiceName(java.lang.String);
+  public java.lang.String getServiceType();
+  public void setServiceType(java.lang.String);
+  public java.net.InetAddress getHost();
+  public void setHost(java.net.InetAddress);
+  public int getPort();
+  public void setPort(int);
+  public void setAttribute(java.lang.String, java.lang.String);
+  public void removeAttribute(java.lang.String);
+  public java.util.Map<java.lang.String, byte[]> getAttributes();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

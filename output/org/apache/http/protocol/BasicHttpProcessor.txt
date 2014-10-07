@@ -1,0 +1,29 @@
+Compiled from "BasicHttpProcessor.java"
+public final class org.apache.http.protocol.BasicHttpProcessor implements org.apache.http.protocol.HttpProcessor,org.apache.http.protocol.HttpRequestInterceptorList,org.apache.http.protocol.HttpResponseInterceptorList,java.lang.Cloneable {
+  protected java.util.List requestInterceptors;
+  protected java.util.List responseInterceptors;
+  public org.apache.http.protocol.BasicHttpProcessor();
+  public void addRequestInterceptor(org.apache.http.HttpRequestInterceptor);
+  public void addRequestInterceptor(org.apache.http.HttpRequestInterceptor, int);
+  public void addResponseInterceptor(org.apache.http.HttpResponseInterceptor, int);
+  public void removeRequestInterceptorByClass(java.lang.Class);
+  public void removeResponseInterceptorByClass(java.lang.Class);
+  public final void addInterceptor(org.apache.http.HttpRequestInterceptor);
+  public final void addInterceptor(org.apache.http.HttpRequestInterceptor, int);
+  public int getRequestInterceptorCount();
+  public org.apache.http.HttpRequestInterceptor getRequestInterceptor(int);
+  public void clearRequestInterceptors();
+  public void addResponseInterceptor(org.apache.http.HttpResponseInterceptor);
+  public final void addInterceptor(org.apache.http.HttpResponseInterceptor);
+  public final void addInterceptor(org.apache.http.HttpResponseInterceptor, int);
+  public int getResponseInterceptorCount();
+  public org.apache.http.HttpResponseInterceptor getResponseInterceptor(int);
+  public void clearResponseInterceptors();
+  public void setInterceptors(java.util.List);
+  public void clearInterceptors();
+  public void process(org.apache.http.HttpRequest, org.apache.http.protocol.HttpContext) throws java.io.IOException, org.apache.http.HttpException;
+  public void process(org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext) throws java.io.IOException, org.apache.http.HttpException;
+  protected void copyInterceptors(org.apache.http.protocol.BasicHttpProcessor);
+  public org.apache.http.protocol.BasicHttpProcessor copy();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

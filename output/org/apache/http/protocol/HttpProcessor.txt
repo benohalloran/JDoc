@@ -1,0 +1,3 @@
+Compiled from "HttpProcessor.java"
+public interface org.apache.http.protocol.HttpProcessor extends org.apache.http.HttpRequestInterceptor,org.apache.http.HttpResponseInterceptor {
+}

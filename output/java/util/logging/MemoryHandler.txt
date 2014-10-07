@@ -1,0 +1,12 @@
+Compiled from "MemoryHandler.java"
+public class java.util.logging.MemoryHandler extends java.util.logging.Handler {
+  public java.util.logging.MemoryHandler();
+  public java.util.logging.MemoryHandler(java.util.logging.Handler, int, java.util.logging.Level);
+  public void close();
+  public void flush();
+  public synchronized void publish(java.util.logging.LogRecord);
+  public java.util.logging.Level getPushLevel();
+  public boolean isLoggable(java.util.logging.LogRecord);
+  public void push();
+  public void setPushLevel(java.util.logging.Level);
+}

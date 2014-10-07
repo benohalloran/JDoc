@@ -1,0 +1,9 @@
+Compiled from "Paint.java"
+public final class android.graphics.Paint$Join extends java.lang.Enum<android.graphics.Paint$Join> {
+  public static final android.graphics.Paint$Join BEVEL;
+  public static final android.graphics.Paint$Join MITER;
+  public static final android.graphics.Paint$Join ROUND;
+  public static android.graphics.Paint$Join[] values();
+  public static android.graphics.Paint$Join valueOf(java.lang.String);
+  static {};
+}

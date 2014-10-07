@@ -1,0 +1,9 @@
+Compiled from "WifiConfiguration.java"
+public class android.net.wifi.WifiConfiguration$Status {
+  public static final int CURRENT;
+  public static final int DISABLED;
+  public static final int ENABLED;
+  public static final java.lang.String[] strings;
+  android.net.wifi.WifiConfiguration$Status();
+  static {};
+}

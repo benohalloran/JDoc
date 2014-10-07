@@ -1,0 +1,4 @@
+Compiled from "ReadOnlyBufferException.java"
+public class java.nio.ReadOnlyBufferException extends java.lang.UnsupportedOperationException {
+  public java.nio.ReadOnlyBufferException();
+}

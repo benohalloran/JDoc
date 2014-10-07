@@ -1,0 +1,8 @@
+Compiled from "DefaultedHttpContext.java"
+public final class org.apache.http.protocol.DefaultedHttpContext implements org.apache.http.protocol.HttpContext {
+  public org.apache.http.protocol.DefaultedHttpContext(org.apache.http.protocol.HttpContext, org.apache.http.protocol.HttpContext);
+  public java.lang.Object getAttribute(java.lang.String);
+  public java.lang.Object removeAttribute(java.lang.String);
+  public void setAttribute(java.lang.String, java.lang.Object);
+  public org.apache.http.protocol.HttpContext getDefaults();
+}

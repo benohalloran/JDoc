@@ -1,0 +1,6 @@
+Compiled from "ActivityManager.java"
+public class android.app.ActivityManager$AppTask {
+  android.app.ActivityManager$AppTask();
+  public void finishAndRemoveTask();
+  public android.app.ActivityManager$RecentTaskInfo getTaskInfo();
+}

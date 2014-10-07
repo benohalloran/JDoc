@@ -1,0 +1,19 @@
+Compiled from "XmlPullParserFactory.java"
+public class org.xmlpull.v1.XmlPullParserFactory {
+  public static final java.lang.String PROPERTY_NAME;
+  protected java.lang.String classNamesLocation;
+  protected java.util.HashMap<java.lang.String, java.lang.Boolean> features;
+  protected java.util.ArrayList parserClasses;
+  protected java.util.ArrayList serializerClasses;
+  protected org.xmlpull.v1.XmlPullParserFactory();
+  public void setFeature(java.lang.String, boolean) throws org.xmlpull.v1.XmlPullParserException;
+  public boolean getFeature(java.lang.String);
+  public void setNamespaceAware(boolean);
+  public boolean isNamespaceAware();
+  public void setValidating(boolean);
+  public boolean isValidating();
+  public org.xmlpull.v1.XmlPullParser newPullParser() throws org.xmlpull.v1.XmlPullParserException;
+  public org.xmlpull.v1.XmlSerializer newSerializer() throws org.xmlpull.v1.XmlPullParserException;
+  public static org.xmlpull.v1.XmlPullParserFactory newInstance() throws org.xmlpull.v1.XmlPullParserException;
+  public static org.xmlpull.v1.XmlPullParserFactory newInstance(java.lang.String, java.lang.Class) throws org.xmlpull.v1.XmlPullParserException;
+}

@@ -1,0 +1,21 @@
+Compiled from "Gesture.java"
+public class android.gesture.Gesture implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.gesture.Gesture> CREATOR;
+  public android.gesture.Gesture();
+  public java.lang.Object clone();
+  public java.util.ArrayList<android.gesture.GestureStroke> getStrokes();
+  public int getStrokesCount();
+  public void addStroke(android.gesture.GestureStroke);
+  public float getLength();
+  public android.graphics.RectF getBoundingBox();
+  public android.graphics.Path toPath();
+  public android.graphics.Path toPath(android.graphics.Path);
+  public android.graphics.Path toPath(int, int, int, int);
+  public android.graphics.Path toPath(android.graphics.Path, int, int, int, int);
+  public long getID();
+  public android.graphics.Bitmap toBitmap(int, int, int, int, int);
+  public android.graphics.Bitmap toBitmap(int, int, int, int);
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  static {};
+}

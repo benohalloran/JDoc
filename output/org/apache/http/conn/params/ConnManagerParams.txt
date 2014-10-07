@@ -1,0 +1,11 @@
+Compiled from "ConnManagerParams.java"
+public final class org.apache.http.conn.params.ConnManagerParams implements org.apache.http.conn.params.ConnManagerPNames {
+  public static final int DEFAULT_MAX_TOTAL_CONNECTIONS;
+  public org.apache.http.conn.params.ConnManagerParams();
+  public static long getTimeout(org.apache.http.params.HttpParams);
+  public static void setTimeout(org.apache.http.params.HttpParams, long);
+  public static void setMaxConnectionsPerRoute(org.apache.http.params.HttpParams, org.apache.http.conn.params.ConnPerRoute);
+  public static org.apache.http.conn.params.ConnPerRoute getMaxConnectionsPerRoute(org.apache.http.params.HttpParams);
+  public static void setMaxTotalConnections(org.apache.http.params.HttpParams, int);
+  public static int getMaxTotalConnections(org.apache.http.params.HttpParams);
+}

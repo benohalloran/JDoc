@@ -1,0 +1,4 @@
+Compiled from "TextToSpeech.java"
+public interface android.speech.tts.TextToSpeech$OnUtteranceCompletedListener {
+  public abstract void onUtteranceCompleted(java.lang.String);
+}

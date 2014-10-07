@@ -1,0 +1,11 @@
+Compiled from "AccessibleObject.java"
+public class java.lang.reflect.AccessibleObject implements java.lang.reflect.AnnotatedElement {
+  protected java.lang.reflect.AccessibleObject();
+  public static void setAccessible(java.lang.reflect.AccessibleObject[], boolean);
+  public boolean isAccessible();
+  public void setAccessible(boolean);
+  public boolean isAnnotationPresent(java.lang.Class<? extends java.lang.annotation.Annotation>);
+  public java.lang.annotation.Annotation[] getDeclaredAnnotations();
+  public java.lang.annotation.Annotation[] getAnnotations();
+  public <T extends java/lang/annotation/Annotation> T getAnnotation(java.lang.Class<T>);
+}

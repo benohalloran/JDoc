@@ -1,0 +1,26 @@
+Compiled from "Typeface.java"
+public class android.graphics.Typeface {
+  public static final int BOLD;
+  public static final int BOLD_ITALIC;
+  public static final android.graphics.Typeface DEFAULT;
+  public static final android.graphics.Typeface DEFAULT_BOLD;
+  public static final int ITALIC;
+  public static final android.graphics.Typeface MONOSPACE;
+  public static final int NORMAL;
+  public static final android.graphics.Typeface SANS_SERIF;
+  public static final android.graphics.Typeface SERIF;
+  android.graphics.Typeface();
+  public int getStyle();
+  public final boolean isBold();
+  public final boolean isItalic();
+  public static android.graphics.Typeface create(java.lang.String, int);
+  public static android.graphics.Typeface create(android.graphics.Typeface, int);
+  public static android.graphics.Typeface defaultFromStyle(int);
+  public static android.graphics.Typeface createFromAsset(android.content.res.AssetManager, java.lang.String);
+  public static android.graphics.Typeface createFromFile(java.io.File);
+  public static android.graphics.Typeface createFromFile(java.lang.String);
+  protected void finalize() throws java.lang.Throwable;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  static {};
+}

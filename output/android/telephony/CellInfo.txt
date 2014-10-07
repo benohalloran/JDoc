@@ -1,0 +1,13 @@
+Compiled from "CellInfo.java"
+public abstract class android.telephony.CellInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.telephony.CellInfo> CREATOR;
+  android.telephony.CellInfo();
+  public boolean isRegistered();
+  public long getTimeStamp();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public int describeContents();
+  public abstract void writeToParcel(android.os.Parcel, int);
+  static {};
+}

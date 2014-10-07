@@ -1,0 +1,36 @@
+Compiled from "WebViewClient.java"
+public class android.webkit.WebViewClient {
+  public static final int ERROR_AUTHENTICATION;
+  public static final int ERROR_BAD_URL;
+  public static final int ERROR_CONNECT;
+  public static final int ERROR_FAILED_SSL_HANDSHAKE;
+  public static final int ERROR_FILE;
+  public static final int ERROR_FILE_NOT_FOUND;
+  public static final int ERROR_HOST_LOOKUP;
+  public static final int ERROR_IO;
+  public static final int ERROR_PROXY_AUTHENTICATION;
+  public static final int ERROR_REDIRECT_LOOP;
+  public static final int ERROR_TIMEOUT;
+  public static final int ERROR_TOO_MANY_REQUESTS;
+  public static final int ERROR_UNKNOWN;
+  public static final int ERROR_UNSUPPORTED_AUTH_SCHEME;
+  public static final int ERROR_UNSUPPORTED_SCHEME;
+  public android.webkit.WebViewClient();
+  public boolean shouldOverrideUrlLoading(android.webkit.WebView, java.lang.String);
+  public void onPageStarted(android.webkit.WebView, java.lang.String, android.graphics.Bitmap);
+  public void onPageFinished(android.webkit.WebView, java.lang.String);
+  public void onLoadResource(android.webkit.WebView, java.lang.String);
+  public android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView, java.lang.String);
+  public void onTooManyRedirects(android.webkit.WebView, android.os.Message, android.os.Message);
+  public void onReceivedError(android.webkit.WebView, int, java.lang.String, java.lang.String);
+  public void onFormResubmission(android.webkit.WebView, android.os.Message, android.os.Message);
+  public void doUpdateVisitedHistory(android.webkit.WebView, java.lang.String, boolean);
+  public void onReceivedSslError(android.webkit.WebView, android.webkit.SslErrorHandler, android.net.http.SslError);
+  public void onReceivedClientCertRequest(android.webkit.WebView, android.webkit.ClientCertRequest);
+  public void onReceivedHttpAuthRequest(android.webkit.WebView, android.webkit.HttpAuthHandler, java.lang.String, java.lang.String);
+  public boolean shouldOverrideKeyEvent(android.webkit.WebView, android.view.KeyEvent);
+  public void onUnhandledKeyEvent(android.webkit.WebView, android.view.KeyEvent);
+  public void onUnhandledInputEvent(android.webkit.WebView, android.view.InputEvent);
+  public void onScaleChanged(android.webkit.WebView, float, float);
+  public void onReceivedLoginRequest(android.webkit.WebView, java.lang.String, java.lang.String, java.lang.String);
+}

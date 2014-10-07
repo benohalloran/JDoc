@@ -1,0 +1,15 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$CommonDataKinds$StructuredName implements android.provider.ContactsContract$DataColumnsWithJoins {
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String DISPLAY_NAME;
+  public static final java.lang.String FAMILY_NAME;
+  public static final java.lang.String FULL_NAME_STYLE;
+  public static final java.lang.String GIVEN_NAME;
+  public static final java.lang.String MIDDLE_NAME;
+  public static final java.lang.String PHONETIC_FAMILY_NAME;
+  public static final java.lang.String PHONETIC_GIVEN_NAME;
+  public static final java.lang.String PHONETIC_MIDDLE_NAME;
+  public static final java.lang.String PREFIX;
+  public static final java.lang.String SUFFIX;
+  android.provider.ContactsContract$CommonDataKinds$StructuredName();
+}

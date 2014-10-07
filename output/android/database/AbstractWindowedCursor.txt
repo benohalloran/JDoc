@@ -1,0 +1,23 @@
+Compiled from "AbstractWindowedCursor.java"
+public abstract class android.database.AbstractWindowedCursor extends android.database.AbstractCursor {
+  protected android.database.CursorWindow mWindow;
+  public android.database.AbstractWindowedCursor();
+  public byte[] getBlob(int);
+  public java.lang.String getString(int);
+  public void copyStringToBuffer(int, android.database.CharArrayBuffer);
+  public short getShort(int);
+  public int getInt(int);
+  public long getLong(int);
+  public float getFloat(int);
+  public double getDouble(int);
+  public boolean isNull(int);
+  public boolean isBlob(int);
+  public boolean isString(int);
+  public boolean isLong(int);
+  public boolean isFloat(int);
+  public int getType(int);
+  protected void checkPosition();
+  public android.database.CursorWindow getWindow();
+  public void setWindow(android.database.CursorWindow);
+  public boolean hasWindow();
+}

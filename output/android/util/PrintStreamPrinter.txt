@@ -1,0 +1,5 @@
+Compiled from "PrintStreamPrinter.java"
+public class android.util.PrintStreamPrinter implements android.util.Printer {
+  public android.util.PrintStreamPrinter(java.io.PrintStream);
+  public void println(java.lang.String);
+}

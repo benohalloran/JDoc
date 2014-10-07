@@ -1,0 +1,8 @@
+Compiled from "RFC2617Scheme.java"
+public abstract class org.apache.http.impl.auth.RFC2617Scheme extends org.apache.http.impl.auth.AuthSchemeBase {
+  public org.apache.http.impl.auth.RFC2617Scheme();
+  protected void parseChallenge(org.apache.http.util.CharArrayBuffer, int, int) throws org.apache.http.auth.MalformedChallengeException;
+  protected java.util.Map<java.lang.String, java.lang.String> getParameters();
+  public java.lang.String getParameter(java.lang.String);
+  public java.lang.String getRealm();
+}

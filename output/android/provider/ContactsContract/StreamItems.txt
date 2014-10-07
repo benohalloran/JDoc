@@ -1,0 +1,11 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$StreamItems implements android.provider.BaseColumns,android.provider.ContactsContract$StreamItemsColumns {
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final android.net.Uri CONTENT_LIMIT_URI;
+  public static final android.net.Uri CONTENT_PHOTO_URI;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String MAX_ITEMS;
+  android.provider.ContactsContract$StreamItems();
+  static {};
+}

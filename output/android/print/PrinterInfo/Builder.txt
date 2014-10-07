@@ -1,0 +1,10 @@
+Compiled from "PrinterInfo.java"
+public final class android.print.PrinterInfo$Builder {
+  public android.print.PrinterInfo$Builder(android.print.PrinterId, java.lang.String, int);
+  public android.print.PrinterInfo$Builder(android.print.PrinterInfo);
+  public android.print.PrinterInfo$Builder setStatus(int);
+  public android.print.PrinterInfo$Builder setName(java.lang.String);
+  public android.print.PrinterInfo$Builder setDescription(java.lang.String);
+  public android.print.PrinterInfo$Builder setCapabilities(android.print.PrinterCapabilitiesInfo);
+  public android.print.PrinterInfo build();
+}

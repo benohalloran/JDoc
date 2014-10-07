@@ -1,0 +1,26 @@
+Compiled from "Rating.java"
+public final class android.media.Rating implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.media.Rating> CREATOR;
+  public static final int RATING_3_STARS;
+  public static final int RATING_4_STARS;
+  public static final int RATING_5_STARS;
+  public static final int RATING_HEART;
+  public static final int RATING_NONE;
+  public static final int RATING_PERCENTAGE;
+  public static final int RATING_THUMB_UP_DOWN;
+  android.media.Rating();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public static android.media.Rating newUnratedRating(int);
+  public static android.media.Rating newHeartRating(boolean);
+  public static android.media.Rating newThumbRating(boolean);
+  public static android.media.Rating newStarRating(int, float);
+  public static android.media.Rating newPercentageRating(float);
+  public boolean isRated();
+  public int getRatingStyle();
+  public boolean hasHeart();
+  public boolean isThumbUp();
+  public float getStarRating();
+  public float getPercentRating();
+  static {};
+}

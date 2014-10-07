@@ -1,0 +1,8 @@
+Compiled from "DrmStore.java"
+public class android.drm.DrmStore$RightsStatus {
+  public static final int RIGHTS_EXPIRED;
+  public static final int RIGHTS_INVALID;
+  public static final int RIGHTS_NOT_ACQUIRED;
+  public static final int RIGHTS_VALID;
+  public android.drm.DrmStore$RightsStatus();
+}

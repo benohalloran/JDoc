@@ -1,0 +1,21 @@
+Compiled from "AbstractList.java"
+public abstract class java.util.AbstractList<E> extends java.util.AbstractCollection<E> implements java.util.List<E> {
+  protected transient int modCount;
+  protected java.util.AbstractList();
+  public void add(int, E);
+  public boolean add(E);
+  public boolean addAll(int, java.util.Collection<? extends E>);
+  public void clear();
+  public boolean equals(java.lang.Object);
+  public abstract E get(int);
+  public int hashCode();
+  public int indexOf(java.lang.Object);
+  public java.util.Iterator<E> iterator();
+  public int lastIndexOf(java.lang.Object);
+  public java.util.ListIterator<E> listIterator();
+  public java.util.ListIterator<E> listIterator(int);
+  public E remove(int);
+  protected void removeRange(int, int);
+  public E set(int, E);
+  public java.util.List<E> subList(int, int);
+}

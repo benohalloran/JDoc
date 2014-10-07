@@ -1,0 +1,12 @@
+Compiled from "RuleBasedCollator.java"
+public class java.text.RuleBasedCollator extends java.text.Collator {
+  public java.text.RuleBasedCollator(java.lang.String) throws java.text.ParseException;
+  public java.text.CollationElementIterator getCollationElementIterator(java.text.CharacterIterator);
+  public java.text.CollationElementIterator getCollationElementIterator(java.lang.String);
+  public java.lang.String getRules();
+  public java.lang.Object clone();
+  public int compare(java.lang.String, java.lang.String);
+  public java.text.CollationKey getCollationKey(java.lang.String);
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+}

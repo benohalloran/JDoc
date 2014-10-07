@@ -1,0 +1,5 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$RawContacts$DisplayPhoto {
+  public static final java.lang.String CONTENT_DIRECTORY;
+  android.provider.ContactsContract$RawContacts$DisplayPhoto();
+}

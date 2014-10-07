@@ -1,0 +1,9 @@
+Compiled from "Contacts.java"
+public final class android.provider.Contacts$Organizations implements android.provider.BaseColumns,android.provider.Contacts$OrganizationColumns {
+  public static final java.lang.String CONTENT_DIRECTORY;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  android.provider.Contacts$Organizations();
+  public static final java.lang.CharSequence getDisplayLabel(android.content.Context, int, java.lang.CharSequence);
+  static {};
+}

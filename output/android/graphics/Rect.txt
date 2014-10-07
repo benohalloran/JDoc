@@ -1,0 +1,46 @@
+Compiled from "Rect.java"
+public final class android.graphics.Rect implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.graphics.Rect> CREATOR;
+  public int bottom;
+  public int left;
+  public int right;
+  public int top;
+  public android.graphics.Rect();
+  public android.graphics.Rect(int, int, int, int);
+  public android.graphics.Rect(android.graphics.Rect);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public java.lang.String toShortString();
+  public java.lang.String flattenToString();
+  public static android.graphics.Rect unflattenFromString(java.lang.String);
+  public final boolean isEmpty();
+  public final int width();
+  public final int height();
+  public final int centerX();
+  public final int centerY();
+  public final float exactCenterX();
+  public final float exactCenterY();
+  public void setEmpty();
+  public void set(int, int, int, int);
+  public void set(android.graphics.Rect);
+  public void offset(int, int);
+  public void offsetTo(int, int);
+  public void inset(int, int);
+  public boolean contains(int, int);
+  public boolean contains(int, int, int, int);
+  public boolean contains(android.graphics.Rect);
+  public boolean intersect(int, int, int, int);
+  public boolean intersect(android.graphics.Rect);
+  public boolean setIntersect(android.graphics.Rect, android.graphics.Rect);
+  public boolean intersects(int, int, int, int);
+  public static boolean intersects(android.graphics.Rect, android.graphics.Rect);
+  public void union(int, int, int, int);
+  public void union(android.graphics.Rect);
+  public void union(int, int);
+  public void sort();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public void readFromParcel(android.os.Parcel);
+  static {};
+}

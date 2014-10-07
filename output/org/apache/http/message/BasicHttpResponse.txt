@@ -1,0 +1,18 @@
+Compiled from "BasicHttpResponse.java"
+public class org.apache.http.message.BasicHttpResponse extends org.apache.http.message.AbstractHttpMessage implements org.apache.http.HttpResponse {
+  public org.apache.http.message.BasicHttpResponse(org.apache.http.StatusLine, org.apache.http.ReasonPhraseCatalog, java.util.Locale);
+  public org.apache.http.message.BasicHttpResponse(org.apache.http.StatusLine);
+  public org.apache.http.message.BasicHttpResponse(org.apache.http.ProtocolVersion, int, java.lang.String);
+  public org.apache.http.ProtocolVersion getProtocolVersion();
+  public org.apache.http.StatusLine getStatusLine();
+  public org.apache.http.HttpEntity getEntity();
+  public java.util.Locale getLocale();
+  public void setStatusLine(org.apache.http.StatusLine);
+  public void setStatusLine(org.apache.http.ProtocolVersion, int);
+  public void setStatusLine(org.apache.http.ProtocolVersion, int, java.lang.String);
+  public void setStatusCode(int);
+  public void setReasonPhrase(java.lang.String);
+  public void setEntity(org.apache.http.HttpEntity);
+  public void setLocale(java.util.Locale);
+  protected java.lang.String getReason(int);
+}

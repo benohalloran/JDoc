@@ -1,0 +1,17 @@
+Compiled from "LabeledIntent.java"
+public class android.content.pm.LabeledIntent extends android.content.Intent {
+  public static final android.os.Parcelable$Creator<android.content.pm.LabeledIntent> CREATOR;
+  public android.content.pm.LabeledIntent(android.content.Intent, java.lang.String, int, int);
+  public android.content.pm.LabeledIntent(android.content.Intent, java.lang.String, java.lang.CharSequence, int);
+  public android.content.pm.LabeledIntent(java.lang.String, int, int);
+  public android.content.pm.LabeledIntent(java.lang.String, java.lang.CharSequence, int);
+  public java.lang.String getSourcePackage();
+  public int getLabelResource();
+  public java.lang.CharSequence getNonLocalizedLabel();
+  public int getIconResource();
+  public java.lang.CharSequence loadLabel(android.content.pm.PackageManager);
+  public android.graphics.drawable.Drawable loadIcon(android.content.pm.PackageManager);
+  public void writeToParcel(android.os.Parcel, int);
+  public void readFromParcel(android.os.Parcel);
+  static {};
+}

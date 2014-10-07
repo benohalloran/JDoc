@@ -1,0 +1,11 @@
+Compiled from "WebIconDatabase.java"
+public class android.webkit.WebIconDatabase {
+  android.webkit.WebIconDatabase();
+  public void open(java.lang.String);
+  public void close();
+  public void removeAllIcons();
+  public void requestIconForPageUrl(java.lang.String, android.webkit.WebIconDatabase$IconListener);
+  public void retainIconForPageUrl(java.lang.String);
+  public void releaseIconForPageUrl(java.lang.String);
+  public static android.webkit.WebIconDatabase getInstance();
+}

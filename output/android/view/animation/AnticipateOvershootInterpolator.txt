@@ -1,0 +1,8 @@
+Compiled from "AnticipateOvershootInterpolator.java"
+public class android.view.animation.AnticipateOvershootInterpolator implements android.view.animation.Interpolator {
+  public android.view.animation.AnticipateOvershootInterpolator();
+  public android.view.animation.AnticipateOvershootInterpolator(float);
+  public android.view.animation.AnticipateOvershootInterpolator(float, float);
+  public android.view.animation.AnticipateOvershootInterpolator(android.content.Context, android.util.AttributeSet);
+  public float getInterpolation(float);
+}

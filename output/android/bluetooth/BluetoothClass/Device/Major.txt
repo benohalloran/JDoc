@@ -1,0 +1,15 @@
+Compiled from "BluetoothClass.java"
+public class android.bluetooth.BluetoothClass$Device$Major {
+  public static final int AUDIO_VIDEO;
+  public static final int COMPUTER;
+  public static final int HEALTH;
+  public static final int IMAGING;
+  public static final int MISC;
+  public static final int NETWORKING;
+  public static final int PERIPHERAL;
+  public static final int PHONE;
+  public static final int TOY;
+  public static final int UNCATEGORIZED;
+  public static final int WEARABLE;
+  public android.bluetooth.BluetoothClass$Device$Major();
+}

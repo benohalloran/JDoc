@@ -1,0 +1,10 @@
+Compiled from "FileHandler.java"
+public class java.util.logging.FileHandler extends java.util.logging.StreamHandler {
+  public java.util.logging.FileHandler() throws java.io.IOException;
+  public java.util.logging.FileHandler(java.lang.String) throws java.io.IOException;
+  public java.util.logging.FileHandler(java.lang.String, boolean) throws java.io.IOException;
+  public java.util.logging.FileHandler(java.lang.String, int, int) throws java.io.IOException;
+  public java.util.logging.FileHandler(java.lang.String, int, int, boolean) throws java.io.IOException;
+  public void close();
+  public synchronized void publish(java.util.logging.LogRecord);
+}

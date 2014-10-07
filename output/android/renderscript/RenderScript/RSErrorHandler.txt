@@ -1,0 +1,7 @@
+Compiled from "RenderScript.java"
+public class android.renderscript.RenderScript$RSErrorHandler implements java.lang.Runnable {
+  protected java.lang.String mErrorMessage;
+  protected int mErrorNum;
+  public android.renderscript.RenderScript$RSErrorHandler();
+  public void run();
+}

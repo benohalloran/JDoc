@@ -1,0 +1,9 @@
+Compiled from "Camera.java"
+public class android.hardware.Camera$CameraInfo {
+  public static final int CAMERA_FACING_BACK;
+  public static final int CAMERA_FACING_FRONT;
+  public boolean canDisableShutterSound;
+  public int facing;
+  public int orientation;
+  public android.hardware.Camera$CameraInfo();
+}

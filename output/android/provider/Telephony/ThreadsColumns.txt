@@ -1,0 +1,12 @@
+Compiled from "Telephony.java"
+public interface android.provider.Telephony$ThreadsColumns extends android.provider.BaseColumns {
+  public static final java.lang.String DATE;
+  public static final java.lang.String ERROR;
+  public static final java.lang.String HAS_ATTACHMENT;
+  public static final java.lang.String MESSAGE_COUNT;
+  public static final java.lang.String READ;
+  public static final java.lang.String RECIPIENT_IDS;
+  public static final java.lang.String SNIPPET;
+  public static final java.lang.String SNIPPET_CHARSET;
+  public static final java.lang.String TYPE;
+}

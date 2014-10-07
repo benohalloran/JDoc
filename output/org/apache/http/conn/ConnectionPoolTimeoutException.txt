@@ -1,0 +1,5 @@
+Compiled from "ConnectionPoolTimeoutException.java"
+public class org.apache.http.conn.ConnectionPoolTimeoutException extends org.apache.http.conn.ConnectTimeoutException {
+  public org.apache.http.conn.ConnectionPoolTimeoutException();
+  public org.apache.http.conn.ConnectionPoolTimeoutException(java.lang.String);
+}

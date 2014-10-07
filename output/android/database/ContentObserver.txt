@@ -1,0 +1,9 @@
+Compiled from "ContentObserver.java"
+public abstract class android.database.ContentObserver {
+  public android.database.ContentObserver(android.os.Handler);
+  public boolean deliverSelfNotifications();
+  public void onChange(boolean);
+  public void onChange(boolean, android.net.Uri);
+  public final void dispatchChange(boolean);
+  public final void dispatchChange(boolean, android.net.Uri);
+}

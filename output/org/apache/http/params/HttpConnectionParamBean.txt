@@ -1,0 +1,10 @@
+Compiled from "HttpConnectionParamBean.java"
+public class org.apache.http.params.HttpConnectionParamBean extends org.apache.http.params.HttpAbstractParamBean {
+  public org.apache.http.params.HttpConnectionParamBean(org.apache.http.params.HttpParams);
+  public void setSoTimeout(int);
+  public void setTcpNoDelay(boolean);
+  public void setSocketBufferSize(int);
+  public void setLinger(int);
+  public void setConnectionTimeout(int);
+  public void setStaleCheckingEnabled(boolean);
+}

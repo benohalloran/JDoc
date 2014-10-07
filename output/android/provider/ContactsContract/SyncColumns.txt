@@ -1,0 +1,8 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$SyncColumns extends android.provider.ContactsContract$BaseSyncColumns {
+  public static final java.lang.String ACCOUNT_NAME;
+  public static final java.lang.String ACCOUNT_TYPE;
+  public static final java.lang.String DIRTY;
+  public static final java.lang.String SOURCE_ID;
+  public static final java.lang.String VERSION;
+}

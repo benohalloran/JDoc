@@ -1,0 +1,13 @@
+Compiled from "AccessibilityNodeInfo.java"
+public final class android.view.accessibility.AccessibilityNodeInfo$CollectionInfo {
+  public static final int SELECTION_MODE_MULTIPLE;
+  public static final int SELECTION_MODE_NONE;
+  public static final int SELECTION_MODE_SINGLE;
+  android.view.accessibility.AccessibilityNodeInfo$CollectionInfo();
+  public static android.view.accessibility.AccessibilityNodeInfo$CollectionInfo obtain(int, int, boolean);
+  public static android.view.accessibility.AccessibilityNodeInfo$CollectionInfo obtain(int, int, boolean, int);
+  public int getRowCount();
+  public int getColumnCount();
+  public boolean isHierarchical();
+  public int getSelectionMode();
+}

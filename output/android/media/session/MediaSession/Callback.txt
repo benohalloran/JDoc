@@ -1,0 +1,6 @@
+Compiled from "MediaSession.java"
+public abstract class android.media.session.MediaSession$Callback {
+  public android.media.session.MediaSession$Callback();
+  public void onMediaButtonEvent(android.content.Intent);
+  public void onControlCommand(java.lang.String, android.os.Bundle, android.os.ResultReceiver);
+}

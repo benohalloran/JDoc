@@ -1,0 +1,10 @@
+Compiled from "SoundEffectConstants.java"
+public class android.view.SoundEffectConstants {
+  public static final int CLICK;
+  public static final int NAVIGATION_DOWN;
+  public static final int NAVIGATION_LEFT;
+  public static final int NAVIGATION_RIGHT;
+  public static final int NAVIGATION_UP;
+  android.view.SoundEffectConstants();
+  public static int getContantForFocusDirection(int);
+}

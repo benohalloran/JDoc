@@ -1,0 +1,5 @@
+Compiled from "MenuItem.java"
+public interface android.view.MenuItem$OnActionExpandListener {
+  public abstract boolean onMenuItemActionExpand(android.view.MenuItem);
+  public abstract boolean onMenuItemActionCollapse(android.view.MenuItem);
+}

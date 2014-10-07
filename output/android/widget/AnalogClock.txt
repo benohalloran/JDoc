@@ -1,0 +1,12 @@
+Compiled from "AnalogClock.java"
+public class android.widget.AnalogClock extends android.view.View {
+  public android.widget.AnalogClock(android.content.Context);
+  public android.widget.AnalogClock(android.content.Context, android.util.AttributeSet);
+  public android.widget.AnalogClock(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.AnalogClock(android.content.Context, android.util.AttributeSet, int, int);
+  protected void onAttachedToWindow();
+  protected void onDetachedFromWindow();
+  protected void onMeasure(int, int);
+  protected void onSizeChanged(int, int, int, int);
+  protected void onDraw(android.graphics.Canvas);
+}

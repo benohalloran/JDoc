@@ -1,0 +1,11 @@
+Compiled from "ContactsContract.java"
+public class android.provider.ContactsContract$StatusUpdates implements android.provider.ContactsContract$StatusColumns,android.provider.ContactsContract$PresenceColumns {
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  public static final android.net.Uri PROFILE_CONTENT_URI;
+  android.provider.ContactsContract$StatusUpdates();
+  public static final int getPresenceIconResourceId(int);
+  public static final int getPresencePrecedence(int);
+  static {};
+}

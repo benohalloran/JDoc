@@ -1,0 +1,24 @@
+Compiled from "Binder.java"
+public class android.os.Binder implements android.os.IBinder {
+  public android.os.Binder();
+  public static final native int getCallingPid();
+  public static final native int getCallingUid();
+  public static final android.os.UserHandle getCallingUserHandle();
+  public static final native long clearCallingIdentity();
+  public static final native void restoreCallingIdentity(long);
+  public static final native void flushPendingCommands();
+  public static final native void joinThreadPool();
+  public void attachInterface(android.os.IInterface, java.lang.String);
+  public java.lang.String getInterfaceDescriptor();
+  public boolean pingBinder();
+  public boolean isBinderAlive();
+  public android.os.IInterface queryLocalInterface(java.lang.String);
+  protected boolean onTransact(int, android.os.Parcel, android.os.Parcel, int) throws android.os.RemoteException;
+  public void dump(java.io.FileDescriptor, java.lang.String[]);
+  public void dumpAsync(java.io.FileDescriptor, java.lang.String[]);
+  protected void dump(java.io.FileDescriptor, java.io.PrintWriter, java.lang.String[]);
+  public final boolean transact(int, android.os.Parcel, android.os.Parcel, int) throws android.os.RemoteException;
+  public void linkToDeath(android.os.IBinder$DeathRecipient, int);
+  public boolean unlinkToDeath(android.os.IBinder$DeathRecipient, int);
+  protected void finalize() throws java.lang.Throwable;
+}

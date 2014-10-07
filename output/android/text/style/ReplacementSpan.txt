@@ -1,0 +1,8 @@
+Compiled from "ReplacementSpan.java"
+public abstract class android.text.style.ReplacementSpan extends android.text.style.MetricAffectingSpan {
+  public android.text.style.ReplacementSpan();
+  public abstract int getSize(android.graphics.Paint, java.lang.CharSequence, int, int, android.graphics.Paint$FontMetricsInt);
+  public abstract void draw(android.graphics.Canvas, java.lang.CharSequence, int, int, float, int, int, int, android.graphics.Paint);
+  public void updateMeasureState(android.text.TextPaint);
+  public void updateDrawState(android.text.TextPaint);
+}

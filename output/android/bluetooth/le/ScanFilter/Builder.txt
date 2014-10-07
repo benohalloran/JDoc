@@ -1,0 +1,14 @@
+Compiled from "ScanFilter.java"
+public final class android.bluetooth.le.ScanFilter$Builder {
+  public android.bluetooth.le.ScanFilter$Builder();
+  public android.bluetooth.le.ScanFilter$Builder setName(java.lang.String);
+  public android.bluetooth.le.ScanFilter$Builder setMacAddress(java.lang.String);
+  public android.bluetooth.le.ScanFilter$Builder setServiceUuid(android.os.ParcelUuid);
+  public android.bluetooth.le.ScanFilter$Builder setServiceUuid(android.os.ParcelUuid, android.os.ParcelUuid);
+  public android.bluetooth.le.ScanFilter$Builder setServiceData(byte[]);
+  public android.bluetooth.le.ScanFilter$Builder setServiceData(byte[], byte[]);
+  public android.bluetooth.le.ScanFilter$Builder setManufacturerData(int, byte[]);
+  public android.bluetooth.le.ScanFilter$Builder setManufacturerData(int, byte[], byte[]);
+  public android.bluetooth.le.ScanFilter$Builder setRssiRange(int, int);
+  public android.bluetooth.le.ScanFilter build();
+}

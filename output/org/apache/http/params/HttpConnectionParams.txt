@@ -1,0 +1,16 @@
+Compiled from "HttpConnectionParams.java"
+public final class org.apache.http.params.HttpConnectionParams implements org.apache.http.params.CoreConnectionPNames {
+  org.apache.http.params.HttpConnectionParams();
+  public static int getSoTimeout(org.apache.http.params.HttpParams);
+  public static void setSoTimeout(org.apache.http.params.HttpParams, int);
+  public static boolean getTcpNoDelay(org.apache.http.params.HttpParams);
+  public static void setTcpNoDelay(org.apache.http.params.HttpParams, boolean);
+  public static int getSocketBufferSize(org.apache.http.params.HttpParams);
+  public static void setSocketBufferSize(org.apache.http.params.HttpParams, int);
+  public static int getLinger(org.apache.http.params.HttpParams);
+  public static void setLinger(org.apache.http.params.HttpParams, int);
+  public static int getConnectionTimeout(org.apache.http.params.HttpParams);
+  public static void setConnectionTimeout(org.apache.http.params.HttpParams, int);
+  public static boolean isStaleCheckingEnabled(org.apache.http.params.HttpParams);
+  public static void setStaleCheckingEnabled(org.apache.http.params.HttpParams, boolean);
+}

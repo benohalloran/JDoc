@@ -1,0 +1,6 @@
+Compiled from "SQLException.java"
+public class android.database.SQLException extends java.lang.RuntimeException {
+  public android.database.SQLException();
+  public android.database.SQLException(java.lang.String);
+  public android.database.SQLException(java.lang.String, java.lang.Throwable);
+}

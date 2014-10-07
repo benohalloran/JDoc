@@ -1,0 +1,12 @@
+Compiled from "Script.java"
+public class android.renderscript.Script$FieldBase {
+  protected android.renderscript.Allocation mAllocation;
+  protected android.renderscript.Element mElement;
+  protected android.renderscript.Script$FieldBase();
+  protected void init(android.renderscript.RenderScript, int);
+  protected void init(android.renderscript.RenderScript, int, int);
+  public android.renderscript.Element getElement();
+  public android.renderscript.Type getType();
+  public android.renderscript.Allocation getAllocation();
+  public void updateAllocation();
+}

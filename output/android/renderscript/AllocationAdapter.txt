@@ -1,0 +1,11 @@
+Compiled from "AllocationAdapter.java"
+public class android.renderscript.AllocationAdapter extends android.renderscript.Allocation {
+  android.renderscript.AllocationAdapter();
+  public void setLOD(int);
+  public void setFace(android.renderscript.Type$CubemapFace);
+  public void setY(int);
+  public void setZ(int);
+  public static android.renderscript.AllocationAdapter create1D(android.renderscript.RenderScript, android.renderscript.Allocation);
+  public static android.renderscript.AllocationAdapter create2D(android.renderscript.RenderScript, android.renderscript.Allocation);
+  public synchronized void resize(int);
+}

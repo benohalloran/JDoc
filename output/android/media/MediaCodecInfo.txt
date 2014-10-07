@@ -1,0 +1,8 @@
+Compiled from "MediaCodecInfo.java"
+public final class android.media.MediaCodecInfo {
+  android.media.MediaCodecInfo();
+  public final java.lang.String getName();
+  public final boolean isEncoder();
+  public final java.lang.String[] getSupportedTypes();
+  public final android.media.MediaCodecInfo$CodecCapabilities getCapabilitiesForType(java.lang.String);
+}

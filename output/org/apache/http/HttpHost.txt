@@ -1,0 +1,21 @@
+Compiled from "HttpHost.java"
+public final class org.apache.http.HttpHost implements java.lang.Cloneable {
+  public static final java.lang.String DEFAULT_SCHEME_NAME;
+  protected final java.lang.String hostname;
+  protected final java.lang.String lcHostname;
+  protected final int port;
+  protected final java.lang.String schemeName;
+  public org.apache.http.HttpHost(java.lang.String, int, java.lang.String);
+  public org.apache.http.HttpHost(java.lang.String, int);
+  public org.apache.http.HttpHost(java.lang.String);
+  public org.apache.http.HttpHost(org.apache.http.HttpHost);
+  public java.lang.String getHostName();
+  public int getPort();
+  public java.lang.String getSchemeName();
+  public java.lang.String toURI();
+  public java.lang.String toHostString();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

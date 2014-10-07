@@ -1,0 +1,4 @@
+Compiled from "ReasonPhraseCatalog.java"
+public interface org.apache.http.ReasonPhraseCatalog {
+  public abstract java.lang.String getReason(int, java.util.Locale);
+}

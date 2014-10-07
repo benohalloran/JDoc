@@ -1,0 +1,7 @@
+Compiled from "BluetoothServerSocket.java"
+public final class android.bluetooth.BluetoothServerSocket implements java.io.Closeable {
+  android.bluetooth.BluetoothServerSocket();
+  public android.bluetooth.BluetoothSocket accept() throws java.io.IOException;
+  public android.bluetooth.BluetoothSocket accept(int) throws java.io.IOException;
+  public void close() throws java.io.IOException;
+}

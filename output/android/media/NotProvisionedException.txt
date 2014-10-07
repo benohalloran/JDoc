@@ -1,0 +1,4 @@
+Compiled from "NotProvisionedException.java"
+public final class android.media.NotProvisionedException extends android.media.MediaDrmException {
+  public android.media.NotProvisionedException(java.lang.String);
+}

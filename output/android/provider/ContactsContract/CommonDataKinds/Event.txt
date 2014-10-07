@@ -1,0 +1,10 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$CommonDataKinds$Event implements android.provider.ContactsContract$DataColumnsWithJoins,android.provider.ContactsContract$CommonDataKinds$CommonColumns {
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String START_DATE;
+  public static final int TYPE_ANNIVERSARY;
+  public static final int TYPE_BIRTHDAY;
+  public static final int TYPE_OTHER;
+  android.provider.ContactsContract$CommonDataKinds$Event();
+  public static int getTypeResource(java.lang.Integer);
+}

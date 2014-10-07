@@ -1,0 +1,31 @@
+Compiled from "PackageInfo.java"
+public class android.content.pm.PackageInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.pm.PackageInfo> CREATOR;
+  public static final int REQUESTED_PERMISSION_GRANTED;
+  public static final int REQUESTED_PERMISSION_REQUIRED;
+  public android.content.pm.ActivityInfo[] activities;
+  public android.content.pm.ApplicationInfo applicationInfo;
+  public android.content.pm.ConfigurationInfo[] configPreferences;
+  public long firstInstallTime;
+  public int[] gids;
+  public android.content.pm.InstrumentationInfo[] instrumentation;
+  public long lastUpdateTime;
+  public java.lang.String packageName;
+  public android.content.pm.PermissionInfo[] permissions;
+  public android.content.pm.ProviderInfo[] providers;
+  public android.content.pm.ActivityInfo[] receivers;
+  public android.content.pm.FeatureInfo[] reqFeatures;
+  public java.lang.String[] requestedPermissions;
+  public int[] requestedPermissionsFlags;
+  public android.content.pm.ServiceInfo[] services;
+  public java.lang.String sharedUserId;
+  public int sharedUserLabel;
+  public android.content.pm.Signature[] signatures;
+  public int versionCode;
+  public java.lang.String versionName;
+  public android.content.pm.PackageInfo();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

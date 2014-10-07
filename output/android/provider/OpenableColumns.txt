@@ -1,0 +1,5 @@
+Compiled from "OpenableColumns.java"
+public interface android.provider.OpenableColumns {
+  public static final java.lang.String DISPLAY_NAME;
+  public static final java.lang.String SIZE;
+}

@@ -1,0 +1,12 @@
+Compiled from "CameraCaptureSession.java"
+public abstract class android.hardware.camera2.CameraCaptureSession implements java.lang.AutoCloseable {
+  public android.hardware.camera2.CameraCaptureSession();
+  public abstract android.hardware.camera2.CameraDevice getDevice();
+  public abstract int capture(android.hardware.camera2.CaptureRequest, android.hardware.camera2.CameraCaptureSession$CaptureListener, android.os.Handler) throws android.hardware.camera2.CameraAccessException;
+  public abstract int captureBurst(java.util.List<android.hardware.camera2.CaptureRequest>, android.hardware.camera2.CameraCaptureSession$CaptureListener, android.os.Handler) throws android.hardware.camera2.CameraAccessException;
+  public abstract int setRepeatingRequest(android.hardware.camera2.CaptureRequest, android.hardware.camera2.CameraCaptureSession$CaptureListener, android.os.Handler) throws android.hardware.camera2.CameraAccessException;
+  public abstract int setRepeatingBurst(java.util.List<android.hardware.camera2.CaptureRequest>, android.hardware.camera2.CameraCaptureSession$CaptureListener, android.os.Handler) throws android.hardware.camera2.CameraAccessException;
+  public abstract void stopRepeating() throws android.hardware.camera2.CameraAccessException;
+  public abstract void abortCaptures() throws android.hardware.camera2.CameraAccessException;
+  public abstract void close();
+}

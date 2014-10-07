@@ -1,0 +1,7 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$PhoneLookup implements android.provider.BaseColumns,android.provider.ContactsContract$PhoneLookupColumns,android.provider.ContactsContract$ContactsColumns,android.provider.ContactsContract$ContactOptionsColumns {
+  public static final android.net.Uri CONTENT_FILTER_URI;
+  public static final java.lang.String QUERY_PARAMETER_SIP_ADDRESS;
+  android.provider.ContactsContract$PhoneLookup();
+  static {};
+}

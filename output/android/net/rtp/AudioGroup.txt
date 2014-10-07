@@ -1,0 +1,14 @@
+Compiled from "AudioGroup.java"
+public class android.net.rtp.AudioGroup {
+  public static final int MODE_ECHO_SUPPRESSION;
+  public static final int MODE_MUTED;
+  public static final int MODE_NORMAL;
+  public static final int MODE_ON_HOLD;
+  public android.net.rtp.AudioGroup();
+  public android.net.rtp.AudioStream[] getStreams();
+  public int getMode();
+  public void setMode(int);
+  public void sendDtmf(int);
+  public void clear();
+  protected void finalize() throws java.lang.Throwable;
+}

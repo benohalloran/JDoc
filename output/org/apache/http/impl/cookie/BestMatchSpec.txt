@@ -1,0 +1,11 @@
+Compiled from "BestMatchSpec.java"
+public class org.apache.http.impl.cookie.BestMatchSpec implements org.apache.http.cookie.CookieSpec {
+  public org.apache.http.impl.cookie.BestMatchSpec(java.lang.String[], boolean);
+  public org.apache.http.impl.cookie.BestMatchSpec();
+  public java.util.List<org.apache.http.cookie.Cookie> parse(org.apache.http.Header, org.apache.http.cookie.CookieOrigin) throws org.apache.http.cookie.MalformedCookieException;
+  public void validate(org.apache.http.cookie.Cookie, org.apache.http.cookie.CookieOrigin) throws org.apache.http.cookie.MalformedCookieException;
+  public boolean match(org.apache.http.cookie.Cookie, org.apache.http.cookie.CookieOrigin);
+  public java.util.List<org.apache.http.Header> formatCookies(java.util.List<org.apache.http.cookie.Cookie>);
+  public int getVersion();
+  public org.apache.http.Header getVersionHeader();
+}

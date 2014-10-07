@@ -1,0 +1,21 @@
+Compiled from "BasicLineParser.java"
+public class org.apache.http.message.BasicLineParser implements org.apache.http.message.LineParser {
+  public static final org.apache.http.message.BasicLineParser DEFAULT;
+  protected final org.apache.http.ProtocolVersion protocol;
+  public org.apache.http.message.BasicLineParser(org.apache.http.ProtocolVersion);
+  public org.apache.http.message.BasicLineParser();
+  public static final org.apache.http.ProtocolVersion parseProtocolVersion(java.lang.String, org.apache.http.message.LineParser) throws org.apache.http.ParseException;
+  public org.apache.http.ProtocolVersion parseProtocolVersion(org.apache.http.util.CharArrayBuffer, org.apache.http.message.ParserCursor) throws org.apache.http.ParseException;
+  protected org.apache.http.ProtocolVersion createProtocolVersion(int, int);
+  public boolean hasProtocolVersion(org.apache.http.util.CharArrayBuffer, org.apache.http.message.ParserCursor);
+  public static final org.apache.http.RequestLine parseRequestLine(java.lang.String, org.apache.http.message.LineParser) throws org.apache.http.ParseException;
+  public org.apache.http.RequestLine parseRequestLine(org.apache.http.util.CharArrayBuffer, org.apache.http.message.ParserCursor) throws org.apache.http.ParseException;
+  protected org.apache.http.RequestLine createRequestLine(java.lang.String, java.lang.String, org.apache.http.ProtocolVersion);
+  public static final org.apache.http.StatusLine parseStatusLine(java.lang.String, org.apache.http.message.LineParser) throws org.apache.http.ParseException;
+  public org.apache.http.StatusLine parseStatusLine(org.apache.http.util.CharArrayBuffer, org.apache.http.message.ParserCursor) throws org.apache.http.ParseException;
+  protected org.apache.http.StatusLine createStatusLine(org.apache.http.ProtocolVersion, int, java.lang.String);
+  public static final org.apache.http.Header parseHeader(java.lang.String, org.apache.http.message.LineParser) throws org.apache.http.ParseException;
+  public org.apache.http.Header parseHeader(org.apache.http.util.CharArrayBuffer) throws org.apache.http.ParseException;
+  protected void skipWhitespace(org.apache.http.util.CharArrayBuffer, org.apache.http.message.ParserCursor);
+  static {};
+}

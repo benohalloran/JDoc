@@ -1,0 +1,4 @@
+Compiled from "TransactionTooLargeException.java"
+public class android.os.TransactionTooLargeException extends android.os.RemoteException {
+  public android.os.TransactionTooLargeException();
+}

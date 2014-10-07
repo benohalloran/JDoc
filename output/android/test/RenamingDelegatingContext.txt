@@ -1,0 +1,20 @@
+Compiled from "RenamingDelegatingContext.java"
+public class android.test.RenamingDelegatingContext extends android.content.ContextWrapper {
+  public android.test.RenamingDelegatingContext(android.content.Context, java.lang.String);
+  public android.test.RenamingDelegatingContext(android.content.Context, android.content.Context, java.lang.String);
+  public static <T extends android/content/ContentProvider> T providerWithRenamedContext(java.lang.Class<T>, android.content.Context, java.lang.String) throws java.lang.IllegalAccessException, java.lang.InstantiationException;
+  public static <T extends android/content/ContentProvider> T providerWithRenamedContext(java.lang.Class<T>, android.content.Context, java.lang.String, boolean) throws java.lang.IllegalAccessException, java.lang.InstantiationException;
+  public void makeExistingFilesAndDbsAccessible();
+  public java.lang.String getDatabasePrefix();
+  public android.database.sqlite.SQLiteDatabase openOrCreateDatabase(java.lang.String, int, android.database.sqlite.SQLiteDatabase$CursorFactory);
+  public android.database.sqlite.SQLiteDatabase openOrCreateDatabase(java.lang.String, int, android.database.sqlite.SQLiteDatabase$CursorFactory, android.database.DatabaseErrorHandler);
+  public boolean deleteDatabase(java.lang.String);
+  public java.io.File getDatabasePath(java.lang.String);
+  public java.lang.String[] databaseList();
+  public java.io.FileInputStream openFileInput(java.lang.String) throws java.io.FileNotFoundException;
+  public java.io.FileOutputStream openFileOutput(java.lang.String, int) throws java.io.FileNotFoundException;
+  public java.io.File getFileStreamPath(java.lang.String);
+  public boolean deleteFile(java.lang.String);
+  public java.lang.String[] fileList();
+  public java.io.File getCacheDir();
+}

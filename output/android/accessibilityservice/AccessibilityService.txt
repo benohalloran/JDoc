@@ -1,0 +1,39 @@
+Compiled from "AccessibilityService.java"
+public abstract class android.accessibilityservice.AccessibilityService extends android.app.Service {
+  public static final int GESTURE_SWIPE_DOWN;
+  public static final int GESTURE_SWIPE_DOWN_AND_LEFT;
+  public static final int GESTURE_SWIPE_DOWN_AND_RIGHT;
+  public static final int GESTURE_SWIPE_DOWN_AND_UP;
+  public static final int GESTURE_SWIPE_LEFT;
+  public static final int GESTURE_SWIPE_LEFT_AND_DOWN;
+  public static final int GESTURE_SWIPE_LEFT_AND_RIGHT;
+  public static final int GESTURE_SWIPE_LEFT_AND_UP;
+  public static final int GESTURE_SWIPE_RIGHT;
+  public static final int GESTURE_SWIPE_RIGHT_AND_DOWN;
+  public static final int GESTURE_SWIPE_RIGHT_AND_LEFT;
+  public static final int GESTURE_SWIPE_RIGHT_AND_UP;
+  public static final int GESTURE_SWIPE_UP;
+  public static final int GESTURE_SWIPE_UP_AND_DOWN;
+  public static final int GESTURE_SWIPE_UP_AND_LEFT;
+  public static final int GESTURE_SWIPE_UP_AND_RIGHT;
+  public static final int GLOBAL_ACTION_BACK;
+  public static final int GLOBAL_ACTION_HOME;
+  public static final int GLOBAL_ACTION_NOTIFICATIONS;
+  public static final int GLOBAL_ACTION_QUICK_SETTINGS;
+  public static final int GLOBAL_ACTION_RECENTS;
+  public static final java.lang.String SERVICE_INTERFACE;
+  public static final java.lang.String SERVICE_META_DATA;
+  public android.accessibilityservice.AccessibilityService();
+  public abstract void onAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public abstract void onInterrupt();
+  protected void onServiceConnected();
+  protected boolean onGesture(int);
+  protected boolean onKeyEvent(android.view.KeyEvent);
+  public java.util.List<android.view.accessibility.AccessibilityWindowInfo> getWindows();
+  public android.view.accessibility.AccessibilityNodeInfo getRootInActiveWindow();
+  public final boolean performGlobalAction(int);
+  public android.view.accessibility.AccessibilityNodeInfo findFocus(int);
+  public final android.accessibilityservice.AccessibilityServiceInfo getServiceInfo();
+  public final void setServiceInfo(android.accessibilityservice.AccessibilityServiceInfo);
+  public final android.os.IBinder onBind(android.content.Intent);
+}

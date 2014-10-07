@@ -1,0 +1,9 @@
+Compiled from "AnimatorSet.java"
+public class android.animation.AnimatorSet$Builder {
+  final android.animation.AnimatorSet this$0;
+  android.animation.AnimatorSet$Builder(android.animation.AnimatorSet);
+  public android.animation.AnimatorSet$Builder with(android.animation.Animator);
+  public android.animation.AnimatorSet$Builder before(android.animation.Animator);
+  public android.animation.AnimatorSet$Builder after(android.animation.Animator);
+  public android.animation.AnimatorSet$Builder after(long);
+}

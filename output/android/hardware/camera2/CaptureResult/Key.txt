@@ -1,0 +1,7 @@
+Compiled from "CaptureResult.java"
+public final class android.hardware.camera2.CaptureResult$Key<T> {
+  android.hardware.camera2.CaptureResult$Key();
+  public java.lang.String getName();
+  public final int hashCode();
+  public final boolean equals(java.lang.Object);
+}

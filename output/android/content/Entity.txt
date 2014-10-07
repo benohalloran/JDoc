@@ -1,0 +1,8 @@
+Compiled from "Entity.java"
+public final class android.content.Entity {
+  public android.content.Entity(android.content.ContentValues);
+  public android.content.ContentValues getEntityValues();
+  public java.util.ArrayList<android.content.Entity$NamedContentValues> getSubValues();
+  public void addSubValue(android.net.Uri, android.content.ContentValues);
+  public java.lang.String toString();
+}

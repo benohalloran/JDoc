@@ -1,0 +1,4 @@
+Compiled from "ClientConnectionManagerFactory.java"
+public interface org.apache.http.conn.ClientConnectionManagerFactory {
+  public abstract org.apache.http.conn.ClientConnectionManager newInstance(org.apache.http.params.HttpParams, org.apache.http.conn.scheme.SchemeRegistry);
+}

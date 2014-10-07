@@ -1,0 +1,14 @@
+Compiled from "RemoteControlClient.java"
+public class android.media.RemoteControlClient$MetadataEditor extends android.media.MediaMetadataEditor {
+  public static final int BITMAP_KEY_ARTWORK;
+  final android.media.RemoteControlClient this$0;
+  android.media.RemoteControlClient$MetadataEditor(android.media.RemoteControlClient);
+  public synchronized android.media.RemoteControlClient$MetadataEditor putString(int, java.lang.String) throws java.lang.IllegalArgumentException;
+  public synchronized android.media.RemoteControlClient$MetadataEditor putLong(int, long) throws java.lang.IllegalArgumentException;
+  public synchronized android.media.RemoteControlClient$MetadataEditor putBitmap(int, android.graphics.Bitmap) throws java.lang.IllegalArgumentException;
+  public synchronized void clear();
+  public synchronized void apply();
+  public android.media.MediaMetadataEditor putBitmap(int, android.graphics.Bitmap) throws java.lang.IllegalArgumentException;
+  public android.media.MediaMetadataEditor putLong(int, long) throws java.lang.IllegalArgumentException;
+  public android.media.MediaMetadataEditor putString(int, java.lang.String) throws java.lang.IllegalArgumentException;
+}

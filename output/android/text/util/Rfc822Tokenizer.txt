@@ -1,0 +1,9 @@
+Compiled from "Rfc822Tokenizer.java"
+public class android.text.util.Rfc822Tokenizer implements android.widget.MultiAutoCompleteTextView$Tokenizer {
+  public android.text.util.Rfc822Tokenizer();
+  public static void tokenize(java.lang.CharSequence, java.util.Collection<android.text.util.Rfc822Token>);
+  public static android.text.util.Rfc822Token[] tokenize(java.lang.CharSequence);
+  public int findTokenStart(java.lang.CharSequence, int);
+  public int findTokenEnd(java.lang.CharSequence, int);
+  public java.lang.CharSequence terminateToken(java.lang.CharSequence);
+}

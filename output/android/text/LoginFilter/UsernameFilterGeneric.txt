@@ -1,0 +1,6 @@
+Compiled from "LoginFilter.java"
+public class android.text.LoginFilter$UsernameFilterGeneric extends android.text.LoginFilter {
+  public android.text.LoginFilter$UsernameFilterGeneric();
+  public android.text.LoginFilter$UsernameFilterGeneric(boolean);
+  public boolean isAllowed(char);
+}

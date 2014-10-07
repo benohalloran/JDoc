@@ -1,0 +1,17 @@
+Compiled from "ETC1.java"
+public class android.opengl.ETC1 {
+  public static final int DECODED_BLOCK_SIZE;
+  public static final int ENCODED_BLOCK_SIZE;
+  public static final int ETC1_RGB8_OES;
+  public static final int ETC_PKM_HEADER_SIZE;
+  public android.opengl.ETC1();
+  public static native void encodeBlock(java.nio.Buffer, int, java.nio.Buffer);
+  public static native void decodeBlock(java.nio.Buffer, java.nio.Buffer);
+  public static native int getEncodedDataSize(int, int);
+  public static native void encodeImage(java.nio.Buffer, int, int, int, int, java.nio.Buffer);
+  public static native void decodeImage(java.nio.Buffer, java.nio.Buffer, int, int, int, int);
+  public static native void formatHeader(java.nio.Buffer, int, int);
+  public static native boolean isValid(java.nio.Buffer);
+  public static native int getWidth(java.nio.Buffer);
+  public static native int getHeight(java.nio.Buffer);
+}

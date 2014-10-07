@@ -1,0 +1,16 @@
+Compiled from "ZoomButtonsController.java"
+public class android.widget.ZoomButtonsController implements android.view.View$OnTouchListener {
+  public android.widget.ZoomButtonsController(android.view.View);
+  public void setZoomInEnabled(boolean);
+  public void setZoomOutEnabled(boolean);
+  public void setZoomSpeed(long);
+  public void setOnZoomListener(android.widget.ZoomButtonsController$OnZoomListener);
+  public void setFocusable(boolean);
+  public boolean isAutoDismissed();
+  public void setAutoDismissed(boolean);
+  public boolean isVisible();
+  public void setVisible(boolean);
+  public android.view.ViewGroup getContainer();
+  public android.view.View getZoomControls();
+  public boolean onTouch(android.view.View, android.view.MotionEvent);
+}

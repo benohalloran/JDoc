@@ -1,0 +1,8 @@
+Compiled from "CalendarContract.java"
+public final class android.provider.CalendarContract$EventsEntity implements android.provider.BaseColumns,android.provider.CalendarContract$SyncColumns,android.provider.CalendarContract$EventsColumns {
+  public static final android.net.Uri CONTENT_URI;
+  android.provider.CalendarContract$EventsEntity();
+  public static android.content.EntityIterator newEntityIterator(android.database.Cursor, android.content.ContentResolver);
+  public static android.content.EntityIterator newEntityIterator(android.database.Cursor, android.content.ContentProviderClient);
+  static {};
+}

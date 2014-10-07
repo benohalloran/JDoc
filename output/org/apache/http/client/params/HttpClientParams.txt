@@ -1,0 +1,10 @@
+Compiled from "HttpClientParams.java"
+public class org.apache.http.client.params.HttpClientParams {
+  org.apache.http.client.params.HttpClientParams();
+  public static boolean isRedirecting(org.apache.http.params.HttpParams);
+  public static void setRedirecting(org.apache.http.params.HttpParams, boolean);
+  public static boolean isAuthenticating(org.apache.http.params.HttpParams);
+  public static void setAuthenticating(org.apache.http.params.HttpParams, boolean);
+  public static java.lang.String getCookiePolicy(org.apache.http.params.HttpParams);
+  public static void setCookiePolicy(org.apache.http.params.HttpParams, java.lang.String);
+}

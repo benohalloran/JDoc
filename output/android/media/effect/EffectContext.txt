@@ -1,0 +1,7 @@
+Compiled from "EffectContext.java"
+public class android.media.effect.EffectContext {
+  android.media.effect.EffectContext();
+  public static android.media.effect.EffectContext createWithCurrentGlContext();
+  public android.media.effect.EffectFactory getFactory();
+  public void release();
+}

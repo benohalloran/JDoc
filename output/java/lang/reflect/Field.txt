@@ -1,0 +1,36 @@
+Compiled from "Field.java"
+public final class java.lang.reflect.Field extends java.lang.reflect.AccessibleObject implements java.lang.reflect.Member {
+  java.lang.reflect.Field();
+  public boolean isSynthetic();
+  public java.lang.String toGenericString();
+  public boolean isEnumConstant();
+  public java.lang.reflect.Type getGenericType();
+  public java.lang.annotation.Annotation[] getDeclaredAnnotations();
+  public <A extends java/lang/annotation/Annotation> A getAnnotation(java.lang.Class<A>);
+  public boolean isAnnotationPresent(java.lang.Class<? extends java.lang.annotation.Annotation>);
+  public boolean equals(java.lang.Object);
+  public java.lang.Object get(java.lang.Object) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public boolean getBoolean(java.lang.Object) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public byte getByte(java.lang.Object) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public char getChar(java.lang.Object) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public java.lang.Class<?> getDeclaringClass();
+  public double getDouble(java.lang.Object) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public float getFloat(java.lang.Object) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public int getInt(java.lang.Object) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public long getLong(java.lang.Object) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public int getModifiers();
+  public java.lang.String getName();
+  public short getShort(java.lang.Object) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public java.lang.Class<?> getType();
+  public int hashCode();
+  public void set(java.lang.Object, java.lang.Object) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public void setBoolean(java.lang.Object, boolean) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public void setByte(java.lang.Object, byte) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public void setChar(java.lang.Object, char) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public void setDouble(java.lang.Object, double) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public void setFloat(java.lang.Object, float) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public void setInt(java.lang.Object, int) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public void setLong(java.lang.Object, long) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public void setShort(java.lang.Object, short) throws java.lang.IllegalAccessException, java.lang.IllegalArgumentException;
+  public java.lang.String toString();
+}

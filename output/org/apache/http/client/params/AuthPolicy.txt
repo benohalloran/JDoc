@@ -1,0 +1,7 @@
+Compiled from "AuthPolicy.java"
+public final class org.apache.http.client.params.AuthPolicy {
+  public static final java.lang.String BASIC;
+  public static final java.lang.String DIGEST;
+  public static final java.lang.String NTLM;
+  org.apache.http.client.params.AuthPolicy();
+}

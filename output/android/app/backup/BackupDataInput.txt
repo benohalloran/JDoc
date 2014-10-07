@@ -1,0 +1,9 @@
+Compiled from "BackupDataInput.java"
+public class android.app.backup.BackupDataInput {
+  android.app.backup.BackupDataInput();
+  public boolean readNextHeader() throws java.io.IOException;
+  public java.lang.String getKey();
+  public int getDataSize();
+  public int readEntityData(byte[], int, int) throws java.io.IOException;
+  public void skipEntityData() throws java.io.IOException;
+}

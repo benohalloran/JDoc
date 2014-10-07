@@ -1,0 +1,5 @@
+Compiled from "ActivityNotFoundException.java"
+public class android.content.ActivityNotFoundException extends java.lang.RuntimeException {
+  public android.content.ActivityNotFoundException();
+  public android.content.ActivityNotFoundException(java.lang.String);
+}

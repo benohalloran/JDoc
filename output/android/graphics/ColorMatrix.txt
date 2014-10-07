@@ -1,0 +1,18 @@
+Compiled from "ColorMatrix.java"
+public class android.graphics.ColorMatrix {
+  public android.graphics.ColorMatrix();
+  public android.graphics.ColorMatrix(float[]);
+  public android.graphics.ColorMatrix(android.graphics.ColorMatrix);
+  public final float[] getArray();
+  public void reset();
+  public void set(android.graphics.ColorMatrix);
+  public void set(float[]);
+  public void setScale(float, float, float, float);
+  public void setRotate(int, float);
+  public void setConcat(android.graphics.ColorMatrix, android.graphics.ColorMatrix);
+  public void preConcat(android.graphics.ColorMatrix);
+  public void postConcat(android.graphics.ColorMatrix);
+  public void setSaturation(float);
+  public void setRGB2YUV();
+  public void setYUV2RGB();
+}

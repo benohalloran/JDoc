@@ -1,0 +1,5 @@
+Compiled from "SQLiteFullException.java"
+public class android.database.sqlite.SQLiteFullException extends android.database.sqlite.SQLiteException {
+  public android.database.sqlite.SQLiteFullException();
+  public android.database.sqlite.SQLiteFullException(java.lang.String);
+}

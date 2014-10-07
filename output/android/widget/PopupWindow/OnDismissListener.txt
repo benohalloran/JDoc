@@ -1,0 +1,4 @@
+Compiled from "PopupWindow.java"
+public interface android.widget.PopupWindow$OnDismissListener {
+  public abstract void onDismiss();
+}

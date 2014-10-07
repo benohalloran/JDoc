@@ -1,0 +1,4 @@
+Compiled from "RowSetEvent.java"
+public class javax.sql.RowSetEvent extends java.util.EventObject implements java.io.Serializable {
+  public javax.sql.RowSetEvent(javax.sql.RowSet);
+}

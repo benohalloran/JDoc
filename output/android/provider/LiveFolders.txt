@@ -1,0 +1,17 @@
+Compiled from "LiveFolders.java"
+public final class android.provider.LiveFolders implements android.provider.BaseColumns {
+  public static final java.lang.String ACTION_CREATE_LIVE_FOLDER;
+  public static final java.lang.String DESCRIPTION;
+  public static final int DISPLAY_MODE_GRID;
+  public static final int DISPLAY_MODE_LIST;
+  public static final java.lang.String EXTRA_LIVE_FOLDER_BASE_INTENT;
+  public static final java.lang.String EXTRA_LIVE_FOLDER_DISPLAY_MODE;
+  public static final java.lang.String EXTRA_LIVE_FOLDER_ICON;
+  public static final java.lang.String EXTRA_LIVE_FOLDER_NAME;
+  public static final java.lang.String ICON_BITMAP;
+  public static final java.lang.String ICON_PACKAGE;
+  public static final java.lang.String ICON_RESOURCE;
+  public static final java.lang.String INTENT;
+  public static final java.lang.String NAME;
+  android.provider.LiveFolders();
+}

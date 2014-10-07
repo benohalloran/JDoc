@@ -1,0 +1,8 @@
+Compiled from "HttpHead.java"
+public class org.apache.http.client.methods.HttpHead extends org.apache.http.client.methods.HttpRequestBase {
+  public static final java.lang.String METHOD_NAME;
+  public org.apache.http.client.methods.HttpHead();
+  public org.apache.http.client.methods.HttpHead(java.net.URI);
+  public org.apache.http.client.methods.HttpHead(java.lang.String);
+  public java.lang.String getMethod();
+}

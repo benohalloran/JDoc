@@ -1,0 +1,17 @@
+Compiled from "SipSession.java"
+public final class android.net.sip.SipSession {
+  android.net.sip.SipSession();
+  public java.lang.String getLocalIp();
+  public android.net.sip.SipProfile getLocalProfile();
+  public android.net.sip.SipProfile getPeerProfile();
+  public int getState();
+  public boolean isInCall();
+  public java.lang.String getCallId();
+  public void setListener(android.net.sip.SipSession$Listener);
+  public void register(int);
+  public void unregister();
+  public void makeCall(android.net.sip.SipProfile, java.lang.String, int);
+  public void answerCall(java.lang.String, int);
+  public void endCall();
+  public void changeCall(java.lang.String, int);
+}

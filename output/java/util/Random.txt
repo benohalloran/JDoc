@@ -1,0 +1,15 @@
+Compiled from "Random.java"
+public class java.util.Random implements java.io.Serializable {
+  public java.util.Random();
+  public java.util.Random(long);
+  protected synchronized int next(int);
+  public boolean nextBoolean();
+  public void nextBytes(byte[]);
+  public double nextDouble();
+  public float nextFloat();
+  public synchronized double nextGaussian();
+  public int nextInt();
+  public int nextInt(int);
+  public long nextLong();
+  public synchronized void setSeed(long);
+}

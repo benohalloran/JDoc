@@ -1,0 +1,25 @@
+Compiled from "CalendarContract.java"
+public interface android.provider.CalendarContract$AttendeesColumns {
+  public static final java.lang.String ATTENDEE_EMAIL;
+  public static final java.lang.String ATTENDEE_IDENTITY;
+  public static final java.lang.String ATTENDEE_ID_NAMESPACE;
+  public static final java.lang.String ATTENDEE_NAME;
+  public static final java.lang.String ATTENDEE_RELATIONSHIP;
+  public static final java.lang.String ATTENDEE_STATUS;
+  public static final int ATTENDEE_STATUS_ACCEPTED;
+  public static final int ATTENDEE_STATUS_DECLINED;
+  public static final int ATTENDEE_STATUS_INVITED;
+  public static final int ATTENDEE_STATUS_NONE;
+  public static final int ATTENDEE_STATUS_TENTATIVE;
+  public static final java.lang.String ATTENDEE_TYPE;
+  public static final java.lang.String EVENT_ID;
+  public static final int RELATIONSHIP_ATTENDEE;
+  public static final int RELATIONSHIP_NONE;
+  public static final int RELATIONSHIP_ORGANIZER;
+  public static final int RELATIONSHIP_PERFORMER;
+  public static final int RELATIONSHIP_SPEAKER;
+  public static final int TYPE_NONE;
+  public static final int TYPE_OPTIONAL;
+  public static final int TYPE_REQUIRED;
+  public static final int TYPE_RESOURCE;
+}

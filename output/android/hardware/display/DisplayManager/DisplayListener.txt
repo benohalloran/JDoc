@@ -1,0 +1,6 @@
+Compiled from "DisplayManager.java"
+public interface android.hardware.display.DisplayManager$DisplayListener {
+  public abstract void onDisplayAdded(int);
+  public abstract void onDisplayRemoved(int);
+  public abstract void onDisplayChanged(int);
+}

@@ -1,0 +1,7 @@
+Compiled from "AccountsException.java"
+public class android.accounts.AccountsException extends java.lang.Exception {
+  public android.accounts.AccountsException();
+  public android.accounts.AccountsException(java.lang.String);
+  public android.accounts.AccountsException(java.lang.String, java.lang.Throwable);
+  public android.accounts.AccountsException(java.lang.Throwable);
+}

@@ -1,0 +1,5 @@
+Compiled from "LaxContentLengthStrategy.java"
+public class org.apache.http.impl.entity.LaxContentLengthStrategy implements org.apache.http.entity.ContentLengthStrategy {
+  public org.apache.http.impl.entity.LaxContentLengthStrategy();
+  public long determineLength(org.apache.http.HttpMessage) throws org.apache.http.HttpException;
+}

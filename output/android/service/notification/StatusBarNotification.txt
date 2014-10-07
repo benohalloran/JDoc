@@ -1,0 +1,22 @@
+Compiled from "StatusBarNotification.java"
+public class android.service.notification.StatusBarNotification implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.service.notification.StatusBarNotification> CREATOR;
+  public android.service.notification.StatusBarNotification(java.lang.String, java.lang.String, int, java.lang.String, int, int, int, android.app.Notification, android.os.UserHandle, long);
+  public android.service.notification.StatusBarNotification(android.os.Parcel);
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  public android.service.notification.StatusBarNotification clone();
+  public java.lang.String toString();
+  public boolean isOngoing();
+  public boolean isClearable();
+  public int getUserId();
+  public java.lang.String getPackageName();
+  public int getId();
+  public java.lang.String getTag();
+  public android.app.Notification getNotification();
+  public android.os.UserHandle getUser();
+  public long getPostTime();
+  public java.lang.String getKey();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+  static {};
+}

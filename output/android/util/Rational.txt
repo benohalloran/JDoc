@@ -1,0 +1,25 @@
+Compiled from "Rational.java"
+public final class android.util.Rational extends java.lang.Number implements java.lang.Comparable<android.util.Rational> {
+  public static final android.util.Rational NEGATIVE_INFINITY;
+  public static final android.util.Rational NaN;
+  public static final android.util.Rational POSITIVE_INFINITY;
+  public static final android.util.Rational ZERO;
+  public android.util.Rational(int, int);
+  public int getNumerator();
+  public int getDenominator();
+  public boolean isNaN();
+  public boolean isInfinite();
+  public boolean isFinite();
+  public boolean isZero();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public int hashCode();
+  public double doubleValue();
+  public float floatValue();
+  public int intValue();
+  public long longValue();
+  public short shortValue();
+  public int compareTo(android.util.Rational);
+  public int compareTo(java.lang.Object);
+  static {};
+}

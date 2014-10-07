@@ -1,0 +1,4 @@
+Compiled from "RSIllegalArgumentException.java"
+public class android.renderscript.RSIllegalArgumentException extends android.renderscript.RSRuntimeException {
+  public android.renderscript.RSIllegalArgumentException(java.lang.String);
+}

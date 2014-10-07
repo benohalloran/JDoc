@@ -1,0 +1,9 @@
+Compiled from "Short4.java"
+public class android.renderscript.Short4 {
+  public short w;
+  public short x;
+  public short y;
+  public short z;
+  public android.renderscript.Short4();
+  public android.renderscript.Short4(short, short, short, short);
+}

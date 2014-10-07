@@ -1,0 +1,15 @@
+Compiled from "Time.java"
+public class java.sql.Time extends java.util.Date {
+  public java.sql.Time(int, int, int);
+  public java.sql.Time(long);
+  public int getDate();
+  public int getDay();
+  public int getMonth();
+  public int getYear();
+  public void setDate(int);
+  public void setMonth(int);
+  public void setYear(int);
+  public void setTime(long);
+  public java.lang.String toString();
+  public static java.sql.Time valueOf(java.lang.String);
+}

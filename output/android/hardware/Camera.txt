@@ -1,0 +1,41 @@
+Compiled from "Camera.java"
+public class android.hardware.Camera {
+  public static final java.lang.String ACTION_NEW_PICTURE;
+  public static final java.lang.String ACTION_NEW_VIDEO;
+  public static final int CAMERA_ERROR_SERVER_DIED;
+  public static final int CAMERA_ERROR_UNKNOWN;
+  android.hardware.Camera();
+  public static native int getNumberOfCameras();
+  public static void getCameraInfo(int, android.hardware.Camera$CameraInfo);
+  public static android.hardware.Camera open(int);
+  public static android.hardware.Camera open();
+  protected void finalize();
+  public final void release();
+  public final native void unlock();
+  public final native void lock();
+  public final native void reconnect() throws java.io.IOException;
+  public final void setPreviewDisplay(android.view.SurfaceHolder) throws java.io.IOException;
+  public final native void setPreviewTexture(android.graphics.SurfaceTexture) throws java.io.IOException;
+  public final native void startPreview();
+  public final void stopPreview();
+  public final void setPreviewCallback(android.hardware.Camera$PreviewCallback);
+  public final void setOneShotPreviewCallback(android.hardware.Camera$PreviewCallback);
+  public final void setPreviewCallbackWithBuffer(android.hardware.Camera$PreviewCallback);
+  public final void addCallbackBuffer(byte[]);
+  public final void autoFocus(android.hardware.Camera$AutoFocusCallback);
+  public final void cancelAutoFocus();
+  public void setAutoFocusMoveCallback(android.hardware.Camera$AutoFocusMoveCallback);
+  public final void takePicture(android.hardware.Camera$ShutterCallback, android.hardware.Camera$PictureCallback, android.hardware.Camera$PictureCallback);
+  public final void takePicture(android.hardware.Camera$ShutterCallback, android.hardware.Camera$PictureCallback, android.hardware.Camera$PictureCallback, android.hardware.Camera$PictureCallback);
+  public final native void startSmoothZoom(int);
+  public final native void stopSmoothZoom();
+  public final native void setDisplayOrientation(int);
+  public final boolean enableShutterSound(boolean);
+  public final void setZoomChangeListener(android.hardware.Camera$OnZoomChangeListener);
+  public final void setFaceDetectionListener(android.hardware.Camera$FaceDetectionListener);
+  public final void startFaceDetection();
+  public final void stopFaceDetection();
+  public final void setErrorCallback(android.hardware.Camera$ErrorCallback);
+  public void setParameters(android.hardware.Camera$Parameters);
+  public android.hardware.Camera$Parameters getParameters();
+}

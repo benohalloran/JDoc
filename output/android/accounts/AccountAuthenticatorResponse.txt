@@ -1,0 +1,11 @@
+Compiled from "AccountAuthenticatorResponse.java"
+public class android.accounts.AccountAuthenticatorResponse implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.accounts.AccountAuthenticatorResponse> CREATOR;
+  public android.accounts.AccountAuthenticatorResponse(android.os.Parcel);
+  public void onResult(android.os.Bundle);
+  public void onRequestContinued();
+  public void onError(int, java.lang.String);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

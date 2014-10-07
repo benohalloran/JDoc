@@ -1,0 +1,7 @@
+Compiled from "AuthenticatorException.java"
+public class android.accounts.AuthenticatorException extends android.accounts.AccountsException {
+  public android.accounts.AuthenticatorException();
+  public android.accounts.AuthenticatorException(java.lang.String);
+  public android.accounts.AuthenticatorException(java.lang.String, java.lang.Throwable);
+  public android.accounts.AuthenticatorException(java.lang.Throwable);
+}

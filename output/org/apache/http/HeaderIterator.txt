@@ -1,0 +1,5 @@
+Compiled from "HeaderIterator.java"
+public interface org.apache.http.HeaderIterator extends java.util.Iterator {
+  public abstract boolean hasNext();
+  public abstract org.apache.http.Header nextHeader();
+}

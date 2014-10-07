@@ -1,0 +1,10 @@
+Compiled from "DataTruncation.java"
+public class java.sql.DataTruncation extends java.sql.SQLWarning implements java.io.Serializable {
+  public java.sql.DataTruncation(int, boolean, boolean, int, int);
+  public java.sql.DataTruncation(int, boolean, boolean, int, int, java.lang.Throwable);
+  public int getDataSize();
+  public int getIndex();
+  public boolean getParameter();
+  public boolean getRead();
+  public int getTransferSize();
+}

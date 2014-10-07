@@ -1,0 +1,8 @@
+Compiled from "MtpDeviceInfo.java"
+public class android.mtp.MtpDeviceInfo {
+  android.mtp.MtpDeviceInfo();
+  public final java.lang.String getManufacturer();
+  public final java.lang.String getModel();
+  public final java.lang.String getVersion();
+  public final java.lang.String getSerialNumber();
+}

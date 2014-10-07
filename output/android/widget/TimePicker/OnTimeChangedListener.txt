@@ -1,0 +1,4 @@
+Compiled from "TimePicker.java"
+public interface android.widget.TimePicker$OnTimeChangedListener {
+  public abstract void onTimeChanged(android.widget.TimePicker, int, int);
+}

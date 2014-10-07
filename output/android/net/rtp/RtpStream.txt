@@ -1,0 +1,17 @@
+Compiled from "RtpStream.java"
+public class android.net.rtp.RtpStream {
+  public static final int MODE_NORMAL;
+  public static final int MODE_RECEIVE_ONLY;
+  public static final int MODE_SEND_ONLY;
+  android.net.rtp.RtpStream();
+  public java.net.InetAddress getLocalAddress();
+  public int getLocalPort();
+  public java.net.InetAddress getRemoteAddress();
+  public int getRemotePort();
+  public boolean isBusy();
+  public int getMode();
+  public void setMode(int);
+  public void associate(java.net.InetAddress, int);
+  public void release();
+  protected void finalize() throws java.lang.Throwable;
+}

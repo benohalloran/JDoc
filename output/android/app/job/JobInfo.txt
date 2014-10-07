@@ -1,0 +1,20 @@
+Compiled from "JobInfo.java"
+public class android.app.job.JobInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.app.job.JobInfo> CREATOR;
+  android.app.job.JobInfo();
+  public int getId();
+  public android.os.PersistableBundle getExtras();
+  public android.content.ComponentName getService();
+  public boolean isRequireCharging();
+  public boolean isRequireDeviceIdle();
+  public int getNetworkCapabilities();
+  public long getMinLatencyMillis();
+  public long getMaxExecutionDelayMillis();
+  public boolean isPeriodic();
+  public long getIntervalMillis();
+  public long getInitialBackoffMillis();
+  public int getBackoffPolicy();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

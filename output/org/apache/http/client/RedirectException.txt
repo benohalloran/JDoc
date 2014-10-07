@@ -1,0 +1,6 @@
+Compiled from "RedirectException.java"
+public class org.apache.http.client.RedirectException extends org.apache.http.ProtocolException {
+  public org.apache.http.client.RedirectException();
+  public org.apache.http.client.RedirectException(java.lang.String);
+  public org.apache.http.client.RedirectException(java.lang.String, java.lang.Throwable);
+}

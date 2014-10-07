@@ -1,0 +1,6 @@
+Compiled from "FaceDetector.java"
+public class android.media.FaceDetector {
+  public android.media.FaceDetector(int, int, int);
+  public int findFaces(android.graphics.Bitmap, android.media.FaceDetector$Face[]);
+  protected void finalize() throws java.lang.Throwable;
+}

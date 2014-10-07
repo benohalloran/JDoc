@@ -1,0 +1,6 @@
+Compiled from "CookieSpecParamBean.java"
+public class org.apache.http.cookie.params.CookieSpecParamBean extends org.apache.http.params.HttpAbstractParamBean {
+  public org.apache.http.cookie.params.CookieSpecParamBean(org.apache.http.params.HttpParams);
+  public void setDatePatterns(java.util.Collection<java.lang.String>);
+  public void setSingleHeader(boolean);
+}

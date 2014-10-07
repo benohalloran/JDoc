@@ -1,0 +1,4 @@
+Compiled from "ResponseHandler.java"
+public interface org.apache.http.client.ResponseHandler<T> {
+  public abstract T handleResponse(org.apache.http.HttpResponse) throws org.apache.http.client.ClientProtocolException, java.io.IOException;
+}

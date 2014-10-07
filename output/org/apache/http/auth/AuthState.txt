@@ -1,0 +1,13 @@
+Compiled from "AuthState.java"
+public class org.apache.http.auth.AuthState {
+  public org.apache.http.auth.AuthState();
+  public void invalidate();
+  public boolean isValid();
+  public void setAuthScheme(org.apache.http.auth.AuthScheme);
+  public org.apache.http.auth.AuthScheme getAuthScheme();
+  public org.apache.http.auth.Credentials getCredentials();
+  public void setCredentials(org.apache.http.auth.Credentials);
+  public org.apache.http.auth.AuthScope getAuthScope();
+  public void setAuthScope(org.apache.http.auth.AuthScope);
+  public java.lang.String toString();
+}

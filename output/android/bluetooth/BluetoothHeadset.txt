@@ -1,0 +1,27 @@
+Compiled from "BluetoothHeadset.java"
+public final class android.bluetooth.BluetoothHeadset implements android.bluetooth.BluetoothProfile {
+  public static final java.lang.String ACTION_AUDIO_STATE_CHANGED;
+  public static final java.lang.String ACTION_CONNECTION_STATE_CHANGED;
+  public static final java.lang.String ACTION_VENDOR_SPECIFIC_HEADSET_EVENT;
+  public static final int AT_CMD_TYPE_ACTION;
+  public static final int AT_CMD_TYPE_BASIC;
+  public static final int AT_CMD_TYPE_READ;
+  public static final int AT_CMD_TYPE_SET;
+  public static final int AT_CMD_TYPE_TEST;
+  public static final java.lang.String EXTRA_VENDOR_SPECIFIC_HEADSET_EVENT_ARGS;
+  public static final java.lang.String EXTRA_VENDOR_SPECIFIC_HEADSET_EVENT_CMD;
+  public static final java.lang.String EXTRA_VENDOR_SPECIFIC_HEADSET_EVENT_CMD_TYPE;
+  public static final int STATE_AUDIO_CONNECTED;
+  public static final int STATE_AUDIO_CONNECTING;
+  public static final int STATE_AUDIO_DISCONNECTED;
+  public static final java.lang.String VENDOR_RESULT_CODE_COMMAND_ANDROID;
+  public static final java.lang.String VENDOR_SPECIFIC_HEADSET_EVENT_COMPANY_ID_CATEGORY;
+  android.bluetooth.BluetoothHeadset();
+  public java.util.List<android.bluetooth.BluetoothDevice> getConnectedDevices();
+  public java.util.List<android.bluetooth.BluetoothDevice> getDevicesMatchingConnectionStates(int[]);
+  public int getConnectionState(android.bluetooth.BluetoothDevice);
+  public boolean startVoiceRecognition(android.bluetooth.BluetoothDevice);
+  public boolean stopVoiceRecognition(android.bluetooth.BluetoothDevice);
+  public boolean isAudioConnected(android.bluetooth.BluetoothDevice);
+  public boolean sendVendorSpecificResultCode(android.bluetooth.BluetoothDevice, java.lang.String, java.lang.String);
+}

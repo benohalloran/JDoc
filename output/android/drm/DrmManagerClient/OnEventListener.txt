@@ -1,0 +1,4 @@
+Compiled from "DrmManagerClient.java"
+public interface android.drm.DrmManagerClient$OnEventListener {
+  public abstract void onEvent(android.drm.DrmManagerClient, android.drm.DrmEvent);
+}

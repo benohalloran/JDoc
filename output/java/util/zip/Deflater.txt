@@ -1,0 +1,37 @@
+Compiled from "Deflater.java"
+public class java.util.zip.Deflater {
+  public static final int BEST_COMPRESSION;
+  public static final int BEST_SPEED;
+  public static final int DEFAULT_COMPRESSION;
+  public static final int DEFAULT_STRATEGY;
+  public static final int DEFLATED;
+  public static final int FILTERED;
+  public static final int FULL_FLUSH;
+  public static final int HUFFMAN_ONLY;
+  public static final int NO_COMPRESSION;
+  public static final int NO_FLUSH;
+  public static final int SYNC_FLUSH;
+  public java.util.zip.Deflater();
+  public java.util.zip.Deflater(int);
+  public java.util.zip.Deflater(int, boolean);
+  public int deflate(byte[]);
+  public synchronized int deflate(byte[], int, int);
+  public synchronized int deflate(byte[], int, int, int);
+  public synchronized void end();
+  protected void finalize();
+  public synchronized void finish();
+  public synchronized boolean finished();
+  public synchronized int getAdler();
+  public synchronized int getTotalIn();
+  public synchronized int getTotalOut();
+  public synchronized boolean needsInput();
+  public synchronized void reset();
+  public void setDictionary(byte[]);
+  public synchronized void setDictionary(byte[], int, int);
+  public void setInput(byte[]);
+  public synchronized void setInput(byte[], int, int);
+  public synchronized void setLevel(int);
+  public synchronized void setStrategy(int);
+  public synchronized long getBytesRead();
+  public synchronized long getBytesWritten();
+}

@@ -1,0 +1,8 @@
+Compiled from "GridLayoutAnimationController.java"
+public class android.view.animation.GridLayoutAnimationController$AnimationParameters extends android.view.animation.LayoutAnimationController$AnimationParameters {
+  public int column;
+  public int columnsCount;
+  public int row;
+  public int rowsCount;
+  public android.view.animation.GridLayoutAnimationController$AnimationParameters();
+}

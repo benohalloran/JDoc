@@ -1,0 +1,44 @@
+Compiled from "WifiP2pManager.java"
+public class android.net.wifi.p2p.WifiP2pManager {
+  public static final int BUSY;
+  public static final int ERROR;
+  public static final java.lang.String EXTRA_DISCOVERY_STATE;
+  public static final java.lang.String EXTRA_NETWORK_INFO;
+  public static final java.lang.String EXTRA_P2P_DEVICE_LIST;
+  public static final java.lang.String EXTRA_WIFI_P2P_DEVICE;
+  public static final java.lang.String EXTRA_WIFI_P2P_GROUP;
+  public static final java.lang.String EXTRA_WIFI_P2P_INFO;
+  public static final java.lang.String EXTRA_WIFI_STATE;
+  public static final int NO_SERVICE_REQUESTS;
+  public static final int P2P_UNSUPPORTED;
+  public static final java.lang.String WIFI_P2P_CONNECTION_CHANGED_ACTION;
+  public static final java.lang.String WIFI_P2P_DISCOVERY_CHANGED_ACTION;
+  public static final int WIFI_P2P_DISCOVERY_STARTED;
+  public static final int WIFI_P2P_DISCOVERY_STOPPED;
+  public static final java.lang.String WIFI_P2P_PEERS_CHANGED_ACTION;
+  public static final java.lang.String WIFI_P2P_STATE_CHANGED_ACTION;
+  public static final int WIFI_P2P_STATE_DISABLED;
+  public static final int WIFI_P2P_STATE_ENABLED;
+  public static final java.lang.String WIFI_P2P_THIS_DEVICE_CHANGED_ACTION;
+  android.net.wifi.p2p.WifiP2pManager();
+  public android.net.wifi.p2p.WifiP2pManager$Channel initialize(android.content.Context, android.os.Looper, android.net.wifi.p2p.WifiP2pManager$ChannelListener);
+  public void discoverPeers(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.WifiP2pManager$ActionListener);
+  public void stopPeerDiscovery(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.WifiP2pManager$ActionListener);
+  public void connect(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.WifiP2pConfig, android.net.wifi.p2p.WifiP2pManager$ActionListener);
+  public void cancelConnect(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.WifiP2pManager$ActionListener);
+  public void createGroup(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.WifiP2pManager$ActionListener);
+  public void removeGroup(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.WifiP2pManager$ActionListener);
+  public void addLocalService(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.nsd.WifiP2pServiceInfo, android.net.wifi.p2p.WifiP2pManager$ActionListener);
+  public void removeLocalService(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.nsd.WifiP2pServiceInfo, android.net.wifi.p2p.WifiP2pManager$ActionListener);
+  public void clearLocalServices(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.WifiP2pManager$ActionListener);
+  public void setServiceResponseListener(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.WifiP2pManager$ServiceResponseListener);
+  public void setDnsSdResponseListeners(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.WifiP2pManager$DnsSdServiceResponseListener, android.net.wifi.p2p.WifiP2pManager$DnsSdTxtRecordListener);
+  public void setUpnpServiceResponseListener(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.WifiP2pManager$UpnpServiceResponseListener);
+  public void discoverServices(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.WifiP2pManager$ActionListener);
+  public void addServiceRequest(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.nsd.WifiP2pServiceRequest, android.net.wifi.p2p.WifiP2pManager$ActionListener);
+  public void removeServiceRequest(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.nsd.WifiP2pServiceRequest, android.net.wifi.p2p.WifiP2pManager$ActionListener);
+  public void clearServiceRequests(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.WifiP2pManager$ActionListener);
+  public void requestPeers(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.WifiP2pManager$PeerListListener);
+  public void requestConnectionInfo(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.WifiP2pManager$ConnectionInfoListener);
+  public void requestGroupInfo(android.net.wifi.p2p.WifiP2pManager$Channel, android.net.wifi.p2p.WifiP2pManager$GroupInfoListener);
+}

@@ -1,0 +1,14 @@
+Compiled from "ViewGroup.java"
+public class android.view.ViewGroup$LayoutParams {
+  public static final int FILL_PARENT;
+  public static final int MATCH_PARENT;
+  public static final int WRAP_CONTENT;
+  public int height;
+  public android.view.animation.LayoutAnimationController$AnimationParameters layoutAnimationParameters;
+  public int width;
+  public android.view.ViewGroup$LayoutParams(android.content.Context, android.util.AttributeSet);
+  public android.view.ViewGroup$LayoutParams(int, int);
+  public android.view.ViewGroup$LayoutParams(android.view.ViewGroup$LayoutParams);
+  protected void setBaseAttributes(android.content.res.TypedArray, int, int);
+  public void resolveLayoutDirection(int);
+}

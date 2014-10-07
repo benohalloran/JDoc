@@ -1,0 +1,5 @@
+Compiled from "DrawFilter.java"
+public class android.graphics.DrawFilter {
+  public android.graphics.DrawFilter();
+  protected void finalize() throws java.lang.Throwable;
+}

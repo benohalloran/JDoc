@@ -1,0 +1,14 @@
+Compiled from "Telephony.java"
+public final class android.provider.Telephony$MmsSms$PendingMessages implements android.provider.BaseColumns {
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DUE_TIME;
+  public static final java.lang.String ERROR_CODE;
+  public static final java.lang.String ERROR_TYPE;
+  public static final java.lang.String LAST_TRY;
+  public static final java.lang.String MSG_ID;
+  public static final java.lang.String MSG_TYPE;
+  public static final java.lang.String PROTO_TYPE;
+  public static final java.lang.String RETRY_INDEX;
+  android.provider.Telephony$MmsSms$PendingMessages();
+  static {};
+}

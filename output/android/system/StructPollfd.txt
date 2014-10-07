@@ -1,0 +1,9 @@
+Compiled from "StructPollfd.java"
+public final class android.system.StructPollfd {
+  public short events;
+  public java.io.FileDescriptor fd;
+  public short revents;
+  public java.lang.Object userData;
+  public android.system.StructPollfd();
+  public java.lang.String toString();
+}

@@ -1,0 +1,5 @@
+Compiled from "SSLSessionCache.java"
+public final class android.net.SSLSessionCache {
+  public android.net.SSLSessionCache(java.io.File) throws java.io.IOException;
+  public android.net.SSLSessionCache(android.content.Context);
+}

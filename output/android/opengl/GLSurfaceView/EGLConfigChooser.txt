@@ -1,0 +1,4 @@
+Compiled from "GLSurfaceView.java"
+public interface android.opengl.GLSurfaceView$EGLConfigChooser {
+  public abstract javax.microedition.khronos.egl.EGLConfig chooseConfig(javax.microedition.khronos.egl.EGL10, javax.microedition.khronos.egl.EGLDisplay);
+}

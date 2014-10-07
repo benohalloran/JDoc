@@ -1,0 +1,14 @@
+Compiled from "RemoteController.java"
+public final class android.media.RemoteController {
+  public static final int POSITION_SYNCHRONIZATION_CHECK;
+  public static final int POSITION_SYNCHRONIZATION_NONE;
+  public android.media.RemoteController(android.content.Context, android.media.RemoteController$OnClientUpdateListener) throws java.lang.IllegalArgumentException;
+  public android.media.RemoteController(android.content.Context, android.media.RemoteController$OnClientUpdateListener, android.os.Looper) throws java.lang.IllegalArgumentException;
+  public long getEstimatedMediaPosition();
+  public boolean sendMediaKeyEvent(android.view.KeyEvent) throws java.lang.IllegalArgumentException;
+  public boolean seekTo(long) throws java.lang.IllegalArgumentException;
+  public boolean setArtworkConfiguration(int, int) throws java.lang.IllegalArgumentException;
+  public boolean clearArtworkConfiguration();
+  public boolean setSynchronizationMode(int) throws java.lang.IllegalArgumentException;
+  public android.media.RemoteController$MetadataEditor editMetadata();
+}

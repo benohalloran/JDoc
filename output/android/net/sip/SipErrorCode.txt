@@ -1,0 +1,18 @@
+Compiled from "SipErrorCode.java"
+public class android.net.sip.SipErrorCode {
+  public static final int CLIENT_ERROR;
+  public static final int CROSS_DOMAIN_AUTHENTICATION;
+  public static final int DATA_CONNECTION_LOST;
+  public static final int INVALID_CREDENTIALS;
+  public static final int INVALID_REMOTE_URI;
+  public static final int IN_PROGRESS;
+  public static final int NO_ERROR;
+  public static final int PEER_NOT_REACHABLE;
+  public static final int SERVER_ERROR;
+  public static final int SERVER_UNREACHABLE;
+  public static final int SOCKET_ERROR;
+  public static final int TIME_OUT;
+  public static final int TRANSACTION_TERMINTED;
+  android.net.sip.SipErrorCode();
+  public static java.lang.String toString(int);
+}

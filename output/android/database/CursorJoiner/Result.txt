@@ -1,0 +1,9 @@
+Compiled from "CursorJoiner.java"
+public final class android.database.CursorJoiner$Result extends java.lang.Enum<android.database.CursorJoiner$Result> {
+  public static final android.database.CursorJoiner$Result BOTH;
+  public static final android.database.CursorJoiner$Result LEFT;
+  public static final android.database.CursorJoiner$Result RIGHT;
+  public static android.database.CursorJoiner$Result[] values();
+  public static android.database.CursorJoiner$Result valueOf(java.lang.String);
+  static {};
+}

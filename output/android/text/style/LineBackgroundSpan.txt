@@ -1,0 +1,4 @@
+Compiled from "LineBackgroundSpan.java"
+public interface android.text.style.LineBackgroundSpan extends android.text.style.ParagraphStyle {
+  public abstract void drawBackground(android.graphics.Canvas, android.graphics.Paint, int, int, int, int, int, java.lang.CharSequence, int, int, int);
+}

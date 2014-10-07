@@ -1,0 +1,10 @@
+Compiled from "ProtectionDomain.java"
+public class java.security.ProtectionDomain {
+  public java.security.ProtectionDomain(java.security.CodeSource, java.security.PermissionCollection);
+  public java.security.ProtectionDomain(java.security.CodeSource, java.security.PermissionCollection, java.lang.ClassLoader, java.security.Principal[]);
+  public final java.lang.ClassLoader getClassLoader();
+  public final java.security.CodeSource getCodeSource();
+  public final java.security.PermissionCollection getPermissions();
+  public final java.security.Principal[] getPrincipals();
+  public boolean implies(java.security.Permission);
+}

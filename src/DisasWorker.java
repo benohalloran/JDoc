@@ -15,9 +15,13 @@ public class DisasWorker implements Runnable {
 	@Override
 	public void run() {
 		try {
-			while (!queue.isEmpty()) {
+			while (true) {
 				String taken = queue.take();
-				consume(taken);
+				if (taken == ProducerThread.KILL) {
+					queue.put(ProducerThread.KILL);
+					break;
+				} else
+					consume(taken);
 			}
 		} catch (InterruptedException e) {
 			e.printStackTrace();

@@ -1,0 +1,4 @@
+Compiled from "IInterface.java"
+public interface android.os.IInterface {
+  public abstract android.os.IBinder asBinder();
+}

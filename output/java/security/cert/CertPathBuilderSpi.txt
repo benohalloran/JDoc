@@ -1,0 +1,5 @@
+Compiled from "CertPathBuilderSpi.java"
+public abstract class java.security.cert.CertPathBuilderSpi {
+  public java.security.cert.CertPathBuilderSpi();
+  public abstract java.security.cert.CertPathBuilderResult engineBuild(java.security.cert.CertPathParameters) throws java.security.cert.CertPathBuilderException, java.security.InvalidAlgorithmParameterException;
+}

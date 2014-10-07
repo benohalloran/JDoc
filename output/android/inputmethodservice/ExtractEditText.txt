@@ -1,0 +1,18 @@
+Compiled from "ExtractEditText.java"
+public class android.inputmethodservice.ExtractEditText extends android.widget.EditText {
+  public android.inputmethodservice.ExtractEditText(android.content.Context);
+  public android.inputmethodservice.ExtractEditText(android.content.Context, android.util.AttributeSet);
+  public android.inputmethodservice.ExtractEditText(android.content.Context, android.util.AttributeSet, int);
+  public android.inputmethodservice.ExtractEditText(android.content.Context, android.util.AttributeSet, int, int);
+  public void startInternalChanges();
+  public void finishInternalChanges();
+  public void setExtractedText(android.view.inputmethod.ExtractedText);
+  protected void onSelectionChanged(int, int);
+  public boolean performClick();
+  public boolean onTextContextMenuItem(int);
+  public boolean isInputMethodTarget();
+  public boolean hasVerticalScrollBar();
+  public boolean hasWindowFocus();
+  public boolean isFocused();
+  public boolean hasFocus();
+}

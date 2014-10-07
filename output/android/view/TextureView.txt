@@ -1,0 +1,30 @@
+Compiled from "TextureView.java"
+public class android.view.TextureView extends android.view.View {
+  public android.view.TextureView(android.content.Context);
+  public android.view.TextureView(android.content.Context, android.util.AttributeSet);
+  public android.view.TextureView(android.content.Context, android.util.AttributeSet, int);
+  public android.view.TextureView(android.content.Context, android.util.AttributeSet, int, int);
+  public boolean isOpaque();
+  public void setOpaque(boolean);
+  protected void onAttachedToWindow();
+  public void setLayerType(int, android.graphics.Paint);
+  public int getLayerType();
+  public void buildLayer();
+  public final void draw(android.graphics.Canvas);
+  protected final void onDraw(android.graphics.Canvas);
+  protected void onSizeChanged(int, int, int, int);
+  protected void onVisibilityChanged(android.view.View, int);
+  public void setTransform(android.graphics.Matrix);
+  public android.graphics.Matrix getTransform(android.graphics.Matrix);
+  public android.graphics.Bitmap getBitmap();
+  public android.graphics.Bitmap getBitmap(int, int);
+  public android.graphics.Bitmap getBitmap(android.graphics.Bitmap);
+  public boolean isAvailable();
+  public android.graphics.Canvas lockCanvas();
+  public android.graphics.Canvas lockCanvas(android.graphics.Rect);
+  public void unlockCanvasAndPost(android.graphics.Canvas);
+  public android.graphics.SurfaceTexture getSurfaceTexture();
+  public void setSurfaceTexture(android.graphics.SurfaceTexture);
+  public android.view.TextureView$SurfaceTextureListener getSurfaceTextureListener();
+  public void setSurfaceTextureListener(android.view.TextureView$SurfaceTextureListener);
+}

@@ -1,0 +1,6 @@
+Compiled from "FileBackupHelperBase.java"
+class android.app.backup.FileBackupHelperBase {
+  android.app.backup.FileBackupHelperBase();
+  protected void finalize() throws java.lang.Throwable;
+  public void writeNewStateDescription(android.os.ParcelFileDescriptor);
+}

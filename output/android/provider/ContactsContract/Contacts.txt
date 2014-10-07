@@ -1,0 +1,22 @@
+Compiled from "ContactsContract.java"
+public class android.provider.ContactsContract$Contacts implements android.provider.BaseColumns,android.provider.ContactsContract$ContactsColumns,android.provider.ContactsContract$ContactOptionsColumns,android.provider.ContactsContract$ContactNameColumns,android.provider.ContactsContract$ContactStatusColumns {
+  public static final android.net.Uri CONTENT_FILTER_URI;
+  public static final android.net.Uri CONTENT_GROUP_URI;
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final android.net.Uri CONTENT_LOOKUP_URI;
+  public static final android.net.Uri CONTENT_MULTI_VCARD_URI;
+  public static final android.net.Uri CONTENT_STREQUENT_FILTER_URI;
+  public static final android.net.Uri CONTENT_STREQUENT_URI;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String CONTENT_VCARD_TYPE;
+  public static final android.net.Uri CONTENT_VCARD_URI;
+  android.provider.ContactsContract$Contacts();
+  public static android.net.Uri getLookupUri(android.content.ContentResolver, android.net.Uri);
+  public static android.net.Uri getLookupUri(long, java.lang.String);
+  public static android.net.Uri lookupContact(android.content.ContentResolver, android.net.Uri);
+  public static void markAsContacted(android.content.ContentResolver, long);
+  public static java.io.InputStream openContactPhotoInputStream(android.content.ContentResolver, android.net.Uri, boolean);
+  public static java.io.InputStream openContactPhotoInputStream(android.content.ContentResolver, android.net.Uri);
+  static {};
+}

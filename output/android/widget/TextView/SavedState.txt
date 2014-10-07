@@ -1,0 +1,8 @@
+Compiled from "TextView.java"
+public class android.widget.TextView$SavedState extends android.view.View$BaseSavedState {
+  public static final android.os.Parcelable$Creator<android.widget.TextView$SavedState> CREATOR;
+  android.widget.TextView$SavedState();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String toString();
+  static {};
+}

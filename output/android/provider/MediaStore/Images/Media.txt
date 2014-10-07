@@ -1,0 +1,16 @@
+Compiled from "MediaStore.java"
+public final class android.provider.MediaStore$Images$Media implements android.provider.MediaStore$Images$ImageColumns {
+  public static final java.lang.String CONTENT_TYPE;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final android.net.Uri EXTERNAL_CONTENT_URI;
+  public static final android.net.Uri INTERNAL_CONTENT_URI;
+  public android.provider.MediaStore$Images$Media();
+  public static final android.database.Cursor query(android.content.ContentResolver, android.net.Uri, java.lang.String[]);
+  public static final android.database.Cursor query(android.content.ContentResolver, android.net.Uri, java.lang.String[], java.lang.String, java.lang.String);
+  public static final android.database.Cursor query(android.content.ContentResolver, android.net.Uri, java.lang.String[], java.lang.String, java.lang.String[], java.lang.String);
+  public static final android.graphics.Bitmap getBitmap(android.content.ContentResolver, android.net.Uri) throws java.io.FileNotFoundException, java.io.IOException;
+  public static final java.lang.String insertImage(android.content.ContentResolver, java.lang.String, java.lang.String, java.lang.String) throws java.io.FileNotFoundException;
+  public static final java.lang.String insertImage(android.content.ContentResolver, android.graphics.Bitmap, java.lang.String, java.lang.String);
+  public static android.net.Uri getContentUri(java.lang.String);
+  static {};
+}

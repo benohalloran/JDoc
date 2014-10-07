@@ -1,0 +1,5 @@
+Compiled from "ZoomButtonsController.java"
+public interface android.widget.ZoomButtonsController$OnZoomListener {
+  public abstract void onVisibilityChanged(boolean);
+  public abstract void onZoom(boolean);
+}

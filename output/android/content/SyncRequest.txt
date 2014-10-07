@@ -1,0 +1,8 @@
+Compiled from "SyncRequest.java"
+public class android.content.SyncRequest implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.SyncRequest> CREATOR;
+  android.content.SyncRequest();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

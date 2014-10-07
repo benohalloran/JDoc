@@ -1,0 +1,6 @@
+Compiled from "TimedText.java"
+public final class android.media.TimedText {
+  android.media.TimedText();
+  public java.lang.String getText();
+  public android.graphics.Rect getBounds();
+}

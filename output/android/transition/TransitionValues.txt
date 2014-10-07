@@ -1,0 +1,9 @@
+Compiled from "TransitionValues.java"
+public class android.transition.TransitionValues {
+  public final java.util.Map<java.lang.String, java.lang.Object> values;
+  public android.view.View view;
+  public android.transition.TransitionValues();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}

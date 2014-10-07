@@ -1,0 +1,5 @@
+Compiled from "MediaSessionManager.java"
+public final class android.media.session.MediaSessionManager {
+  android.media.session.MediaSessionManager();
+  public android.media.session.MediaSession createSession(java.lang.String);
+}

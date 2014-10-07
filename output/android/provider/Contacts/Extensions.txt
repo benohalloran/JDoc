@@ -1,0 +1,10 @@
+Compiled from "Contacts.java"
+public final class android.provider.Contacts$Extensions implements android.provider.BaseColumns,android.provider.Contacts$ExtensionsColumns {
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final java.lang.String PERSON_ID;
+  android.provider.Contacts$Extensions();
+  static {};
+}

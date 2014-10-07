@@ -1,0 +1,7 @@
+Compiled from "BasicPoolEntry.java"
+public class org.apache.http.impl.conn.tsccm.BasicPoolEntry extends org.apache.http.impl.conn.AbstractPoolEntry {
+  public org.apache.http.impl.conn.tsccm.BasicPoolEntry(org.apache.http.conn.ClientConnectionOperator, org.apache.http.conn.routing.HttpRoute, java.lang.ref.ReferenceQueue<java.lang.Object>);
+  protected final org.apache.http.conn.OperatedClientConnection getConnection();
+  protected final org.apache.http.conn.routing.HttpRoute getPlannedRoute();
+  protected final org.apache.http.impl.conn.tsccm.BasicPoolEntryRef getWeakRef();
+}

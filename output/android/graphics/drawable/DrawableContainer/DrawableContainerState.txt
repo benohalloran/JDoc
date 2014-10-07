@@ -1,0 +1,27 @@
+Compiled from "DrawableContainer.java"
+public abstract class android.graphics.drawable.DrawableContainer$DrawableContainerState extends android.graphics.drawable.Drawable$ConstantState {
+  android.graphics.drawable.DrawableContainer$DrawableContainerState();
+  public int getChangingConfigurations();
+  public final int addChild(android.graphics.drawable.Drawable);
+  public final int getChildCount();
+  public final android.graphics.drawable.Drawable[] getChildren();
+  public final android.graphics.drawable.Drawable getChild(int);
+  public boolean canApplyTheme();
+  public final void setVariablePadding(boolean);
+  public final android.graphics.Rect getConstantPadding();
+  public final void setConstantSize(boolean);
+  public final boolean isConstantSize();
+  public final int getConstantWidth();
+  public final int getConstantHeight();
+  public final int getConstantMinimumWidth();
+  public final int getConstantMinimumHeight();
+  protected void computeConstantSize();
+  public final void setEnterFadeDuration(int);
+  public final int getEnterFadeDuration();
+  public final void setExitFadeDuration(int);
+  public final int getExitFadeDuration();
+  public final int getOpacity();
+  public final boolean isStateful();
+  public void growArray(int, int);
+  public synchronized boolean canConstantState();
+}

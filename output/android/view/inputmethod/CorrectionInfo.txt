@@ -1,0 +1,12 @@
+Compiled from "CorrectionInfo.java"
+public final class android.view.inputmethod.CorrectionInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.inputmethod.CorrectionInfo> CREATOR;
+  public android.view.inputmethod.CorrectionInfo(int, java.lang.CharSequence, java.lang.CharSequence);
+  public int getOffset();
+  public java.lang.CharSequence getOldText();
+  public java.lang.CharSequence getNewText();
+  public java.lang.String toString();
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  static {};
+}

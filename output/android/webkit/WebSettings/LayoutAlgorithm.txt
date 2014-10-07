@@ -1,0 +1,10 @@
+Compiled from "WebSettings.java"
+public final class android.webkit.WebSettings$LayoutAlgorithm extends java.lang.Enum<android.webkit.WebSettings$LayoutAlgorithm> {
+  public static final android.webkit.WebSettings$LayoutAlgorithm NARROW_COLUMNS;
+  public static final android.webkit.WebSettings$LayoutAlgorithm NORMAL;
+  public static final android.webkit.WebSettings$LayoutAlgorithm SINGLE_COLUMN;
+  public static final android.webkit.WebSettings$LayoutAlgorithm TEXT_AUTOSIZING;
+  public static android.webkit.WebSettings$LayoutAlgorithm[] values();
+  public static android.webkit.WebSettings$LayoutAlgorithm valueOf(java.lang.String);
+  static {};
+}

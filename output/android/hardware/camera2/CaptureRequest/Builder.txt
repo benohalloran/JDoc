@@ -1,0 +1,10 @@
+Compiled from "CaptureRequest.java"
+public final class android.hardware.camera2.CaptureRequest$Builder {
+  android.hardware.camera2.CaptureRequest$Builder();
+  public void addTarget(android.view.Surface);
+  public void removeTarget(android.view.Surface);
+  public <T extends java/lang/Object> void set(android.hardware.camera2.CaptureRequest$Key<T>, T);
+  public <T extends java/lang/Object> T get(android.hardware.camera2.CaptureRequest$Key<T>);
+  public void setTag(java.lang.Object);
+  public android.hardware.camera2.CaptureRequest build();
+}

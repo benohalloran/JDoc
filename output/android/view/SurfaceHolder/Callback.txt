@@ -1,0 +1,6 @@
+Compiled from "SurfaceHolder.java"
+public interface android.view.SurfaceHolder$Callback {
+  public abstract void surfaceCreated(android.view.SurfaceHolder);
+  public abstract void surfaceChanged(android.view.SurfaceHolder, int, int, int);
+  public abstract void surfaceDestroyed(android.view.SurfaceHolder);
+}

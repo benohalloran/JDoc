@@ -1,0 +1,13 @@
+Compiled from "Contacts.java"
+public interface android.provider.Contacts$PeopleColumns {
+  public static final java.lang.String CUSTOM_RINGTONE;
+  public static final java.lang.String DISPLAY_NAME;
+  public static final java.lang.String LAST_TIME_CONTACTED;
+  public static final java.lang.String NAME;
+  public static final java.lang.String NOTES;
+  public static final java.lang.String PHONETIC_NAME;
+  public static final java.lang.String PHOTO_VERSION;
+  public static final java.lang.String SEND_TO_VOICEMAIL;
+  public static final java.lang.String STARRED;
+  public static final java.lang.String TIMES_CONTACTED;
+}

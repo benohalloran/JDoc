@@ -1,0 +1,13 @@
+Compiled from "MediaSession.java"
+public abstract class android.media.session.MediaSession$TransportControlsCallback {
+  public android.media.session.MediaSession$TransportControlsCallback();
+  public void onPlay();
+  public void onPause();
+  public void onSkipToNext();
+  public void onSkipToPrevious();
+  public void onFastForward();
+  public void onRewind();
+  public void onStop();
+  public void onSeekTo(long);
+  public void onSetRating(android.media.Rating);
+}

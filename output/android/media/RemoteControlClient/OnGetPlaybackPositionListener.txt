@@ -1,0 +1,4 @@
+Compiled from "RemoteControlClient.java"
+public interface android.media.RemoteControlClient$OnGetPlaybackPositionListener {
+  public abstract long onGetPlaybackPosition();
+}

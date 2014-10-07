@@ -1,0 +1,30 @@
+Compiled from "IntBuffer.java"
+public abstract class java.nio.IntBuffer extends java.nio.Buffer implements java.lang.Comparable<java.nio.IntBuffer> {
+  java.nio.IntBuffer();
+  public static java.nio.IntBuffer allocate(int);
+  public static java.nio.IntBuffer wrap(int[]);
+  public static java.nio.IntBuffer wrap(int[], int, int);
+  public final int[] array();
+  public final int arrayOffset();
+  public abstract java.nio.IntBuffer asReadOnlyBuffer();
+  public abstract java.nio.IntBuffer compact();
+  public int compareTo(java.nio.IntBuffer);
+  public abstract java.nio.IntBuffer duplicate();
+  public boolean equals(java.lang.Object);
+  public abstract int get();
+  public java.nio.IntBuffer get(int[]);
+  public java.nio.IntBuffer get(int[], int, int);
+  public abstract int get(int);
+  public final boolean hasArray();
+  public int hashCode();
+  public abstract boolean isDirect();
+  public abstract java.nio.ByteOrder order();
+  public abstract java.nio.IntBuffer put(int);
+  public final java.nio.IntBuffer put(int[]);
+  public java.nio.IntBuffer put(int[], int, int);
+  public java.nio.IntBuffer put(java.nio.IntBuffer);
+  public abstract java.nio.IntBuffer put(int, int);
+  public abstract java.nio.IntBuffer slice();
+  public java.lang.Object array();
+  public int compareTo(java.lang.Object);
+}

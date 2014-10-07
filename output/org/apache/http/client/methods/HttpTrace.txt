@@ -1,0 +1,8 @@
+Compiled from "HttpTrace.java"
+public class org.apache.http.client.methods.HttpTrace extends org.apache.http.client.methods.HttpRequestBase {
+  public static final java.lang.String METHOD_NAME;
+  public org.apache.http.client.methods.HttpTrace();
+  public org.apache.http.client.methods.HttpTrace(java.net.URI);
+  public org.apache.http.client.methods.HttpTrace(java.lang.String);
+  public java.lang.String getMethod();
+}

@@ -1,0 +1,8 @@
+Compiled from "DefaultHttpRequestRetryHandler.java"
+public class org.apache.http.impl.client.DefaultHttpRequestRetryHandler implements org.apache.http.client.HttpRequestRetryHandler {
+  public org.apache.http.impl.client.DefaultHttpRequestRetryHandler(int, boolean);
+  public org.apache.http.impl.client.DefaultHttpRequestRetryHandler();
+  public boolean retryRequest(java.io.IOException, int, org.apache.http.protocol.HttpContext);
+  public boolean isRequestSentRetryEnabled();
+  public int getRetryCount();
+}

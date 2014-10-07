@@ -1,0 +1,4 @@
+Compiled from "SlidingDrawer.java"
+public interface android.widget.SlidingDrawer$OnDrawerOpenListener {
+  public abstract void onDrawerOpened();
+}

@@ -1,0 +1,5 @@
+Compiled from "ObbScanner.java"
+public class android.content.res.ObbScanner {
+  android.content.res.ObbScanner();
+  public static android.content.res.ObbInfo getObbInfo(java.lang.String) throws java.io.IOException;
+}

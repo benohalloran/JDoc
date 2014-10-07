@@ -1,0 +1,15 @@
+Compiled from "TonemapCurve.java"
+public final class android.hardware.camera2.params.TonemapCurve {
+  public static final int CHANNEL_BLUE;
+  public static final int CHANNEL_GREEN;
+  public static final int CHANNEL_RED;
+  public static final float LEVEL_BLACK;
+  public static final float LEVEL_WHITE;
+  public static final int POINT_SIZE;
+  public android.hardware.camera2.params.TonemapCurve(float[], float[], float[]);
+  public int getPointCount(int);
+  public android.graphics.PointF getPoint(int, int);
+  public void copyColorCurve(int, float[], int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

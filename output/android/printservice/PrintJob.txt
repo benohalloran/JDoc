@@ -1,0 +1,25 @@
+Compiled from "PrintJob.java"
+public final class android.printservice.PrintJob {
+  android.printservice.PrintJob();
+  public android.print.PrintJobId getId();
+  public android.print.PrintJobInfo getInfo();
+  public android.printservice.PrintDocument getDocument();
+  public boolean isQueued();
+  public boolean isStarted();
+  public boolean isBlocked();
+  public boolean isCompleted();
+  public boolean isFailed();
+  public boolean isCancelled();
+  public boolean start();
+  public boolean block(java.lang.String);
+  public boolean complete();
+  public boolean fail(java.lang.String);
+  public boolean cancel();
+  public boolean setTag(java.lang.String);
+  public java.lang.String getTag();
+  public java.lang.String getAdvancedStringOption(java.lang.String);
+  public boolean hasAdvancedOption(java.lang.String);
+  public int getAdvancedIntOption(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

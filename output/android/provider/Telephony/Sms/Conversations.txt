@@ -1,0 +1,9 @@
+Compiled from "Telephony.java"
+public final class android.provider.Telephony$Sms$Conversations implements android.provider.BaseColumns,android.provider.Telephony$TextBasedSmsColumns {
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final java.lang.String MESSAGE_COUNT;
+  public static final java.lang.String SNIPPET;
+  android.provider.Telephony$Sms$Conversations();
+  static {};
+}

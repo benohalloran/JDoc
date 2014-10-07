@@ -1,0 +1,17 @@
+Compiled from "RggbChannelVector.java"
+public final class android.hardware.camera2.params.RggbChannelVector {
+  public static final int BLUE;
+  public static final int COUNT;
+  public static final int GREEN_EVEN;
+  public static final int GREEN_ODD;
+  public static final int RED;
+  public android.hardware.camera2.params.RggbChannelVector(float, float, float, float);
+  public final float getRed();
+  public float getGreenEven();
+  public float getGreenOdd();
+  public float getBlue();
+  public float getComponent(int);
+  public void copyTo(float[], int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

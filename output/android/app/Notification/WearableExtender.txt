@@ -1,0 +1,47 @@
+Compiled from "Notification.java"
+public final class android.app.Notification$WearableExtender implements android.app.Notification$Extender {
+  public static final int SIZE_DEFAULT;
+  public static final int SIZE_FULL_SCREEN;
+  public static final int SIZE_LARGE;
+  public static final int SIZE_MEDIUM;
+  public static final int SIZE_SMALL;
+  public static final int SIZE_XSMALL;
+  public static final int UNSET_ACTION_INDEX;
+  public android.app.Notification$WearableExtender();
+  public android.app.Notification$WearableExtender(android.app.Notification);
+  public android.app.Notification$Builder extend(android.app.Notification$Builder);
+  public android.app.Notification$WearableExtender clone();
+  public android.app.Notification$WearableExtender addAction(android.app.Notification$Action);
+  public android.app.Notification$WearableExtender addActions(java.util.List<android.app.Notification$Action>);
+  public android.app.Notification$WearableExtender clearActions();
+  public java.util.List<android.app.Notification$Action> getActions();
+  public android.app.Notification$WearableExtender setDisplayIntent(android.app.PendingIntent);
+  public android.app.PendingIntent getDisplayIntent();
+  public android.app.Notification$WearableExtender addPage(android.app.Notification);
+  public android.app.Notification$WearableExtender addPages(java.util.List<android.app.Notification>);
+  public android.app.Notification$WearableExtender clearPages();
+  public java.util.List<android.app.Notification> getPages();
+  public android.app.Notification$WearableExtender setBackground(android.graphics.Bitmap);
+  public android.graphics.Bitmap getBackground();
+  public android.app.Notification$WearableExtender setContentIcon(int);
+  public int getContentIcon();
+  public android.app.Notification$WearableExtender setContentIconGravity(int);
+  public int getContentIconGravity();
+  public android.app.Notification$WearableExtender setContentAction(int);
+  public int getContentAction();
+  public android.app.Notification$WearableExtender setGravity(int);
+  public int getGravity();
+  public android.app.Notification$WearableExtender setCustomSizePreset(int);
+  public int getCustomSizePreset();
+  public android.app.Notification$WearableExtender setCustomContentHeight(int);
+  public int getCustomContentHeight();
+  public android.app.Notification$WearableExtender setStartScrollBottom(boolean);
+  public boolean getStartScrollBottom();
+  public android.app.Notification$WearableExtender setContentIntentAvailableOffline(boolean);
+  public boolean getContentIntentAvailableOffline();
+  public android.app.Notification$WearableExtender setHintHideIcon(boolean);
+  public boolean getHintHideIcon();
+  public android.app.Notification$WearableExtender setHintShowBackgroundOnly(boolean);
+  public boolean getHintShowBackgroundOnly();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

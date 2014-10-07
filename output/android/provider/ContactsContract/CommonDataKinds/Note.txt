@@ -1,0 +1,6 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$CommonDataKinds$Note implements android.provider.ContactsContract$DataColumnsWithJoins {
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String NOTE;
+  android.provider.ContactsContract$CommonDataKinds$Note();
+}

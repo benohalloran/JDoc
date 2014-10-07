@@ -1,0 +1,4 @@
+Compiled from "SimpleCursorTreeAdapter.java"
+public interface android.widget.SimpleCursorTreeAdapter$ViewBinder {
+  public abstract boolean setViewValue(android.view.View, android.database.Cursor, int);
+}

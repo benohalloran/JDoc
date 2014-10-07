@@ -1,0 +1,46 @@
+Compiled from "TvContract.java"
+public final class android.media.tv.TvContract$Channels implements android.media.tv.TvContract$BaseTvColumns {
+  public static final java.lang.String COLUMN_BROWSABLE;
+  public static final java.lang.String COLUMN_DESCRIPTION;
+  public static final java.lang.String COLUMN_DISPLAY_NAME;
+  public static final java.lang.String COLUMN_DISPLAY_NUMBER;
+  public static final java.lang.String COLUMN_INTERNAL_PROVIDER_DATA;
+  public static final java.lang.String COLUMN_ORIGINAL_NETWORK_ID;
+  public static final java.lang.String COLUMN_SEARCHABLE;
+  public static final java.lang.String COLUMN_SERVICE_ID;
+  public static final java.lang.String COLUMN_SERVICE_NAME;
+  public static final java.lang.String COLUMN_SERVICE_TYPE;
+  public static final java.lang.String COLUMN_TRANSPORT_STREAM_ID;
+  public static final java.lang.String COLUMN_TYPE;
+  public static final java.lang.String COLUMN_VERSION_NUMBER;
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  public static final int SERVICE_TYPE_AUDIO;
+  public static final int SERVICE_TYPE_AUDIO_VIDEO;
+  public static final int SERVICE_TYPE_OTHER;
+  public static final int TYPE_1SEG;
+  public static final int TYPE_ATSC_C;
+  public static final int TYPE_ATSC_M_H;
+  public static final int TYPE_ATSC_T;
+  public static final int TYPE_CMMB;
+  public static final int TYPE_DTMB;
+  public static final int TYPE_DVB_C;
+  public static final int TYPE_DVB_C2;
+  public static final int TYPE_DVB_H;
+  public static final int TYPE_DVB_S;
+  public static final int TYPE_DVB_S2;
+  public static final int TYPE_DVB_SH;
+  public static final int TYPE_DVB_T;
+  public static final int TYPE_DVB_T2;
+  public static final int TYPE_ISDB_C;
+  public static final int TYPE_ISDB_S;
+  public static final int TYPE_ISDB_T;
+  public static final int TYPE_ISDB_TB;
+  public static final int TYPE_OTHER;
+  public static final int TYPE_PASSTHROUGH;
+  public static final int TYPE_S_DMB;
+  public static final int TYPE_T_DMB;
+  android.media.tv.TvContract$Channels();
+  static {};
+}

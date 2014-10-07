@@ -1,0 +1,9 @@
+Compiled from "WifiEnterpriseConfig.java"
+public final class android.net.wifi.WifiEnterpriseConfig$Phase2 {
+  public static final int GTC;
+  public static final int MSCHAP;
+  public static final int MSCHAPV2;
+  public static final int NONE;
+  public static final int PAP;
+  android.net.wifi.WifiEnterpriseConfig$Phase2();
+}

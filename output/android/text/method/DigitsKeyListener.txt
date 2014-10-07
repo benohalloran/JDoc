@@ -1,0 +1,11 @@
+Compiled from "DigitsKeyListener.java"
+public class android.text.method.DigitsKeyListener extends android.text.method.NumberKeyListener {
+  public android.text.method.DigitsKeyListener();
+  public android.text.method.DigitsKeyListener(boolean, boolean);
+  protected char[] getAcceptedChars();
+  public static android.text.method.DigitsKeyListener getInstance();
+  public static android.text.method.DigitsKeyListener getInstance(boolean, boolean);
+  public static android.text.method.DigitsKeyListener getInstance(java.lang.String);
+  public int getInputType();
+  public java.lang.CharSequence filter(java.lang.CharSequence, int, int, android.text.Spanned, int, int);
+}

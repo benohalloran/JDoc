@@ -1,0 +1,21 @@
+Compiled from "AbstractConnPool.java"
+public abstract class org.apache.http.impl.conn.tsccm.AbstractConnPool implements org.apache.http.impl.conn.tsccm.RefQueueHandler {
+  protected org.apache.http.impl.conn.IdleConnectionHandler idleConnHandler;
+  protected volatile boolean isShutDown;
+  protected java.util.Set<org.apache.http.impl.conn.tsccm.BasicPoolEntryRef> issuedConnections;
+  protected int numConnections;
+  protected final java.util.concurrent.locks.Lock poolLock;
+  protected java.lang.ref.ReferenceQueue<java.lang.Object> refQueue;
+  protected org.apache.http.impl.conn.tsccm.AbstractConnPool();
+  public void enableConnectionGC() throws java.lang.IllegalStateException;
+  public final org.apache.http.impl.conn.tsccm.BasicPoolEntry getEntry(org.apache.http.conn.routing.HttpRoute, java.lang.Object, long, java.util.concurrent.TimeUnit) throws org.apache.http.conn.ConnectionPoolTimeoutException, java.lang.InterruptedException;
+  public abstract org.apache.http.impl.conn.tsccm.PoolEntryRequest requestPoolEntry(org.apache.http.conn.routing.HttpRoute, java.lang.Object);
+  public abstract void freeEntry(org.apache.http.impl.conn.tsccm.BasicPoolEntry, boolean, long, java.util.concurrent.TimeUnit);
+  public void handleReference(java.lang.ref.Reference);
+  protected abstract void handleLostEntry(org.apache.http.conn.routing.HttpRoute);
+  public void closeIdleConnections(long, java.util.concurrent.TimeUnit);
+  public void closeExpiredConnections();
+  public abstract void deleteClosedConnections();
+  public void shutdown();
+  protected void closeConnection(org.apache.http.conn.OperatedClientConnection);
+}

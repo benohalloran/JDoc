@@ -1,0 +1,25 @@
+Compiled from "MediaRouter.java"
+public class android.media.MediaRouter {
+  public static final int CALLBACK_FLAG_PERFORM_ACTIVE_SCAN;
+  public static final int CALLBACK_FLAG_UNFILTERED_EVENTS;
+  public static final int ROUTE_TYPE_LIVE_AUDIO;
+  public static final int ROUTE_TYPE_LIVE_VIDEO;
+  public static final int ROUTE_TYPE_USER;
+  android.media.MediaRouter();
+  public android.media.MediaRouter$RouteInfo getDefaultRoute();
+  public android.media.MediaRouter$RouteInfo getSelectedRoute(int);
+  public void addCallback(int, android.media.MediaRouter$Callback);
+  public void addCallback(int, android.media.MediaRouter$Callback, int);
+  public void removeCallback(android.media.MediaRouter$Callback);
+  public void selectRoute(int, android.media.MediaRouter$RouteInfo);
+  public void addUserRoute(android.media.MediaRouter$UserRouteInfo);
+  public void removeUserRoute(android.media.MediaRouter$UserRouteInfo);
+  public void clearUserRoutes();
+  public int getCategoryCount();
+  public android.media.MediaRouter$RouteCategory getCategoryAt(int);
+  public int getRouteCount();
+  public android.media.MediaRouter$RouteInfo getRouteAt(int);
+  public android.media.MediaRouter$UserRouteInfo createUserRoute(android.media.MediaRouter$RouteCategory);
+  public android.media.MediaRouter$RouteCategory createRouteCategory(java.lang.CharSequence, boolean);
+  public android.media.MediaRouter$RouteCategory createRouteCategory(int, boolean);
+}

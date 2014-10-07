@@ -1,0 +1,26 @@
+Compiled from "AndroidHttpClient.java"
+public final class android.net.http.AndroidHttpClient implements org.apache.http.client.HttpClient {
+  public static long DEFAULT_SYNC_MIN_GZIP_BYTES;
+  android.net.http.AndroidHttpClient();
+  public static android.net.http.AndroidHttpClient newInstance(java.lang.String, android.content.Context);
+  public static android.net.http.AndroidHttpClient newInstance(java.lang.String);
+  protected void finalize() throws java.lang.Throwable;
+  public static void modifyRequestToAcceptGzipResponse(org.apache.http.HttpRequest);
+  public static java.io.InputStream getUngzippedContent(org.apache.http.HttpEntity) throws java.io.IOException;
+  public void close();
+  public org.apache.http.params.HttpParams getParams();
+  public org.apache.http.conn.ClientConnectionManager getConnectionManager();
+  public org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest) throws java.io.IOException;
+  public org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest, org.apache.http.protocol.HttpContext) throws java.io.IOException;
+  public org.apache.http.HttpResponse execute(org.apache.http.HttpHost, org.apache.http.HttpRequest) throws java.io.IOException;
+  public org.apache.http.HttpResponse execute(org.apache.http.HttpHost, org.apache.http.HttpRequest, org.apache.http.protocol.HttpContext) throws java.io.IOException;
+  public <T extends java/lang/Object> T execute(org.apache.http.client.methods.HttpUriRequest, org.apache.http.client.ResponseHandler<? extends T>) throws java.io.IOException, org.apache.http.client.ClientProtocolException;
+  public <T extends java/lang/Object> T execute(org.apache.http.client.methods.HttpUriRequest, org.apache.http.client.ResponseHandler<? extends T>, org.apache.http.protocol.HttpContext) throws java.io.IOException, org.apache.http.client.ClientProtocolException;
+  public <T extends java/lang/Object> T execute(org.apache.http.HttpHost, org.apache.http.HttpRequest, org.apache.http.client.ResponseHandler<? extends T>) throws java.io.IOException, org.apache.http.client.ClientProtocolException;
+  public <T extends java/lang/Object> T execute(org.apache.http.HttpHost, org.apache.http.HttpRequest, org.apache.http.client.ResponseHandler<? extends T>, org.apache.http.protocol.HttpContext) throws java.io.IOException, org.apache.http.client.ClientProtocolException;
+  public static org.apache.http.entity.AbstractHttpEntity getCompressedEntity(byte[], android.content.ContentResolver) throws java.io.IOException;
+  public static long getMinGzipSize(android.content.ContentResolver);
+  public void enableCurlLogging(java.lang.String, int);
+  public void disableCurlLogging();
+  public static long parseDate(java.lang.String);
+}

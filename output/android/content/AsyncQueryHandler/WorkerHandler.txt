@@ -1,0 +1,6 @@
+Compiled from "AsyncQueryHandler.java"
+public class android.content.AsyncQueryHandler$WorkerHandler extends android.os.Handler {
+  final android.content.AsyncQueryHandler this$0;
+  public android.content.AsyncQueryHandler$WorkerHandler(android.content.AsyncQueryHandler, android.os.Looper);
+  public void handleMessage(android.os.Message);
+}

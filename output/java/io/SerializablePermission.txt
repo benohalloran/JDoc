@@ -1,0 +1,7 @@
+Compiled from "SerializablePermission.java"
+public final class java.io.SerializablePermission extends java.security.BasicPermission {
+  public java.io.SerializablePermission(java.lang.String);
+  public java.io.SerializablePermission(java.lang.String, java.lang.String);
+  public java.lang.String getActions();
+  public boolean implies(java.security.Permission);
+}

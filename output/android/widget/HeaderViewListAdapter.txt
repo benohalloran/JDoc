@@ -1,0 +1,22 @@
+Compiled from "HeaderViewListAdapter.java"
+public class android.widget.HeaderViewListAdapter implements android.widget.WrapperListAdapter,android.widget.Filterable {
+  public android.widget.HeaderViewListAdapter(java.util.ArrayList<android.widget.ListView$FixedViewInfo>, java.util.ArrayList<android.widget.ListView$FixedViewInfo>, android.widget.ListAdapter);
+  public int getHeadersCount();
+  public int getFootersCount();
+  public boolean isEmpty();
+  public boolean removeHeader(android.view.View);
+  public boolean removeFooter(android.view.View);
+  public int getCount();
+  public boolean areAllItemsEnabled();
+  public boolean isEnabled(int);
+  public java.lang.Object getItem(int);
+  public long getItemId(int);
+  public boolean hasStableIds();
+  public android.view.View getView(int, android.view.View, android.view.ViewGroup);
+  public int getItemViewType(int);
+  public int getViewTypeCount();
+  public void registerDataSetObserver(android.database.DataSetObserver);
+  public void unregisterDataSetObserver(android.database.DataSetObserver);
+  public android.widget.Filter getFilter();
+  public android.widget.ListAdapter getWrappedAdapter();
+}

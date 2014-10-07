@@ -1,0 +1,13 @@
+Compiled from "ScanResult.java"
+public class android.net.wifi.ScanResult implements android.os.Parcelable {
+  public java.lang.String BSSID;
+  public java.lang.String SSID;
+  public java.lang.String capabilities;
+  public int frequency;
+  public int level;
+  public long timestamp;
+  android.net.wifi.ScanResult();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+}

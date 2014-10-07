@@ -1,0 +1,25 @@
+Compiled from "ClipDrawable.java"
+public class android.graphics.drawable.ClipDrawable extends android.graphics.drawable.Drawable implements android.graphics.drawable.Drawable$Callback {
+  public static final int HORIZONTAL;
+  public static final int VERTICAL;
+  public android.graphics.drawable.ClipDrawable(android.graphics.drawable.Drawable, int, int);
+  public void inflate(android.content.res.Resources, org.xmlpull.v1.XmlPullParser, android.util.AttributeSet, android.content.res.Resources$Theme) throws org.xmlpull.v1.XmlPullParserException, java.io.IOException;
+  public void invalidateDrawable(android.graphics.drawable.Drawable);
+  public void scheduleDrawable(android.graphics.drawable.Drawable, java.lang.Runnable, long);
+  public void unscheduleDrawable(android.graphics.drawable.Drawable, java.lang.Runnable);
+  public int getChangingConfigurations();
+  public boolean getPadding(android.graphics.Rect);
+  public boolean setVisible(boolean, boolean);
+  public void setAlpha(int);
+  public int getAlpha();
+  public void setColorFilter(android.graphics.ColorFilter);
+  public int getOpacity();
+  public boolean isStateful();
+  protected boolean onStateChange(int[]);
+  protected boolean onLevelChange(int);
+  protected void onBoundsChange(android.graphics.Rect);
+  public void draw(android.graphics.Canvas);
+  public int getIntrinsicWidth();
+  public int getIntrinsicHeight();
+  public android.graphics.drawable.Drawable$ConstantState getConstantState();
+}

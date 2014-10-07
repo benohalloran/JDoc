@@ -1,0 +1,15 @@
+Compiled from "CellSignalStrengthLte.java"
+public final class android.telephony.CellSignalStrengthLte extends android.telephony.CellSignalStrength implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.telephony.CellSignalStrengthLte> CREATOR;
+  android.telephony.CellSignalStrengthLte();
+  public int getLevel();
+  public int getDbm();
+  public int getAsuLevel();
+  public int getTimingAdvance();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  static {};
+}

@@ -1,0 +1,19 @@
+Compiled from "IntentSender.java"
+public class android.content.IntentSender implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.IntentSender> CREATOR;
+  android.content.IntentSender();
+  public void sendIntent(android.content.Context, int, android.content.Intent, android.content.IntentSender$OnFinished, android.os.Handler) throws android.content.IntentSender$SendIntentException;
+  public void sendIntent(android.content.Context, int, android.content.Intent, android.content.IntentSender$OnFinished, android.os.Handler, java.lang.String) throws android.content.IntentSender$SendIntentException;
+  public java.lang.String getTargetPackage();
+  public java.lang.String getCreatorPackage();
+  public int getCreatorUid();
+  public android.os.UserHandle getCreatorUserHandle();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public static void writeIntentSenderOrNullToParcel(android.content.IntentSender, android.os.Parcel);
+  public static android.content.IntentSender readIntentSenderOrNullFromParcel(android.os.Parcel);
+  static {};
+}

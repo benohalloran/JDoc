@@ -1,0 +1,5 @@
+Compiled from "ConnConnectionParamBean.java"
+public class org.apache.http.conn.params.ConnConnectionParamBean extends org.apache.http.params.HttpAbstractParamBean {
+  public org.apache.http.conn.params.ConnConnectionParamBean(org.apache.http.params.HttpParams);
+  public void setMaxStatusLineGarbage(int);
+}

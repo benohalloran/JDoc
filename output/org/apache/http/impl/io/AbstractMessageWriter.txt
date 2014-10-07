@@ -1,0 +1,9 @@
+Compiled from "AbstractMessageWriter.java"
+public abstract class org.apache.http.impl.io.AbstractMessageWriter implements org.apache.http.io.HttpMessageWriter {
+  protected final org.apache.http.util.CharArrayBuffer lineBuf;
+  protected final org.apache.http.message.LineFormatter lineFormatter;
+  protected final org.apache.http.io.SessionOutputBuffer sessionBuffer;
+  public org.apache.http.impl.io.AbstractMessageWriter(org.apache.http.io.SessionOutputBuffer, org.apache.http.message.LineFormatter, org.apache.http.params.HttpParams);
+  protected abstract void writeHeadLine(org.apache.http.HttpMessage) throws java.io.IOException;
+  public void write(org.apache.http.HttpMessage) throws java.io.IOException, org.apache.http.HttpException;
+}

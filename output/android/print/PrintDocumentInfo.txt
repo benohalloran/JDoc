@@ -1,0 +1,19 @@
+Compiled from "PrintDocumentInfo.java"
+public final class android.print.PrintDocumentInfo implements android.os.Parcelable {
+  public static final int CONTENT_TYPE_DOCUMENT;
+  public static final int CONTENT_TYPE_PHOTO;
+  public static final int CONTENT_TYPE_UNKNOWN;
+  public static final android.os.Parcelable$Creator<android.print.PrintDocumentInfo> CREATOR;
+  public static final int PAGE_COUNT_UNKNOWN;
+  android.print.PrintDocumentInfo();
+  public java.lang.String getName();
+  public int getPageCount();
+  public int getContentType();
+  public long getDataSize();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  static {};
+}

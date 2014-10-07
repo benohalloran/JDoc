@@ -1,0 +1,10 @@
+Compiled from "WebBackForwardList.java"
+public class android.webkit.WebBackForwardList implements java.lang.Cloneable,java.io.Serializable {
+  android.webkit.WebBackForwardList();
+  public synchronized android.webkit.WebHistoryItem getCurrentItem();
+  public synchronized int getCurrentIndex();
+  public synchronized android.webkit.WebHistoryItem getItemAtIndex(int);
+  public synchronized int getSize();
+  protected synchronized android.webkit.WebBackForwardList clone();
+  protected java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

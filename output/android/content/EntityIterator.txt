@@ -1,0 +1,5 @@
+Compiled from "EntityIterator.java"
+public interface android.content.EntityIterator extends java.util.Iterator<android.content.Entity> {
+  public abstract void reset();
+  public abstract void close();
+}

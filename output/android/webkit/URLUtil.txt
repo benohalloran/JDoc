@@ -1,0 +1,20 @@
+Compiled from "URLUtil.java"
+public final class android.webkit.URLUtil {
+  public android.webkit.URLUtil();
+  public static java.lang.String guessUrl(java.lang.String);
+  public static java.lang.String composeSearchUrl(java.lang.String, java.lang.String, java.lang.String);
+  public static byte[] decode(byte[]) throws java.lang.IllegalArgumentException;
+  public static boolean isAssetUrl(java.lang.String);
+  public static boolean isCookielessProxyUrl(java.lang.String);
+  public static boolean isFileUrl(java.lang.String);
+  public static boolean isAboutUrl(java.lang.String);
+  public static boolean isDataUrl(java.lang.String);
+  public static boolean isJavaScriptUrl(java.lang.String);
+  public static boolean isHttpUrl(java.lang.String);
+  public static boolean isHttpsUrl(java.lang.String);
+  public static boolean isNetworkUrl(java.lang.String);
+  public static boolean isContentUrl(java.lang.String);
+  public static boolean isValidUrl(java.lang.String);
+  public static java.lang.String stripAnchor(java.lang.String);
+  public static final java.lang.String guessFileName(java.lang.String, java.lang.String, java.lang.String);
+}

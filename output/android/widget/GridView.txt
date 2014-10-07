@@ -1,0 +1,47 @@
+Compiled from "GridView.java"
+public class android.widget.GridView extends android.widget.AbsListView {
+  public static final int AUTO_FIT;
+  public static final int NO_STRETCH;
+  public static final int STRETCH_COLUMN_WIDTH;
+  public static final int STRETCH_SPACING;
+  public static final int STRETCH_SPACING_UNIFORM;
+  public android.widget.GridView(android.content.Context);
+  public android.widget.GridView(android.content.Context, android.util.AttributeSet);
+  public android.widget.GridView(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.GridView(android.content.Context, android.util.AttributeSet, int, int);
+  public android.widget.ListAdapter getAdapter();
+  public void setRemoteViewsAdapter(android.content.Intent);
+  public void setAdapter(android.widget.ListAdapter);
+  public void smoothScrollToPosition(int);
+  public void smoothScrollByOffset(int);
+  protected void onMeasure(int, int);
+  protected void attachLayoutAnimationParameters(android.view.View, android.view.ViewGroup$LayoutParams, int, int);
+  protected void layoutChildren();
+  public void setSelection(int);
+  public boolean onKeyDown(int, android.view.KeyEvent);
+  public boolean onKeyMultiple(int, int, android.view.KeyEvent);
+  public boolean onKeyUp(int, android.view.KeyEvent);
+  protected void onFocusChanged(boolean, int, android.graphics.Rect);
+  public void setGravity(int);
+  public int getGravity();
+  public void setHorizontalSpacing(int);
+  public int getHorizontalSpacing();
+  public int getRequestedHorizontalSpacing();
+  public void setVerticalSpacing(int);
+  public int getVerticalSpacing();
+  public void setStretchMode(int);
+  public int getStretchMode();
+  public void setColumnWidth(int);
+  public int getColumnWidth();
+  public int getRequestedColumnWidth();
+  public void setNumColumns(int);
+  public int getNumColumns();
+  protected int computeVerticalScrollExtent();
+  protected int computeVerticalScrollOffset();
+  protected int computeVerticalScrollRange();
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public void onInitializeAccessibilityNodeInfoForItem(android.view.View, int, android.view.accessibility.AccessibilityNodeInfo);
+  public void setAdapter(android.widget.Adapter);
+  public android.widget.Adapter getAdapter();
+}

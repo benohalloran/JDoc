@@ -1,0 +1,12 @@
+Compiled from "MediaCodec.java"
+public final class android.media.MediaCodec$CryptoInfo {
+  public byte[] iv;
+  public byte[] key;
+  public int mode;
+  public int[] numBytesOfClearData;
+  public int[] numBytesOfEncryptedData;
+  public int numSubSamples;
+  public android.media.MediaCodec$CryptoInfo();
+  public void set(int, int[], int[], byte[], byte[], int);
+  public java.lang.String toString();
+}

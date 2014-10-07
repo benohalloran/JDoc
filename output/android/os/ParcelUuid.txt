@@ -1,0 +1,13 @@
+Compiled from "ParcelUuid.java"
+public final class android.os.ParcelUuid implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.os.ParcelUuid> CREATOR;
+  public android.os.ParcelUuid(java.util.UUID);
+  public static android.os.ParcelUuid fromString(java.lang.String);
+  public java.util.UUID getUuid();
+  public java.lang.String toString();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

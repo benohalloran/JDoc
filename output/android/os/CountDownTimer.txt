@@ -1,0 +1,8 @@
+Compiled from "CountDownTimer.java"
+public abstract class android.os.CountDownTimer {
+  public android.os.CountDownTimer(long, long);
+  public final synchronized void cancel();
+  public final synchronized android.os.CountDownTimer start();
+  public abstract void onTick(long);
+  public abstract void onFinish();
+}

@@ -1,0 +1,38 @@
+Compiled from "RotateDrawable.java"
+public class android.graphics.drawable.RotateDrawable extends android.graphics.drawable.Drawable implements android.graphics.drawable.Drawable$Callback {
+  public android.graphics.drawable.RotateDrawable();
+  public void draw(android.graphics.Canvas);
+  public void setDrawable(android.graphics.drawable.Drawable);
+  public android.graphics.drawable.Drawable getDrawable();
+  public int getChangingConfigurations();
+  public void setAlpha(int);
+  public int getAlpha();
+  public void setColorFilter(android.graphics.ColorFilter);
+  public int getOpacity();
+  public void setFromDegrees(float);
+  public float getFromDegrees();
+  public void setToDegrees(float);
+  public float getToDegrees();
+  public void setPivotX(float);
+  public float getPivotX();
+  public void setPivotXRelative(boolean);
+  public boolean isPivotXRelative();
+  public void setPivotY(float);
+  public float getPivotY();
+  public void setPivotYRelative(boolean);
+  public boolean isPivotYRelative();
+  public void invalidateDrawable(android.graphics.drawable.Drawable);
+  public void scheduleDrawable(android.graphics.drawable.Drawable, java.lang.Runnable, long);
+  public void unscheduleDrawable(android.graphics.drawable.Drawable, java.lang.Runnable);
+  public boolean getPadding(android.graphics.Rect);
+  public boolean setVisible(boolean, boolean);
+  public boolean isStateful();
+  protected boolean onStateChange(int[]);
+  protected boolean onLevelChange(int);
+  protected void onBoundsChange(android.graphics.Rect);
+  public int getIntrinsicWidth();
+  public int getIntrinsicHeight();
+  public android.graphics.drawable.Drawable$ConstantState getConstantState();
+  public void inflate(android.content.res.Resources, org.xmlpull.v1.XmlPullParser, android.util.AttributeSet, android.content.res.Resources$Theme) throws org.xmlpull.v1.XmlPullParserException, java.io.IOException;
+  public android.graphics.drawable.Drawable mutate();
+}

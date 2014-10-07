@@ -1,0 +1,4 @@
+Compiled from "ImageReader.java"
+public interface android.media.ImageReader$OnImageAvailableListener {
+  public abstract void onImageAvailable(android.media.ImageReader);
+}

@@ -1,0 +1,3 @@
+Compiled from "Deprecated.java"
+public interface java.lang.Deprecated extends java.lang.annotation.Annotation {
+}

@@ -1,0 +1,5 @@
+Compiled from "SQLiteDiskIOException.java"
+public class android.database.sqlite.SQLiteDiskIOException extends android.database.sqlite.SQLiteException {
+  public android.database.sqlite.SQLiteDiskIOException();
+  public android.database.sqlite.SQLiteDiskIOException(java.lang.String);
+}

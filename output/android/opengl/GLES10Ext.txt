@@ -1,0 +1,6 @@
+Compiled from "GLES10Ext.java"
+public class android.opengl.GLES10Ext {
+  public android.opengl.GLES10Ext();
+  public static native int glQueryMatrixxOES(int[], int, int[], int);
+  public static native int glQueryMatrixxOES(java.nio.IntBuffer, java.nio.IntBuffer);
+}

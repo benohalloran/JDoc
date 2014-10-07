@@ -1,0 +1,5 @@
+Compiled from "LayoutTransition.java"
+public interface android.animation.LayoutTransition$TransitionListener {
+  public abstract void startTransition(android.animation.LayoutTransition, android.view.ViewGroup, android.view.View, int);
+  public abstract void endTransition(android.animation.LayoutTransition, android.view.ViewGroup, android.view.View, int);
+}

@@ -1,0 +1,8 @@
+Compiled from "BasicTagTechnology.java"
+abstract class android.nfc.tech.BasicTagTechnology implements android.nfc.tech.TagTechnology {
+  android.nfc.tech.BasicTagTechnology();
+  public android.nfc.Tag getTag();
+  public boolean isConnected();
+  public void connect() throws java.io.IOException;
+  public void close() throws java.io.IOException;
+}

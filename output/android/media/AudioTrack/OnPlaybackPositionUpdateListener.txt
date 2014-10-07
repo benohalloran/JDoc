@@ -1,0 +1,5 @@
+Compiled from "AudioTrack.java"
+public interface android.media.AudioTrack$OnPlaybackPositionUpdateListener {
+  public abstract void onMarkerReached(android.media.AudioTrack);
+  public abstract void onPeriodicNotification(android.media.AudioTrack);
+}

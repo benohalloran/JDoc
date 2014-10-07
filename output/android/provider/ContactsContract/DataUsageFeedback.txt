@@ -1,0 +1,11 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$DataUsageFeedback {
+  public static final android.net.Uri DELETE_USAGE_URI;
+  public static final android.net.Uri FEEDBACK_URI;
+  public static final java.lang.String USAGE_TYPE;
+  public static final java.lang.String USAGE_TYPE_CALL;
+  public static final java.lang.String USAGE_TYPE_LONG_TEXT;
+  public static final java.lang.String USAGE_TYPE_SHORT_TEXT;
+  public android.provider.ContactsContract$DataUsageFeedback();
+  static {};
+}

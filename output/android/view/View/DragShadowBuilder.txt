@@ -1,0 +1,8 @@
+Compiled from "View.java"
+public class android.view.View$DragShadowBuilder {
+  public android.view.View$DragShadowBuilder(android.view.View);
+  public android.view.View$DragShadowBuilder();
+  public final android.view.View getView();
+  public void onProvideShadowMetrics(android.graphics.Point, android.graphics.Point);
+  public void onDrawShadow(android.graphics.Canvas);
+}

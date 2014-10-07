@@ -1,0 +1,23 @@
+Compiled from "MergeCursor.java"
+public class android.database.MergeCursor extends android.database.AbstractCursor {
+  public android.database.MergeCursor(android.database.Cursor[]);
+  public int getCount();
+  public boolean onMove(int, int);
+  public java.lang.String getString(int);
+  public short getShort(int);
+  public int getInt(int);
+  public long getLong(int);
+  public float getFloat(int);
+  public double getDouble(int);
+  public int getType(int);
+  public boolean isNull(int);
+  public byte[] getBlob(int);
+  public java.lang.String[] getColumnNames();
+  public void deactivate();
+  public void close();
+  public void registerContentObserver(android.database.ContentObserver);
+  public void unregisterContentObserver(android.database.ContentObserver);
+  public void registerDataSetObserver(android.database.DataSetObserver);
+  public void unregisterDataSetObserver(android.database.DataSetObserver);
+  public boolean requery();
+}

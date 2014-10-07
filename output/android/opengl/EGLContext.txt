@@ -1,0 +1,5 @@
+Compiled from "EGLContext.java"
+public class android.opengl.EGLContext extends android.opengl.EGLObjectHandle {
+  android.opengl.EGLContext();
+  public boolean equals(java.lang.Object);
+}

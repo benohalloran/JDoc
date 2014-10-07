@@ -1,0 +1,7 @@
+Compiled from "BackupManager.java"
+public class android.app.backup.BackupManager {
+  public android.app.backup.BackupManager(android.content.Context);
+  public void dataChanged();
+  public static void dataChanged(java.lang.String);
+  public int requestRestore(android.app.backup.RestoreObserver);
+}

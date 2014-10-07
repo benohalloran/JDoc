@@ -1,0 +1,45 @@
+Compiled from "Switch.java"
+public class android.widget.Switch extends android.widget.CompoundButton {
+  public android.widget.Switch(android.content.Context);
+  public android.widget.Switch(android.content.Context, android.util.AttributeSet);
+  public android.widget.Switch(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.Switch(android.content.Context, android.util.AttributeSet, int, int);
+  public void setSwitchTextAppearance(android.content.Context, int);
+  public void setSwitchTypeface(android.graphics.Typeface, int);
+  public void setSwitchTypeface(android.graphics.Typeface);
+  public void setSwitchPadding(int);
+  public int getSwitchPadding();
+  public void setSwitchMinWidth(int);
+  public int getSwitchMinWidth();
+  public void setThumbTextPadding(int);
+  public int getThumbTextPadding();
+  public void setTrackDrawable(android.graphics.drawable.Drawable);
+  public void setTrackResource(int);
+  public android.graphics.drawable.Drawable getTrackDrawable();
+  public void setThumbDrawable(android.graphics.drawable.Drawable);
+  public void setThumbResource(int);
+  public android.graphics.drawable.Drawable getThumbDrawable();
+  public void setSplitTrack(boolean);
+  public boolean getSplitTrack();
+  public java.lang.CharSequence getTextOn();
+  public void setTextOn(java.lang.CharSequence);
+  public java.lang.CharSequence getTextOff();
+  public void setTextOff(java.lang.CharSequence);
+  public void onMeasure(int, int);
+  public void onPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public boolean onTouchEvent(android.view.MotionEvent);
+  public void toggle();
+  public void setChecked(boolean);
+  protected void onLayout(boolean, int, int, int, int);
+  public void draw(android.graphics.Canvas);
+  protected void onDraw(android.graphics.Canvas);
+  public int getCompoundPaddingLeft();
+  public int getCompoundPaddingRight();
+  protected int[] onCreateDrawableState(int);
+  protected void drawableStateChanged();
+  public void invalidateDrawable(android.graphics.drawable.Drawable);
+  protected boolean verifyDrawable(android.graphics.drawable.Drawable);
+  public void jumpDrawablesToCurrentState();
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

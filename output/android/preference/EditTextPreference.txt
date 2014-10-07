@@ -1,0 +1,18 @@
+Compiled from "EditTextPreference.java"
+public class android.preference.EditTextPreference extends android.preference.DialogPreference {
+  public android.preference.EditTextPreference(android.content.Context, android.util.AttributeSet, int, int);
+  public android.preference.EditTextPreference(android.content.Context, android.util.AttributeSet, int);
+  public android.preference.EditTextPreference(android.content.Context, android.util.AttributeSet);
+  public android.preference.EditTextPreference(android.content.Context);
+  public void setText(java.lang.String);
+  public java.lang.String getText();
+  protected void onBindDialogView(android.view.View);
+  protected void onAddEditTextToDialogView(android.view.View, android.widget.EditText);
+  protected void onDialogClosed(boolean);
+  protected java.lang.Object onGetDefaultValue(android.content.res.TypedArray, int);
+  protected void onSetInitialValue(boolean, java.lang.Object);
+  public boolean shouldDisableDependents();
+  public android.widget.EditText getEditText();
+  protected android.os.Parcelable onSaveInstanceState();
+  protected void onRestoreInstanceState(android.os.Parcelable);
+}

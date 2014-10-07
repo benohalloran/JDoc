@@ -1,0 +1,6 @@
+Compiled from "AllowAllHostnameVerifier.java"
+public class org.apache.http.conn.ssl.AllowAllHostnameVerifier extends org.apache.http.conn.ssl.AbstractVerifier {
+  public org.apache.http.conn.ssl.AllowAllHostnameVerifier();
+  public final void verify(java.lang.String, java.lang.String[], java.lang.String[]);
+  public final java.lang.String toString();
+}

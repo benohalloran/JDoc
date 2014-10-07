@@ -1,0 +1,16 @@
+Compiled from "ServiceInfo.java"
+public class android.content.pm.ServiceInfo extends android.content.pm.ComponentInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.pm.ServiceInfo> CREATOR;
+  public static final int FLAG_ISOLATED_PROCESS;
+  public static final int FLAG_SINGLE_USER;
+  public static final int FLAG_STOP_WITH_TASK;
+  public int flags;
+  public java.lang.String permission;
+  public android.content.pm.ServiceInfo();
+  public android.content.pm.ServiceInfo(android.content.pm.ServiceInfo);
+  public void dump(android.util.Printer, java.lang.String);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

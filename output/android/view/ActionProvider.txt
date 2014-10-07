@@ -1,0 +1,13 @@
+Compiled from "ActionProvider.java"
+public abstract class android.view.ActionProvider {
+  public android.view.ActionProvider(android.content.Context);
+  public abstract android.view.View onCreateActionView();
+  public android.view.View onCreateActionView(android.view.MenuItem);
+  public boolean overridesItemVisibility();
+  public boolean isVisible();
+  public void refreshVisibility();
+  public boolean onPerformDefaultAction();
+  public boolean hasSubMenu();
+  public void onPrepareSubMenu(android.view.SubMenu);
+  public void setVisibilityListener(android.view.ActionProvider$VisibilityListener);
+}

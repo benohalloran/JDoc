@@ -1,0 +1,10 @@
+Compiled from "CookieSpecRegistry.java"
+public final class org.apache.http.cookie.CookieSpecRegistry {
+  public org.apache.http.cookie.CookieSpecRegistry();
+  public synchronized void register(java.lang.String, org.apache.http.cookie.CookieSpecFactory);
+  public synchronized void unregister(java.lang.String);
+  public synchronized org.apache.http.cookie.CookieSpec getCookieSpec(java.lang.String, org.apache.http.params.HttpParams) throws java.lang.IllegalStateException;
+  public synchronized org.apache.http.cookie.CookieSpec getCookieSpec(java.lang.String) throws java.lang.IllegalStateException;
+  public synchronized java.util.List<java.lang.String> getSpecNames();
+  public synchronized void setItems(java.util.Map<java.lang.String, org.apache.http.cookie.CookieSpecFactory>);
+}

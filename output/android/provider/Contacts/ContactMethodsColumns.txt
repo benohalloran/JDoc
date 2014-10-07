@@ -1,0 +1,13 @@
+Compiled from "Contacts.java"
+public interface android.provider.Contacts$ContactMethodsColumns {
+  public static final java.lang.String AUX_DATA;
+  public static final java.lang.String DATA;
+  public static final java.lang.String ISPRIMARY;
+  public static final java.lang.String KIND;
+  public static final java.lang.String LABEL;
+  public static final java.lang.String TYPE;
+  public static final int TYPE_CUSTOM;
+  public static final int TYPE_HOME;
+  public static final int TYPE_OTHER;
+  public static final int TYPE_WORK;
+}

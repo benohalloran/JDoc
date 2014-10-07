@@ -1,0 +1,13 @@
+Compiled from "Network.java"
+public class android.net.Network implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.net.Network> CREATOR;
+  android.net.Network();
+  public java.net.InetAddress[] getAllByName(java.lang.String) throws java.net.UnknownHostException;
+  public java.net.InetAddress getByName(java.lang.String) throws java.net.UnknownHostException;
+  public javax.net.SocketFactory getSocketFactory();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  static {};
+}

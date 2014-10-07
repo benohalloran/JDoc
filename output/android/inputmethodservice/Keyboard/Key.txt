@@ -1,0 +1,28 @@
+Compiled from "Keyboard.java"
+public class android.inputmethodservice.Keyboard$Key {
+  public int[] codes;
+  public int edgeFlags;
+  public int gap;
+  public int height;
+  public android.graphics.drawable.Drawable icon;
+  public android.graphics.drawable.Drawable iconPreview;
+  public java.lang.CharSequence label;
+  public boolean modifier;
+  public boolean on;
+  public java.lang.CharSequence popupCharacters;
+  public int popupResId;
+  public boolean pressed;
+  public boolean repeatable;
+  public boolean sticky;
+  public java.lang.CharSequence text;
+  public int width;
+  public int x;
+  public int y;
+  public android.inputmethodservice.Keyboard$Key(android.inputmethodservice.Keyboard$Row);
+  public android.inputmethodservice.Keyboard$Key(android.content.res.Resources, android.inputmethodservice.Keyboard$Row, int, int, android.content.res.XmlResourceParser);
+  public void onPressed();
+  public void onReleased(boolean);
+  public boolean isInside(int, int);
+  public int squaredDistanceFrom(int, int);
+  public int[] getCurrentDrawableState();
+}

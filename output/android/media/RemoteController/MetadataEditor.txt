@@ -1,0 +1,6 @@
+Compiled from "RemoteController.java"
+public class android.media.RemoteController$MetadataEditor extends android.media.MediaMetadataEditor {
+  final android.media.RemoteController this$0;
+  android.media.RemoteController$MetadataEditor(android.media.RemoteController);
+  public synchronized void apply();
+}

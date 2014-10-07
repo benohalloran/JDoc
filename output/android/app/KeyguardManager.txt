@@ -1,0 +1,9 @@
+Compiled from "KeyguardManager.java"
+public class android.app.KeyguardManager {
+  android.app.KeyguardManager();
+  public android.app.KeyguardManager$KeyguardLock newKeyguardLock(java.lang.String);
+  public boolean isKeyguardLocked();
+  public boolean isKeyguardSecure();
+  public boolean inKeyguardRestrictedInputMode();
+  public void exitKeyguardSecurely(android.app.KeyguardManager$OnKeyguardExitResult);
+}

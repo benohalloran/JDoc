@@ -1,0 +1,6 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$CommonDataKinds$CommonColumns extends android.provider.ContactsContract$CommonDataKinds$BaseTypes {
+  public static final java.lang.String DATA;
+  public static final java.lang.String LABEL;
+  public static final java.lang.String TYPE;
+}

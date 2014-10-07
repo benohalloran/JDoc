@@ -1,0 +1,14 @@
+Compiled from "LauncherActivity.java"
+public abstract class android.app.LauncherActivity extends android.app.ListActivity {
+  public android.app.LauncherActivity();
+  protected void onCreate(android.os.Bundle);
+  public void setTitle(java.lang.CharSequence);
+  public void setTitle(int);
+  protected void onSetContentView();
+  protected void onListItemClick(android.widget.ListView, android.view.View, int, long);
+  protected android.content.Intent intentForPosition(int);
+  protected android.app.LauncherActivity$ListItem itemForPosition(int);
+  protected android.content.Intent getTargetIntent();
+  protected java.util.List<android.content.pm.ResolveInfo> onQueryPackageManager(android.content.Intent);
+  public java.util.List<android.app.LauncherActivity$ListItem> makeListItems();
+}

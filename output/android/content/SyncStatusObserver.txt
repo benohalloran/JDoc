@@ -1,0 +1,4 @@
+Compiled from "SyncStatusObserver.java"
+public interface android.content.SyncStatusObserver {
+  public abstract void onStatusChanged(int);
+}

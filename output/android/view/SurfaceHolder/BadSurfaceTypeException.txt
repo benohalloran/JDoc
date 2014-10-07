@@ -1,0 +1,5 @@
+Compiled from "SurfaceHolder.java"
+public class android.view.SurfaceHolder$BadSurfaceTypeException extends java.lang.RuntimeException {
+  public android.view.SurfaceHolder$BadSurfaceTypeException();
+  public android.view.SurfaceHolder$BadSurfaceTypeException(java.lang.String);
+}

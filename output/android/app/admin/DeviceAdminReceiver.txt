@@ -1,0 +1,25 @@
+Compiled from "DeviceAdminReceiver.java"
+public class android.app.admin.DeviceAdminReceiver extends android.content.BroadcastReceiver {
+  public static final java.lang.String ACTION_DEVICE_ADMIN_DISABLED;
+  public static final java.lang.String ACTION_DEVICE_ADMIN_DISABLE_REQUESTED;
+  public static final java.lang.String ACTION_DEVICE_ADMIN_ENABLED;
+  public static final java.lang.String ACTION_PASSWORD_CHANGED;
+  public static final java.lang.String ACTION_PASSWORD_EXPIRING;
+  public static final java.lang.String ACTION_PASSWORD_FAILED;
+  public static final java.lang.String ACTION_PASSWORD_SUCCEEDED;
+  public static final java.lang.String ACTION_PROFILE_PROVISIONING_COMPLETE;
+  public static final java.lang.String DEVICE_ADMIN_META_DATA;
+  public static final java.lang.String EXTRA_DISABLE_WARNING;
+  public android.app.admin.DeviceAdminReceiver();
+  public android.app.admin.DevicePolicyManager getManager(android.content.Context);
+  public android.content.ComponentName getWho(android.content.Context);
+  public void onEnabled(android.content.Context, android.content.Intent);
+  public java.lang.CharSequence onDisableRequested(android.content.Context, android.content.Intent);
+  public void onDisabled(android.content.Context, android.content.Intent);
+  public void onPasswordChanged(android.content.Context, android.content.Intent);
+  public void onPasswordFailed(android.content.Context, android.content.Intent);
+  public void onPasswordSucceeded(android.content.Context, android.content.Intent);
+  public void onPasswordExpiring(android.content.Context, android.content.Intent);
+  public void onProfileProvisioningComplete(android.content.Context, android.content.Intent);
+  public void onReceive(android.content.Context, android.content.Intent);
+}

@@ -1,0 +1,26 @@
+Compiled from "ActionMenuView.java"
+public class android.widget.ActionMenuView extends android.widget.LinearLayout {
+  public android.widget.ActionMenuView(android.content.Context);
+  public android.widget.ActionMenuView(android.content.Context, android.util.AttributeSet);
+  public void onConfigurationChanged(android.content.res.Configuration);
+  public void setOnMenuItemClickListener(android.widget.ActionMenuView$OnMenuItemClickListener);
+  protected void onMeasure(int, int);
+  protected void onLayout(boolean, int, int, int, int);
+  public void onDetachedFromWindow();
+  protected android.widget.ActionMenuView$LayoutParams generateDefaultLayoutParams();
+  public android.widget.ActionMenuView$LayoutParams generateLayoutParams(android.util.AttributeSet);
+  protected android.widget.ActionMenuView$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams);
+  protected boolean checkLayoutParams(android.view.ViewGroup$LayoutParams);
+  public android.view.Menu getMenu();
+  public boolean showOverflowMenu();
+  public boolean hideOverflowMenu();
+  public boolean isOverflowMenuShowing();
+  public void dismissPopupMenus();
+  public boolean dispatchPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  protected android.widget.LinearLayout$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams);
+  protected android.widget.LinearLayout$LayoutParams generateDefaultLayoutParams();
+  public android.widget.LinearLayout$LayoutParams generateLayoutParams(android.util.AttributeSet);
+  protected android.view.ViewGroup$LayoutParams generateDefaultLayoutParams();
+  protected android.view.ViewGroup$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams);
+  public android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet);
+}

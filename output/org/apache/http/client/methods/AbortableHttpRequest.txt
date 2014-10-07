@@ -1,0 +1,6 @@
+Compiled from "AbortableHttpRequest.java"
+public interface org.apache.http.client.methods.AbortableHttpRequest {
+  public abstract void setConnectionRequest(org.apache.http.conn.ClientConnectionRequest) throws java.io.IOException;
+  public abstract void setReleaseTrigger(org.apache.http.conn.ConnectionReleaseTrigger) throws java.io.IOException;
+  public abstract void abort();
+}

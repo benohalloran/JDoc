@@ -1,0 +1,9 @@
+Compiled from "HttpOptions.java"
+public class org.apache.http.client.methods.HttpOptions extends org.apache.http.client.methods.HttpRequestBase {
+  public static final java.lang.String METHOD_NAME;
+  public org.apache.http.client.methods.HttpOptions();
+  public org.apache.http.client.methods.HttpOptions(java.net.URI);
+  public org.apache.http.client.methods.HttpOptions(java.lang.String);
+  public java.lang.String getMethod();
+  public java.util.Set<java.lang.String> getAllowedMethods(org.apache.http.HttpResponse);
+}

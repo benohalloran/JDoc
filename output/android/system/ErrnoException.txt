@@ -1,0 +1,7 @@
+Compiled from "ErrnoException.java"
+public final class android.system.ErrnoException extends java.lang.Exception {
+  public final int errno;
+  public android.system.ErrnoException(java.lang.String, int);
+  public android.system.ErrnoException(java.lang.String, int, java.lang.Throwable);
+  public java.lang.String getMessage();
+}

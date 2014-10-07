@@ -1,0 +1,13 @@
+Compiled from "ClipboardManager.java"
+public class android.content.ClipboardManager extends android.text.ClipboardManager {
+  android.content.ClipboardManager();
+  public void setPrimaryClip(android.content.ClipData);
+  public android.content.ClipData getPrimaryClip();
+  public android.content.ClipDescription getPrimaryClipDescription();
+  public boolean hasPrimaryClip();
+  public void addPrimaryClipChangedListener(android.content.ClipboardManager$OnPrimaryClipChangedListener);
+  public void removePrimaryClipChangedListener(android.content.ClipboardManager$OnPrimaryClipChangedListener);
+  public java.lang.CharSequence getText();
+  public void setText(java.lang.CharSequence);
+  public boolean hasText();
+}

@@ -1,0 +1,21 @@
+Compiled from "CursorAnchorInfo.java"
+public final class android.view.inputmethod.CursorAnchorInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.inputmethod.CursorAnchorInfo> CREATOR;
+  public android.view.inputmethod.CursorAnchorInfo(android.os.Parcel);
+  public void writeToParcel(android.os.Parcel, int);
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public int getSelectionStart();
+  public int getSelectionEnd();
+  public int getComposingTextStart();
+  public java.lang.String getComposingText();
+  public float getInsertionMarkerHorizontal();
+  public float getInsertionMarkerTop();
+  public float getInsertionMarkerBaseline();
+  public float getInsertionMarkerBottom();
+  public android.graphics.RectF getCharacterRect(int);
+  public android.graphics.Matrix getMatrix();
+  public int describeContents();
+  static {};
+}

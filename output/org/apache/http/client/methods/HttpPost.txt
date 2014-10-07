@@ -1,0 +1,8 @@
+Compiled from "HttpPost.java"
+public class org.apache.http.client.methods.HttpPost extends org.apache.http.client.methods.HttpEntityEnclosingRequestBase {
+  public static final java.lang.String METHOD_NAME;
+  public org.apache.http.client.methods.HttpPost();
+  public org.apache.http.client.methods.HttpPost(java.net.URI);
+  public org.apache.http.client.methods.HttpPost(java.lang.String);
+  public java.lang.String getMethod();
+}

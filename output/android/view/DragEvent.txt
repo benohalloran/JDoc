@@ -1,0 +1,22 @@
+Compiled from "DragEvent.java"
+public class android.view.DragEvent implements android.os.Parcelable {
+  public static final int ACTION_DRAG_ENDED;
+  public static final int ACTION_DRAG_ENTERED;
+  public static final int ACTION_DRAG_EXITED;
+  public static final int ACTION_DRAG_LOCATION;
+  public static final int ACTION_DRAG_STARTED;
+  public static final int ACTION_DROP;
+  public static final android.os.Parcelable$Creator<android.view.DragEvent> CREATOR;
+  android.view.DragEvent();
+  public int getAction();
+  public float getX();
+  public float getY();
+  public android.content.ClipData getClipData();
+  public android.content.ClipDescription getClipDescription();
+  public java.lang.Object getLocalState();
+  public boolean getResult();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

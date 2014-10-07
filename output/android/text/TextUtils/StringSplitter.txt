@@ -1,0 +1,4 @@
+Compiled from "TextUtils.java"
+public interface android.text.TextUtils$StringSplitter extends java.lang.Iterable<java.lang.String> {
+  public abstract void setString(java.lang.String);
+}

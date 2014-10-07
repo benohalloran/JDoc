@@ -1,0 +1,12 @@
+Compiled from "DatePickerDialog.java"
+public class android.app.DatePickerDialog extends android.app.AlertDialog implements android.content.DialogInterface$OnClickListener,android.widget.DatePicker$OnDateChangedListener {
+  public android.app.DatePickerDialog(android.content.Context, android.app.DatePickerDialog$OnDateSetListener, int, int, int);
+  public android.app.DatePickerDialog(android.content.Context, int, android.app.DatePickerDialog$OnDateSetListener, int, int, int);
+  public void onClick(android.content.DialogInterface, int);
+  public void onDateChanged(android.widget.DatePicker, int, int, int);
+  public android.widget.DatePicker getDatePicker();
+  public void updateDate(int, int, int);
+  protected void onStop();
+  public android.os.Bundle onSaveInstanceState();
+  public void onRestoreInstanceState(android.os.Bundle);
+}

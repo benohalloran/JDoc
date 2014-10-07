@@ -1,0 +1,22 @@
+Compiled from "ViewAsserts.java"
+public class android.test.ViewAsserts {
+  android.test.ViewAsserts();
+  public static void assertOnScreen(android.view.View, android.view.View);
+  public static void assertOffScreenBelow(android.view.View, android.view.View);
+  public static void assertOffScreenAbove(android.view.View, android.view.View);
+  public static void assertHasScreenCoordinates(android.view.View, android.view.View, int, int);
+  public static void assertBaselineAligned(android.view.View, android.view.View);
+  public static void assertRightAligned(android.view.View, android.view.View);
+  public static void assertRightAligned(android.view.View, android.view.View, int);
+  public static void assertLeftAligned(android.view.View, android.view.View);
+  public static void assertLeftAligned(android.view.View, android.view.View, int);
+  public static void assertBottomAligned(android.view.View, android.view.View);
+  public static void assertBottomAligned(android.view.View, android.view.View, int);
+  public static void assertTopAligned(android.view.View, android.view.View);
+  public static void assertTopAligned(android.view.View, android.view.View, int);
+  public static void assertHorizontalCenterAligned(android.view.View, android.view.View);
+  public static void assertVerticalCenterAligned(android.view.View, android.view.View);
+  public static void assertGroupIntegrity(android.view.ViewGroup);
+  public static void assertGroupContains(android.view.ViewGroup, android.view.View);
+  public static void assertGroupNotContains(android.view.ViewGroup, android.view.View);
+}

@@ -1,0 +1,15 @@
+Compiled from "SpannableStringInternal.java"
+abstract class android.text.SpannableStringInternal {
+  android.text.SpannableStringInternal();
+  public final int length();
+  public final char charAt(int);
+  public final java.lang.String toString();
+  public final void getChars(int, int, char[], int);
+  public int getSpanStart(java.lang.Object);
+  public int getSpanEnd(java.lang.Object);
+  public int getSpanFlags(java.lang.Object);
+  public <T extends java/lang/Object> T[] getSpans(int, int, java.lang.Class<T>);
+  public int nextSpanTransition(int, int, java.lang.Class);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

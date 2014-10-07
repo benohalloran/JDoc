@@ -1,0 +1,10 @@
+Compiled from "PreferenceCategory.java"
+public class android.preference.PreferenceCategory extends android.preference.PreferenceGroup {
+  public android.preference.PreferenceCategory(android.content.Context, android.util.AttributeSet, int, int);
+  public android.preference.PreferenceCategory(android.content.Context, android.util.AttributeSet, int);
+  public android.preference.PreferenceCategory(android.content.Context, android.util.AttributeSet);
+  public android.preference.PreferenceCategory(android.content.Context);
+  protected boolean onPrepareAddPreference(android.preference.Preference);
+  public boolean isEnabled();
+  public boolean shouldDisableDependents();
+}

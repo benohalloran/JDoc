@@ -1,0 +1,5 @@
+Compiled from "TextDirectionHeuristic.java"
+public interface android.text.TextDirectionHeuristic {
+  public abstract boolean isRtl(char[], int, int);
+  public abstract boolean isRtl(java.lang.CharSequence, int, int);
+}

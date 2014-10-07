@@ -1,0 +1,9 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$RawContactsEntity implements android.provider.BaseColumns,android.provider.ContactsContract$DataColumns,android.provider.ContactsContract$RawContactsColumns {
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DATA_ID;
+  public static final android.net.Uri PROFILE_CONTENT_URI;
+  android.provider.ContactsContract$RawContactsEntity();
+  static {};
+}

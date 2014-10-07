@@ -1,0 +1,8 @@
+Compiled from "ColorMatrixColorFilter.java"
+public class android.graphics.ColorMatrixColorFilter extends android.graphics.ColorFilter {
+  public android.graphics.ColorMatrixColorFilter(android.graphics.ColorMatrix);
+  public android.graphics.ColorMatrixColorFilter(float[]);
+  public android.graphics.ColorMatrix getColorMatrix();
+  public void setColorMatrix(android.graphics.ColorMatrix);
+  public void setColorMatrix(float[]);
+}

@@ -1,0 +1,7 @@
+Compiled from "CharacterStyle.java"
+public abstract class android.text.style.CharacterStyle {
+  public android.text.style.CharacterStyle();
+  public abstract void updateDrawState(android.text.TextPaint);
+  public static android.text.style.CharacterStyle wrap(android.text.style.CharacterStyle);
+  public android.text.style.CharacterStyle getUnderlying();
+}

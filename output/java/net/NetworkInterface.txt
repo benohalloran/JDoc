@@ -1,0 +1,25 @@
+Compiled from "NetworkInterface.java"
+public final class java.net.NetworkInterface {
+  java.net.NetworkInterface();
+  public int getIndex();
+  public java.lang.String getName();
+  public java.util.Enumeration<java.net.InetAddress> getInetAddresses();
+  public java.lang.String getDisplayName();
+  public static java.net.NetworkInterface getByName(java.lang.String) throws java.net.SocketException;
+  public static java.net.NetworkInterface getByInetAddress(java.net.InetAddress) throws java.net.SocketException;
+  public static java.net.NetworkInterface getByIndex(int) throws java.net.SocketException;
+  public static java.util.Enumeration<java.net.NetworkInterface> getNetworkInterfaces() throws java.net.SocketException;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public java.util.List<java.net.InterfaceAddress> getInterfaceAddresses();
+  public java.util.Enumeration<java.net.NetworkInterface> getSubInterfaces();
+  public java.net.NetworkInterface getParent();
+  public boolean isUp() throws java.net.SocketException;
+  public boolean isLoopback() throws java.net.SocketException;
+  public boolean isPointToPoint() throws java.net.SocketException;
+  public boolean supportsMulticast() throws java.net.SocketException;
+  public byte[] getHardwareAddress() throws java.net.SocketException;
+  public int getMTU() throws java.net.SocketException;
+  public boolean isVirtual();
+}

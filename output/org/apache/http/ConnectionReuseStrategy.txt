@@ -1,0 +1,4 @@
+Compiled from "ConnectionReuseStrategy.java"
+public interface org.apache.http.ConnectionReuseStrategy {
+  public abstract boolean keepAlive(org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext);
+}

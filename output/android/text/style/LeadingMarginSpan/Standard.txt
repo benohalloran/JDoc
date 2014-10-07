@@ -1,0 +1,11 @@
+Compiled from "LeadingMarginSpan.java"
+public class android.text.style.LeadingMarginSpan$Standard implements android.text.style.LeadingMarginSpan,android.text.ParcelableSpan {
+  public android.text.style.LeadingMarginSpan$Standard(int, int);
+  public android.text.style.LeadingMarginSpan$Standard(int);
+  public android.text.style.LeadingMarginSpan$Standard(android.os.Parcel);
+  public int getSpanTypeId();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int getLeadingMargin(boolean);
+  public void drawLeadingMargin(android.graphics.Canvas, android.graphics.Paint, int, int, int, int, int, java.lang.CharSequence, int, int, boolean, android.text.Layout);
+}

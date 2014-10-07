@@ -1,0 +1,6 @@
+Compiled from "AbstractCookieAttributeHandler.java"
+public abstract class org.apache.http.impl.cookie.AbstractCookieAttributeHandler implements org.apache.http.cookie.CookieAttributeHandler {
+  public org.apache.http.impl.cookie.AbstractCookieAttributeHandler();
+  public void validate(org.apache.http.cookie.Cookie, org.apache.http.cookie.CookieOrigin) throws org.apache.http.cookie.MalformedCookieException;
+  public boolean match(org.apache.http.cookie.Cookie, org.apache.http.cookie.CookieOrigin);
+}

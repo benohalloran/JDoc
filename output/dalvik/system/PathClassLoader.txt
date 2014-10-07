@@ -1,0 +1,5 @@
+Compiled from "PathClassLoader.java"
+public class dalvik.system.PathClassLoader extends dalvik.system.BaseDexClassLoader {
+  public dalvik.system.PathClassLoader(java.lang.String, java.lang.ClassLoader);
+  public dalvik.system.PathClassLoader(java.lang.String, java.lang.String, java.lang.ClassLoader);
+}

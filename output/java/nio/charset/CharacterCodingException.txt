@@ -1,0 +1,4 @@
+Compiled from "CharacterCodingException.java"
+public class java.nio.charset.CharacterCodingException extends java.io.IOException {
+  public java.nio.charset.CharacterCodingException();
+}

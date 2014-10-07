@@ -1,0 +1,5 @@
+Compiled from "RequestDefaultHeaders.java"
+public class org.apache.http.client.protocol.RequestDefaultHeaders implements org.apache.http.HttpRequestInterceptor {
+  public org.apache.http.client.protocol.RequestDefaultHeaders();
+  public void process(org.apache.http.HttpRequest, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException, java.io.IOException;
+}

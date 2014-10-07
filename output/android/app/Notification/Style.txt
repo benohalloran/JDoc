@@ -1,0 +1,11 @@
+Compiled from "Notification.java"
+public abstract class android.app.Notification$Style {
+  protected android.app.Notification$Builder mBuilder;
+  public android.app.Notification$Style();
+  protected void internalSetBigContentTitle(java.lang.CharSequence);
+  protected void internalSetSummaryText(java.lang.CharSequence);
+  public void setBuilder(android.app.Notification$Builder);
+  protected void checkBuilder();
+  protected android.widget.RemoteViews getStandardView(int);
+  public android.app.Notification build();
+}

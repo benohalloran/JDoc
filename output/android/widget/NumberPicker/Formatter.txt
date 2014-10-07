@@ -1,0 +1,4 @@
+Compiled from "NumberPicker.java"
+public interface android.widget.NumberPicker$Formatter {
+  public abstract java.lang.String format(int);
+}

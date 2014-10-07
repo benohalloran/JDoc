@@ -1,0 +1,17 @@
+Compiled from "ListFragment.java"
+public class android.app.ListFragment extends android.app.Fragment {
+  public android.app.ListFragment();
+  public android.view.View onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle);
+  public void onViewCreated(android.view.View, android.os.Bundle);
+  public void onDestroyView();
+  public void onListItemClick(android.widget.ListView, android.view.View, int, long);
+  public void setListAdapter(android.widget.ListAdapter);
+  public void setSelection(int);
+  public int getSelectedItemPosition();
+  public long getSelectedItemId();
+  public android.widget.ListView getListView();
+  public void setEmptyText(java.lang.CharSequence);
+  public void setListShown(boolean);
+  public void setListShownNoAnimation(boolean);
+  public android.widget.ListAdapter getListAdapter();
+}

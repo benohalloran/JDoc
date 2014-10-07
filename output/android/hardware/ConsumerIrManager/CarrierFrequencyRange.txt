@@ -1,0 +1,7 @@
+Compiled from "ConsumerIrManager.java"
+public final class android.hardware.ConsumerIrManager$CarrierFrequencyRange {
+  final android.hardware.ConsumerIrManager this$0;
+  public android.hardware.ConsumerIrManager$CarrierFrequencyRange(android.hardware.ConsumerIrManager, int, int);
+  public int getMinFrequency();
+  public int getMaxFrequency();
+}

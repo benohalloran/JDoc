@@ -1,0 +1,17 @@
+Compiled from "SignalStrength.java"
+public class android.telephony.SignalStrength implements android.os.Parcelable {
+  android.telephony.SignalStrength();
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  public int getGsmSignalStrength();
+  public int getGsmBitErrorRate();
+  public int getCdmaDbm();
+  public int getCdmaEcio();
+  public int getEvdoDbm();
+  public int getEvdoEcio();
+  public int getEvdoSnr();
+  public boolean isGsm();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+}

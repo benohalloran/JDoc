@@ -1,0 +1,15 @@
+Compiled from "FieldPosition.java"
+public class java.text.FieldPosition {
+  public java.text.FieldPosition(int);
+  public java.text.FieldPosition(java.text.Format$Field);
+  public java.text.FieldPosition(java.text.Format$Field, int);
+  public boolean equals(java.lang.Object);
+  public int getBeginIndex();
+  public int getEndIndex();
+  public int getField();
+  public java.text.Format$Field getFieldAttribute();
+  public int hashCode();
+  public void setBeginIndex(int);
+  public void setEndIndex(int);
+  public java.lang.String toString();
+}

@@ -1,0 +1,20 @@
+Compiled from "Surface.java"
+public class android.view.Surface implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.Surface> CREATOR;
+  public static final int ROTATION_0;
+  public static final int ROTATION_180;
+  public static final int ROTATION_270;
+  public static final int ROTATION_90;
+  public android.view.Surface(android.graphics.SurfaceTexture);
+  protected void finalize() throws java.lang.Throwable;
+  public void release();
+  public boolean isValid();
+  public android.graphics.Canvas lockCanvas(android.graphics.Rect) throws android.view.Surface$OutOfResourcesException, java.lang.IllegalArgumentException;
+  public void unlockCanvasAndPost(android.graphics.Canvas);
+  public void unlockCanvas(android.graphics.Canvas);
+  public int describeContents();
+  public void readFromParcel(android.os.Parcel);
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String toString();
+  static {};
+}

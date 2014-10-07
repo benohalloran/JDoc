@@ -1,0 +1,24 @@
+Compiled from "PrintJobInfo.java"
+public final class android.print.PrintJobInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.print.PrintJobInfo> CREATOR;
+  public static final int STATE_BLOCKED;
+  public static final int STATE_CANCELED;
+  public static final int STATE_COMPLETED;
+  public static final int STATE_CREATED;
+  public static final int STATE_FAILED;
+  public static final int STATE_QUEUED;
+  public static final int STATE_STARTED;
+  android.print.PrintJobInfo();
+  public android.print.PrintJobId getId();
+  public java.lang.String getLabel();
+  public android.print.PrinterId getPrinterId();
+  public int getState();
+  public long getCreationTime();
+  public int getCopies();
+  public android.print.PageRange[] getPages();
+  public android.print.PrintAttributes getAttributes();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String toString();
+  static {};
+}

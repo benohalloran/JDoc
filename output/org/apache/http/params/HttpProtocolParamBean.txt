@@ -1,0 +1,9 @@
+Compiled from "HttpProtocolParamBean.java"
+public class org.apache.http.params.HttpProtocolParamBean extends org.apache.http.params.HttpAbstractParamBean {
+  public org.apache.http.params.HttpProtocolParamBean(org.apache.http.params.HttpParams);
+  public void setHttpElementCharset(java.lang.String);
+  public void setContentCharset(java.lang.String);
+  public void setVersion(org.apache.http.HttpVersion);
+  public void setUserAgent(java.lang.String);
+  public void setUseExpectContinue(boolean);
+}

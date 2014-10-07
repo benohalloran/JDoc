@@ -1,0 +1,20 @@
+Compiled from "Inet6Address.java"
+public final class java.net.Inet6Address extends java.net.InetAddress {
+  java.net.Inet6Address();
+  public static java.net.Inet6Address getByAddress(java.lang.String, byte[], int) throws java.net.UnknownHostException;
+  public static java.net.Inet6Address getByAddress(java.lang.String, byte[], java.net.NetworkInterface) throws java.net.UnknownHostException;
+  public boolean isAnyLocalAddress();
+  public boolean isIPv4CompatibleAddress();
+  public boolean isLinkLocalAddress();
+  public boolean isLoopbackAddress();
+  public boolean isMCGlobal();
+  public boolean isMCLinkLocal();
+  public boolean isMCNodeLocal();
+  public boolean isMCOrgLocal();
+  public boolean isMCSiteLocal();
+  public boolean isMulticastAddress();
+  public boolean isSiteLocalAddress();
+  public int getScopeId();
+  public java.net.NetworkInterface getScopedInterface();
+  public java.lang.String toString();
+}

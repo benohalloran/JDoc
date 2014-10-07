@@ -1,0 +1,30 @@
+Compiled from "Contacts.java"
+public final class android.provider.Contacts$ContactMethods implements android.provider.BaseColumns,android.provider.Contacts$ContactMethodsColumns,android.provider.Contacts$PeopleColumns {
+  public static final java.lang.String CONTENT_EMAIL_ITEM_TYPE;
+  public static final java.lang.String CONTENT_EMAIL_TYPE;
+  public static final android.net.Uri CONTENT_EMAIL_URI;
+  public static final java.lang.String CONTENT_IM_ITEM_TYPE;
+  public static final java.lang.String CONTENT_POSTAL_ITEM_TYPE;
+  public static final java.lang.String CONTENT_POSTAL_TYPE;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final java.lang.String PERSON_ID;
+  public static final java.lang.String POSTAL_LOCATION_LATITUDE;
+  public static final java.lang.String POSTAL_LOCATION_LONGITUDE;
+  public static final int PROTOCOL_AIM;
+  public static final int PROTOCOL_GOOGLE_TALK;
+  public static final int PROTOCOL_ICQ;
+  public static final int PROTOCOL_JABBER;
+  public static final int PROTOCOL_MSN;
+  public static final int PROTOCOL_QQ;
+  public static final int PROTOCOL_SKYPE;
+  public static final int PROTOCOL_YAHOO;
+  android.provider.Contacts$ContactMethods();
+  public static java.lang.String encodePredefinedImProtocol(int);
+  public static java.lang.String encodeCustomImProtocol(java.lang.String);
+  public static java.lang.Object decodeImProtocol(java.lang.String);
+  public static final java.lang.CharSequence getDisplayLabel(android.content.Context, int, int, java.lang.CharSequence);
+  public void addPostalLocation(android.content.Context, long, double, double);
+  static {};
+}

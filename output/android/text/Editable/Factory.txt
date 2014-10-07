@@ -1,0 +1,6 @@
+Compiled from "Editable.java"
+public class android.text.Editable$Factory {
+  public android.text.Editable$Factory();
+  public static android.text.Editable$Factory getInstance();
+  public android.text.Editable newEditable(java.lang.CharSequence);
+}

@@ -1,0 +1,10 @@
+Compiled from "WifiP2pServiceRequest.java"
+public class android.net.wifi.p2p.nsd.WifiP2pServiceRequest implements android.os.Parcelable {
+  android.net.wifi.p2p.nsd.WifiP2pServiceRequest();
+  public static android.net.wifi.p2p.nsd.WifiP2pServiceRequest newInstance(int, java.lang.String);
+  public static android.net.wifi.p2p.nsd.WifiP2pServiceRequest newInstance(int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+}

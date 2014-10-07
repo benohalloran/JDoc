@@ -1,0 +1,15 @@
+Compiled from "Wire.java"
+public class org.apache.http.impl.conn.Wire {
+  public org.apache.http.impl.conn.Wire(org.apache.commons.logging.Log);
+  public boolean enabled();
+  public void output(java.io.InputStream) throws java.io.IOException;
+  public void input(java.io.InputStream) throws java.io.IOException;
+  public void output(byte[], int, int) throws java.io.IOException;
+  public void input(byte[], int, int) throws java.io.IOException;
+  public void output(byte[]) throws java.io.IOException;
+  public void input(byte[]) throws java.io.IOException;
+  public void output(int) throws java.io.IOException;
+  public void input(int) throws java.io.IOException;
+  public void output(java.lang.String) throws java.io.IOException;
+  public void input(java.lang.String) throws java.io.IOException;
+}

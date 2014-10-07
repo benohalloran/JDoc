@@ -1,0 +1,6 @@
+Compiled from "VoiceInteractor.java"
+public class android.app.VoiceInteractor {
+  android.app.VoiceInteractor();
+  public boolean submitRequest(android.app.VoiceInteractor$Request);
+  public boolean[] supportsCommands(java.lang.String[]);
+}

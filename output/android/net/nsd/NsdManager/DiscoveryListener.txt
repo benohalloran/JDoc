@@ -1,0 +1,9 @@
+Compiled from "NsdManager.java"
+public interface android.net.nsd.NsdManager$DiscoveryListener {
+  public abstract void onStartDiscoveryFailed(java.lang.String, int);
+  public abstract void onStopDiscoveryFailed(java.lang.String, int);
+  public abstract void onDiscoveryStarted(java.lang.String);
+  public abstract void onDiscoveryStopped(java.lang.String);
+  public abstract void onServiceFound(android.net.nsd.NsdServiceInfo);
+  public abstract void onServiceLost(android.net.nsd.NsdServiceInfo);
+}

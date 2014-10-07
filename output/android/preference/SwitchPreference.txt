@@ -1,0 +1,14 @@
+Compiled from "SwitchPreference.java"
+public class android.preference.SwitchPreference extends android.preference.TwoStatePreference {
+  public android.preference.SwitchPreference(android.content.Context, android.util.AttributeSet, int, int);
+  public android.preference.SwitchPreference(android.content.Context, android.util.AttributeSet, int);
+  public android.preference.SwitchPreference(android.content.Context, android.util.AttributeSet);
+  public android.preference.SwitchPreference(android.content.Context);
+  protected void onBindView(android.view.View);
+  public void setSwitchTextOn(java.lang.CharSequence);
+  public void setSwitchTextOff(java.lang.CharSequence);
+  public void setSwitchTextOn(int);
+  public void setSwitchTextOff(int);
+  public java.lang.CharSequence getSwitchTextOn();
+  public java.lang.CharSequence getSwitchTextOff();
+}

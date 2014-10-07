@@ -1,0 +1,15 @@
+Compiled from "Contacts.java"
+public interface android.provider.Contacts$PresenceColumns {
+  public static final int AVAILABLE;
+  public static final int AWAY;
+  public static final int DO_NOT_DISTURB;
+  public static final int IDLE;
+  public static final java.lang.String IM_ACCOUNT;
+  public static final java.lang.String IM_HANDLE;
+  public static final java.lang.String IM_PROTOCOL;
+  public static final int INVISIBLE;
+  public static final int OFFLINE;
+  public static final java.lang.String PRESENCE_CUSTOM_STATUS;
+  public static final java.lang.String PRESENCE_STATUS;
+  public static final java.lang.String PRIORITY;
+}

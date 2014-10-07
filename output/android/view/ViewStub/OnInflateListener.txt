@@ -1,0 +1,4 @@
+Compiled from "ViewStub.java"
+public interface android.view.ViewStub$OnInflateListener {
+  public abstract void onInflate(android.view.ViewStub, android.view.View);
+}

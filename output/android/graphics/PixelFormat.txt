@@ -1,0 +1,26 @@
+Compiled from "PixelFormat.java"
+public class android.graphics.PixelFormat {
+  public static final int A_8;
+  public static final int JPEG;
+  public static final int LA_88;
+  public static final int L_8;
+  public static final int OPAQUE;
+  public static final int RGBA_4444;
+  public static final int RGBA_5551;
+  public static final int RGBA_8888;
+  public static final int RGBX_8888;
+  public static final int RGB_332;
+  public static final int RGB_565;
+  public static final int RGB_888;
+  public static final int TRANSLUCENT;
+  public static final int TRANSPARENT;
+  public static final int UNKNOWN;
+  public static final int YCbCr_420_SP;
+  public static final int YCbCr_422_I;
+  public static final int YCbCr_422_SP;
+  public int bitsPerPixel;
+  public int bytesPerPixel;
+  public android.graphics.PixelFormat();
+  public static void getPixelFormatInfo(int, android.graphics.PixelFormat);
+  public static boolean formatHasAlpha(int);
+}

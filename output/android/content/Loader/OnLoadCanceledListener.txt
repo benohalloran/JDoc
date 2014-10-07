@@ -1,0 +1,4 @@
+Compiled from "Loader.java"
+public interface android.content.Loader$OnLoadCanceledListener<D> {
+  public abstract void onLoadCanceled(android.content.Loader<D>);
+}

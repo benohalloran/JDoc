@@ -1,0 +1,9 @@
+Compiled from "ActivityInstrumentationTestCase.java"
+public abstract class android.test.ActivityInstrumentationTestCase<T extends android.app.Activity> extends android.test.ActivityTestCase {
+  public android.test.ActivityInstrumentationTestCase(java.lang.String, java.lang.Class<T>);
+  public android.test.ActivityInstrumentationTestCase(java.lang.String, java.lang.Class<T>, boolean);
+  public T getActivity();
+  protected void setUp() throws java.lang.Exception;
+  protected void tearDown() throws java.lang.Exception;
+  public void testActivityTestCaseSetUpProperly() throws java.lang.Exception;
+}

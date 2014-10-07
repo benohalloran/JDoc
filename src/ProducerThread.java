@@ -25,7 +25,7 @@ public class ProducerThread implements Runnable {
 			ZipEntry current;
 			String name;
 			int i = 0;
-			while ((current = zipInput.getNextEntry()) != null) {
+			while ((current = zipInput.getNextEntry()) != null && i < 10) {
 				name = current.getName();
 				if (name.contains(".class")) {
 					queue.put(name);
@@ -35,7 +35,7 @@ public class ProducerThread implements Runnable {
 			}
 			zipInput.close();
 			Driver.classCount = i;
-			//queue.put(KILL);
+			queue.put(KILL);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {

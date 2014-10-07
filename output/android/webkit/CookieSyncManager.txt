@@ -1,0 +1,15 @@
+Compiled from "CookieSyncManager.java"
+public final class android.webkit.CookieSyncManager extends android.webkit.WebSyncManager {
+  protected static final java.lang.String LOGTAG;
+  protected android.webkit.WebViewDatabase mDataBase;
+  protected android.os.Handler mHandler;
+  android.webkit.CookieSyncManager();
+  public static synchronized android.webkit.CookieSyncManager getInstance();
+  public static synchronized android.webkit.CookieSyncManager createInstance(android.content.Context);
+  protected void syncFromRamToFlash();
+  public void stopSync();
+  public void startSync();
+  public void resetSync();
+  public void sync();
+  public void run();
+}

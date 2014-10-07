@@ -1,0 +1,5 @@
+Compiled from "SimpleFormatter.java"
+public class java.util.logging.SimpleFormatter extends java.util.logging.Formatter {
+  public java.util.logging.SimpleFormatter();
+  public java.lang.String format(java.util.logging.LogRecord);
+}

@@ -1,0 +1,7 @@
+Compiled from "Element.java"
+public class android.renderscript.Element$Builder {
+  public android.renderscript.Element$Builder(android.renderscript.RenderScript);
+  public android.renderscript.Element$Builder add(android.renderscript.Element, java.lang.String, int);
+  public android.renderscript.Element$Builder add(android.renderscript.Element, java.lang.String);
+  public android.renderscript.Element create();
+}

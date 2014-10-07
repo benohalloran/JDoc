@@ -1,0 +1,8 @@
+Compiled from "Canvas.java"
+public final class android.graphics.Canvas$EdgeType extends java.lang.Enum<android.graphics.Canvas$EdgeType> {
+  public static final android.graphics.Canvas$EdgeType AA;
+  public static final android.graphics.Canvas$EdgeType BW;
+  public static android.graphics.Canvas$EdgeType[] values();
+  public static android.graphics.Canvas$EdgeType valueOf(java.lang.String);
+  static {};
+}

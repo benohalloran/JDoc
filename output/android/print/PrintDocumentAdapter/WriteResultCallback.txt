@@ -1,0 +1,7 @@
+Compiled from "PrintDocumentAdapter.java"
+public abstract class android.print.PrintDocumentAdapter$WriteResultCallback {
+  android.print.PrintDocumentAdapter$WriteResultCallback();
+  public void onWriteFinished(android.print.PageRange[]);
+  public void onWriteFailed(java.lang.CharSequence);
+  public void onWriteCancelled();
+}

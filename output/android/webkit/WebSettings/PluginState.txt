@@ -1,0 +1,9 @@
+Compiled from "WebSettings.java"
+public final class android.webkit.WebSettings$PluginState extends java.lang.Enum<android.webkit.WebSettings$PluginState> {
+  public static final android.webkit.WebSettings$PluginState OFF;
+  public static final android.webkit.WebSettings$PluginState ON;
+  public static final android.webkit.WebSettings$PluginState ON_DEMAND;
+  public static android.webkit.WebSettings$PluginState[] values();
+  public static android.webkit.WebSettings$PluginState valueOf(java.lang.String);
+  static {};
+}

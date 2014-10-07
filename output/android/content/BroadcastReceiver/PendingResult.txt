@@ -1,0 +1,15 @@
+Compiled from "BroadcastReceiver.java"
+public class android.content.BroadcastReceiver$PendingResult {
+  android.content.BroadcastReceiver$PendingResult();
+  public final void setResultCode(int);
+  public final int getResultCode();
+  public final void setResultData(java.lang.String);
+  public final java.lang.String getResultData();
+  public final void setResultExtras(android.os.Bundle);
+  public final android.os.Bundle getResultExtras(boolean);
+  public final void setResult(int, java.lang.String, android.os.Bundle);
+  public final boolean getAbortBroadcast();
+  public final void abortBroadcast();
+  public final void clearAbortBroadcast();
+  public final void finish();
+}

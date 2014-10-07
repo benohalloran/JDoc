@@ -1,0 +1,3 @@
+Compiled from "ElementListener.java"
+public interface android.sax.ElementListener extends android.sax.StartElementListener,android.sax.EndElementListener {
+}

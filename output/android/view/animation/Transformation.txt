@@ -1,0 +1,21 @@
+Compiled from "Transformation.java"
+public class android.view.animation.Transformation {
+  public static final int TYPE_ALPHA;
+  public static final int TYPE_BOTH;
+  public static final int TYPE_IDENTITY;
+  public static final int TYPE_MATRIX;
+  protected float mAlpha;
+  protected android.graphics.Matrix mMatrix;
+  protected int mTransformationType;
+  public android.view.animation.Transformation();
+  public void clear();
+  public int getTransformationType();
+  public void setTransformationType(int);
+  public void set(android.view.animation.Transformation);
+  public void compose(android.view.animation.Transformation);
+  public android.graphics.Matrix getMatrix();
+  public void setAlpha(float);
+  public float getAlpha();
+  public java.lang.String toString();
+  public java.lang.String toShortString();
+}

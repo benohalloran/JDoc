@@ -1,0 +1,4 @@
+Compiled from "RadioGroup.java"
+public interface android.widget.RadioGroup$OnCheckedChangeListener {
+  public abstract void onCheckedChanged(android.widget.RadioGroup, int);
+}

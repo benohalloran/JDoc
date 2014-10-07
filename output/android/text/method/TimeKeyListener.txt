@@ -1,0 +1,9 @@
+Compiled from "TimeKeyListener.java"
+public class android.text.method.TimeKeyListener extends android.text.method.NumberKeyListener {
+  public static final char[] CHARACTERS;
+  public android.text.method.TimeKeyListener();
+  public int getInputType();
+  protected char[] getAcceptedChars();
+  public static android.text.method.TimeKeyListener getInstance();
+  static {};
+}

@@ -1,0 +1,7 @@
+Compiled from "OffHostApduService.java"
+public abstract class android.nfc.cardemulation.OffHostApduService extends android.app.Service {
+  public static final java.lang.String SERVICE_INTERFACE;
+  public static final java.lang.String SERVICE_META_DATA;
+  public android.nfc.cardemulation.OffHostApduService();
+  public abstract android.os.IBinder onBind(android.content.Intent);
+}

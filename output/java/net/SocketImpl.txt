@@ -1,0 +1,29 @@
+Compiled from "SocketImpl.java"
+public abstract class java.net.SocketImpl implements java.net.SocketOptions {
+  protected java.net.InetAddress address;
+  protected java.io.FileDescriptor fd;
+  protected int localport;
+  protected int port;
+  public java.net.SocketImpl();
+  protected abstract void accept(java.net.SocketImpl) throws java.io.IOException;
+  protected abstract int available() throws java.io.IOException;
+  protected abstract void bind(java.net.InetAddress, int) throws java.io.IOException;
+  protected abstract void close() throws java.io.IOException;
+  protected abstract void connect(java.lang.String, int) throws java.io.IOException;
+  protected abstract void connect(java.net.InetAddress, int) throws java.io.IOException;
+  protected abstract void create(boolean) throws java.io.IOException;
+  protected java.io.FileDescriptor getFileDescriptor();
+  protected java.net.InetAddress getInetAddress();
+  protected abstract java.io.InputStream getInputStream() throws java.io.IOException;
+  protected int getLocalPort();
+  protected abstract java.io.OutputStream getOutputStream() throws java.io.IOException;
+  protected int getPort();
+  protected abstract void listen(int) throws java.io.IOException;
+  public java.lang.String toString();
+  protected void shutdownInput() throws java.io.IOException;
+  protected void shutdownOutput() throws java.io.IOException;
+  protected abstract void connect(java.net.SocketAddress, int) throws java.io.IOException;
+  protected boolean supportsUrgentData();
+  protected abstract void sendUrgentData(int) throws java.io.IOException;
+  protected void setPerformancePreferences(int, int, int);
+}

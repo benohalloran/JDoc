@@ -1,0 +1,10 @@
+Compiled from "Sampler.java"
+public class android.renderscript.Sampler$Builder {
+  public android.renderscript.Sampler$Builder(android.renderscript.RenderScript);
+  public void setMinification(android.renderscript.Sampler$Value);
+  public void setMagnification(android.renderscript.Sampler$Value);
+  public void setWrapS(android.renderscript.Sampler$Value);
+  public void setWrapT(android.renderscript.Sampler$Value);
+  public void setAnisotropy(float);
+  public android.renderscript.Sampler create();
+}

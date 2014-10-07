@@ -1,0 +1,5 @@
+Compiled from "SearchView.java"
+public interface android.widget.SearchView$OnSuggestionListener {
+  public abstract boolean onSuggestionSelect(int);
+  public abstract boolean onSuggestionClick(int);
+}

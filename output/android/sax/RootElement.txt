@@ -1,0 +1,6 @@
+Compiled from "RootElement.java"
+public class android.sax.RootElement extends android.sax.Element {
+  public android.sax.RootElement(java.lang.String, java.lang.String);
+  public android.sax.RootElement(java.lang.String);
+  public org.xml.sax.ContentHandler getContentHandler();
+}

@@ -1,0 +1,7 @@
+Compiled from "ConcurrentMap.java"
+public interface java.util.concurrent.ConcurrentMap<K, V> extends java.util.Map<K, V> {
+  public abstract V putIfAbsent(K, V);
+  public abstract boolean remove(java.lang.Object, java.lang.Object);
+  public abstract boolean replace(K, V, V);
+  public abstract V replace(K, V);
+}

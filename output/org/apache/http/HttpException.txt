@@ -1,0 +1,6 @@
+Compiled from "HttpException.java"
+public class org.apache.http.HttpException extends java.lang.Exception {
+  public org.apache.http.HttpException();
+  public org.apache.http.HttpException(java.lang.String);
+  public org.apache.http.HttpException(java.lang.String, java.lang.Throwable);
+}

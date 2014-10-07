@@ -1,0 +1,9 @@
+Compiled from "VoicemailContract.java"
+public class android.provider.VoicemailContract {
+  public static final java.lang.String ACTION_FETCH_VOICEMAIL;
+  public static final java.lang.String ACTION_NEW_VOICEMAIL;
+  public static final java.lang.String AUTHORITY;
+  public static final java.lang.String EXTRA_SELF_CHANGE;
+  public static final java.lang.String PARAM_KEY_SOURCE_PACKAGE;
+  android.provider.VoicemailContract();
+}

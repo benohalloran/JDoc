@@ -1,0 +1,9 @@
+Compiled from "HttpClientConnection.java"
+public interface org.apache.http.HttpClientConnection extends org.apache.http.HttpConnection {
+  public abstract boolean isResponseAvailable(int) throws java.io.IOException;
+  public abstract void sendRequestHeader(org.apache.http.HttpRequest) throws org.apache.http.HttpException, java.io.IOException;
+  public abstract void sendRequestEntity(org.apache.http.HttpEntityEnclosingRequest) throws org.apache.http.HttpException, java.io.IOException;
+  public abstract org.apache.http.HttpResponse receiveResponseHeader() throws org.apache.http.HttpException, java.io.IOException;
+  public abstract void receiveResponseEntity(org.apache.http.HttpResponse) throws org.apache.http.HttpException, java.io.IOException;
+  public abstract void flush() throws java.io.IOException;
+}

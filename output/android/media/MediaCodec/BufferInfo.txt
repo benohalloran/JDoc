@@ -1,0 +1,9 @@
+Compiled from "MediaCodec.java"
+public final class android.media.MediaCodec$BufferInfo {
+  public int flags;
+  public int offset;
+  public long presentationTimeUs;
+  public int size;
+  public android.media.MediaCodec$BufferInfo();
+  public void set(int, int, long, int);
+}

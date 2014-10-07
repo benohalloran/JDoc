@@ -1,0 +1,41 @@
+Compiled from "EditorInfo.java"
+public class android.view.inputmethod.EditorInfo implements android.text.InputType,android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.inputmethod.EditorInfo> CREATOR;
+  public static final int IME_ACTION_DONE;
+  public static final int IME_ACTION_GO;
+  public static final int IME_ACTION_NEXT;
+  public static final int IME_ACTION_NONE;
+  public static final int IME_ACTION_PREVIOUS;
+  public static final int IME_ACTION_SEARCH;
+  public static final int IME_ACTION_SEND;
+  public static final int IME_ACTION_UNSPECIFIED;
+  public static final int IME_FLAG_FORCE_ASCII;
+  public static final int IME_FLAG_NAVIGATE_NEXT;
+  public static final int IME_FLAG_NAVIGATE_PREVIOUS;
+  public static final int IME_FLAG_NO_ACCESSORY_ACTION;
+  public static final int IME_FLAG_NO_ENTER_ACTION;
+  public static final int IME_FLAG_NO_EXTRACT_UI;
+  public static final int IME_FLAG_NO_FULLSCREEN;
+  public static final int IME_MASK_ACTION;
+  public static final int IME_NULL;
+  public int actionId;
+  public java.lang.CharSequence actionLabel;
+  public android.os.Bundle extras;
+  public int fieldId;
+  public java.lang.String fieldName;
+  public java.lang.CharSequence hintText;
+  public int imeOptions;
+  public int initialCapsMode;
+  public int initialSelEnd;
+  public int initialSelStart;
+  public int inputType;
+  public java.lang.CharSequence label;
+  public java.lang.String packageName;
+  public java.lang.String privateImeOptions;
+  public android.view.inputmethod.EditorInfo();
+  public final void makeCompatible(int);
+  public void dump(android.util.Printer, java.lang.String);
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  static {};
+}

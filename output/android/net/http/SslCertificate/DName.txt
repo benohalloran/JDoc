@@ -1,0 +1,9 @@
+Compiled from "SslCertificate.java"
+public class android.net.http.SslCertificate$DName {
+  final android.net.http.SslCertificate this$0;
+  public android.net.http.SslCertificate$DName(android.net.http.SslCertificate, java.lang.String);
+  public java.lang.String getDName();
+  public java.lang.String getCName();
+  public java.lang.String getOName();
+  public java.lang.String getUName();
+}

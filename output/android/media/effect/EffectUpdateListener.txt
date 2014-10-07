@@ -1,0 +1,4 @@
+Compiled from "EffectUpdateListener.java"
+public interface android.media.effect.EffectUpdateListener {
+  public abstract void onEffectUpdated(android.media.effect.Effect, java.lang.Object);
+}

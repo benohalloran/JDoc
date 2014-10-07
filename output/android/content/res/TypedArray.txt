@@ -1,0 +1,33 @@
+Compiled from "TypedArray.java"
+public class android.content.res.TypedArray {
+  android.content.res.TypedArray();
+  public int length();
+  public int getIndexCount();
+  public int getIndex(int);
+  public android.content.res.Resources getResources();
+  public java.lang.CharSequence getText(int);
+  public java.lang.String getString(int);
+  public java.lang.String getNonResourceString(int);
+  public boolean getBoolean(int, boolean);
+  public int getInt(int, int);
+  public float getFloat(int, float);
+  public int getColor(int, int);
+  public android.content.res.ColorStateList getColorStateList(int);
+  public int getInteger(int, int);
+  public float getDimension(int, float);
+  public int getDimensionPixelOffset(int, int);
+  public int getDimensionPixelSize(int, int);
+  public int getLayoutDimension(int, java.lang.String);
+  public int getLayoutDimension(int, int);
+  public float getFraction(int, int, int, float);
+  public int getResourceId(int, int);
+  public android.graphics.drawable.Drawable getDrawable(int);
+  public java.lang.CharSequence[] getTextArray(int);
+  public boolean getValue(int, android.util.TypedValue);
+  public int getType(int);
+  public boolean hasValue(int);
+  public android.util.TypedValue peekValue(int);
+  public java.lang.String getPositionDescription();
+  public void recycle();
+  public java.lang.String toString();
+}

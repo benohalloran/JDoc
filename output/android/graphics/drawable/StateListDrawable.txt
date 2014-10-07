@@ -1,0 +1,9 @@
+Compiled from "StateListDrawable.java"
+public class android.graphics.drawable.StateListDrawable extends android.graphics.drawable.DrawableContainer {
+  public android.graphics.drawable.StateListDrawable();
+  public void addState(int[], android.graphics.drawable.Drawable);
+  public boolean isStateful();
+  protected boolean onStateChange(int[]);
+  public void inflate(android.content.res.Resources, org.xmlpull.v1.XmlPullParser, android.util.AttributeSet, android.content.res.Resources$Theme) throws org.xmlpull.v1.XmlPullParserException, java.io.IOException;
+  public android.graphics.drawable.Drawable mutate();
+}

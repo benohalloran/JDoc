@@ -1,0 +1,4 @@
+Compiled from "HttpExpectationVerifier.java"
+public interface org.apache.http.protocol.HttpExpectationVerifier {
+  public abstract void verify(org.apache.http.HttpRequest, org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException;
+}

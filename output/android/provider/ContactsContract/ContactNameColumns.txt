@@ -1,0 +1,10 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$ContactNameColumns {
+  public static final java.lang.String DISPLAY_NAME_ALTERNATIVE;
+  public static final java.lang.String DISPLAY_NAME_PRIMARY;
+  public static final java.lang.String DISPLAY_NAME_SOURCE;
+  public static final java.lang.String PHONETIC_NAME;
+  public static final java.lang.String PHONETIC_NAME_STYLE;
+  public static final java.lang.String SORT_KEY_ALTERNATIVE;
+  public static final java.lang.String SORT_KEY_PRIMARY;
+}

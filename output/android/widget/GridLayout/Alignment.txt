@@ -1,0 +1,4 @@
+Compiled from "GridLayout.java"
+public abstract class android.widget.GridLayout$Alignment {
+  android.widget.GridLayout$Alignment();
+}

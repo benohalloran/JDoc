@@ -1,0 +1,19 @@
+Compiled from "ComponentInfo.java"
+public class android.content.pm.ComponentInfo extends android.content.pm.PackageItemInfo {
+  public android.content.pm.ApplicationInfo applicationInfo;
+  public int descriptionRes;
+  public boolean enabled;
+  public boolean exported;
+  public java.lang.String processName;
+  public android.content.pm.ComponentInfo();
+  public android.content.pm.ComponentInfo(android.content.pm.ComponentInfo);
+  protected android.content.pm.ComponentInfo(android.os.Parcel);
+  public java.lang.CharSequence loadLabel(android.content.pm.PackageManager);
+  public boolean isEnabled();
+  public final int getIconResource();
+  public final int getLogoResource();
+  public final int getBannerResource();
+  protected void dumpFront(android.util.Printer, java.lang.String);
+  protected void dumpBack(android.util.Printer, java.lang.String);
+  public void writeToParcel(android.os.Parcel, int);
+}

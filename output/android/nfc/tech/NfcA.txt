@@ -1,0 +1,15 @@
+Compiled from "NfcA.java"
+public final class android.nfc.tech.NfcA extends android.nfc.tech.BasicTagTechnology {
+  android.nfc.tech.NfcA();
+  public static android.nfc.tech.NfcA get(android.nfc.Tag);
+  public byte[] getAtqa();
+  public short getSak();
+  public byte[] transceive(byte[]) throws java.io.IOException;
+  public int getMaxTransceiveLength();
+  public void setTimeout(int);
+  public int getTimeout();
+  public void close() throws java.io.IOException;
+  public void connect() throws java.io.IOException;
+  public boolean isConnected();
+  public android.nfc.Tag getTag();
+}

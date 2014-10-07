@@ -1,0 +1,5 @@
+Compiled from "Pipe.java"
+public abstract class java.nio.channels.Pipe$SinkChannel extends java.nio.channels.spi.AbstractSelectableChannel implements java.nio.channels.WritableByteChannel,java.nio.channels.GatheringByteChannel {
+  protected java.nio.channels.Pipe$SinkChannel(java.nio.channels.spi.SelectorProvider);
+  public final int validOps();
+}

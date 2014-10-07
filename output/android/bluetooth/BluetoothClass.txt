@@ -1,0 +1,14 @@
+Compiled from "BluetoothClass.java"
+public final class android.bluetooth.BluetoothClass implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.bluetooth.BluetoothClass> CREATOR;
+  android.bluetooth.BluetoothClass();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public boolean hasService(int);
+  public int getMajorDeviceClass();
+  public int getDeviceClass();
+  static {};
+}

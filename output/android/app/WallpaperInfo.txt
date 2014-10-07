@@ -1,0 +1,20 @@
+Compiled from "WallpaperInfo.java"
+public final class android.app.WallpaperInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.app.WallpaperInfo> CREATOR;
+  public android.app.WallpaperInfo(android.content.Context, android.content.pm.ResolveInfo) throws org.xmlpull.v1.XmlPullParserException, java.io.IOException;
+  public java.lang.String getPackageName();
+  public java.lang.String getServiceName();
+  public android.content.pm.ServiceInfo getServiceInfo();
+  public android.content.ComponentName getComponent();
+  public java.lang.CharSequence loadLabel(android.content.pm.PackageManager);
+  public android.graphics.drawable.Drawable loadIcon(android.content.pm.PackageManager);
+  public android.graphics.drawable.Drawable loadThumbnail(android.content.pm.PackageManager);
+  public java.lang.CharSequence loadAuthor(android.content.pm.PackageManager) throws android.content.res.Resources$NotFoundException;
+  public java.lang.CharSequence loadDescription(android.content.pm.PackageManager) throws android.content.res.Resources$NotFoundException;
+  public java.lang.String getSettingsActivity();
+  public void dump(android.util.Printer, java.lang.String);
+  public java.lang.String toString();
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  static {};
+}

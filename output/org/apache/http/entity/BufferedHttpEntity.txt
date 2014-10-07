@@ -1,0 +1,10 @@
+Compiled from "BufferedHttpEntity.java"
+public class org.apache.http.entity.BufferedHttpEntity extends org.apache.http.entity.HttpEntityWrapper {
+  public org.apache.http.entity.BufferedHttpEntity(org.apache.http.HttpEntity) throws java.io.IOException;
+  public long getContentLength();
+  public java.io.InputStream getContent() throws java.io.IOException;
+  public boolean isChunked();
+  public boolean isRepeatable();
+  public void writeTo(java.io.OutputStream) throws java.io.IOException;
+  public boolean isStreaming();
+}

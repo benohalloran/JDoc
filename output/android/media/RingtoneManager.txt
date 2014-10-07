@@ -1,0 +1,39 @@
+Compiled from "RingtoneManager.java"
+public class android.media.RingtoneManager {
+  public static final java.lang.String ACTION_RINGTONE_PICKER;
+  public static final java.lang.String EXTRA_RINGTONE_DEFAULT_URI;
+  public static final java.lang.String EXTRA_RINGTONE_EXISTING_URI;
+  public static final java.lang.String EXTRA_RINGTONE_INCLUDE_DRM;
+  public static final java.lang.String EXTRA_RINGTONE_PICKED_URI;
+  public static final java.lang.String EXTRA_RINGTONE_SHOW_DEFAULT;
+  public static final java.lang.String EXTRA_RINGTONE_SHOW_SILENT;
+  public static final java.lang.String EXTRA_RINGTONE_TITLE;
+  public static final java.lang.String EXTRA_RINGTONE_TYPE;
+  public static final int ID_COLUMN_INDEX;
+  public static final int TITLE_COLUMN_INDEX;
+  public static final int TYPE_ALARM;
+  public static final int TYPE_ALL;
+  public static final int TYPE_NOTIFICATION;
+  public static final int TYPE_RINGTONE;
+  public static final int URI_COLUMN_INDEX;
+  public android.media.RingtoneManager(android.app.Activity);
+  public android.media.RingtoneManager(android.content.Context);
+  public void setType(int);
+  public int inferStreamType();
+  public void setStopPreviousRingtone(boolean);
+  public boolean getStopPreviousRingtone();
+  public void stopPreviousRingtone();
+  public boolean getIncludeDrm();
+  public void setIncludeDrm(boolean);
+  public android.database.Cursor getCursor();
+  public android.media.Ringtone getRingtone(int);
+  public android.net.Uri getRingtoneUri(int);
+  public int getRingtonePosition(android.net.Uri);
+  public static android.net.Uri getValidRingtoneUri(android.content.Context);
+  public static android.media.Ringtone getRingtone(android.content.Context, android.net.Uri);
+  public static android.net.Uri getActualDefaultRingtoneUri(android.content.Context, int);
+  public static void setActualDefaultRingtoneUri(android.content.Context, int, android.net.Uri);
+  public static boolean isDefault(android.net.Uri);
+  public static int getDefaultType(android.net.Uri);
+  public static android.net.Uri getDefaultUri(int);
+}

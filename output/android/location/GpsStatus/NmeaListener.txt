@@ -1,0 +1,4 @@
+Compiled from "GpsStatus.java"
+public interface android.location.GpsStatus$NmeaListener {
+  public abstract void onNmeaReceived(long, java.lang.String);
+}

@@ -1,0 +1,5 @@
+Compiled from "FormattedHeader.java"
+public interface org.apache.http.FormattedHeader extends org.apache.http.Header {
+  public abstract org.apache.http.util.CharArrayBuffer getBuffer();
+  public abstract int getValuePos();
+}

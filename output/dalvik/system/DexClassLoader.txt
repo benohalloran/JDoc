@@ -1,0 +1,4 @@
+Compiled from "DexClassLoader.java"
+public class dalvik.system.DexClassLoader extends dalvik.system.BaseDexClassLoader {
+  public dalvik.system.DexClassLoader(java.lang.String, java.lang.String, java.lang.String, java.lang.ClassLoader);
+}

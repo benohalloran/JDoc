@@ -1,0 +1,29 @@
+Compiled from "MediaRouter.java"
+public class android.media.MediaRouter$RouteInfo {
+  public static final int PLAYBACK_TYPE_LOCAL;
+  public static final int PLAYBACK_TYPE_REMOTE;
+  public static final int PLAYBACK_VOLUME_FIXED;
+  public static final int PLAYBACK_VOLUME_VARIABLE;
+  android.media.MediaRouter$RouteInfo();
+  public java.lang.CharSequence getName();
+  public java.lang.CharSequence getName(android.content.Context);
+  public java.lang.CharSequence getDescription();
+  public java.lang.CharSequence getStatus();
+  public int getSupportedTypes();
+  public android.media.MediaRouter$RouteGroup getGroup();
+  public android.media.MediaRouter$RouteCategory getCategory();
+  public android.graphics.drawable.Drawable getIconDrawable();
+  public void setTag(java.lang.Object);
+  public java.lang.Object getTag();
+  public int getPlaybackType();
+  public int getPlaybackStream();
+  public int getVolume();
+  public void requestSetVolume(int);
+  public void requestUpdateVolume(int);
+  public int getVolumeMax();
+  public int getVolumeHandling();
+  public android.view.Display getPresentationDisplay();
+  public boolean isEnabled();
+  public boolean isConnecting();
+  public java.lang.String toString();
+}

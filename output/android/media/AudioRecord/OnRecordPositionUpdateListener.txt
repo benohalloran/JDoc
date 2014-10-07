@@ -1,0 +1,5 @@
+Compiled from "AudioRecord.java"
+public interface android.media.AudioRecord$OnRecordPositionUpdateListener {
+  public abstract void onMarkerReached(android.media.AudioRecord);
+  public abstract void onPeriodicNotification(android.media.AudioRecord);
+}

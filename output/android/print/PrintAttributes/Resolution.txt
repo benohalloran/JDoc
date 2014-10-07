@@ -1,0 +1,11 @@
+Compiled from "PrintAttributes.java"
+public final class android.print.PrintAttributes$Resolution {
+  public android.print.PrintAttributes$Resolution(java.lang.String, java.lang.String, int, int);
+  public java.lang.String getId();
+  public java.lang.String getLabel();
+  public int getHorizontalDpi();
+  public int getVerticalDpi();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+}

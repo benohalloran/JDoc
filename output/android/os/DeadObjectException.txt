@@ -1,0 +1,4 @@
+Compiled from "DeadObjectException.java"
+public class android.os.DeadObjectException extends android.os.RemoteException {
+  public android.os.DeadObjectException();
+}

@@ -1,0 +1,16 @@
+Compiled from "StrictMode.java"
+public final class android.os.StrictMode$VmPolicy$Builder {
+  public android.os.StrictMode$VmPolicy$Builder();
+  public android.os.StrictMode$VmPolicy$Builder(android.os.StrictMode$VmPolicy);
+  public android.os.StrictMode$VmPolicy$Builder setClassInstanceLimit(java.lang.Class, int);
+  public android.os.StrictMode$VmPolicy$Builder detectActivityLeaks();
+  public android.os.StrictMode$VmPolicy$Builder detectAll();
+  public android.os.StrictMode$VmPolicy$Builder detectLeakedSqlLiteObjects();
+  public android.os.StrictMode$VmPolicy$Builder detectLeakedClosableObjects();
+  public android.os.StrictMode$VmPolicy$Builder detectLeakedRegistrationObjects();
+  public android.os.StrictMode$VmPolicy$Builder detectFileUriExposure();
+  public android.os.StrictMode$VmPolicy$Builder penaltyDeath();
+  public android.os.StrictMode$VmPolicy$Builder penaltyLog();
+  public android.os.StrictMode$VmPolicy$Builder penaltyDropBox();
+  public android.os.StrictMode$VmPolicy build();
+}

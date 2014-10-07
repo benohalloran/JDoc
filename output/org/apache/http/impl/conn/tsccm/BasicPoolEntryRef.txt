@@ -1,0 +1,5 @@
+Compiled from "BasicPoolEntryRef.java"
+public class org.apache.http.impl.conn.tsccm.BasicPoolEntryRef extends java.lang.ref.WeakReference<org.apache.http.impl.conn.tsccm.BasicPoolEntry> {
+  public org.apache.http.impl.conn.tsccm.BasicPoolEntryRef(org.apache.http.impl.conn.tsccm.BasicPoolEntry, java.lang.ref.ReferenceQueue<java.lang.Object>);
+  public final org.apache.http.conn.routing.HttpRoute getRoute();
+}

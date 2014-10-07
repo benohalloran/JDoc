@@ -1,0 +1,16 @@
+Compiled from "PreferenceManager.java"
+public class android.preference.PreferenceManager {
+  public static final java.lang.String KEY_HAS_SET_DEFAULT_VALUES;
+  public static final java.lang.String METADATA_KEY_PREFERENCES;
+  android.preference.PreferenceManager();
+  public android.preference.PreferenceScreen createPreferenceScreen(android.content.Context);
+  public java.lang.String getSharedPreferencesName();
+  public void setSharedPreferencesName(java.lang.String);
+  public int getSharedPreferencesMode();
+  public void setSharedPreferencesMode(int);
+  public android.content.SharedPreferences getSharedPreferences();
+  public static android.content.SharedPreferences getDefaultSharedPreferences(android.content.Context);
+  public android.preference.Preference findPreference(java.lang.CharSequence);
+  public static void setDefaultValues(android.content.Context, int, boolean);
+  public static void setDefaultValues(android.content.Context, java.lang.String, int, int, boolean);
+}

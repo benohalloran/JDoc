@@ -1,0 +1,28 @@
+Compiled from "ArrayAdapter.java"
+public class android.widget.ArrayAdapter<T> extends android.widget.BaseAdapter implements android.widget.Filterable {
+  public android.widget.ArrayAdapter(android.content.Context, int);
+  public android.widget.ArrayAdapter(android.content.Context, int, int);
+  public android.widget.ArrayAdapter(android.content.Context, int, T[]);
+  public android.widget.ArrayAdapter(android.content.Context, int, int, T[]);
+  public android.widget.ArrayAdapter(android.content.Context, int, java.util.List<T>);
+  public android.widget.ArrayAdapter(android.content.Context, int, int, java.util.List<T>);
+  public void add(T);
+  public void addAll(java.util.Collection<? extends T>);
+  public void addAll(T...);
+  public void insert(T, int);
+  public void remove(T);
+  public void clear();
+  public void sort(java.util.Comparator<? super T>);
+  public void notifyDataSetChanged();
+  public void setNotifyOnChange(boolean);
+  public android.content.Context getContext();
+  public int getCount();
+  public T getItem(int);
+  public int getPosition(T);
+  public long getItemId(int);
+  public android.view.View getView(int, android.view.View, android.view.ViewGroup);
+  public void setDropDownViewResource(int);
+  public android.view.View getDropDownView(int, android.view.View, android.view.ViewGroup);
+  public static android.widget.ArrayAdapter<java.lang.CharSequence> createFromResource(android.content.Context, int, int);
+  public android.widget.Filter getFilter();
+}

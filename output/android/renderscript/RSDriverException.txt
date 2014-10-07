@@ -1,0 +1,4 @@
+Compiled from "RSDriverException.java"
+public class android.renderscript.RSDriverException extends android.renderscript.RSRuntimeException {
+  public android.renderscript.RSDriverException(java.lang.String);
+}

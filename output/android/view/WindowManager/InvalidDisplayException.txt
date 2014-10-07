@@ -1,0 +1,5 @@
+Compiled from "WindowManager.java"
+public class android.view.WindowManager$InvalidDisplayException extends java.lang.RuntimeException {
+  public android.view.WindowManager$InvalidDisplayException();
+  public android.view.WindowManager$InvalidDisplayException(java.lang.String);
+}

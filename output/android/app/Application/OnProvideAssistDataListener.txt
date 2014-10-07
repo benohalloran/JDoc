@@ -1,0 +1,4 @@
+Compiled from "Application.java"
+public interface android.app.Application$OnProvideAssistDataListener {
+  public abstract void onProvideAssistData(android.app.Activity, android.os.Bundle);
+}

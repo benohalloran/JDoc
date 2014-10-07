@@ -1,0 +1,13 @@
+Compiled from "AbstractSessionInputBuffer.java"
+public abstract class org.apache.http.impl.io.AbstractSessionInputBuffer implements org.apache.http.io.SessionInputBuffer {
+  public org.apache.http.impl.io.AbstractSessionInputBuffer();
+  protected void init(java.io.InputStream, int, org.apache.http.params.HttpParams);
+  protected int fillBuffer() throws java.io.IOException;
+  protected boolean hasBufferedData();
+  public int read() throws java.io.IOException;
+  public int read(byte[], int, int) throws java.io.IOException;
+  public int read(byte[]) throws java.io.IOException;
+  public int readLine(org.apache.http.util.CharArrayBuffer) throws java.io.IOException;
+  public java.lang.String readLine() throws java.io.IOException;
+  public org.apache.http.io.HttpTransportMetrics getMetrics();
+}

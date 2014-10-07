@@ -1,0 +1,9 @@
+Compiled from "WebSettings.java"
+public final class android.webkit.WebSettings$RenderPriority extends java.lang.Enum<android.webkit.WebSettings$RenderPriority> {
+  public static final android.webkit.WebSettings$RenderPriority HIGH;
+  public static final android.webkit.WebSettings$RenderPriority LOW;
+  public static final android.webkit.WebSettings$RenderPriority NORMAL;
+  public static android.webkit.WebSettings$RenderPriority[] values();
+  public static android.webkit.WebSettings$RenderPriority valueOf(java.lang.String);
+  static {};
+}

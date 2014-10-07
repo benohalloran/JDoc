@@ -1,0 +1,7 @@
+Compiled from "ViewOverlay.java"
+public class android.view.ViewOverlay {
+  android.view.ViewOverlay();
+  public void add(android.graphics.drawable.Drawable);
+  public void remove(android.graphics.drawable.Drawable);
+  public void clear();
+}

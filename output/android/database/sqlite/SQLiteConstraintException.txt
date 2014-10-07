@@ -1,0 +1,5 @@
+Compiled from "SQLiteConstraintException.java"
+public class android.database.sqlite.SQLiteConstraintException extends android.database.sqlite.SQLiteException {
+  public android.database.sqlite.SQLiteConstraintException();
+  public android.database.sqlite.SQLiteConstraintException(java.lang.String);
+}

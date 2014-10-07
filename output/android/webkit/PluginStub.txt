@@ -1,0 +1,5 @@
+Compiled from "PluginStub.java"
+public interface android.webkit.PluginStub {
+  public abstract android.view.View getEmbeddedView(int, android.content.Context);
+  public abstract android.view.View getFullScreenView(int, android.content.Context);
+}

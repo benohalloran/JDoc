@@ -1,0 +1,9 @@
+Compiled from "AccessibilityNodeProvider.java"
+public abstract class android.view.accessibility.AccessibilityNodeProvider {
+  public static final int HOST_VIEW_ID;
+  public android.view.accessibility.AccessibilityNodeProvider();
+  public android.view.accessibility.AccessibilityNodeInfo createAccessibilityNodeInfo(int);
+  public boolean performAction(int, int, android.os.Bundle);
+  public java.util.List<android.view.accessibility.AccessibilityNodeInfo> findAccessibilityNodeInfosByText(java.lang.String, int);
+  public android.view.accessibility.AccessibilityNodeInfo findFocus(int);
+}

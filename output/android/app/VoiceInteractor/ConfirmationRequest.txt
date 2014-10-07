@@ -1,0 +1,5 @@
+Compiled from "VoiceInteractor.java"
+public class android.app.VoiceInteractor$ConfirmationRequest extends android.app.VoiceInteractor$Request {
+  public android.app.VoiceInteractor$ConfirmationRequest(java.lang.CharSequence, android.os.Bundle);
+  public void onConfirmationResult(boolean, android.os.Bundle);
+}

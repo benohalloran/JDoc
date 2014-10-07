@@ -1,0 +1,4 @@
+Compiled from "DrmManagerClient.java"
+public interface android.drm.DrmManagerClient$OnErrorListener {
+  public abstract void onError(android.drm.DrmManagerClient, android.drm.DrmErrorEvent);
+}

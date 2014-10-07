@@ -1,0 +1,5 @@
+Compiled from "TagLostException.java"
+public class android.nfc.TagLostException extends java.io.IOException {
+  public android.nfc.TagLostException();
+  public android.nfc.TagLostException(java.lang.String);
+}

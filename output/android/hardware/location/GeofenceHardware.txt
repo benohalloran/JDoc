@@ -1,0 +1,25 @@
+Compiled from "GeofenceHardware.java"
+public final class android.hardware.location.GeofenceHardware {
+  public static final int GEOFENCE_ENTERED;
+  public static final int GEOFENCE_ERROR_ID_EXISTS;
+  public static final int GEOFENCE_ERROR_ID_UNKNOWN;
+  public static final int GEOFENCE_ERROR_INVALID_TRANSITION;
+  public static final int GEOFENCE_ERROR_TOO_MANY_GEOFENCES;
+  public static final int GEOFENCE_EXITED;
+  public static final int GEOFENCE_FAILURE;
+  public static final int GEOFENCE_SUCCESS;
+  public static final int GEOFENCE_UNCERTAIN;
+  public static final int MONITORING_TYPE_GPS_HARDWARE;
+  public static final int MONITOR_CURRENTLY_AVAILABLE;
+  public static final int MONITOR_CURRENTLY_UNAVAILABLE;
+  public static final int MONITOR_UNSUPPORTED;
+  android.hardware.location.GeofenceHardware();
+  public int[] getMonitoringTypes();
+  public int getStatusOfMonitoringType(int);
+  public boolean addGeofence(int, int, android.hardware.location.GeofenceHardwareRequest, android.hardware.location.GeofenceHardwareCallback);
+  public boolean removeGeofence(int, int);
+  public boolean pauseGeofence(int, int);
+  public boolean resumeGeofence(int, int, int);
+  public boolean registerForMonitorStateChangeCallback(int, android.hardware.location.GeofenceHardwareMonitorCallback);
+  public boolean unregisterForMonitorStateChangeCallback(int, android.hardware.location.GeofenceHardwareMonitorCallback);
+}

@@ -1,0 +1,9 @@
+Compiled from "CameraCaptureSession.java"
+public abstract class android.hardware.camera2.CameraCaptureSession$StateListener {
+  public android.hardware.camera2.CameraCaptureSession$StateListener();
+  public abstract void onConfigured(android.hardware.camera2.CameraCaptureSession);
+  public abstract void onConfigureFailed(android.hardware.camera2.CameraCaptureSession);
+  public void onReady(android.hardware.camera2.CameraCaptureSession);
+  public void onActive(android.hardware.camera2.CameraCaptureSession);
+  public void onClosed(android.hardware.camera2.CameraCaptureSession);
+}

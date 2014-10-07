@@ -1,0 +1,4 @@
+Compiled from "LayeredSocketFactory.java"
+public interface org.apache.http.conn.scheme.LayeredSocketFactory extends org.apache.http.conn.scheme.SocketFactory {
+  public abstract java.net.Socket createSocket(java.net.Socket, java.lang.String, int, boolean) throws java.io.IOException, java.net.UnknownHostException;
+}

@@ -1,0 +1,12 @@
+Compiled from "Intent.java"
+public class android.content.Intent$ShortcutIconResource implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.Intent$ShortcutIconResource> CREATOR;
+  public java.lang.String packageName;
+  public java.lang.String resourceName;
+  public android.content.Intent$ShortcutIconResource();
+  public static android.content.Intent$ShortcutIconResource fromContext(android.content.Context, int);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String toString();
+  static {};
+}

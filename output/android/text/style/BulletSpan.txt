@@ -1,0 +1,13 @@
+Compiled from "BulletSpan.java"
+public class android.text.style.BulletSpan implements android.text.style.LeadingMarginSpan,android.text.ParcelableSpan {
+  public static final int STANDARD_GAP_WIDTH;
+  public android.text.style.BulletSpan();
+  public android.text.style.BulletSpan(int);
+  public android.text.style.BulletSpan(int, int);
+  public android.text.style.BulletSpan(android.os.Parcel);
+  public int getSpanTypeId();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int getLeadingMargin(boolean);
+  public void drawLeadingMargin(android.graphics.Canvas, android.graphics.Paint, int, int, int, int, int, java.lang.CharSequence, int, int, boolean, android.text.Layout);
+}

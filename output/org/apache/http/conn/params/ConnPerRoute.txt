@@ -1,0 +1,4 @@
+Compiled from "ConnPerRoute.java"
+public interface org.apache.http.conn.params.ConnPerRoute {
+  public abstract int getMaxForRoute(org.apache.http.conn.routing.HttpRoute);
+}

@@ -1,0 +1,19 @@
+Compiled from "PrinterInfo.java"
+public final class android.print.PrinterInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.print.PrinterInfo> CREATOR;
+  public static final int STATUS_BUSY;
+  public static final int STATUS_IDLE;
+  public static final int STATUS_UNAVAILABLE;
+  android.print.PrinterInfo();
+  public android.print.PrinterId getId();
+  public java.lang.String getName();
+  public int getStatus();
+  public java.lang.String getDescription();
+  public android.print.PrinterCapabilitiesInfo getCapabilities();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  static {};
+}

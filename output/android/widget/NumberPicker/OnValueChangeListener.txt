@@ -1,0 +1,4 @@
+Compiled from "NumberPicker.java"
+public interface android.widget.NumberPicker$OnValueChangeListener {
+  public abstract void onValueChange(android.widget.NumberPicker, int, int);
+}

@@ -1,0 +1,4 @@
+Compiled from "ConnectionKeepAliveStrategy.java"
+public interface org.apache.http.conn.ConnectionKeepAliveStrategy {
+  public abstract long getKeepAliveDuration(org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext);
+}

@@ -1,0 +1,10 @@
+Compiled from "ServiceLoader.java"
+public final class java.util.ServiceLoader<S> implements java.lang.Iterable<S> {
+  java.util.ServiceLoader();
+  public void reload();
+  public java.util.Iterator<S> iterator();
+  public static <S extends java/lang/Object> java.util.ServiceLoader<S> load(java.lang.Class<S>, java.lang.ClassLoader);
+  public static <S extends java/lang/Object> java.util.ServiceLoader<S> load(java.lang.Class<S>);
+  public static <S extends java/lang/Object> java.util.ServiceLoader<S> loadInstalled(java.lang.Class<S>);
+  public java.lang.String toString();
+}

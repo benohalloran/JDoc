@@ -1,0 +1,13 @@
+Compiled from "TextInfo.java"
+public final class android.view.textservice.TextInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.textservice.TextInfo> CREATOR;
+  public android.view.textservice.TextInfo(java.lang.String);
+  public android.view.textservice.TextInfo(java.lang.String, int, int);
+  public android.view.textservice.TextInfo(android.os.Parcel);
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String getText();
+  public int getCookie();
+  public int getSequence();
+  public int describeContents();
+  static {};
+}

@@ -1,0 +1,7 @@
+Compiled from "SingleLineTransformationMethod.java"
+public class android.text.method.SingleLineTransformationMethod extends android.text.method.ReplacementTransformationMethod {
+  public android.text.method.SingleLineTransformationMethod();
+  protected char[] getOriginal();
+  protected char[] getReplacement();
+  public static android.text.method.SingleLineTransformationMethod getInstance();
+}

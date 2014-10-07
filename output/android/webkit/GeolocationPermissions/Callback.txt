@@ -1,0 +1,4 @@
+Compiled from "GeolocationPermissions.java"
+public interface android.webkit.GeolocationPermissions$Callback {
+  public abstract void invoke(java.lang.String, boolean, boolean);
+}

@@ -1,0 +1,5 @@
+Compiled from "RedirectHandler.java"
+public interface org.apache.http.client.RedirectHandler {
+  public abstract boolean isRedirectRequested(org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext);
+  public abstract java.net.URI getLocationURI(org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext) throws org.apache.http.ProtocolException;
+}

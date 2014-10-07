@@ -1,0 +1,4 @@
+Compiled from "DashPathEffect.java"
+public class android.graphics.DashPathEffect extends android.graphics.PathEffect {
+  public android.graphics.DashPathEffect(float[], float);
+}

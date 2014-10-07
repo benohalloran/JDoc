@@ -1,0 +1,6 @@
+Compiled from "SocketPermission.java"
+public final class java.net.SocketPermission extends java.security.Permission implements java.io.Serializable {
+  public java.net.SocketPermission(java.lang.String, java.lang.String);
+  public java.lang.String getActions();
+  public boolean implies(java.security.Permission);
+}

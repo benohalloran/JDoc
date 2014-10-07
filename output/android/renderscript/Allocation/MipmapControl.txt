@@ -1,0 +1,9 @@
+Compiled from "Allocation.java"
+public final class android.renderscript.Allocation$MipmapControl extends java.lang.Enum<android.renderscript.Allocation$MipmapControl> {
+  public static final android.renderscript.Allocation$MipmapControl MIPMAP_FULL;
+  public static final android.renderscript.Allocation$MipmapControl MIPMAP_NONE;
+  public static final android.renderscript.Allocation$MipmapControl MIPMAP_ON_SYNC_TO_TEXTURE;
+  public static android.renderscript.Allocation$MipmapControl[] values();
+  public static android.renderscript.Allocation$MipmapControl valueOf(java.lang.String);
+  static {};
+}

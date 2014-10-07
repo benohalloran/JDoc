@@ -1,0 +1,13 @@
+Compiled from "MediaRouter.java"
+public abstract class android.media.MediaRouter$Callback {
+  public android.media.MediaRouter$Callback();
+  public abstract void onRouteSelected(android.media.MediaRouter, int, android.media.MediaRouter$RouteInfo);
+  public abstract void onRouteUnselected(android.media.MediaRouter, int, android.media.MediaRouter$RouteInfo);
+  public abstract void onRouteAdded(android.media.MediaRouter, android.media.MediaRouter$RouteInfo);
+  public abstract void onRouteRemoved(android.media.MediaRouter, android.media.MediaRouter$RouteInfo);
+  public abstract void onRouteChanged(android.media.MediaRouter, android.media.MediaRouter$RouteInfo);
+  public abstract void onRouteGrouped(android.media.MediaRouter, android.media.MediaRouter$RouteInfo, android.media.MediaRouter$RouteGroup, int);
+  public abstract void onRouteUngrouped(android.media.MediaRouter, android.media.MediaRouter$RouteInfo, android.media.MediaRouter$RouteGroup);
+  public abstract void onRouteVolumeChanged(android.media.MediaRouter, android.media.MediaRouter$RouteInfo);
+  public void onRoutePresentationDisplayChanged(android.media.MediaRouter, android.media.MediaRouter$RouteInfo);
+}

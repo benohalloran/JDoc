@@ -1,0 +1,5 @@
+Compiled from "RemoteViews.java"
+public class android.widget.RemoteViews$ActionException extends java.lang.RuntimeException {
+  public android.widget.RemoteViews$ActionException(java.lang.Exception);
+  public android.widget.RemoteViews$ActionException(java.lang.String);
+}

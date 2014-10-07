@@ -1,0 +1,23 @@
+Compiled from "Pattern.java"
+public final class java.util.regex.Pattern implements java.io.Serializable {
+  public static final int CANON_EQ;
+  public static final int CASE_INSENSITIVE;
+  public static final int COMMENTS;
+  public static final int DOTALL;
+  public static final int LITERAL;
+  public static final int MULTILINE;
+  public static final int UNICODE_CASE;
+  public static final int UNIX_LINES;
+  java.util.regex.Pattern();
+  public java.util.regex.Matcher matcher(java.lang.CharSequence);
+  public java.lang.String[] split(java.lang.CharSequence, int);
+  public java.lang.String[] split(java.lang.CharSequence);
+  public java.lang.String pattern();
+  public java.lang.String toString();
+  public int flags();
+  public static java.util.regex.Pattern compile(java.lang.String, int) throws java.util.regex.PatternSyntaxException;
+  public static java.util.regex.Pattern compile(java.lang.String);
+  public static boolean matches(java.lang.String, java.lang.CharSequence);
+  public static java.lang.String quote(java.lang.String);
+  protected void finalize() throws java.lang.Throwable;
+}

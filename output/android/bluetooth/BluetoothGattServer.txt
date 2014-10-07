@@ -1,0 +1,17 @@
+Compiled from "BluetoothGattServer.java"
+public final class android.bluetooth.BluetoothGattServer implements android.bluetooth.BluetoothProfile {
+  android.bluetooth.BluetoothGattServer();
+  public void close();
+  public boolean connect(android.bluetooth.BluetoothDevice, boolean);
+  public void cancelConnection(android.bluetooth.BluetoothDevice);
+  public boolean sendResponse(android.bluetooth.BluetoothDevice, int, int, int, byte[]);
+  public boolean notifyCharacteristicChanged(android.bluetooth.BluetoothDevice, android.bluetooth.BluetoothGattCharacteristic, boolean);
+  public boolean addService(android.bluetooth.BluetoothGattService);
+  public boolean removeService(android.bluetooth.BluetoothGattService);
+  public void clearServices();
+  public java.util.List<android.bluetooth.BluetoothGattService> getServices();
+  public android.bluetooth.BluetoothGattService getService(java.util.UUID);
+  public int getConnectionState(android.bluetooth.BluetoothDevice);
+  public java.util.List<android.bluetooth.BluetoothDevice> getConnectedDevices();
+  public java.util.List<android.bluetooth.BluetoothDevice> getDevicesMatchingConnectionStates(int[]);
+}

@@ -1,0 +1,5 @@
+Compiled from "DataSource.java"
+public interface javax.sql.DataSource extends javax.sql.CommonDataSource,java.sql.Wrapper {
+  public abstract java.sql.Connection getConnection() throws java.sql.SQLException;
+  public abstract java.sql.Connection getConnection(java.lang.String, java.lang.String) throws java.sql.SQLException;
+}

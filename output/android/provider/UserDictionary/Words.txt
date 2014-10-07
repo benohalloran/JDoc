@@ -1,0 +1,19 @@
+Compiled from "UserDictionary.java"
+public class android.provider.UserDictionary$Words implements android.provider.BaseColumns {
+  public static final java.lang.String APP_ID;
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final java.lang.String FREQUENCY;
+  public static final java.lang.String LOCALE;
+  public static final int LOCALE_TYPE_ALL;
+  public static final int LOCALE_TYPE_CURRENT;
+  public static final java.lang.String SHORTCUT;
+  public static final java.lang.String WORD;
+  public static final java.lang.String _ID;
+  public android.provider.UserDictionary$Words();
+  public static void addWord(android.content.Context, java.lang.String, int, int);
+  public static void addWord(android.content.Context, java.lang.String, int, java.lang.String, java.util.Locale);
+  static {};
+}

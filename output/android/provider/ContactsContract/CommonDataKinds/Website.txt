@@ -1,0 +1,13 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$CommonDataKinds$Website implements android.provider.ContactsContract$DataColumnsWithJoins,android.provider.ContactsContract$CommonDataKinds$CommonColumns {
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final int TYPE_BLOG;
+  public static final int TYPE_FTP;
+  public static final int TYPE_HOME;
+  public static final int TYPE_HOMEPAGE;
+  public static final int TYPE_OTHER;
+  public static final int TYPE_PROFILE;
+  public static final int TYPE_WORK;
+  public static final java.lang.String URL;
+  android.provider.ContactsContract$CommonDataKinds$Website();
+}

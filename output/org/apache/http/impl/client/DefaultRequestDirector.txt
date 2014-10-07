@@ -1,0 +1,23 @@
+Compiled from "DefaultRequestDirector.java"
+public class org.apache.http.impl.client.DefaultRequestDirector implements org.apache.http.client.RequestDirector {
+  protected final org.apache.http.conn.ClientConnectionManager connManager;
+  protected final org.apache.http.protocol.HttpProcessor httpProcessor;
+  protected final org.apache.http.conn.ConnectionKeepAliveStrategy keepAliveStrategy;
+  protected org.apache.http.conn.ManagedClientConnection managedConn;
+  protected final org.apache.http.params.HttpParams params;
+  protected final org.apache.http.client.RedirectHandler redirectHandler;
+  protected final org.apache.http.protocol.HttpRequestExecutor requestExec;
+  protected final org.apache.http.client.HttpRequestRetryHandler retryHandler;
+  protected final org.apache.http.ConnectionReuseStrategy reuseStrategy;
+  protected final org.apache.http.conn.routing.HttpRoutePlanner routePlanner;
+  public org.apache.http.impl.client.DefaultRequestDirector(org.apache.http.protocol.HttpRequestExecutor, org.apache.http.conn.ClientConnectionManager, org.apache.http.ConnectionReuseStrategy, org.apache.http.conn.ConnectionKeepAliveStrategy, org.apache.http.conn.routing.HttpRoutePlanner, org.apache.http.protocol.HttpProcessor, org.apache.http.client.HttpRequestRetryHandler, org.apache.http.client.RedirectHandler, org.apache.http.client.AuthenticationHandler, org.apache.http.client.AuthenticationHandler, org.apache.http.client.UserTokenHandler, org.apache.http.params.HttpParams);
+  protected void rewriteRequestURI(org.apache.http.impl.client.RequestWrapper, org.apache.http.conn.routing.HttpRoute) throws org.apache.http.ProtocolException;
+  public org.apache.http.HttpResponse execute(org.apache.http.HttpHost, org.apache.http.HttpRequest, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException, java.io.IOException;
+  protected void releaseConnection();
+  protected org.apache.http.conn.routing.HttpRoute determineRoute(org.apache.http.HttpHost, org.apache.http.HttpRequest, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException;
+  protected void establishRoute(org.apache.http.conn.routing.HttpRoute, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException, java.io.IOException;
+  protected boolean createTunnelToTarget(org.apache.http.conn.routing.HttpRoute, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException, java.io.IOException;
+  protected boolean createTunnelToProxy(org.apache.http.conn.routing.HttpRoute, int, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException, java.io.IOException;
+  protected org.apache.http.HttpRequest createConnectRequest(org.apache.http.conn.routing.HttpRoute, org.apache.http.protocol.HttpContext);
+  protected org.apache.http.impl.client.RoutedRequest handleResponse(org.apache.http.impl.client.RoutedRequest, org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException, java.io.IOException;
+}

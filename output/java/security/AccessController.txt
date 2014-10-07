@@ -1,0 +1,12 @@
+Compiled from "AccessController.java"
+public final class java.security.AccessController {
+  java.security.AccessController();
+  public static <T extends java/lang/Object> T doPrivileged(java.security.PrivilegedAction<T>);
+  public static <T extends java/lang/Object> T doPrivileged(java.security.PrivilegedAction<T>, java.security.AccessControlContext);
+  public static <T extends java/lang/Object> T doPrivileged(java.security.PrivilegedExceptionAction<T>) throws java.security.PrivilegedActionException;
+  public static <T extends java/lang/Object> T doPrivileged(java.security.PrivilegedExceptionAction<T>, java.security.AccessControlContext) throws java.security.PrivilegedActionException;
+  public static <T extends java/lang/Object> T doPrivilegedWithCombiner(java.security.PrivilegedAction<T>);
+  public static <T extends java/lang/Object> T doPrivilegedWithCombiner(java.security.PrivilegedExceptionAction<T>) throws java.security.PrivilegedActionException;
+  public static void checkPermission(java.security.Permission) throws java.security.AccessControlException;
+  public static java.security.AccessControlContext getContext();
+}

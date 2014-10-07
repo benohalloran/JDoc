@@ -1,0 +1,4 @@
+Compiled from "TextUtils.java"
+public interface android.text.TextUtils$EllipsizeCallback {
+  public abstract void ellipsized(int, int);
+}

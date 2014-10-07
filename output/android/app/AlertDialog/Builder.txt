@@ -1,0 +1,41 @@
+Compiled from "AlertDialog.java"
+public class android.app.AlertDialog$Builder {
+  public android.app.AlertDialog$Builder(android.content.Context);
+  public android.app.AlertDialog$Builder(android.content.Context, int);
+  public android.content.Context getContext();
+  public android.app.AlertDialog$Builder setTitle(int);
+  public android.app.AlertDialog$Builder setTitle(java.lang.CharSequence);
+  public android.app.AlertDialog$Builder setCustomTitle(android.view.View);
+  public android.app.AlertDialog$Builder setMessage(int);
+  public android.app.AlertDialog$Builder setMessage(java.lang.CharSequence);
+  public android.app.AlertDialog$Builder setIcon(int);
+  public android.app.AlertDialog$Builder setIcon(android.graphics.drawable.Drawable);
+  public android.app.AlertDialog$Builder setIconAttribute(int);
+  public android.app.AlertDialog$Builder setPositiveButton(int, android.content.DialogInterface$OnClickListener);
+  public android.app.AlertDialog$Builder setPositiveButton(java.lang.CharSequence, android.content.DialogInterface$OnClickListener);
+  public android.app.AlertDialog$Builder setNegativeButton(int, android.content.DialogInterface$OnClickListener);
+  public android.app.AlertDialog$Builder setNegativeButton(java.lang.CharSequence, android.content.DialogInterface$OnClickListener);
+  public android.app.AlertDialog$Builder setNeutralButton(int, android.content.DialogInterface$OnClickListener);
+  public android.app.AlertDialog$Builder setNeutralButton(java.lang.CharSequence, android.content.DialogInterface$OnClickListener);
+  public android.app.AlertDialog$Builder setCancelable(boolean);
+  public android.app.AlertDialog$Builder setOnCancelListener(android.content.DialogInterface$OnCancelListener);
+  public android.app.AlertDialog$Builder setOnDismissListener(android.content.DialogInterface$OnDismissListener);
+  public android.app.AlertDialog$Builder setOnKeyListener(android.content.DialogInterface$OnKeyListener);
+  public android.app.AlertDialog$Builder setItems(int, android.content.DialogInterface$OnClickListener);
+  public android.app.AlertDialog$Builder setItems(java.lang.CharSequence[], android.content.DialogInterface$OnClickListener);
+  public android.app.AlertDialog$Builder setAdapter(android.widget.ListAdapter, android.content.DialogInterface$OnClickListener);
+  public android.app.AlertDialog$Builder setCursor(android.database.Cursor, android.content.DialogInterface$OnClickListener, java.lang.String);
+  public android.app.AlertDialog$Builder setMultiChoiceItems(int, boolean[], android.content.DialogInterface$OnMultiChoiceClickListener);
+  public android.app.AlertDialog$Builder setMultiChoiceItems(java.lang.CharSequence[], boolean[], android.content.DialogInterface$OnMultiChoiceClickListener);
+  public android.app.AlertDialog$Builder setMultiChoiceItems(android.database.Cursor, java.lang.String, java.lang.String, android.content.DialogInterface$OnMultiChoiceClickListener);
+  public android.app.AlertDialog$Builder setSingleChoiceItems(int, int, android.content.DialogInterface$OnClickListener);
+  public android.app.AlertDialog$Builder setSingleChoiceItems(android.database.Cursor, int, java.lang.String, android.content.DialogInterface$OnClickListener);
+  public android.app.AlertDialog$Builder setSingleChoiceItems(java.lang.CharSequence[], int, android.content.DialogInterface$OnClickListener);
+  public android.app.AlertDialog$Builder setSingleChoiceItems(android.widget.ListAdapter, int, android.content.DialogInterface$OnClickListener);
+  public android.app.AlertDialog$Builder setOnItemSelectedListener(android.widget.AdapterView$OnItemSelectedListener);
+  public android.app.AlertDialog$Builder setView(int);
+  public android.app.AlertDialog$Builder setView(android.view.View);
+  public android.app.AlertDialog$Builder setInverseBackgroundForced(boolean);
+  public android.app.AlertDialog create();
+  public android.app.AlertDialog show();
+}

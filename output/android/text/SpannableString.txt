@@ -1,0 +1,15 @@
+Compiled from "SpannableString.java"
+public class android.text.SpannableString extends android.text.SpannableStringInternal implements java.lang.CharSequence,android.text.GetChars,android.text.Spannable {
+  public android.text.SpannableString(java.lang.CharSequence);
+  public static android.text.SpannableString valueOf(java.lang.CharSequence);
+  public void setSpan(java.lang.Object, int, int, int);
+  public void removeSpan(java.lang.Object);
+  public final java.lang.CharSequence subSequence(int, int);
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public int nextSpanTransition(int, int, java.lang.Class);
+  public java.lang.Object[] getSpans(int, int, java.lang.Class);
+  public int getSpanFlags(java.lang.Object);
+  public int getSpanEnd(java.lang.Object);
+  public int getSpanStart(java.lang.Object);
+}

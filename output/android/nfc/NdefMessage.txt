@@ -1,0 +1,16 @@
+Compiled from "NdefMessage.java"
+public final class android.nfc.NdefMessage implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.nfc.NdefMessage> CREATOR;
+  public android.nfc.NdefMessage(byte[]) throws android.nfc.FormatException;
+  public android.nfc.NdefMessage(android.nfc.NdefRecord, android.nfc.NdefRecord...);
+  public android.nfc.NdefMessage(android.nfc.NdefRecord[]);
+  public android.nfc.NdefRecord[] getRecords();
+  public int getByteArrayLength();
+  public byte[] toByteArray();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  static {};
+}

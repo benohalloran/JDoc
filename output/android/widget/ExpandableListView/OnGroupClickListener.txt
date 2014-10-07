@@ -1,0 +1,4 @@
+Compiled from "ExpandableListView.java"
+public interface android.widget.ExpandableListView$OnGroupClickListener {
+  public abstract boolean onGroupClick(android.widget.ExpandableListView, android.view.View, int, long);
+}

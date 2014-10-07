@@ -1,0 +1,18 @@
+Compiled from "NotificationListenerService.java"
+public abstract class android.service.notification.NotificationListenerService extends android.app.Service {
+  public static final java.lang.String SERVICE_INTERFACE;
+  public android.service.notification.NotificationListenerService();
+  public void onNotificationPosted(android.service.notification.StatusBarNotification);
+  public void onNotificationPosted(android.service.notification.StatusBarNotification, android.service.notification.NotificationListenerService$RankingMap);
+  public void onNotificationRemoved(android.service.notification.StatusBarNotification);
+  public void onNotificationRemoved(android.service.notification.StatusBarNotification, android.service.notification.NotificationListenerService$RankingMap);
+  public void onListenerConnected();
+  public void onNotificationRankingUpdate(android.service.notification.NotificationListenerService$RankingMap);
+  public final void cancelNotification(java.lang.String, java.lang.String, int);
+  public final void cancelNotification(java.lang.String);
+  public final void cancelAllNotifications();
+  public final void cancelNotifications(java.lang.String[]);
+  public android.service.notification.StatusBarNotification[] getActiveNotifications();
+  public android.service.notification.NotificationListenerService$RankingMap getCurrentRanking();
+  public android.os.IBinder onBind(android.content.Intent);
+}

@@ -1,0 +1,10 @@
+Compiled from "Ringtone.java"
+public class android.media.Ringtone {
+  android.media.Ringtone();
+  public void setStreamType(int);
+  public int getStreamType();
+  public java.lang.String getTitle(android.content.Context);
+  public void play();
+  public void stop();
+  public boolean isPlaying();
+}

@@ -1,0 +1,14 @@
+Compiled from "LinkMovementMethod.java"
+public class android.text.method.LinkMovementMethod extends android.text.method.ScrollingMovementMethod {
+  public android.text.method.LinkMovementMethod();
+  public boolean canSelectArbitrarily();
+  protected boolean handleMovementKey(android.widget.TextView, android.text.Spannable, int, int, android.view.KeyEvent);
+  protected boolean up(android.widget.TextView, android.text.Spannable);
+  protected boolean down(android.widget.TextView, android.text.Spannable);
+  protected boolean left(android.widget.TextView, android.text.Spannable);
+  protected boolean right(android.widget.TextView, android.text.Spannable);
+  public boolean onTouchEvent(android.widget.TextView, android.text.Spannable, android.view.MotionEvent);
+  public void initialize(android.widget.TextView, android.text.Spannable);
+  public void onTakeFocus(android.widget.TextView, android.text.Spannable, int);
+  public static android.text.method.MovementMethod getInstance();
+}

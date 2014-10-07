@@ -1,0 +1,5 @@
+Compiled from "VoiceInteractor.java"
+public class android.app.VoiceInteractor$AbortVoiceRequest extends android.app.VoiceInteractor$Request {
+  public android.app.VoiceInteractor$AbortVoiceRequest(java.lang.CharSequence, android.os.Bundle);
+  public void onAbortResult(android.os.Bundle);
+}

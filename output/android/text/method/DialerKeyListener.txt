@@ -1,0 +1,10 @@
+Compiled from "DialerKeyListener.java"
+public class android.text.method.DialerKeyListener extends android.text.method.NumberKeyListener {
+  public static final char[] CHARACTERS;
+  public android.text.method.DialerKeyListener();
+  protected char[] getAcceptedChars();
+  public static android.text.method.DialerKeyListener getInstance();
+  public int getInputType();
+  protected int lookup(android.view.KeyEvent, android.text.Spannable);
+  static {};
+}

@@ -1,0 +1,4 @@
+Compiled from "NoHttpResponseException.java"
+public class org.apache.http.NoHttpResponseException extends java.io.IOException {
+  public org.apache.http.NoHttpResponseException(java.lang.String);
+}

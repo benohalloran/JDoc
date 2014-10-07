@@ -1,0 +1,12 @@
+Compiled from "AtomicBoolean.java"
+public class java.util.concurrent.atomic.AtomicBoolean implements java.io.Serializable {
+  public java.util.concurrent.atomic.AtomicBoolean(boolean);
+  public java.util.concurrent.atomic.AtomicBoolean();
+  public final boolean get();
+  public final boolean compareAndSet(boolean, boolean);
+  public boolean weakCompareAndSet(boolean, boolean);
+  public final void set(boolean);
+  public final void lazySet(boolean);
+  public final boolean getAndSet(boolean);
+  public java.lang.String toString();
+}

@@ -1,0 +1,10 @@
+Compiled from "ImageSwitcher.java"
+public class android.widget.ImageSwitcher extends android.widget.ViewSwitcher {
+  public android.widget.ImageSwitcher(android.content.Context);
+  public android.widget.ImageSwitcher(android.content.Context, android.util.AttributeSet);
+  public void setImageResource(int);
+  public void setImageURI(android.net.Uri);
+  public void setImageDrawable(android.graphics.drawable.Drawable);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

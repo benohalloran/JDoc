@@ -1,0 +1,4 @@
+Compiled from "CornerPathEffect.java"
+public class android.graphics.CornerPathEffect extends android.graphics.PathEffect {
+  public android.graphics.CornerPathEffect(float);
+}

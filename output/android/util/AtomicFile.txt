@@ -1,0 +1,11 @@
+Compiled from "AtomicFile.java"
+public class android.util.AtomicFile {
+  public android.util.AtomicFile(java.io.File);
+  public java.io.File getBaseFile();
+  public void delete();
+  public java.io.FileOutputStream startWrite() throws java.io.IOException;
+  public void finishWrite(java.io.FileOutputStream);
+  public void failWrite(java.io.FileOutputStream);
+  public java.io.FileInputStream openRead() throws java.io.FileNotFoundException;
+  public byte[] readFully() throws java.io.IOException;
+}

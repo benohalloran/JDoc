@@ -1,0 +1,9 @@
+Compiled from "ClientContextConfigurer.java"
+public class org.apache.http.client.protocol.ClientContextConfigurer implements org.apache.http.client.protocol.ClientContext {
+  public org.apache.http.client.protocol.ClientContextConfigurer(org.apache.http.protocol.HttpContext);
+  public void setCookieSpecRegistry(org.apache.http.cookie.CookieSpecRegistry);
+  public void setAuthSchemeRegistry(org.apache.http.auth.AuthSchemeRegistry);
+  public void setCookieStore(org.apache.http.client.CookieStore);
+  public void setCredentialsProvider(org.apache.http.client.CredentialsProvider);
+  public void setAuthSchemePref(java.util.List<java.lang.String>);
+}

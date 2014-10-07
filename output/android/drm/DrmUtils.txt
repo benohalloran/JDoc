@@ -1,0 +1,5 @@
+Compiled from "DrmUtils.java"
+public class android.drm.DrmUtils {
+  public android.drm.DrmUtils();
+  public static android.drm.DrmUtils$ExtendedMetadataParser getExtendedMetadataParser(byte[]);
+}

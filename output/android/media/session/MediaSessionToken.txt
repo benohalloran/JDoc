@@ -1,0 +1,8 @@
+Compiled from "MediaSessionToken.java"
+public final class android.media.session.MediaSessionToken implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.media.session.MediaSessionToken> CREATOR;
+  android.media.session.MediaSessionToken();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

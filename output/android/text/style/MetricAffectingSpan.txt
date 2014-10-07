@@ -1,0 +1,7 @@
+Compiled from "MetricAffectingSpan.java"
+public abstract class android.text.style.MetricAffectingSpan extends android.text.style.CharacterStyle implements android.text.style.UpdateLayout {
+  public android.text.style.MetricAffectingSpan();
+  public abstract void updateMeasureState(android.text.TextPaint);
+  public android.text.style.MetricAffectingSpan getUnderlying();
+  public android.text.style.CharacterStyle getUnderlying();
+}

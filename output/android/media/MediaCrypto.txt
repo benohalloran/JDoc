@@ -1,0 +1,8 @@
+Compiled from "MediaCrypto.java"
+public final class android.media.MediaCrypto {
+  public android.media.MediaCrypto(java.util.UUID, byte[]) throws android.media.MediaCryptoException;
+  public static final boolean isCryptoSchemeSupported(java.util.UUID);
+  public final native boolean requiresSecureDecoderComponent(java.lang.String);
+  protected void finalize();
+  public final native void release();
+}

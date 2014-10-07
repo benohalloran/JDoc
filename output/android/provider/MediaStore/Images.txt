@@ -1,0 +1,4 @@
+Compiled from "MediaStore.java"
+public final class android.provider.MediaStore$Images {
+  public android.provider.MediaStore$Images();
+}

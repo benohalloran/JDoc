@@ -1,0 +1,12 @@
+Compiled from "AbstractVerifier.java"
+public abstract class org.apache.http.conn.ssl.AbstractVerifier implements org.apache.http.conn.ssl.X509HostnameVerifier {
+  public org.apache.http.conn.ssl.AbstractVerifier();
+  public final void verify(java.lang.String, javax.net.ssl.SSLSocket) throws java.io.IOException;
+  public final boolean verify(java.lang.String, javax.net.ssl.SSLSession);
+  public final void verify(java.lang.String, java.security.cert.X509Certificate) throws javax.net.ssl.SSLException;
+  public final void verify(java.lang.String, java.lang.String[], java.lang.String[], boolean) throws javax.net.ssl.SSLException;
+  public static boolean acceptableCountryWildcard(java.lang.String);
+  public static java.lang.String[] getCNs(java.security.cert.X509Certificate);
+  public static java.lang.String[] getDNSSubjectAlts(java.security.cert.X509Certificate);
+  public static int countDots(java.lang.String);
+}

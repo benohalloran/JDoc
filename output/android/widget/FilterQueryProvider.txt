@@ -1,0 +1,4 @@
+Compiled from "FilterQueryProvider.java"
+public interface android.widget.FilterQueryProvider {
+  public abstract android.database.Cursor runQuery(java.lang.CharSequence);
+}

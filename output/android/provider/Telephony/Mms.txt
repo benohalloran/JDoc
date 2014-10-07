@@ -1,0 +1,9 @@
+Compiled from "Telephony.java"
+public final class android.provider.Telephony$Mms implements android.provider.Telephony$BaseMmsColumns {
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final android.net.Uri REPORT_REQUEST_URI;
+  public static final android.net.Uri REPORT_STATUS_URI;
+  android.provider.Telephony$Mms();
+  static {};
+}

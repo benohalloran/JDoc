@@ -1,0 +1,7 @@
+Compiled from "ActionMenuView.java"
+public class android.widget.ActionMenuView$LayoutParams extends android.widget.LinearLayout$LayoutParams {
+  public android.widget.ActionMenuView$LayoutParams(android.content.Context, android.util.AttributeSet);
+  public android.widget.ActionMenuView$LayoutParams(android.view.ViewGroup$LayoutParams);
+  public android.widget.ActionMenuView$LayoutParams(android.widget.ActionMenuView$LayoutParams);
+  public android.widget.ActionMenuView$LayoutParams(int, int);
+}

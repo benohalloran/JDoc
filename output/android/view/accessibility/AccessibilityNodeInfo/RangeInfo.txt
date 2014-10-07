@@ -1,0 +1,12 @@
+Compiled from "AccessibilityNodeInfo.java"
+public final class android.view.accessibility.AccessibilityNodeInfo$RangeInfo {
+  public static final int RANGE_TYPE_FLOAT;
+  public static final int RANGE_TYPE_INT;
+  public static final int RANGE_TYPE_PERCENT;
+  android.view.accessibility.AccessibilityNodeInfo$RangeInfo();
+  public static android.view.accessibility.AccessibilityNodeInfo$RangeInfo obtain(int, float, float, float);
+  public int getType();
+  public float getMin();
+  public float getMax();
+  public float getCurrent();
+}

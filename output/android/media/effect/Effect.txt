@@ -1,0 +1,9 @@
+Compiled from "Effect.java"
+public abstract class android.media.effect.Effect {
+  public android.media.effect.Effect();
+  public abstract java.lang.String getName();
+  public abstract void apply(int, int, int, int);
+  public abstract void setParameter(java.lang.String, java.lang.Object);
+  public void setUpdateListener(android.media.effect.EffectUpdateListener);
+  public abstract void release();
+}

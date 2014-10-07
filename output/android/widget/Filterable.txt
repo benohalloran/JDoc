@@ -1,0 +1,4 @@
+Compiled from "Filterable.java"
+public interface android.widget.Filterable {
+  public abstract android.widget.Filter getFilter();
+}

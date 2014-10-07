@@ -1,0 +1,9 @@
+Compiled from "Layout.java"
+public final class android.text.Layout$Alignment extends java.lang.Enum<android.text.Layout$Alignment> {
+  public static final android.text.Layout$Alignment ALIGN_CENTER;
+  public static final android.text.Layout$Alignment ALIGN_NORMAL;
+  public static final android.text.Layout$Alignment ALIGN_OPPOSITE;
+  public static android.text.Layout$Alignment[] values();
+  public static android.text.Layout$Alignment valueOf(java.lang.String);
+  static {};
+}

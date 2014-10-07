@@ -1,0 +1,7 @@
+Compiled from "UserDictionary.java"
+public class android.provider.UserDictionary {
+  public static final java.lang.String AUTHORITY;
+  public static final android.net.Uri CONTENT_URI;
+  public android.provider.UserDictionary();
+  static {};
+}

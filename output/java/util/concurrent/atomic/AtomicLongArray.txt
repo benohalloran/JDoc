@@ -1,0 +1,19 @@
+Compiled from "AtomicLongArray.java"
+public class java.util.concurrent.atomic.AtomicLongArray implements java.io.Serializable {
+  public java.util.concurrent.atomic.AtomicLongArray(int);
+  public java.util.concurrent.atomic.AtomicLongArray(long[]);
+  public final int length();
+  public final long get(int);
+  public final void set(int, long);
+  public final void lazySet(int, long);
+  public final long getAndSet(int, long);
+  public final boolean compareAndSet(int, long, long);
+  public final boolean weakCompareAndSet(int, long, long);
+  public final long getAndIncrement(int);
+  public final long getAndDecrement(int);
+  public final long getAndAdd(int, long);
+  public final long incrementAndGet(int);
+  public final long decrementAndGet(int);
+  public long addAndGet(int, long);
+  public java.lang.String toString();
+}

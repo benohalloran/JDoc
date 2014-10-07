@@ -1,0 +1,21 @@
+Compiled from "CaptioningManager.java"
+public final class android.view.accessibility.CaptioningManager$CaptionStyle {
+  public static final int EDGE_TYPE_DEPRESSED;
+  public static final int EDGE_TYPE_DROP_SHADOW;
+  public static final int EDGE_TYPE_NONE;
+  public static final int EDGE_TYPE_OUTLINE;
+  public static final int EDGE_TYPE_RAISED;
+  public static final int EDGE_TYPE_UNSPECIFIED;
+  public final int backgroundColor;
+  public final int edgeColor;
+  public final int edgeType;
+  public final int foregroundColor;
+  public final int windowColor;
+  android.view.accessibility.CaptioningManager$CaptionStyle();
+  public boolean hasBackgroundColor();
+  public boolean hasForegroundColor();
+  public boolean hasEdgeType();
+  public boolean hasEdgeColor();
+  public boolean hasWindowColor();
+  public android.graphics.Typeface getTypeface();
+}

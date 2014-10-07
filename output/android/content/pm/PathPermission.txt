@@ -1,0 +1,10 @@
+Compiled from "PathPermission.java"
+public class android.content.pm.PathPermission extends android.os.PatternMatcher {
+  public static final android.os.Parcelable$Creator<android.content.pm.PathPermission> CREATOR;
+  public android.content.pm.PathPermission(java.lang.String, int, java.lang.String, java.lang.String);
+  public android.content.pm.PathPermission(android.os.Parcel);
+  public java.lang.String getReadPermission();
+  public java.lang.String getWritePermission();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

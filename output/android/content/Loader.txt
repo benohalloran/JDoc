@@ -1,0 +1,34 @@
+Compiled from "Loader.java"
+public class android.content.Loader<D> {
+  public android.content.Loader(android.content.Context);
+  public void deliverResult(D);
+  public void deliverCancellation();
+  public android.content.Context getContext();
+  public int getId();
+  public void registerListener(int, android.content.Loader$OnLoadCompleteListener<D>);
+  public void unregisterListener(android.content.Loader$OnLoadCompleteListener<D>);
+  public void registerOnLoadCanceledListener(android.content.Loader$OnLoadCanceledListener<D>);
+  public void unregisterOnLoadCanceledListener(android.content.Loader$OnLoadCanceledListener<D>);
+  public boolean isStarted();
+  public boolean isAbandoned();
+  public boolean isReset();
+  public final void startLoading();
+  protected void onStartLoading();
+  public boolean cancelLoad();
+  protected boolean onCancelLoad();
+  public void forceLoad();
+  protected void onForceLoad();
+  public void stopLoading();
+  protected void onStopLoading();
+  public void abandon();
+  protected void onAbandon();
+  public void reset();
+  protected void onReset();
+  public boolean takeContentChanged();
+  public void commitContentChanged();
+  public void rollbackContentChanged();
+  public void onContentChanged();
+  public java.lang.String dataToString(D);
+  public java.lang.String toString();
+  public void dump(java.lang.String, java.io.FileDescriptor, java.io.PrintWriter, java.lang.String[]);
+}

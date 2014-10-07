@@ -1,0 +1,6 @@
+Compiled from "ActionBar.java"
+public interface android.app.ActionBar$TabListener {
+  public abstract void onTabSelected(android.app.ActionBar$Tab, android.app.FragmentTransaction);
+  public abstract void onTabUnselected(android.app.ActionBar$Tab, android.app.FragmentTransaction);
+  public abstract void onTabReselected(android.app.ActionBar$Tab, android.app.FragmentTransaction);
+}

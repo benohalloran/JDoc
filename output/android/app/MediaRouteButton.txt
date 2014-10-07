@@ -1,0 +1,22 @@
+Compiled from "MediaRouteButton.java"
+public class android.app.MediaRouteButton extends android.view.View {
+  public android.app.MediaRouteButton(android.content.Context);
+  public android.app.MediaRouteButton(android.content.Context, android.util.AttributeSet);
+  public android.app.MediaRouteButton(android.content.Context, android.util.AttributeSet, int);
+  public android.app.MediaRouteButton(android.content.Context, android.util.AttributeSet, int, int);
+  public int getRouteTypes();
+  public void setRouteTypes(int);
+  public void setExtendedSettingsClickListener(android.view.View$OnClickListener);
+  public void showDialog();
+  public boolean performClick();
+  public boolean performLongClick();
+  protected int[] onCreateDrawableState(int);
+  protected void drawableStateChanged();
+  protected boolean verifyDrawable(android.graphics.drawable.Drawable);
+  public void jumpDrawablesToCurrentState();
+  public void setVisibility(int);
+  public void onAttachedToWindow();
+  public void onDetachedFromWindow();
+  protected void onMeasure(int, int);
+  protected void onDraw(android.graphics.Canvas);
+}

@@ -1,0 +1,4 @@
+Compiled from "NoCopySpan.java"
+public class android.text.NoCopySpan$Concrete implements android.text.NoCopySpan {
+  public android.text.NoCopySpan$Concrete();
+}

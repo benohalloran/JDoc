@@ -1,0 +1,20 @@
+Compiled from "SipProfile.java"
+public class android.net.sip.SipProfile implements android.os.Parcelable,java.io.Serializable,java.lang.Cloneable {
+  public static final android.os.Parcelable$Creator<android.net.sip.SipProfile> CREATOR;
+  android.net.sip.SipProfile();
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  public java.lang.String getUriString();
+  public java.lang.String getDisplayName();
+  public java.lang.String getUserName();
+  public java.lang.String getAuthUserName();
+  public java.lang.String getPassword();
+  public java.lang.String getSipDomain();
+  public int getPort();
+  public java.lang.String getProtocol();
+  public java.lang.String getProxyAddress();
+  public java.lang.String getProfileName();
+  public boolean getSendKeepAlive();
+  public boolean getAutoRegistration();
+  static {};
+}

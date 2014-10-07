@@ -1,0 +1,5 @@
+Compiled from "ServiceConnection.java"
+public interface android.content.ServiceConnection {
+  public abstract void onServiceConnected(android.content.ComponentName, android.os.IBinder);
+  public abstract void onServiceDisconnected(android.content.ComponentName);
+}

@@ -1,0 +1,13 @@
+Compiled from "BackupAgent.java"
+public abstract class android.app.backup.BackupAgent extends android.content.ContextWrapper {
+  public static final int TYPE_DIRECTORY;
+  public static final int TYPE_FILE;
+  public android.app.backup.BackupAgent();
+  public void onCreate();
+  public void onDestroy();
+  public abstract void onBackup(android.os.ParcelFileDescriptor, android.app.backup.BackupDataOutput, android.os.ParcelFileDescriptor) throws java.io.IOException;
+  public abstract void onRestore(android.app.backup.BackupDataInput, int, android.os.ParcelFileDescriptor) throws java.io.IOException;
+  public void onFullBackup(android.app.backup.FullBackupDataOutput) throws java.io.IOException;
+  public final void fullBackupFile(java.io.File, android.app.backup.FullBackupDataOutput);
+  public void onRestoreFile(android.os.ParcelFileDescriptor, long, java.io.File, int, long, long) throws java.io.IOException;
+}

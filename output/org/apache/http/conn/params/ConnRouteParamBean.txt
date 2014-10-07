@@ -1,0 +1,7 @@
+Compiled from "ConnRouteParamBean.java"
+public class org.apache.http.conn.params.ConnRouteParamBean extends org.apache.http.params.HttpAbstractParamBean {
+  public org.apache.http.conn.params.ConnRouteParamBean(org.apache.http.params.HttpParams);
+  public void setDefaultProxy(org.apache.http.HttpHost);
+  public void setLocalAddress(java.net.InetAddress);
+  public void setForcedRoute(org.apache.http.conn.routing.HttpRoute);
+}

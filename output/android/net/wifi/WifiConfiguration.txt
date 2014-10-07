@@ -1,0 +1,22 @@
+Compiled from "WifiConfiguration.java"
+public class android.net.wifi.WifiConfiguration implements android.os.Parcelable {
+  public java.lang.String BSSID;
+  public java.lang.String SSID;
+  public java.util.BitSet allowedAuthAlgorithms;
+  public java.util.BitSet allowedGroupCiphers;
+  public java.util.BitSet allowedKeyManagement;
+  public java.util.BitSet allowedPairwiseCiphers;
+  public java.util.BitSet allowedProtocols;
+  public android.net.wifi.WifiEnterpriseConfig enterpriseConfig;
+  public boolean hiddenSSID;
+  public int networkId;
+  public java.lang.String preSharedKey;
+  public int priority;
+  public int status;
+  public java.lang.String[] wepKeys;
+  public int wepTxKeyIndex;
+  public android.net.wifi.WifiConfiguration();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+}

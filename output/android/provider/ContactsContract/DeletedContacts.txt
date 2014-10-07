@@ -1,0 +1,7 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$DeletedContacts implements android.provider.ContactsContract$DeletedContactsColumns {
+  public static final android.net.Uri CONTENT_URI;
+  public static final long DAYS_KEPT_MILLISECONDS;
+  android.provider.ContactsContract$DeletedContacts();
+  static {};
+}

@@ -1,0 +1,5 @@
+Compiled from "WifiP2pDnsSdServiceInfo.java"
+public class android.net.wifi.p2p.nsd.WifiP2pDnsSdServiceInfo extends android.net.wifi.p2p.nsd.WifiP2pServiceInfo {
+  android.net.wifi.p2p.nsd.WifiP2pDnsSdServiceInfo();
+  public static android.net.wifi.p2p.nsd.WifiP2pDnsSdServiceInfo newInstance(java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>);
+}

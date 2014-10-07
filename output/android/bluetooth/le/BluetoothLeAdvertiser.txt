@@ -1,0 +1,7 @@
+Compiled from "BluetoothLeAdvertiser.java"
+public final class android.bluetooth.le.BluetoothLeAdvertiser {
+  android.bluetooth.le.BluetoothLeAdvertiser();
+  public void startAdvertising(android.bluetooth.le.AdvertiseSettings, android.bluetooth.le.AdvertisementData, android.bluetooth.le.AdvertiseCallback);
+  public void startAdvertising(android.bluetooth.le.AdvertiseSettings, android.bluetooth.le.AdvertisementData, android.bluetooth.le.AdvertisementData, android.bluetooth.le.AdvertiseCallback);
+  public void stopAdvertising(android.bluetooth.le.AdvertiseCallback);
+}

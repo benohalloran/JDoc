@@ -1,0 +1,11 @@
+Compiled from "ShareActionProvider.java"
+public class android.widget.ShareActionProvider extends android.view.ActionProvider {
+  public static final java.lang.String DEFAULT_SHARE_HISTORY_FILE_NAME;
+  public android.widget.ShareActionProvider(android.content.Context);
+  public void setOnShareTargetSelectedListener(android.widget.ShareActionProvider$OnShareTargetSelectedListener);
+  public android.view.View onCreateActionView();
+  public boolean hasSubMenu();
+  public void onPrepareSubMenu(android.view.SubMenu);
+  public void setShareHistoryFileName(java.lang.String);
+  public void setShareIntent(android.content.Intent);
+}

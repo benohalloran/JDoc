@@ -1,0 +1,32 @@
+Compiled from "AbstractClientConnAdapter.java"
+public abstract class org.apache.http.impl.conn.AbstractClientConnAdapter implements org.apache.http.conn.ManagedClientConnection {
+  protected org.apache.http.impl.conn.AbstractClientConnAdapter(org.apache.http.conn.ClientConnectionManager, org.apache.http.conn.OperatedClientConnection);
+  protected void detach();
+  protected org.apache.http.conn.OperatedClientConnection getWrappedConnection();
+  protected org.apache.http.conn.ClientConnectionManager getManager();
+  protected final void assertNotAborted() throws java.io.InterruptedIOException;
+  protected final void assertValid(org.apache.http.conn.OperatedClientConnection);
+  public boolean isOpen();
+  public boolean isStale();
+  public void setSocketTimeout(int);
+  public int getSocketTimeout();
+  public org.apache.http.HttpConnectionMetrics getMetrics();
+  public void flush() throws java.io.IOException;
+  public boolean isResponseAvailable(int) throws java.io.IOException;
+  public void receiveResponseEntity(org.apache.http.HttpResponse) throws org.apache.http.HttpException, java.io.IOException;
+  public org.apache.http.HttpResponse receiveResponseHeader() throws org.apache.http.HttpException, java.io.IOException;
+  public void sendRequestEntity(org.apache.http.HttpEntityEnclosingRequest) throws org.apache.http.HttpException, java.io.IOException;
+  public void sendRequestHeader(org.apache.http.HttpRequest) throws org.apache.http.HttpException, java.io.IOException;
+  public java.net.InetAddress getLocalAddress();
+  public int getLocalPort();
+  public java.net.InetAddress getRemoteAddress();
+  public int getRemotePort();
+  public boolean isSecure();
+  public javax.net.ssl.SSLSession getSSLSession();
+  public void markReusable();
+  public void unmarkReusable();
+  public boolean isMarkedReusable();
+  public void setIdleDuration(long, java.util.concurrent.TimeUnit);
+  public void releaseConnection();
+  public void abortConnection();
+}

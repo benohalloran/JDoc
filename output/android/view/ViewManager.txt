@@ -1,0 +1,6 @@
+Compiled from "ViewManager.java"
+public interface android.view.ViewManager {
+  public abstract void addView(android.view.View, android.view.ViewGroup$LayoutParams);
+  public abstract void updateViewLayout(android.view.View, android.view.ViewGroup$LayoutParams);
+  public abstract void removeView(android.view.View);
+}

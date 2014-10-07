@@ -1,0 +1,14 @@
+Compiled from "CompletionInfo.java"
+public final class android.view.inputmethod.CompletionInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.inputmethod.CompletionInfo> CREATOR;
+  public android.view.inputmethod.CompletionInfo(long, int, java.lang.CharSequence);
+  public android.view.inputmethod.CompletionInfo(long, int, java.lang.CharSequence, java.lang.CharSequence);
+  public long getId();
+  public int getPosition();
+  public java.lang.CharSequence getText();
+  public java.lang.CharSequence getLabel();
+  public java.lang.String toString();
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  static {};
+}

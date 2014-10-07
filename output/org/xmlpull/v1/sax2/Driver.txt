@@ -1,0 +1,48 @@
+Compiled from "Driver.java"
+public class org.xmlpull.v1.sax2.Driver implements org.xml.sax.Locator,org.xml.sax.XMLReader,org.xml.sax.Attributes {
+  protected static final java.lang.String APACHE_DYNAMIC_VALIDATION_FEATURE;
+  protected static final java.lang.String APACHE_SCHEMA_VALIDATION_FEATURE;
+  protected static final java.lang.String DECLARATION_HANDLER_PROPERTY;
+  protected static final java.lang.String LEXICAL_HANDLER_PROPERTY;
+  protected static final java.lang.String NAMESPACES_FEATURE;
+  protected static final java.lang.String NAMESPACE_PREFIXES_FEATURE;
+  protected static final java.lang.String VALIDATION_FEATURE;
+  protected org.xml.sax.ContentHandler contentHandler;
+  protected org.xml.sax.ErrorHandler errorHandler;
+  protected org.xmlpull.v1.XmlPullParser pp;
+  protected java.lang.String systemId;
+  public org.xmlpull.v1.sax2.Driver() throws org.xmlpull.v1.XmlPullParserException;
+  public org.xmlpull.v1.sax2.Driver(org.xmlpull.v1.XmlPullParser) throws org.xmlpull.v1.XmlPullParserException;
+  public int getLength();
+  public java.lang.String getURI(int);
+  public java.lang.String getLocalName(int);
+  public java.lang.String getQName(int);
+  public java.lang.String getType(int);
+  public java.lang.String getValue(int);
+  public int getIndex(java.lang.String, java.lang.String);
+  public int getIndex(java.lang.String);
+  public java.lang.String getType(java.lang.String, java.lang.String);
+  public java.lang.String getType(java.lang.String);
+  public java.lang.String getValue(java.lang.String, java.lang.String);
+  public java.lang.String getValue(java.lang.String);
+  public java.lang.String getPublicId();
+  public java.lang.String getSystemId();
+  public int getLineNumber();
+  public int getColumnNumber();
+  public boolean getFeature(java.lang.String) throws org.xml.sax.SAXNotRecognizedException, org.xml.sax.SAXNotSupportedException;
+  public void setFeature(java.lang.String, boolean) throws org.xml.sax.SAXNotRecognizedException, org.xml.sax.SAXNotSupportedException;
+  public java.lang.Object getProperty(java.lang.String) throws org.xml.sax.SAXNotRecognizedException, org.xml.sax.SAXNotSupportedException;
+  public void setProperty(java.lang.String, java.lang.Object) throws org.xml.sax.SAXNotRecognizedException, org.xml.sax.SAXNotSupportedException;
+  public void setEntityResolver(org.xml.sax.EntityResolver);
+  public org.xml.sax.EntityResolver getEntityResolver();
+  public void setDTDHandler(org.xml.sax.DTDHandler);
+  public org.xml.sax.DTDHandler getDTDHandler();
+  public void setContentHandler(org.xml.sax.ContentHandler);
+  public org.xml.sax.ContentHandler getContentHandler();
+  public void setErrorHandler(org.xml.sax.ErrorHandler);
+  public org.xml.sax.ErrorHandler getErrorHandler();
+  public void parse(org.xml.sax.InputSource) throws org.xml.sax.SAXException, java.io.IOException;
+  public void parse(java.lang.String) throws org.xml.sax.SAXException, java.io.IOException;
+  public void parseSubTree(org.xmlpull.v1.XmlPullParser) throws org.xml.sax.SAXException, java.io.IOException;
+  protected void startElement(java.lang.String, java.lang.String, java.lang.String) throws org.xml.sax.SAXException;
+}

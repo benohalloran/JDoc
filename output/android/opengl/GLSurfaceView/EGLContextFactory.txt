@@ -1,0 +1,5 @@
+Compiled from "GLSurfaceView.java"
+public interface android.opengl.GLSurfaceView$EGLContextFactory {
+  public abstract javax.microedition.khronos.egl.EGLContext createContext(javax.microedition.khronos.egl.EGL10, javax.microedition.khronos.egl.EGLDisplay, javax.microedition.khronos.egl.EGLConfig);
+  public abstract void destroyContext(javax.microedition.khronos.egl.EGL10, javax.microedition.khronos.egl.EGLDisplay, javax.microedition.khronos.egl.EGLContext);
+}

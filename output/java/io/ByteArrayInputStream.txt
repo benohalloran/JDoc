@@ -1,0 +1,17 @@
+Compiled from "ByteArrayInputStream.java"
+public class java.io.ByteArrayInputStream extends java.io.InputStream {
+  protected byte[] buf;
+  protected int count;
+  protected int mark;
+  protected int pos;
+  public java.io.ByteArrayInputStream(byte[]);
+  public java.io.ByteArrayInputStream(byte[], int, int);
+  public synchronized int available();
+  public void close() throws java.io.IOException;
+  public synchronized void mark(int);
+  public boolean markSupported();
+  public synchronized int read();
+  public synchronized int read(byte[], int, int);
+  public synchronized void reset();
+  public synchronized long skip(long);
+}

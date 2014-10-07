@@ -1,0 +1,12 @@
+Compiled from "SpellCheckerService.java"
+public abstract class android.service.textservice.SpellCheckerService$Session {
+  public android.service.textservice.SpellCheckerService$Session();
+  public abstract void onCreate();
+  public abstract android.view.textservice.SuggestionsInfo onGetSuggestions(android.view.textservice.TextInfo, int);
+  public android.view.textservice.SuggestionsInfo[] onGetSuggestionsMultiple(android.view.textservice.TextInfo[], int, boolean);
+  public android.view.textservice.SentenceSuggestionsInfo[] onGetSentenceSuggestionsMultiple(android.view.textservice.TextInfo[], int);
+  public void onCancel();
+  public void onClose();
+  public java.lang.String getLocale();
+  public android.os.Bundle getBundle();
+}

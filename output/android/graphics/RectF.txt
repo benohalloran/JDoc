@@ -1,0 +1,46 @@
+Compiled from "RectF.java"
+public class android.graphics.RectF implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.graphics.RectF> CREATOR;
+  public float bottom;
+  public float left;
+  public float right;
+  public float top;
+  public android.graphics.RectF();
+  public android.graphics.RectF(float, float, float, float);
+  public android.graphics.RectF(android.graphics.RectF);
+  public android.graphics.RectF(android.graphics.Rect);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public java.lang.String toShortString();
+  public final boolean isEmpty();
+  public final float width();
+  public final float height();
+  public final float centerX();
+  public final float centerY();
+  public void setEmpty();
+  public void set(float, float, float, float);
+  public void set(android.graphics.RectF);
+  public void set(android.graphics.Rect);
+  public void offset(float, float);
+  public void offsetTo(float, float);
+  public void inset(float, float);
+  public boolean contains(float, float);
+  public boolean contains(float, float, float, float);
+  public boolean contains(android.graphics.RectF);
+  public boolean intersect(float, float, float, float);
+  public boolean intersect(android.graphics.RectF);
+  public boolean setIntersect(android.graphics.RectF, android.graphics.RectF);
+  public boolean intersects(float, float, float, float);
+  public static boolean intersects(android.graphics.RectF, android.graphics.RectF);
+  public void round(android.graphics.Rect);
+  public void roundOut(android.graphics.Rect);
+  public void union(float, float, float, float);
+  public void union(android.graphics.RectF);
+  public void union(float, float);
+  public void sort();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public void readFromParcel(android.os.Parcel);
+  static {};
+}

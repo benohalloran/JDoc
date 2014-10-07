@@ -1,0 +1,11 @@
+Compiled from "NetworkRequest.java"
+public class android.net.NetworkRequest implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.net.NetworkRequest> CREATOR;
+  android.net.NetworkRequest();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  static {};
+}

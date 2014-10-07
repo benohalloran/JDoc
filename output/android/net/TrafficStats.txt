@@ -1,0 +1,32 @@
+Compiled from "TrafficStats.java"
+public class android.net.TrafficStats {
+  public static final int UNSUPPORTED;
+  public android.net.TrafficStats();
+  public static void setThreadStatsTag(int);
+  public static int getThreadStatsTag();
+  public static void clearThreadStatsTag();
+  public static void tagSocket(java.net.Socket) throws java.net.SocketException;
+  public static void untagSocket(java.net.Socket) throws java.net.SocketException;
+  public static void incrementOperationCount(int);
+  public static void incrementOperationCount(int, int);
+  public static long getMobileTxPackets();
+  public static long getMobileRxPackets();
+  public static long getMobileTxBytes();
+  public static long getMobileRxBytes();
+  public static long getTotalTxPackets();
+  public static long getTotalRxPackets();
+  public static long getTotalTxBytes();
+  public static long getTotalRxBytes();
+  public static long getUidTxBytes(int);
+  public static long getUidRxBytes(int);
+  public static long getUidTxPackets(int);
+  public static long getUidRxPackets(int);
+  public static long getUidTcpTxBytes(int);
+  public static long getUidTcpRxBytes(int);
+  public static long getUidUdpTxBytes(int);
+  public static long getUidUdpRxBytes(int);
+  public static long getUidTcpTxSegments(int);
+  public static long getUidTcpRxSegments(int);
+  public static long getUidUdpTxPackets(int);
+  public static long getUidUdpRxPackets(int);
+}

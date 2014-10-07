@@ -1,0 +1,8 @@
+Compiled from "ThreadLocal.java"
+public class java.lang.ThreadLocal<T> {
+  public java.lang.ThreadLocal();
+  public T get();
+  protected T initialValue();
+  public void set(T);
+  public void remove();
+}

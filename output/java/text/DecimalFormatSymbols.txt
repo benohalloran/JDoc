@@ -1,0 +1,42 @@
+Compiled from "DecimalFormatSymbols.java"
+public class java.text.DecimalFormatSymbols implements java.lang.Cloneable,java.io.Serializable {
+  public java.text.DecimalFormatSymbols();
+  public java.text.DecimalFormatSymbols(java.util.Locale);
+  public static java.text.DecimalFormatSymbols getInstance();
+  public static java.text.DecimalFormatSymbols getInstance(java.util.Locale);
+  public static java.util.Locale[] getAvailableLocales();
+  public java.lang.Object clone();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public java.util.Currency getCurrency();
+  public java.lang.String getInternationalCurrencySymbol();
+  public java.lang.String getCurrencySymbol();
+  public char getDecimalSeparator();
+  public char getDigit();
+  public char getGroupingSeparator();
+  public java.lang.String getInfinity();
+  public char getMinusSign();
+  public char getMonetaryDecimalSeparator();
+  public java.lang.String getNaN();
+  public char getPatternSeparator();
+  public char getPercent();
+  public char getPerMill();
+  public char getZeroDigit();
+  public java.lang.String getExponentSeparator();
+  public int hashCode();
+  public void setCurrency(java.util.Currency);
+  public void setInternationalCurrencySymbol(java.lang.String);
+  public void setCurrencySymbol(java.lang.String);
+  public void setDecimalSeparator(char);
+  public void setDigit(char);
+  public void setGroupingSeparator(char);
+  public void setInfinity(java.lang.String);
+  public void setMinusSign(char);
+  public void setMonetaryDecimalSeparator(char);
+  public void setNaN(java.lang.String);
+  public void setPatternSeparator(char);
+  public void setPercent(char);
+  public void setPerMill(char);
+  public void setZeroDigit(char);
+  public void setExponentSeparator(java.lang.String);
+}

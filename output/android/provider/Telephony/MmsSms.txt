@@ -1,0 +1,23 @@
+Compiled from "Telephony.java"
+public final class android.provider.Telephony$MmsSms implements android.provider.BaseColumns {
+  public static final android.net.Uri CONTENT_CONVERSATIONS_URI;
+  public static final android.net.Uri CONTENT_DRAFT_URI;
+  public static final android.net.Uri CONTENT_FILTER_BYPHONE_URI;
+  public static final android.net.Uri CONTENT_LOCKED_URI;
+  public static final android.net.Uri CONTENT_UNDELIVERED_URI;
+  public static final android.net.Uri CONTENT_URI;
+  public static final int ERR_TYPE_GENERIC;
+  public static final int ERR_TYPE_GENERIC_PERMANENT;
+  public static final int ERR_TYPE_MMS_PROTO_PERMANENT;
+  public static final int ERR_TYPE_MMS_PROTO_TRANSIENT;
+  public static final int ERR_TYPE_SMS_PROTO_PERMANENT;
+  public static final int ERR_TYPE_SMS_PROTO_TRANSIENT;
+  public static final int ERR_TYPE_TRANSPORT_FAILURE;
+  public static final int MMS_PROTO;
+  public static final int NO_ERROR;
+  public static final android.net.Uri SEARCH_URI;
+  public static final int SMS_PROTO;
+  public static final java.lang.String TYPE_DISCRIMINATOR_COLUMN;
+  android.provider.Telephony$MmsSms();
+  static {};
+}

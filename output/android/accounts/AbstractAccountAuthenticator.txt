@@ -1,0 +1,15 @@
+Compiled from "AbstractAccountAuthenticator.java"
+public abstract class android.accounts.AbstractAccountAuthenticator {
+  public android.accounts.AbstractAccountAuthenticator(android.content.Context);
+  public final android.os.IBinder getIBinder();
+  public abstract android.os.Bundle editProperties(android.accounts.AccountAuthenticatorResponse, java.lang.String);
+  public abstract android.os.Bundle addAccount(android.accounts.AccountAuthenticatorResponse, java.lang.String, java.lang.String, java.lang.String[], android.os.Bundle) throws android.accounts.NetworkErrorException;
+  public abstract android.os.Bundle confirmCredentials(android.accounts.AccountAuthenticatorResponse, android.accounts.Account, android.os.Bundle) throws android.accounts.NetworkErrorException;
+  public abstract android.os.Bundle getAuthToken(android.accounts.AccountAuthenticatorResponse, android.accounts.Account, java.lang.String, android.os.Bundle) throws android.accounts.NetworkErrorException;
+  public abstract java.lang.String getAuthTokenLabel(java.lang.String);
+  public abstract android.os.Bundle updateCredentials(android.accounts.AccountAuthenticatorResponse, android.accounts.Account, java.lang.String, android.os.Bundle) throws android.accounts.NetworkErrorException;
+  public abstract android.os.Bundle hasFeatures(android.accounts.AccountAuthenticatorResponse, android.accounts.Account, java.lang.String[]) throws android.accounts.NetworkErrorException;
+  public android.os.Bundle getAccountRemovalAllowed(android.accounts.AccountAuthenticatorResponse, android.accounts.Account) throws android.accounts.NetworkErrorException;
+  public android.os.Bundle getAccountCredentialsForCloning(android.accounts.AccountAuthenticatorResponse, android.accounts.Account) throws android.accounts.NetworkErrorException;
+  public android.os.Bundle addAccountFromCredentials(android.accounts.AccountAuthenticatorResponse, android.accounts.Account, android.os.Bundle) throws android.accounts.NetworkErrorException;
+}

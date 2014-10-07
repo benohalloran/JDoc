@@ -1,0 +1,22 @@
+Compiled from "BroadcastReceiver.java"
+public abstract class android.content.BroadcastReceiver {
+  public android.content.BroadcastReceiver();
+  public abstract void onReceive(android.content.Context, android.content.Intent);
+  public final android.content.BroadcastReceiver$PendingResult goAsync();
+  public android.os.IBinder peekService(android.content.Context, android.content.Intent);
+  public final void setResultCode(int);
+  public final int getResultCode();
+  public final void setResultData(java.lang.String);
+  public final java.lang.String getResultData();
+  public final void setResultExtras(android.os.Bundle);
+  public final android.os.Bundle getResultExtras(boolean);
+  public final void setResult(int, java.lang.String, android.os.Bundle);
+  public final boolean getAbortBroadcast();
+  public final void abortBroadcast();
+  public final void clearAbortBroadcast();
+  public final boolean isOrderedBroadcast();
+  public final boolean isInitialStickyBroadcast();
+  public final void setOrderedHint(boolean);
+  public final void setDebugUnregister(boolean);
+  public final boolean getDebugUnregister();
+}

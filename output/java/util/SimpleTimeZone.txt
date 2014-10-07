@@ -1,0 +1,30 @@
+Compiled from "SimpleTimeZone.java"
+public class java.util.SimpleTimeZone extends java.util.TimeZone {
+  public static final int STANDARD_TIME;
+  public static final int UTC_TIME;
+  public static final int WALL_TIME;
+  public java.util.SimpleTimeZone(int, java.lang.String);
+  public java.util.SimpleTimeZone(int, java.lang.String, int, int, int, int, int, int, int, int);
+  public java.util.SimpleTimeZone(int, java.lang.String, int, int, int, int, int, int, int, int, int);
+  public java.util.SimpleTimeZone(int, java.lang.String, int, int, int, int, int, int, int, int, int, int, int);
+  public java.lang.Object clone();
+  public boolean equals(java.lang.Object);
+  public int getDSTSavings();
+  public int getOffset(int, int, int, int, int, int);
+  public int getOffset(long);
+  public int getRawOffset();
+  public synchronized int hashCode();
+  public boolean hasSameRules(java.util.TimeZone);
+  public boolean inDaylightTime(java.util.Date);
+  public void setDSTSavings(int);
+  public void setEndRule(int, int, int);
+  public void setEndRule(int, int, int, int);
+  public void setEndRule(int, int, int, int, boolean);
+  public void setRawOffset(int);
+  public void setStartRule(int, int, int);
+  public void setStartRule(int, int, int, int);
+  public void setStartRule(int, int, int, int, boolean);
+  public void setStartYear(int);
+  public java.lang.String toString();
+  public boolean useDaylightTime();
+}

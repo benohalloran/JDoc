@@ -1,0 +1,8 @@
+Compiled from "PrintedPdfDocument.java"
+public class android.print.pdf.PrintedPdfDocument extends android.graphics.pdf.PdfDocument {
+  public android.print.pdf.PrintedPdfDocument(android.content.Context, android.print.PrintAttributes);
+  public android.graphics.pdf.PdfDocument$Page startPage(int);
+  public int getPageWidth();
+  public int getPageHeight();
+  public android.graphics.Rect getPageContentRect();
+}

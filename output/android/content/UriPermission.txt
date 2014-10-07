@@ -1,0 +1,14 @@
+Compiled from "UriPermission.java"
+public final class android.content.UriPermission implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.UriPermission> CREATOR;
+  public static final long INVALID_TIME;
+  android.content.UriPermission();
+  public android.net.Uri getUri();
+  public boolean isReadPermission();
+  public boolean isWritePermission();
+  public long getPersistedTime();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

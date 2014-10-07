@@ -1,0 +1,6 @@
+Compiled from "ConnRoutePNames.java"
+public interface org.apache.http.conn.params.ConnRoutePNames {
+  public static final java.lang.String DEFAULT_PROXY;
+  public static final java.lang.String FORCED_ROUTE;
+  public static final java.lang.String LOCAL_ADDRESS;
+}

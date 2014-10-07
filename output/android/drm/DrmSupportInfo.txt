@@ -1,0 +1,13 @@
+Compiled from "DrmSupportInfo.java"
+public class android.drm.DrmSupportInfo {
+  public android.drm.DrmSupportInfo();
+  public void addMimeType(java.lang.String);
+  public void addFileSuffix(java.lang.String);
+  public java.util.Iterator<java.lang.String> getMimeTypeIterator();
+  public java.util.Iterator<java.lang.String> getFileSuffixIterator();
+  public void setDescription(java.lang.String);
+  public java.lang.String getDescriprition();
+  public java.lang.String getDescription();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+}

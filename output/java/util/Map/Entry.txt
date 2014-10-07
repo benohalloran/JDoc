@@ -1,0 +1,8 @@
+Compiled from "Map.java"
+public interface java.util.Map$Entry<K, V> {
+  public abstract boolean equals(java.lang.Object);
+  public abstract K getKey();
+  public abstract V getValue();
+  public abstract int hashCode();
+  public abstract V setValue(V);
+}

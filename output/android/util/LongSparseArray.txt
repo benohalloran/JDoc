@@ -1,0 +1,22 @@
+Compiled from "LongSparseArray.java"
+public class android.util.LongSparseArray<E> implements java.lang.Cloneable {
+  public android.util.LongSparseArray();
+  public android.util.LongSparseArray(int);
+  public android.util.LongSparseArray<E> clone();
+  public E get(long);
+  public E get(long, E);
+  public void delete(long);
+  public void remove(long);
+  public void removeAt(int);
+  public void put(long, E);
+  public int size();
+  public long keyAt(int);
+  public E valueAt(int);
+  public void setValueAt(int, E);
+  public int indexOfKey(long);
+  public int indexOfValue(E);
+  public void clear();
+  public void append(long, E);
+  public java.lang.String toString();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

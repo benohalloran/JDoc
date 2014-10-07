@@ -1,0 +1,7 @@
+Compiled from "Contacts.java"
+public interface android.provider.Contacts$SettingsColumns {
+  public static final java.lang.String KEY;
+  public static final java.lang.String VALUE;
+  public static final java.lang.String _SYNC_ACCOUNT;
+  public static final java.lang.String _SYNC_ACCOUNT_TYPE;
+}

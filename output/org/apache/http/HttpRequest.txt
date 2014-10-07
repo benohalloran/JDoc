@@ -1,0 +1,4 @@
+Compiled from "HttpRequest.java"
+public interface org.apache.http.HttpRequest extends org.apache.http.HttpMessage {
+  public abstract org.apache.http.RequestLine getRequestLine();
+}

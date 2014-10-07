@@ -1,0 +1,22 @@
+Compiled from "Telephony.java"
+public final class android.provider.Telephony$Sms$Intents {
+  public static final java.lang.String ACTION_CHANGE_DEFAULT;
+  public static final java.lang.String DATA_SMS_RECEIVED_ACTION;
+  public static final java.lang.String EXTRA_PACKAGE_NAME;
+  public static final int RESULT_SMS_DUPLICATED;
+  public static final int RESULT_SMS_GENERIC_ERROR;
+  public static final int RESULT_SMS_HANDLED;
+  public static final int RESULT_SMS_OUT_OF_MEMORY;
+  public static final int RESULT_SMS_UNSUPPORTED;
+  public static final java.lang.String SIM_FULL_ACTION;
+  public static final java.lang.String SMS_CB_RECEIVED_ACTION;
+  public static final java.lang.String SMS_DELIVER_ACTION;
+  public static final java.lang.String SMS_EMERGENCY_CB_RECEIVED_ACTION;
+  public static final java.lang.String SMS_RECEIVED_ACTION;
+  public static final java.lang.String SMS_REJECTED_ACTION;
+  public static final java.lang.String SMS_SERVICE_CATEGORY_PROGRAM_DATA_RECEIVED_ACTION;
+  public static final java.lang.String WAP_PUSH_DELIVER_ACTION;
+  public static final java.lang.String WAP_PUSH_RECEIVED_ACTION;
+  android.provider.Telephony$Sms$Intents();
+  public static android.telephony.SmsMessage[] getMessagesFromIntent(android.content.Intent);
+}

@@ -1,0 +1,13 @@
+Compiled from "ViewDebug.java"
+public class android.view.ViewDebug {
+  public static final boolean TRACE_HIERARCHY;
+  public static final boolean TRACE_RECYCLER;
+  public android.view.ViewDebug();
+  public static void trace(android.view.View, android.view.ViewDebug$RecyclerTraceType, int...);
+  public static void startRecyclerTracing(java.lang.String, android.view.View);
+  public static void stopRecyclerTracing();
+  public static void trace(android.view.View, android.view.ViewDebug$HierarchyTraceType);
+  public static void startHierarchyTracing(java.lang.String, android.view.View);
+  public static void stopHierarchyTracing();
+  public static void dumpCapturedView(java.lang.String, java.lang.Object);
+}

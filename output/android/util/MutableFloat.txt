@@ -1,0 +1,5 @@
+Compiled from "MutableFloat.java"
+public final class android.util.MutableFloat {
+  public float value;
+  public android.util.MutableFloat(float);
+}

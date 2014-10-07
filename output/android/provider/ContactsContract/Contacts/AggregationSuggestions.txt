@@ -1,0 +1,5 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$Contacts$AggregationSuggestions implements android.provider.BaseColumns,android.provider.ContactsContract$ContactsColumns,android.provider.ContactsContract$ContactOptionsColumns,android.provider.ContactsContract$ContactStatusColumns {
+  public static final java.lang.String CONTENT_DIRECTORY;
+  android.provider.ContactsContract$Contacts$AggregationSuggestions();
+}

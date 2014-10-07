@@ -1,0 +1,17 @@
+Compiled from "Telephony.java"
+public final class android.provider.Telephony$Mms$Part implements android.provider.BaseColumns {
+  public static final java.lang.String CHARSET;
+  public static final java.lang.String CONTENT_DISPOSITION;
+  public static final java.lang.String CONTENT_ID;
+  public static final java.lang.String CONTENT_LOCATION;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final java.lang.String CT_START;
+  public static final java.lang.String CT_TYPE;
+  public static final java.lang.String FILENAME;
+  public static final java.lang.String MSG_ID;
+  public static final java.lang.String NAME;
+  public static final java.lang.String SEQ;
+  public static final java.lang.String TEXT;
+  public static final java.lang.String _DATA;
+  android.provider.Telephony$Mms$Part();
+}

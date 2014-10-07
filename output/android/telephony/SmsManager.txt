@@ -1,0 +1,18 @@
+Compiled from "SmsManager.java"
+public final class android.telephony.SmsManager {
+  public static final int RESULT_ERROR_GENERIC_FAILURE;
+  public static final int RESULT_ERROR_NO_SERVICE;
+  public static final int RESULT_ERROR_NULL_PDU;
+  public static final int RESULT_ERROR_RADIO_OFF;
+  public static final int STATUS_ON_ICC_FREE;
+  public static final int STATUS_ON_ICC_READ;
+  public static final int STATUS_ON_ICC_SENT;
+  public static final int STATUS_ON_ICC_UNREAD;
+  public static final int STATUS_ON_ICC_UNSENT;
+  android.telephony.SmsManager();
+  public void sendTextMessage(java.lang.String, java.lang.String, java.lang.String, android.app.PendingIntent, android.app.PendingIntent);
+  public java.util.ArrayList<java.lang.String> divideMessage(java.lang.String);
+  public void sendMultipartTextMessage(java.lang.String, java.lang.String, java.util.ArrayList<java.lang.String>, java.util.ArrayList<android.app.PendingIntent>, java.util.ArrayList<android.app.PendingIntent>);
+  public void sendDataMessage(java.lang.String, java.lang.String, short, byte[], android.app.PendingIntent, android.app.PendingIntent);
+  public static android.telephony.SmsManager getDefault();
+}

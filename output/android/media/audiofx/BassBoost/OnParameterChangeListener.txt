@@ -1,0 +1,4 @@
+Compiled from "BassBoost.java"
+public interface android.media.audiofx.BassBoost$OnParameterChangeListener {
+  public abstract void onParameterChange(android.media.audiofx.BassBoost, int, int, short);
+}

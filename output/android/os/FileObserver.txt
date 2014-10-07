@@ -1,0 +1,22 @@
+Compiled from "FileObserver.java"
+public abstract class android.os.FileObserver {
+  public static final int ACCESS;
+  public static final int ALL_EVENTS;
+  public static final int ATTRIB;
+  public static final int CLOSE_NOWRITE;
+  public static final int CLOSE_WRITE;
+  public static final int CREATE;
+  public static final int DELETE;
+  public static final int DELETE_SELF;
+  public static final int MODIFY;
+  public static final int MOVED_FROM;
+  public static final int MOVED_TO;
+  public static final int MOVE_SELF;
+  public static final int OPEN;
+  public android.os.FileObserver(java.lang.String);
+  public android.os.FileObserver(java.lang.String, int);
+  protected void finalize();
+  public void startWatching();
+  public void stopWatching();
+  public abstract void onEvent(int, java.lang.String);
+}

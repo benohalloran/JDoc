@@ -1,0 +1,5 @@
+Compiled from "VirtualMachineError.java"
+public abstract class java.lang.VirtualMachineError extends java.lang.Error {
+  public java.lang.VirtualMachineError();
+  public java.lang.VirtualMachineError(java.lang.String);
+}

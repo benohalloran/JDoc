@@ -1,0 +1,7 @@
+Compiled from "IntentFilter.java"
+public final class android.content.IntentFilter$AuthorityEntry {
+  public android.content.IntentFilter$AuthorityEntry(java.lang.String, java.lang.String);
+  public java.lang.String getHost();
+  public int getPort();
+  public int match(android.net.Uri);
+}

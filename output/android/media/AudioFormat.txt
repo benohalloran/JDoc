@@ -1,0 +1,47 @@
+Compiled from "AudioFormat.java"
+public class android.media.AudioFormat {
+  public static final int CHANNEL_CONFIGURATION_DEFAULT;
+  public static final int CHANNEL_CONFIGURATION_INVALID;
+  public static final int CHANNEL_CONFIGURATION_MONO;
+  public static final int CHANNEL_CONFIGURATION_STEREO;
+  public static final int CHANNEL_INVALID;
+  public static final int CHANNEL_IN_BACK;
+  public static final int CHANNEL_IN_BACK_PROCESSED;
+  public static final int CHANNEL_IN_DEFAULT;
+  public static final int CHANNEL_IN_FRONT;
+  public static final int CHANNEL_IN_FRONT_PROCESSED;
+  public static final int CHANNEL_IN_LEFT;
+  public static final int CHANNEL_IN_LEFT_PROCESSED;
+  public static final int CHANNEL_IN_MONO;
+  public static final int CHANNEL_IN_PRESSURE;
+  public static final int CHANNEL_IN_RIGHT;
+  public static final int CHANNEL_IN_RIGHT_PROCESSED;
+  public static final int CHANNEL_IN_STEREO;
+  public static final int CHANNEL_IN_VOICE_DNLINK;
+  public static final int CHANNEL_IN_VOICE_UPLINK;
+  public static final int CHANNEL_IN_X_AXIS;
+  public static final int CHANNEL_IN_Y_AXIS;
+  public static final int CHANNEL_IN_Z_AXIS;
+  public static final int CHANNEL_OUT_5POINT1;
+  public static final int CHANNEL_OUT_7POINT1;
+  public static final int CHANNEL_OUT_BACK_CENTER;
+  public static final int CHANNEL_OUT_BACK_LEFT;
+  public static final int CHANNEL_OUT_BACK_RIGHT;
+  public static final int CHANNEL_OUT_DEFAULT;
+  public static final int CHANNEL_OUT_FRONT_CENTER;
+  public static final int CHANNEL_OUT_FRONT_LEFT;
+  public static final int CHANNEL_OUT_FRONT_LEFT_OF_CENTER;
+  public static final int CHANNEL_OUT_FRONT_RIGHT;
+  public static final int CHANNEL_OUT_FRONT_RIGHT_OF_CENTER;
+  public static final int CHANNEL_OUT_LOW_FREQUENCY;
+  public static final int CHANNEL_OUT_MONO;
+  public static final int CHANNEL_OUT_QUAD;
+  public static final int CHANNEL_OUT_STEREO;
+  public static final int CHANNEL_OUT_SURROUND;
+  public static final int ENCODING_DEFAULT;
+  public static final int ENCODING_INVALID;
+  public static final int ENCODING_PCM_16BIT;
+  public static final int ENCODING_PCM_8BIT;
+  public static final int ENCODING_PCM_FLOAT;
+  public android.media.AudioFormat();
+}

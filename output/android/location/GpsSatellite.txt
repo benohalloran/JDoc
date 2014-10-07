@@ -1,0 +1,11 @@
+Compiled from "GpsSatellite.java"
+public final class android.location.GpsSatellite {
+  android.location.GpsSatellite();
+  public int getPrn();
+  public float getSnr();
+  public float getElevation();
+  public float getAzimuth();
+  public boolean hasEphemeris();
+  public boolean hasAlmanac();
+  public boolean usedInFix();
+}

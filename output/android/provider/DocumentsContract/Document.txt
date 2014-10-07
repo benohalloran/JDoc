@@ -1,0 +1,20 @@
+Compiled from "DocumentsContract.java"
+public final class android.provider.DocumentsContract$Document {
+  public static final java.lang.String COLUMN_DISPLAY_NAME;
+  public static final java.lang.String COLUMN_DOCUMENT_ID;
+  public static final java.lang.String COLUMN_FLAGS;
+  public static final java.lang.String COLUMN_ICON;
+  public static final java.lang.String COLUMN_LAST_MODIFIED;
+  public static final java.lang.String COLUMN_MIME_TYPE;
+  public static final java.lang.String COLUMN_SIZE;
+  public static final java.lang.String COLUMN_SUMMARY;
+  public static final int FLAG_DIR_PREFERS_GRID;
+  public static final int FLAG_DIR_PREFERS_LAST_MODIFIED;
+  public static final int FLAG_DIR_SUPPORTS_CREATE;
+  public static final int FLAG_SUPPORTS_DELETE;
+  public static final int FLAG_SUPPORTS_RENAME;
+  public static final int FLAG_SUPPORTS_THUMBNAIL;
+  public static final int FLAG_SUPPORTS_WRITE;
+  public static final java.lang.String MIME_TYPE_DIR;
+  android.provider.DocumentsContract$Document();
+}

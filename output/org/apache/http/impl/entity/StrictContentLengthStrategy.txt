@@ -1,0 +1,5 @@
+Compiled from "StrictContentLengthStrategy.java"
+public class org.apache.http.impl.entity.StrictContentLengthStrategy implements org.apache.http.entity.ContentLengthStrategy {
+  public org.apache.http.impl.entity.StrictContentLengthStrategy();
+  public long determineLength(org.apache.http.HttpMessage) throws org.apache.http.HttpException;
+}

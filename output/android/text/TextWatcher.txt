@@ -1,0 +1,6 @@
+Compiled from "TextWatcher.java"
+public interface android.text.TextWatcher extends android.text.NoCopySpan {
+  public abstract void beforeTextChanged(java.lang.CharSequence, int, int, int);
+  public abstract void onTextChanged(java.lang.CharSequence, int, int, int);
+  public abstract void afterTextChanged(android.text.Editable);
+}

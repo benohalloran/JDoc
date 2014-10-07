@@ -1,0 +1,5 @@
+Compiled from "BadParcelableException.java"
+public class android.os.BadParcelableException extends android.util.AndroidRuntimeException {
+  public android.os.BadParcelableException(java.lang.String);
+  public android.os.BadParcelableException(java.lang.Exception);
+}

@@ -1,0 +1,7 @@
+Compiled from "ContentUris.java"
+public class android.content.ContentUris {
+  public android.content.ContentUris();
+  public static long parseId(android.net.Uri);
+  public static android.net.Uri$Builder appendId(android.net.Uri$Builder, long);
+  public static android.net.Uri withAppendedId(android.net.Uri, long);
+}

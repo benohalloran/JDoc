@@ -1,0 +1,27 @@
+Compiled from "BoringLayout.java"
+public class android.text.BoringLayout extends android.text.Layout implements android.text.TextUtils$EllipsizeCallback {
+  public android.text.BoringLayout(java.lang.CharSequence, android.text.TextPaint, int, android.text.Layout$Alignment, float, float, android.text.BoringLayout$Metrics, boolean);
+  public android.text.BoringLayout(java.lang.CharSequence, android.text.TextPaint, int, android.text.Layout$Alignment, float, float, android.text.BoringLayout$Metrics, boolean, android.text.TextUtils$TruncateAt, int);
+  public static android.text.BoringLayout make(java.lang.CharSequence, android.text.TextPaint, int, android.text.Layout$Alignment, float, float, android.text.BoringLayout$Metrics, boolean);
+  public static android.text.BoringLayout make(java.lang.CharSequence, android.text.TextPaint, int, android.text.Layout$Alignment, float, float, android.text.BoringLayout$Metrics, boolean, android.text.TextUtils$TruncateAt, int);
+  public android.text.BoringLayout replaceOrMake(java.lang.CharSequence, android.text.TextPaint, int, android.text.Layout$Alignment, float, float, android.text.BoringLayout$Metrics, boolean);
+  public android.text.BoringLayout replaceOrMake(java.lang.CharSequence, android.text.TextPaint, int, android.text.Layout$Alignment, float, float, android.text.BoringLayout$Metrics, boolean, android.text.TextUtils$TruncateAt, int);
+  public static android.text.BoringLayout$Metrics isBoring(java.lang.CharSequence, android.text.TextPaint);
+  public static android.text.BoringLayout$Metrics isBoring(java.lang.CharSequence, android.text.TextPaint, android.text.BoringLayout$Metrics);
+  public int getHeight();
+  public int getLineCount();
+  public int getLineTop(int);
+  public int getLineDescent(int);
+  public int getLineStart(int);
+  public int getParagraphDirection(int);
+  public boolean getLineContainsTab(int);
+  public float getLineMax(int);
+  public final android.text.Layout$Directions getLineDirections(int);
+  public int getTopPadding();
+  public int getBottomPadding();
+  public int getEllipsisCount(int);
+  public int getEllipsisStart(int);
+  public int getEllipsizedWidth();
+  public void draw(android.graphics.Canvas, android.graphics.Path, android.graphics.Paint, int);
+  public void ellipsized(int, int);
+}

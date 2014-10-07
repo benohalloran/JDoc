@@ -1,0 +1,25 @@
+Compiled from "DateFormat.java"
+public class java.text.DateFormat$Field extends java.text.Format$Field {
+  public static final java.text.DateFormat$Field AM_PM;
+  public static final java.text.DateFormat$Field DAY_OF_MONTH;
+  public static final java.text.DateFormat$Field DAY_OF_WEEK;
+  public static final java.text.DateFormat$Field DAY_OF_WEEK_IN_MONTH;
+  public static final java.text.DateFormat$Field DAY_OF_YEAR;
+  public static final java.text.DateFormat$Field ERA;
+  public static final java.text.DateFormat$Field HOUR0;
+  public static final java.text.DateFormat$Field HOUR1;
+  public static final java.text.DateFormat$Field HOUR_OF_DAY0;
+  public static final java.text.DateFormat$Field HOUR_OF_DAY1;
+  public static final java.text.DateFormat$Field MILLISECOND;
+  public static final java.text.DateFormat$Field MINUTE;
+  public static final java.text.DateFormat$Field MONTH;
+  public static final java.text.DateFormat$Field SECOND;
+  public static final java.text.DateFormat$Field TIME_ZONE;
+  public static final java.text.DateFormat$Field WEEK_OF_MONTH;
+  public static final java.text.DateFormat$Field WEEK_OF_YEAR;
+  public static final java.text.DateFormat$Field YEAR;
+  protected java.text.DateFormat$Field(java.lang.String, int);
+  public int getCalendarField();
+  public static java.text.DateFormat$Field ofCalendarField(int);
+  static {};
+}

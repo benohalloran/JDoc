@@ -1,0 +1,4 @@
+Compiled from "EGLDisplay.java"
+public abstract class javax.microedition.khronos.egl.EGLDisplay {
+  public javax.microedition.khronos.egl.EGLDisplay();
+}

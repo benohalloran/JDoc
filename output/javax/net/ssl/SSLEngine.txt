@@ -1,0 +1,37 @@
+Compiled from "SSLEngine.java"
+public abstract class javax.net.ssl.SSLEngine {
+  protected javax.net.ssl.SSLEngine();
+  protected javax.net.ssl.SSLEngine(java.lang.String, int);
+  public java.lang.String getPeerHost();
+  public int getPeerPort();
+  public abstract void beginHandshake() throws javax.net.ssl.SSLException;
+  public abstract void closeInbound() throws javax.net.ssl.SSLException;
+  public abstract void closeOutbound();
+  public abstract java.lang.Runnable getDelegatedTask();
+  public abstract java.lang.String[] getEnabledCipherSuites();
+  public abstract java.lang.String[] getEnabledProtocols();
+  public abstract boolean getEnableSessionCreation();
+  public abstract javax.net.ssl.SSLEngineResult$HandshakeStatus getHandshakeStatus();
+  public abstract boolean getNeedClientAuth();
+  public abstract javax.net.ssl.SSLSession getSession();
+  public abstract java.lang.String[] getSupportedCipherSuites();
+  public abstract java.lang.String[] getSupportedProtocols();
+  public abstract boolean getUseClientMode();
+  public abstract boolean getWantClientAuth();
+  public abstract boolean isInboundDone();
+  public abstract boolean isOutboundDone();
+  public abstract void setEnabledCipherSuites(java.lang.String[]);
+  public abstract void setEnabledProtocols(java.lang.String[]);
+  public abstract void setEnableSessionCreation(boolean);
+  public abstract void setNeedClientAuth(boolean);
+  public abstract void setUseClientMode(boolean);
+  public abstract void setWantClientAuth(boolean);
+  public abstract javax.net.ssl.SSLEngineResult unwrap(java.nio.ByteBuffer, java.nio.ByteBuffer[], int, int) throws javax.net.ssl.SSLException;
+  public abstract javax.net.ssl.SSLEngineResult wrap(java.nio.ByteBuffer[], int, int, java.nio.ByteBuffer) throws javax.net.ssl.SSLException;
+  public javax.net.ssl.SSLEngineResult unwrap(java.nio.ByteBuffer, java.nio.ByteBuffer) throws javax.net.ssl.SSLException;
+  public javax.net.ssl.SSLEngineResult unwrap(java.nio.ByteBuffer, java.nio.ByteBuffer[]) throws javax.net.ssl.SSLException;
+  public javax.net.ssl.SSLEngineResult wrap(java.nio.ByteBuffer[], java.nio.ByteBuffer) throws javax.net.ssl.SSLException;
+  public javax.net.ssl.SSLEngineResult wrap(java.nio.ByteBuffer, java.nio.ByteBuffer) throws javax.net.ssl.SSLException;
+  public javax.net.ssl.SSLParameters getSSLParameters();
+  public void setSSLParameters(javax.net.ssl.SSLParameters);
+}

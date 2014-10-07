@@ -1,0 +1,11 @@
+Compiled from "PlainSocketFactory.java"
+public final class org.apache.http.conn.scheme.PlainSocketFactory implements org.apache.http.conn.scheme.SocketFactory {
+  public org.apache.http.conn.scheme.PlainSocketFactory(org.apache.http.conn.scheme.HostNameResolver);
+  public org.apache.http.conn.scheme.PlainSocketFactory();
+  public static org.apache.http.conn.scheme.PlainSocketFactory getSocketFactory();
+  public java.net.Socket createSocket();
+  public java.net.Socket connectSocket(java.net.Socket, java.lang.String, int, java.net.InetAddress, int, org.apache.http.params.HttpParams) throws java.io.IOException;
+  public final boolean isSecure(java.net.Socket) throws java.lang.IllegalArgumentException;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

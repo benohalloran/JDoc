@@ -1,0 +1,16 @@
+Compiled from "BasicManagedEntity.java"
+public class org.apache.http.conn.BasicManagedEntity extends org.apache.http.entity.HttpEntityWrapper implements org.apache.http.conn.ConnectionReleaseTrigger,org.apache.http.conn.EofSensorWatcher {
+  protected final boolean attemptReuse;
+  protected org.apache.http.conn.ManagedClientConnection managedConn;
+  public org.apache.http.conn.BasicManagedEntity(org.apache.http.HttpEntity, org.apache.http.conn.ManagedClientConnection, boolean);
+  public boolean isRepeatable();
+  public java.io.InputStream getContent() throws java.io.IOException;
+  public void consumeContent() throws java.io.IOException;
+  public void writeTo(java.io.OutputStream) throws java.io.IOException;
+  public void releaseConnection() throws java.io.IOException;
+  public void abortConnection() throws java.io.IOException;
+  public boolean eofDetected(java.io.InputStream) throws java.io.IOException;
+  public boolean streamClosed(java.io.InputStream) throws java.io.IOException;
+  public boolean streamAbort(java.io.InputStream) throws java.io.IOException;
+  protected void releaseManagedConnection() throws java.io.IOException;
+}

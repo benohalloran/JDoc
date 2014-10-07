@@ -1,0 +1,6 @@
+Compiled from "StateListAnimator.java"
+public class android.animation.StateListAnimator {
+  public android.animation.StateListAnimator();
+  public void addState(int[], android.animation.Animator);
+  public void jumpToCurrentState();
+}

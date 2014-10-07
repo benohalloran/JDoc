@@ -1,0 +1,5 @@
+Compiled from "BluetoothProfile.java"
+public interface android.bluetooth.BluetoothProfile$ServiceListener {
+  public abstract void onServiceConnected(int, android.bluetooth.BluetoothProfile);
+  public abstract void onServiceDisconnected(int);
+}

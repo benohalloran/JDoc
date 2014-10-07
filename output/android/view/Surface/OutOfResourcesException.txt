@@ -1,0 +1,5 @@
+Compiled from "Surface.java"
+public class android.view.Surface$OutOfResourcesException extends java.lang.RuntimeException {
+  public android.view.Surface$OutOfResourcesException();
+  public android.view.Surface$OutOfResourcesException(java.lang.String);
+}

@@ -1,0 +1,6 @@
+Compiled from "RequestLine.java"
+public interface org.apache.http.RequestLine {
+  public abstract java.lang.String getMethod();
+  public abstract org.apache.http.ProtocolVersion getProtocolVersion();
+  public abstract java.lang.String getUri();
+}

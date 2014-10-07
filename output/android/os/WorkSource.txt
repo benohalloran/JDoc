@@ -1,0 +1,17 @@
+Compiled from "WorkSource.java"
+public class android.os.WorkSource implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.os.WorkSource> CREATOR;
+  public android.os.WorkSource();
+  public android.os.WorkSource(android.os.WorkSource);
+  public void clear();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public boolean diff(android.os.WorkSource);
+  public void set(android.os.WorkSource);
+  public boolean add(android.os.WorkSource);
+  public boolean remove(android.os.WorkSource);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String toString();
+  static {};
+}

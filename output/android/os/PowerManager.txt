@@ -1,0 +1,20 @@
+Compiled from "PowerManager.java"
+public final class android.os.PowerManager {
+  public static final int ACQUIRE_CAUSES_WAKEUP;
+  public static final java.lang.String ACTION_POWER_SAVE_MODE_CHANGED;
+  public static final int FULL_WAKE_LOCK;
+  public static final int ON_AFTER_RELEASE;
+  public static final int PARTIAL_WAKE_LOCK;
+  public static final java.lang.String REBOOT_RECOVERY;
+  public static final int SCREEN_BRIGHT_WAKE_LOCK;
+  public static final int SCREEN_DIM_WAKE_LOCK;
+  android.os.PowerManager();
+  public android.os.PowerManager$WakeLock newWakeLock(int, java.lang.String);
+  public void userActivity(long, boolean);
+  public void goToSleep(long);
+  public void wakeUp(long);
+  public boolean isScreenOn();
+  public boolean isInteractive();
+  public void reboot(java.lang.String);
+  public boolean isPowerSaveMode();
+}

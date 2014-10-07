@@ -1,0 +1,10 @@
+Compiled from "Process.java"
+public abstract class java.lang.Process {
+  public java.lang.Process();
+  public abstract void destroy();
+  public abstract int exitValue();
+  public abstract java.io.InputStream getErrorStream();
+  public abstract java.io.InputStream getInputStream();
+  public abstract java.io.OutputStream getOutputStream();
+  public abstract int waitFor() throws java.lang.InterruptedException;
+}

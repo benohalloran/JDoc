@@ -1,0 +1,9 @@
+Compiled from "DefaultedHttpParams.java"
+public final class org.apache.http.params.DefaultedHttpParams extends org.apache.http.params.AbstractHttpParams {
+  public org.apache.http.params.DefaultedHttpParams(org.apache.http.params.HttpParams, org.apache.http.params.HttpParams);
+  public org.apache.http.params.HttpParams copy();
+  public java.lang.Object getParameter(java.lang.String);
+  public boolean removeParameter(java.lang.String);
+  public org.apache.http.params.HttpParams setParameter(java.lang.String, java.lang.Object);
+  public org.apache.http.params.HttpParams getDefaults();
+}

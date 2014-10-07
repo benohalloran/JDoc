@@ -1,0 +1,7 @@
+Compiled from "HttpAuthHandler.java"
+public class android.webkit.HttpAuthHandler extends android.os.Handler {
+  android.webkit.HttpAuthHandler();
+  public boolean useHttpAuthUsernamePassword();
+  public void cancel();
+  public void proceed(java.lang.String, java.lang.String);
+}

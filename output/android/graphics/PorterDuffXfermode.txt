@@ -1,0 +1,4 @@
+Compiled from "PorterDuffXfermode.java"
+public class android.graphics.PorterDuffXfermode extends android.graphics.Xfermode {
+  public android.graphics.PorterDuffXfermode(android.graphics.PorterDuff$Mode);
+}

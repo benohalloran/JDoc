@@ -1,0 +1,4 @@
+Compiled from "StartElementListener.java"
+public interface android.sax.StartElementListener {
+  public abstract void start(org.xml.sax.Attributes);
+}

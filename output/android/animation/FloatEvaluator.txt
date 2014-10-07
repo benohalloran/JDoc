@@ -1,0 +1,6 @@
+Compiled from "FloatEvaluator.java"
+public class android.animation.FloatEvaluator implements android.animation.TypeEvaluator<java.lang.Number> {
+  public android.animation.FloatEvaluator();
+  public java.lang.Float evaluate(float, java.lang.Number, java.lang.Number);
+  public java.lang.Object evaluate(float, java.lang.Object, java.lang.Object);
+}

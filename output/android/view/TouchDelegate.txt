@@ -1,0 +1,9 @@
+Compiled from "TouchDelegate.java"
+public class android.view.TouchDelegate {
+  public static final int ABOVE;
+  public static final int BELOW;
+  public static final int TO_LEFT;
+  public static final int TO_RIGHT;
+  public android.view.TouchDelegate(android.graphics.Rect, android.view.View);
+  public boolean onTouchEvent(android.view.MotionEvent);
+}

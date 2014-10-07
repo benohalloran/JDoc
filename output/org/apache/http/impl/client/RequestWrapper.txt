@@ -1,0 +1,18 @@
+Compiled from "RequestWrapper.java"
+public class org.apache.http.impl.client.RequestWrapper extends org.apache.http.message.AbstractHttpMessage implements org.apache.http.client.methods.HttpUriRequest {
+  public org.apache.http.impl.client.RequestWrapper(org.apache.http.HttpRequest) throws org.apache.http.ProtocolException;
+  public void resetHeaders();
+  public java.lang.String getMethod();
+  public void setMethod(java.lang.String);
+  public org.apache.http.ProtocolVersion getProtocolVersion();
+  public void setProtocolVersion(org.apache.http.ProtocolVersion);
+  public java.net.URI getURI();
+  public void setURI(java.net.URI);
+  public org.apache.http.RequestLine getRequestLine();
+  public void abort() throws java.lang.UnsupportedOperationException;
+  public boolean isAborted();
+  public org.apache.http.HttpRequest getOriginal();
+  public boolean isRepeatable();
+  public int getExecCount();
+  public void incrementExecCount();
+}

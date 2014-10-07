@@ -1,0 +1,9 @@
+Compiled from "BasicRequestLine.java"
+public class org.apache.http.message.BasicRequestLine implements org.apache.http.RequestLine,java.lang.Cloneable {
+  public org.apache.http.message.BasicRequestLine(java.lang.String, java.lang.String, org.apache.http.ProtocolVersion);
+  public java.lang.String getMethod();
+  public org.apache.http.ProtocolVersion getProtocolVersion();
+  public java.lang.String getUri();
+  public java.lang.String toString();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

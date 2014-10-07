@@ -1,0 +1,28 @@
+Compiled from "R.java"
+public final class android.R$string {
+  public static final int VideoView_error_button;
+  public static final int VideoView_error_text_invalid_progressive_playback;
+  public static final int VideoView_error_text_unknown;
+  public static final int VideoView_error_title;
+  public static final int cancel;
+  public static final int copy;
+  public static final int copyUrl;
+  public static final int cut;
+  public static final int defaultMsisdnAlphaTag;
+  public static final int defaultVoiceMailAlphaTag;
+  public static final int dialog_alert_title;
+  public static final int emptyPhoneNumber;
+  public static final int httpErrorBadUrl;
+  public static final int httpErrorUnsupportedScheme;
+  public static final int no;
+  public static final int ok;
+  public static final int paste;
+  public static final int search_go;
+  public static final int selectAll;
+  public static final int selectTextMode;
+  public static final int status_bar_notification_info_overflow;
+  public static final int unknownName;
+  public static final int untitled;
+  public static final int yes;
+  public android.R$string();
+}

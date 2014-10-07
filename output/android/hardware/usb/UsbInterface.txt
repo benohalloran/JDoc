@@ -1,0 +1,17 @@
+Compiled from "UsbInterface.java"
+public class android.hardware.usb.UsbInterface implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.hardware.usb.UsbInterface> CREATOR;
+  android.hardware.usb.UsbInterface();
+  public int getId();
+  public int getAlternateSetting();
+  public java.lang.String getName();
+  public int getInterfaceClass();
+  public int getInterfaceSubclass();
+  public int getInterfaceProtocol();
+  public int getEndpointCount();
+  public android.hardware.usb.UsbEndpoint getEndpoint(int);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

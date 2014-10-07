@@ -1,0 +1,5 @@
+Compiled from "NameValuePair.java"
+public interface org.apache.http.NameValuePair {
+  public abstract java.lang.String getName();
+  public abstract java.lang.String getValue();
+}

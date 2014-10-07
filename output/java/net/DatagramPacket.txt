@@ -1,0 +1,21 @@
+Compiled from "DatagramPacket.java"
+public final class java.net.DatagramPacket {
+  public java.net.DatagramPacket(byte[], int);
+  public java.net.DatagramPacket(byte[], int, int);
+  public java.net.DatagramPacket(byte[], int, int, java.net.InetAddress, int);
+  public java.net.DatagramPacket(byte[], int, java.net.InetAddress, int);
+  public java.net.DatagramPacket(byte[], int, java.net.SocketAddress) throws java.net.SocketException;
+  public java.net.DatagramPacket(byte[], int, int, java.net.SocketAddress) throws java.net.SocketException;
+  public synchronized java.net.InetAddress getAddress();
+  public synchronized byte[] getData();
+  public synchronized int getLength();
+  public synchronized int getOffset();
+  public synchronized int getPort();
+  public synchronized void setAddress(java.net.InetAddress);
+  public synchronized void setData(byte[], int, int);
+  public synchronized void setData(byte[]);
+  public synchronized void setLength(int);
+  public synchronized void setPort(int);
+  public synchronized java.net.SocketAddress getSocketAddress();
+  public synchronized void setSocketAddress(java.net.SocketAddress);
+}

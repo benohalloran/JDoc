@@ -1,0 +1,6 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$RawContacts$Entity implements android.provider.BaseColumns,android.provider.ContactsContract$DataColumns {
+  public static final java.lang.String CONTENT_DIRECTORY;
+  public static final java.lang.String DATA_ID;
+  android.provider.ContactsContract$RawContacts$Entity();
+}

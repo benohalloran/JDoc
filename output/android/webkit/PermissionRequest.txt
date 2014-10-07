@@ -1,0 +1,9 @@
+Compiled from "PermissionRequest.java"
+public interface android.webkit.PermissionRequest {
+  public static final long RESOURCE_AUDIO_CAPTURE;
+  public static final long RESOURCE_VIDEO_CAPTURE;
+  public abstract android.net.Uri getOrigin();
+  public abstract long getResources();
+  public abstract void grant(long);
+  public abstract void deny();
+}

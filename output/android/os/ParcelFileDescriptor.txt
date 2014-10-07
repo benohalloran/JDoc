@@ -1,0 +1,39 @@
+Compiled from "ParcelFileDescriptor.java"
+public class android.os.ParcelFileDescriptor implements android.os.Parcelable,java.io.Closeable {
+  public static final android.os.Parcelable$Creator<android.os.ParcelFileDescriptor> CREATOR;
+  public static final int MODE_APPEND;
+  public static final int MODE_CREATE;
+  public static final int MODE_READ_ONLY;
+  public static final int MODE_READ_WRITE;
+  public static final int MODE_TRUNCATE;
+  public static final int MODE_WORLD_READABLE;
+  public static final int MODE_WORLD_WRITEABLE;
+  public static final int MODE_WRITE_ONLY;
+  public android.os.ParcelFileDescriptor(android.os.ParcelFileDescriptor);
+  public static android.os.ParcelFileDescriptor open(java.io.File, int) throws java.io.FileNotFoundException;
+  public static android.os.ParcelFileDescriptor open(java.io.File, int, android.os.Handler, android.os.ParcelFileDescriptor$OnCloseListener) throws java.io.IOException;
+  public static android.os.ParcelFileDescriptor dup(java.io.FileDescriptor) throws java.io.IOException;
+  public android.os.ParcelFileDescriptor dup() throws java.io.IOException;
+  public static android.os.ParcelFileDescriptor fromFd(int) throws java.io.IOException;
+  public static android.os.ParcelFileDescriptor adoptFd(int);
+  public static android.os.ParcelFileDescriptor fromSocket(java.net.Socket);
+  public static android.os.ParcelFileDescriptor fromDatagramSocket(java.net.DatagramSocket);
+  public static android.os.ParcelFileDescriptor[] createPipe() throws java.io.IOException;
+  public static android.os.ParcelFileDescriptor[] createReliablePipe() throws java.io.IOException;
+  public static android.os.ParcelFileDescriptor[] createSocketPair() throws java.io.IOException;
+  public static android.os.ParcelFileDescriptor[] createReliableSocketPair() throws java.io.IOException;
+  public static int parseMode(java.lang.String);
+  public java.io.FileDescriptor getFileDescriptor();
+  public long getStatSize();
+  public int getFd();
+  public int detachFd();
+  public void close() throws java.io.IOException;
+  public void closeWithError(java.lang.String) throws java.io.IOException;
+  public boolean canDetectErrors();
+  public void checkError() throws java.io.IOException;
+  public java.lang.String toString();
+  protected void finalize() throws java.lang.Throwable;
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

@@ -1,0 +1,10 @@
+Compiled from "NTUserPrincipal.java"
+public class org.apache.http.auth.NTUserPrincipal implements java.security.Principal {
+  public org.apache.http.auth.NTUserPrincipal(java.lang.String, java.lang.String);
+  public java.lang.String getName();
+  public java.lang.String getDomain();
+  public java.lang.String getUsername();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+}

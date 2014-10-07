@@ -1,0 +1,28 @@
+Compiled from "UiAutomation.java"
+public final class android.app.UiAutomation {
+  public static final int ROTATION_FREEZE_0;
+  public static final int ROTATION_FREEZE_180;
+  public static final int ROTATION_FREEZE_270;
+  public static final int ROTATION_FREEZE_90;
+  public static final int ROTATION_FREEZE_CURRENT;
+  public static final int ROTATION_UNFREEZE;
+  android.app.UiAutomation();
+  public void setOnAccessibilityEventListener(android.app.UiAutomation$OnAccessibilityEventListener);
+  public final boolean performGlobalAction(int);
+  public android.view.accessibility.AccessibilityNodeInfo findFocus(int);
+  public final android.accessibilityservice.AccessibilityServiceInfo getServiceInfo();
+  public final void setServiceInfo(android.accessibilityservice.AccessibilityServiceInfo);
+  public java.util.List<android.view.accessibility.AccessibilityWindowInfo> getWindows();
+  public android.view.accessibility.AccessibilityNodeInfo getRootInActiveWindow();
+  public boolean injectInputEvent(android.view.InputEvent, boolean);
+  public boolean setRotation(int);
+  public android.view.accessibility.AccessibilityEvent executeAndWaitForEvent(java.lang.Runnable, android.app.UiAutomation$AccessibilityEventFilter, long) throws java.util.concurrent.TimeoutException;
+  public void waitForIdle(long, long) throws java.util.concurrent.TimeoutException;
+  public android.graphics.Bitmap takeScreenshot();
+  public void setRunAsMonkey(boolean);
+  public boolean clearWindowContentFrameStats(int);
+  public android.view.WindowContentFrameStats getWindowContentFrameStats(int);
+  public void clearWindowAnimationFrameStats();
+  public android.view.WindowAnimationFrameStats getWindowAnimationFrameStats();
+  public android.os.ParcelFileDescriptor executeShellCommand(java.lang.String);
+}

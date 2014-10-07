@@ -1,0 +1,13 @@
+Compiled from "IpPrefix.java"
+public final class android.net.IpPrefix implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.net.IpPrefix> CREATOR;
+  android.net.IpPrefix();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.net.InetAddress getAddress();
+  public byte[] getRawAddress();
+  public int getPrefixLength();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

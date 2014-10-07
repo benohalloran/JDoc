@@ -1,0 +1,9 @@
+Compiled from "BasicEofSensorWatcher.java"
+public class org.apache.http.conn.BasicEofSensorWatcher implements org.apache.http.conn.EofSensorWatcher {
+  protected boolean attemptReuse;
+  protected org.apache.http.conn.ManagedClientConnection managedConn;
+  public org.apache.http.conn.BasicEofSensorWatcher(org.apache.http.conn.ManagedClientConnection, boolean);
+  public boolean eofDetected(java.io.InputStream) throws java.io.IOException;
+  public boolean streamClosed(java.io.InputStream) throws java.io.IOException;
+  public boolean streamAbort(java.io.InputStream) throws java.io.IOException;
+}

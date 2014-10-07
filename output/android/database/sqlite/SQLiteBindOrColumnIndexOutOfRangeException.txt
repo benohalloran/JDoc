@@ -1,0 +1,5 @@
+Compiled from "SQLiteBindOrColumnIndexOutOfRangeException.java"
+public class android.database.sqlite.SQLiteBindOrColumnIndexOutOfRangeException extends android.database.sqlite.SQLiteException {
+  public android.database.sqlite.SQLiteBindOrColumnIndexOutOfRangeException();
+  public android.database.sqlite.SQLiteBindOrColumnIndexOutOfRangeException(java.lang.String);
+}

@@ -1,0 +1,9 @@
+Compiled from "PdfRenderer.java"
+public final class android.graphics.pdf.PdfRenderer implements java.lang.AutoCloseable {
+  public android.graphics.pdf.PdfRenderer(android.os.ParcelFileDescriptor) throws java.io.IOException;
+  public void close();
+  public int getPageCount();
+  public boolean shouldScaleForPrinting();
+  public android.graphics.pdf.PdfRenderer$Page openPage(int);
+  protected void finalize() throws java.lang.Throwable;
+}

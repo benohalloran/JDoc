@@ -1,0 +1,20 @@
+Compiled from "ViewStub.java"
+public final class android.view.ViewStub extends android.view.View {
+  public android.view.ViewStub(android.content.Context);
+  public android.view.ViewStub(android.content.Context, int);
+  public android.view.ViewStub(android.content.Context, android.util.AttributeSet);
+  public android.view.ViewStub(android.content.Context, android.util.AttributeSet, int);
+  public android.view.ViewStub(android.content.Context, android.util.AttributeSet, int, int);
+  public int getInflatedId();
+  public void setInflatedId(int);
+  public int getLayoutResource();
+  public void setLayoutResource(int);
+  public void setLayoutInflater(android.view.LayoutInflater);
+  public android.view.LayoutInflater getLayoutInflater();
+  protected void onMeasure(int, int);
+  public void draw(android.graphics.Canvas);
+  protected void dispatchDraw(android.graphics.Canvas);
+  public void setVisibility(int);
+  public android.view.View inflate();
+  public void setOnInflateListener(android.view.ViewStub$OnInflateListener);
+}

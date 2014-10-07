@@ -1,0 +1,11 @@
+Compiled from "MediaRecorder.java"
+public final class android.media.MediaRecorder$AudioEncoder {
+  public static final int AAC;
+  public static final int AAC_ELD;
+  public static final int AMR_NB;
+  public static final int AMR_WB;
+  public static final int DEFAULT;
+  public static final int HE_AAC;
+  final android.media.MediaRecorder this$0;
+  android.media.MediaRecorder$AudioEncoder(android.media.MediaRecorder);
+}

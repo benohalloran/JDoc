@@ -1,0 +1,40 @@
+Compiled from "VideoView.java"
+public class android.widget.VideoView extends android.view.SurfaceView implements android.widget.MediaController$MediaPlayerControl {
+  public android.widget.VideoView(android.content.Context);
+  public android.widget.VideoView(android.content.Context, android.util.AttributeSet);
+  public android.widget.VideoView(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.VideoView(android.content.Context, android.util.AttributeSet, int, int);
+  protected void onMeasure(int, int);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public int resolveAdjustedSize(int, int);
+  public void setVideoPath(java.lang.String);
+  public void setVideoURI(android.net.Uri);
+  public void addSubtitleSource(java.io.InputStream, android.media.MediaFormat);
+  public void stopPlayback();
+  public void setMediaController(android.widget.MediaController);
+  public void setOnPreparedListener(android.media.MediaPlayer$OnPreparedListener);
+  public void setOnCompletionListener(android.media.MediaPlayer$OnCompletionListener);
+  public void setOnErrorListener(android.media.MediaPlayer$OnErrorListener);
+  public void setOnInfoListener(android.media.MediaPlayer$OnInfoListener);
+  public boolean onTouchEvent(android.view.MotionEvent);
+  public boolean onTrackballEvent(android.view.MotionEvent);
+  public boolean onKeyDown(int, android.view.KeyEvent);
+  public void start();
+  public void pause();
+  public void suspend();
+  public void resume();
+  public int getDuration();
+  public int getCurrentPosition();
+  public void seekTo(int);
+  public boolean isPlaying();
+  public int getBufferPercentage();
+  public boolean canPause();
+  public boolean canSeekBackward();
+  public boolean canSeekForward();
+  public int getAudioSessionId();
+  protected void onAttachedToWindow();
+  protected void onDetachedFromWindow();
+  protected void onLayout(boolean, int, int, int, int);
+  public void draw(android.graphics.Canvas);
+}

@@ -1,0 +1,12 @@
+Compiled from "WifiP2pServiceInfo.java"
+public class android.net.wifi.p2p.nsd.WifiP2pServiceInfo implements android.os.Parcelable {
+  public static final int SERVICE_TYPE_ALL;
+  public static final int SERVICE_TYPE_BONJOUR;
+  public static final int SERVICE_TYPE_UPNP;
+  public static final int SERVICE_TYPE_VENDOR_SPECIFIC;
+  android.net.wifi.p2p.nsd.WifiP2pServiceInfo();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+}

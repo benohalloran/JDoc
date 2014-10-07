@@ -1,0 +1,4 @@
+Compiled from "Script.java"
+public final class android.renderscript.Script$FieldID extends android.renderscript.BaseObj {
+  android.renderscript.Script$FieldID();
+}

@@ -1,0 +1,13 @@
+Compiled from "AttributedCharacterIterator.java"
+public class java.text.AttributedCharacterIterator$Attribute implements java.io.Serializable {
+  public static final java.text.AttributedCharacterIterator$Attribute INPUT_METHOD_SEGMENT;
+  public static final java.text.AttributedCharacterIterator$Attribute LANGUAGE;
+  public static final java.text.AttributedCharacterIterator$Attribute READING;
+  protected java.text.AttributedCharacterIterator$Attribute(java.lang.String);
+  public final boolean equals(java.lang.Object);
+  protected java.lang.String getName();
+  public final int hashCode();
+  protected java.lang.Object readResolve() throws java.io.InvalidObjectException;
+  public java.lang.String toString();
+  static {};
+}

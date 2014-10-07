@@ -1,0 +1,8 @@
+Compiled from "MediaCodec.java"
+public final class android.media.MediaCodec$CryptoException extends java.lang.RuntimeException {
+  public static final int ERROR_KEY_EXPIRED;
+  public static final int ERROR_NO_KEY;
+  public static final int ERROR_RESOURCE_BUSY;
+  public android.media.MediaCodec$CryptoException(int, java.lang.String);
+  public int getErrorCode();
+}

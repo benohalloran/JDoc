@@ -1,0 +1,19 @@
+Compiled from "Chronometer.java"
+public class android.widget.Chronometer extends android.widget.TextView {
+  public android.widget.Chronometer(android.content.Context);
+  public android.widget.Chronometer(android.content.Context, android.util.AttributeSet);
+  public android.widget.Chronometer(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.Chronometer(android.content.Context, android.util.AttributeSet, int, int);
+  public void setBase(long);
+  public long getBase();
+  public void setFormat(java.lang.String);
+  public java.lang.String getFormat();
+  public void setOnChronometerTickListener(android.widget.Chronometer$OnChronometerTickListener);
+  public android.widget.Chronometer$OnChronometerTickListener getOnChronometerTickListener();
+  public void start();
+  public void stop();
+  protected void onDetachedFromWindow();
+  protected void onWindowVisibilityChanged(int);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

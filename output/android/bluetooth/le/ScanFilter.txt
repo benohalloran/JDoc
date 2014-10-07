@@ -1,0 +1,23 @@
+Compiled from "ScanFilter.java"
+public final class android.bluetooth.le.ScanFilter implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.bluetooth.le.ScanFilter> CREATOR;
+  android.bluetooth.le.ScanFilter();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String getLocalName();
+  public android.os.ParcelUuid getServiceUuid();
+  public android.os.ParcelUuid getServiceUuidMask();
+  public java.lang.String getDeviceAddress();
+  public byte[] getServiceData();
+  public byte[] getServiceDataMask();
+  public int getManufacturerId();
+  public byte[] getManufacturerData();
+  public byte[] getManufacturerDataMask();
+  public int getMinRssi();
+  public int getMaxRssi();
+  public boolean matches(android.bluetooth.le.ScanResult);
+  public java.lang.String toString();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  static {};
+}

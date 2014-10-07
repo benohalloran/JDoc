@@ -1,0 +1,9 @@
+Compiled from "BluetoothManager.java"
+public final class android.bluetooth.BluetoothManager {
+  android.bluetooth.BluetoothManager();
+  public android.bluetooth.BluetoothAdapter getAdapter();
+  public int getConnectionState(android.bluetooth.BluetoothDevice, int);
+  public java.util.List<android.bluetooth.BluetoothDevice> getConnectedDevices(int);
+  public java.util.List<android.bluetooth.BluetoothDevice> getDevicesMatchingConnectionStates(int, int[]);
+  public android.bluetooth.BluetoothGattServer openGattServer(android.content.Context, android.bluetooth.BluetoothGattServerCallback);
+}

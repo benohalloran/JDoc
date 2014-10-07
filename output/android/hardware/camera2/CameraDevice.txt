@@ -1,0 +1,21 @@
+Compiled from "CameraDevice.java"
+public abstract class android.hardware.camera2.CameraDevice implements java.lang.AutoCloseable {
+  public static final int TEMPLATE_MANUAL;
+  public static final int TEMPLATE_PREVIEW;
+  public static final int TEMPLATE_RECORD;
+  public static final int TEMPLATE_STILL_CAPTURE;
+  public static final int TEMPLATE_VIDEO_SNAPSHOT;
+  public static final int TEMPLATE_ZERO_SHUTTER_LAG;
+  android.hardware.camera2.CameraDevice();
+  public abstract java.lang.String getId();
+  public abstract void configureOutputs(java.util.List<android.view.Surface>) throws android.hardware.camera2.CameraAccessException;
+  public abstract void createCaptureSession(java.util.List<android.view.Surface>, android.hardware.camera2.CameraCaptureSession$StateListener, android.os.Handler) throws android.hardware.camera2.CameraAccessException;
+  public abstract android.hardware.camera2.CaptureRequest$Builder createCaptureRequest(int) throws android.hardware.camera2.CameraAccessException;
+  public abstract int capture(android.hardware.camera2.CaptureRequest, android.hardware.camera2.CameraDevice$CaptureListener, android.os.Handler) throws android.hardware.camera2.CameraAccessException;
+  public abstract int captureBurst(java.util.List<android.hardware.camera2.CaptureRequest>, android.hardware.camera2.CameraDevice$CaptureListener, android.os.Handler) throws android.hardware.camera2.CameraAccessException;
+  public abstract int setRepeatingRequest(android.hardware.camera2.CaptureRequest, android.hardware.camera2.CameraDevice$CaptureListener, android.os.Handler) throws android.hardware.camera2.CameraAccessException;
+  public abstract int setRepeatingBurst(java.util.List<android.hardware.camera2.CaptureRequest>, android.hardware.camera2.CameraDevice$CaptureListener, android.os.Handler) throws android.hardware.camera2.CameraAccessException;
+  public abstract void stopRepeating() throws android.hardware.camera2.CameraAccessException;
+  public abstract void flush() throws android.hardware.camera2.CameraAccessException;
+  public abstract void close();
+}

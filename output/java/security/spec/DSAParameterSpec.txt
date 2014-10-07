@@ -1,0 +1,7 @@
+Compiled from "DSAParameterSpec.java"
+public class java.security.spec.DSAParameterSpec implements java.security.spec.AlgorithmParameterSpec,java.security.interfaces.DSAParams {
+  public java.security.spec.DSAParameterSpec(java.math.BigInteger, java.math.BigInteger, java.math.BigInteger);
+  public java.math.BigInteger getG();
+  public java.math.BigInteger getP();
+  public java.math.BigInteger getQ();
+}

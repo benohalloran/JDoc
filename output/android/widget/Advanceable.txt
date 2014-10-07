@@ -1,0 +1,5 @@
+Compiled from "Advanceable.java"
+public interface android.widget.Advanceable {
+  public abstract void advance();
+  public abstract void fyiWillBeAdvancedByHostKThx();
+}

@@ -1,0 +1,14 @@
+Compiled from "Date.java"
+public class java.sql.Date extends java.util.Date {
+  public java.sql.Date(int, int, int);
+  public java.sql.Date(long);
+  public int getHours();
+  public int getMinutes();
+  public int getSeconds();
+  public void setHours(int);
+  public void setMinutes(int);
+  public void setSeconds(int);
+  public void setTime(long);
+  public java.lang.String toString();
+  public static java.sql.Date valueOf(java.lang.String);
+}

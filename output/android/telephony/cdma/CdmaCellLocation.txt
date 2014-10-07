@@ -1,0 +1,18 @@
+Compiled from "CdmaCellLocation.java"
+public class android.telephony.cdma.CdmaCellLocation extends android.telephony.CellLocation {
+  public android.telephony.cdma.CdmaCellLocation();
+  public android.telephony.cdma.CdmaCellLocation(android.os.Bundle);
+  public int getBaseStationId();
+  public int getBaseStationLatitude();
+  public int getBaseStationLongitude();
+  public int getSystemId();
+  public int getNetworkId();
+  public void setStateInvalid();
+  public void setCellLocationData(int, int, int);
+  public void setCellLocationData(int, int, int, int, int);
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public void fillInNotifierBundle(android.os.Bundle);
+  public static double convertQuartSecToDecDegrees(int);
+}

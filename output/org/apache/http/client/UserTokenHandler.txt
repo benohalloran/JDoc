@@ -1,0 +1,4 @@
+Compiled from "UserTokenHandler.java"
+public interface org.apache.http.client.UserTokenHandler {
+  public abstract java.lang.Object getUserToken(org.apache.http.protocol.HttpContext);
+}

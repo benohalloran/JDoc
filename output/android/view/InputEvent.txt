@@ -1,0 +1,12 @@
+Compiled from "InputEvent.java"
+public abstract class android.view.InputEvent implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.InputEvent> CREATOR;
+  android.view.InputEvent();
+  public abstract int getDeviceId();
+  public final android.view.InputDevice getDevice();
+  public abstract int getSource();
+  public boolean isFromSource(int);
+  public abstract long getEventTime();
+  public int describeContents();
+  static {};
+}

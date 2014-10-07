@@ -1,0 +1,7 @@
+Compiled from "InflateException.java"
+public class android.view.InflateException extends java.lang.RuntimeException {
+  public android.view.InflateException();
+  public android.view.InflateException(java.lang.String, java.lang.Throwable);
+  public android.view.InflateException(java.lang.String);
+  public android.view.InflateException(java.lang.Throwable);
+}

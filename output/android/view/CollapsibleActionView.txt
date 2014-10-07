@@ -1,0 +1,5 @@
+Compiled from "CollapsibleActionView.java"
+public interface android.view.CollapsibleActionView {
+  public abstract void onActionViewExpanded();
+  public abstract void onActionViewCollapsed();
+}

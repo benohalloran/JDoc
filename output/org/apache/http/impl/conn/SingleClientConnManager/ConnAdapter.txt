@@ -1,0 +1,5 @@
+Compiled from "SingleClientConnManager.java"
+public class org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter extends org.apache.http.impl.conn.AbstractPooledConnAdapter {
+  final org.apache.http.impl.conn.SingleClientConnManager this$0;
+  protected org.apache.http.impl.conn.SingleClientConnManager$ConnAdapter(org.apache.http.impl.conn.SingleClientConnManager, org.apache.http.impl.conn.SingleClientConnManager$PoolEntry, org.apache.http.conn.routing.HttpRoute);
+}

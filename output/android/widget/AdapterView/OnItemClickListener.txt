@@ -1,0 +1,4 @@
+Compiled from "AdapterView.java"
+public interface android.widget.AdapterView$OnItemClickListener {
+  public abstract void onItemClick(android.widget.AdapterView<?>, android.view.View, int, long);
+}

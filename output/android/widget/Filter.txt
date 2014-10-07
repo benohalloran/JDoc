@@ -1,0 +1,9 @@
+Compiled from "Filter.java"
+public abstract class android.widget.Filter {
+  public android.widget.Filter();
+  public final void filter(java.lang.CharSequence);
+  public final void filter(java.lang.CharSequence, android.widget.Filter$FilterListener);
+  protected abstract android.widget.Filter$FilterResults performFiltering(java.lang.CharSequence);
+  protected abstract void publishResults(java.lang.CharSequence, android.widget.Filter$FilterResults);
+  public java.lang.CharSequence convertResultToString(java.lang.Object);
+}

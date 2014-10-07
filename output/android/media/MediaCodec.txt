@@ -1,0 +1,42 @@
+Compiled from "MediaCodec.java"
+public final class android.media.MediaCodec {
+  public static final int BUFFER_FLAG_CODEC_CONFIG;
+  public static final int BUFFER_FLAG_END_OF_STREAM;
+  public static final int BUFFER_FLAG_SYNC_FRAME;
+  public static final int CONFIGURE_FLAG_ENCODE;
+  public static final int CRYPTO_MODE_AES_CTR;
+  public static final int CRYPTO_MODE_UNENCRYPTED;
+  public static final int INFO_OUTPUT_BUFFERS_CHANGED;
+  public static final int INFO_OUTPUT_FORMAT_CHANGED;
+  public static final int INFO_TRY_AGAIN_LATER;
+  public static final java.lang.String PARAMETER_KEY_REQUEST_SYNC_FRAME;
+  public static final java.lang.String PARAMETER_KEY_SUSPEND;
+  public static final java.lang.String PARAMETER_KEY_VIDEO_BITRATE;
+  public static final int VIDEO_SCALING_MODE_SCALE_TO_FIT;
+  public static final int VIDEO_SCALING_MODE_SCALE_TO_FIT_WITH_CROPPING;
+  android.media.MediaCodec();
+  public static android.media.MediaCodec createDecoderByType(java.lang.String) throws java.io.IOException;
+  public static android.media.MediaCodec createEncoderByType(java.lang.String) throws java.io.IOException;
+  public static android.media.MediaCodec createByCodecName(java.lang.String) throws java.io.IOException;
+  protected void finalize();
+  public final native void release();
+  public void configure(android.media.MediaFormat, android.view.Surface, android.media.MediaCrypto, int);
+  public final native android.view.Surface createInputSurface();
+  public final native void start();
+  public final void stop();
+  public final native void flush();
+  public final native void queueInputBuffer(int, int, int, long, int) throws android.media.MediaCodec$CryptoException;
+  public final native void queueSecureInputBuffer(int, int, android.media.MediaCodec$CryptoInfo, long, int) throws android.media.MediaCodec$CryptoException;
+  public final native int dequeueInputBuffer(long);
+  public final native int dequeueOutputBuffer(android.media.MediaCodec$BufferInfo, long);
+  public final void releaseOutputBuffer(int, boolean);
+  public final void releaseOutputBuffer(int, long);
+  public final native void signalEndOfInputStream();
+  public final android.media.MediaFormat getOutputFormat();
+  public java.nio.ByteBuffer[] getInputBuffers();
+  public java.nio.ByteBuffer[] getOutputBuffers();
+  public final native void setVideoScalingMode(int);
+  public final native java.lang.String getName();
+  public final void setParameters(android.os.Bundle);
+  public android.media.MediaCodecInfo getCodecInfo();
+}

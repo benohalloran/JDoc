@@ -1,0 +1,13 @@
+Compiled from "PrintAttributes.java"
+public final class android.print.PrintAttributes$Margins {
+  public static final android.print.PrintAttributes$Margins NO_MARGINS;
+  public android.print.PrintAttributes$Margins(int, int, int, int);
+  public int getLeftMils();
+  public int getTopMils();
+  public int getRightMils();
+  public int getBottomMils();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  static {};
+}

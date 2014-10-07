@@ -1,0 +1,15 @@
+Compiled from "Notification.java"
+public class android.app.Notification$Action implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.app.Notification$Action> CREATOR;
+  public android.app.PendingIntent actionIntent;
+  public int icon;
+  public java.lang.CharSequence title;
+  public android.app.Notification$Action(int, java.lang.CharSequence, android.app.PendingIntent);
+  public android.os.Bundle getExtras();
+  public android.app.RemoteInput[] getRemoteInputs();
+  public android.app.Notification$Action clone();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+  static {};
+}

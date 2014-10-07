@@ -1,0 +1,9 @@
+Compiled from "RadioGroup.java"
+public class android.widget.RadioGroup$LayoutParams extends android.widget.LinearLayout$LayoutParams {
+  public android.widget.RadioGroup$LayoutParams(android.content.Context, android.util.AttributeSet);
+  public android.widget.RadioGroup$LayoutParams(int, int);
+  public android.widget.RadioGroup$LayoutParams(int, int, float);
+  public android.widget.RadioGroup$LayoutParams(android.view.ViewGroup$LayoutParams);
+  public android.widget.RadioGroup$LayoutParams(android.view.ViewGroup$MarginLayoutParams);
+  protected void setBaseAttributes(android.content.res.TypedArray, int, int);
+}

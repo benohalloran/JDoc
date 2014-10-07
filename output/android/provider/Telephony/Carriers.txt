@@ -1,0 +1,29 @@
+Compiled from "Telephony.java"
+public final class android.provider.Telephony$Carriers implements android.provider.BaseColumns {
+  public static final java.lang.String APN;
+  public static final java.lang.String AUTH_TYPE;
+  public static final java.lang.String BEARER;
+  public static final java.lang.String CARRIER_ENABLED;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String CURRENT;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final java.lang.String MCC;
+  public static final java.lang.String MMSC;
+  public static final java.lang.String MMSPORT;
+  public static final java.lang.String MMSPROXY;
+  public static final java.lang.String MNC;
+  public static final java.lang.String MVNO_MATCH_DATA;
+  public static final java.lang.String MVNO_TYPE;
+  public static final java.lang.String NAME;
+  public static final java.lang.String NUMERIC;
+  public static final java.lang.String PASSWORD;
+  public static final java.lang.String PORT;
+  public static final java.lang.String PROTOCOL;
+  public static final java.lang.String PROXY;
+  public static final java.lang.String ROAMING_PROTOCOL;
+  public static final java.lang.String SERVER;
+  public static final java.lang.String TYPE;
+  public static final java.lang.String USER;
+  android.provider.Telephony$Carriers();
+  static {};
+}

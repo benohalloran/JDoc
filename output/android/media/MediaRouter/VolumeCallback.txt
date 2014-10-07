@@ -1,0 +1,6 @@
+Compiled from "MediaRouter.java"
+public abstract class android.media.MediaRouter$VolumeCallback {
+  public android.media.MediaRouter$VolumeCallback();
+  public abstract void onVolumeUpdateRequest(android.media.MediaRouter$RouteInfo, int);
+  public abstract void onVolumeSetRequest(android.media.MediaRouter$RouteInfo, int);
+}

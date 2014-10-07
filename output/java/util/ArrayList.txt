@@ -1,0 +1,29 @@
+Compiled from "ArrayList.java"
+public class java.util.ArrayList<E> extends java.util.AbstractList<E> implements java.lang.Cloneable, java.io.Serializable, java.util.RandomAccess {
+  public java.util.ArrayList(int);
+  public java.util.ArrayList();
+  public java.util.ArrayList(java.util.Collection<? extends E>);
+  public boolean add(E);
+  public void add(int, E);
+  public boolean addAll(java.util.Collection<? extends E>);
+  public boolean addAll(int, java.util.Collection<? extends E>);
+  public void clear();
+  public java.lang.Object clone();
+  public void ensureCapacity(int);
+  public E get(int);
+  public int size();
+  public boolean isEmpty();
+  public boolean contains(java.lang.Object);
+  public int indexOf(java.lang.Object);
+  public int lastIndexOf(java.lang.Object);
+  public E remove(int);
+  public boolean remove(java.lang.Object);
+  protected void removeRange(int, int);
+  public E set(int, E);
+  public java.lang.Object[] toArray();
+  public <T extends java/lang/Object> T[] toArray(T[]);
+  public void trimToSize();
+  public java.util.Iterator<E> iterator();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+}

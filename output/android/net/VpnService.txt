@@ -1,0 +1,11 @@
+Compiled from "VpnService.java"
+public class android.net.VpnService extends android.app.Service {
+  public static final java.lang.String SERVICE_INTERFACE;
+  public android.net.VpnService();
+  public static android.content.Intent prepare(android.content.Context);
+  public boolean protect(int);
+  public boolean protect(java.net.Socket);
+  public boolean protect(java.net.DatagramSocket);
+  public android.os.IBinder onBind(android.content.Intent);
+  public void onRevoke();
+}

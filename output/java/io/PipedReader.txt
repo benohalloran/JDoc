@@ -1,0 +1,12 @@
+Compiled from "PipedReader.java"
+public class java.io.PipedReader extends java.io.Reader {
+  public java.io.PipedReader();
+  public java.io.PipedReader(java.io.PipedWriter) throws java.io.IOException;
+  public java.io.PipedReader(int);
+  public java.io.PipedReader(java.io.PipedWriter, int) throws java.io.IOException;
+  public synchronized void close() throws java.io.IOException;
+  public void connect(java.io.PipedWriter) throws java.io.IOException;
+  public int read() throws java.io.IOException;
+  public synchronized int read(char[], int, int) throws java.io.IOException;
+  public synchronized boolean ready() throws java.io.IOException;
+}

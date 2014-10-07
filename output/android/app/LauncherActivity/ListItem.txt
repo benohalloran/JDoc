@@ -1,0 +1,10 @@
+Compiled from "LauncherActivity.java"
+public class android.app.LauncherActivity$ListItem {
+  public java.lang.String className;
+  public android.os.Bundle extras;
+  public android.graphics.drawable.Drawable icon;
+  public java.lang.CharSequence label;
+  public java.lang.String packageName;
+  public android.content.pm.ResolveInfo resolveInfo;
+  public android.app.LauncherActivity$ListItem();
+}

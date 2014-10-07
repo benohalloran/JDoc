@@ -1,0 +1,4 @@
+Compiled from "MediaPlayer.java"
+public interface android.media.MediaPlayer$OnTimedTextListener {
+  public abstract void onTimedText(android.media.MediaPlayer, android.media.TimedText);
+}

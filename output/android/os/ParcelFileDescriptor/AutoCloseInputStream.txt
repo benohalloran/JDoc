@@ -1,0 +1,5 @@
+Compiled from "ParcelFileDescriptor.java"
+public class android.os.ParcelFileDescriptor$AutoCloseInputStream extends java.io.FileInputStream {
+  public android.os.ParcelFileDescriptor$AutoCloseInputStream(android.os.ParcelFileDescriptor);
+  public void close() throws java.io.IOException;
+}

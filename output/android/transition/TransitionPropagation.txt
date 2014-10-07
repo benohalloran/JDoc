@@ -1,0 +1,7 @@
+Compiled from "TransitionPropagation.java"
+public abstract class android.transition.TransitionPropagation {
+  public android.transition.TransitionPropagation();
+  public abstract long getStartDelay(android.view.ViewGroup, android.transition.Transition, android.transition.TransitionValues, android.transition.TransitionValues);
+  public abstract void captureValues(android.transition.TransitionValues);
+  public abstract java.lang.String[] getPropagationProperties();
+}

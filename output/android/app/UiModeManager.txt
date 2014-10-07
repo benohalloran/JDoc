@@ -1,0 +1,18 @@
+Compiled from "UiModeManager.java"
+public class android.app.UiModeManager {
+  public static java.lang.String ACTION_ENTER_CAR_MODE;
+  public static java.lang.String ACTION_ENTER_DESK_MODE;
+  public static java.lang.String ACTION_EXIT_CAR_MODE;
+  public static java.lang.String ACTION_EXIT_DESK_MODE;
+  public static final int DISABLE_CAR_MODE_GO_HOME;
+  public static final int ENABLE_CAR_MODE_GO_CAR_HOME;
+  public static final int MODE_NIGHT_AUTO;
+  public static final int MODE_NIGHT_NO;
+  public static final int MODE_NIGHT_YES;
+  android.app.UiModeManager();
+  public void enableCarMode(int);
+  public void disableCarMode(int);
+  public int getCurrentModeType();
+  public void setNightMode(int);
+  public int getNightMode();
+}

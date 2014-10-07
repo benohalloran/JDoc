@@ -1,0 +1,23 @@
+Compiled from "Contacts.java"
+public final class android.provider.Contacts$People implements android.provider.BaseColumns,android.provider.Contacts$PeopleColumns,android.provider.Contacts$PhonesColumns,android.provider.Contacts$PresenceColumns {
+  public static final android.net.Uri CONTENT_FILTER_URI;
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final android.net.Uri DELETED_CONTENT_URI;
+  public static final java.lang.String PRIMARY_EMAIL_ID;
+  public static final java.lang.String PRIMARY_ORGANIZATION_ID;
+  public static final java.lang.String PRIMARY_PHONE_ID;
+  android.provider.Contacts$People();
+  public static void markAsContacted(android.content.ContentResolver, long);
+  public static android.net.Uri addToMyContactsGroup(android.content.ContentResolver, long);
+  public static android.net.Uri addToGroup(android.content.ContentResolver, long, java.lang.String);
+  public static android.net.Uri addToGroup(android.content.ContentResolver, long, long);
+  public static android.net.Uri createPersonInMyContactsGroup(android.content.ContentResolver, android.content.ContentValues);
+  public static android.database.Cursor queryGroups(android.content.ContentResolver, long);
+  public static void setPhotoData(android.content.ContentResolver, android.net.Uri, byte[]);
+  public static java.io.InputStream openContactPhotoInputStream(android.content.ContentResolver, android.net.Uri);
+  public static android.graphics.Bitmap loadContactPhoto(android.content.Context, android.net.Uri, int, android.graphics.BitmapFactory$Options);
+  static {};
+}

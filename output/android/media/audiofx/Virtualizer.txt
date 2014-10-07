@@ -1,0 +1,12 @@
+Compiled from "Virtualizer.java"
+public class android.media.audiofx.Virtualizer extends android.media.audiofx.AudioEffect {
+  public static final int PARAM_STRENGTH;
+  public static final int PARAM_STRENGTH_SUPPORTED;
+  public android.media.audiofx.Virtualizer(int, int) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException, java.lang.RuntimeException;
+  public boolean getStrengthSupported();
+  public void setStrength(short) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public short getRoundedStrength() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setParameterListener(android.media.audiofx.Virtualizer$OnParameterChangeListener);
+  public android.media.audiofx.Virtualizer$Settings getProperties() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setProperties(android.media.audiofx.Virtualizer$Settings) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+}

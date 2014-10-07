@@ -1,0 +1,7 @@
+Compiled from "AbsListView.java"
+public class android.widget.AbsListView$LayoutParams extends android.view.ViewGroup$LayoutParams {
+  public android.widget.AbsListView$LayoutParams(android.content.Context, android.util.AttributeSet);
+  public android.widget.AbsListView$LayoutParams(int, int);
+  public android.widget.AbsListView$LayoutParams(int, int, int);
+  public android.widget.AbsListView$LayoutParams(android.view.ViewGroup$LayoutParams);
+}

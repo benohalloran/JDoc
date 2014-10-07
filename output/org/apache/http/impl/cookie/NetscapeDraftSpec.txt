@@ -1,0 +1,10 @@
+Compiled from "NetscapeDraftSpec.java"
+public class org.apache.http.impl.cookie.NetscapeDraftSpec extends org.apache.http.impl.cookie.CookieSpecBase {
+  protected static final java.lang.String EXPIRES_PATTERN;
+  public org.apache.http.impl.cookie.NetscapeDraftSpec(java.lang.String[]);
+  public org.apache.http.impl.cookie.NetscapeDraftSpec();
+  public java.util.List<org.apache.http.cookie.Cookie> parse(org.apache.http.Header, org.apache.http.cookie.CookieOrigin) throws org.apache.http.cookie.MalformedCookieException;
+  public java.util.List<org.apache.http.Header> formatCookies(java.util.List<org.apache.http.cookie.Cookie>);
+  public int getVersion();
+  public org.apache.http.Header getVersionHeader();
+}

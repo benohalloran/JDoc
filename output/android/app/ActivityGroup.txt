@@ -1,0 +1,13 @@
+Compiled from "ActivityGroup.java"
+public class android.app.ActivityGroup extends android.app.Activity {
+  public android.app.ActivityGroup();
+  public android.app.ActivityGroup(boolean);
+  protected void onCreate(android.os.Bundle);
+  protected void onResume();
+  protected void onSaveInstanceState(android.os.Bundle);
+  protected void onPause();
+  protected void onStop();
+  protected void onDestroy();
+  public android.app.Activity getCurrentActivity();
+  public final android.app.LocalActivityManager getLocalActivityManager();
+}

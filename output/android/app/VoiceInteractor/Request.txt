@@ -1,0 +1,10 @@
+Compiled from "VoiceInteractor.java"
+public abstract class android.app.VoiceInteractor$Request {
+  public android.app.VoiceInteractor$Request();
+  public void cancel();
+  public android.content.Context getContext();
+  public android.app.Activity getActivity();
+  public void onCancel();
+  public void onAttached(android.app.Activity);
+  public void onDetached();
+}

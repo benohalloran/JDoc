@@ -1,0 +1,11 @@
+Compiled from "ConsoleMessage.java"
+public final class android.webkit.ConsoleMessage$MessageLevel extends java.lang.Enum<android.webkit.ConsoleMessage$MessageLevel> {
+  public static final android.webkit.ConsoleMessage$MessageLevel DEBUG;
+  public static final android.webkit.ConsoleMessage$MessageLevel ERROR;
+  public static final android.webkit.ConsoleMessage$MessageLevel LOG;
+  public static final android.webkit.ConsoleMessage$MessageLevel TIP;
+  public static final android.webkit.ConsoleMessage$MessageLevel WARNING;
+  public static android.webkit.ConsoleMessage$MessageLevel[] values();
+  public static android.webkit.ConsoleMessage$MessageLevel valueOf(java.lang.String);
+  static {};
+}

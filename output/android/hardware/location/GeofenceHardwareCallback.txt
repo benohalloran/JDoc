@@ -1,0 +1,9 @@
+Compiled from "GeofenceHardwareCallback.java"
+public abstract class android.hardware.location.GeofenceHardwareCallback {
+  public android.hardware.location.GeofenceHardwareCallback();
+  public void onGeofenceTransition(int, int, android.location.Location, long, int);
+  public void onGeofenceAdd(int, int);
+  public void onGeofenceRemove(int, int);
+  public void onGeofencePause(int, int);
+  public void onGeofenceResume(int, int);
+}

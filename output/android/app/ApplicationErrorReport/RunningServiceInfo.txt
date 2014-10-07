@@ -1,0 +1,9 @@
+Compiled from "ApplicationErrorReport.java"
+public class android.app.ApplicationErrorReport$RunningServiceInfo {
+  public long durationMillis;
+  public java.lang.String serviceDetails;
+  public android.app.ApplicationErrorReport$RunningServiceInfo();
+  public android.app.ApplicationErrorReport$RunningServiceInfo(android.os.Parcel);
+  public void writeToParcel(android.os.Parcel, int);
+  public void dump(android.util.Printer, java.lang.String);
+}

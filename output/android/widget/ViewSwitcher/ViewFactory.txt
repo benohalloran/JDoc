@@ -1,0 +1,4 @@
+Compiled from "ViewSwitcher.java"
+public interface android.widget.ViewSwitcher$ViewFactory {
+  public abstract android.view.View makeView();
+}

@@ -1,0 +1,4 @@
+Compiled from "SocketAddress.java"
+public abstract class java.net.SocketAddress implements java.io.Serializable {
+  public java.net.SocketAddress();
+}

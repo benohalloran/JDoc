@@ -1,0 +1,5 @@
+Compiled from "NonRepeatableRequestException.java"
+public class org.apache.http.client.NonRepeatableRequestException extends org.apache.http.ProtocolException {
+  public org.apache.http.client.NonRepeatableRequestException();
+  public org.apache.http.client.NonRepeatableRequestException(java.lang.String);
+}

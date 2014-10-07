@@ -1,0 +1,37 @@
+Compiled from "MediaDrm.java"
+public final class android.media.MediaDrm {
+  public static final int EVENT_KEY_EXPIRED;
+  public static final int EVENT_KEY_REQUIRED;
+  public static final int EVENT_PROVISION_REQUIRED;
+  public static final int EVENT_VENDOR_DEFINED;
+  public static final int KEY_TYPE_OFFLINE;
+  public static final int KEY_TYPE_RELEASE;
+  public static final int KEY_TYPE_STREAMING;
+  public static final java.lang.String PROPERTY_ALGORITHMS;
+  public static final java.lang.String PROPERTY_DESCRIPTION;
+  public static final java.lang.String PROPERTY_DEVICE_UNIQUE_ID;
+  public static final java.lang.String PROPERTY_VENDOR;
+  public static final java.lang.String PROPERTY_VERSION;
+  public android.media.MediaDrm(java.util.UUID) throws android.media.UnsupportedSchemeException;
+  public static final boolean isCryptoSchemeSupported(java.util.UUID);
+  public static final boolean isCryptoSchemeSupported(java.util.UUID, java.lang.String);
+  public void setOnEventListener(android.media.MediaDrm$OnEventListener);
+  public native byte[] openSession() throws android.media.NotProvisionedException;
+  public native void closeSession(byte[]);
+  public native android.media.MediaDrm$KeyRequest getKeyRequest(byte[], byte[], java.lang.String, int, java.util.HashMap<java.lang.String, java.lang.String>) throws android.media.NotProvisionedException;
+  public native byte[] provideKeyResponse(byte[], byte[]) throws android.media.NotProvisionedException, android.media.DeniedByServerException;
+  public native void restoreKeys(byte[], byte[]);
+  public native void removeKeys(byte[]);
+  public native java.util.HashMap<java.lang.String, java.lang.String> queryKeyStatus(byte[]);
+  public android.media.MediaDrm$ProvisionRequest getProvisionRequest();
+  public void provideProvisionResponse(byte[]) throws android.media.DeniedByServerException;
+  public native java.util.List<byte[]> getSecureStops();
+  public native void releaseSecureStops(byte[]);
+  public native java.lang.String getPropertyString(java.lang.String);
+  public native byte[] getPropertyByteArray(java.lang.String);
+  public native void setPropertyString(java.lang.String, java.lang.String);
+  public native void setPropertyByteArray(java.lang.String, byte[]);
+  public android.media.MediaDrm$CryptoSession getCryptoSession(byte[], java.lang.String, java.lang.String);
+  protected void finalize();
+  public final native void release();
+}

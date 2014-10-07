@@ -1,0 +1,9 @@
+Compiled from "PrintDocumentAdapter.java"
+public abstract class android.print.PrintDocumentAdapter {
+  public static final java.lang.String EXTRA_PRINT_PREVIEW;
+  public android.print.PrintDocumentAdapter();
+  public void onStart();
+  public abstract void onLayout(android.print.PrintAttributes, android.print.PrintAttributes, android.os.CancellationSignal, android.print.PrintDocumentAdapter$LayoutResultCallback, android.os.Bundle);
+  public abstract void onWrite(android.print.PageRange[], android.os.ParcelFileDescriptor, android.os.CancellationSignal, android.print.PrintDocumentAdapter$WriteResultCallback);
+  public void onFinish();
+}

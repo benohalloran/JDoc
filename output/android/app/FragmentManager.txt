@@ -1,0 +1,26 @@
+Compiled from "FragmentManager.java"
+public abstract class android.app.FragmentManager {
+  public static final int POP_BACK_STACK_INCLUSIVE;
+  public android.app.FragmentManager();
+  public abstract android.app.FragmentTransaction beginTransaction();
+  public abstract boolean executePendingTransactions();
+  public abstract android.app.Fragment findFragmentById(int);
+  public abstract android.app.Fragment findFragmentByTag(java.lang.String);
+  public abstract void popBackStack();
+  public abstract boolean popBackStackImmediate();
+  public abstract void popBackStack(java.lang.String, int);
+  public abstract boolean popBackStackImmediate(java.lang.String, int);
+  public abstract void popBackStack(int, int);
+  public abstract boolean popBackStackImmediate(int, int);
+  public abstract int getBackStackEntryCount();
+  public abstract android.app.FragmentManager$BackStackEntry getBackStackEntryAt(int);
+  public abstract void addOnBackStackChangedListener(android.app.FragmentManager$OnBackStackChangedListener);
+  public abstract void removeOnBackStackChangedListener(android.app.FragmentManager$OnBackStackChangedListener);
+  public abstract void putFragment(android.os.Bundle, java.lang.String, android.app.Fragment);
+  public abstract android.app.Fragment getFragment(android.os.Bundle, java.lang.String);
+  public abstract android.app.Fragment$SavedState saveFragmentInstanceState(android.app.Fragment);
+  public abstract boolean isDestroyed();
+  public abstract void dump(java.lang.String, java.io.FileDescriptor, java.io.PrintWriter, java.lang.String[]);
+  public static void enableDebugLogging(boolean);
+  public void invalidateOptionsMenu();
+}

@@ -1,0 +1,14 @@
+Compiled from "PageRange.java"
+public final class android.print.PageRange implements android.os.Parcelable {
+  public static final android.print.PageRange ALL_PAGES;
+  public static final android.os.Parcelable$Creator<android.print.PageRange> CREATOR;
+  public android.print.PageRange(int, int);
+  public int getStart();
+  public int getEnd();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  static {};
+}

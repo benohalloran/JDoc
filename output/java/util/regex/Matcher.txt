@@ -1,0 +1,36 @@
+Compiled from "Matcher.java"
+public final class java.util.regex.Matcher implements java.util.regex.MatchResult {
+  java.util.regex.Matcher();
+  public java.util.regex.Matcher appendReplacement(java.lang.StringBuffer, java.lang.String);
+  public java.util.regex.Matcher reset();
+  public java.util.regex.Matcher reset(java.lang.CharSequence);
+  public java.util.regex.Matcher usePattern(java.util.regex.Pattern);
+  public java.util.regex.Matcher region(int, int);
+  public java.lang.StringBuffer appendTail(java.lang.StringBuffer);
+  public java.lang.String replaceFirst(java.lang.String);
+  public java.lang.String replaceAll(java.lang.String);
+  public java.util.regex.Pattern pattern();
+  public boolean find(int);
+  public boolean find();
+  public boolean lookingAt();
+  public boolean matches();
+  public static java.lang.String quoteReplacement(java.lang.String);
+  public java.util.regex.MatchResult toMatchResult();
+  public java.util.regex.Matcher useAnchoringBounds(boolean);
+  public boolean hasAnchoringBounds();
+  public java.util.regex.Matcher useTransparentBounds(boolean);
+  public boolean hasTransparentBounds();
+  public int regionStart();
+  public int regionEnd();
+  public boolean requireEnd();
+  public boolean hitEnd();
+  protected void finalize() throws java.lang.Throwable;
+  public java.lang.String toString();
+  public int end();
+  public int end(int);
+  public java.lang.String group();
+  public java.lang.String group(int);
+  public int groupCount();
+  public int start();
+  public int start(int) throws java.lang.IllegalStateException;
+}

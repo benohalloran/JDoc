@@ -1,0 +1,5 @@
+Compiled from "KeyStore.java"
+public class java.security.KeyStore$CallbackHandlerProtection implements java.security.KeyStore$ProtectionParameter {
+  public java.security.KeyStore$CallbackHandlerProtection(javax.security.auth.callback.CallbackHandler);
+  public javax.security.auth.callback.CallbackHandler getCallbackHandler();
+}

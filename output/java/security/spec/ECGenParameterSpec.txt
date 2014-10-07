@@ -1,0 +1,5 @@
+Compiled from "ECGenParameterSpec.java"
+public class java.security.spec.ECGenParameterSpec implements java.security.spec.AlgorithmParameterSpec {
+  public java.security.spec.ECGenParameterSpec(java.lang.String);
+  public java.lang.String getName();
+}

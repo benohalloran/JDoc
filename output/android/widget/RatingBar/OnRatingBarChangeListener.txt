@@ -1,0 +1,4 @@
+Compiled from "RatingBar.java"
+public interface android.widget.RatingBar$OnRatingBarChangeListener {
+  public abstract void onRatingChanged(android.widget.RatingBar, float, boolean);
+}

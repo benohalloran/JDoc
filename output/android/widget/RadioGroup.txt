@@ -1,0 +1,20 @@
+Compiled from "RadioGroup.java"
+public class android.widget.RadioGroup extends android.widget.LinearLayout {
+  public android.widget.RadioGroup(android.content.Context);
+  public android.widget.RadioGroup(android.content.Context, android.util.AttributeSet);
+  public void setOnHierarchyChangeListener(android.view.ViewGroup$OnHierarchyChangeListener);
+  protected void onFinishInflate();
+  public void addView(android.view.View, int, android.view.ViewGroup$LayoutParams);
+  public void check(int);
+  public int getCheckedRadioButtonId();
+  public void clearCheck();
+  public void setOnCheckedChangeListener(android.widget.RadioGroup$OnCheckedChangeListener);
+  public android.widget.RadioGroup$LayoutParams generateLayoutParams(android.util.AttributeSet);
+  protected boolean checkLayoutParams(android.view.ViewGroup$LayoutParams);
+  protected android.widget.LinearLayout$LayoutParams generateDefaultLayoutParams();
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public android.widget.LinearLayout$LayoutParams generateLayoutParams(android.util.AttributeSet);
+  protected android.view.ViewGroup$LayoutParams generateDefaultLayoutParams();
+  public android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet);
+}

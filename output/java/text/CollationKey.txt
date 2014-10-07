@@ -1,0 +1,8 @@
+Compiled from "CollationKey.java"
+public abstract class java.text.CollationKey implements java.lang.Comparable<java.text.CollationKey> {
+  protected java.text.CollationKey(java.lang.String);
+  public abstract int compareTo(java.text.CollationKey);
+  public java.lang.String getSourceString();
+  public abstract byte[] toByteArray();
+  public int compareTo(java.lang.Object);
+}

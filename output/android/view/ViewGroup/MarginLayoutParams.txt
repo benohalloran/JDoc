@@ -1,0 +1,20 @@
+Compiled from "ViewGroup.java"
+public class android.view.ViewGroup$MarginLayoutParams extends android.view.ViewGroup$LayoutParams {
+  public int bottomMargin;
+  public int leftMargin;
+  public int rightMargin;
+  public int topMargin;
+  public android.view.ViewGroup$MarginLayoutParams(android.content.Context, android.util.AttributeSet);
+  public android.view.ViewGroup$MarginLayoutParams(int, int);
+  public android.view.ViewGroup$MarginLayoutParams(android.view.ViewGroup$MarginLayoutParams);
+  public android.view.ViewGroup$MarginLayoutParams(android.view.ViewGroup$LayoutParams);
+  public void setMargins(int, int, int, int);
+  public void setMarginStart(int);
+  public int getMarginStart();
+  public void setMarginEnd(int);
+  public int getMarginEnd();
+  public boolean isMarginRelative();
+  public void setLayoutDirection(int);
+  public int getLayoutDirection();
+  public void resolveLayoutDirection(int);
+}

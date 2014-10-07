@@ -1,0 +1,6 @@
+Compiled from "AutoText.java"
+public class android.text.AutoText {
+  android.text.AutoText();
+  public static java.lang.String get(java.lang.CharSequence, int, int, android.view.View);
+  public static int getSize(android.view.View);
+}

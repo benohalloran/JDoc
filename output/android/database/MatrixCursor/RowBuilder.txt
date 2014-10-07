@@ -1,0 +1,7 @@
+Compiled from "MatrixCursor.java"
+public class android.database.MatrixCursor$RowBuilder {
+  final android.database.MatrixCursor this$0;
+  android.database.MatrixCursor$RowBuilder(android.database.MatrixCursor);
+  public android.database.MatrixCursor$RowBuilder add(java.lang.Object);
+  public android.database.MatrixCursor$RowBuilder add(java.lang.String, java.lang.Object);
+}

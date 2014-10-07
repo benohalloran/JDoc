@@ -1,0 +1,7 @@
+Compiled from "Formatter.java"
+public final class android.text.format.Formatter {
+  public android.text.format.Formatter();
+  public static java.lang.String formatFileSize(android.content.Context, long);
+  public static java.lang.String formatShortFileSize(android.content.Context, long);
+  public static java.lang.String formatIpAddress(int);
+}

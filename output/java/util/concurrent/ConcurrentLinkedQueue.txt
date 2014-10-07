@@ -1,0 +1,17 @@
+Compiled from "ConcurrentLinkedQueue.java"
+public class java.util.concurrent.ConcurrentLinkedQueue<E> extends java.util.AbstractQueue<E> implements java.util.Queue<E>, java.io.Serializable {
+  public java.util.concurrent.ConcurrentLinkedQueue();
+  public java.util.concurrent.ConcurrentLinkedQueue(java.util.Collection<? extends E>);
+  public boolean add(E);
+  public boolean offer(E);
+  public E poll();
+  public E peek();
+  public boolean isEmpty();
+  public int size();
+  public boolean contains(java.lang.Object);
+  public boolean remove(java.lang.Object);
+  public boolean addAll(java.util.Collection<? extends E>);
+  public java.lang.Object[] toArray();
+  public <T extends java/lang/Object> T[] toArray(T[]);
+  public java.util.Iterator<E> iterator();
+}

@@ -1,0 +1,17 @@
+Compiled from "SpellCheckerInfo.java"
+public final class android.view.textservice.SpellCheckerInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.textservice.SpellCheckerInfo> CREATOR;
+  android.view.textservice.SpellCheckerInfo();
+  public java.lang.String getId();
+  public android.content.ComponentName getComponent();
+  public java.lang.String getPackageName();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.CharSequence loadLabel(android.content.pm.PackageManager);
+  public android.graphics.drawable.Drawable loadIcon(android.content.pm.PackageManager);
+  public android.content.pm.ServiceInfo getServiceInfo();
+  public java.lang.String getSettingsActivity();
+  public int getSubtypeCount();
+  public android.view.textservice.SpellCheckerSubtype getSubtypeAt(int);
+  public int describeContents();
+  static {};
+}

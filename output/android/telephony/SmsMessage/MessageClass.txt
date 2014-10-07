@@ -1,0 +1,11 @@
+Compiled from "SmsMessage.java"
+public final class android.telephony.SmsMessage$MessageClass extends java.lang.Enum<android.telephony.SmsMessage$MessageClass> {
+  public static final android.telephony.SmsMessage$MessageClass CLASS_0;
+  public static final android.telephony.SmsMessage$MessageClass CLASS_1;
+  public static final android.telephony.SmsMessage$MessageClass CLASS_2;
+  public static final android.telephony.SmsMessage$MessageClass CLASS_3;
+  public static final android.telephony.SmsMessage$MessageClass UNKNOWN;
+  public static android.telephony.SmsMessage$MessageClass[] values();
+  public static android.telephony.SmsMessage$MessageClass valueOf(java.lang.String);
+  static {};
+}

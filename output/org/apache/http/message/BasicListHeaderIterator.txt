@@ -1,0 +1,14 @@
+Compiled from "BasicListHeaderIterator.java"
+public class org.apache.http.message.BasicListHeaderIterator implements org.apache.http.HeaderIterator {
+  protected final java.util.List allHeaders;
+  protected int currentIndex;
+  protected java.lang.String headerName;
+  protected int lastIndex;
+  public org.apache.http.message.BasicListHeaderIterator(java.util.List, java.lang.String);
+  protected int findNext(int);
+  protected boolean filterHeader(int);
+  public boolean hasNext();
+  public org.apache.http.Header nextHeader() throws java.util.NoSuchElementException;
+  public final java.lang.Object next() throws java.util.NoSuchElementException;
+  public void remove() throws java.lang.UnsupportedOperationException;
+}

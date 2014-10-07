@@ -1,0 +1,9 @@
+Compiled from "KeyRep.java"
+public final class java.security.KeyRep$Type extends java.lang.Enum<java.security.KeyRep$Type> {
+  public static final java.security.KeyRep$Type PRIVATE;
+  public static final java.security.KeyRep$Type PUBLIC;
+  public static final java.security.KeyRep$Type SECRET;
+  public static java.security.KeyRep$Type[] values();
+  public static java.security.KeyRep$Type valueOf(java.lang.String);
+  static {};
+}

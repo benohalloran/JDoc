@@ -1,0 +1,13 @@
+Compiled from "MediaPlayer.java"
+public class android.media.MediaPlayer$TrackInfo implements android.os.Parcelable {
+  public static final int MEDIA_TRACK_TYPE_AUDIO;
+  public static final int MEDIA_TRACK_TYPE_TIMEDTEXT;
+  public static final int MEDIA_TRACK_TYPE_UNKNOWN;
+  public static final int MEDIA_TRACK_TYPE_VIDEO;
+  android.media.MediaPlayer$TrackInfo();
+  public int getTrackType();
+  public java.lang.String getLanguage();
+  public android.media.MediaFormat getFormat();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+}

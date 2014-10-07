@@ -1,0 +1,10 @@
+Compiled from "InputManager.java"
+public final class android.hardware.input.InputManager {
+  public static final java.lang.String ACTION_QUERY_KEYBOARD_LAYOUTS;
+  public static final java.lang.String META_DATA_KEYBOARD_LAYOUTS;
+  android.hardware.input.InputManager();
+  public android.view.InputDevice getInputDevice(int);
+  public int[] getInputDeviceIds();
+  public void registerInputDeviceListener(android.hardware.input.InputManager$InputDeviceListener, android.os.Handler);
+  public void unregisterInputDeviceListener(android.hardware.input.InputManager$InputDeviceListener);
+}

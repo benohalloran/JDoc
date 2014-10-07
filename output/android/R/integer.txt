@@ -1,0 +1,8 @@
+Compiled from "R.java"
+public final class android.R$integer {
+  public static final int config_longAnimTime;
+  public static final int config_mediumAnimTime;
+  public static final int config_shortAnimTime;
+  public static final int status_bar_notification_info_maxnum;
+  public android.R$integer();
+}

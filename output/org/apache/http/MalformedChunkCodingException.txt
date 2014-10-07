@@ -1,0 +1,5 @@
+Compiled from "MalformedChunkCodingException.java"
+public class org.apache.http.MalformedChunkCodingException extends java.io.IOException {
+  public org.apache.http.MalformedChunkCodingException();
+  public org.apache.http.MalformedChunkCodingException(java.lang.String);
+}

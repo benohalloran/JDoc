@@ -1,0 +1,20 @@
+Compiled from "SyncStats.java"
+public class android.content.SyncStats implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.SyncStats> CREATOR;
+  public long numAuthExceptions;
+  public long numConflictDetectedExceptions;
+  public long numDeletes;
+  public long numEntries;
+  public long numInserts;
+  public long numIoExceptions;
+  public long numParseExceptions;
+  public long numSkippedEntries;
+  public long numUpdates;
+  public android.content.SyncStats();
+  public android.content.SyncStats(android.os.Parcel);
+  public java.lang.String toString();
+  public void clear();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

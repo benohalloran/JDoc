@@ -1,0 +1,36 @@
+Compiled from "KeyCharacterMap.java"
+public class android.view.KeyCharacterMap implements android.os.Parcelable {
+  public static final int ALPHA;
+  public static final int BUILT_IN_KEYBOARD;
+  public static final int COMBINING_ACCENT;
+  public static final int COMBINING_ACCENT_MASK;
+  public static final android.os.Parcelable$Creator<android.view.KeyCharacterMap> CREATOR;
+  public static final int FULL;
+  public static final char HEX_INPUT;
+  public static final int MODIFIER_BEHAVIOR_CHORDED;
+  public static final int MODIFIER_BEHAVIOR_CHORDED_OR_TOGGLED;
+  public static final int NUMERIC;
+  public static final char PICKER_DIALOG_INPUT;
+  public static final int PREDICTIVE;
+  public static final int SPECIAL_FUNCTION;
+  public static final int VIRTUAL_KEYBOARD;
+  android.view.KeyCharacterMap();
+  protected void finalize() throws java.lang.Throwable;
+  public static android.view.KeyCharacterMap load(int);
+  public int get(int, int);
+  public char getNumber(int);
+  public char getMatch(int, char[]);
+  public char getMatch(int, char[], int);
+  public char getDisplayLabel(int);
+  public static int getDeadChar(int, int);
+  public boolean getKeyData(int, android.view.KeyCharacterMap$KeyData);
+  public android.view.KeyEvent[] getEvents(char[]);
+  public boolean isPrintingKey(int);
+  public int getKeyboardType();
+  public int getModifierBehavior();
+  public static boolean deviceHasKey(int);
+  public static boolean[] deviceHasKeys(int[]);
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  static {};
+}

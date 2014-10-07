@@ -1,0 +1,4 @@
+Compiled from "SimpleAdapter.java"
+public interface android.widget.SimpleAdapter$ViewBinder {
+  public abstract boolean setViewValue(android.view.View, java.lang.Object, java.lang.String);
+}

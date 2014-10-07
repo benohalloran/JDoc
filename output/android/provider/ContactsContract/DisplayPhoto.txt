@@ -1,0 +1,9 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$DisplayPhoto {
+  public static final android.net.Uri CONTENT_MAX_DIMENSIONS_URI;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DISPLAY_MAX_DIM;
+  public static final java.lang.String THUMBNAIL_MAX_DIM;
+  android.provider.ContactsContract$DisplayPhoto();
+  static {};
+}

@@ -1,0 +1,5 @@
+Compiled from "CalendarContract.java"
+public interface android.provider.CalendarContract$EventDaysColumns {
+  public static final java.lang.String ENDDAY;
+  public static final java.lang.String STARTDAY;
+}

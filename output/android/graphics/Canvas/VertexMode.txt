@@ -1,0 +1,9 @@
+Compiled from "Canvas.java"
+public final class android.graphics.Canvas$VertexMode extends java.lang.Enum<android.graphics.Canvas$VertexMode> {
+  public static final android.graphics.Canvas$VertexMode TRIANGLES;
+  public static final android.graphics.Canvas$VertexMode TRIANGLE_FAN;
+  public static final android.graphics.Canvas$VertexMode TRIANGLE_STRIP;
+  public static android.graphics.Canvas$VertexMode[] values();
+  public static android.graphics.Canvas$VertexMode valueOf(java.lang.String);
+  static {};
+}

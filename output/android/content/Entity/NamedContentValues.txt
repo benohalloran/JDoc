@@ -1,0 +1,6 @@
+Compiled from "Entity.java"
+public class android.content.Entity$NamedContentValues {
+  public final android.net.Uri uri;
+  public final android.content.ContentValues values;
+  public android.content.Entity$NamedContentValues(android.net.Uri, android.content.ContentValues);
+}

@@ -1,0 +1,7 @@
+Compiled from "Double2.java"
+public class android.renderscript.Double2 {
+  public double x;
+  public double y;
+  public android.renderscript.Double2();
+  public android.renderscript.Double2(double, double);
+}

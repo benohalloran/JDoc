@@ -1,0 +1,7 @@
+Compiled from "ViewDebug.java"
+public interface android.view.ViewDebug$FlagToString extends java.lang.annotation.Annotation {
+  public abstract int mask();
+  public abstract int equals();
+  public abstract java.lang.String name();
+  public abstract boolean outputIf();
+}

@@ -1,0 +1,6 @@
+Compiled from "RFC2109VersionHandler.java"
+public class org.apache.http.impl.cookie.RFC2109VersionHandler extends org.apache.http.impl.cookie.AbstractCookieAttributeHandler {
+  public org.apache.http.impl.cookie.RFC2109VersionHandler();
+  public void parse(org.apache.http.cookie.SetCookie, java.lang.String) throws org.apache.http.cookie.MalformedCookieException;
+  public void validate(org.apache.http.cookie.Cookie, org.apache.http.cookie.CookieOrigin) throws org.apache.http.cookie.MalformedCookieException;
+}

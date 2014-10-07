@@ -1,0 +1,15 @@
+Compiled from "Signature.java"
+public class android.content.pm.Signature implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.pm.Signature> CREATOR;
+  public android.content.pm.Signature(byte[]);
+  public android.content.pm.Signature(java.lang.String);
+  public char[] toChars();
+  public char[] toChars(char[], int[]);
+  public java.lang.String toCharsString();
+  public byte[] toByteArray();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

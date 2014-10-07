@@ -1,0 +1,7 @@
+Compiled from "Prediction.java"
+public class android.gesture.Prediction {
+  public final java.lang.String name;
+  public double score;
+  android.gesture.Prediction();
+  public java.lang.String toString();
+}

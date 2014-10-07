@@ -1,0 +1,14 @@
+Compiled from "DateUtils.java"
+public final class org.apache.http.impl.cookie.DateUtils {
+  public static final java.util.TimeZone GMT;
+  public static final java.lang.String PATTERN_ASCTIME;
+  public static final java.lang.String PATTERN_RFC1036;
+  public static final java.lang.String PATTERN_RFC1123;
+  org.apache.http.impl.cookie.DateUtils();
+  public static java.util.Date parseDate(java.lang.String) throws org.apache.http.impl.cookie.DateParseException;
+  public static java.util.Date parseDate(java.lang.String, java.lang.String[]) throws org.apache.http.impl.cookie.DateParseException;
+  public static java.util.Date parseDate(java.lang.String, java.lang.String[], java.util.Date) throws org.apache.http.impl.cookie.DateParseException;
+  public static java.lang.String formatDate(java.util.Date);
+  public static java.lang.String formatDate(java.util.Date, java.lang.String);
+  static {};
+}

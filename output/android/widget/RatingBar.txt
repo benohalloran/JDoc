@@ -1,0 +1,21 @@
+Compiled from "RatingBar.java"
+public class android.widget.RatingBar extends android.widget.AbsSeekBar {
+  public android.widget.RatingBar(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.RatingBar(android.content.Context, android.util.AttributeSet, int, int);
+  public android.widget.RatingBar(android.content.Context, android.util.AttributeSet);
+  public android.widget.RatingBar(android.content.Context);
+  public void setOnRatingBarChangeListener(android.widget.RatingBar$OnRatingBarChangeListener);
+  public android.widget.RatingBar$OnRatingBarChangeListener getOnRatingBarChangeListener();
+  public void setIsIndicator(boolean);
+  public boolean isIndicator();
+  public void setNumStars(int);
+  public int getNumStars();
+  public void setRating(float);
+  public float getRating();
+  public void setStepSize(float);
+  public float getStepSize();
+  protected synchronized void onMeasure(int, int);
+  public synchronized void setMax(int);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

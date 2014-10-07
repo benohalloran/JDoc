@@ -1,0 +1,12 @@
+Compiled from "Contacts.java"
+public interface android.provider.Contacts$OrganizationColumns {
+  public static final java.lang.String COMPANY;
+  public static final java.lang.String ISPRIMARY;
+  public static final java.lang.String LABEL;
+  public static final java.lang.String PERSON_ID;
+  public static final java.lang.String TITLE;
+  public static final java.lang.String TYPE;
+  public static final int TYPE_CUSTOM;
+  public static final int TYPE_OTHER;
+  public static final int TYPE_WORK;
+}

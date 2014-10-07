@@ -1,0 +1,6 @@
+Compiled from "CycleInterpolator.java"
+public class android.view.animation.CycleInterpolator implements android.view.animation.Interpolator {
+  public android.view.animation.CycleInterpolator(float);
+  public android.view.animation.CycleInterpolator(android.content.Context, android.util.AttributeSet);
+  public float getInterpolation(float);
+}

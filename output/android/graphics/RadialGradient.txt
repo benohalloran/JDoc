@@ -1,0 +1,5 @@
+Compiled from "RadialGradient.java"
+public class android.graphics.RadialGradient extends android.graphics.Shader {
+  public android.graphics.RadialGradient(float, float, float, int[], float[], android.graphics.Shader$TileMode);
+  public android.graphics.RadialGradient(float, float, float, int, int, android.graphics.Shader$TileMode);
+}

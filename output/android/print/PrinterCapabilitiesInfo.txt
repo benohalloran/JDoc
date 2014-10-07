@@ -1,0 +1,16 @@
+Compiled from "PrinterCapabilitiesInfo.java"
+public final class android.print.PrinterCapabilitiesInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.print.PrinterCapabilitiesInfo> CREATOR;
+  android.print.PrinterCapabilitiesInfo();
+  public java.util.List<android.print.PrintAttributes$MediaSize> getMediaSizes();
+  public java.util.List<android.print.PrintAttributes$Resolution> getResolutions();
+  public android.print.PrintAttributes$Margins getMinMargins();
+  public int getColorModes();
+  public android.print.PrintAttributes getDefaults();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  static {};
+}

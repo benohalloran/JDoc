@@ -1,0 +1,4 @@
+Compiled from "TimeInterpolator.java"
+public interface android.animation.TimeInterpolator {
+  public abstract float getInterpolation(float);
+}

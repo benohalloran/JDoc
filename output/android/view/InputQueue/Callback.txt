@@ -1,0 +1,5 @@
+Compiled from "InputQueue.java"
+public interface android.view.InputQueue$Callback {
+  public abstract void onInputQueueCreated(android.view.InputQueue);
+  public abstract void onInputQueueDestroyed(android.view.InputQueue);
+}

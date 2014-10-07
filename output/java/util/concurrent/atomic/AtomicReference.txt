@@ -1,0 +1,12 @@
+Compiled from "AtomicReference.java"
+public class java.util.concurrent.atomic.AtomicReference<V> implements java.io.Serializable {
+  public java.util.concurrent.atomic.AtomicReference(V);
+  public java.util.concurrent.atomic.AtomicReference();
+  public final V get();
+  public final void set(V);
+  public final void lazySet(V);
+  public final boolean compareAndSet(V, V);
+  public final boolean weakCompareAndSet(V, V);
+  public final V getAndSet(V);
+  public java.lang.String toString();
+}

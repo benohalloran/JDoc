@@ -1,0 +1,11 @@
+Compiled from "SQLiteStatement.java"
+public final class android.database.sqlite.SQLiteStatement extends android.database.sqlite.SQLiteProgram {
+  android.database.sqlite.SQLiteStatement();
+  public void execute();
+  public int executeUpdateDelete();
+  public long executeInsert();
+  public long simpleQueryForLong();
+  public java.lang.String simpleQueryForString();
+  public android.os.ParcelFileDescriptor simpleQueryForBlobFileDescriptor();
+  public java.lang.String toString();
+}

@@ -1,0 +1,7 @@
+Compiled from "Browser.java"
+public class android.provider.Browser$SearchColumns implements android.provider.BaseColumns {
+  public static final java.lang.String DATE;
+  public static final java.lang.String SEARCH;
+  public static final java.lang.String URL;
+  public android.provider.Browser$SearchColumns();
+}

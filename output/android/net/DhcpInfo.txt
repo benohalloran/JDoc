@@ -1,0 +1,14 @@
+Compiled from "DhcpInfo.java"
+public class android.net.DhcpInfo implements android.os.Parcelable {
+  public int dns1;
+  public int dns2;
+  public int gateway;
+  public int ipAddress;
+  public int leaseDuration;
+  public int netmask;
+  public int serverAddress;
+  public android.net.DhcpInfo();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+}

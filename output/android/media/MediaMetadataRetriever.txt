@@ -1,0 +1,43 @@
+Compiled from "MediaMetadataRetriever.java"
+public class android.media.MediaMetadataRetriever {
+  public static final int METADATA_KEY_ALBUM;
+  public static final int METADATA_KEY_ALBUMARTIST;
+  public static final int METADATA_KEY_ARTIST;
+  public static final int METADATA_KEY_AUTHOR;
+  public static final int METADATA_KEY_BITRATE;
+  public static final int METADATA_KEY_CD_TRACK_NUMBER;
+  public static final int METADATA_KEY_COMPILATION;
+  public static final int METADATA_KEY_COMPOSER;
+  public static final int METADATA_KEY_DATE;
+  public static final int METADATA_KEY_DISC_NUMBER;
+  public static final int METADATA_KEY_DURATION;
+  public static final int METADATA_KEY_GENRE;
+  public static final int METADATA_KEY_HAS_AUDIO;
+  public static final int METADATA_KEY_HAS_VIDEO;
+  public static final int METADATA_KEY_LOCATION;
+  public static final int METADATA_KEY_MIMETYPE;
+  public static final int METADATA_KEY_NUM_TRACKS;
+  public static final int METADATA_KEY_TITLE;
+  public static final int METADATA_KEY_VIDEO_HEIGHT;
+  public static final int METADATA_KEY_VIDEO_ROTATION;
+  public static final int METADATA_KEY_VIDEO_WIDTH;
+  public static final int METADATA_KEY_WRITER;
+  public static final int METADATA_KEY_YEAR;
+  public static final int OPTION_CLOSEST;
+  public static final int OPTION_CLOSEST_SYNC;
+  public static final int OPTION_NEXT_SYNC;
+  public static final int OPTION_PREVIOUS_SYNC;
+  public android.media.MediaMetadataRetriever();
+  public void setDataSource(java.lang.String) throws java.lang.IllegalArgumentException;
+  public void setDataSource(java.lang.String, java.util.Map<java.lang.String, java.lang.String>) throws java.lang.IllegalArgumentException;
+  public native void setDataSource(java.io.FileDescriptor, long, long) throws java.lang.IllegalArgumentException;
+  public void setDataSource(java.io.FileDescriptor) throws java.lang.IllegalArgumentException;
+  public void setDataSource(android.content.Context, android.net.Uri) throws java.lang.IllegalArgumentException, java.lang.SecurityException;
+  public native java.lang.String extractMetadata(int);
+  public android.graphics.Bitmap getFrameAtTime(long, int);
+  public android.graphics.Bitmap getFrameAtTime(long);
+  public android.graphics.Bitmap getFrameAtTime();
+  public byte[] getEmbeddedPicture();
+  public native void release();
+  protected void finalize() throws java.lang.Throwable;
+}

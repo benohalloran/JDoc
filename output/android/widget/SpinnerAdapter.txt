@@ -1,0 +1,4 @@
+Compiled from "SpinnerAdapter.java"
+public interface android.widget.SpinnerAdapter extends android.widget.Adapter {
+  public abstract android.view.View getDropDownView(int, android.view.View, android.view.ViewGroup);
+}

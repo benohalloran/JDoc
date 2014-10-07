@@ -1,0 +1,12 @@
+Compiled from "LinearLayout.java"
+public class android.widget.LinearLayout$LayoutParams extends android.view.ViewGroup$MarginLayoutParams {
+  public int gravity;
+  public float weight;
+  public android.widget.LinearLayout$LayoutParams(android.content.Context, android.util.AttributeSet);
+  public android.widget.LinearLayout$LayoutParams(int, int);
+  public android.widget.LinearLayout$LayoutParams(int, int, float);
+  public android.widget.LinearLayout$LayoutParams(android.view.ViewGroup$LayoutParams);
+  public android.widget.LinearLayout$LayoutParams(android.view.ViewGroup$MarginLayoutParams);
+  public android.widget.LinearLayout$LayoutParams(android.widget.LinearLayout$LayoutParams);
+  public java.lang.String debug(java.lang.String);
+}

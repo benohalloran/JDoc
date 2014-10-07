@@ -1,0 +1,14 @@
+Compiled from "InputBinding.java"
+public final class android.view.inputmethod.InputBinding implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.inputmethod.InputBinding> CREATOR;
+  public android.view.inputmethod.InputBinding(android.view.inputmethod.InputConnection, android.os.IBinder, int, int);
+  public android.view.inputmethod.InputBinding(android.view.inputmethod.InputConnection, android.view.inputmethod.InputBinding);
+  public android.view.inputmethod.InputConnection getConnection();
+  public android.os.IBinder getConnectionToken();
+  public int getUid();
+  public int getPid();
+  public java.lang.String toString();
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  static {};
+}

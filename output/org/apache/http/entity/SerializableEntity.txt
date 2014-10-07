@@ -1,0 +1,9 @@
+Compiled from "SerializableEntity.java"
+public class org.apache.http.entity.SerializableEntity extends org.apache.http.entity.AbstractHttpEntity {
+  public org.apache.http.entity.SerializableEntity(java.io.Serializable, boolean) throws java.io.IOException;
+  public java.io.InputStream getContent() throws java.io.IOException, java.lang.IllegalStateException;
+  public long getContentLength();
+  public boolean isRepeatable();
+  public boolean isStreaming();
+  public void writeTo(java.io.OutputStream) throws java.io.IOException;
+}

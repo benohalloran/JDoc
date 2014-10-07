@@ -1,0 +1,8 @@
+Compiled from "Html.java"
+public class android.text.Html {
+  android.text.Html();
+  public static android.text.Spanned fromHtml(java.lang.String);
+  public static android.text.Spanned fromHtml(java.lang.String, android.text.Html$ImageGetter, android.text.Html$TagHandler);
+  public static java.lang.String toHtml(android.text.Spanned);
+  public static java.lang.String escapeHtml(java.lang.CharSequence);
+}

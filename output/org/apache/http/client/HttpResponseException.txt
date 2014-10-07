@@ -1,0 +1,5 @@
+Compiled from "HttpResponseException.java"
+public class org.apache.http.client.HttpResponseException extends org.apache.http.client.ClientProtocolException {
+  public org.apache.http.client.HttpResponseException(int, java.lang.String);
+  public int getStatusCode();
+}

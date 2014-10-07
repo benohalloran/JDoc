@@ -1,0 +1,14 @@
+Compiled from "MediaController.java"
+public final class android.media.session.MediaController$TransportControls {
+  final android.media.session.MediaController this$0;
+  android.media.session.MediaController$TransportControls(android.media.session.MediaController);
+  public void play();
+  public void pause();
+  public void stop();
+  public void seekTo(long);
+  public void fastForward();
+  public void skipToNext();
+  public void rewind();
+  public void skipToPrevious();
+  public void setRating(android.media.Rating);
+}

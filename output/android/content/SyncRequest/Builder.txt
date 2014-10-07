@@ -1,0 +1,15 @@
+Compiled from "SyncRequest.java"
+public class android.content.SyncRequest$Builder {
+  public android.content.SyncRequest$Builder();
+  public android.content.SyncRequest$Builder syncOnce();
+  public android.content.SyncRequest$Builder syncPeriodic(long, long);
+  public android.content.SyncRequest$Builder setDisallowMetered(boolean);
+  public android.content.SyncRequest$Builder setSyncAdapter(android.accounts.Account, java.lang.String);
+  public android.content.SyncRequest$Builder setExtras(android.os.Bundle);
+  public android.content.SyncRequest$Builder setNoRetry(boolean);
+  public android.content.SyncRequest$Builder setIgnoreSettings(boolean);
+  public android.content.SyncRequest$Builder setIgnoreBackoff(boolean);
+  public android.content.SyncRequest$Builder setManual(boolean);
+  public android.content.SyncRequest$Builder setExpedited(boolean);
+  public android.content.SyncRequest build();
+}

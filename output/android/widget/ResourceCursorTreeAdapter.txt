@@ -1,0 +1,8 @@
+Compiled from "ResourceCursorTreeAdapter.java"
+public abstract class android.widget.ResourceCursorTreeAdapter extends android.widget.CursorTreeAdapter {
+  public android.widget.ResourceCursorTreeAdapter(android.content.Context, android.database.Cursor, int, int, int, int);
+  public android.widget.ResourceCursorTreeAdapter(android.content.Context, android.database.Cursor, int, int, int);
+  public android.widget.ResourceCursorTreeAdapter(android.content.Context, android.database.Cursor, int, int);
+  public android.view.View newChildView(android.content.Context, android.database.Cursor, boolean, android.view.ViewGroup);
+  public android.view.View newGroupView(android.content.Context, android.database.Cursor, boolean, android.view.ViewGroup);
+}

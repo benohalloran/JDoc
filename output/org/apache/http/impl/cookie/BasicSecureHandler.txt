@@ -1,0 +1,6 @@
+Compiled from "BasicSecureHandler.java"
+public class org.apache.http.impl.cookie.BasicSecureHandler extends org.apache.http.impl.cookie.AbstractCookieAttributeHandler {
+  public org.apache.http.impl.cookie.BasicSecureHandler();
+  public void parse(org.apache.http.cookie.SetCookie, java.lang.String) throws org.apache.http.cookie.MalformedCookieException;
+  public boolean match(org.apache.http.cookie.Cookie, org.apache.http.cookie.CookieOrigin);
+}

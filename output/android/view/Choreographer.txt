@@ -1,0 +1,8 @@
+Compiled from "Choreographer.java"
+public final class android.view.Choreographer {
+  android.view.Choreographer();
+  public static android.view.Choreographer getInstance();
+  public void postFrameCallback(android.view.Choreographer$FrameCallback);
+  public void postFrameCallbackDelayed(android.view.Choreographer$FrameCallback, long);
+  public void removeFrameCallback(android.view.Choreographer$FrameCallback);
+}

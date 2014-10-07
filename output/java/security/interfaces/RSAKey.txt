@@ -1,0 +1,4 @@
+Compiled from "RSAKey.java"
+public interface java.security.interfaces.RSAKey {
+  public abstract java.math.BigInteger getModulus();
+}

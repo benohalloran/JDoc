@@ -1,0 +1,8 @@
+Compiled from "EntityUtils.java"
+public final class org.apache.http.util.EntityUtils {
+  org.apache.http.util.EntityUtils();
+  public static byte[] toByteArray(org.apache.http.HttpEntity) throws java.io.IOException;
+  public static java.lang.String getContentCharSet(org.apache.http.HttpEntity) throws org.apache.http.ParseException;
+  public static java.lang.String toString(org.apache.http.HttpEntity, java.lang.String) throws java.io.IOException, org.apache.http.ParseException;
+  public static java.lang.String toString(org.apache.http.HttpEntity) throws java.io.IOException, org.apache.http.ParseException;
+}

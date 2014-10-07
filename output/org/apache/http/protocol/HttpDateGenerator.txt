@@ -1,0 +1,8 @@
+Compiled from "HttpDateGenerator.java"
+public class org.apache.http.protocol.HttpDateGenerator {
+  public static final java.util.TimeZone GMT;
+  public static final java.lang.String PATTERN_RFC1123;
+  public org.apache.http.protocol.HttpDateGenerator();
+  public synchronized java.lang.String getCurrentDate();
+  static {};
+}

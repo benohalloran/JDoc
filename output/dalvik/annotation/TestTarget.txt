@@ -1,0 +1,6 @@
+Compiled from "TestTarget.java"
+public interface dalvik.annotation.TestTarget extends java.lang.annotation.Annotation {
+  public abstract java.lang.String methodName();
+  public abstract java.lang.String conceptName();
+  public abstract java.lang.Class<?>[] methodArgs();
+}

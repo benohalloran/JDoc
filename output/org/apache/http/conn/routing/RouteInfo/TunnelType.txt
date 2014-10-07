@@ -1,0 +1,8 @@
+Compiled from "RouteInfo.java"
+public final class org.apache.http.conn.routing.RouteInfo$TunnelType extends java.lang.Enum<org.apache.http.conn.routing.RouteInfo$TunnelType> {
+  public static final org.apache.http.conn.routing.RouteInfo$TunnelType PLAIN;
+  public static final org.apache.http.conn.routing.RouteInfo$TunnelType TUNNELLED;
+  public static org.apache.http.conn.routing.RouteInfo$TunnelType[] values();
+  public static org.apache.http.conn.routing.RouteInfo$TunnelType valueOf(java.lang.String);
+  static {};
+}

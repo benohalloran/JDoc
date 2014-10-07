@@ -1,0 +1,8 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$Settings implements android.provider.ContactsContract$SettingsColumns {
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  android.provider.ContactsContract$Settings();
+  static {};
+}

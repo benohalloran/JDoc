@@ -1,0 +1,13 @@
+Compiled from "LinkAddress.java"
+public class android.net.LinkAddress implements android.os.Parcelable {
+  android.net.LinkAddress();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.net.InetAddress getAddress();
+  public int getPrefixLength();
+  public int getFlags();
+  public int getScope();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+}

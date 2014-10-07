@@ -1,0 +1,14 @@
+Compiled from "ImageView.java"
+public final class android.widget.ImageView$ScaleType extends java.lang.Enum<android.widget.ImageView$ScaleType> {
+  public static final android.widget.ImageView$ScaleType CENTER;
+  public static final android.widget.ImageView$ScaleType CENTER_CROP;
+  public static final android.widget.ImageView$ScaleType CENTER_INSIDE;
+  public static final android.widget.ImageView$ScaleType FIT_CENTER;
+  public static final android.widget.ImageView$ScaleType FIT_END;
+  public static final android.widget.ImageView$ScaleType FIT_START;
+  public static final android.widget.ImageView$ScaleType FIT_XY;
+  public static final android.widget.ImageView$ScaleType MATRIX;
+  public static android.widget.ImageView$ScaleType[] values();
+  public static android.widget.ImageView$ScaleType valueOf(java.lang.String);
+  static {};
+}

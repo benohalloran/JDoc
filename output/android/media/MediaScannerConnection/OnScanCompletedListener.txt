@@ -1,0 +1,4 @@
+Compiled from "MediaScannerConnection.java"
+public interface android.media.MediaScannerConnection$OnScanCompletedListener {
+  public abstract void onScanCompleted(java.lang.String, android.net.Uri);
+}

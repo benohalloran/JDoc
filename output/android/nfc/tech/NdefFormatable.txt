@@ -1,0 +1,11 @@
+Compiled from "NdefFormatable.java"
+public final class android.nfc.tech.NdefFormatable extends android.nfc.tech.BasicTagTechnology {
+  android.nfc.tech.NdefFormatable();
+  public static android.nfc.tech.NdefFormatable get(android.nfc.Tag);
+  public void format(android.nfc.NdefMessage) throws java.io.IOException, android.nfc.FormatException;
+  public void formatReadOnly(android.nfc.NdefMessage) throws java.io.IOException, android.nfc.FormatException;
+  public void close() throws java.io.IOException;
+  public void connect() throws java.io.IOException;
+  public boolean isConnected();
+  public android.nfc.Tag getTag();
+}

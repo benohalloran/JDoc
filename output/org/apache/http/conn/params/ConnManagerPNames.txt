@@ -1,0 +1,6 @@
+Compiled from "ConnManagerPNames.java"
+public interface org.apache.http.conn.params.ConnManagerPNames {
+  public static final java.lang.String MAX_CONNECTIONS_PER_ROUTE;
+  public static final java.lang.String MAX_TOTAL_CONNECTIONS;
+  public static final java.lang.String TIMEOUT;
+}

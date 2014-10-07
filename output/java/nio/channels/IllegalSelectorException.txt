@@ -1,0 +1,4 @@
+Compiled from "IllegalSelectorException.java"
+public class java.nio.channels.IllegalSelectorException extends java.lang.IllegalArgumentException {
+  public java.nio.channels.IllegalSelectorException();
+}

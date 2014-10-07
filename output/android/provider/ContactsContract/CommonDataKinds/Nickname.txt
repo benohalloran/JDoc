@@ -1,0 +1,12 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$CommonDataKinds$Nickname implements android.provider.ContactsContract$DataColumnsWithJoins,android.provider.ContactsContract$CommonDataKinds$CommonColumns {
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String NAME;
+  public static final int TYPE_DEFAULT;
+  public static final int TYPE_INITIALS;
+  public static final int TYPE_MAIDEN_NAME;
+  public static final int TYPE_MAINDEN_NAME;
+  public static final int TYPE_OTHER_NAME;
+  public static final int TYPE_SHORT_NAME;
+  android.provider.ContactsContract$CommonDataKinds$Nickname();
+}

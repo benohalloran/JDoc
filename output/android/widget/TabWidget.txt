@@ -1,0 +1,31 @@
+Compiled from "TabWidget.java"
+public class android.widget.TabWidget extends android.widget.LinearLayout implements android.view.View$OnFocusChangeListener {
+  public android.widget.TabWidget(android.content.Context);
+  public android.widget.TabWidget(android.content.Context, android.util.AttributeSet);
+  public android.widget.TabWidget(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.TabWidget(android.content.Context, android.util.AttributeSet, int, int);
+  protected void onSizeChanged(int, int, int, int);
+  protected int getChildDrawingOrder(int, int);
+  public android.view.View getChildTabViewAt(int);
+  public int getTabCount();
+  public void setDividerDrawable(android.graphics.drawable.Drawable);
+  public void setDividerDrawable(int);
+  public void setLeftStripDrawable(android.graphics.drawable.Drawable);
+  public void setLeftStripDrawable(int);
+  public void setRightStripDrawable(android.graphics.drawable.Drawable);
+  public void setRightStripDrawable(int);
+  public void setStripEnabled(boolean);
+  public boolean isStripEnabled();
+  public void childDrawableStateChanged(android.view.View);
+  public void dispatchDraw(android.graphics.Canvas);
+  public void setCurrentTab(int);
+  public boolean dispatchPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void sendAccessibilityEventUnchecked(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public void focusCurrentTab(int);
+  public void setEnabled(boolean);
+  public void addView(android.view.View);
+  public void removeAllViews();
+  public void onFocusChange(android.view.View, boolean);
+}

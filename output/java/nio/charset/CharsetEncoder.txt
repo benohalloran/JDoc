@@ -1,0 +1,27 @@
+Compiled from "CharsetEncoder.java"
+public abstract class java.nio.charset.CharsetEncoder {
+  protected java.nio.charset.CharsetEncoder(java.nio.charset.Charset, float, float);
+  protected java.nio.charset.CharsetEncoder(java.nio.charset.Charset, float, float, byte[]);
+  public final float averageBytesPerChar();
+  public boolean canEncode(char);
+  public boolean canEncode(java.lang.CharSequence);
+  public final java.nio.charset.Charset charset();
+  public final java.nio.ByteBuffer encode(java.nio.CharBuffer) throws java.nio.charset.CharacterCodingException;
+  public final java.nio.charset.CoderResult encode(java.nio.CharBuffer, java.nio.ByteBuffer, boolean);
+  protected abstract java.nio.charset.CoderResult encodeLoop(java.nio.CharBuffer, java.nio.ByteBuffer);
+  public final java.nio.charset.CoderResult flush(java.nio.ByteBuffer);
+  protected java.nio.charset.CoderResult implFlush(java.nio.ByteBuffer);
+  protected void implOnMalformedInput(java.nio.charset.CodingErrorAction);
+  protected void implOnUnmappableCharacter(java.nio.charset.CodingErrorAction);
+  protected void implReplaceWith(byte[]);
+  protected void implReset();
+  public boolean isLegalReplacement(byte[]);
+  public java.nio.charset.CodingErrorAction malformedInputAction();
+  public final float maxBytesPerChar();
+  public final java.nio.charset.CharsetEncoder onMalformedInput(java.nio.charset.CodingErrorAction);
+  public final java.nio.charset.CharsetEncoder onUnmappableCharacter(java.nio.charset.CodingErrorAction);
+  public final byte[] replacement();
+  public final java.nio.charset.CharsetEncoder replaceWith(byte[]);
+  public final java.nio.charset.CharsetEncoder reset();
+  public java.nio.charset.CodingErrorAction unmappableCharacterAction();
+}

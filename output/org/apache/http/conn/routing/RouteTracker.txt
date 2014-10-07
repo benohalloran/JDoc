@@ -1,0 +1,26 @@
+Compiled from "RouteTracker.java"
+public final class org.apache.http.conn.routing.RouteTracker implements org.apache.http.conn.routing.RouteInfo,java.lang.Cloneable {
+  public org.apache.http.conn.routing.RouteTracker(org.apache.http.HttpHost, java.net.InetAddress);
+  public org.apache.http.conn.routing.RouteTracker(org.apache.http.conn.routing.HttpRoute);
+  public final void connectTarget(boolean);
+  public final void connectProxy(org.apache.http.HttpHost, boolean);
+  public final void tunnelTarget(boolean);
+  public final void tunnelProxy(org.apache.http.HttpHost, boolean);
+  public final void layerProtocol(boolean);
+  public final org.apache.http.HttpHost getTargetHost();
+  public final java.net.InetAddress getLocalAddress();
+  public final int getHopCount();
+  public final org.apache.http.HttpHost getHopTarget(int);
+  public final org.apache.http.HttpHost getProxyHost();
+  public final boolean isConnected();
+  public final org.apache.http.conn.routing.RouteInfo$TunnelType getTunnelType();
+  public final boolean isTunnelled();
+  public final org.apache.http.conn.routing.RouteInfo$LayerType getLayerType();
+  public final boolean isLayered();
+  public final boolean isSecure();
+  public final org.apache.http.conn.routing.HttpRoute toRoute();
+  public final boolean equals(java.lang.Object);
+  public final int hashCode();
+  public final java.lang.String toString();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

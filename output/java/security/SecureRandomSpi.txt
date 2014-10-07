@@ -1,0 +1,7 @@
+Compiled from "SecureRandomSpi.java"
+public abstract class java.security.SecureRandomSpi implements java.io.Serializable {
+  public java.security.SecureRandomSpi();
+  protected abstract void engineSetSeed(byte[]);
+  protected abstract void engineNextBytes(byte[]);
+  protected abstract byte[] engineGenerateSeed(int);
+}

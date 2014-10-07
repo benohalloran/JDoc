@@ -1,0 +1,12 @@
+Compiled from "BasicClientCookie2.java"
+public class org.apache.http.impl.cookie.BasicClientCookie2 extends org.apache.http.impl.cookie.BasicClientCookie implements org.apache.http.cookie.SetCookie2 {
+  public org.apache.http.impl.cookie.BasicClientCookie2(java.lang.String, java.lang.String);
+  public int[] getPorts();
+  public void setPorts(int[]);
+  public java.lang.String getCommentURL();
+  public void setCommentURL(java.lang.String);
+  public void setDiscard(boolean);
+  public boolean isPersistent();
+  public boolean isExpired(java.util.Date);
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

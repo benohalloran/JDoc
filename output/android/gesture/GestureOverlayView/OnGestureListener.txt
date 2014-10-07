@@ -1,0 +1,7 @@
+Compiled from "GestureOverlayView.java"
+public interface android.gesture.GestureOverlayView$OnGestureListener {
+  public abstract void onGestureStarted(android.gesture.GestureOverlayView, android.view.MotionEvent);
+  public abstract void onGesture(android.gesture.GestureOverlayView, android.view.MotionEvent);
+  public abstract void onGestureEnded(android.gesture.GestureOverlayView, android.view.MotionEvent);
+  public abstract void onGestureCancelled(android.gesture.GestureOverlayView, android.view.MotionEvent);
+}

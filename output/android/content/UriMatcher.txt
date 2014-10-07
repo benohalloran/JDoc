@@ -1,0 +1,7 @@
+Compiled from "UriMatcher.java"
+public class android.content.UriMatcher {
+  public static final int NO_MATCH;
+  public android.content.UriMatcher(int);
+  public void addURI(java.lang.String, java.lang.String, int);
+  public int match(android.net.Uri);
+}

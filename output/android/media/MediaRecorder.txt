@@ -1,0 +1,41 @@
+Compiled from "MediaRecorder.java"
+public class android.media.MediaRecorder {
+  public static final int MEDIA_ERROR_SERVER_DIED;
+  public static final int MEDIA_RECORDER_ERROR_UNKNOWN;
+  public static final int MEDIA_RECORDER_INFO_MAX_DURATION_REACHED;
+  public static final int MEDIA_RECORDER_INFO_MAX_FILESIZE_REACHED;
+  public static final int MEDIA_RECORDER_INFO_UNKNOWN;
+  public android.media.MediaRecorder();
+  public native void setCamera(android.hardware.Camera);
+  public native android.view.Surface getSurface();
+  public void setPreviewDisplay(android.view.Surface);
+  public native void setAudioSource(int) throws java.lang.IllegalStateException;
+  public static final int getAudioSourceMax();
+  public native void setVideoSource(int) throws java.lang.IllegalStateException;
+  public void setProfile(android.media.CamcorderProfile);
+  public void setCaptureRate(double);
+  public void setOrientationHint(int);
+  public void setLocation(float, float);
+  public native void setOutputFormat(int) throws java.lang.IllegalStateException;
+  public native void setVideoSize(int, int) throws java.lang.IllegalStateException;
+  public native void setVideoFrameRate(int) throws java.lang.IllegalStateException;
+  public native void setMaxDuration(int) throws java.lang.IllegalArgumentException;
+  public native void setMaxFileSize(long) throws java.lang.IllegalArgumentException;
+  public native void setAudioEncoder(int) throws java.lang.IllegalStateException;
+  public native void setVideoEncoder(int) throws java.lang.IllegalStateException;
+  public void setAudioSamplingRate(int);
+  public void setAudioChannels(int);
+  public void setAudioEncodingBitRate(int);
+  public void setVideoEncodingBitRate(int);
+  public void setOutputFile(java.io.FileDescriptor) throws java.lang.IllegalStateException;
+  public void setOutputFile(java.lang.String) throws java.lang.IllegalStateException;
+  public void prepare() throws java.lang.IllegalStateException, java.io.IOException;
+  public native void start() throws java.lang.IllegalStateException;
+  public native void stop() throws java.lang.IllegalStateException;
+  public void reset();
+  public native int getMaxAmplitude() throws java.lang.IllegalStateException;
+  public void setOnErrorListener(android.media.MediaRecorder$OnErrorListener);
+  public void setOnInfoListener(android.media.MediaRecorder$OnInfoListener);
+  public native void release();
+  protected void finalize();
+}

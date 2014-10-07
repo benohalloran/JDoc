@@ -1,0 +1,4 @@
+Compiled from "PopupMenu.java"
+public interface android.widget.PopupMenu$OnDismissListener {
+  public abstract void onDismiss(android.widget.PopupMenu);
+}

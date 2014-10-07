@@ -1,0 +1,11 @@
+Compiled from "BrowserCompatSpec.java"
+public class org.apache.http.impl.cookie.BrowserCompatSpec extends org.apache.http.impl.cookie.CookieSpecBase {
+  protected static final java.lang.String[] DATE_PATTERNS;
+  public org.apache.http.impl.cookie.BrowserCompatSpec(java.lang.String[]);
+  public org.apache.http.impl.cookie.BrowserCompatSpec();
+  public java.util.List<org.apache.http.cookie.Cookie> parse(org.apache.http.Header, org.apache.http.cookie.CookieOrigin) throws org.apache.http.cookie.MalformedCookieException;
+  public java.util.List<org.apache.http.Header> formatCookies(java.util.List<org.apache.http.cookie.Cookie>);
+  public int getVersion();
+  public org.apache.http.Header getVersionHeader();
+  static {};
+}

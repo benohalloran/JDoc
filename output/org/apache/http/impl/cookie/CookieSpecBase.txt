@@ -1,0 +1,9 @@
+Compiled from "CookieSpecBase.java"
+public abstract class org.apache.http.impl.cookie.CookieSpecBase extends org.apache.http.impl.cookie.AbstractCookieSpec {
+  public org.apache.http.impl.cookie.CookieSpecBase();
+  protected static java.lang.String getDefaultPath(org.apache.http.cookie.CookieOrigin);
+  protected static java.lang.String getDefaultDomain(org.apache.http.cookie.CookieOrigin);
+  protected java.util.List<org.apache.http.cookie.Cookie> parse(org.apache.http.HeaderElement[], org.apache.http.cookie.CookieOrigin) throws org.apache.http.cookie.MalformedCookieException;
+  public void validate(org.apache.http.cookie.Cookie, org.apache.http.cookie.CookieOrigin) throws org.apache.http.cookie.MalformedCookieException;
+  public boolean match(org.apache.http.cookie.Cookie, org.apache.http.cookie.CookieOrigin);
+}

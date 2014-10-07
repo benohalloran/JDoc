@@ -1,0 +1,13 @@
+Compiled from "Sampler.java"
+public final class android.renderscript.Sampler$Value extends java.lang.Enum<android.renderscript.Sampler$Value> {
+  public static final android.renderscript.Sampler$Value CLAMP;
+  public static final android.renderscript.Sampler$Value LINEAR;
+  public static final android.renderscript.Sampler$Value LINEAR_MIP_LINEAR;
+  public static final android.renderscript.Sampler$Value LINEAR_MIP_NEAREST;
+  public static final android.renderscript.Sampler$Value MIRRORED_REPEAT;
+  public static final android.renderscript.Sampler$Value NEAREST;
+  public static final android.renderscript.Sampler$Value WRAP;
+  public static android.renderscript.Sampler$Value[] values();
+  public static android.renderscript.Sampler$Value valueOf(java.lang.String);
+  static {};
+}

@@ -1,0 +1,8 @@
+Compiled from "Settings.java"
+public class android.provider.Settings$NameValueTable implements android.provider.BaseColumns {
+  public static final java.lang.String NAME;
+  public static final java.lang.String VALUE;
+  public android.provider.Settings$NameValueTable();
+  protected static boolean putString(android.content.ContentResolver, android.net.Uri, java.lang.String, java.lang.String);
+  public static android.net.Uri getUriFor(android.net.Uri, java.lang.String);
+}

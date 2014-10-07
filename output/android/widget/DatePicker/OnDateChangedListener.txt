@@ -1,0 +1,4 @@
+Compiled from "DatePicker.java"
+public interface android.widget.DatePicker$OnDateChangedListener {
+  public abstract void onDateChanged(android.widget.DatePicker, int, int, int);
+}

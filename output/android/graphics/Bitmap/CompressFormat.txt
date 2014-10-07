@@ -1,0 +1,9 @@
+Compiled from "Bitmap.java"
+public final class android.graphics.Bitmap$CompressFormat extends java.lang.Enum<android.graphics.Bitmap$CompressFormat> {
+  public static final android.graphics.Bitmap$CompressFormat JPEG;
+  public static final android.graphics.Bitmap$CompressFormat PNG;
+  public static final android.graphics.Bitmap$CompressFormat WEBP;
+  public static android.graphics.Bitmap$CompressFormat[] values();
+  public static android.graphics.Bitmap$CompressFormat valueOf(java.lang.String);
+  static {};
+}

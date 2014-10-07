@@ -1,0 +1,28 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$DataColumns {
+  public static final java.lang.String DATA1;
+  public static final java.lang.String DATA10;
+  public static final java.lang.String DATA11;
+  public static final java.lang.String DATA12;
+  public static final java.lang.String DATA13;
+  public static final java.lang.String DATA14;
+  public static final java.lang.String DATA15;
+  public static final java.lang.String DATA2;
+  public static final java.lang.String DATA3;
+  public static final java.lang.String DATA4;
+  public static final java.lang.String DATA5;
+  public static final java.lang.String DATA6;
+  public static final java.lang.String DATA7;
+  public static final java.lang.String DATA8;
+  public static final java.lang.String DATA9;
+  public static final java.lang.String DATA_VERSION;
+  public static final java.lang.String IS_PRIMARY;
+  public static final java.lang.String IS_READ_ONLY;
+  public static final java.lang.String IS_SUPER_PRIMARY;
+  public static final java.lang.String MIMETYPE;
+  public static final java.lang.String RAW_CONTACT_ID;
+  public static final java.lang.String SYNC1;
+  public static final java.lang.String SYNC2;
+  public static final java.lang.String SYNC3;
+  public static final java.lang.String SYNC4;
+}

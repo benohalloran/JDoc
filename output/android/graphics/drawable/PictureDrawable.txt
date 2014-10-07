@@ -1,0 +1,14 @@
+Compiled from "PictureDrawable.java"
+public class android.graphics.drawable.PictureDrawable extends android.graphics.drawable.Drawable {
+  public android.graphics.drawable.PictureDrawable(android.graphics.Picture);
+  public android.graphics.Picture getPicture();
+  public void setPicture(android.graphics.Picture);
+  public void draw(android.graphics.Canvas);
+  public int getIntrinsicWidth();
+  public int getIntrinsicHeight();
+  public int getOpacity();
+  public void setFilterBitmap(boolean);
+  public void setDither(boolean);
+  public void setColorFilter(android.graphics.ColorFilter);
+  public void setAlpha(int);
+}

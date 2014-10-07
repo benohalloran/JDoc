@@ -1,0 +1,10 @@
+Compiled from "ImageButton.java"
+public class android.widget.ImageButton extends android.widget.ImageView {
+  public android.widget.ImageButton(android.content.Context);
+  public android.widget.ImageButton(android.content.Context, android.util.AttributeSet);
+  public android.widget.ImageButton(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.ImageButton(android.content.Context, android.util.AttributeSet, int, int);
+  protected boolean onSetAlpha(int);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

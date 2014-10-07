@@ -1,0 +1,10 @@
+Compiled from "AudioEffect.java"
+public class android.media.audiofx.AudioEffect$Descriptor {
+  public java.lang.String connectMode;
+  public java.lang.String implementor;
+  public java.lang.String name;
+  public java.util.UUID type;
+  public java.util.UUID uuid;
+  public android.media.audiofx.AudioEffect$Descriptor();
+  public android.media.audiofx.AudioEffect$Descriptor(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String);
+}

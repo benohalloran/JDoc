@@ -1,0 +1,9 @@
+Compiled from "R.java"
+public final class android.R$array {
+  public static final int emailAddressTypes;
+  public static final int imProtocols;
+  public static final int organizationTypes;
+  public static final int phoneTypes;
+  public static final int postalAddressTypes;
+  public android.R$array();
+}

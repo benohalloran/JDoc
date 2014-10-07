@@ -1,0 +1,10 @@
+Compiled from "TextKeyListener.java"
+public final class android.text.method.TextKeyListener$Capitalize extends java.lang.Enum<android.text.method.TextKeyListener$Capitalize> {
+  public static final android.text.method.TextKeyListener$Capitalize CHARACTERS;
+  public static final android.text.method.TextKeyListener$Capitalize NONE;
+  public static final android.text.method.TextKeyListener$Capitalize SENTENCES;
+  public static final android.text.method.TextKeyListener$Capitalize WORDS;
+  public static android.text.method.TextKeyListener$Capitalize[] values();
+  public static android.text.method.TextKeyListener$Capitalize valueOf(java.lang.String);
+  static {};
+}

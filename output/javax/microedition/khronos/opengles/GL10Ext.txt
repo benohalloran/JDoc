@@ -1,0 +1,5 @@
+Compiled from "GL10Ext.java"
+public interface javax.microedition.khronos.opengles.GL10Ext extends javax.microedition.khronos.opengles.GL {
+  public abstract int glQueryMatrixxOES(int[], int, int[], int);
+  public abstract int glQueryMatrixxOES(java.nio.IntBuffer, java.nio.IntBuffer);
+}

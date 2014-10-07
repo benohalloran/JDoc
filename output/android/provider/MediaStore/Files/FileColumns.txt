@@ -1,0 +1,12 @@
+Compiled from "MediaStore.java"
+public interface android.provider.MediaStore$Files$FileColumns extends android.provider.MediaStore$MediaColumns {
+  public static final java.lang.String MEDIA_TYPE;
+  public static final int MEDIA_TYPE_AUDIO;
+  public static final int MEDIA_TYPE_IMAGE;
+  public static final int MEDIA_TYPE_NONE;
+  public static final int MEDIA_TYPE_PLAYLIST;
+  public static final int MEDIA_TYPE_VIDEO;
+  public static final java.lang.String MIME_TYPE;
+  public static final java.lang.String PARENT;
+  public static final java.lang.String TITLE;
+}

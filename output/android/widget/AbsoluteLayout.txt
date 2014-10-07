@@ -1,0 +1,14 @@
+Compiled from "AbsoluteLayout.java"
+public class android.widget.AbsoluteLayout extends android.view.ViewGroup {
+  public android.widget.AbsoluteLayout(android.content.Context);
+  public android.widget.AbsoluteLayout(android.content.Context, android.util.AttributeSet);
+  public android.widget.AbsoluteLayout(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.AbsoluteLayout(android.content.Context, android.util.AttributeSet, int, int);
+  protected void onMeasure(int, int);
+  protected android.view.ViewGroup$LayoutParams generateDefaultLayoutParams();
+  protected void onLayout(boolean, int, int, int, int);
+  public android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet);
+  protected boolean checkLayoutParams(android.view.ViewGroup$LayoutParams);
+  protected android.view.ViewGroup$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams);
+  public boolean shouldDelayChildPressedState();
+}

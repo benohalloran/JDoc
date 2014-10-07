@@ -1,0 +1,35 @@
+Compiled from "CursorTreeAdapter.java"
+public abstract class android.widget.CursorTreeAdapter extends android.widget.BaseExpandableListAdapter implements android.widget.Filterable {
+  public android.widget.CursorTreeAdapter(android.database.Cursor, android.content.Context);
+  public android.widget.CursorTreeAdapter(android.database.Cursor, android.content.Context, boolean);
+  protected abstract android.database.Cursor getChildrenCursor(android.database.Cursor);
+  public void setGroupCursor(android.database.Cursor);
+  public void setChildrenCursor(int, android.database.Cursor);
+  public android.database.Cursor getChild(int, int);
+  public long getChildId(int, int);
+  public int getChildrenCount(int);
+  public android.database.Cursor getGroup(int);
+  public int getGroupCount();
+  public long getGroupId(int);
+  public android.view.View getGroupView(int, boolean, android.view.View, android.view.ViewGroup);
+  protected abstract android.view.View newGroupView(android.content.Context, android.database.Cursor, boolean, android.view.ViewGroup);
+  protected abstract void bindGroupView(android.view.View, android.content.Context, android.database.Cursor, boolean);
+  public android.view.View getChildView(int, int, boolean, android.view.View, android.view.ViewGroup);
+  protected abstract android.view.View newChildView(android.content.Context, android.database.Cursor, boolean, android.view.ViewGroup);
+  protected abstract void bindChildView(android.view.View, android.content.Context, android.database.Cursor, boolean);
+  public boolean isChildSelectable(int, int);
+  public boolean hasStableIds();
+  public void notifyDataSetChanged();
+  public void notifyDataSetChanged(boolean);
+  public void notifyDataSetInvalidated();
+  public void onGroupCollapsed(int);
+  public java.lang.String convertToString(android.database.Cursor);
+  public android.database.Cursor runQueryOnBackgroundThread(java.lang.CharSequence);
+  public android.widget.Filter getFilter();
+  public android.widget.FilterQueryProvider getFilterQueryProvider();
+  public void setFilterQueryProvider(android.widget.FilterQueryProvider);
+  public void changeCursor(android.database.Cursor);
+  public android.database.Cursor getCursor();
+  public java.lang.Object getChild(int, int);
+  public java.lang.Object getGroup(int);
+}

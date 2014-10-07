@@ -1,0 +1,8 @@
+Compiled from "GestureLibraries.java"
+public final class android.gesture.GestureLibraries {
+  android.gesture.GestureLibraries();
+  public static android.gesture.GestureLibrary fromFile(java.lang.String);
+  public static android.gesture.GestureLibrary fromFile(java.io.File);
+  public static android.gesture.GestureLibrary fromPrivateFile(android.content.Context, java.lang.String);
+  public static android.gesture.GestureLibrary fromRawResource(android.content.Context, int);
+}

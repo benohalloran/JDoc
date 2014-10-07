@@ -1,0 +1,44 @@
+Compiled from "NumberPicker.java"
+public class android.widget.NumberPicker extends android.widget.LinearLayout {
+  public android.widget.NumberPicker(android.content.Context);
+  public android.widget.NumberPicker(android.content.Context, android.util.AttributeSet);
+  public android.widget.NumberPicker(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.NumberPicker(android.content.Context, android.util.AttributeSet, int, int);
+  protected void onLayout(boolean, int, int, int, int);
+  protected void onMeasure(int, int);
+  public boolean onInterceptTouchEvent(android.view.MotionEvent);
+  public boolean onTouchEvent(android.view.MotionEvent);
+  public boolean dispatchTouchEvent(android.view.MotionEvent);
+  public boolean dispatchKeyEvent(android.view.KeyEvent);
+  public boolean dispatchTrackballEvent(android.view.MotionEvent);
+  protected boolean dispatchHoverEvent(android.view.MotionEvent);
+  public void computeScroll();
+  public void setEnabled(boolean);
+  public void scrollBy(int, int);
+  protected int computeVerticalScrollOffset();
+  protected int computeVerticalScrollRange();
+  protected int computeVerticalScrollExtent();
+  public int getSolidColor();
+  public void setOnValueChangedListener(android.widget.NumberPicker$OnValueChangeListener);
+  public void setOnScrollListener(android.widget.NumberPicker$OnScrollListener);
+  public void setFormatter(android.widget.NumberPicker$Formatter);
+  public void setValue(int);
+  public boolean performClick();
+  public boolean performLongClick();
+  public boolean getWrapSelectorWheel();
+  public void setWrapSelectorWheel(boolean);
+  public void setOnLongPressUpdateInterval(long);
+  public int getValue();
+  public int getMinValue();
+  public void setMinValue(int);
+  public int getMaxValue();
+  public void setMaxValue(int);
+  public java.lang.String[] getDisplayedValues();
+  public void setDisplayedValues(java.lang.String[]);
+  protected float getTopFadingEdgeStrength();
+  protected float getBottomFadingEdgeStrength();
+  protected void onDetachedFromWindow();
+  protected void onDraw(android.graphics.Canvas);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public android.view.accessibility.AccessibilityNodeProvider getAccessibilityNodeProvider();
+}

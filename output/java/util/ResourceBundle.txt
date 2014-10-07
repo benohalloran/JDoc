@@ -1,0 +1,23 @@
+Compiled from "ResourceBundle.java"
+public abstract class java.util.ResourceBundle {
+  protected java.util.ResourceBundle parent;
+  public java.util.ResourceBundle();
+  public static java.util.ResourceBundle getBundle(java.lang.String) throws java.util.MissingResourceException;
+  public static java.util.ResourceBundle getBundle(java.lang.String, java.util.Locale);
+  public static java.util.ResourceBundle getBundle(java.lang.String, java.util.Locale, java.lang.ClassLoader) throws java.util.MissingResourceException;
+  public static java.util.ResourceBundle getBundle(java.lang.String, java.util.ResourceBundle$Control);
+  public static java.util.ResourceBundle getBundle(java.lang.String, java.util.Locale, java.util.ResourceBundle$Control);
+  public static java.util.ResourceBundle getBundle(java.lang.String, java.util.Locale, java.lang.ClassLoader, java.util.ResourceBundle$Control);
+  public abstract java.util.Enumeration<java.lang.String> getKeys();
+  public java.util.Locale getLocale();
+  public final java.lang.Object getObject(java.lang.String);
+  public final java.lang.String getString(java.lang.String);
+  public final java.lang.String[] getStringArray(java.lang.String);
+  protected abstract java.lang.Object handleGetObject(java.lang.String);
+  protected void setParent(java.util.ResourceBundle);
+  public static void clearCache();
+  public static void clearCache(java.lang.ClassLoader);
+  public boolean containsKey(java.lang.String);
+  public java.util.Set<java.lang.String> keySet();
+  protected java.util.Set<java.lang.String> handleKeySet();
+}

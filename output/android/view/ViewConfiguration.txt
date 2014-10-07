@@ -1,0 +1,38 @@
+Compiled from "ViewConfiguration.java"
+public class android.view.ViewConfiguration {
+  public android.view.ViewConfiguration();
+  public static android.view.ViewConfiguration get(android.content.Context);
+  public static int getScrollBarSize();
+  public int getScaledScrollBarSize();
+  public static int getScrollBarFadeDuration();
+  public static int getScrollDefaultDelay();
+  public static int getFadingEdgeLength();
+  public int getScaledFadingEdgeLength();
+  public static int getPressedStateDuration();
+  public static int getLongPressTimeout();
+  public static int getKeyRepeatTimeout();
+  public static int getKeyRepeatDelay();
+  public static int getTapTimeout();
+  public static int getJumpTapTimeout();
+  public static int getDoubleTapTimeout();
+  public static int getEdgeSlop();
+  public int getScaledEdgeSlop();
+  public static int getTouchSlop();
+  public int getScaledTouchSlop();
+  public int getScaledPagingTouchSlop();
+  public int getScaledDoubleTapSlop();
+  public static int getWindowTouchSlop();
+  public int getScaledWindowTouchSlop();
+  public static int getMinimumFlingVelocity();
+  public int getScaledMinimumFlingVelocity();
+  public static int getMaximumFlingVelocity();
+  public int getScaledMaximumFlingVelocity();
+  public static int getMaximumDrawingCacheSize();
+  public int getScaledMaximumDrawingCacheSize();
+  public int getScaledOverscrollDistance();
+  public int getScaledOverflingDistance();
+  public static long getZoomControlsTimeout();
+  public static long getGlobalActionKeyTimeout();
+  public static float getScrollFriction();
+  public boolean hasPermanentMenuKey();
+}

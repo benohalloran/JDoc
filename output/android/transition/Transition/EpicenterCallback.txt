@@ -1,0 +1,5 @@
+Compiled from "Transition.java"
+public abstract class android.transition.Transition$EpicenterCallback {
+  public android.transition.Transition$EpicenterCallback();
+  public abstract android.graphics.Rect onGetEpicenter(android.transition.Transition);
+}

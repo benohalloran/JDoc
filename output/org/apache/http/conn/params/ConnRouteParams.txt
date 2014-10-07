@@ -1,0 +1,13 @@
+Compiled from "ConnRouteParams.java"
+public class org.apache.http.conn.params.ConnRouteParams implements org.apache.http.conn.params.ConnRoutePNames {
+  public static final org.apache.http.HttpHost NO_HOST;
+  public static final org.apache.http.conn.routing.HttpRoute NO_ROUTE;
+  org.apache.http.conn.params.ConnRouteParams();
+  public static org.apache.http.HttpHost getDefaultProxy(org.apache.http.params.HttpParams);
+  public static void setDefaultProxy(org.apache.http.params.HttpParams, org.apache.http.HttpHost);
+  public static org.apache.http.conn.routing.HttpRoute getForcedRoute(org.apache.http.params.HttpParams);
+  public static void setForcedRoute(org.apache.http.params.HttpParams, org.apache.http.conn.routing.HttpRoute);
+  public static java.net.InetAddress getLocalAddress(org.apache.http.params.HttpParams);
+  public static void setLocalAddress(org.apache.http.params.HttpParams, java.net.InetAddress);
+  static {};
+}

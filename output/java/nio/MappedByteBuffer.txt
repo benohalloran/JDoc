@@ -1,0 +1,7 @@
+Compiled from "MappedByteBuffer.java"
+public abstract class java.nio.MappedByteBuffer extends java.nio.ByteBuffer {
+  java.nio.MappedByteBuffer();
+  public final boolean isLoaded();
+  public final java.nio.MappedByteBuffer load();
+  public final java.nio.MappedByteBuffer force();
+}

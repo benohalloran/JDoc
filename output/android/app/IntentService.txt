@@ -1,0 +1,11 @@
+Compiled from "IntentService.java"
+public abstract class android.app.IntentService extends android.app.Service {
+  public android.app.IntentService(java.lang.String);
+  public void setIntentRedelivery(boolean);
+  public void onCreate();
+  public void onStart(android.content.Intent, int);
+  public int onStartCommand(android.content.Intent, int, int);
+  public void onDestroy();
+  public android.os.IBinder onBind(android.content.Intent);
+  protected abstract void onHandleIntent(android.content.Intent);
+}

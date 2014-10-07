@@ -1,0 +1,9 @@
+Compiled from "Paint.java"
+public class android.graphics.Paint$FontMetrics {
+  public float ascent;
+  public float bottom;
+  public float descent;
+  public float leading;
+  public float top;
+  public android.graphics.Paint$FontMetrics();
+}

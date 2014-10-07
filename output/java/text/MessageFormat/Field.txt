@@ -1,0 +1,6 @@
+Compiled from "MessageFormat.java"
+public class java.text.MessageFormat$Field extends java.text.Format$Field {
+  public static final java.text.MessageFormat$Field ARGUMENT;
+  protected java.text.MessageFormat$Field(java.lang.String);
+  static {};
+}

@@ -1,0 +1,27 @@
+Compiled from "UsbDevice.java"
+public class android.hardware.usb.UsbDevice implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.hardware.usb.UsbDevice> CREATOR;
+  android.hardware.usb.UsbDevice();
+  public java.lang.String getDeviceName();
+  public java.lang.String getManufacturerName();
+  public java.lang.String getProductName();
+  public java.lang.String getSerialNumber();
+  public int getDeviceId();
+  public int getVendorId();
+  public int getProductId();
+  public int getDeviceClass();
+  public int getDeviceSubclass();
+  public int getDeviceProtocol();
+  public int getConfigurationCount();
+  public android.hardware.usb.UsbConfiguration getConfiguration(int);
+  public int getInterfaceCount();
+  public android.hardware.usb.UsbInterface getInterface(int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public static int getDeviceId(java.lang.String);
+  public static java.lang.String getDeviceName(int);
+  static {};
+}

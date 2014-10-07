@@ -1,0 +1,11 @@
+Compiled from "AppWidgetProvider.java"
+public class android.appwidget.AppWidgetProvider extends android.content.BroadcastReceiver {
+  public android.appwidget.AppWidgetProvider();
+  public void onReceive(android.content.Context, android.content.Intent);
+  public void onUpdate(android.content.Context, android.appwidget.AppWidgetManager, int[]);
+  public void onAppWidgetOptionsChanged(android.content.Context, android.appwidget.AppWidgetManager, int, android.os.Bundle);
+  public void onDeleted(android.content.Context, int[]);
+  public void onEnabled(android.content.Context);
+  public void onDisabled(android.content.Context);
+  public void onRestored(android.content.Context, int[], int[]);
+}

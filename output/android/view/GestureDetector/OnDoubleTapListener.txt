@@ -1,0 +1,6 @@
+Compiled from "GestureDetector.java"
+public interface android.view.GestureDetector$OnDoubleTapListener {
+  public abstract boolean onSingleTapConfirmed(android.view.MotionEvent);
+  public abstract boolean onDoubleTap(android.view.MotionEvent);
+  public abstract boolean onDoubleTapEvent(android.view.MotionEvent);
+}

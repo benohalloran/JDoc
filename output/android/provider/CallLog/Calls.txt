@@ -1,0 +1,40 @@
+Compiled from "CallLog.java"
+public class android.provider.CallLog$Calls implements android.provider.BaseColumns {
+  public static final java.lang.String CACHED_FORMATTED_NUMBER;
+  public static final java.lang.String CACHED_LOOKUP_URI;
+  public static final java.lang.String CACHED_MATCHED_NUMBER;
+  public static final java.lang.String CACHED_NAME;
+  public static final java.lang.String CACHED_NORMALIZED_NUMBER;
+  public static final java.lang.String CACHED_NUMBER_LABEL;
+  public static final java.lang.String CACHED_NUMBER_TYPE;
+  public static final java.lang.String CACHED_PHOTO_ID;
+  public static final android.net.Uri CONTENT_FILTER_URI;
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  public static final android.net.Uri CONTENT_URI_WITH_VOICEMAIL;
+  public static final java.lang.String COUNTRY_ISO;
+  public static final java.lang.String DATE;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final java.lang.String DURATION;
+  public static final java.lang.String GEOCODED_LOCATION;
+  public static final int INCOMING_TYPE;
+  public static final java.lang.String IS_READ;
+  public static final java.lang.String LIMIT_PARAM_KEY;
+  public static final int MISSED_TYPE;
+  public static final java.lang.String NEW;
+  public static final java.lang.String NUMBER;
+  public static final java.lang.String NUMBER_PRESENTATION;
+  public static final java.lang.String OFFSET_PARAM_KEY;
+  public static final int OUTGOING_TYPE;
+  public static final int PRESENTATION_ALLOWED;
+  public static final int PRESENTATION_PAYPHONE;
+  public static final int PRESENTATION_RESTRICTED;
+  public static final int PRESENTATION_UNKNOWN;
+  public static final java.lang.String TYPE;
+  public static final int VOICEMAIL_TYPE;
+  public static final java.lang.String VOICEMAIL_URI;
+  public android.provider.CallLog$Calls();
+  public static java.lang.String getLastOutgoingCall(android.content.Context);
+  static {};
+}

@@ -1,0 +1,12 @@
+Compiled from "StrictMode.java"
+public final class android.os.StrictMode {
+  android.os.StrictMode();
+  public static void setThreadPolicy(android.os.StrictMode$ThreadPolicy);
+  public static android.os.StrictMode$ThreadPolicy getThreadPolicy();
+  public static android.os.StrictMode$ThreadPolicy allowThreadDiskWrites();
+  public static android.os.StrictMode$ThreadPolicy allowThreadDiskReads();
+  public static void setVmPolicy(android.os.StrictMode$VmPolicy);
+  public static android.os.StrictMode$VmPolicy getVmPolicy();
+  public static void enableDefaults();
+  public static void noteSlowCall(java.lang.String);
+}

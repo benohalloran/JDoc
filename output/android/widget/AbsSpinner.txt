@@ -1,0 +1,23 @@
+Compiled from "AbsSpinner.java"
+public abstract class android.widget.AbsSpinner extends android.widget.AdapterView<android.widget.SpinnerAdapter> {
+  public android.widget.AbsSpinner(android.content.Context);
+  public android.widget.AbsSpinner(android.content.Context, android.util.AttributeSet);
+  public android.widget.AbsSpinner(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.AbsSpinner(android.content.Context, android.util.AttributeSet, int, int);
+  public void setAdapter(android.widget.SpinnerAdapter);
+  protected void onMeasure(int, int);
+  protected android.view.ViewGroup$LayoutParams generateDefaultLayoutParams();
+  public void setSelection(int, boolean);
+  public void setSelection(int);
+  public android.view.View getSelectedView();
+  public void requestLayout();
+  public android.widget.SpinnerAdapter getAdapter();
+  public int getCount();
+  public int pointToPosition(int, int);
+  public android.os.Parcelable onSaveInstanceState();
+  public void onRestoreInstanceState(android.os.Parcelable);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public void setAdapter(android.widget.Adapter);
+  public android.widget.Adapter getAdapter();
+}

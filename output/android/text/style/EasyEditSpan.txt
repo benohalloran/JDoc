@@ -1,0 +1,12 @@
+Compiled from "EasyEditSpan.java"
+public class android.text.style.EasyEditSpan implements android.text.ParcelableSpan {
+  public static final java.lang.String EXTRA_TEXT_CHANGED_TYPE;
+  public static final int TEXT_DELETED;
+  public static final int TEXT_MODIFIED;
+  public android.text.style.EasyEditSpan();
+  public android.text.style.EasyEditSpan(android.app.PendingIntent);
+  public android.text.style.EasyEditSpan(android.os.Parcel);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int getSpanTypeId();
+}

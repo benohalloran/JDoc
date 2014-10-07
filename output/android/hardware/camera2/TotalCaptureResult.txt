@@ -1,0 +1,5 @@
+Compiled from "TotalCaptureResult.java"
+public final class android.hardware.camera2.TotalCaptureResult extends android.hardware.camera2.CaptureResult {
+  android.hardware.camera2.TotalCaptureResult();
+  public java.util.List<android.hardware.camera2.CaptureResult> getPartialResults();
+}

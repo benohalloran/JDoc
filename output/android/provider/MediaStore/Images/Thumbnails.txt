@@ -1,0 +1,25 @@
+Compiled from "MediaStore.java"
+public class android.provider.MediaStore$Images$Thumbnails implements android.provider.BaseColumns {
+  public static final java.lang.String DATA;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final android.net.Uri EXTERNAL_CONTENT_URI;
+  public static final int FULL_SCREEN_KIND;
+  public static final java.lang.String HEIGHT;
+  public static final java.lang.String IMAGE_ID;
+  public static final android.net.Uri INTERNAL_CONTENT_URI;
+  public static final java.lang.String KIND;
+  public static final int MICRO_KIND;
+  public static final int MINI_KIND;
+  public static final java.lang.String THUMB_DATA;
+  public static final java.lang.String WIDTH;
+  public android.provider.MediaStore$Images$Thumbnails();
+  public static final android.database.Cursor query(android.content.ContentResolver, android.net.Uri, java.lang.String[]);
+  public static final android.database.Cursor queryMiniThumbnails(android.content.ContentResolver, android.net.Uri, int, java.lang.String[]);
+  public static final android.database.Cursor queryMiniThumbnail(android.content.ContentResolver, long, int, java.lang.String[]);
+  public static void cancelThumbnailRequest(android.content.ContentResolver, long);
+  public static android.graphics.Bitmap getThumbnail(android.content.ContentResolver, long, int, android.graphics.BitmapFactory$Options);
+  public static void cancelThumbnailRequest(android.content.ContentResolver, long, long);
+  public static android.graphics.Bitmap getThumbnail(android.content.ContentResolver, long, long, int, android.graphics.BitmapFactory$Options);
+  public static android.net.Uri getContentUri(java.lang.String);
+  static {};
+}

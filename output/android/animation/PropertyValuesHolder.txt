@@ -1,0 +1,35 @@
+Compiled from "PropertyValuesHolder.java"
+public class android.animation.PropertyValuesHolder implements java.lang.Cloneable {
+  android.animation.PropertyValuesHolder();
+  public static android.animation.PropertyValuesHolder ofInt(java.lang.String, int...);
+  public static android.animation.PropertyValuesHolder ofInt(android.util.Property<?, java.lang.Integer>, int...);
+  public static android.animation.PropertyValuesHolder ofMultiInt(java.lang.String, int[][]);
+  public static android.animation.PropertyValuesHolder ofMultiInt(java.lang.String, android.graphics.Path);
+  public static <V extends java/lang/Object> android.animation.PropertyValuesHolder ofMultiInt(java.lang.String, android.animation.TypeConverter<V, int[]>, android.animation.TypeEvaluator<V>, V...);
+  public static <T extends java/lang/Object> android.animation.PropertyValuesHolder ofMultiInt(java.lang.String, android.animation.TypeConverter<T, int[]>, android.animation.TypeEvaluator<T>, android.animation.Keyframe...);
+  public static android.animation.PropertyValuesHolder ofFloat(java.lang.String, float...);
+  public static android.animation.PropertyValuesHolder ofFloat(android.util.Property<?, java.lang.Float>, float...);
+  public static android.animation.PropertyValuesHolder ofMultiFloat(java.lang.String, float[][]);
+  public static android.animation.PropertyValuesHolder ofMultiFloat(java.lang.String, android.graphics.Path);
+  public static <V extends java/lang/Object> android.animation.PropertyValuesHolder ofMultiFloat(java.lang.String, android.animation.TypeConverter<V, float[]>, android.animation.TypeEvaluator<V>, V...);
+  public static <T extends java/lang/Object> android.animation.PropertyValuesHolder ofMultiFloat(java.lang.String, android.animation.TypeConverter<T, float[]>, android.animation.TypeEvaluator<T>, android.animation.Keyframe...);
+  public static android.animation.PropertyValuesHolder ofObject(java.lang.String, android.animation.TypeEvaluator, java.lang.Object...);
+  public static android.animation.PropertyValuesHolder ofObject(java.lang.String, android.animation.TypeConverter<android.graphics.PointF, ?>, android.graphics.Path);
+  public static <V extends java/lang/Object> android.animation.PropertyValuesHolder ofObject(android.util.Property, android.animation.TypeEvaluator<V>, V...);
+  public static <T extends java/lang/Object, V extends java/lang/Object> android.animation.PropertyValuesHolder ofObject(android.util.Property<?, V>, android.animation.TypeConverter<T, V>, android.animation.TypeEvaluator<T>, T...);
+  public static <V extends java/lang/Object> android.animation.PropertyValuesHolder ofObject(android.util.Property<?, V>, android.animation.TypeConverter<android.graphics.PointF, V>, android.graphics.Path);
+  public static android.animation.PropertyValuesHolder ofKeyframe(java.lang.String, android.animation.Keyframe...);
+  public static android.animation.PropertyValuesHolder ofKeyframe(android.util.Property, android.animation.Keyframe...);
+  public void setIntValues(int...);
+  public void setFloatValues(float...);
+  public void setKeyframes(android.animation.Keyframe...);
+  public void setObjectValues(java.lang.Object...);
+  public void setConverter(android.animation.TypeConverter);
+  public android.animation.PropertyValuesHolder clone();
+  public void setEvaluator(android.animation.TypeEvaluator);
+  public void setPropertyName(java.lang.String);
+  public void setProperty(android.util.Property);
+  public java.lang.String getPropertyName();
+  public java.lang.String toString();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

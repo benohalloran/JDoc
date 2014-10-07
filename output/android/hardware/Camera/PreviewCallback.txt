@@ -1,0 +1,4 @@
+Compiled from "Camera.java"
+public interface android.hardware.Camera$PreviewCallback {
+  public abstract void onPreviewFrame(byte[], android.hardware.Camera);
+}

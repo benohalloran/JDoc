@@ -1,0 +1,18 @@
+Compiled from "MonthDisplayHelper.java"
+public class android.util.MonthDisplayHelper {
+  public android.util.MonthDisplayHelper(int, int, int);
+  public android.util.MonthDisplayHelper(int, int);
+  public int getYear();
+  public int getMonth();
+  public int getWeekStartDay();
+  public int getFirstDayOfMonth();
+  public int getNumberOfDaysInMonth();
+  public int getOffset();
+  public int[] getDigitsForRow(int);
+  public int getDayAt(int, int);
+  public int getRowOf(int);
+  public int getColumnOf(int);
+  public void previousMonth();
+  public void nextMonth();
+  public boolean isWithinCurrentMonth(int, int);
+}

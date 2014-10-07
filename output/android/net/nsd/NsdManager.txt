@@ -1,0 +1,17 @@
+Compiled from "NsdManager.java"
+public final class android.net.nsd.NsdManager {
+  public static final java.lang.String ACTION_NSD_STATE_CHANGED;
+  public static final java.lang.String EXTRA_NSD_STATE;
+  public static final int FAILURE_ALREADY_ACTIVE;
+  public static final int FAILURE_INTERNAL_ERROR;
+  public static final int FAILURE_MAX_LIMIT;
+  public static final int NSD_STATE_DISABLED;
+  public static final int NSD_STATE_ENABLED;
+  public static final int PROTOCOL_DNS_SD;
+  android.net.nsd.NsdManager();
+  public void registerService(android.net.nsd.NsdServiceInfo, int, android.net.nsd.NsdManager$RegistrationListener);
+  public void unregisterService(android.net.nsd.NsdManager$RegistrationListener);
+  public void discoverServices(java.lang.String, int, android.net.nsd.NsdManager$DiscoveryListener);
+  public void stopServiceDiscovery(android.net.nsd.NsdManager$DiscoveryListener);
+  public void resolveService(android.net.nsd.NsdServiceInfo, android.net.nsd.NsdManager$ResolveListener);
+}

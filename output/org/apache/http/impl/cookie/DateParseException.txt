@@ -1,0 +1,5 @@
+Compiled from "DateParseException.java"
+public class org.apache.http.impl.cookie.DateParseException extends java.lang.Exception {
+  public org.apache.http.impl.cookie.DateParseException();
+  public org.apache.http.impl.cookie.DateParseException(java.lang.String);
+}

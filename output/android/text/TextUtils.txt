@@ -1,0 +1,47 @@
+Compiled from "TextUtils.java"
+public class android.text.TextUtils {
+  public static final int CAP_MODE_CHARACTERS;
+  public static final int CAP_MODE_SENTENCES;
+  public static final int CAP_MODE_WORDS;
+  public static final android.os.Parcelable$Creator<java.lang.CharSequence> CHAR_SEQUENCE_CREATOR;
+  android.text.TextUtils();
+  public static void getChars(java.lang.CharSequence, int, int, char[], int);
+  public static int indexOf(java.lang.CharSequence, char);
+  public static int indexOf(java.lang.CharSequence, char, int);
+  public static int indexOf(java.lang.CharSequence, char, int, int);
+  public static int lastIndexOf(java.lang.CharSequence, char);
+  public static int lastIndexOf(java.lang.CharSequence, char, int);
+  public static int lastIndexOf(java.lang.CharSequence, char, int, int);
+  public static int indexOf(java.lang.CharSequence, java.lang.CharSequence);
+  public static int indexOf(java.lang.CharSequence, java.lang.CharSequence, int);
+  public static int indexOf(java.lang.CharSequence, java.lang.CharSequence, int, int);
+  public static boolean regionMatches(java.lang.CharSequence, int, java.lang.CharSequence, int, int);
+  public static java.lang.String substring(java.lang.CharSequence, int, int);
+  public static java.lang.String join(java.lang.CharSequence, java.lang.Object[]);
+  public static java.lang.String join(java.lang.CharSequence, java.lang.Iterable);
+  public static java.lang.String[] split(java.lang.String, java.lang.String);
+  public static java.lang.String[] split(java.lang.String, java.util.regex.Pattern);
+  public static java.lang.CharSequence stringOrSpannedString(java.lang.CharSequence);
+  public static boolean isEmpty(java.lang.CharSequence);
+  public static int getTrimmedLength(java.lang.CharSequence);
+  public static boolean equals(java.lang.CharSequence, java.lang.CharSequence);
+  public static java.lang.CharSequence getReverse(java.lang.CharSequence, int, int);
+  public static void writeToParcel(java.lang.CharSequence, android.os.Parcel, int);
+  public static void dumpSpans(java.lang.CharSequence, android.util.Printer, java.lang.String);
+  public static java.lang.CharSequence replace(java.lang.CharSequence, java.lang.String[], java.lang.CharSequence[]);
+  public static java.lang.CharSequence expandTemplate(java.lang.CharSequence, java.lang.CharSequence...);
+  public static int getOffsetBefore(java.lang.CharSequence, int);
+  public static int getOffsetAfter(java.lang.CharSequence, int);
+  public static void copySpansFrom(android.text.Spanned, int, int, java.lang.Class, android.text.Spannable, int);
+  public static java.lang.CharSequence ellipsize(java.lang.CharSequence, android.text.TextPaint, float, android.text.TextUtils$TruncateAt);
+  public static java.lang.CharSequence ellipsize(java.lang.CharSequence, android.text.TextPaint, float, android.text.TextUtils$TruncateAt, boolean, android.text.TextUtils$EllipsizeCallback);
+  public static java.lang.CharSequence commaEllipsize(java.lang.CharSequence, android.text.TextPaint, float, java.lang.String, java.lang.String);
+  public static java.lang.String htmlEncode(java.lang.String);
+  public static java.lang.CharSequence concat(java.lang.CharSequence...);
+  public static boolean isGraphic(java.lang.CharSequence);
+  public static boolean isGraphic(char);
+  public static boolean isDigitsOnly(java.lang.CharSequence);
+  public static int getCapsMode(java.lang.CharSequence, int, int);
+  public static int getLayoutDirectionFromLocale(java.util.Locale);
+  static {};
+}

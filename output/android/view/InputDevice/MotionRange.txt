@@ -1,0 +1,13 @@
+Compiled from "InputDevice.java"
+public final class android.view.InputDevice$MotionRange {
+  android.view.InputDevice$MotionRange();
+  public int getAxis();
+  public int getSource();
+  public boolean isFromSource(int);
+  public float getMin();
+  public float getMax();
+  public float getRange();
+  public float getFlat();
+  public float getFuzz();
+  public float getResolution();
+}

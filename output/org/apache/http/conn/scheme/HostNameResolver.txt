@@ -1,0 +1,4 @@
+Compiled from "HostNameResolver.java"
+public interface org.apache.http.conn.scheme.HostNameResolver {
+  public abstract java.net.InetAddress resolve(java.lang.String) throws java.io.IOException;
+}

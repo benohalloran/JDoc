@@ -1,0 +1,48 @@
+Compiled from "RelativeLayout.java"
+public class android.widget.RelativeLayout extends android.view.ViewGroup {
+  public static final int ABOVE;
+  public static final int ALIGN_BASELINE;
+  public static final int ALIGN_BOTTOM;
+  public static final int ALIGN_END;
+  public static final int ALIGN_LEFT;
+  public static final int ALIGN_PARENT_BOTTOM;
+  public static final int ALIGN_PARENT_END;
+  public static final int ALIGN_PARENT_LEFT;
+  public static final int ALIGN_PARENT_RIGHT;
+  public static final int ALIGN_PARENT_START;
+  public static final int ALIGN_PARENT_TOP;
+  public static final int ALIGN_RIGHT;
+  public static final int ALIGN_START;
+  public static final int ALIGN_TOP;
+  public static final int BELOW;
+  public static final int CENTER_HORIZONTAL;
+  public static final int CENTER_IN_PARENT;
+  public static final int CENTER_VERTICAL;
+  public static final int END_OF;
+  public static final int LEFT_OF;
+  public static final int RIGHT_OF;
+  public static final int START_OF;
+  public static final int TRUE;
+  public android.widget.RelativeLayout(android.content.Context);
+  public android.widget.RelativeLayout(android.content.Context, android.util.AttributeSet);
+  public android.widget.RelativeLayout(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.RelativeLayout(android.content.Context, android.util.AttributeSet, int, int);
+  public boolean shouldDelayChildPressedState();
+  public void setIgnoreGravity(int);
+  public int getGravity();
+  public void setGravity(int);
+  public void setHorizontalGravity(int);
+  public void setVerticalGravity(int);
+  public int getBaseline();
+  public void requestLayout();
+  protected void onMeasure(int, int);
+  protected void onLayout(boolean, int, int, int, int);
+  public android.widget.RelativeLayout$LayoutParams generateLayoutParams(android.util.AttributeSet);
+  protected android.view.ViewGroup$LayoutParams generateDefaultLayoutParams();
+  protected boolean checkLayoutParams(android.view.ViewGroup$LayoutParams);
+  protected android.view.ViewGroup$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams);
+  public boolean dispatchPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet);
+}

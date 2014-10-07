@@ -1,0 +1,7 @@
+Compiled from "BasicDomainHandler.java"
+public class org.apache.http.impl.cookie.BasicDomainHandler implements org.apache.http.cookie.CookieAttributeHandler {
+  public org.apache.http.impl.cookie.BasicDomainHandler();
+  public void parse(org.apache.http.cookie.SetCookie, java.lang.String) throws org.apache.http.cookie.MalformedCookieException;
+  public void validate(org.apache.http.cookie.Cookie, org.apache.http.cookie.CookieOrigin) throws org.apache.http.cookie.MalformedCookieException;
+  public boolean match(org.apache.http.cookie.Cookie, org.apache.http.cookie.CookieOrigin);
+}

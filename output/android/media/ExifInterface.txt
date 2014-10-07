@@ -1,0 +1,45 @@
+Compiled from "ExifInterface.java"
+public class android.media.ExifInterface {
+  public static final int ORIENTATION_FLIP_HORIZONTAL;
+  public static final int ORIENTATION_FLIP_VERTICAL;
+  public static final int ORIENTATION_NORMAL;
+  public static final int ORIENTATION_ROTATE_180;
+  public static final int ORIENTATION_ROTATE_270;
+  public static final int ORIENTATION_ROTATE_90;
+  public static final int ORIENTATION_TRANSPOSE;
+  public static final int ORIENTATION_TRANSVERSE;
+  public static final int ORIENTATION_UNDEFINED;
+  public static final java.lang.String TAG_APERTURE;
+  public static final java.lang.String TAG_DATETIME;
+  public static final java.lang.String TAG_EXPOSURE_TIME;
+  public static final java.lang.String TAG_FLASH;
+  public static final java.lang.String TAG_FOCAL_LENGTH;
+  public static final java.lang.String TAG_GPS_ALTITUDE;
+  public static final java.lang.String TAG_GPS_ALTITUDE_REF;
+  public static final java.lang.String TAG_GPS_DATESTAMP;
+  public static final java.lang.String TAG_GPS_LATITUDE;
+  public static final java.lang.String TAG_GPS_LATITUDE_REF;
+  public static final java.lang.String TAG_GPS_LONGITUDE;
+  public static final java.lang.String TAG_GPS_LONGITUDE_REF;
+  public static final java.lang.String TAG_GPS_PROCESSING_METHOD;
+  public static final java.lang.String TAG_GPS_TIMESTAMP;
+  public static final java.lang.String TAG_IMAGE_LENGTH;
+  public static final java.lang.String TAG_IMAGE_WIDTH;
+  public static final java.lang.String TAG_ISO;
+  public static final java.lang.String TAG_MAKE;
+  public static final java.lang.String TAG_MODEL;
+  public static final java.lang.String TAG_ORIENTATION;
+  public static final java.lang.String TAG_WHITE_BALANCE;
+  public static final int WHITEBALANCE_AUTO;
+  public static final int WHITEBALANCE_MANUAL;
+  public android.media.ExifInterface(java.lang.String) throws java.io.IOException;
+  public java.lang.String getAttribute(java.lang.String);
+  public int getAttributeInt(java.lang.String, int);
+  public double getAttributeDouble(java.lang.String, double);
+  public void setAttribute(java.lang.String, java.lang.String);
+  public void saveAttributes() throws java.io.IOException;
+  public boolean hasThumbnail();
+  public byte[] getThumbnail();
+  public boolean getLatLong(float[]);
+  public double getAltitude(double);
+}

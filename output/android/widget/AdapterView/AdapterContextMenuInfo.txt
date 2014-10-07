@@ -1,0 +1,7 @@
+Compiled from "AdapterView.java"
+public class android.widget.AdapterView$AdapterContextMenuInfo implements android.view.ContextMenu$ContextMenuInfo {
+  public long id;
+  public int position;
+  public android.view.View targetView;
+  public android.widget.AdapterView$AdapterContextMenuInfo(android.view.View, int, long);
+}

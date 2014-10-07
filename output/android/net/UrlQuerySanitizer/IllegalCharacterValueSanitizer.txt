@@ -1,0 +1,27 @@
+Compiled from "UrlQuerySanitizer.java"
+public class android.net.UrlQuerySanitizer$IllegalCharacterValueSanitizer implements android.net.UrlQuerySanitizer$ValueSanitizer {
+  public static final int ALL_BUT_NUL_AND_ANGLE_BRACKETS_LEGAL;
+  public static final int ALL_BUT_NUL_LEGAL;
+  public static final int ALL_BUT_WHITESPACE_LEGAL;
+  public static final int ALL_ILLEGAL;
+  public static final int ALL_OK;
+  public static final int ALL_WHITESPACE_OK;
+  public static final int AMP_AND_SPACE_LEGAL;
+  public static final int AMP_LEGAL;
+  public static final int AMP_OK;
+  public static final int DQUOTE_OK;
+  public static final int GT_OK;
+  public static final int LT_OK;
+  public static final int NON_7_BIT_ASCII_OK;
+  public static final int NUL_OK;
+  public static final int OTHER_WHITESPACE_OK;
+  public static final int PCT_OK;
+  public static final int SCRIPT_URL_OK;
+  public static final int SPACE_LEGAL;
+  public static final int SPACE_OK;
+  public static final int SQUOTE_OK;
+  public static final int URL_AND_SPACE_LEGAL;
+  public static final int URL_LEGAL;
+  public android.net.UrlQuerySanitizer$IllegalCharacterValueSanitizer(int);
+  public java.lang.String sanitize(java.lang.String);
+}

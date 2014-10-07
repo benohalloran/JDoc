@@ -1,0 +1,10 @@
+Compiled from "LoaderManager.java"
+public abstract class android.app.LoaderManager {
+  public android.app.LoaderManager();
+  public abstract <D extends java/lang/Object> android.content.Loader<D> initLoader(int, android.os.Bundle, android.app.LoaderManager$LoaderCallbacks<D>);
+  public abstract <D extends java/lang/Object> android.content.Loader<D> restartLoader(int, android.os.Bundle, android.app.LoaderManager$LoaderCallbacks<D>);
+  public abstract void destroyLoader(int);
+  public abstract <D extends java/lang/Object> android.content.Loader<D> getLoader(int);
+  public abstract void dump(java.lang.String, java.io.FileDescriptor, java.io.PrintWriter, java.lang.String[]);
+  public static void enableDebugLogging(boolean);
+}

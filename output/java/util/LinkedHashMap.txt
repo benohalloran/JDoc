@@ -1,0 +1,12 @@
+Compiled from "LinkedHashMap.java"
+public class java.util.LinkedHashMap<K, V> extends java.util.HashMap<K, V> {
+  public java.util.LinkedHashMap();
+  public java.util.LinkedHashMap(int);
+  public java.util.LinkedHashMap(int, float);
+  public java.util.LinkedHashMap(int, float, boolean);
+  public java.util.LinkedHashMap(java.util.Map<? extends K, ? extends V>);
+  public V get(java.lang.Object);
+  public boolean containsValue(java.lang.Object);
+  public void clear();
+  protected boolean removeEldestEntry(java.util.Map$Entry<K, V>);
+}

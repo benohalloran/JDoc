@@ -1,0 +1,19 @@
+Compiled from "ChoiceFormat.java"
+public class java.text.ChoiceFormat extends java.text.NumberFormat {
+  public java.text.ChoiceFormat(double[], java.lang.String[]);
+  public java.text.ChoiceFormat(java.lang.String);
+  public void applyPattern(java.lang.String);
+  public java.lang.Object clone();
+  public boolean equals(java.lang.Object);
+  public java.lang.StringBuffer format(double, java.lang.StringBuffer, java.text.FieldPosition);
+  public java.lang.StringBuffer format(long, java.lang.StringBuffer, java.text.FieldPosition);
+  public java.lang.Object[] getFormats();
+  public double[] getLimits();
+  public int hashCode();
+  public static final double nextDouble(double);
+  public static double nextDouble(double, boolean);
+  public java.lang.Number parse(java.lang.String, java.text.ParsePosition);
+  public static final double previousDouble(double);
+  public void setChoices(double[], java.lang.String[]);
+  public java.lang.String toPattern();
+}

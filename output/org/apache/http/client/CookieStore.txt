@@ -1,0 +1,7 @@
+Compiled from "CookieStore.java"
+public interface org.apache.http.client.CookieStore {
+  public abstract void addCookie(org.apache.http.cookie.Cookie);
+  public abstract java.util.List<org.apache.http.cookie.Cookie> getCookies();
+  public abstract boolean clearExpired(java.util.Date);
+  public abstract void clear();
+}

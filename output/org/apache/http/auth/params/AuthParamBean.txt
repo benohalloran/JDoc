@@ -1,0 +1,5 @@
+Compiled from "AuthParamBean.java"
+public class org.apache.http.auth.params.AuthParamBean extends org.apache.http.params.HttpAbstractParamBean {
+  public org.apache.http.auth.params.AuthParamBean(org.apache.http.params.HttpParams);
+  public void setCredentialCharset(java.lang.String);
+}

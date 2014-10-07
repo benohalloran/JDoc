@@ -1,0 +1,17 @@
+Compiled from "R.java"
+public final class android.R$anim {
+  public static final int accelerate_decelerate_interpolator;
+  public static final int accelerate_interpolator;
+  public static final int anticipate_interpolator;
+  public static final int anticipate_overshoot_interpolator;
+  public static final int bounce_interpolator;
+  public static final int cycle_interpolator;
+  public static final int decelerate_interpolator;
+  public static final int fade_in;
+  public static final int fade_out;
+  public static final int linear_interpolator;
+  public static final int overshoot_interpolator;
+  public static final int slide_in_left;
+  public static final int slide_out_right;
+  public android.R$anim();
+}

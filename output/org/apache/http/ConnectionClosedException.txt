@@ -1,0 +1,4 @@
+Compiled from "ConnectionClosedException.java"
+public class org.apache.http.ConnectionClosedException extends java.io.IOException {
+  public org.apache.http.ConnectionClosedException(java.lang.String);
+}

@@ -1,0 +1,35 @@
+Compiled from "PendingIntent.java"
+public final class android.app.PendingIntent implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.app.PendingIntent> CREATOR;
+  public static final int FLAG_CANCEL_CURRENT;
+  public static final int FLAG_NO_CREATE;
+  public static final int FLAG_ONE_SHOT;
+  public static final int FLAG_UPDATE_CURRENT;
+  android.app.PendingIntent();
+  public static android.app.PendingIntent getActivity(android.content.Context, int, android.content.Intent, int);
+  public static android.app.PendingIntent getActivity(android.content.Context, int, android.content.Intent, int, android.os.Bundle);
+  public static android.app.PendingIntent getActivities(android.content.Context, int, android.content.Intent[], int);
+  public static android.app.PendingIntent getActivities(android.content.Context, int, android.content.Intent[], int, android.os.Bundle);
+  public static android.app.PendingIntent getBroadcast(android.content.Context, int, android.content.Intent, int);
+  public static android.app.PendingIntent getService(android.content.Context, int, android.content.Intent, int);
+  public android.content.IntentSender getIntentSender();
+  public void cancel();
+  public void send() throws android.app.PendingIntent$CanceledException;
+  public void send(int) throws android.app.PendingIntent$CanceledException;
+  public void send(android.content.Context, int, android.content.Intent) throws android.app.PendingIntent$CanceledException;
+  public void send(int, android.app.PendingIntent$OnFinished, android.os.Handler) throws android.app.PendingIntent$CanceledException;
+  public void send(android.content.Context, int, android.content.Intent, android.app.PendingIntent$OnFinished, android.os.Handler) throws android.app.PendingIntent$CanceledException;
+  public void send(android.content.Context, int, android.content.Intent, android.app.PendingIntent$OnFinished, android.os.Handler, java.lang.String) throws android.app.PendingIntent$CanceledException;
+  public java.lang.String getTargetPackage();
+  public java.lang.String getCreatorPackage();
+  public int getCreatorUid();
+  public android.os.UserHandle getCreatorUserHandle();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public static void writePendingIntentOrNullToParcel(android.app.PendingIntent, android.os.Parcel);
+  public static android.app.PendingIntent readPendingIntentOrNullFromParcel(android.os.Parcel);
+  static {};
+}

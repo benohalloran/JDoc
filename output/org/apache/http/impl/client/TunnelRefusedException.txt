@@ -1,0 +1,5 @@
+Compiled from "TunnelRefusedException.java"
+public class org.apache.http.impl.client.TunnelRefusedException extends org.apache.http.HttpException {
+  public org.apache.http.impl.client.TunnelRefusedException(java.lang.String, org.apache.http.HttpResponse);
+  public org.apache.http.HttpResponse getResponse();
+}

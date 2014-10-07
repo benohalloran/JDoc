@@ -1,0 +1,9 @@
+Compiled from "CellSignalStrength.java"
+public abstract class android.telephony.CellSignalStrength {
+  android.telephony.CellSignalStrength();
+  public abstract int getLevel();
+  public abstract int getAsuLevel();
+  public abstract int getDbm();
+  public abstract int hashCode();
+  public abstract boolean equals(java.lang.Object);
+}

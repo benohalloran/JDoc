@@ -1,0 +1,7 @@
+Compiled from "EnglishReasonPhraseCatalog.java"
+public class org.apache.http.impl.EnglishReasonPhraseCatalog implements org.apache.http.ReasonPhraseCatalog {
+  public static final org.apache.http.impl.EnglishReasonPhraseCatalog INSTANCE;
+  protected org.apache.http.impl.EnglishReasonPhraseCatalog();
+  public java.lang.String getReason(int, java.util.Locale);
+  static {};
+}

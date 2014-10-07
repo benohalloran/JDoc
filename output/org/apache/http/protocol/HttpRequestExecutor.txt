@@ -1,0 +1,10 @@
+Compiled from "HttpRequestExecutor.java"
+public class org.apache.http.protocol.HttpRequestExecutor {
+  public org.apache.http.protocol.HttpRequestExecutor();
+  protected boolean canResponseHaveBody(org.apache.http.HttpRequest, org.apache.http.HttpResponse);
+  public org.apache.http.HttpResponse execute(org.apache.http.HttpRequest, org.apache.http.HttpClientConnection, org.apache.http.protocol.HttpContext) throws java.io.IOException, org.apache.http.HttpException;
+  public void preProcess(org.apache.http.HttpRequest, org.apache.http.protocol.HttpProcessor, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException, java.io.IOException;
+  protected org.apache.http.HttpResponse doSendRequest(org.apache.http.HttpRequest, org.apache.http.HttpClientConnection, org.apache.http.protocol.HttpContext) throws java.io.IOException, org.apache.http.HttpException;
+  protected org.apache.http.HttpResponse doReceiveResponse(org.apache.http.HttpRequest, org.apache.http.HttpClientConnection, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException, java.io.IOException;
+  public void postProcess(org.apache.http.HttpResponse, org.apache.http.protocol.HttpProcessor, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException, java.io.IOException;
+}

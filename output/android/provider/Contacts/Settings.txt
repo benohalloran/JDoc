@@ -1,0 +1,11 @@
+Compiled from "Contacts.java"
+public final class android.provider.Contacts$Settings implements android.provider.BaseColumns,android.provider.Contacts$SettingsColumns {
+  public static final java.lang.String CONTENT_DIRECTORY;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final java.lang.String SYNC_EVERYTHING;
+  android.provider.Contacts$Settings();
+  public static java.lang.String getSetting(android.content.ContentResolver, java.lang.String, java.lang.String);
+  public static void setSetting(android.content.ContentResolver, java.lang.String, java.lang.String, java.lang.String);
+  static {};
+}

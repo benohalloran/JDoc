@@ -1,0 +1,10 @@
+Compiled from "MediaSyncEvent.java"
+public class android.media.MediaSyncEvent {
+  public static final int SYNC_EVENT_NONE;
+  public static final int SYNC_EVENT_PRESENTATION_COMPLETE;
+  android.media.MediaSyncEvent();
+  public static android.media.MediaSyncEvent createEvent(int) throws java.lang.IllegalArgumentException;
+  public android.media.MediaSyncEvent setAudioSessionId(int) throws java.lang.IllegalArgumentException;
+  public int getType();
+  public int getAudioSessionId();
+}

@@ -1,0 +1,27 @@
+Compiled from "ComponentName.java"
+public final class android.content.ComponentName implements android.os.Parcelable, java.lang.Cloneable, java.lang.Comparable<android.content.ComponentName> {
+  public static final android.os.Parcelable$Creator<android.content.ComponentName> CREATOR;
+  public android.content.ComponentName(java.lang.String, java.lang.String);
+  public android.content.ComponentName(android.content.Context, java.lang.String);
+  public android.content.ComponentName(android.content.Context, java.lang.Class<?>);
+  public android.content.ComponentName(android.os.Parcel);
+  public android.content.ComponentName clone();
+  public java.lang.String getPackageName();
+  public java.lang.String getClassName();
+  public java.lang.String getShortClassName();
+  public java.lang.String flattenToString();
+  public java.lang.String flattenToShortString();
+  public static android.content.ComponentName unflattenFromString(java.lang.String);
+  public java.lang.String toShortString();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public int compareTo(android.content.ComponentName);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public static void writeToParcel(android.content.ComponentName, android.os.Parcel);
+  public static android.content.ComponentName readFromParcel(android.os.Parcel);
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+  public int compareTo(java.lang.Object);
+  static {};
+}

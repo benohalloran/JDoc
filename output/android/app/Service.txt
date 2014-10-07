@@ -1,0 +1,29 @@
+Compiled from "Service.java"
+public abstract class android.app.Service extends android.content.ContextWrapper implements android.content.ComponentCallbacks2 {
+  public static final int START_CONTINUATION_MASK;
+  public static final int START_FLAG_REDELIVERY;
+  public static final int START_FLAG_RETRY;
+  public static final int START_NOT_STICKY;
+  public static final int START_REDELIVER_INTENT;
+  public static final int START_STICKY;
+  public static final int START_STICKY_COMPATIBILITY;
+  public android.app.Service();
+  public final android.app.Application getApplication();
+  public void onCreate();
+  public void onStart(android.content.Intent, int);
+  public int onStartCommand(android.content.Intent, int, int);
+  public void onDestroy();
+  public void onConfigurationChanged(android.content.res.Configuration);
+  public void onLowMemory();
+  public void onTrimMemory(int);
+  public abstract android.os.IBinder onBind(android.content.Intent);
+  public boolean onUnbind(android.content.Intent);
+  public void onRebind(android.content.Intent);
+  public void onTaskRemoved(android.content.Intent);
+  public final void stopSelf();
+  public final void stopSelf(int);
+  public final boolean stopSelfResult(int);
+  public final void startForeground(int, android.app.Notification);
+  public final void stopForeground(boolean);
+  protected void dump(java.io.FileDescriptor, java.io.PrintWriter, java.lang.String[]);
+}

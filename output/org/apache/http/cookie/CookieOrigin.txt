@@ -1,0 +1,9 @@
+Compiled from "CookieOrigin.java"
+public final class org.apache.http.cookie.CookieOrigin {
+  public org.apache.http.cookie.CookieOrigin(java.lang.String, int, java.lang.String, boolean);
+  public java.lang.String getHost();
+  public java.lang.String getPath();
+  public int getPort();
+  public boolean isSecure();
+  public java.lang.String toString();
+}

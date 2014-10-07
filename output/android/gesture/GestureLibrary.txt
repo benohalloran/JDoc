@@ -1,0 +1,18 @@
+Compiled from "GestureLibrary.java"
+public abstract class android.gesture.GestureLibrary {
+  protected final android.gesture.GestureStore mStore;
+  protected android.gesture.GestureLibrary();
+  public abstract boolean save();
+  public abstract boolean load();
+  public boolean isReadOnly();
+  public void setOrientationStyle(int);
+  public int getOrientationStyle();
+  public void setSequenceType(int);
+  public int getSequenceType();
+  public java.util.Set<java.lang.String> getGestureEntries();
+  public java.util.ArrayList<android.gesture.Prediction> recognize(android.gesture.Gesture);
+  public void addGesture(java.lang.String, android.gesture.Gesture);
+  public void removeGesture(java.lang.String, android.gesture.Gesture);
+  public void removeEntry(java.lang.String);
+  public java.util.ArrayList<android.gesture.Gesture> getGestures(java.lang.String);
+}

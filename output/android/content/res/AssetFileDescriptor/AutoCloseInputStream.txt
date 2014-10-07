@@ -1,0 +1,12 @@
+Compiled from "AssetFileDescriptor.java"
+public class android.content.res.AssetFileDescriptor$AutoCloseInputStream extends android.os.ParcelFileDescriptor$AutoCloseInputStream {
+  public android.content.res.AssetFileDescriptor$AutoCloseInputStream(android.content.res.AssetFileDescriptor) throws java.io.IOException;
+  public int available() throws java.io.IOException;
+  public int read() throws java.io.IOException;
+  public int read(byte[], int, int) throws java.io.IOException;
+  public int read(byte[]) throws java.io.IOException;
+  public long skip(long) throws java.io.IOException;
+  public void mark(int);
+  public boolean markSupported();
+  public synchronized void reset() throws java.io.IOException;
+}

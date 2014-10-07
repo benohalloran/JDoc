@@ -1,0 +1,27 @@
+Compiled from "BreakIterator.java"
+public abstract class java.text.BreakIterator implements java.lang.Cloneable {
+  public static final int DONE;
+  protected java.text.BreakIterator();
+  public static java.util.Locale[] getAvailableLocales();
+  public static java.text.BreakIterator getCharacterInstance();
+  public static java.text.BreakIterator getCharacterInstance(java.util.Locale);
+  public static java.text.BreakIterator getLineInstance();
+  public static java.text.BreakIterator getLineInstance(java.util.Locale);
+  public static java.text.BreakIterator getSentenceInstance();
+  public static java.text.BreakIterator getSentenceInstance(java.util.Locale);
+  public static java.text.BreakIterator getWordInstance();
+  public static java.text.BreakIterator getWordInstance(java.util.Locale);
+  public boolean isBoundary(int);
+  public int preceding(int);
+  public void setText(java.lang.String);
+  public abstract int current();
+  public abstract int first();
+  public abstract int following(int);
+  public abstract java.text.CharacterIterator getText();
+  public abstract int last();
+  public abstract int next();
+  public abstract int next(int);
+  public abstract int previous();
+  public abstract void setText(java.text.CharacterIterator);
+  public java.lang.Object clone();
+}

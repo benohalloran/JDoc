@@ -1,0 +1,11 @@
+Compiled from "WindowContentFrameStats.java"
+public final class android.view.WindowContentFrameStats extends android.view.FrameStats implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.WindowContentFrameStats> CREATOR;
+  android.view.WindowContentFrameStats();
+  public long getFramePostedTimeNano(int);
+  public long getFrameReadyTimeNano(int);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String toString();
+  static {};
+}

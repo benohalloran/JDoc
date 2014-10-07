@@ -1,0 +1,15 @@
+Compiled from "AppWidgetHost.java"
+public class android.appwidget.AppWidgetHost {
+  public android.appwidget.AppWidgetHost(android.content.Context, int);
+  public void startListening();
+  public void stopListening();
+  public int allocateAppWidgetId();
+  public void deleteAppWidgetId(int);
+  public void deleteHost();
+  public static void deleteAllHosts();
+  public final android.appwidget.AppWidgetHostView createView(android.content.Context, int, android.appwidget.AppWidgetProviderInfo);
+  protected android.appwidget.AppWidgetHostView onCreateView(android.content.Context, int, android.appwidget.AppWidgetProviderInfo);
+  protected void onProviderChanged(int, android.appwidget.AppWidgetProviderInfo);
+  protected void onProvidersChanged();
+  protected void clearViews();
+}

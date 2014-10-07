@@ -1,0 +1,22 @@
+Compiled from "RippleDrawable.java"
+public class android.graphics.drawable.RippleDrawable extends android.graphics.drawable.LayerDrawable {
+  public android.graphics.drawable.RippleDrawable(android.graphics.drawable.Drawable, android.graphics.drawable.Drawable);
+  public void setAlpha(int);
+  public void setColorFilter(android.graphics.ColorFilter);
+  public int getOpacity();
+  protected boolean onStateChange(int[]);
+  protected void onBoundsChange(android.graphics.Rect);
+  public boolean setVisible(boolean, boolean);
+  public boolean isStateful();
+  public void setColor(android.content.res.ColorStateList);
+  public void inflate(android.content.res.Resources, org.xmlpull.v1.XmlPullParser, android.util.AttributeSet, android.content.res.Resources$Theme) throws org.xmlpull.v1.XmlPullParserException, java.io.IOException;
+  public boolean setDrawableByLayerId(int, android.graphics.drawable.Drawable);
+  public void setPaddingMode(int);
+  public void applyTheme(android.content.res.Resources$Theme);
+  public boolean canApplyTheme();
+  public void setHotspot(float, float);
+  public void setHotspotBounds(int, int, int, int);
+  public void draw(android.graphics.Canvas);
+  public android.graphics.Rect getDirtyBounds();
+  public android.graphics.drawable.Drawable$ConstantState getConstantState();
+}

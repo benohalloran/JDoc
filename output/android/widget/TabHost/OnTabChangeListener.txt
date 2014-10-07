@@ -1,0 +1,4 @@
+Compiled from "TabHost.java"
+public interface android.widget.TabHost$OnTabChangeListener {
+  public abstract void onTabChanged(java.lang.String);
+}

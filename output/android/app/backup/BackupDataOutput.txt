@@ -1,0 +1,6 @@
+Compiled from "BackupDataOutput.java"
+public class android.app.backup.BackupDataOutput {
+  android.app.backup.BackupDataOutput();
+  public int writeEntityHeader(java.lang.String, int) throws java.io.IOException;
+  public int writeEntityData(byte[], int) throws java.io.IOException;
+}

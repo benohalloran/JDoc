@@ -1,0 +1,30 @@
+Compiled from "ShortBuffer.java"
+public abstract class java.nio.ShortBuffer extends java.nio.Buffer implements java.lang.Comparable<java.nio.ShortBuffer> {
+  java.nio.ShortBuffer();
+  public static java.nio.ShortBuffer allocate(int);
+  public static java.nio.ShortBuffer wrap(short[]);
+  public static java.nio.ShortBuffer wrap(short[], int, int);
+  public final short[] array();
+  public final int arrayOffset();
+  public abstract java.nio.ShortBuffer asReadOnlyBuffer();
+  public abstract java.nio.ShortBuffer compact();
+  public int compareTo(java.nio.ShortBuffer);
+  public abstract java.nio.ShortBuffer duplicate();
+  public boolean equals(java.lang.Object);
+  public abstract short get();
+  public java.nio.ShortBuffer get(short[]);
+  public java.nio.ShortBuffer get(short[], int, int);
+  public abstract short get(int);
+  public final boolean hasArray();
+  public int hashCode();
+  public abstract boolean isDirect();
+  public abstract java.nio.ByteOrder order();
+  public abstract java.nio.ShortBuffer put(short);
+  public final java.nio.ShortBuffer put(short[]);
+  public java.nio.ShortBuffer put(short[], int, int);
+  public java.nio.ShortBuffer put(java.nio.ShortBuffer);
+  public abstract java.nio.ShortBuffer put(int, short);
+  public abstract java.nio.ShortBuffer slice();
+  public java.lang.Object array();
+  public int compareTo(java.lang.Object);
+}

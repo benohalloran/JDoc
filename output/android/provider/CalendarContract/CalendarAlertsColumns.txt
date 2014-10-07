@@ -1,0 +1,16 @@
+Compiled from "CalendarContract.java"
+public interface android.provider.CalendarContract$CalendarAlertsColumns {
+  public static final java.lang.String ALARM_TIME;
+  public static final java.lang.String BEGIN;
+  public static final java.lang.String CREATION_TIME;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final java.lang.String END;
+  public static final java.lang.String EVENT_ID;
+  public static final java.lang.String MINUTES;
+  public static final java.lang.String NOTIFY_TIME;
+  public static final java.lang.String RECEIVED_TIME;
+  public static final java.lang.String STATE;
+  public static final int STATE_DISMISSED;
+  public static final int STATE_FIRED;
+  public static final int STATE_SCHEDULED;
+}

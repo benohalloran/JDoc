@@ -1,0 +1,41 @@
+Compiled from "MifareClassic.java"
+public final class android.nfc.tech.MifareClassic extends android.nfc.tech.BasicTagTechnology {
+  public static final int BLOCK_SIZE;
+  public static final byte[] KEY_DEFAULT;
+  public static final byte[] KEY_MIFARE_APPLICATION_DIRECTORY;
+  public static final byte[] KEY_NFC_FORUM;
+  public static final int SIZE_1K;
+  public static final int SIZE_2K;
+  public static final int SIZE_4K;
+  public static final int SIZE_MINI;
+  public static final int TYPE_CLASSIC;
+  public static final int TYPE_PLUS;
+  public static final int TYPE_PRO;
+  public static final int TYPE_UNKNOWN;
+  android.nfc.tech.MifareClassic();
+  public static android.nfc.tech.MifareClassic get(android.nfc.Tag);
+  public int getType();
+  public int getSize();
+  public int getSectorCount();
+  public int getBlockCount();
+  public int getBlockCountInSector(int);
+  public int blockToSector(int);
+  public int sectorToBlock(int);
+  public boolean authenticateSectorWithKeyA(int, byte[]) throws java.io.IOException;
+  public boolean authenticateSectorWithKeyB(int, byte[]) throws java.io.IOException;
+  public byte[] readBlock(int) throws java.io.IOException;
+  public void writeBlock(int, byte[]) throws java.io.IOException;
+  public void increment(int, int) throws java.io.IOException;
+  public void decrement(int, int) throws java.io.IOException;
+  public void transfer(int) throws java.io.IOException;
+  public void restore(int) throws java.io.IOException;
+  public byte[] transceive(byte[]) throws java.io.IOException;
+  public int getMaxTransceiveLength();
+  public void setTimeout(int);
+  public int getTimeout();
+  public void close() throws java.io.IOException;
+  public void connect() throws java.io.IOException;
+  public boolean isConnected();
+  public android.nfc.Tag getTag();
+  static {};
+}

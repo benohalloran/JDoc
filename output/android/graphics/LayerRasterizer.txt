@@ -1,0 +1,6 @@
+Compiled from "LayerRasterizer.java"
+public class android.graphics.LayerRasterizer extends android.graphics.Rasterizer {
+  public android.graphics.LayerRasterizer();
+  public void addLayer(android.graphics.Paint, float, float);
+  public void addLayer(android.graphics.Paint);
+}

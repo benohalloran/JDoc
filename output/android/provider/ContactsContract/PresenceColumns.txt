@@ -1,0 +1,8 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$PresenceColumns {
+  public static final java.lang.String CUSTOM_PROTOCOL;
+  public static final java.lang.String DATA_ID;
+  public static final java.lang.String IM_ACCOUNT;
+  public static final java.lang.String IM_HANDLE;
+  public static final java.lang.String PROTOCOL;
+}

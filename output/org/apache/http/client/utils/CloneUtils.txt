@@ -1,0 +1,5 @@
+Compiled from "CloneUtils.java"
+public class org.apache.http.client.utils.CloneUtils {
+  org.apache.http.client.utils.CloneUtils();
+  public static java.lang.Object clone(java.lang.Object) throws java.lang.CloneNotSupportedException;
+}

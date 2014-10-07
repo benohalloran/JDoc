@@ -1,0 +1,8 @@
+Compiled from "ListView.java"
+public class android.widget.ListView$FixedViewInfo {
+  public java.lang.Object data;
+  public boolean isSelectable;
+  public android.view.View view;
+  final android.widget.ListView this$0;
+  public android.widget.ListView$FixedViewInfo(android.widget.ListView);
+}

@@ -1,0 +1,5 @@
+Compiled from "CalendarContract.java"
+public interface android.provider.CalendarContract$CalendarCacheColumns {
+  public static final java.lang.String KEY;
+  public static final java.lang.String VALUE;
+}

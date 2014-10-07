@@ -1,0 +1,7 @@
+Compiled from "MockApplication.java"
+public class android.test.mock.MockApplication extends android.app.Application {
+  public android.test.mock.MockApplication();
+  public void onCreate();
+  public void onTerminate();
+  public void onConfigurationChanged(android.content.res.Configuration);
+}

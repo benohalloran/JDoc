@@ -1,0 +1,5 @@
+Compiled from "TriggerEventListener.java"
+public abstract class android.hardware.TriggerEventListener {
+  public android.hardware.TriggerEventListener();
+  public abstract void onTrigger(android.hardware.TriggerEvent);
+}

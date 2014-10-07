@@ -1,0 +1,10 @@
+Compiled from "ResultReceiver.java"
+public class android.os.ResultReceiver implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.os.ResultReceiver> CREATOR;
+  public android.os.ResultReceiver(android.os.Handler);
+  public void send(int, android.os.Bundle);
+  protected void onReceiveResult(int, android.os.Bundle);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

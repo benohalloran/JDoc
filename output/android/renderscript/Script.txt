@@ -1,0 +1,26 @@
+Compiled from "Script.java"
+public class android.renderscript.Script extends android.renderscript.BaseObj {
+  android.renderscript.Script();
+  protected android.renderscript.Script$KernelID createKernelID(int, int, android.renderscript.Element, android.renderscript.Element);
+  protected android.renderscript.Script$FieldID createFieldID(int, android.renderscript.Element);
+  protected void invoke(int);
+  protected void invoke(int, android.renderscript.FieldPacker);
+  protected void forEach(int, android.renderscript.Allocation, android.renderscript.Allocation, android.renderscript.FieldPacker);
+  protected void forEach(int, android.renderscript.Allocation, android.renderscript.Allocation, android.renderscript.FieldPacker, android.renderscript.Script$LaunchOptions);
+  public void bindAllocation(android.renderscript.Allocation, int);
+  public void setVar(int, float);
+  public float getVarF(int);
+  public void setVar(int, double);
+  public double getVarD(int);
+  public void setVar(int, int);
+  public int getVarI(int);
+  public void setVar(int, long);
+  public long getVarJ(int);
+  public void setVar(int, boolean);
+  public boolean getVarB(int);
+  public void setVar(int, android.renderscript.BaseObj);
+  public void setVar(int, android.renderscript.FieldPacker);
+  public void setVar(int, android.renderscript.FieldPacker, android.renderscript.Element, int[]);
+  public void getVarV(int, android.renderscript.FieldPacker);
+  public void setTimeZone(java.lang.String);
+}

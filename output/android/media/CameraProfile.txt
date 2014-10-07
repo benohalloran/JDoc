@@ -1,0 +1,9 @@
+Compiled from "CameraProfile.java"
+public class android.media.CameraProfile {
+  public static final int QUALITY_HIGH;
+  public static final int QUALITY_LOW;
+  public static final int QUALITY_MEDIUM;
+  public android.media.CameraProfile();
+  public static int getJpegEncodingQualityParameter(int);
+  public static int getJpegEncodingQualityParameter(int, int);
+}

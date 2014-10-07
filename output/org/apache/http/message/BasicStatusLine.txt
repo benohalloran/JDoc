@@ -1,0 +1,9 @@
+Compiled from "BasicStatusLine.java"
+public class org.apache.http.message.BasicStatusLine implements org.apache.http.StatusLine,java.lang.Cloneable {
+  public org.apache.http.message.BasicStatusLine(org.apache.http.ProtocolVersion, int, java.lang.String);
+  public int getStatusCode();
+  public org.apache.http.ProtocolVersion getProtocolVersion();
+  public java.lang.String getReasonPhrase();
+  public java.lang.String toString();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

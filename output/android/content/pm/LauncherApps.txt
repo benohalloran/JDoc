@@ -1,0 +1,11 @@
+Compiled from "LauncherApps.java"
+public class android.content.pm.LauncherApps {
+  android.content.pm.LauncherApps();
+  public java.util.List<android.content.pm.LauncherActivityInfo> getActivityList(java.lang.String, android.os.UserHandle);
+  public android.content.pm.LauncherActivityInfo resolveActivity(android.content.Intent, android.os.UserHandle);
+  public void startActivityForProfile(android.content.ComponentName, android.os.UserHandle, android.graphics.Rect, android.os.Bundle);
+  public boolean isPackageEnabledForProfile(java.lang.String, android.os.UserHandle);
+  public boolean isActivityEnabledForProfile(android.content.ComponentName, android.os.UserHandle);
+  public void addOnAppsChangedListener(android.content.pm.LauncherApps$OnAppsChangedListener);
+  public void removeOnAppsChangedListener(android.content.pm.LauncherApps$OnAppsChangedListener);
+}

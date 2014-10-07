@@ -1,0 +1,5 @@
+Compiled from "SlidingDrawer.java"
+public interface android.widget.SlidingDrawer$OnDrawerScrollListener {
+  public abstract void onScrollStarted();
+  public abstract void onScrollEnded();
+}

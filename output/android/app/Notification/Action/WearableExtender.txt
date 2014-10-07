@@ -1,0 +1,10 @@
+Compiled from "Notification.java"
+public final class android.app.Notification$Action$WearableExtender implements android.app.Notification$Action$Extender {
+  public android.app.Notification$Action$WearableExtender();
+  public android.app.Notification$Action$WearableExtender(android.app.Notification$Action);
+  public android.app.Notification$Action$Builder extend(android.app.Notification$Action$Builder);
+  public android.app.Notification$Action$WearableExtender clone();
+  public android.app.Notification$Action$WearableExtender setAvailableOffline(boolean);
+  public boolean isAvailableOffline();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

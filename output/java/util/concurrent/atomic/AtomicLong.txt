@@ -1,0 +1,22 @@
+Compiled from "AtomicLong.java"
+public class java.util.concurrent.atomic.AtomicLong extends java.lang.Number implements java.io.Serializable {
+  public java.util.concurrent.atomic.AtomicLong(long);
+  public java.util.concurrent.atomic.AtomicLong();
+  public final long get();
+  public final void set(long);
+  public final void lazySet(long);
+  public final long getAndSet(long);
+  public final boolean compareAndSet(long, long);
+  public final boolean weakCompareAndSet(long, long);
+  public final long getAndIncrement();
+  public final long getAndDecrement();
+  public final long getAndAdd(long);
+  public final long incrementAndGet();
+  public final long decrementAndGet();
+  public final long addAndGet(long);
+  public java.lang.String toString();
+  public int intValue();
+  public long longValue();
+  public float floatValue();
+  public double doubleValue();
+}

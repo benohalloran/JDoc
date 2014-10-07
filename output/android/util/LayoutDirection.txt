@@ -1,0 +1,8 @@
+Compiled from "LayoutDirection.java"
+public final class android.util.LayoutDirection {
+  public static final int INHERIT;
+  public static final int LOCALE;
+  public static final int LTR;
+  public static final int RTL;
+  android.util.LayoutDirection();
+}

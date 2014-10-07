@@ -1,0 +1,16 @@
+Compiled from "CellIdentityGsm.java"
+public final class android.telephony.CellIdentityGsm implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.telephony.CellIdentityGsm> CREATOR;
+  android.telephony.CellIdentityGsm();
+  public int getMcc();
+  public int getMnc();
+  public int getLac();
+  public int getCid();
+  public int getPsc();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

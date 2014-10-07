@@ -1,0 +1,16 @@
+Compiled from "FeatureInfo.java"
+public class android.content.pm.FeatureInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.pm.FeatureInfo> CREATOR;
+  public static final int FLAG_REQUIRED;
+  public static final int GL_ES_VERSION_UNDEFINED;
+  public int flags;
+  public java.lang.String name;
+  public int reqGlEsVersion;
+  public android.content.pm.FeatureInfo();
+  public android.content.pm.FeatureInfo(android.content.pm.FeatureInfo);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String getGlEsVersion();
+  static {};
+}

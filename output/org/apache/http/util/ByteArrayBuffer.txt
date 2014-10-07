@@ -1,0 +1,17 @@
+Compiled from "ByteArrayBuffer.java"
+public final class org.apache.http.util.ByteArrayBuffer {
+  public org.apache.http.util.ByteArrayBuffer(int);
+  public void append(byte[], int, int);
+  public void append(int);
+  public void append(char[], int, int);
+  public void append(org.apache.http.util.CharArrayBuffer, int, int);
+  public void clear();
+  public byte[] toByteArray();
+  public int byteAt(int);
+  public int capacity();
+  public int length();
+  public byte[] buffer();
+  public void setLength(int);
+  public boolean isEmpty();
+  public boolean isFull();
+}

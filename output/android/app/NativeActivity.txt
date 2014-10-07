@@ -1,0 +1,23 @@
+Compiled from "NativeActivity.java"
+public class android.app.NativeActivity extends android.app.Activity implements android.view.SurfaceHolder$Callback2,android.view.InputQueue$Callback,android.view.ViewTreeObserver$OnGlobalLayoutListener {
+  public static final java.lang.String META_DATA_FUNC_NAME;
+  public static final java.lang.String META_DATA_LIB_NAME;
+  public android.app.NativeActivity();
+  protected void onCreate(android.os.Bundle);
+  protected void onDestroy();
+  protected void onPause();
+  protected void onResume();
+  protected void onSaveInstanceState(android.os.Bundle);
+  protected void onStart();
+  protected void onStop();
+  public void onConfigurationChanged(android.content.res.Configuration);
+  public void onLowMemory();
+  public void onWindowFocusChanged(boolean);
+  public void surfaceCreated(android.view.SurfaceHolder);
+  public void surfaceChanged(android.view.SurfaceHolder, int, int, int);
+  public void surfaceRedrawNeeded(android.view.SurfaceHolder);
+  public void surfaceDestroyed(android.view.SurfaceHolder);
+  public void onInputQueueCreated(android.view.InputQueue);
+  public void onInputQueueDestroyed(android.view.InputQueue);
+  public void onGlobalLayout();
+}

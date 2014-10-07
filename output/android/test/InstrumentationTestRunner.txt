@@ -1,0 +1,21 @@
+Compiled from "InstrumentationTestRunner.java"
+public class android.test.InstrumentationTestRunner extends android.app.Instrumentation implements android.test.TestSuiteProvider {
+  public static final java.lang.String REPORT_KEY_NAME_CLASS;
+  public static final java.lang.String REPORT_KEY_NAME_TEST;
+  public static final java.lang.String REPORT_KEY_NUM_CURRENT;
+  public static final java.lang.String REPORT_KEY_NUM_TOTAL;
+  public static final java.lang.String REPORT_KEY_STACK;
+  public static final java.lang.String REPORT_VALUE_ID;
+  public static final int REPORT_VALUE_RESULT_ERROR;
+  public static final int REPORT_VALUE_RESULT_FAILURE;
+  public static final int REPORT_VALUE_RESULT_OK;
+  public static final int REPORT_VALUE_RESULT_START;
+  public android.test.InstrumentationTestRunner();
+  public void onCreate(android.os.Bundle);
+  public android.os.Bundle getArguments();
+  protected android.test.AndroidTestRunner getAndroidTestRunner();
+  public void onStart();
+  public junit.framework.TestSuite getTestSuite();
+  public junit.framework.TestSuite getAllTests();
+  public java.lang.ClassLoader getLoader();
+}

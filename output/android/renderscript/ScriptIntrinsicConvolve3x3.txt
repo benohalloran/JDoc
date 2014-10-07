@@ -1,0 +1,11 @@
+Compiled from "ScriptIntrinsicConvolve3x3.java"
+public final class android.renderscript.ScriptIntrinsicConvolve3x3 extends android.renderscript.ScriptIntrinsic {
+  android.renderscript.ScriptIntrinsicConvolve3x3();
+  public static android.renderscript.ScriptIntrinsicConvolve3x3 create(android.renderscript.RenderScript, android.renderscript.Element);
+  public void setInput(android.renderscript.Allocation);
+  public void setCoefficients(float[]);
+  public void forEach(android.renderscript.Allocation);
+  public void forEach(android.renderscript.Allocation, android.renderscript.Script$LaunchOptions);
+  public android.renderscript.Script$KernelID getKernelID();
+  public android.renderscript.Script$FieldID getFieldID_Input();
+}

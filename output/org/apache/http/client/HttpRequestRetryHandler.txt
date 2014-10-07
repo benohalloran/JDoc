@@ -1,0 +1,4 @@
+Compiled from "HttpRequestRetryHandler.java"
+public interface org.apache.http.client.HttpRequestRetryHandler {
+  public abstract boolean retryRequest(java.io.IOException, int, org.apache.http.protocol.HttpContext);
+}

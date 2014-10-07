@@ -1,0 +1,32 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$Intents$Insert {
+  public static final java.lang.String ACTION;
+  public static final java.lang.String COMPANY;
+  public static final java.lang.String DATA;
+  public static final java.lang.String EMAIL;
+  public static final java.lang.String EMAIL_ISPRIMARY;
+  public static final java.lang.String EMAIL_TYPE;
+  public static final java.lang.String FULL_MODE;
+  public static final java.lang.String IM_HANDLE;
+  public static final java.lang.String IM_ISPRIMARY;
+  public static final java.lang.String IM_PROTOCOL;
+  public static final java.lang.String JOB_TITLE;
+  public static final java.lang.String NAME;
+  public static final java.lang.String NOTES;
+  public static final java.lang.String PHONE;
+  public static final java.lang.String PHONETIC_NAME;
+  public static final java.lang.String PHONE_ISPRIMARY;
+  public static final java.lang.String PHONE_TYPE;
+  public static final java.lang.String POSTAL;
+  public static final java.lang.String POSTAL_ISPRIMARY;
+  public static final java.lang.String POSTAL_TYPE;
+  public static final java.lang.String SECONDARY_EMAIL;
+  public static final java.lang.String SECONDARY_EMAIL_TYPE;
+  public static final java.lang.String SECONDARY_PHONE;
+  public static final java.lang.String SECONDARY_PHONE_TYPE;
+  public static final java.lang.String TERTIARY_EMAIL;
+  public static final java.lang.String TERTIARY_EMAIL_TYPE;
+  public static final java.lang.String TERTIARY_PHONE;
+  public static final java.lang.String TERTIARY_PHONE_TYPE;
+  public android.provider.ContactsContract$Intents$Insert();
+}

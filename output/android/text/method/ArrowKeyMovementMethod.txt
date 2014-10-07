@@ -1,0 +1,22 @@
+Compiled from "ArrowKeyMovementMethod.java"
+public class android.text.method.ArrowKeyMovementMethod extends android.text.method.BaseMovementMethod implements android.text.method.MovementMethod {
+  public android.text.method.ArrowKeyMovementMethod();
+  protected boolean handleMovementKey(android.widget.TextView, android.text.Spannable, int, int, android.view.KeyEvent);
+  protected boolean left(android.widget.TextView, android.text.Spannable);
+  protected boolean right(android.widget.TextView, android.text.Spannable);
+  protected boolean up(android.widget.TextView, android.text.Spannable);
+  protected boolean down(android.widget.TextView, android.text.Spannable);
+  protected boolean pageUp(android.widget.TextView, android.text.Spannable);
+  protected boolean pageDown(android.widget.TextView, android.text.Spannable);
+  protected boolean top(android.widget.TextView, android.text.Spannable);
+  protected boolean bottom(android.widget.TextView, android.text.Spannable);
+  protected boolean lineStart(android.widget.TextView, android.text.Spannable);
+  protected boolean lineEnd(android.widget.TextView, android.text.Spannable);
+  protected boolean home(android.widget.TextView, android.text.Spannable);
+  protected boolean end(android.widget.TextView, android.text.Spannable);
+  public boolean onTouchEvent(android.widget.TextView, android.text.Spannable, android.view.MotionEvent);
+  public boolean canSelectArbitrarily();
+  public void initialize(android.widget.TextView, android.text.Spannable);
+  public void onTakeFocus(android.widget.TextView, android.text.Spannable, int);
+  public static android.text.method.MovementMethod getInstance();
+}

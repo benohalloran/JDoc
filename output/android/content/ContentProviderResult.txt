@@ -1,0 +1,13 @@
+Compiled from "ContentProviderResult.java"
+public class android.content.ContentProviderResult implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.ContentProviderResult> CREATOR;
+  public final java.lang.Integer count;
+  public final android.net.Uri uri;
+  public android.content.ContentProviderResult(android.net.Uri);
+  public android.content.ContentProviderResult(int);
+  public android.content.ContentProviderResult(android.os.Parcel);
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  public java.lang.String toString();
+  static {};
+}

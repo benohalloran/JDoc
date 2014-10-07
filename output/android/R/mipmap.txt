@@ -1,0 +1,5 @@
+Compiled from "R.java"
+public final class android.R$mipmap {
+  public static final int sym_def_app_icon;
+  public android.R$mipmap();
+}

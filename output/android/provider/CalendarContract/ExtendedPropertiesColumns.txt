@@ -1,0 +1,6 @@
+Compiled from "CalendarContract.java"
+public interface android.provider.CalendarContract$ExtendedPropertiesColumns {
+  public static final java.lang.String EVENT_ID;
+  public static final java.lang.String NAME;
+  public static final java.lang.String VALUE;
+}

@@ -1,0 +1,44 @@
+Compiled from "AccessibilityServiceInfo.java"
+public class android.accessibilityservice.AccessibilityServiceInfo implements android.os.Parcelable {
+  public static final int CAPABILITY_CAN_REQUEST_ENHANCED_WEB_ACCESSIBILITY;
+  public static final int CAPABILITY_CAN_REQUEST_FILTER_KEY_EVENTS;
+  public static final int CAPABILITY_CAN_REQUEST_TOUCH_EXPLORATION;
+  public static final int CAPABILITY_CAN_RETRIEVE_WINDOW_CONTENT;
+  public static final android.os.Parcelable$Creator<android.accessibilityservice.AccessibilityServiceInfo> CREATOR;
+  public static final int DEFAULT;
+  public static final int FEEDBACK_ALL_MASK;
+  public static final int FEEDBACK_AUDIBLE;
+  public static final int FEEDBACK_BRAILLE;
+  public static final int FEEDBACK_GENERIC;
+  public static final int FEEDBACK_HAPTIC;
+  public static final int FEEDBACK_SPOKEN;
+  public static final int FEEDBACK_VISUAL;
+  public static final int FLAG_INCLUDE_NOT_IMPORTANT_VIEWS;
+  public static final int FLAG_REPORT_VIEW_IDS;
+  public static final int FLAG_REQUEST_ENHANCED_WEB_ACCESSIBILITY;
+  public static final int FLAG_REQUEST_FILTER_KEY_EVENTS;
+  public static final int FLAG_REQUEST_TOUCH_EXPLORATION_MODE;
+  public static final int FLAG_RETRIEVE_INTERACTIVE_WINDOWS;
+  public int eventTypes;
+  public int feedbackType;
+  public int flags;
+  public long notificationTimeout;
+  public java.lang.String[] packageNames;
+  public android.accessibilityservice.AccessibilityServiceInfo();
+  public java.lang.String getId();
+  public android.content.pm.ResolveInfo getResolveInfo();
+  public java.lang.String getSettingsActivityName();
+  public boolean getCanRetrieveWindowContent();
+  public int getCapabilities();
+  public java.lang.String getDescription();
+  public java.lang.String loadDescription(android.content.pm.PackageManager);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public static java.lang.String feedbackTypeToString(int);
+  public static java.lang.String flagToString(int);
+  public static java.lang.String capabilityToString(int);
+  static {};
+}

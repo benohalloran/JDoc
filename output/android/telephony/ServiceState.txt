@@ -1,0 +1,30 @@
+Compiled from "ServiceState.java"
+public class android.telephony.ServiceState implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.telephony.ServiceState> CREATOR;
+  public static final int STATE_EMERGENCY_ONLY;
+  public static final int STATE_IN_SERVICE;
+  public static final int STATE_OUT_OF_SERVICE;
+  public static final int STATE_POWER_OFF;
+  public android.telephony.ServiceState();
+  public android.telephony.ServiceState(android.telephony.ServiceState);
+  public android.telephony.ServiceState(android.os.Parcel);
+  protected void copyFrom(android.telephony.ServiceState);
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  public int getState();
+  public boolean getRoaming();
+  public java.lang.String getOperatorAlphaLong();
+  public java.lang.String getOperatorAlphaShort();
+  public java.lang.String getOperatorNumeric();
+  public boolean getIsManualSelection();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public void setStateOutOfService();
+  public void setStateOff();
+  public void setState(int);
+  public void setRoaming(boolean);
+  public void setOperatorName(java.lang.String, java.lang.String, java.lang.String);
+  public void setIsManualSelection(boolean);
+  static {};
+}

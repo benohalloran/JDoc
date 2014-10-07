@@ -1,0 +1,10 @@
+Compiled from "TransitionDrawable.java"
+public class android.graphics.drawable.TransitionDrawable extends android.graphics.drawable.LayerDrawable implements android.graphics.drawable.Drawable$Callback {
+  public android.graphics.drawable.TransitionDrawable(android.graphics.drawable.Drawable[]);
+  public void startTransition(int);
+  public void resetTransition();
+  public void reverseTransition(int);
+  public void draw(android.graphics.Canvas);
+  public void setCrossFadeEnabled(boolean);
+  public boolean isCrossFadeEnabled();
+}

@@ -1,0 +1,6 @@
+Compiled from "LayoutAnimationController.java"
+public class android.view.animation.LayoutAnimationController$AnimationParameters {
+  public int count;
+  public int index;
+  public android.view.animation.LayoutAnimationController$AnimationParameters();
+}

@@ -1,0 +1,4 @@
+Compiled from "FragmentBreadCrumbs.java"
+public interface android.app.FragmentBreadCrumbs$OnBreadCrumbClickListener {
+  public abstract boolean onBreadCrumbClick(android.app.FragmentManager$BackStackEntry, int);
+}

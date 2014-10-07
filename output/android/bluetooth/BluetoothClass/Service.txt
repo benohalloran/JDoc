@@ -1,0 +1,13 @@
+Compiled from "BluetoothClass.java"
+public final class android.bluetooth.BluetoothClass$Service {
+  public static final int AUDIO;
+  public static final int CAPTURE;
+  public static final int INFORMATION;
+  public static final int LIMITED_DISCOVERABILITY;
+  public static final int NETWORKING;
+  public static final int OBJECT_TRANSFER;
+  public static final int POSITIONING;
+  public static final int RENDER;
+  public static final int TELEPHONY;
+  public android.bluetooth.BluetoothClass$Service();
+}

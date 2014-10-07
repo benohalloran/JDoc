@@ -1,0 +1,13 @@
+Compiled from "AbstractSessionOutputBuffer.java"
+public abstract class org.apache.http.impl.io.AbstractSessionOutputBuffer implements org.apache.http.io.SessionOutputBuffer {
+  public org.apache.http.impl.io.AbstractSessionOutputBuffer();
+  protected void init(java.io.OutputStream, int, org.apache.http.params.HttpParams);
+  protected void flushBuffer() throws java.io.IOException;
+  public void flush() throws java.io.IOException;
+  public void write(byte[], int, int) throws java.io.IOException;
+  public void write(byte[]) throws java.io.IOException;
+  public void write(int) throws java.io.IOException;
+  public void writeLine(java.lang.String) throws java.io.IOException;
+  public void writeLine(org.apache.http.util.CharArrayBuffer) throws java.io.IOException;
+  public org.apache.http.io.HttpTransportMetrics getMetrics();
+}

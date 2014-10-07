@@ -1,0 +1,14 @@
+Compiled from "ObjectStreamClass.java"
+public class java.io.ObjectStreamClass implements java.io.Serializable {
+  public static final java.io.ObjectStreamField[] NO_FIELDS;
+  java.io.ObjectStreamClass();
+  public java.lang.Class<?> forClass();
+  public java.io.ObjectStreamField getField(java.lang.String);
+  public java.io.ObjectStreamField[] getFields();
+  public java.lang.String getName();
+  public long getSerialVersionUID();
+  public static java.io.ObjectStreamClass lookup(java.lang.Class<?>);
+  public static java.io.ObjectStreamClass lookupAny(java.lang.Class<?>);
+  public java.lang.String toString();
+  static {};
+}

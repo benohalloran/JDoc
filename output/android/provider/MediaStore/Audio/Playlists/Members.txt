@@ -1,0 +1,12 @@
+Compiled from "MediaStore.java"
+public final class android.provider.MediaStore$Audio$Playlists$Members implements android.provider.MediaStore$Audio$AudioColumns {
+  public static final java.lang.String AUDIO_ID;
+  public static final java.lang.String CONTENT_DIRECTORY;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final java.lang.String PLAYLIST_ID;
+  public static final java.lang.String PLAY_ORDER;
+  public static final java.lang.String _ID;
+  public android.provider.MediaStore$Audio$Playlists$Members();
+  public static final android.net.Uri getContentUri(java.lang.String, long);
+  public static final boolean moveItem(android.content.ContentResolver, long, int, int);
+}

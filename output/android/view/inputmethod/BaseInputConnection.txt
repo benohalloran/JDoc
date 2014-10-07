@@ -1,0 +1,30 @@
+Compiled from "BaseInputConnection.java"
+public class android.view.inputmethod.BaseInputConnection implements android.view.inputmethod.InputConnection {
+  public android.view.inputmethod.BaseInputConnection(android.view.View, boolean);
+  public static final void removeComposingSpans(android.text.Spannable);
+  public static void setComposingSpans(android.text.Spannable);
+  public static int getComposingSpanStart(android.text.Spannable);
+  public static int getComposingSpanEnd(android.text.Spannable);
+  public android.text.Editable getEditable();
+  public boolean beginBatchEdit();
+  public boolean endBatchEdit();
+  public boolean clearMetaKeyStates(int);
+  public boolean commitCompletion(android.view.inputmethod.CompletionInfo);
+  public boolean commitCorrection(android.view.inputmethod.CorrectionInfo);
+  public boolean commitText(java.lang.CharSequence, int);
+  public boolean deleteSurroundingText(int, int);
+  public boolean finishComposingText();
+  public int getCursorCapsMode(int);
+  public android.view.inputmethod.ExtractedText getExtractedText(android.view.inputmethod.ExtractedTextRequest, int);
+  public java.lang.CharSequence getTextBeforeCursor(int, int);
+  public java.lang.CharSequence getSelectedText(int);
+  public java.lang.CharSequence getTextAfterCursor(int, int);
+  public boolean performEditorAction(int);
+  public boolean performContextMenuAction(int);
+  public boolean performPrivateCommand(java.lang.String, android.os.Bundle);
+  public boolean setComposingText(java.lang.CharSequence, int);
+  public boolean setComposingRegion(int, int);
+  public boolean setSelection(int, int);
+  public boolean sendKeyEvent(android.view.KeyEvent);
+  public boolean reportFullscreenMode(boolean);
+}

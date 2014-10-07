@@ -1,0 +1,9 @@
+Compiled from "DrmStore.java"
+public interface android.drm.DrmStore$ConstraintsColumns {
+  public static final java.lang.String EXTENDED_METADATA;
+  public static final java.lang.String LICENSE_AVAILABLE_TIME;
+  public static final java.lang.String LICENSE_EXPIRY_TIME;
+  public static final java.lang.String LICENSE_START_TIME;
+  public static final java.lang.String MAX_REPEAT_COUNT;
+  public static final java.lang.String REMAINING_REPEAT_COUNT;
+}

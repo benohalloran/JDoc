@@ -1,0 +1,35 @@
+Compiled from "Manifest.java"
+public final class android.Manifest$permission_group {
+  public static final java.lang.String ACCESSIBILITY_FEATURES;
+  public static final java.lang.String ACCOUNTS;
+  public static final java.lang.String AFFECTS_BATTERY;
+  public static final java.lang.String APP_INFO;
+  public static final java.lang.String AUDIO_SETTINGS;
+  public static final java.lang.String BLUETOOTH_NETWORK;
+  public static final java.lang.String BOOKMARKS;
+  public static final java.lang.String CALENDAR;
+  public static final java.lang.String CAMERA;
+  public static final java.lang.String COST_MONEY;
+  public static final java.lang.String DEVELOPMENT_TOOLS;
+  public static final java.lang.String DEVICE_ALARMS;
+  public static final java.lang.String DISPLAY;
+  public static final java.lang.String HARDWARE_CONTROLS;
+  public static final java.lang.String LOCATION;
+  public static final java.lang.String MESSAGES;
+  public static final java.lang.String MICROPHONE;
+  public static final java.lang.String NETWORK;
+  public static final java.lang.String PERSONAL_INFO;
+  public static final java.lang.String PHONE_CALLS;
+  public static final java.lang.String SCREENLOCK;
+  public static final java.lang.String SOCIAL_INFO;
+  public static final java.lang.String STATUS_BAR;
+  public static final java.lang.String STORAGE;
+  public static final java.lang.String SYNC_SETTINGS;
+  public static final java.lang.String SYSTEM_CLOCK;
+  public static final java.lang.String SYSTEM_TOOLS;
+  public static final java.lang.String USER_DICTIONARY;
+  public static final java.lang.String VOICEMAIL;
+  public static final java.lang.String WALLPAPER;
+  public static final java.lang.String WRITE_USER_DICTIONARY;
+  public android.Manifest$permission_group();
+}

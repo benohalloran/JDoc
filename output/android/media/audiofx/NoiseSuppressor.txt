@@ -1,0 +1,6 @@
+Compiled from "NoiseSuppressor.java"
+public class android.media.audiofx.NoiseSuppressor extends android.media.audiofx.AudioEffect {
+  android.media.audiofx.NoiseSuppressor();
+  public static boolean isAvailable();
+  public static android.media.audiofx.NoiseSuppressor create(int);
+}

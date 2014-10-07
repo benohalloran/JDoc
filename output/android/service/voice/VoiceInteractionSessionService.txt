@@ -1,0 +1,7 @@
+Compiled from "VoiceInteractionSessionService.java"
+public abstract class android.service.voice.VoiceInteractionSessionService extends android.app.Service {
+  public android.service.voice.VoiceInteractionSessionService();
+  public void onCreate();
+  public abstract android.service.voice.VoiceInteractionSession onNewSession(android.os.Bundle);
+  public android.os.IBinder onBind(android.content.Intent);
+}

@@ -1,0 +1,4 @@
+Compiled from "DeniedByServerException.java"
+public final class android.media.DeniedByServerException extends android.media.MediaDrmException {
+  public android.media.DeniedByServerException(java.lang.String);
+}

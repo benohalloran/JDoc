@@ -1,0 +1,14 @@
+Compiled from "GsmCellLocation.java"
+public class android.telephony.gsm.GsmCellLocation extends android.telephony.CellLocation {
+  public android.telephony.gsm.GsmCellLocation();
+  public android.telephony.gsm.GsmCellLocation(android.os.Bundle);
+  public int getLac();
+  public int getCid();
+  public int getPsc();
+  public void setStateInvalid();
+  public void setLacAndCid(int, int);
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public void fillInNotifierBundle(android.os.Bundle);
+}

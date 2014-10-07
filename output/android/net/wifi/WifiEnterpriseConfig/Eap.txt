@@ -1,0 +1,11 @@
+Compiled from "WifiEnterpriseConfig.java"
+public final class android.net.wifi.WifiEnterpriseConfig$Eap {
+  public static final int AKA;
+  public static final int NONE;
+  public static final int PEAP;
+  public static final int PWD;
+  public static final int SIM;
+  public static final int TLS;
+  public static final int TTLS;
+  android.net.wifi.WifiEnterpriseConfig$Eap();
+}

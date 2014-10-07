@@ -1,0 +1,14 @@
+Compiled from "AndroidTestCase.java"
+public class android.test.AndroidTestCase extends junit.framework.TestCase {
+  protected android.content.Context mContext;
+  public android.test.AndroidTestCase();
+  protected void setUp() throws java.lang.Exception;
+  protected void tearDown() throws java.lang.Exception;
+  public void testAndroidTestCaseSetupProperly();
+  public void setContext(android.content.Context);
+  public android.content.Context getContext();
+  public void assertActivityRequiresPermission(java.lang.String, java.lang.String, java.lang.String);
+  public void assertReadingContentUriRequiresPermission(android.net.Uri, java.lang.String);
+  public void assertWritingContentUriRequiresPermission(android.net.Uri, java.lang.String);
+  protected void scrubClass(java.lang.Class<?>) throws java.lang.IllegalAccessException;
+}

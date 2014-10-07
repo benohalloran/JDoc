@@ -1,0 +1,9 @@
+Compiled from "Geocoder.java"
+public final class android.location.Geocoder {
+  public android.location.Geocoder(android.content.Context, java.util.Locale);
+  public android.location.Geocoder(android.content.Context);
+  public static boolean isPresent();
+  public java.util.List<android.location.Address> getFromLocation(double, double, int) throws java.io.IOException;
+  public java.util.List<android.location.Address> getFromLocationName(java.lang.String, int) throws java.io.IOException;
+  public java.util.List<android.location.Address> getFromLocationName(java.lang.String, int, double, double, double, double) throws java.io.IOException;
+}

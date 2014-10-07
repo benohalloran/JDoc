@@ -1,0 +1,9 @@
+Compiled from "PrinterCapabilitiesInfo.java"
+public final class android.print.PrinterCapabilitiesInfo$Builder {
+  public android.print.PrinterCapabilitiesInfo$Builder(android.print.PrinterId);
+  public android.print.PrinterCapabilitiesInfo$Builder addMediaSize(android.print.PrintAttributes$MediaSize, boolean);
+  public android.print.PrinterCapabilitiesInfo$Builder addResolution(android.print.PrintAttributes$Resolution, boolean);
+  public android.print.PrinterCapabilitiesInfo$Builder setMinMargins(android.print.PrintAttributes$Margins);
+  public android.print.PrinterCapabilitiesInfo$Builder setColorModes(int, int);
+  public android.print.PrinterCapabilitiesInfo build();
+}

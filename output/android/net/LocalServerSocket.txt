@@ -1,0 +1,9 @@
+Compiled from "LocalServerSocket.java"
+public class android.net.LocalServerSocket {
+  public android.net.LocalServerSocket(java.lang.String) throws java.io.IOException;
+  public android.net.LocalServerSocket(java.io.FileDescriptor) throws java.io.IOException;
+  public android.net.LocalSocketAddress getLocalSocketAddress();
+  public android.net.LocalSocket accept() throws java.io.IOException;
+  public java.io.FileDescriptor getFileDescriptor();
+  public void close() throws java.io.IOException;
+}

@@ -1,0 +1,6 @@
+Compiled from "SQLiteTransactionListener.java"
+public interface android.database.sqlite.SQLiteTransactionListener {
+  public abstract void onBegin();
+  public abstract void onCommit();
+  public abstract void onRollback();
+}

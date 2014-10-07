@@ -1,0 +1,5 @@
+Compiled from "Resources.java"
+public class android.content.res.Resources$NotFoundException extends java.lang.RuntimeException {
+  public android.content.res.Resources$NotFoundException();
+  public android.content.res.Resources$NotFoundException(java.lang.String);
+}

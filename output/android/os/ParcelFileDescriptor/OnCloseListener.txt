@@ -1,0 +1,4 @@
+Compiled from "ParcelFileDescriptor.java"
+public interface android.os.ParcelFileDescriptor$OnCloseListener {
+  public abstract void onClose(java.io.IOException);
+}

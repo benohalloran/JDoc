@@ -1,0 +1,21 @@
+Compiled from "Uri.java"
+public final class android.net.Uri$Builder {
+  public android.net.Uri$Builder();
+  public android.net.Uri$Builder scheme(java.lang.String);
+  public android.net.Uri$Builder opaquePart(java.lang.String);
+  public android.net.Uri$Builder encodedOpaquePart(java.lang.String);
+  public android.net.Uri$Builder authority(java.lang.String);
+  public android.net.Uri$Builder encodedAuthority(java.lang.String);
+  public android.net.Uri$Builder path(java.lang.String);
+  public android.net.Uri$Builder encodedPath(java.lang.String);
+  public android.net.Uri$Builder appendPath(java.lang.String);
+  public android.net.Uri$Builder appendEncodedPath(java.lang.String);
+  public android.net.Uri$Builder query(java.lang.String);
+  public android.net.Uri$Builder encodedQuery(java.lang.String);
+  public android.net.Uri$Builder fragment(java.lang.String);
+  public android.net.Uri$Builder encodedFragment(java.lang.String);
+  public android.net.Uri$Builder appendQueryParameter(java.lang.String, java.lang.String);
+  public android.net.Uri$Builder clearQuery();
+  public android.net.Uri build();
+  public java.lang.String toString();
+}

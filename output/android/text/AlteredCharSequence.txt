@@ -1,0 +1,10 @@
+Compiled from "AlteredCharSequence.java"
+public class android.text.AlteredCharSequence implements java.lang.CharSequence,android.text.GetChars {
+  android.text.AlteredCharSequence();
+  public static android.text.AlteredCharSequence make(java.lang.CharSequence, char[], int, int);
+  public char charAt(int);
+  public int length();
+  public java.lang.CharSequence subSequence(int, int);
+  public void getChars(int, int, char[], int);
+  public java.lang.String toString();
+}

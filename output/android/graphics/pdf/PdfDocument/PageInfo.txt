@@ -1,0 +1,8 @@
+Compiled from "PdfDocument.java"
+public final class android.graphics.pdf.PdfDocument$PageInfo {
+  android.graphics.pdf.PdfDocument$PageInfo();
+  public int getPageWidth();
+  public int getPageHeight();
+  public android.graphics.Rect getContentRect();
+  public int getPageNumber();
+}

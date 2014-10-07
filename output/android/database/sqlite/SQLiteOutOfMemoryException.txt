@@ -1,0 +1,5 @@
+Compiled from "SQLiteOutOfMemoryException.java"
+public class android.database.sqlite.SQLiteOutOfMemoryException extends android.database.sqlite.SQLiteException {
+  public android.database.sqlite.SQLiteOutOfMemoryException();
+  public android.database.sqlite.SQLiteOutOfMemoryException(java.lang.String);
+}

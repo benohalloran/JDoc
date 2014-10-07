@@ -1,0 +1,18 @@
+Compiled from "AbstractCollection.java"
+public abstract class java.util.AbstractCollection<E> implements java.util.Collection<E> {
+  protected java.util.AbstractCollection();
+  public boolean add(E);
+  public boolean addAll(java.util.Collection<? extends E>);
+  public void clear();
+  public boolean contains(java.lang.Object);
+  public boolean containsAll(java.util.Collection<?>);
+  public boolean isEmpty();
+  public abstract java.util.Iterator<E> iterator();
+  public boolean remove(java.lang.Object);
+  public boolean removeAll(java.util.Collection<?>);
+  public boolean retainAll(java.util.Collection<?>);
+  public abstract int size();
+  public java.lang.Object[] toArray();
+  public <T extends java/lang/Object> T[] toArray(T[]);
+  public java.lang.String toString();
+}

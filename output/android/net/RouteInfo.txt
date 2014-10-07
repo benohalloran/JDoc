@@ -1,0 +1,16 @@
+Compiled from "RouteInfo.java"
+public final class android.net.RouteInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.net.RouteInfo> CREATOR;
+  android.net.RouteInfo();
+  public android.net.IpPrefix getDestination();
+  public java.net.InetAddress getGateway();
+  public java.lang.String getInterface();
+  public boolean isDefaultRoute();
+  public boolean matches(java.net.InetAddress);
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

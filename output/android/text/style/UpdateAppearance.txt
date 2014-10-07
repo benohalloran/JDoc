@@ -1,0 +1,3 @@
+Compiled from "UpdateAppearance.java"
+public interface android.text.style.UpdateAppearance {
+}

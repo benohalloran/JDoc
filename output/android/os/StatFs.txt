@@ -1,0 +1,16 @@
+Compiled from "StatFs.java"
+public class android.os.StatFs {
+  public android.os.StatFs(java.lang.String);
+  public void restat(java.lang.String);
+  public int getBlockSize();
+  public long getBlockSizeLong();
+  public int getBlockCount();
+  public long getBlockCountLong();
+  public int getFreeBlocks();
+  public long getFreeBlocksLong();
+  public long getFreeBytes();
+  public int getAvailableBlocks();
+  public long getAvailableBlocksLong();
+  public long getAvailableBytes();
+  public long getTotalBytes();
+}

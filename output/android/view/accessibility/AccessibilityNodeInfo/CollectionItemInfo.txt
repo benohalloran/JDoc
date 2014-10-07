@@ -1,0 +1,12 @@
+Compiled from "AccessibilityNodeInfo.java"
+public final class android.view.accessibility.AccessibilityNodeInfo$CollectionItemInfo {
+  android.view.accessibility.AccessibilityNodeInfo$CollectionItemInfo();
+  public static android.view.accessibility.AccessibilityNodeInfo$CollectionItemInfo obtain(int, int, int, int, boolean);
+  public static android.view.accessibility.AccessibilityNodeInfo$CollectionItemInfo obtain(int, int, int, int, boolean, boolean);
+  public int getColumnIndex();
+  public int getRowIndex();
+  public int getColumnSpan();
+  public int getRowSpan();
+  public boolean isHeading();
+  public boolean isSelected();
+}

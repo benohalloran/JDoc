@@ -1,0 +1,3 @@
+Compiled from "Smoke.java"
+public interface android.test.suitebuilder.annotation.Smoke extends java.lang.annotation.Annotation {
+}

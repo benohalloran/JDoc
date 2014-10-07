@@ -1,0 +1,18 @@
+Compiled from "DropBoxManager.java"
+public class android.os.DropBoxManager$Entry implements android.os.Parcelable,java.io.Closeable {
+  public static final android.os.Parcelable$Creator<android.os.DropBoxManager$Entry> CREATOR;
+  public android.os.DropBoxManager$Entry(java.lang.String, long);
+  public android.os.DropBoxManager$Entry(java.lang.String, long, java.lang.String);
+  public android.os.DropBoxManager$Entry(java.lang.String, long, byte[], int);
+  public android.os.DropBoxManager$Entry(java.lang.String, long, android.os.ParcelFileDescriptor, int);
+  public android.os.DropBoxManager$Entry(java.lang.String, long, java.io.File, int) throws java.io.IOException;
+  public void close();
+  public java.lang.String getTag();
+  public long getTimeMillis();
+  public int getFlags();
+  public java.lang.String getText(int);
+  public java.io.InputStream getInputStream() throws java.io.IOException;
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

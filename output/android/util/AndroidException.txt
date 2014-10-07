@@ -1,0 +1,7 @@
+Compiled from "AndroidException.java"
+public class android.util.AndroidException extends java.lang.Exception {
+  public android.util.AndroidException();
+  public android.util.AndroidException(java.lang.String);
+  public android.util.AndroidException(java.lang.String, java.lang.Throwable);
+  public android.util.AndroidException(java.lang.Exception);
+}

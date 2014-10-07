@@ -1,0 +1,13 @@
+Compiled from "View.java"
+public class android.view.View$AccessibilityDelegate {
+  public android.view.View$AccessibilityDelegate();
+  public void sendAccessibilityEvent(android.view.View, int);
+  public boolean performAccessibilityAction(android.view.View, int, android.os.Bundle);
+  public void sendAccessibilityEventUnchecked(android.view.View, android.view.accessibility.AccessibilityEvent);
+  public boolean dispatchPopulateAccessibilityEvent(android.view.View, android.view.accessibility.AccessibilityEvent);
+  public void onPopulateAccessibilityEvent(android.view.View, android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityEvent(android.view.View, android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.View, android.view.accessibility.AccessibilityNodeInfo);
+  public boolean onRequestSendAccessibilityEvent(android.view.ViewGroup, android.view.View, android.view.accessibility.AccessibilityEvent);
+  public android.view.accessibility.AccessibilityNodeProvider getAccessibilityNodeProvider(android.view.View);
+}

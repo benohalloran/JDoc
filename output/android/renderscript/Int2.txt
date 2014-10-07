@@ -1,0 +1,7 @@
+Compiled from "Int2.java"
+public class android.renderscript.Int2 {
+  public int x;
+  public int y;
+  public android.renderscript.Int2();
+  public android.renderscript.Int2(int, int);
+}

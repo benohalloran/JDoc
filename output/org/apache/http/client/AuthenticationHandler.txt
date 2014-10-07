@@ -1,0 +1,6 @@
+Compiled from "AuthenticationHandler.java"
+public interface org.apache.http.client.AuthenticationHandler {
+  public abstract boolean isAuthenticationRequested(org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext);
+  public abstract java.util.Map<java.lang.String, org.apache.http.Header> getChallenges(org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext) throws org.apache.http.auth.MalformedChallengeException;
+  public abstract org.apache.http.auth.AuthScheme selectScheme(java.util.Map<java.lang.String, org.apache.http.Header>, org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext) throws org.apache.http.auth.AuthenticationException;
+}

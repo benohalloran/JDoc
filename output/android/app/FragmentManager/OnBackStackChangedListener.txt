@@ -1,0 +1,4 @@
+Compiled from "FragmentManager.java"
+public interface android.app.FragmentManager$OnBackStackChangedListener {
+  public abstract void onBackStackChanged();
+}

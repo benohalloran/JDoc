@@ -1,0 +1,25 @@
+Compiled from "Attributes.java"
+public class java.util.jar.Attributes implements java.lang.Cloneable, java.util.Map<java.lang.Object, java.lang.Object> {
+  protected java.util.Map<java.lang.Object, java.lang.Object> map;
+  public java.util.jar.Attributes();
+  public java.util.jar.Attributes(java.util.jar.Attributes);
+  public java.util.jar.Attributes(int);
+  public void clear();
+  public boolean containsKey(java.lang.Object);
+  public boolean containsValue(java.lang.Object);
+  public java.util.Set<java.util.Map$Entry<java.lang.Object, java.lang.Object>> entrySet();
+  public java.lang.Object get(java.lang.Object);
+  public boolean isEmpty();
+  public java.util.Set<java.lang.Object> keySet();
+  public java.lang.Object put(java.lang.Object, java.lang.Object);
+  public void putAll(java.util.Map<?, ?>);
+  public java.lang.Object remove(java.lang.Object);
+  public int size();
+  public java.util.Collection<java.lang.Object> values();
+  public java.lang.Object clone();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String getValue(java.util.jar.Attributes$Name);
+  public java.lang.String getValue(java.lang.String);
+  public java.lang.String putValue(java.lang.String, java.lang.String);
+}

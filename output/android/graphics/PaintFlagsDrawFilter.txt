@@ -1,0 +1,4 @@
+Compiled from "PaintFlagsDrawFilter.java"
+public class android.graphics.PaintFlagsDrawFilter extends android.graphics.DrawFilter {
+  public android.graphics.PaintFlagsDrawFilter(int, int);
+}

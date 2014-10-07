@@ -1,0 +1,24 @@
+Compiled from "TimePicker.java"
+public class android.widget.TimePicker extends android.widget.FrameLayout {
+  public android.widget.TimePicker(android.content.Context);
+  public android.widget.TimePicker(android.content.Context, android.util.AttributeSet);
+  public android.widget.TimePicker(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.TimePicker(android.content.Context, android.util.AttributeSet, int, int);
+  public void setCurrentHour(java.lang.Integer);
+  public java.lang.Integer getCurrentHour();
+  public void setCurrentMinute(java.lang.Integer);
+  public java.lang.Integer getCurrentMinute();
+  public void setIs24HourView(java.lang.Boolean);
+  public boolean is24HourView();
+  public void setOnTimeChangedListener(android.widget.TimePicker$OnTimeChangedListener);
+  public void setEnabled(boolean);
+  public boolean isEnabled();
+  public int getBaseline();
+  protected void onConfigurationChanged(android.content.res.Configuration);
+  protected android.os.Parcelable onSaveInstanceState();
+  protected void onRestoreInstanceState(android.os.Parcelable);
+  public boolean dispatchPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

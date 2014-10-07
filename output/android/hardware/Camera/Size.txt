@@ -1,0 +1,9 @@
+Compiled from "Camera.java"
+public class android.hardware.Camera$Size {
+  public int height;
+  public int width;
+  final android.hardware.Camera this$0;
+  public android.hardware.Camera$Size(android.hardware.Camera, int, int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

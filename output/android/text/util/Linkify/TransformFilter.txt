@@ -1,0 +1,4 @@
+Compiled from "Linkify.java"
+public interface android.text.util.Linkify$TransformFilter {
+  public abstract java.lang.String transformUrl(java.util.regex.Matcher, java.lang.String);
+}

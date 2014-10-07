@@ -1,0 +1,5 @@
+Compiled from "DigestSchemeFactory.java"
+public class org.apache.http.impl.auth.DigestSchemeFactory implements org.apache.http.auth.AuthSchemeFactory {
+  public org.apache.http.impl.auth.DigestSchemeFactory();
+  public org.apache.http.auth.AuthScheme newInstance(org.apache.http.params.HttpParams);
+}

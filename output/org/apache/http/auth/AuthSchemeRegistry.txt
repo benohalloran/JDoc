@@ -1,0 +1,9 @@
+Compiled from "AuthSchemeRegistry.java"
+public final class org.apache.http.auth.AuthSchemeRegistry {
+  public org.apache.http.auth.AuthSchemeRegistry();
+  public synchronized void register(java.lang.String, org.apache.http.auth.AuthSchemeFactory);
+  public synchronized void unregister(java.lang.String);
+  public synchronized org.apache.http.auth.AuthScheme getAuthScheme(java.lang.String, org.apache.http.params.HttpParams) throws java.lang.IllegalStateException;
+  public synchronized java.util.List<java.lang.String> getSchemeNames();
+  public synchronized void setItems(java.util.Map<java.lang.String, org.apache.http.auth.AuthSchemeFactory>);
+}

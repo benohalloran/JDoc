@@ -1,0 +1,9 @@
+Compiled from "BasicHttpEntityEnclosingRequest.java"
+public class org.apache.http.message.BasicHttpEntityEnclosingRequest extends org.apache.http.message.BasicHttpRequest implements org.apache.http.HttpEntityEnclosingRequest {
+  public org.apache.http.message.BasicHttpEntityEnclosingRequest(java.lang.String, java.lang.String);
+  public org.apache.http.message.BasicHttpEntityEnclosingRequest(java.lang.String, java.lang.String, org.apache.http.ProtocolVersion);
+  public org.apache.http.message.BasicHttpEntityEnclosingRequest(org.apache.http.RequestLine);
+  public org.apache.http.HttpEntity getEntity();
+  public void setEntity(org.apache.http.HttpEntity);
+  public boolean expectContinue();
+}

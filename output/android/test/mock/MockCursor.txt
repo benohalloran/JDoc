@@ -1,0 +1,44 @@
+Compiled from "MockCursor.java"
+public class android.test.mock.MockCursor implements android.database.Cursor {
+  public android.test.mock.MockCursor();
+  public int getColumnCount();
+  public int getColumnIndex(java.lang.String);
+  public int getColumnIndexOrThrow(java.lang.String);
+  public java.lang.String getColumnName(int);
+  public java.lang.String[] getColumnNames();
+  public int getCount();
+  public boolean isNull(int);
+  public int getInt(int);
+  public long getLong(int);
+  public short getShort(int);
+  public float getFloat(int);
+  public double getDouble(int);
+  public byte[] getBlob(int);
+  public java.lang.String getString(int);
+  public android.os.Bundle getExtras();
+  public int getPosition();
+  public boolean isAfterLast();
+  public boolean isBeforeFirst();
+  public boolean isFirst();
+  public boolean isLast();
+  public boolean move(int);
+  public boolean moveToFirst();
+  public boolean moveToLast();
+  public boolean moveToNext();
+  public boolean moveToPrevious();
+  public boolean moveToPosition(int);
+  public void copyStringToBuffer(int, android.database.CharArrayBuffer);
+  public void deactivate();
+  public void close();
+  public boolean isClosed();
+  public boolean requery();
+  public void registerContentObserver(android.database.ContentObserver);
+  public void registerDataSetObserver(android.database.DataSetObserver);
+  public android.os.Bundle respond(android.os.Bundle);
+  public boolean getWantsAllOnMoveCalls();
+  public void setNotificationUri(android.content.ContentResolver, android.net.Uri);
+  public android.net.Uri getNotificationUri();
+  public void unregisterContentObserver(android.database.ContentObserver);
+  public void unregisterDataSetObserver(android.database.DataSetObserver);
+  public int getType(int);
+}

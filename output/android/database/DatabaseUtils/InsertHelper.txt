@@ -1,0 +1,19 @@
+Compiled from "DatabaseUtils.java"
+public class android.database.DatabaseUtils$InsertHelper {
+  public android.database.DatabaseUtils$InsertHelper(android.database.sqlite.SQLiteDatabase, java.lang.String);
+  public int getColumnIndex(java.lang.String);
+  public void bind(int, double);
+  public void bind(int, float);
+  public void bind(int, long);
+  public void bind(int, int);
+  public void bind(int, boolean);
+  public void bindNull(int);
+  public void bind(int, byte[]);
+  public void bind(int, java.lang.String);
+  public long insert(android.content.ContentValues);
+  public long execute();
+  public void prepareForInsert();
+  public void prepareForReplace();
+  public long replace(android.content.ContentValues);
+  public void close();
+}

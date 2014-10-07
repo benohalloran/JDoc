@@ -1,0 +1,5 @@
+Compiled from "NfcEvent.java"
+public final class android.nfc.NfcEvent {
+  public final android.nfc.NfcAdapter nfcAdapter;
+  android.nfc.NfcEvent();
+}

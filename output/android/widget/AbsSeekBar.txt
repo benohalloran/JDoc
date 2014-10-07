@@ -1,0 +1,29 @@
+Compiled from "AbsSeekBar.java"
+public abstract class android.widget.AbsSeekBar extends android.widget.ProgressBar {
+  public android.widget.AbsSeekBar(android.content.Context);
+  public android.widget.AbsSeekBar(android.content.Context, android.util.AttributeSet);
+  public android.widget.AbsSeekBar(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.AbsSeekBar(android.content.Context, android.util.AttributeSet, int, int);
+  public void setThumb(android.graphics.drawable.Drawable);
+  public android.graphics.drawable.Drawable getThumb();
+  public int getThumbOffset();
+  public void setThumbOffset(int);
+  public void setSplitTrack(boolean);
+  public boolean getSplitTrack();
+  public void setKeyProgressIncrement(int);
+  public int getKeyProgressIncrement();
+  public synchronized void setMax(int);
+  protected boolean verifyDrawable(android.graphics.drawable.Drawable);
+  public void jumpDrawablesToCurrentState();
+  protected void drawableStateChanged();
+  public void invalidateDrawable(android.graphics.drawable.Drawable);
+  protected void onSizeChanged(int, int, int, int);
+  protected synchronized void onDraw(android.graphics.Canvas);
+  protected synchronized void onMeasure(int, int);
+  public boolean onTouchEvent(android.view.MotionEvent);
+  public boolean onKeyDown(int, android.view.KeyEvent);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public boolean performAccessibilityAction(int, android.os.Bundle);
+  public void onRtlPropertiesChanged(int);
+}

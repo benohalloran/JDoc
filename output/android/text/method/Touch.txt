@@ -1,0 +1,8 @@
+Compiled from "Touch.java"
+public class android.text.method.Touch {
+  android.text.method.Touch();
+  public static void scrollTo(android.widget.TextView, android.text.Layout, int, int);
+  public static boolean onTouchEvent(android.widget.TextView, android.text.Spannable, android.view.MotionEvent);
+  public static int getInitialScrollX(android.widget.TextView, android.text.Spannable);
+  public static int getInitialScrollY(android.widget.TextView, android.text.Spannable);
+}

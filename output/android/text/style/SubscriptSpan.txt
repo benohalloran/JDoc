@@ -1,0 +1,10 @@
+Compiled from "SubscriptSpan.java"
+public class android.text.style.SubscriptSpan extends android.text.style.MetricAffectingSpan implements android.text.ParcelableSpan {
+  public android.text.style.SubscriptSpan();
+  public android.text.style.SubscriptSpan(android.os.Parcel);
+  public int getSpanTypeId();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public void updateDrawState(android.text.TextPaint);
+  public void updateMeasureState(android.text.TextPaint);
+}

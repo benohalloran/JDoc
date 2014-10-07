@@ -1,0 +1,4 @@
+Compiled from "WebChromeClient.java"
+public interface android.webkit.WebChromeClient$CustomViewCallback {
+  public abstract void onCustomViewHidden();
+}

@@ -1,0 +1,4 @@
+Compiled from "Telephony.java"
+public interface android.provider.Telephony$CanonicalAddressesColumns extends android.provider.BaseColumns {
+  public static final java.lang.String ADDRESS;
+}

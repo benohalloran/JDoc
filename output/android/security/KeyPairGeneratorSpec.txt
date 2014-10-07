@@ -1,0 +1,14 @@
+Compiled from "KeyPairGeneratorSpec.java"
+public final class android.security.KeyPairGeneratorSpec implements java.security.spec.AlgorithmParameterSpec {
+  android.security.KeyPairGeneratorSpec();
+  public android.content.Context getContext();
+  public java.lang.String getKeystoreAlias();
+  public java.lang.String getKeyType();
+  public int getKeySize();
+  public java.security.spec.AlgorithmParameterSpec getAlgorithmParameterSpec();
+  public javax.security.auth.x500.X500Principal getSubjectDN();
+  public java.math.BigInteger getSerialNumber();
+  public java.util.Date getStartDate();
+  public java.util.Date getEndDate();
+  public boolean isEncryptionRequired();
+}

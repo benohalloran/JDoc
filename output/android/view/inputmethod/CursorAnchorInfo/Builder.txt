@@ -1,0 +1,11 @@
+Compiled from "CursorAnchorInfo.java"
+public final class android.view.inputmethod.CursorAnchorInfo$Builder {
+  public android.view.inputmethod.CursorAnchorInfo$Builder();
+  public android.view.inputmethod.CursorAnchorInfo$Builder setSelectionRange(int, int);
+  public android.view.inputmethod.CursorAnchorInfo$Builder setComposingText(int, java.lang.CharSequence);
+  public android.view.inputmethod.CursorAnchorInfo$Builder setInsertionMarkerLocation(float, float, float, float);
+  public android.view.inputmethod.CursorAnchorInfo$Builder addCharacterRect(int, float, float, float, float);
+  public android.view.inputmethod.CursorAnchorInfo$Builder setMatrix(android.graphics.Matrix);
+  public android.view.inputmethod.CursorAnchorInfo build();
+  public void reset();
+}

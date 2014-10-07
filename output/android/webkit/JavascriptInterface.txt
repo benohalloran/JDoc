@@ -1,0 +1,3 @@
+Compiled from "JavascriptInterface.java"
+public interface android.webkit.JavascriptInterface extends java.lang.annotation.Annotation {
+}

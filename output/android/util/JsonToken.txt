@@ -1,0 +1,16 @@
+Compiled from "JsonToken.java"
+public final class android.util.JsonToken extends java.lang.Enum<android.util.JsonToken> {
+  public static final android.util.JsonToken BEGIN_ARRAY;
+  public static final android.util.JsonToken BEGIN_OBJECT;
+  public static final android.util.JsonToken BOOLEAN;
+  public static final android.util.JsonToken END_ARRAY;
+  public static final android.util.JsonToken END_DOCUMENT;
+  public static final android.util.JsonToken END_OBJECT;
+  public static final android.util.JsonToken NAME;
+  public static final android.util.JsonToken NULL;
+  public static final android.util.JsonToken NUMBER;
+  public static final android.util.JsonToken STRING;
+  public static android.util.JsonToken[] values();
+  public static android.util.JsonToken valueOf(java.lang.String);
+  static {};
+}

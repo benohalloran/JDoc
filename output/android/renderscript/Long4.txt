@@ -1,0 +1,9 @@
+Compiled from "Long4.java"
+public class android.renderscript.Long4 {
+  public long w;
+  public long x;
+  public long y;
+  public long z;
+  public android.renderscript.Long4();
+  public android.renderscript.Long4(long, long, long, long);
+}

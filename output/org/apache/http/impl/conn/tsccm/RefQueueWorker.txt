@@ -1,0 +1,10 @@
+Compiled from "RefQueueWorker.java"
+public class org.apache.http.impl.conn.tsccm.RefQueueWorker implements java.lang.Runnable {
+  protected final org.apache.http.impl.conn.tsccm.RefQueueHandler refHandler;
+  protected final java.lang.ref.ReferenceQueue<?> refQueue;
+  protected volatile java.lang.Thread workerThread;
+  public org.apache.http.impl.conn.tsccm.RefQueueWorker(java.lang.ref.ReferenceQueue<?>, org.apache.http.impl.conn.tsccm.RefQueueHandler);
+  public void run();
+  public void shutdown();
+  public java.lang.String toString();
+}

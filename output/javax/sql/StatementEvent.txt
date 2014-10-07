@@ -1,0 +1,7 @@
+Compiled from "StatementEvent.java"
+public class javax.sql.StatementEvent extends java.util.EventObject {
+  public javax.sql.StatementEvent(javax.sql.PooledConnection, java.sql.PreparedStatement, java.sql.SQLException);
+  public javax.sql.StatementEvent(javax.sql.PooledConnection, java.sql.PreparedStatement);
+  public java.sql.PreparedStatement getStatement();
+  public java.sql.SQLException getSQLException();
+}

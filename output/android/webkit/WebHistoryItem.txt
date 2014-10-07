@@ -1,0 +1,10 @@
+Compiled from "WebHistoryItem.java"
+public class android.webkit.WebHistoryItem implements java.lang.Cloneable {
+  android.webkit.WebHistoryItem();
+  public java.lang.String getUrl();
+  public java.lang.String getOriginalUrl();
+  public java.lang.String getTitle();
+  public android.graphics.Bitmap getFavicon();
+  protected synchronized android.webkit.WebHistoryItem clone();
+  protected java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

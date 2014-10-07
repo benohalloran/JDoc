@@ -1,0 +1,8 @@
+Compiled from "LauncherApps.java"
+public interface android.content.pm.LauncherApps$OnAppsChangedListener {
+  public abstract void onPackageRemoved(android.os.UserHandle, java.lang.String);
+  public abstract void onPackageAdded(android.os.UserHandle, java.lang.String);
+  public abstract void onPackageChanged(android.os.UserHandle, java.lang.String);
+  public abstract void onPackagesAvailable(android.os.UserHandle, java.lang.String[], boolean);
+  public abstract void onPackagesUnavailable(android.os.UserHandle, java.lang.String[], boolean);
+}

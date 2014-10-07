@@ -1,0 +1,6 @@
+Compiled from "DefaultHttpRequestFactory.java"
+public class org.apache.http.impl.DefaultHttpRequestFactory implements org.apache.http.HttpRequestFactory {
+  public org.apache.http.impl.DefaultHttpRequestFactory();
+  public org.apache.http.HttpRequest newHttpRequest(org.apache.http.RequestLine) throws org.apache.http.MethodNotSupportedException;
+  public org.apache.http.HttpRequest newHttpRequest(java.lang.String, java.lang.String) throws org.apache.http.MethodNotSupportedException;
+}

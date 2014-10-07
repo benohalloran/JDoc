@@ -1,0 +1,18 @@
+Compiled from "TvInputService.java"
+public abstract class android.media.tv.TvInputService$Session implements android.view.KeyEvent$Callback {
+  final android.media.tv.TvInputService this$0;
+  public android.media.tv.TvInputService$Session(android.media.tv.TvInputService);
+  public void setOverlayViewEnabled(boolean);
+  public abstract void onRelease();
+  public abstract boolean onSetSurface(android.view.Surface);
+  public abstract void onSetStreamVolume(float);
+  public abstract boolean onTune(android.net.Uri);
+  public android.view.View onCreateOverlayView();
+  public boolean onKeyDown(int, android.view.KeyEvent);
+  public boolean onKeyLongPress(int, android.view.KeyEvent);
+  public boolean onKeyMultiple(int, int, android.view.KeyEvent);
+  public boolean onKeyUp(int, android.view.KeyEvent);
+  public boolean onTouchEvent(android.view.MotionEvent);
+  public boolean onTrackballEvent(android.view.MotionEvent);
+  public boolean onGenericMotionEvent(android.view.MotionEvent);
+}

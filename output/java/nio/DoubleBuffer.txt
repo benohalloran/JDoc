@@ -1,0 +1,30 @@
+Compiled from "DoubleBuffer.java"
+public abstract class java.nio.DoubleBuffer extends java.nio.Buffer implements java.lang.Comparable<java.nio.DoubleBuffer> {
+  java.nio.DoubleBuffer();
+  public static java.nio.DoubleBuffer allocate(int);
+  public static java.nio.DoubleBuffer wrap(double[]);
+  public static java.nio.DoubleBuffer wrap(double[], int, int);
+  public final double[] array();
+  public final int arrayOffset();
+  public abstract java.nio.DoubleBuffer asReadOnlyBuffer();
+  public abstract java.nio.DoubleBuffer compact();
+  public int compareTo(java.nio.DoubleBuffer);
+  public abstract java.nio.DoubleBuffer duplicate();
+  public boolean equals(java.lang.Object);
+  public abstract double get();
+  public java.nio.DoubleBuffer get(double[]);
+  public java.nio.DoubleBuffer get(double[], int, int);
+  public abstract double get(int);
+  public final boolean hasArray();
+  public int hashCode();
+  public abstract boolean isDirect();
+  public abstract java.nio.ByteOrder order();
+  public abstract java.nio.DoubleBuffer put(double);
+  public final java.nio.DoubleBuffer put(double[]);
+  public java.nio.DoubleBuffer put(double[], int, int);
+  public java.nio.DoubleBuffer put(java.nio.DoubleBuffer);
+  public abstract java.nio.DoubleBuffer put(int, double);
+  public abstract java.nio.DoubleBuffer slice();
+  public java.lang.Object array();
+  public int compareTo(java.lang.Object);
+}

@@ -1,0 +1,15 @@
+Compiled from "AccessibilityManager.java"
+public final class android.view.accessibility.AccessibilityManager {
+  android.view.accessibility.AccessibilityManager();
+  public boolean isEnabled();
+  public boolean isTouchExplorationEnabled();
+  public void sendAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void interrupt();
+  public java.util.List<android.content.pm.ServiceInfo> getAccessibilityServiceList();
+  public java.util.List<android.accessibilityservice.AccessibilityServiceInfo> getInstalledAccessibilityServiceList();
+  public java.util.List<android.accessibilityservice.AccessibilityServiceInfo> getEnabledAccessibilityServiceList(int);
+  public boolean addAccessibilityStateChangeListener(android.view.accessibility.AccessibilityManager$AccessibilityStateChangeListener);
+  public boolean removeAccessibilityStateChangeListener(android.view.accessibility.AccessibilityManager$AccessibilityStateChangeListener);
+  public boolean addTouchExplorationStateChangeListener(android.view.accessibility.AccessibilityManager$TouchExplorationStateChangeListener);
+  public boolean removeTouchExplorationStateChangeListener(android.view.accessibility.AccessibilityManager$TouchExplorationStateChangeListener);
+}

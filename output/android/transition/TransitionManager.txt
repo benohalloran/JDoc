@@ -1,0 +1,11 @@
+Compiled from "TransitionManager.java"
+public class android.transition.TransitionManager {
+  public android.transition.TransitionManager();
+  public void setTransition(android.transition.Scene, android.transition.Transition);
+  public void setTransition(android.transition.Scene, android.transition.Scene, android.transition.Transition);
+  public void transitionTo(android.transition.Scene);
+  public static void go(android.transition.Scene);
+  public static void go(android.transition.Scene, android.transition.Transition);
+  public static void beginDelayedTransition(android.view.ViewGroup);
+  public static void beginDelayedTransition(android.view.ViewGroup, android.transition.Transition);
+}

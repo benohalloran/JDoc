@@ -1,0 +1,26 @@
+Compiled from "ApplicationErrorReport.java"
+public class android.app.ApplicationErrorReport implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.app.ApplicationErrorReport> CREATOR;
+  public static final int TYPE_ANR;
+  public static final int TYPE_BATTERY;
+  public static final int TYPE_CRASH;
+  public static final int TYPE_NONE;
+  public static final int TYPE_RUNNING_SERVICE;
+  public android.app.ApplicationErrorReport$AnrInfo anrInfo;
+  public android.app.ApplicationErrorReport$BatteryInfo batteryInfo;
+  public android.app.ApplicationErrorReport$CrashInfo crashInfo;
+  public java.lang.String installerPackageName;
+  public java.lang.String packageName;
+  public java.lang.String processName;
+  public android.app.ApplicationErrorReport$RunningServiceInfo runningServiceInfo;
+  public boolean systemApp;
+  public long time;
+  public int type;
+  public android.app.ApplicationErrorReport();
+  public static android.content.ComponentName getErrorReportReceiver(android.content.Context, java.lang.String, int);
+  public void writeToParcel(android.os.Parcel, int);
+  public void readFromParcel(android.os.Parcel);
+  public int describeContents();
+  public void dump(android.util.Printer, java.lang.String);
+  static {};
+}

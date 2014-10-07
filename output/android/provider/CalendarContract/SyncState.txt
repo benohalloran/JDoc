@@ -1,0 +1,6 @@
+Compiled from "CalendarContract.java"
+public final class android.provider.CalendarContract$SyncState implements android.provider.SyncStateContract$Columns {
+  public static final android.net.Uri CONTENT_URI;
+  android.provider.CalendarContract$SyncState();
+  static {};
+}

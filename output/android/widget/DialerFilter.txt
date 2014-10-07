@@ -1,0 +1,27 @@
+Compiled from "DialerFilter.java"
+public class android.widget.DialerFilter extends android.widget.RelativeLayout {
+  public static final int DIGITS_AND_LETTERS;
+  public static final int DIGITS_AND_LETTERS_NO_DIGITS;
+  public static final int DIGITS_AND_LETTERS_NO_LETTERS;
+  public static final int DIGITS_ONLY;
+  public static final int LETTERS_ONLY;
+  public android.widget.DialerFilter(android.content.Context);
+  public android.widget.DialerFilter(android.content.Context, android.util.AttributeSet);
+  protected void onFinishInflate();
+  protected void onFocusChanged(boolean, int, android.graphics.Rect);
+  public boolean isQwertyKeyboard();
+  public boolean onKeyDown(int, android.view.KeyEvent);
+  public boolean onKeyUp(int, android.view.KeyEvent);
+  public int getMode();
+  public void setMode(int);
+  public java.lang.CharSequence getLetters();
+  public java.lang.CharSequence getDigits();
+  public java.lang.CharSequence getFilterText();
+  public void append(java.lang.String);
+  public void clearText();
+  public void setLettersWatcher(android.text.TextWatcher);
+  public void setDigitsWatcher(android.text.TextWatcher);
+  public void setFilterWatcher(android.text.TextWatcher);
+  public void removeFilterWatcher(android.text.TextWatcher);
+  protected void onModeChange(int, int);
+}

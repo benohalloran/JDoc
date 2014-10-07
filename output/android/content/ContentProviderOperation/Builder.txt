@@ -1,0 +1,13 @@
+Compiled from "ContentProviderOperation.java"
+public class android.content.ContentProviderOperation$Builder {
+  android.content.ContentProviderOperation$Builder();
+  public android.content.ContentProviderOperation build();
+  public android.content.ContentProviderOperation$Builder withValueBackReferences(android.content.ContentValues);
+  public android.content.ContentProviderOperation$Builder withValueBackReference(java.lang.String, int);
+  public android.content.ContentProviderOperation$Builder withSelectionBackReference(int, int);
+  public android.content.ContentProviderOperation$Builder withValues(android.content.ContentValues);
+  public android.content.ContentProviderOperation$Builder withValue(java.lang.String, java.lang.Object);
+  public android.content.ContentProviderOperation$Builder withSelection(java.lang.String, java.lang.String[]);
+  public android.content.ContentProviderOperation$Builder withExpectedCount(int);
+  public android.content.ContentProviderOperation$Builder withYieldAllowed(boolean);
+}

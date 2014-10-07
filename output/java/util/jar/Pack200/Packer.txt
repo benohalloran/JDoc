@@ -1,0 +1,27 @@
+Compiled from "Pack200.java"
+public interface java.util.jar.Pack200$Packer {
+  public static final java.lang.String CLASS_ATTRIBUTE_PFX;
+  public static final java.lang.String CODE_ATTRIBUTE_PFX;
+  public static final java.lang.String DEFLATE_HINT;
+  public static final java.lang.String EFFORT;
+  public static final java.lang.String ERROR;
+  public static final java.lang.String FALSE;
+  public static final java.lang.String FIELD_ATTRIBUTE_PFX;
+  public static final java.lang.String KEEP;
+  public static final java.lang.String KEEP_FILE_ORDER;
+  public static final java.lang.String LATEST;
+  public static final java.lang.String METHOD_ATTRIBUTE_PFX;
+  public static final java.lang.String MODIFICATION_TIME;
+  public static final java.lang.String PASS;
+  public static final java.lang.String PASS_FILE_PFX;
+  public static final java.lang.String PROGRESS;
+  public static final java.lang.String SEGMENT_LIMIT;
+  public static final java.lang.String STRIP;
+  public static final java.lang.String TRUE;
+  public static final java.lang.String UNKNOWN_ATTRIBUTE;
+  public abstract java.util.SortedMap<java.lang.String, java.lang.String> properties();
+  public abstract void pack(java.util.jar.JarFile, java.io.OutputStream) throws java.io.IOException;
+  public abstract void pack(java.util.jar.JarInputStream, java.io.OutputStream) throws java.io.IOException;
+  public abstract void addPropertyChangeListener(java.beans.PropertyChangeListener);
+  public abstract void removePropertyChangeListener(java.beans.PropertyChangeListener);
+}

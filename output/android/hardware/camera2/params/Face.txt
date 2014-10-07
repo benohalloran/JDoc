@@ -1,0 +1,14 @@
+Compiled from "Face.java"
+public final class android.hardware.camera2.params.Face {
+  public static final int ID_UNSUPPORTED;
+  public static final int SCORE_MAX;
+  public static final int SCORE_MIN;
+  android.hardware.camera2.params.Face();
+  public android.graphics.Rect getBounds();
+  public int getScore();
+  public int getId();
+  public android.graphics.Point getLeftEyePosition();
+  public android.graphics.Point getRightEyePosition();
+  public android.graphics.Point getMouthPosition();
+  public java.lang.String toString();
+}

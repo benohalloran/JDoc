@@ -1,0 +1,14 @@
+Compiled from "WindowId.java"
+public class android.view.WindowId implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.WindowId> CREATOR;
+  android.view.WindowId();
+  public boolean isFocused();
+  public void registerFocusObserver(android.view.WindowId$FocusObserver);
+  public void unregisterFocusObserver(android.view.WindowId$FocusObserver);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

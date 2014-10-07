@@ -1,0 +1,6 @@
+Compiled from "BluetoothHealthCallback.java"
+public abstract class android.bluetooth.BluetoothHealthCallback {
+  public android.bluetooth.BluetoothHealthCallback();
+  public void onHealthAppConfigurationStatusChange(android.bluetooth.BluetoothHealthAppConfiguration, int);
+  public void onHealthChannelStateChange(android.bluetooth.BluetoothHealthAppConfiguration, android.bluetooth.BluetoothDevice, int, int, android.os.ParcelFileDescriptor, int);
+}

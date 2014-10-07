@@ -1,0 +1,20 @@
+Compiled from "Identity.java"
+public abstract class java.security.Identity implements java.security.Principal,java.io.Serializable {
+  protected java.security.Identity();
+  public java.security.Identity(java.lang.String);
+  public java.security.Identity(java.lang.String, java.security.IdentityScope) throws java.security.KeyManagementException;
+  public void addCertificate(java.security.Certificate) throws java.security.KeyManagementException;
+  public void removeCertificate(java.security.Certificate) throws java.security.KeyManagementException;
+  public java.security.Certificate[] certificates();
+  protected boolean identityEquals(java.security.Identity);
+  public java.lang.String toString(boolean);
+  public final java.security.IdentityScope getScope();
+  public void setPublicKey(java.security.PublicKey) throws java.security.KeyManagementException;
+  public java.security.PublicKey getPublicKey();
+  public void setInfo(java.lang.String);
+  public java.lang.String getInfo();
+  public final boolean equals(java.lang.Object);
+  public final java.lang.String getName();
+  public int hashCode();
+  public java.lang.String toString();
+}

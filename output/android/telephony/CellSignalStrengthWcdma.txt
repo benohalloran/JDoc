@@ -1,0 +1,14 @@
+Compiled from "CellSignalStrengthWcdma.java"
+public final class android.telephony.CellSignalStrengthWcdma extends android.telephony.CellSignalStrength implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.telephony.CellSignalStrengthWcdma> CREATOR;
+  android.telephony.CellSignalStrengthWcdma();
+  public int getLevel();
+  public int getDbm();
+  public int getAsuLevel();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  static {};
+}

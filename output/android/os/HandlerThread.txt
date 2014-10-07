@@ -1,0 +1,11 @@
+Compiled from "HandlerThread.java"
+public class android.os.HandlerThread extends java.lang.Thread {
+  public android.os.HandlerThread(java.lang.String);
+  public android.os.HandlerThread(java.lang.String, int);
+  protected void onLooperPrepared();
+  public void run();
+  public android.os.Looper getLooper();
+  public boolean quit();
+  public boolean quitSafely();
+  public int getThreadId();
+}

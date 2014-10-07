@@ -1,0 +1,12 @@
+Compiled from "LauncherActivityInfo.java"
+public class android.content.pm.LauncherActivityInfo {
+  android.content.pm.LauncherActivityInfo();
+  public android.content.ComponentName getComponentName();
+  public android.os.UserHandle getUser();
+  public java.lang.CharSequence getLabel();
+  public android.graphics.drawable.Drawable getIcon(int);
+  public android.content.pm.ApplicationInfo getApplicationInfo();
+  public long getFirstInstallTime();
+  public java.lang.String getName();
+  public android.graphics.drawable.Drawable getBadgedIcon(int);
+}

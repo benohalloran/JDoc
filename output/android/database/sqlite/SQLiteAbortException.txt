@@ -1,0 +1,5 @@
+Compiled from "SQLiteAbortException.java"
+public class android.database.sqlite.SQLiteAbortException extends android.database.sqlite.SQLiteException {
+  public android.database.sqlite.SQLiteAbortException();
+  public android.database.sqlite.SQLiteAbortException(java.lang.String);
+}

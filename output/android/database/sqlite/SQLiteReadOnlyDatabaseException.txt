@@ -1,0 +1,5 @@
+Compiled from "SQLiteReadOnlyDatabaseException.java"
+public class android.database.sqlite.SQLiteReadOnlyDatabaseException extends android.database.sqlite.SQLiteException {
+  public android.database.sqlite.SQLiteReadOnlyDatabaseException();
+  public android.database.sqlite.SQLiteReadOnlyDatabaseException(java.lang.String);
+}

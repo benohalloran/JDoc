@@ -1,0 +1,5 @@
+Compiled from "GeofenceHardwareMonitorCallback.java"
+public abstract class android.hardware.location.GeofenceHardwareMonitorCallback {
+  public android.hardware.location.GeofenceHardwareMonitorCallback();
+  public void onMonitoringSystemChange(int, boolean, android.location.Location);
+}

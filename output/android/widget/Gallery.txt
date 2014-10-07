@@ -1,0 +1,41 @@
+Compiled from "Gallery.java"
+public class android.widget.Gallery extends android.widget.AbsSpinner implements android.view.GestureDetector$OnGestureListener {
+  public android.widget.Gallery(android.content.Context);
+  public android.widget.Gallery(android.content.Context, android.util.AttributeSet);
+  public android.widget.Gallery(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.Gallery(android.content.Context, android.util.AttributeSet, int, int);
+  public void setCallbackDuringFling(boolean);
+  public void setAnimationDuration(int);
+  public void setSpacing(int);
+  public void setUnselectedAlpha(float);
+  protected boolean getChildStaticTransformation(android.view.View, android.view.animation.Transformation);
+  protected int computeHorizontalScrollExtent();
+  protected int computeHorizontalScrollOffset();
+  protected int computeHorizontalScrollRange();
+  protected boolean checkLayoutParams(android.view.ViewGroup$LayoutParams);
+  protected android.view.ViewGroup$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams);
+  public android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet);
+  protected android.view.ViewGroup$LayoutParams generateDefaultLayoutParams();
+  protected void onLayout(boolean, int, int, int, int);
+  public boolean onTouchEvent(android.view.MotionEvent);
+  public boolean onSingleTapUp(android.view.MotionEvent);
+  public boolean onFling(android.view.MotionEvent, android.view.MotionEvent, float, float);
+  public boolean onScroll(android.view.MotionEvent, android.view.MotionEvent, float, float);
+  public boolean onDown(android.view.MotionEvent);
+  public void onLongPress(android.view.MotionEvent);
+  public void onShowPress(android.view.MotionEvent);
+  public void dispatchSetSelected(boolean);
+  protected void dispatchSetPressed(boolean);
+  protected android.view.ContextMenu$ContextMenuInfo getContextMenuInfo();
+  public boolean showContextMenuForChild(android.view.View);
+  public boolean showContextMenu();
+  public boolean dispatchKeyEvent(android.view.KeyEvent);
+  public boolean onKeyDown(int, android.view.KeyEvent);
+  public boolean onKeyUp(int, android.view.KeyEvent);
+  public void setGravity(int);
+  protected int getChildDrawingOrder(int, int);
+  protected void onFocusChanged(boolean, int, android.graphics.Rect);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public boolean performAccessibilityAction(int, android.os.Bundle);
+}

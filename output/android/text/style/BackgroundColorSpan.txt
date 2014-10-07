@@ -1,0 +1,10 @@
+Compiled from "BackgroundColorSpan.java"
+public class android.text.style.BackgroundColorSpan extends android.text.style.CharacterStyle implements android.text.style.UpdateAppearance,android.text.ParcelableSpan {
+  public android.text.style.BackgroundColorSpan(int);
+  public android.text.style.BackgroundColorSpan(android.os.Parcel);
+  public int getSpanTypeId();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int getBackgroundColor();
+  public void updateDrawState(android.text.TextPaint);
+}

@@ -1,0 +1,4 @@
+Compiled from "Virtualizer.java"
+public interface android.media.audiofx.Virtualizer$OnParameterChangeListener {
+  public abstract void onParameterChange(android.media.audiofx.Virtualizer, int, int, short);
+}

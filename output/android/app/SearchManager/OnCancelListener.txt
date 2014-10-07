@@ -1,0 +1,4 @@
+Compiled from "SearchManager.java"
+public interface android.app.SearchManager$OnCancelListener {
+  public abstract void onCancel();
+}

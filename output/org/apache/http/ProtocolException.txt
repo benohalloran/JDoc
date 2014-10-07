@@ -1,0 +1,6 @@
+Compiled from "ProtocolException.java"
+public class org.apache.http.ProtocolException extends org.apache.http.HttpException {
+  public org.apache.http.ProtocolException();
+  public org.apache.http.ProtocolException(java.lang.String);
+  public org.apache.http.ProtocolException(java.lang.String, java.lang.Throwable);
+}

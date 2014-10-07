@@ -1,0 +1,6 @@
+Compiled from "MediaStore.java"
+public final class android.provider.MediaStore$Files {
+  public android.provider.MediaStore$Files();
+  public static android.net.Uri getContentUri(java.lang.String);
+  public static final android.net.Uri getContentUri(java.lang.String, long);
+}

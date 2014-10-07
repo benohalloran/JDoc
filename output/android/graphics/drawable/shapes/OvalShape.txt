@@ -1,0 +1,6 @@
+Compiled from "OvalShape.java"
+public class android.graphics.drawable.shapes.OvalShape extends android.graphics.drawable.shapes.RectShape {
+  public android.graphics.drawable.shapes.OvalShape();
+  public void draw(android.graphics.Canvas, android.graphics.Paint);
+  public boolean getOutline(android.graphics.Outline);
+}

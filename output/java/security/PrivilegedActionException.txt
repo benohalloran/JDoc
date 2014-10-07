@@ -1,0 +1,5 @@
+Compiled from "PrivilegedActionException.java"
+public class java.security.PrivilegedActionException extends java.lang.Exception {
+  public java.security.PrivilegedActionException(java.lang.Exception);
+  public java.lang.Exception getException();
+}

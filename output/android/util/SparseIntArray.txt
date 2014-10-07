@@ -1,0 +1,20 @@
+Compiled from "SparseIntArray.java"
+public class android.util.SparseIntArray implements java.lang.Cloneable {
+  public android.util.SparseIntArray();
+  public android.util.SparseIntArray(int);
+  public android.util.SparseIntArray clone();
+  public int get(int);
+  public int get(int, int);
+  public void delete(int);
+  public void removeAt(int);
+  public void put(int, int);
+  public int size();
+  public int keyAt(int);
+  public int valueAt(int);
+  public int indexOfKey(int);
+  public int indexOfValue(int);
+  public void clear();
+  public void append(int, int);
+  public java.lang.String toString();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

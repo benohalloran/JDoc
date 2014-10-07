@@ -1,0 +1,18 @@
+Compiled from "MotionEvent.java"
+public final class android.view.MotionEvent$PointerCoords {
+  public float orientation;
+  public float pressure;
+  public float size;
+  public float toolMajor;
+  public float toolMinor;
+  public float touchMajor;
+  public float touchMinor;
+  public float x;
+  public float y;
+  public android.view.MotionEvent$PointerCoords();
+  public android.view.MotionEvent$PointerCoords(android.view.MotionEvent$PointerCoords);
+  public void clear();
+  public void copyFrom(android.view.MotionEvent$PointerCoords);
+  public float getAxisValue(int);
+  public void setAxisValue(int, float);
+}

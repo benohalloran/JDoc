@@ -1,0 +1,11 @@
+Compiled from "XPathConstants.java"
+public class javax.xml.xpath.XPathConstants {
+  public static final javax.xml.namespace.QName BOOLEAN;
+  public static final java.lang.String DOM_OBJECT_MODEL;
+  public static final javax.xml.namespace.QName NODE;
+  public static final javax.xml.namespace.QName NODESET;
+  public static final javax.xml.namespace.QName NUMBER;
+  public static final javax.xml.namespace.QName STRING;
+  javax.xml.xpath.XPathConstants();
+  static {};
+}

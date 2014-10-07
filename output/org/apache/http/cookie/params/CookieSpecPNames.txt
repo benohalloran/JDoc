@@ -1,0 +1,5 @@
+Compiled from "CookieSpecPNames.java"
+public interface org.apache.http.cookie.params.CookieSpecPNames {
+  public static final java.lang.String DATE_PATTERNS;
+  public static final java.lang.String SINGLE_COOKIE_HEADER;
+}

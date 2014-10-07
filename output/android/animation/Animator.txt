@@ -1,0 +1,29 @@
+Compiled from "Animator.java"
+public abstract class android.animation.Animator implements java.lang.Cloneable {
+  public android.animation.Animator();
+  public void start();
+  public void cancel();
+  public void end();
+  public void pause();
+  public void resume();
+  public boolean isPaused();
+  public abstract long getStartDelay();
+  public abstract void setStartDelay(long);
+  public abstract android.animation.Animator setDuration(long);
+  public abstract long getDuration();
+  public abstract void setInterpolator(android.animation.TimeInterpolator);
+  public android.animation.TimeInterpolator getInterpolator();
+  public abstract boolean isRunning();
+  public boolean isStarted();
+  public void addListener(android.animation.Animator$AnimatorListener);
+  public void removeListener(android.animation.Animator$AnimatorListener);
+  public java.util.ArrayList<android.animation.Animator$AnimatorListener> getListeners();
+  public void addPauseListener(android.animation.Animator$AnimatorPauseListener);
+  public void removePauseListener(android.animation.Animator$AnimatorPauseListener);
+  public void removeAllListeners();
+  public android.animation.Animator clone();
+  public void setupStartValues();
+  public void setupEndValues();
+  public void setTarget(java.lang.Object);
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

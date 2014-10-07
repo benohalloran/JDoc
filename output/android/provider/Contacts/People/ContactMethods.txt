@@ -1,0 +1,6 @@
+Compiled from "Contacts.java"
+public final class android.provider.Contacts$People$ContactMethods implements android.provider.BaseColumns,android.provider.Contacts$ContactMethodsColumns,android.provider.Contacts$PeopleColumns {
+  public static final java.lang.String CONTENT_DIRECTORY;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  android.provider.Contacts$People$ContactMethods();
+}

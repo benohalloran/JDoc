@@ -1,0 +1,20 @@
+Compiled from "Provider.java"
+public abstract class java.security.Provider extends java.util.Properties {
+  protected java.security.Provider(java.lang.String, double, java.lang.String);
+  public java.lang.String getName();
+  public double getVersion();
+  public java.lang.String getInfo();
+  public java.lang.String toString();
+  public synchronized void clear();
+  public synchronized void load(java.io.InputStream) throws java.io.IOException;
+  public synchronized void putAll(java.util.Map<?, ?>);
+  public synchronized java.util.Set<java.util.Map$Entry<java.lang.Object, java.lang.Object>> entrySet();
+  public java.util.Set<java.lang.Object> keySet();
+  public java.util.Collection<java.lang.Object> values();
+  public synchronized java.lang.Object put(java.lang.Object, java.lang.Object);
+  public synchronized java.lang.Object remove(java.lang.Object);
+  public synchronized java.security.Provider$Service getService(java.lang.String, java.lang.String);
+  public synchronized java.util.Set<java.security.Provider$Service> getServices();
+  protected synchronized void putService(java.security.Provider$Service);
+  protected synchronized void removeService(java.security.Provider$Service);
+}

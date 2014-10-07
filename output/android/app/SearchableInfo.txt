@@ -1,0 +1,32 @@
+Compiled from "SearchableInfo.java"
+public final class android.app.SearchableInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.app.SearchableInfo> CREATOR;
+  android.app.SearchableInfo();
+  public java.lang.String getSuggestAuthority();
+  public java.lang.String getSuggestPackage();
+  public android.content.ComponentName getSearchActivity();
+  public boolean shouldRewriteQueryFromData();
+  public boolean shouldRewriteQueryFromText();
+  public int getSettingsDescriptionId();
+  public java.lang.String getSuggestPath();
+  public java.lang.String getSuggestSelection();
+  public java.lang.String getSuggestIntentAction();
+  public java.lang.String getSuggestIntentData();
+  public int getSuggestThreshold();
+  public int getHintId();
+  public boolean getVoiceSearchEnabled();
+  public boolean getVoiceSearchLaunchWebSearch();
+  public boolean getVoiceSearchLaunchRecognizer();
+  public int getVoiceLanguageModeId();
+  public int getVoicePromptTextId();
+  public int getVoiceLanguageId();
+  public int getVoiceMaxResults();
+  public int getInputType();
+  public int getImeOptions();
+  public boolean shouldIncludeInGlobalSearch();
+  public boolean queryAfterZeroResults();
+  public boolean autoUrlDetect();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

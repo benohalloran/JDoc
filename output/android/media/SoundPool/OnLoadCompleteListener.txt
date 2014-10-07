@@ -1,0 +1,4 @@
+Compiled from "SoundPool.java"
+public interface android.media.SoundPool$OnLoadCompleteListener {
+  public abstract void onLoadComplete(android.media.SoundPool, int, int);
+}

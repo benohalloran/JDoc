@@ -1,0 +1,7 @@
+Compiled from "PointFEvaluator.java"
+public class android.animation.PointFEvaluator implements android.animation.TypeEvaluator<android.graphics.PointF> {
+  public android.animation.PointFEvaluator();
+  public android.animation.PointFEvaluator(android.graphics.PointF);
+  public android.graphics.PointF evaluate(float, android.graphics.PointF, android.graphics.PointF);
+  public java.lang.Object evaluate(float, java.lang.Object, java.lang.Object);
+}

@@ -1,0 +1,15 @@
+Compiled from "ClientParamBean.java"
+public class org.apache.http.client.params.ClientParamBean extends org.apache.http.params.HttpAbstractParamBean {
+  public org.apache.http.client.params.ClientParamBean(org.apache.http.params.HttpParams);
+  public void setConnectionManagerFactoryClassName(java.lang.String);
+  public void setConnectionManagerFactory(org.apache.http.conn.ClientConnectionManagerFactory);
+  public void setHandleRedirects(boolean);
+  public void setRejectRelativeRedirect(boolean);
+  public void setMaxRedirects(int);
+  public void setAllowCircularRedirects(boolean);
+  public void setHandleAuthentication(boolean);
+  public void setCookiePolicy(java.lang.String);
+  public void setVirtualHost(org.apache.http.HttpHost);
+  public void setDefaultHeaders(java.util.Collection<org.apache.http.Header>);
+  public void setDefaultHost(org.apache.http.HttpHost);
+}

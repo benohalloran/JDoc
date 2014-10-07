@@ -1,0 +1,4 @@
+Compiled from "Predicate.java"
+public interface com.android.internal.util.Predicate<T> {
+  public abstract boolean apply(T);
+}

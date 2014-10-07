@@ -1,0 +1,10 @@
+Compiled from "ScanCallback.java"
+public abstract class android.bluetooth.le.ScanCallback {
+  public static final int SCAN_FAILED_ALREADY_STARTED;
+  public static final int SCAN_FAILED_APPLICATION_REGISTRATION_FAILED;
+  public static final int SCAN_FAILED_CONTROLLER_FAILURE;
+  public static final int SCAN_FAILED_GATT_SERVICE_FAILURE;
+  public android.bluetooth.le.ScanCallback();
+  public abstract void onAdvertisementUpdate(android.bluetooth.le.ScanResult);
+  public abstract void onScanFailed(int);
+}

@@ -1,0 +1,7 @@
+Compiled from "CrossProcessCursorWrapper.java"
+public class android.database.CrossProcessCursorWrapper extends android.database.CursorWrapper implements android.database.CrossProcessCursor {
+  public android.database.CrossProcessCursorWrapper(android.database.Cursor);
+  public void fillWindow(int, android.database.CursorWindow);
+  public android.database.CursorWindow getWindow();
+  public boolean onMove(int, int);
+}

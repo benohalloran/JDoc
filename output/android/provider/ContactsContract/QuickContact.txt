@@ -1,0 +1,9 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$QuickContact {
+  public static final int MODE_LARGE;
+  public static final int MODE_MEDIUM;
+  public static final int MODE_SMALL;
+  public android.provider.ContactsContract$QuickContact();
+  public static void showQuickContact(android.content.Context, android.view.View, android.net.Uri, int, java.lang.String[]);
+  public static void showQuickContact(android.content.Context, android.graphics.Rect, android.net.Uri, int, java.lang.String[]);
+}

@@ -1,0 +1,23 @@
+Compiled from "Matrix3f.java"
+public class android.renderscript.Matrix3f {
+  public android.renderscript.Matrix3f();
+  public android.renderscript.Matrix3f(float[]);
+  public float[] getArray();
+  public float get(int, int);
+  public void set(int, int, float);
+  public void loadIdentity();
+  public void load(android.renderscript.Matrix3f);
+  public void loadRotate(float, float, float, float);
+  public void loadRotate(float);
+  public void loadScale(float, float);
+  public void loadScale(float, float, float);
+  public void loadTranslate(float, float);
+  public void loadMultiply(android.renderscript.Matrix3f, android.renderscript.Matrix3f);
+  public void multiply(android.renderscript.Matrix3f);
+  public void rotate(float, float, float, float);
+  public void rotate(float);
+  public void scale(float, float);
+  public void scale(float, float, float);
+  public void translate(float, float);
+  public void transpose();
+}

@@ -1,0 +1,7 @@
+Compiled from "Byte2.java"
+public class android.renderscript.Byte2 {
+  public byte x;
+  public byte y;
+  public android.renderscript.Byte2();
+  public android.renderscript.Byte2(byte, byte);
+}

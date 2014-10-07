@@ -1,0 +1,10 @@
+Compiled from "TextUtils.java"
+public class android.text.TextUtils$SimpleStringSplitter implements android.text.TextUtils$StringSplitter, java.util.Iterator<java.lang.String> {
+  public android.text.TextUtils$SimpleStringSplitter(char);
+  public void setString(java.lang.String);
+  public java.util.Iterator<java.lang.String> iterator();
+  public boolean hasNext();
+  public java.lang.String next();
+  public void remove();
+  public java.lang.Object next();
+}

@@ -1,0 +1,17 @@
+Compiled from "PipedInputStream.java"
+public class java.io.PipedInputStream extends java.io.InputStream {
+  protected static final int PIPE_SIZE;
+  protected byte[] buffer;
+  protected int in;
+  protected int out;
+  public java.io.PipedInputStream();
+  public java.io.PipedInputStream(java.io.PipedOutputStream) throws java.io.IOException;
+  public java.io.PipedInputStream(int);
+  public java.io.PipedInputStream(java.io.PipedOutputStream, int) throws java.io.IOException;
+  public synchronized int available() throws java.io.IOException;
+  public synchronized void close() throws java.io.IOException;
+  public void connect(java.io.PipedOutputStream) throws java.io.IOException;
+  public synchronized int read() throws java.io.IOException;
+  public synchronized int read(byte[], int, int) throws java.io.IOException;
+  protected synchronized void receive(int) throws java.io.IOException;
+}

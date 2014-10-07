@@ -1,0 +1,7 @@
+Compiled from "CommonDataSource.java"
+public interface javax.sql.CommonDataSource {
+  public abstract int getLoginTimeout() throws java.sql.SQLException;
+  public abstract java.io.PrintWriter getLogWriter() throws java.sql.SQLException;
+  public abstract void setLoginTimeout(int) throws java.sql.SQLException;
+  public abstract void setLogWriter(java.io.PrintWriter) throws java.sql.SQLException;
+}

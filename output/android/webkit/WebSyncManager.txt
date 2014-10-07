@@ -1,0 +1,14 @@
+Compiled from "WebSyncManager.java"
+abstract class android.webkit.WebSyncManager implements java.lang.Runnable {
+  protected static final java.lang.String LOGTAG;
+  protected android.webkit.WebViewDatabase mDataBase;
+  protected android.os.Handler mHandler;
+  protected android.webkit.WebSyncManager(android.content.Context, java.lang.String);
+  protected java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+  public void run();
+  public void sync();
+  public void resetSync();
+  public void startSync();
+  public void stopSync();
+  protected void onSyncInit();
+}

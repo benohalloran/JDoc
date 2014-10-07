@@ -1,0 +1,4 @@
+Compiled from "SearchView.java"
+public interface android.widget.SearchView$OnCloseListener {
+  public abstract boolean onClose();
+}

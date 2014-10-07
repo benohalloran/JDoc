@@ -1,0 +1,6 @@
+Compiled from "Instrumentation.java"
+public final class android.app.Instrumentation$ActivityResult {
+  public android.app.Instrumentation$ActivityResult(int, android.content.Intent);
+  public int getResultCode();
+  public android.content.Intent getResultData();
+}

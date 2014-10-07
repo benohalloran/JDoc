@@ -1,0 +1,6 @@
+Compiled from "PrintManager.java"
+public final class android.print.PrintManager {
+  android.print.PrintManager();
+  public java.util.List<android.print.PrintJob> getPrintJobs();
+  public android.print.PrintJob print(java.lang.String, android.print.PrintDocumentAdapter, android.print.PrintAttributes);
+}

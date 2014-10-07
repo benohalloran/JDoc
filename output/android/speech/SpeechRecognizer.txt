@@ -1,0 +1,23 @@
+Compiled from "SpeechRecognizer.java"
+public class android.speech.SpeechRecognizer {
+  public static final java.lang.String CONFIDENCE_SCORES;
+  public static final int ERROR_AUDIO;
+  public static final int ERROR_CLIENT;
+  public static final int ERROR_INSUFFICIENT_PERMISSIONS;
+  public static final int ERROR_NETWORK;
+  public static final int ERROR_NETWORK_TIMEOUT;
+  public static final int ERROR_NO_MATCH;
+  public static final int ERROR_RECOGNIZER_BUSY;
+  public static final int ERROR_SERVER;
+  public static final int ERROR_SPEECH_TIMEOUT;
+  public static final java.lang.String RESULTS_RECOGNITION;
+  android.speech.SpeechRecognizer();
+  public static boolean isRecognitionAvailable(android.content.Context);
+  public static android.speech.SpeechRecognizer createSpeechRecognizer(android.content.Context);
+  public static android.speech.SpeechRecognizer createSpeechRecognizer(android.content.Context, android.content.ComponentName);
+  public void setRecognitionListener(android.speech.RecognitionListener);
+  public void startListening(android.content.Intent);
+  public void stopListening();
+  public void cancel();
+  public void destroy();
+}

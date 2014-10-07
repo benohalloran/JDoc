@@ -1,0 +1,4 @@
+Compiled from "PresetReverb.java"
+public interface android.media.audiofx.PresetReverb$OnParameterChangeListener {
+  public abstract void onParameterChange(android.media.audiofx.PresetReverb, int, int, short);
+}

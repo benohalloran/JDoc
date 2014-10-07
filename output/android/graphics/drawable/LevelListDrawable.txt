@@ -1,0 +1,8 @@
+Compiled from "LevelListDrawable.java"
+public class android.graphics.drawable.LevelListDrawable extends android.graphics.drawable.DrawableContainer {
+  public android.graphics.drawable.LevelListDrawable();
+  public void addLevel(int, int, android.graphics.drawable.Drawable);
+  protected boolean onLevelChange(int);
+  public void inflate(android.content.res.Resources, org.xmlpull.v1.XmlPullParser, android.util.AttributeSet, android.content.res.Resources$Theme) throws org.xmlpull.v1.XmlPullParserException, java.io.IOException;
+  public android.graphics.drawable.Drawable mutate();
+}

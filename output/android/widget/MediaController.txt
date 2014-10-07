@@ -1,0 +1,20 @@
+Compiled from "MediaController.java"
+public class android.widget.MediaController extends android.widget.FrameLayout {
+  public android.widget.MediaController(android.content.Context, android.util.AttributeSet);
+  public android.widget.MediaController(android.content.Context, boolean);
+  public android.widget.MediaController(android.content.Context);
+  public void onFinishInflate();
+  public void setMediaPlayer(android.widget.MediaController$MediaPlayerControl);
+  public void setAnchorView(android.view.View);
+  public void show();
+  public void show(int);
+  public boolean isShowing();
+  public void hide();
+  public boolean onTouchEvent(android.view.MotionEvent);
+  public boolean onTrackballEvent(android.view.MotionEvent);
+  public boolean dispatchKeyEvent(android.view.KeyEvent);
+  public void setEnabled(boolean);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public void setPrevNextListeners(android.view.View$OnClickListener, android.view.View$OnClickListener);
+}

@@ -1,0 +1,6 @@
+Compiled from "OptionalDataException.java"
+public class java.io.OptionalDataException extends java.io.ObjectStreamException {
+  public boolean eof;
+  public int length;
+  java.io.OptionalDataException();
+}

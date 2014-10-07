@@ -1,0 +1,9 @@
+Compiled from "AbsoluteLayout.java"
+public class android.widget.AbsoluteLayout$LayoutParams extends android.view.ViewGroup$LayoutParams {
+  public int x;
+  public int y;
+  public android.widget.AbsoluteLayout$LayoutParams(int, int, int, int);
+  public android.widget.AbsoluteLayout$LayoutParams(android.content.Context, android.util.AttributeSet);
+  public android.widget.AbsoluteLayout$LayoutParams(android.view.ViewGroup$LayoutParams);
+  public java.lang.String debug(java.lang.String);
+}

@@ -1,0 +1,5 @@
+Compiled from "EGLConfig.java"
+public class android.opengl.EGLConfig extends android.opengl.EGLObjectHandle {
+  android.opengl.EGLConfig();
+  public boolean equals(java.lang.Object);
+}

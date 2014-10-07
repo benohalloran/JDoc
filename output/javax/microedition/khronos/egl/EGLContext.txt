@@ -1,0 +1,6 @@
+Compiled from "EGLContext.java"
+public abstract class javax.microedition.khronos.egl.EGLContext {
+  public javax.microedition.khronos.egl.EGLContext();
+  public static javax.microedition.khronos.egl.EGL getEGL();
+  public abstract javax.microedition.khronos.opengles.GL getGL();
+}

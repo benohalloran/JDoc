@@ -1,0 +1,32 @@
+Compiled from "GLSurfaceView.java"
+public class android.opengl.GLSurfaceView extends android.view.SurfaceView implements android.view.SurfaceHolder$Callback {
+  public static final int DEBUG_CHECK_GL_ERROR;
+  public static final int DEBUG_LOG_GL_CALLS;
+  public static final int RENDERMODE_CONTINUOUSLY;
+  public static final int RENDERMODE_WHEN_DIRTY;
+  public android.opengl.GLSurfaceView(android.content.Context);
+  public android.opengl.GLSurfaceView(android.content.Context, android.util.AttributeSet);
+  protected void finalize() throws java.lang.Throwable;
+  public void setGLWrapper(android.opengl.GLSurfaceView$GLWrapper);
+  public void setDebugFlags(int);
+  public int getDebugFlags();
+  public void setPreserveEGLContextOnPause(boolean);
+  public boolean getPreserveEGLContextOnPause();
+  public void setRenderer(android.opengl.GLSurfaceView$Renderer);
+  public void setEGLContextFactory(android.opengl.GLSurfaceView$EGLContextFactory);
+  public void setEGLWindowSurfaceFactory(android.opengl.GLSurfaceView$EGLWindowSurfaceFactory);
+  public void setEGLConfigChooser(android.opengl.GLSurfaceView$EGLConfigChooser);
+  public void setEGLConfigChooser(boolean);
+  public void setEGLConfigChooser(int, int, int, int, int, int);
+  public void setEGLContextClientVersion(int);
+  public void setRenderMode(int);
+  public int getRenderMode();
+  public void requestRender();
+  public void surfaceCreated(android.view.SurfaceHolder);
+  public void surfaceDestroyed(android.view.SurfaceHolder);
+  public void surfaceChanged(android.view.SurfaceHolder, int, int, int);
+  public void onPause();
+  public void onResume();
+  public void queueEvent(java.lang.Runnable);
+  protected void onAttachedToWindow();
+}

@@ -4,9 +4,8 @@ import java.util.concurrent.LinkedBlockingQueue;
 public class Driver {
 	public static final String jarPath = "C:\\Program Files (x86)\\Android\\android-studio\\sdk\\platforms\\android-L\\android.jar";
 	public static final String jdkBin = "";
-	public static final String outputPath = "output_multi\\";
+	public static final String outputPath = "output_multi5\\";
 
-	final static long start = System.currentTimeMillis();
 	static int classCount = 0;
 
 	public static void main(String[] args) throws IOException {
@@ -15,7 +14,7 @@ public class Driver {
 		Thread producer = new Thread(new ProducerThread(queue));
 		producer.start();
 		ThreadGroup group = new ThreadGroup("workers");
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < 10; i++) {
 			Thread t = new Thread(group, new DisasWorker(queue), "Consumer "
 					+ i);
 			t.start();
@@ -23,6 +22,7 @@ public class Driver {
 	}
 
 	static class Timer extends Thread {
+		final static long start = System.currentTimeMillis();
 		public Timer() {
 			super(new Runnable() {
 

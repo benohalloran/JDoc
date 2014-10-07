@@ -1,0 +1,4 @@
+Compiled from "TargetApi.java"
+public interface android.annotation.TargetApi extends java.lang.annotation.Annotation {
+  public abstract int value();
+}

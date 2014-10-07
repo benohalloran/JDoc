@@ -1,0 +1,5 @@
+Compiled from "DefaultDatabaseErrorHandler.java"
+public final class android.database.DefaultDatabaseErrorHandler implements android.database.DatabaseErrorHandler {
+  public android.database.DefaultDatabaseErrorHandler();
+  public void onCorruption(android.database.sqlite.SQLiteDatabase);
+}

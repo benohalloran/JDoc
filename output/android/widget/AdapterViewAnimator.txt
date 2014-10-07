@@ -1,0 +1,37 @@
+Compiled from "AdapterViewAnimator.java"
+public abstract class android.widget.AdapterViewAnimator extends android.widget.AdapterView<android.widget.Adapter> implements android.widget.Advanceable {
+  public android.widget.AdapterViewAnimator(android.content.Context);
+  public android.widget.AdapterViewAnimator(android.content.Context, android.util.AttributeSet);
+  public android.widget.AdapterViewAnimator(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.AdapterViewAnimator(android.content.Context, android.util.AttributeSet, int, int);
+  public void setDisplayedChild(int);
+  public int getDisplayedChild();
+  public void showNext();
+  public void showPrevious();
+  public boolean onTouchEvent(android.view.MotionEvent);
+  protected void onMeasure(int, int);
+  protected void onLayout(boolean, int, int, int, int);
+  public android.os.Parcelable onSaveInstanceState();
+  public void onRestoreInstanceState(android.os.Parcelable);
+  public android.view.View getCurrentView();
+  public android.animation.ObjectAnimator getInAnimation();
+  public void setInAnimation(android.animation.ObjectAnimator);
+  public android.animation.ObjectAnimator getOutAnimation();
+  public void setOutAnimation(android.animation.ObjectAnimator);
+  public void setInAnimation(android.content.Context, int);
+  public void setOutAnimation(android.content.Context, int);
+  public void setAnimateFirstView(boolean);
+  public int getBaseline();
+  public android.widget.Adapter getAdapter();
+  public void setAdapter(android.widget.Adapter);
+  public void setRemoteViewsAdapter(android.content.Intent);
+  public void setSelection(int);
+  public android.view.View getSelectedView();
+  public void deferNotifyDataSetChanged();
+  public boolean onRemoteAdapterConnected();
+  public void onRemoteAdapterDisconnected();
+  public void advance();
+  public void fyiWillBeAdvancedByHostKThx();
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

@@ -1,0 +1,19 @@
+Compiled from "SuggestionsInfo.java"
+public final class android.view.textservice.SuggestionsInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.textservice.SuggestionsInfo> CREATOR;
+  public static final int RESULT_ATTR_HAS_RECOMMENDED_SUGGESTIONS;
+  public static final int RESULT_ATTR_IN_THE_DICTIONARY;
+  public static final int RESULT_ATTR_LOOKS_LIKE_TYPO;
+  public android.view.textservice.SuggestionsInfo(int, java.lang.String[]);
+  public android.view.textservice.SuggestionsInfo(int, java.lang.String[], int, int);
+  public android.view.textservice.SuggestionsInfo(android.os.Parcel);
+  public void writeToParcel(android.os.Parcel, int);
+  public void setCookieAndSequence(int, int);
+  public int getCookie();
+  public int getSequence();
+  public int getSuggestionsAttributes();
+  public int getSuggestionsCount();
+  public java.lang.String getSuggestionAt(int);
+  public int describeContents();
+  static {};
+}

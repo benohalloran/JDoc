@@ -1,0 +1,7 @@
+Compiled from "PrintDocumentInfo.java"
+public final class android.print.PrintDocumentInfo$Builder {
+  public android.print.PrintDocumentInfo$Builder(java.lang.String);
+  public android.print.PrintDocumentInfo$Builder setPageCount(int);
+  public android.print.PrintDocumentInfo$Builder setContentType(int);
+  public android.print.PrintDocumentInfo build();
+}

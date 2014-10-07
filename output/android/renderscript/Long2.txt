@@ -1,0 +1,7 @@
+Compiled from "Long2.java"
+public class android.renderscript.Long2 {
+  public long x;
+  public long y;
+  public android.renderscript.Long2();
+  public android.renderscript.Long2(long, long);
+}

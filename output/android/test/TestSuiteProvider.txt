@@ -1,0 +1,4 @@
+Compiled from "TestSuiteProvider.java"
+public interface android.test.TestSuiteProvider {
+  public abstract junit.framework.TestSuite getTestSuite();
+}

@@ -1,0 +1,24 @@
+Compiled from "MtpObjectInfo.java"
+public final class android.mtp.MtpObjectInfo {
+  android.mtp.MtpObjectInfo();
+  public final int getObjectHandle();
+  public final int getStorageId();
+  public final int getFormat();
+  public final int getProtectionStatus();
+  public final int getCompressedSize();
+  public final int getThumbFormat();
+  public final int getThumbCompressedSize();
+  public final int getThumbPixWidth();
+  public final int getThumbPixHeight();
+  public final int getImagePixWidth();
+  public final int getImagePixHeight();
+  public final int getImagePixDepth();
+  public final int getParent();
+  public final int getAssociationType();
+  public final int getAssociationDesc();
+  public final int getSequenceNumber();
+  public final java.lang.String getName();
+  public final long getDateCreated();
+  public final long getDateModified();
+  public final java.lang.String getKeywords();
+}

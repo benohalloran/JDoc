@@ -1,0 +1,16 @@
+Compiled from "NumberFormat.java"
+public class java.text.NumberFormat$Field extends java.text.Format$Field {
+  public static final java.text.NumberFormat$Field CURRENCY;
+  public static final java.text.NumberFormat$Field DECIMAL_SEPARATOR;
+  public static final java.text.NumberFormat$Field EXPONENT;
+  public static final java.text.NumberFormat$Field EXPONENT_SIGN;
+  public static final java.text.NumberFormat$Field EXPONENT_SYMBOL;
+  public static final java.text.NumberFormat$Field FRACTION;
+  public static final java.text.NumberFormat$Field GROUPING_SEPARATOR;
+  public static final java.text.NumberFormat$Field INTEGER;
+  public static final java.text.NumberFormat$Field PERCENT;
+  public static final java.text.NumberFormat$Field PERMILLE;
+  public static final java.text.NumberFormat$Field SIGN;
+  protected java.text.NumberFormat$Field(java.lang.String);
+  static {};
+}

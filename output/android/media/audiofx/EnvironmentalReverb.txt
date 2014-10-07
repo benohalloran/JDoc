@@ -1,0 +1,37 @@
+Compiled from "EnvironmentalReverb.java"
+public class android.media.audiofx.EnvironmentalReverb extends android.media.audiofx.AudioEffect {
+  public static final int PARAM_DECAY_HF_RATIO;
+  public static final int PARAM_DECAY_TIME;
+  public static final int PARAM_DENSITY;
+  public static final int PARAM_DIFFUSION;
+  public static final int PARAM_REFLECTIONS_DELAY;
+  public static final int PARAM_REFLECTIONS_LEVEL;
+  public static final int PARAM_REVERB_DELAY;
+  public static final int PARAM_REVERB_LEVEL;
+  public static final int PARAM_ROOM_HF_LEVEL;
+  public static final int PARAM_ROOM_LEVEL;
+  public android.media.audiofx.EnvironmentalReverb(int, int) throws java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException, java.lang.RuntimeException;
+  public void setRoomLevel(short) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public short getRoomLevel() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setRoomHFLevel(short) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public short getRoomHFLevel() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setDecayTime(int) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public int getDecayTime() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setDecayHFRatio(short) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public short getDecayHFRatio() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setReflectionsLevel(short) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public short getReflectionsLevel() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setReflectionsDelay(int) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public int getReflectionsDelay() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setReverbLevel(short) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public short getReverbLevel() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setReverbDelay(int) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public int getReverbDelay() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setDiffusion(short) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public short getDiffusion() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setDensity(short) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public short getDensity() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setParameterListener(android.media.audiofx.EnvironmentalReverb$OnParameterChangeListener);
+  public android.media.audiofx.EnvironmentalReverb$Settings getProperties() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setProperties(android.media.audiofx.EnvironmentalReverb$Settings) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+}

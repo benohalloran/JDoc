@@ -1,0 +1,9 @@
+Compiled from "Telephony.java"
+public final class android.provider.Telephony$Threads implements android.provider.Telephony$ThreadsColumns {
+  public static final int BROADCAST_THREAD;
+  public static final int COMMON_THREAD;
+  public static final android.net.Uri CONTENT_URI;
+  public static final android.net.Uri OBSOLETE_THREADS_URI;
+  android.provider.Telephony$Threads();
+  static {};
+}

@@ -1,0 +1,8 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$Contacts$Photo implements android.provider.BaseColumns,android.provider.ContactsContract$DataColumnsWithJoins {
+  public static final java.lang.String CONTENT_DIRECTORY;
+  public static final java.lang.String DISPLAY_PHOTO;
+  public static final java.lang.String PHOTO;
+  public static final java.lang.String PHOTO_FILE_ID;
+  android.provider.ContactsContract$Contacts$Photo();
+}

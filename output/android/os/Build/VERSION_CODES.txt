@@ -1,0 +1,26 @@
+Compiled from "Build.java"
+public class android.os.Build$VERSION_CODES {
+  public static final int BASE;
+  public static final int BASE_1_1;
+  public static final int CUPCAKE;
+  public static final int CUR_DEVELOPMENT;
+  public static final int DONUT;
+  public static final int ECLAIR;
+  public static final int ECLAIR_0_1;
+  public static final int ECLAIR_MR1;
+  public static final int FROYO;
+  public static final int GINGERBREAD;
+  public static final int GINGERBREAD_MR1;
+  public static final int HONEYCOMB;
+  public static final int HONEYCOMB_MR1;
+  public static final int HONEYCOMB_MR2;
+  public static final int ICE_CREAM_SANDWICH;
+  public static final int ICE_CREAM_SANDWICH_MR1;
+  public static final int JELLY_BEAN;
+  public static final int JELLY_BEAN_MR1;
+  public static final int JELLY_BEAN_MR2;
+  public static final int KITKAT;
+  public static final int KITKAT_WATCH;
+  public static final int L;
+  public android.os.Build$VERSION_CODES();
+}

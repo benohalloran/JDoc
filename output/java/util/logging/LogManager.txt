@@ -1,0 +1,17 @@
+Compiled from "LogManager.java"
+public class java.util.logging.LogManager {
+  public static final java.lang.String LOGGING_MXBEAN_NAME;
+  protected java.util.logging.LogManager();
+  public static java.util.logging.LoggingMXBean getLoggingMXBean();
+  public void checkAccess();
+  public synchronized boolean addLogger(java.util.logging.Logger);
+  public synchronized java.util.logging.Logger getLogger(java.lang.String);
+  public synchronized java.util.Enumeration<java.lang.String> getLoggerNames();
+  public static java.util.logging.LogManager getLogManager();
+  public java.lang.String getProperty(java.lang.String);
+  public void readConfiguration() throws java.io.IOException;
+  public void readConfiguration(java.io.InputStream) throws java.io.IOException;
+  public synchronized void reset();
+  public void addPropertyChangeListener(java.beans.PropertyChangeListener);
+  public void removePropertyChangeListener(java.beans.PropertyChangeListener);
+}

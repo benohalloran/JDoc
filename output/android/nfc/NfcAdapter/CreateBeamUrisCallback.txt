@@ -1,0 +1,4 @@
+Compiled from "NfcAdapter.java"
+public interface android.nfc.NfcAdapter$CreateBeamUrisCallback {
+  public abstract android.net.Uri[] createBeamUris(android.nfc.NfcEvent);
+}

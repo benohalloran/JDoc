@@ -1,0 +1,15 @@
+Compiled from "Type.java"
+public final class android.renderscript.Type$CubemapFace extends java.lang.Enum<android.renderscript.Type$CubemapFace> {
+  public static final android.renderscript.Type$CubemapFace NEGATIVE_X;
+  public static final android.renderscript.Type$CubemapFace NEGATIVE_Y;
+  public static final android.renderscript.Type$CubemapFace NEGATIVE_Z;
+  public static final android.renderscript.Type$CubemapFace POSITIVE_X;
+  public static final android.renderscript.Type$CubemapFace POSITIVE_Y;
+  public static final android.renderscript.Type$CubemapFace POSITIVE_Z;
+  public static final android.renderscript.Type$CubemapFace POSITVE_X;
+  public static final android.renderscript.Type$CubemapFace POSITVE_Y;
+  public static final android.renderscript.Type$CubemapFace POSITVE_Z;
+  public static android.renderscript.Type$CubemapFace[] values();
+  public static android.renderscript.Type$CubemapFace valueOf(java.lang.String);
+  static {};
+}

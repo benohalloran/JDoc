@@ -1,0 +1,8 @@
+Compiled from "Long3.java"
+public class android.renderscript.Long3 {
+  public long x;
+  public long y;
+  public long z;
+  public android.renderscript.Long3();
+  public android.renderscript.Long3(long, long, long);
+}

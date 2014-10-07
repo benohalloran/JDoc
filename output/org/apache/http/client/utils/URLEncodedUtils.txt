@@ -1,0 +1,10 @@
+Compiled from "URLEncodedUtils.java"
+public class org.apache.http.client.utils.URLEncodedUtils {
+  public static final java.lang.String CONTENT_TYPE;
+  public org.apache.http.client.utils.URLEncodedUtils();
+  public static java.util.List<org.apache.http.NameValuePair> parse(java.net.URI, java.lang.String);
+  public static java.util.List<org.apache.http.NameValuePair> parse(org.apache.http.HttpEntity) throws java.io.IOException;
+  public static boolean isEncoded(org.apache.http.HttpEntity);
+  public static void parse(java.util.List<org.apache.http.NameValuePair>, java.util.Scanner, java.lang.String);
+  public static java.lang.String format(java.util.List<? extends org.apache.http.NameValuePair>, java.lang.String);
+}

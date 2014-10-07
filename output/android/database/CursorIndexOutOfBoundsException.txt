@@ -1,0 +1,5 @@
+Compiled from "CursorIndexOutOfBoundsException.java"
+public class android.database.CursorIndexOutOfBoundsException extends java.lang.IndexOutOfBoundsException {
+  public android.database.CursorIndexOutOfBoundsException(int, int);
+  public android.database.CursorIndexOutOfBoundsException(java.lang.String);
+}

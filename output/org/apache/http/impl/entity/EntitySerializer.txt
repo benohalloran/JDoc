@@ -1,0 +1,6 @@
+Compiled from "EntitySerializer.java"
+public class org.apache.http.impl.entity.EntitySerializer {
+  public org.apache.http.impl.entity.EntitySerializer(org.apache.http.entity.ContentLengthStrategy);
+  protected java.io.OutputStream doSerialize(org.apache.http.io.SessionOutputBuffer, org.apache.http.HttpMessage) throws org.apache.http.HttpException, java.io.IOException;
+  public void serialize(org.apache.http.io.SessionOutputBuffer, org.apache.http.HttpMessage, org.apache.http.HttpEntity) throws org.apache.http.HttpException, java.io.IOException;
+}

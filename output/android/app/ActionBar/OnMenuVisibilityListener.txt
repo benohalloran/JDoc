@@ -1,0 +1,4 @@
+Compiled from "ActionBar.java"
+public interface android.app.ActionBar$OnMenuVisibilityListener {
+  public abstract void onMenuVisibilityChanged(boolean);
+}

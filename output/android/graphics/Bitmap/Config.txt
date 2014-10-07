@@ -1,0 +1,10 @@
+Compiled from "Bitmap.java"
+public final class android.graphics.Bitmap$Config extends java.lang.Enum<android.graphics.Bitmap$Config> {
+  public static final android.graphics.Bitmap$Config ALPHA_8;
+  public static final android.graphics.Bitmap$Config ARGB_4444;
+  public static final android.graphics.Bitmap$Config ARGB_8888;
+  public static final android.graphics.Bitmap$Config RGB_565;
+  public static android.graphics.Bitmap$Config[] values();
+  public static android.graphics.Bitmap$Config valueOf(java.lang.String);
+  static {};
+}

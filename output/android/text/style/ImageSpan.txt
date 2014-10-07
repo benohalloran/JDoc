@@ -1,0 +1,17 @@
+Compiled from "ImageSpan.java"
+public class android.text.style.ImageSpan extends android.text.style.DynamicDrawableSpan {
+  public android.text.style.ImageSpan(android.graphics.Bitmap);
+  public android.text.style.ImageSpan(android.graphics.Bitmap, int);
+  public android.text.style.ImageSpan(android.content.Context, android.graphics.Bitmap);
+  public android.text.style.ImageSpan(android.content.Context, android.graphics.Bitmap, int);
+  public android.text.style.ImageSpan(android.graphics.drawable.Drawable);
+  public android.text.style.ImageSpan(android.graphics.drawable.Drawable, int);
+  public android.text.style.ImageSpan(android.graphics.drawable.Drawable, java.lang.String);
+  public android.text.style.ImageSpan(android.graphics.drawable.Drawable, java.lang.String, int);
+  public android.text.style.ImageSpan(android.content.Context, android.net.Uri);
+  public android.text.style.ImageSpan(android.content.Context, android.net.Uri, int);
+  public android.text.style.ImageSpan(android.content.Context, int);
+  public android.text.style.ImageSpan(android.content.Context, int, int);
+  public android.graphics.drawable.Drawable getDrawable();
+  public java.lang.String getSource();
+}

@@ -1,0 +1,7 @@
+Compiled from "AndroidRuntimeException.java"
+public class android.util.AndroidRuntimeException extends java.lang.RuntimeException {
+  public android.util.AndroidRuntimeException();
+  public android.util.AndroidRuntimeException(java.lang.String);
+  public android.util.AndroidRuntimeException(java.lang.String, java.lang.Throwable);
+  public android.util.AndroidRuntimeException(java.lang.Exception);
+}

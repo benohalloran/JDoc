@@ -1,0 +1,39 @@
+Compiled from "MockResources.java"
+public class android.test.mock.MockResources extends android.content.res.Resources {
+  public android.test.mock.MockResources();
+  public void updateConfiguration(android.content.res.Configuration, android.util.DisplayMetrics);
+  public java.lang.CharSequence getText(int) throws android.content.res.Resources$NotFoundException;
+  public java.lang.CharSequence getQuantityText(int, int) throws android.content.res.Resources$NotFoundException;
+  public java.lang.String getString(int) throws android.content.res.Resources$NotFoundException;
+  public java.lang.String getString(int, java.lang.Object...) throws android.content.res.Resources$NotFoundException;
+  public java.lang.String getQuantityString(int, int, java.lang.Object...) throws android.content.res.Resources$NotFoundException;
+  public java.lang.String getQuantityString(int, int) throws android.content.res.Resources$NotFoundException;
+  public java.lang.CharSequence getText(int, java.lang.CharSequence);
+  public java.lang.CharSequence[] getTextArray(int) throws android.content.res.Resources$NotFoundException;
+  public java.lang.String[] getStringArray(int) throws android.content.res.Resources$NotFoundException;
+  public int[] getIntArray(int) throws android.content.res.Resources$NotFoundException;
+  public android.content.res.TypedArray obtainTypedArray(int) throws android.content.res.Resources$NotFoundException;
+  public float getDimension(int) throws android.content.res.Resources$NotFoundException;
+  public int getDimensionPixelOffset(int) throws android.content.res.Resources$NotFoundException;
+  public int getDimensionPixelSize(int) throws android.content.res.Resources$NotFoundException;
+  public android.graphics.drawable.Drawable getDrawable(int) throws android.content.res.Resources$NotFoundException;
+  public android.graphics.Movie getMovie(int) throws android.content.res.Resources$NotFoundException;
+  public int getColor(int) throws android.content.res.Resources$NotFoundException;
+  public android.content.res.ColorStateList getColorStateList(int) throws android.content.res.Resources$NotFoundException;
+  public int getInteger(int) throws android.content.res.Resources$NotFoundException;
+  public android.content.res.XmlResourceParser getLayout(int) throws android.content.res.Resources$NotFoundException;
+  public android.content.res.XmlResourceParser getAnimation(int) throws android.content.res.Resources$NotFoundException;
+  public android.content.res.XmlResourceParser getXml(int) throws android.content.res.Resources$NotFoundException;
+  public java.io.InputStream openRawResource(int) throws android.content.res.Resources$NotFoundException;
+  public android.content.res.AssetFileDescriptor openRawResourceFd(int) throws android.content.res.Resources$NotFoundException;
+  public void getValue(int, android.util.TypedValue, boolean) throws android.content.res.Resources$NotFoundException;
+  public void getValue(java.lang.String, android.util.TypedValue, boolean) throws android.content.res.Resources$NotFoundException;
+  public android.content.res.TypedArray obtainAttributes(android.util.AttributeSet, int[]);
+  public android.util.DisplayMetrics getDisplayMetrics();
+  public android.content.res.Configuration getConfiguration();
+  public int getIdentifier(java.lang.String, java.lang.String, java.lang.String);
+  public java.lang.String getResourceName(int) throws android.content.res.Resources$NotFoundException;
+  public java.lang.String getResourcePackageName(int) throws android.content.res.Resources$NotFoundException;
+  public java.lang.String getResourceTypeName(int) throws android.content.res.Resources$NotFoundException;
+  public java.lang.String getResourceEntryName(int) throws android.content.res.Resources$NotFoundException;
+}

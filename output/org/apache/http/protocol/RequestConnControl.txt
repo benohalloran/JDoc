@@ -1,0 +1,5 @@
+Compiled from "RequestConnControl.java"
+public class org.apache.http.protocol.RequestConnControl implements org.apache.http.HttpRequestInterceptor {
+  public org.apache.http.protocol.RequestConnControl();
+  public void process(org.apache.http.HttpRequest, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException, java.io.IOException;
+}

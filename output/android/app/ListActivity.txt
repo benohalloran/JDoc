@@ -1,0 +1,14 @@
+Compiled from "ListActivity.java"
+public class android.app.ListActivity extends android.app.Activity {
+  public android.app.ListActivity();
+  protected void onListItemClick(android.widget.ListView, android.view.View, int, long);
+  protected void onRestoreInstanceState(android.os.Bundle);
+  protected void onDestroy();
+  public void onContentChanged();
+  public void setListAdapter(android.widget.ListAdapter);
+  public void setSelection(int);
+  public int getSelectedItemPosition();
+  public long getSelectedItemId();
+  public android.widget.ListView getListView();
+  public android.widget.ListAdapter getListAdapter();
+}

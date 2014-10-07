@@ -1,0 +1,13 @@
+Compiled from "JobInfo.java"
+public final class android.app.job.JobInfo$Builder {
+  public android.app.job.JobInfo$Builder(int, android.content.ComponentName);
+  public android.app.job.JobInfo$Builder setExtras(android.os.PersistableBundle);
+  public android.app.job.JobInfo$Builder setRequiredNetworkCapabilities(int);
+  public android.app.job.JobInfo$Builder setRequiresCharging(boolean);
+  public android.app.job.JobInfo$Builder setRequiresDeviceIdle(boolean);
+  public android.app.job.JobInfo$Builder setPeriodic(long);
+  public android.app.job.JobInfo$Builder setMinimumLatency(long);
+  public android.app.job.JobInfo$Builder setOverrideDeadline(long);
+  public android.app.job.JobInfo$Builder setBackoffCriteria(long, int);
+  public android.app.job.JobInfo build();
+}

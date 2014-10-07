@@ -1,0 +1,37 @@
+Compiled from "RestrictionEntry.java"
+public class android.content.RestrictionEntry implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.RestrictionEntry> CREATOR;
+  public static final int TYPE_BOOLEAN;
+  public static final int TYPE_CHOICE;
+  public static final int TYPE_MULTI_SELECT;
+  public static final int TYPE_NULL;
+  public android.content.RestrictionEntry(java.lang.String, java.lang.String);
+  public android.content.RestrictionEntry(java.lang.String, boolean);
+  public android.content.RestrictionEntry(java.lang.String, java.lang.String[]);
+  public android.content.RestrictionEntry(android.os.Parcel);
+  public void setType(int);
+  public int getType();
+  public java.lang.String getSelectedString();
+  public java.lang.String[] getAllSelectedStrings();
+  public boolean getSelectedState();
+  public void setSelectedString(java.lang.String);
+  public void setSelectedState(boolean);
+  public void setAllSelectedStrings(java.lang.String[]);
+  public void setChoiceValues(java.lang.String[]);
+  public void setChoiceValues(android.content.Context, int);
+  public java.lang.String[] getChoiceValues();
+  public void setChoiceEntries(java.lang.String[]);
+  public void setChoiceEntries(android.content.Context, int);
+  public java.lang.String[] getChoiceEntries();
+  public java.lang.String getDescription();
+  public void setDescription(java.lang.String);
+  public java.lang.String getKey();
+  public java.lang.String getTitle();
+  public void setTitle(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String toString();
+  static {};
+}

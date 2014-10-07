@@ -1,0 +1,20 @@
+Compiled from "AuthenticatorDescription.java"
+public class android.accounts.AuthenticatorDescription implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.accounts.AuthenticatorDescription> CREATOR;
+  public final int accountPreferencesId;
+  public final boolean customTokens;
+  public final int iconId;
+  public final int labelId;
+  public final java.lang.String packageName;
+  public final int smallIconId;
+  public final java.lang.String type;
+  public android.accounts.AuthenticatorDescription(java.lang.String, java.lang.String, int, int, int, int, boolean);
+  public android.accounts.AuthenticatorDescription(java.lang.String, java.lang.String, int, int, int, int);
+  public static android.accounts.AuthenticatorDescription newKey(java.lang.String);
+  public int describeContents();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

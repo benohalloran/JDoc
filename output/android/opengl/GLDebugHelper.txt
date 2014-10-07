@@ -1,0 +1,10 @@
+Compiled from "GLDebugHelper.java"
+public class android.opengl.GLDebugHelper {
+  public static final int CONFIG_CHECK_GL_ERROR;
+  public static final int CONFIG_CHECK_THREAD;
+  public static final int CONFIG_LOG_ARGUMENT_NAMES;
+  public static final int ERROR_WRONG_THREAD;
+  public android.opengl.GLDebugHelper();
+  public static javax.microedition.khronos.opengles.GL wrap(javax.microedition.khronos.opengles.GL, int, java.io.Writer);
+  public static javax.microedition.khronos.egl.EGL wrap(javax.microedition.khronos.egl.EGL, int, java.io.Writer);
+}

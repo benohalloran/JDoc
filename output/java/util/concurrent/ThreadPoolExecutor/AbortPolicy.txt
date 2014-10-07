@@ -1,0 +1,5 @@
+Compiled from "ThreadPoolExecutor.java"
+public class java.util.concurrent.ThreadPoolExecutor$AbortPolicy implements java.util.concurrent.RejectedExecutionHandler {
+  public java.util.concurrent.ThreadPoolExecutor$AbortPolicy();
+  public void rejectedExecution(java.lang.Runnable, java.util.concurrent.ThreadPoolExecutor);
+}

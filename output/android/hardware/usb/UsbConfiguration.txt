@@ -1,0 +1,16 @@
+Compiled from "UsbConfiguration.java"
+public class android.hardware.usb.UsbConfiguration implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.hardware.usb.UsbConfiguration> CREATOR;
+  android.hardware.usb.UsbConfiguration();
+  public int getId();
+  public java.lang.String getName();
+  public boolean isSelfPowered();
+  public boolean isRemoteWakeup();
+  public int getMaxPower();
+  public int getInterfaceCount();
+  public android.hardware.usb.UsbInterface getInterface(int);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

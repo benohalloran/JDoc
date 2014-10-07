@@ -1,0 +1,4 @@
+Compiled from "GetChars.java"
+public interface android.text.GetChars extends java.lang.CharSequence {
+  public abstract void getChars(int, int, char[], int);
+}

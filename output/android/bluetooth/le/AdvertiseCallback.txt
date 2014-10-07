@@ -1,0 +1,11 @@
+Compiled from "AdvertiseCallback.java"
+public abstract class android.bluetooth.le.AdvertiseCallback {
+  public static final int ADVERTISE_FAILED_ALREADY_STARTED;
+  public static final int ADVERTISE_FAILED_CONTROLLER_FAILURE;
+  public static final int ADVERTISE_FAILED_NOT_STARTED;
+  public static final int ADVERTISE_FAILED_SERVICE_UNKNOWN;
+  public static final int ADVERTISE_FAILED_TOO_MANY_ADVERTISERS;
+  public android.bluetooth.le.AdvertiseCallback();
+  public abstract void onSuccess(android.bluetooth.le.AdvertiseSettings);
+  public abstract void onFailure(int);
+}

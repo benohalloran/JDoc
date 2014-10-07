@@ -1,0 +1,5 @@
+Compiled from "EGLSurface.java"
+public class android.opengl.EGLSurface extends android.opengl.EGLObjectHandle {
+  android.opengl.EGLSurface();
+  public boolean equals(java.lang.Object);
+}

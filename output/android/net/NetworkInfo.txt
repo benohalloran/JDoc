@@ -1,0 +1,20 @@
+Compiled from "NetworkInfo.java"
+public class android.net.NetworkInfo implements android.os.Parcelable {
+  android.net.NetworkInfo();
+  public int getType();
+  public int getSubtype();
+  public java.lang.String getTypeName();
+  public java.lang.String getSubtypeName();
+  public boolean isConnectedOrConnecting();
+  public boolean isConnected();
+  public boolean isAvailable();
+  public boolean isFailover();
+  public boolean isRoaming();
+  public android.net.NetworkInfo$State getState();
+  public android.net.NetworkInfo$DetailedState getDetailedState();
+  public java.lang.String getReason();
+  public java.lang.String getExtraInfo();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+}

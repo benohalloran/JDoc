@@ -1,0 +1,11 @@
+Compiled from "RelativeSizeSpan.java"
+public class android.text.style.RelativeSizeSpan extends android.text.style.MetricAffectingSpan implements android.text.ParcelableSpan {
+  public android.text.style.RelativeSizeSpan(float);
+  public android.text.style.RelativeSizeSpan(android.os.Parcel);
+  public int getSpanTypeId();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public float getSizeChange();
+  public void updateDrawState(android.text.TextPaint);
+  public void updateMeasureState(android.text.TextPaint);
+}

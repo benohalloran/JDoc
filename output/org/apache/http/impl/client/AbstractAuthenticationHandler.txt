@@ -1,0 +1,7 @@
+Compiled from "AbstractAuthenticationHandler.java"
+public abstract class org.apache.http.impl.client.AbstractAuthenticationHandler implements org.apache.http.client.AuthenticationHandler {
+  public org.apache.http.impl.client.AbstractAuthenticationHandler();
+  protected java.util.Map<java.lang.String, org.apache.http.Header> parseChallenges(org.apache.http.Header[]) throws org.apache.http.auth.MalformedChallengeException;
+  protected java.util.List<java.lang.String> getAuthPreferences();
+  public org.apache.http.auth.AuthScheme selectScheme(java.util.Map<java.lang.String, org.apache.http.Header>, org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext) throws org.apache.http.auth.AuthenticationException;
+}

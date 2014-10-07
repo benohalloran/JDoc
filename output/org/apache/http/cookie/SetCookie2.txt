@@ -1,0 +1,6 @@
+Compiled from "SetCookie2.java"
+public interface org.apache.http.cookie.SetCookie2 extends org.apache.http.cookie.SetCookie {
+  public abstract void setCommentURL(java.lang.String);
+  public abstract void setPorts(int[]);
+  public abstract void setDiscard(boolean);
+}

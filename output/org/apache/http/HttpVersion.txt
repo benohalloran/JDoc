@@ -1,0 +1,10 @@
+Compiled from "HttpVersion.java"
+public final class org.apache.http.HttpVersion extends org.apache.http.ProtocolVersion implements java.io.Serializable {
+  public static final java.lang.String HTTP;
+  public static final org.apache.http.HttpVersion HTTP_0_9;
+  public static final org.apache.http.HttpVersion HTTP_1_0;
+  public static final org.apache.http.HttpVersion HTTP_1_1;
+  public org.apache.http.HttpVersion(int, int);
+  public org.apache.http.ProtocolVersion forVersion(int, int);
+  static {};
+}

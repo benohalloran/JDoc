@@ -1,0 +1,8 @@
+Compiled from "ConsoleMessage.java"
+public class android.webkit.ConsoleMessage {
+  public android.webkit.ConsoleMessage(java.lang.String, java.lang.String, int, android.webkit.ConsoleMessage$MessageLevel);
+  public android.webkit.ConsoleMessage$MessageLevel messageLevel();
+  public java.lang.String message();
+  public java.lang.String sourceId();
+  public int lineNumber();
+}

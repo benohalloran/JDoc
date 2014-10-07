@@ -1,0 +1,26 @@
+Compiled from "DocumentsContract.java"
+public final class android.provider.DocumentsContract {
+  public static final java.lang.String EXTRA_ERROR;
+  public static final java.lang.String EXTRA_INFO;
+  public static final java.lang.String EXTRA_LOADING;
+  public static final java.lang.String PROVIDER_INTERFACE;
+  android.provider.DocumentsContract();
+  public static android.net.Uri buildRootsUri(java.lang.String);
+  public static android.net.Uri buildRootUri(java.lang.String, java.lang.String);
+  public static android.net.Uri buildRecentDocumentsUri(java.lang.String, java.lang.String);
+  public static android.net.Uri buildTreeDocumentUri(java.lang.String, java.lang.String);
+  public static android.net.Uri buildDocumentUri(java.lang.String, java.lang.String);
+  public static android.net.Uri buildDocumentUriUsingTree(android.net.Uri, java.lang.String);
+  public static android.net.Uri buildChildDocumentsUri(java.lang.String, java.lang.String);
+  public static android.net.Uri buildChildDocumentsUriUsingTree(android.net.Uri, java.lang.String);
+  public static android.net.Uri buildSearchDocumentsUri(java.lang.String, java.lang.String, java.lang.String);
+  public static boolean isDocumentUri(android.content.Context, android.net.Uri);
+  public static java.lang.String getRootId(android.net.Uri);
+  public static java.lang.String getDocumentId(android.net.Uri);
+  public static java.lang.String getTreeDocumentId(android.net.Uri);
+  public static java.lang.String getSearchDocumentsQuery(android.net.Uri);
+  public static android.graphics.Bitmap getDocumentThumbnail(android.content.ContentResolver, android.net.Uri, android.graphics.Point, android.os.CancellationSignal);
+  public static android.net.Uri createDocument(android.content.ContentResolver, android.net.Uri, java.lang.String, java.lang.String);
+  public static android.net.Uri renameDocument(android.content.ContentResolver, android.net.Uri, java.lang.String);
+  public static boolean deleteDocument(android.content.ContentResolver, android.net.Uri);
+}

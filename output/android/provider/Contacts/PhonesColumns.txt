@@ -1,0 +1,16 @@
+Compiled from "Contacts.java"
+public interface android.provider.Contacts$PhonesColumns {
+  public static final java.lang.String ISPRIMARY;
+  public static final java.lang.String LABEL;
+  public static final java.lang.String NUMBER;
+  public static final java.lang.String NUMBER_KEY;
+  public static final java.lang.String TYPE;
+  public static final int TYPE_CUSTOM;
+  public static final int TYPE_FAX_HOME;
+  public static final int TYPE_FAX_WORK;
+  public static final int TYPE_HOME;
+  public static final int TYPE_MOBILE;
+  public static final int TYPE_OTHER;
+  public static final int TYPE_PAGER;
+  public static final int TYPE_WORK;
+}

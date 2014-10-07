@@ -1,0 +1,7 @@
+Compiled from "HttpContext.java"
+public interface org.apache.http.protocol.HttpContext {
+  public static final java.lang.String RESERVED_PREFIX;
+  public abstract java.lang.Object getAttribute(java.lang.String);
+  public abstract void setAttribute(java.lang.String, java.lang.Object);
+  public abstract java.lang.Object removeAttribute(java.lang.String);
+}

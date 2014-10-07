@@ -1,0 +1,7 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$Contacts$Entity implements android.provider.BaseColumns,android.provider.ContactsContract$ContactsColumns,android.provider.ContactsContract$ContactNameColumns,android.provider.ContactsContract$RawContactsColumns,android.provider.ContactsContract$BaseSyncColumns,android.provider.ContactsContract$SyncColumns,android.provider.ContactsContract$DataColumns,android.provider.ContactsContract$StatusColumns,android.provider.ContactsContract$ContactOptionsColumns,android.provider.ContactsContract$ContactStatusColumns {
+  public static final java.lang.String CONTENT_DIRECTORY;
+  public static final java.lang.String DATA_ID;
+  public static final java.lang.String RAW_CONTACT_ID;
+  android.provider.ContactsContract$Contacts$Entity();
+}

@@ -1,0 +1,6 @@
+Compiled from "JsResult.java"
+public class android.webkit.JsResult {
+  android.webkit.JsResult();
+  public final void cancel();
+  public final void confirm();
+}

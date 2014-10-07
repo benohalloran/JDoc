@@ -1,0 +1,9 @@
+Compiled from "Shader.java"
+public final class android.graphics.Shader$TileMode extends java.lang.Enum<android.graphics.Shader$TileMode> {
+  public static final android.graphics.Shader$TileMode CLAMP;
+  public static final android.graphics.Shader$TileMode MIRROR;
+  public static final android.graphics.Shader$TileMode REPEAT;
+  public static android.graphics.Shader$TileMode[] values();
+  public static android.graphics.Shader$TileMode valueOf(java.lang.String);
+  static {};
+}

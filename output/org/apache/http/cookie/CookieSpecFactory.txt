@@ -1,0 +1,4 @@
+Compiled from "CookieSpecFactory.java"
+public interface org.apache.http.cookie.CookieSpecFactory {
+  public abstract org.apache.http.cookie.CookieSpec newInstance(org.apache.http.params.HttpParams);
+}

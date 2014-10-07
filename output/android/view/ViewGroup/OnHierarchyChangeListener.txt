@@ -1,0 +1,5 @@
+Compiled from "ViewGroup.java"
+public interface android.view.ViewGroup$OnHierarchyChangeListener {
+  public abstract void onChildViewAdded(android.view.View, android.view.View);
+  public abstract void onChildViewRemoved(android.view.View, android.view.View);
+}

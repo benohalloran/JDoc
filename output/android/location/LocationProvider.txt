@@ -1,0 +1,18 @@
+Compiled from "LocationProvider.java"
+public class android.location.LocationProvider {
+  public static final int AVAILABLE;
+  public static final int OUT_OF_SERVICE;
+  public static final int TEMPORARILY_UNAVAILABLE;
+  android.location.LocationProvider();
+  public java.lang.String getName();
+  public boolean meetsCriteria(android.location.Criteria);
+  public boolean requiresNetwork();
+  public boolean requiresSatellite();
+  public boolean requiresCell();
+  public boolean hasMonetaryCost();
+  public boolean supportsAltitude();
+  public boolean supportsSpeed();
+  public boolean supportsBearing();
+  public int getPowerRequirement();
+  public int getAccuracy();
+}

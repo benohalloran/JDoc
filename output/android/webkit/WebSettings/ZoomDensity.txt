@@ -1,0 +1,9 @@
+Compiled from "WebSettings.java"
+public final class android.webkit.WebSettings$ZoomDensity extends java.lang.Enum<android.webkit.WebSettings$ZoomDensity> {
+  public static final android.webkit.WebSettings$ZoomDensity CLOSE;
+  public static final android.webkit.WebSettings$ZoomDensity FAR;
+  public static final android.webkit.WebSettings$ZoomDensity MEDIUM;
+  public static android.webkit.WebSettings$ZoomDensity[] values();
+  public static android.webkit.WebSettings$ZoomDensity valueOf(java.lang.String);
+  static {};
+}

@@ -1,0 +1,7 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$PhoneticNameStyle {
+  public static final int JAPANESE;
+  public static final int KOREAN;
+  public static final int PINYIN;
+  public static final int UNDEFINED;
+}

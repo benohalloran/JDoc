@@ -1,0 +1,8 @@
+Compiled from "MediaRecorder.java"
+public final class android.media.MediaRecorder$VideoSource {
+  public static final int CAMERA;
+  public static final int DEFAULT;
+  public static final int SURFACE;
+  final android.media.MediaRecorder this$0;
+  android.media.MediaRecorder$VideoSource(android.media.MediaRecorder);
+}

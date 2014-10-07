@@ -1,0 +1,6 @@
+Compiled from "DatatypeConstants.java"
+public final class javax.xml.datatype.DatatypeConstants$Field {
+  javax.xml.datatype.DatatypeConstants$Field();
+  public java.lang.String toString();
+  public int getId();
+}

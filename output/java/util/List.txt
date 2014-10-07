@@ -1,0 +1,28 @@
+Compiled from "List.java"
+public interface java.util.List<E> extends java.util.Collection<E> {
+  public abstract void add(int, E);
+  public abstract boolean add(E);
+  public abstract boolean addAll(int, java.util.Collection<? extends E>);
+  public abstract boolean addAll(java.util.Collection<? extends E>);
+  public abstract void clear();
+  public abstract boolean contains(java.lang.Object);
+  public abstract boolean containsAll(java.util.Collection<?>);
+  public abstract boolean equals(java.lang.Object);
+  public abstract E get(int);
+  public abstract int hashCode();
+  public abstract int indexOf(java.lang.Object);
+  public abstract boolean isEmpty();
+  public abstract java.util.Iterator<E> iterator();
+  public abstract int lastIndexOf(java.lang.Object);
+  public abstract java.util.ListIterator<E> listIterator();
+  public abstract java.util.ListIterator<E> listIterator(int);
+  public abstract E remove(int);
+  public abstract boolean remove(java.lang.Object);
+  public abstract boolean removeAll(java.util.Collection<?>);
+  public abstract boolean retainAll(java.util.Collection<?>);
+  public abstract E set(int, E);
+  public abstract int size();
+  public abstract java.util.List<E> subList(int, int);
+  public abstract java.lang.Object[] toArray();
+  public abstract <T extends java/lang/Object> T[] toArray(T[]);
+}

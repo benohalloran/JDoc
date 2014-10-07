@@ -1,0 +1,10 @@
+Compiled from "ApplicationErrorReport.java"
+public class android.app.ApplicationErrorReport$AnrInfo {
+  public java.lang.String activity;
+  public java.lang.String cause;
+  public java.lang.String info;
+  public android.app.ApplicationErrorReport$AnrInfo();
+  public android.app.ApplicationErrorReport$AnrInfo(android.os.Parcel);
+  public void writeToParcel(android.os.Parcel, int);
+  public void dump(android.util.Printer, java.lang.String);
+}

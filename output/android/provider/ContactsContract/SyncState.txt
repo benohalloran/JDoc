@@ -1,0 +1,11 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$SyncState implements android.provider.SyncStateContract$Columns {
+  public static final java.lang.String CONTENT_DIRECTORY;
+  public static final android.net.Uri CONTENT_URI;
+  android.provider.ContactsContract$SyncState();
+  public static byte[] get(android.content.ContentProviderClient, android.accounts.Account) throws android.os.RemoteException;
+  public static android.util.Pair<android.net.Uri, byte[]> getWithUri(android.content.ContentProviderClient, android.accounts.Account) throws android.os.RemoteException;
+  public static void set(android.content.ContentProviderClient, android.accounts.Account, byte[]) throws android.os.RemoteException;
+  public static android.content.ContentProviderOperation newSetOperation(android.accounts.Account, byte[]);
+  static {};
+}

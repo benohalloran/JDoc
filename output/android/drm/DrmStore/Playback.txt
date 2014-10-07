@@ -1,0 +1,8 @@
+Compiled from "DrmStore.java"
+public class android.drm.DrmStore$Playback {
+  public static final int PAUSE;
+  public static final int RESUME;
+  public static final int START;
+  public static final int STOP;
+  public android.drm.DrmStore$Playback();
+}

@@ -1,0 +1,8 @@
+Compiled from "PaintDrawable.java"
+public class android.graphics.drawable.PaintDrawable extends android.graphics.drawable.ShapeDrawable {
+  public android.graphics.drawable.PaintDrawable();
+  public android.graphics.drawable.PaintDrawable(int);
+  public void setCornerRadius(float);
+  public void setCornerRadii(float[]);
+  protected boolean inflateTag(java.lang.String, android.content.res.Resources, org.xmlpull.v1.XmlPullParser, android.util.AttributeSet);
+}

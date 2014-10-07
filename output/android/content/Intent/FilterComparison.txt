@@ -1,0 +1,7 @@
+Compiled from "Intent.java"
+public final class android.content.Intent$FilterComparison {
+  public android.content.Intent$FilterComparison(android.content.Intent);
+  public android.content.Intent getIntent();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

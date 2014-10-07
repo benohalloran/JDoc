@@ -1,0 +1,19 @@
+Compiled from "SocketHttpClientConnection.java"
+public class org.apache.http.impl.SocketHttpClientConnection extends org.apache.http.impl.AbstractHttpClientConnection implements org.apache.http.HttpInetConnection {
+  public org.apache.http.impl.SocketHttpClientConnection();
+  protected void assertNotOpen();
+  protected void assertOpen();
+  protected org.apache.http.io.SessionInputBuffer createSessionInputBuffer(java.net.Socket, int, org.apache.http.params.HttpParams) throws java.io.IOException;
+  protected org.apache.http.io.SessionOutputBuffer createSessionOutputBuffer(java.net.Socket, int, org.apache.http.params.HttpParams) throws java.io.IOException;
+  protected void bind(java.net.Socket, org.apache.http.params.HttpParams) throws java.io.IOException;
+  public boolean isOpen();
+  protected java.net.Socket getSocket();
+  public java.net.InetAddress getLocalAddress();
+  public int getLocalPort();
+  public java.net.InetAddress getRemoteAddress();
+  public int getRemotePort();
+  public void setSocketTimeout(int);
+  public int getSocketTimeout();
+  public void shutdown() throws java.io.IOException;
+  public void close() throws java.io.IOException;
+}

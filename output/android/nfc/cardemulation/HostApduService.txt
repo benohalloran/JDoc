@@ -1,0 +1,13 @@
+Compiled from "HostApduService.java"
+public abstract class android.nfc.cardemulation.HostApduService extends android.app.Service {
+  public static final int DEACTIVATION_DESELECTED;
+  public static final int DEACTIVATION_LINK_LOSS;
+  public static final java.lang.String SERVICE_INTERFACE;
+  public static final java.lang.String SERVICE_META_DATA;
+  public android.nfc.cardemulation.HostApduService();
+  public final android.os.IBinder onBind(android.content.Intent);
+  public final void sendResponseApdu(byte[]);
+  public final void notifyUnhandled();
+  public abstract byte[] processCommandApdu(byte[], android.os.Bundle);
+  public abstract void onDeactivated(int);
+}

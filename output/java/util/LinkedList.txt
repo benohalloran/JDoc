@@ -1,0 +1,44 @@
+Compiled from "LinkedList.java"
+public class java.util.LinkedList<E> extends java.util.AbstractSequentialList<E> implements java.util.List<E>, java.util.Deque<E>, java.util.Queue<E>, java.lang.Cloneable, java.io.Serializable {
+  public java.util.LinkedList();
+  public java.util.LinkedList(java.util.Collection<? extends E>);
+  public void add(int, E);
+  public boolean add(E);
+  public boolean addAll(int, java.util.Collection<? extends E>);
+  public boolean addAll(java.util.Collection<? extends E>);
+  public void addFirst(E);
+  public void addLast(E);
+  public void clear();
+  public java.lang.Object clone();
+  public boolean contains(java.lang.Object);
+  public E get(int);
+  public E getFirst();
+  public E getLast();
+  public int indexOf(java.lang.Object);
+  public int lastIndexOf(java.lang.Object);
+  public java.util.ListIterator<E> listIterator(int);
+  public E remove(int);
+  public boolean remove(java.lang.Object);
+  public E removeFirst();
+  public E removeLast();
+  public java.util.Iterator<E> descendingIterator();
+  public boolean offerFirst(E);
+  public boolean offerLast(E);
+  public E peekFirst();
+  public E peekLast();
+  public E pollFirst();
+  public E pollLast();
+  public E pop();
+  public void push(E);
+  public boolean removeFirstOccurrence(java.lang.Object);
+  public boolean removeLastOccurrence(java.lang.Object);
+  public E set(int, E);
+  public int size();
+  public boolean offer(E);
+  public E poll();
+  public E remove();
+  public E peek();
+  public E element();
+  public java.lang.Object[] toArray();
+  public <T extends java/lang/Object> T[] toArray(T[]);
+}

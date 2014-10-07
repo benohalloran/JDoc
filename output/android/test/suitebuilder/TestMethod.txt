@@ -1,0 +1,14 @@
+Compiled from "TestMethod.java"
+public class android.test.suitebuilder.TestMethod {
+  public android.test.suitebuilder.TestMethod(java.lang.reflect.Method, java.lang.Class<? extends junit.framework.TestCase>);
+  public android.test.suitebuilder.TestMethod(java.lang.String, java.lang.Class<? extends junit.framework.TestCase>);
+  public android.test.suitebuilder.TestMethod(junit.framework.TestCase);
+  public java.lang.String getName();
+  public java.lang.String getEnclosingClassname();
+  public <T extends java/lang/annotation/Annotation> T getAnnotation(java.lang.Class<T>);
+  public java.lang.Class<? extends junit.framework.TestCase> getEnclosingClass();
+  public junit.framework.TestCase createTest() throws java.lang.reflect.InvocationTargetException, java.lang.IllegalAccessException, java.lang.InstantiationException;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}

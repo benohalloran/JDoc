@@ -1,0 +1,20 @@
+Compiled from "Keyframe.java"
+public abstract class android.animation.Keyframe implements java.lang.Cloneable {
+  public android.animation.Keyframe();
+  public static android.animation.Keyframe ofInt(float, int);
+  public static android.animation.Keyframe ofInt(float);
+  public static android.animation.Keyframe ofFloat(float, float);
+  public static android.animation.Keyframe ofFloat(float);
+  public static android.animation.Keyframe ofObject(float, java.lang.Object);
+  public static android.animation.Keyframe ofObject(float);
+  public boolean hasValue();
+  public abstract java.lang.Object getValue();
+  public abstract void setValue(java.lang.Object);
+  public float getFraction();
+  public void setFraction(float);
+  public android.animation.TimeInterpolator getInterpolator();
+  public void setInterpolator(android.animation.TimeInterpolator);
+  public java.lang.Class getType();
+  public abstract android.animation.Keyframe clone();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

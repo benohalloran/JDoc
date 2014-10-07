@@ -1,0 +1,7 @@
+Compiled from "HeterogeneousExpandableList.java"
+public interface android.widget.HeterogeneousExpandableList {
+  public abstract int getGroupType(int);
+  public abstract int getChildType(int, int);
+  public abstract int getGroupTypeCount();
+  public abstract int getChildTypeCount();
+}

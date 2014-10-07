@@ -1,0 +1,6 @@
+Compiled from "DefaultHttpRoutePlanner.java"
+public class org.apache.http.impl.conn.DefaultHttpRoutePlanner implements org.apache.http.conn.routing.HttpRoutePlanner {
+  protected org.apache.http.conn.scheme.SchemeRegistry schemeRegistry;
+  public org.apache.http.impl.conn.DefaultHttpRoutePlanner(org.apache.http.conn.scheme.SchemeRegistry);
+  public org.apache.http.conn.routing.HttpRoute determineRoute(org.apache.http.HttpHost, org.apache.http.HttpRequest, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException;
+}

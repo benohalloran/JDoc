@@ -1,0 +1,9 @@
+Compiled from "RenderScript.java"
+public final class android.renderscript.RenderScript$ContextType extends java.lang.Enum<android.renderscript.RenderScript$ContextType> {
+  public static final android.renderscript.RenderScript$ContextType DEBUG;
+  public static final android.renderscript.RenderScript$ContextType NORMAL;
+  public static final android.renderscript.RenderScript$ContextType PROFILE;
+  public static android.renderscript.RenderScript$ContextType[] values();
+  public static android.renderscript.RenderScript$ContextType valueOf(java.lang.String);
+  static {};
+}

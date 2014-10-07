@@ -1,0 +1,21 @@
+Compiled from "NeighboringCellInfo.java"
+public class android.telephony.NeighboringCellInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.telephony.NeighboringCellInfo> CREATOR;
+  public static final int UNKNOWN_CID;
+  public static final int UNKNOWN_RSSI;
+  public android.telephony.NeighboringCellInfo();
+  public android.telephony.NeighboringCellInfo(int, int);
+  public android.telephony.NeighboringCellInfo(int, java.lang.String, int);
+  public android.telephony.NeighboringCellInfo(android.os.Parcel);
+  public int getRssi();
+  public int getLac();
+  public int getCid();
+  public int getPsc();
+  public int getNetworkType();
+  public void setCid(int);
+  public void setRssi(int);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

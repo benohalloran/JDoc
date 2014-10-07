@@ -1,0 +1,11 @@
+Compiled from "LocaleSpan.java"
+public class android.text.style.LocaleSpan extends android.text.style.MetricAffectingSpan implements android.text.ParcelableSpan {
+  public android.text.style.LocaleSpan(java.util.Locale);
+  public android.text.style.LocaleSpan(android.os.Parcel);
+  public int getSpanTypeId();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.util.Locale getLocale();
+  public void updateDrawState(android.text.TextPaint);
+  public void updateMeasureState(android.text.TextPaint);
+}

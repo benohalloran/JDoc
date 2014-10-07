@@ -1,0 +1,5 @@
+Compiled from "DefaultUserTokenHandler.java"
+public class org.apache.http.impl.client.DefaultUserTokenHandler implements org.apache.http.client.UserTokenHandler {
+  public org.apache.http.impl.client.DefaultUserTokenHandler();
+  public java.lang.Object getUserToken(org.apache.http.protocol.HttpContext);
+}

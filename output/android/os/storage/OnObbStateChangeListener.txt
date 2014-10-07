@@ -1,0 +1,13 @@
+Compiled from "OnObbStateChangeListener.java"
+public abstract class android.os.storage.OnObbStateChangeListener {
+  public static final int ERROR_ALREADY_MOUNTED;
+  public static final int ERROR_COULD_NOT_MOUNT;
+  public static final int ERROR_COULD_NOT_UNMOUNT;
+  public static final int ERROR_INTERNAL;
+  public static final int ERROR_NOT_MOUNTED;
+  public static final int ERROR_PERMISSION_DENIED;
+  public static final int MOUNTED;
+  public static final int UNMOUNTED;
+  public android.os.storage.OnObbStateChangeListener();
+  public void onObbStateChange(java.lang.String, int);
+}

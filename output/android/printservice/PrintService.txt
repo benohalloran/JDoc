@@ -1,0 +1,16 @@
+Compiled from "PrintService.java"
+public abstract class android.printservice.PrintService extends android.app.Service {
+  public static final java.lang.String EXTRA_PRINT_JOB_INFO;
+  public static final java.lang.String SERVICE_INTERFACE;
+  public static final java.lang.String SERVICE_META_DATA;
+  public android.printservice.PrintService();
+  protected final void attachBaseContext(android.content.Context);
+  protected void onConnected();
+  protected void onDisconnected();
+  protected abstract android.printservice.PrinterDiscoverySession onCreatePrinterDiscoverySession();
+  protected abstract void onRequestCancelPrintJob(android.printservice.PrintJob);
+  protected abstract void onPrintJobQueued(android.printservice.PrintJob);
+  public final java.util.List<android.printservice.PrintJob> getActivePrintJobs();
+  public final android.print.PrinterId generatePrinterId(java.lang.String);
+  public final android.os.IBinder onBind(android.content.Intent);
+}

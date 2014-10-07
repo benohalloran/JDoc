@@ -1,0 +1,8 @@
+Compiled from "ThumbnailUtils.java"
+public class android.media.ThumbnailUtils {
+  public static final int OPTIONS_RECYCLE_INPUT;
+  public android.media.ThumbnailUtils();
+  public static android.graphics.Bitmap createVideoThumbnail(java.lang.String, int);
+  public static android.graphics.Bitmap extractThumbnail(android.graphics.Bitmap, int, int);
+  public static android.graphics.Bitmap extractThumbnail(android.graphics.Bitmap, int, int, int);
+}

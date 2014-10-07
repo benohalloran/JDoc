@@ -1,0 +1,4 @@
+Compiled from "EnvironmentalReverb.java"
+public interface android.media.audiofx.EnvironmentalReverb$OnParameterChangeListener {
+  public abstract void onParameterChange(android.media.audiofx.EnvironmentalReverb, int, int, int);
+}

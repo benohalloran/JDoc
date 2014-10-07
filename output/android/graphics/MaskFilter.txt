@@ -1,0 +1,5 @@
+Compiled from "MaskFilter.java"
+public class android.graphics.MaskFilter {
+  public android.graphics.MaskFilter();
+  protected void finalize() throws java.lang.Throwable;
+}

@@ -1,0 +1,4 @@
+Compiled from "Html.java"
+public interface android.text.Html$TagHandler {
+  public abstract void handleTag(boolean, java.lang.String, android.text.Editable, org.xml.sax.XMLReader);
+}

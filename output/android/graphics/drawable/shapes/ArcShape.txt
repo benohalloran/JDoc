@@ -1,0 +1,5 @@
+Compiled from "ArcShape.java"
+public class android.graphics.drawable.shapes.ArcShape extends android.graphics.drawable.shapes.RectShape {
+  public android.graphics.drawable.shapes.ArcShape(float, float);
+  public void draw(android.graphics.Canvas, android.graphics.Paint);
+}

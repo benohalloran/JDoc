@@ -1,0 +1,19 @@
+Compiled from "UsbManager.java"
+public class android.hardware.usb.UsbManager {
+  public static final java.lang.String ACTION_USB_ACCESSORY_ATTACHED;
+  public static final java.lang.String ACTION_USB_ACCESSORY_DETACHED;
+  public static final java.lang.String ACTION_USB_DEVICE_ATTACHED;
+  public static final java.lang.String ACTION_USB_DEVICE_DETACHED;
+  public static final java.lang.String EXTRA_ACCESSORY;
+  public static final java.lang.String EXTRA_DEVICE;
+  public static final java.lang.String EXTRA_PERMISSION_GRANTED;
+  android.hardware.usb.UsbManager();
+  public java.util.HashMap<java.lang.String, android.hardware.usb.UsbDevice> getDeviceList();
+  public android.hardware.usb.UsbDeviceConnection openDevice(android.hardware.usb.UsbDevice);
+  public android.hardware.usb.UsbAccessory[] getAccessoryList();
+  public android.os.ParcelFileDescriptor openAccessory(android.hardware.usb.UsbAccessory);
+  public boolean hasPermission(android.hardware.usb.UsbDevice);
+  public boolean hasPermission(android.hardware.usb.UsbAccessory);
+  public void requestPermission(android.hardware.usb.UsbDevice, android.app.PendingIntent);
+  public void requestPermission(android.hardware.usb.UsbAccessory, android.app.PendingIntent);
+}

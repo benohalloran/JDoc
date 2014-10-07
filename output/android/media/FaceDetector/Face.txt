@@ -1,0 +1,13 @@
+Compiled from "FaceDetector.java"
+public class android.media.FaceDetector$Face {
+  public static final float CONFIDENCE_THRESHOLD;
+  public static final int EULER_X;
+  public static final int EULER_Y;
+  public static final int EULER_Z;
+  final android.media.FaceDetector this$0;
+  android.media.FaceDetector$Face(android.media.FaceDetector);
+  public float confidence();
+  public void getMidPoint(android.graphics.PointF);
+  public float eyesDistance();
+  public float pose(int);
+}

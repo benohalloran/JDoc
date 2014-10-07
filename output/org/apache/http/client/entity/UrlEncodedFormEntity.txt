@@ -1,0 +1,5 @@
+Compiled from "UrlEncodedFormEntity.java"
+public class org.apache.http.client.entity.UrlEncodedFormEntity extends org.apache.http.entity.StringEntity {
+  public org.apache.http.client.entity.UrlEncodedFormEntity(java.util.List<? extends org.apache.http.NameValuePair>, java.lang.String) throws java.io.UnsupportedEncodingException;
+  public org.apache.http.client.entity.UrlEncodedFormEntity(java.util.List<? extends org.apache.http.NameValuePair>) throws java.io.UnsupportedEncodingException;
+}

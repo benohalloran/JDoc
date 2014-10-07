@@ -1,0 +1,4 @@
+Compiled from "ComposePathEffect.java"
+public class android.graphics.ComposePathEffect extends android.graphics.PathEffect {
+  public android.graphics.ComposePathEffect(android.graphics.PathEffect, android.graphics.PathEffect);
+}

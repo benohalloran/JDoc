@@ -1,0 +1,9 @@
+Compiled from "PathDashPathEffect.java"
+public final class android.graphics.PathDashPathEffect$Style extends java.lang.Enum<android.graphics.PathDashPathEffect$Style> {
+  public static final android.graphics.PathDashPathEffect$Style MORPH;
+  public static final android.graphics.PathDashPathEffect$Style ROTATE;
+  public static final android.graphics.PathDashPathEffect$Style TRANSLATE;
+  public static android.graphics.PathDashPathEffect$Style[] values();
+  public static android.graphics.PathDashPathEffect$Style valueOf(java.lang.String);
+  static {};
+}

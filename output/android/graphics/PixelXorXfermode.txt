@@ -1,0 +1,4 @@
+Compiled from "PixelXorXfermode.java"
+public class android.graphics.PixelXorXfermode extends android.graphics.Xfermode {
+  public android.graphics.PixelXorXfermode(int);
+}

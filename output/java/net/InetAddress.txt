@@ -1,0 +1,29 @@
+Compiled from "InetAddress.java"
+public class java.net.InetAddress implements java.io.Serializable {
+  java.net.InetAddress();
+  public boolean equals(java.lang.Object);
+  public byte[] getAddress();
+  public static java.net.InetAddress[] getAllByName(java.lang.String) throws java.net.UnknownHostException;
+  public static java.net.InetAddress getByName(java.lang.String) throws java.net.UnknownHostException;
+  public java.lang.String getHostAddress();
+  public java.lang.String getHostName();
+  public java.lang.String getCanonicalHostName();
+  public static java.net.InetAddress getLocalHost() throws java.net.UnknownHostException;
+  public int hashCode();
+  public java.lang.String toString();
+  public static java.net.InetAddress getLoopbackAddress();
+  public boolean isAnyLocalAddress();
+  public boolean isLinkLocalAddress();
+  public boolean isLoopbackAddress();
+  public boolean isMCGlobal();
+  public boolean isMCLinkLocal();
+  public boolean isMCNodeLocal();
+  public boolean isMCOrgLocal();
+  public boolean isMCSiteLocal();
+  public boolean isMulticastAddress();
+  public boolean isSiteLocalAddress();
+  public boolean isReachable(int) throws java.io.IOException;
+  public boolean isReachable(java.net.NetworkInterface, int, int) throws java.io.IOException;
+  public static java.net.InetAddress getByAddress(byte[]) throws java.net.UnknownHostException;
+  public static java.net.InetAddress getByAddress(java.lang.String, byte[]) throws java.net.UnknownHostException;
+}

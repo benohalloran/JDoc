@@ -1,0 +1,15 @@
+Compiled from "AbstractQueuedLongSynchronizer.java"
+public class java.util.concurrent.locks.AbstractQueuedLongSynchronizer$ConditionObject implements java.util.concurrent.locks.Condition,java.io.Serializable {
+  final java.util.concurrent.locks.AbstractQueuedLongSynchronizer this$0;
+  public java.util.concurrent.locks.AbstractQueuedLongSynchronizer$ConditionObject(java.util.concurrent.locks.AbstractQueuedLongSynchronizer);
+  public final void signal();
+  public final void signalAll();
+  public final void awaitUninterruptibly();
+  public final void await() throws java.lang.InterruptedException;
+  public final long awaitNanos(long) throws java.lang.InterruptedException;
+  public final boolean awaitUntil(java.util.Date) throws java.lang.InterruptedException;
+  public final boolean await(long, java.util.concurrent.TimeUnit) throws java.lang.InterruptedException;
+  protected final boolean hasWaiters();
+  protected final int getWaitQueueLength();
+  protected final java.util.Collection<java.lang.Thread> getWaitingThreads();
+}

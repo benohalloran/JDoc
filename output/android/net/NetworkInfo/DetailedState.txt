@@ -1,0 +1,19 @@
+Compiled from "NetworkInfo.java"
+public final class android.net.NetworkInfo$DetailedState extends java.lang.Enum<android.net.NetworkInfo$DetailedState> {
+  public static final android.net.NetworkInfo$DetailedState AUTHENTICATING;
+  public static final android.net.NetworkInfo$DetailedState BLOCKED;
+  public static final android.net.NetworkInfo$DetailedState CAPTIVE_PORTAL_CHECK;
+  public static final android.net.NetworkInfo$DetailedState CONNECTED;
+  public static final android.net.NetworkInfo$DetailedState CONNECTING;
+  public static final android.net.NetworkInfo$DetailedState DISCONNECTED;
+  public static final android.net.NetworkInfo$DetailedState DISCONNECTING;
+  public static final android.net.NetworkInfo$DetailedState FAILED;
+  public static final android.net.NetworkInfo$DetailedState IDLE;
+  public static final android.net.NetworkInfo$DetailedState OBTAINING_IPADDR;
+  public static final android.net.NetworkInfo$DetailedState SCANNING;
+  public static final android.net.NetworkInfo$DetailedState SUSPENDED;
+  public static final android.net.NetworkInfo$DetailedState VERIFYING_POOR_LINK;
+  public static android.net.NetworkInfo$DetailedState[] values();
+  public static android.net.NetworkInfo$DetailedState valueOf(java.lang.String);
+  static {};
+}

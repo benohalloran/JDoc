@@ -1,0 +1,8 @@
+Compiled from "TimingLogger.java"
+public class android.util.TimingLogger {
+  public android.util.TimingLogger(java.lang.String, java.lang.String);
+  public void reset(java.lang.String, java.lang.String);
+  public void reset();
+  public void addSplit(java.lang.String);
+  public void dumpToLog();
+}

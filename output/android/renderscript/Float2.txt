@@ -1,0 +1,7 @@
+Compiled from "Float2.java"
+public class android.renderscript.Float2 {
+  public float x;
+  public float y;
+  public android.renderscript.Float2();
+  public android.renderscript.Float2(float, float);
+}

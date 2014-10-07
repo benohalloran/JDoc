@@ -1,0 +1,7 @@
+Compiled from "CalendarContract.java"
+public final class android.provider.CalendarContract$EventDays implements android.provider.CalendarContract$EventDaysColumns {
+  public static final android.net.Uri CONTENT_URI;
+  android.provider.CalendarContract$EventDays();
+  public static final android.database.Cursor query(android.content.ContentResolver, int, int, java.lang.String[]);
+  static {};
+}

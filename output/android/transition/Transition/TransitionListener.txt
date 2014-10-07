@@ -1,0 +1,8 @@
+Compiled from "Transition.java"
+public interface android.transition.Transition$TransitionListener {
+  public abstract void onTransitionStart(android.transition.Transition);
+  public abstract void onTransitionEnd(android.transition.Transition);
+  public abstract void onTransitionCancel(android.transition.Transition);
+  public abstract void onTransitionPause(android.transition.Transition);
+  public abstract void onTransitionResume(android.transition.Transition);
+}

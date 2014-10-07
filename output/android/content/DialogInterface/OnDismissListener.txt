@@ -1,0 +1,4 @@
+Compiled from "DialogInterface.java"
+public interface android.content.DialogInterface$OnDismissListener {
+  public abstract void onDismiss(android.content.DialogInterface);
+}

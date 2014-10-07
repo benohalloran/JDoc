@@ -1,0 +1,8 @@
+Compiled from "AbstractCookieSpec.java"
+public abstract class org.apache.http.impl.cookie.AbstractCookieSpec implements org.apache.http.cookie.CookieSpec {
+  public org.apache.http.impl.cookie.AbstractCookieSpec();
+  public void registerAttribHandler(java.lang.String, org.apache.http.cookie.CookieAttributeHandler);
+  protected org.apache.http.cookie.CookieAttributeHandler findAttribHandler(java.lang.String);
+  protected org.apache.http.cookie.CookieAttributeHandler getAttribHandler(java.lang.String);
+  protected java.util.Collection<org.apache.http.cookie.CookieAttributeHandler> getAttribHandlers();
+}

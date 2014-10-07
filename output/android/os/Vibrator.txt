@@ -1,0 +1,8 @@
+Compiled from "Vibrator.java"
+public abstract class android.os.Vibrator {
+  android.os.Vibrator();
+  public abstract boolean hasVibrator();
+  public void vibrate(long);
+  public void vibrate(long[], int);
+  public abstract void cancel();
+}

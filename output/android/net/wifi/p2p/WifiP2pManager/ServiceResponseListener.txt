@@ -1,0 +1,4 @@
+Compiled from "WifiP2pManager.java"
+public interface android.net.wifi.p2p.WifiP2pManager$ServiceResponseListener {
+  public abstract void onServiceAvailable(int, byte[], android.net.wifi.p2p.WifiP2pDevice);
+}

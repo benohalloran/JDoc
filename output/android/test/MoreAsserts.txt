@@ -1,0 +1,40 @@
+Compiled from "MoreAsserts.java"
+public final class android.test.MoreAsserts {
+  android.test.MoreAsserts();
+  public static void assertAssignableFrom(java.lang.Class<?>, java.lang.Object);
+  public static void assertAssignableFrom(java.lang.Class<?>, java.lang.Class<?>);
+  public static void assertNotEqual(java.lang.String, java.lang.Object, java.lang.Object);
+  public static void assertNotEqual(java.lang.Object, java.lang.Object);
+  public static void assertEquals(java.lang.String, byte[], byte[]);
+  public static void assertEquals(byte[], byte[]);
+  public static void assertEquals(java.lang.String, int[], int[]);
+  public static void assertEquals(int[], int[]);
+  public static void assertEquals(java.lang.String, double[], double[]);
+  public static void assertEquals(double[], double[]);
+  public static void assertEquals(java.lang.String, java.lang.Object[], java.lang.Object[]);
+  public static void assertEquals(java.lang.Object[], java.lang.Object[]);
+  public static void assertEquals(java.lang.String, java.util.Set<? extends java.lang.Object>, java.util.Set<? extends java.lang.Object>);
+  public static void assertEquals(java.util.Set<? extends java.lang.Object>, java.util.Set<? extends java.lang.Object>);
+  public static java.util.regex.MatchResult assertMatchesRegex(java.lang.String, java.lang.String, java.lang.String);
+  public static java.util.regex.MatchResult assertMatchesRegex(java.lang.String, java.lang.String);
+  public static java.util.regex.MatchResult assertContainsRegex(java.lang.String, java.lang.String, java.lang.String);
+  public static java.util.regex.MatchResult assertContainsRegex(java.lang.String, java.lang.String);
+  public static void assertNotMatchesRegex(java.lang.String, java.lang.String, java.lang.String);
+  public static void assertNotMatchesRegex(java.lang.String, java.lang.String);
+  public static void assertNotContainsRegex(java.lang.String, java.lang.String, java.lang.String);
+  public static void assertNotContainsRegex(java.lang.String, java.lang.String);
+  public static void assertContentsInOrder(java.lang.String, java.lang.Iterable<?>, java.lang.Object...);
+  public static void assertContentsInOrder(java.lang.Iterable<?>, java.lang.Object...);
+  public static void assertContentsInAnyOrder(java.lang.String, java.lang.Iterable<?>, java.lang.Object...);
+  public static void assertContentsInAnyOrder(java.lang.Iterable<?>, java.lang.Object...);
+  public static void assertEmpty(java.lang.String, java.lang.Iterable<?>);
+  public static void assertEmpty(java.lang.Iterable<?>);
+  public static void assertEmpty(java.lang.String, java.util.Map<?, ?>);
+  public static void assertEmpty(java.util.Map<?, ?>);
+  public static void assertNotEmpty(java.lang.String, java.lang.Iterable<?>);
+  public static void assertNotEmpty(java.lang.Iterable<?>);
+  public static void assertNotEmpty(java.lang.String, java.util.Map<?, ?>);
+  public static void assertNotEmpty(java.util.Map<?, ?>);
+  public static void checkEqualsAndHashCodeMethods(java.lang.String, java.lang.Object, java.lang.Object, boolean);
+  public static void checkEqualsAndHashCodeMethods(java.lang.Object, java.lang.Object, boolean);
+}

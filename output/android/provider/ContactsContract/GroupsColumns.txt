@@ -1,0 +1,15 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$GroupsColumns {
+  public static final java.lang.String AUTO_ADD;
+  public static final java.lang.String DATA_SET;
+  public static final java.lang.String DELETED;
+  public static final java.lang.String FAVORITES;
+  public static final java.lang.String GROUP_IS_READ_ONLY;
+  public static final java.lang.String GROUP_VISIBLE;
+  public static final java.lang.String NOTES;
+  public static final java.lang.String SHOULD_SYNC;
+  public static final java.lang.String SUMMARY_COUNT;
+  public static final java.lang.String SUMMARY_WITH_PHONES;
+  public static final java.lang.String SYSTEM_ID;
+  public static final java.lang.String TITLE;
+}

@@ -1,0 +1,14 @@
+Compiled from "ObjectOutputStream.java"
+public abstract class java.io.ObjectOutputStream$PutField {
+  public java.io.ObjectOutputStream$PutField();
+  public abstract void put(java.lang.String, boolean);
+  public abstract void put(java.lang.String, char);
+  public abstract void put(java.lang.String, byte);
+  public abstract void put(java.lang.String, short);
+  public abstract void put(java.lang.String, int);
+  public abstract void put(java.lang.String, long);
+  public abstract void put(java.lang.String, float);
+  public abstract void put(java.lang.String, double);
+  public abstract void put(java.lang.String, java.lang.Object);
+  public abstract void write(java.io.ObjectOutput) throws java.io.IOException;
+}

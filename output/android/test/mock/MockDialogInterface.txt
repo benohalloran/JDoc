@@ -1,0 +1,6 @@
+Compiled from "MockDialogInterface.java"
+public class android.test.mock.MockDialogInterface implements android.content.DialogInterface {
+  public android.test.mock.MockDialogInterface();
+  public void cancel();
+  public void dismiss();
+}

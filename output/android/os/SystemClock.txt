@@ -1,0 +1,10 @@
+Compiled from "SystemClock.java"
+public final class android.os.SystemClock {
+  android.os.SystemClock();
+  public static void sleep(long);
+  public static boolean setCurrentTimeMillis(long);
+  public static native long uptimeMillis();
+  public static native long elapsedRealtime();
+  public static native long elapsedRealtimeNanos();
+  public static native long currentThreadTimeMillis();
+}

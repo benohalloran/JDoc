@@ -1,0 +1,8 @@
+Compiled from "AvoidXfermode.java"
+public final class android.graphics.AvoidXfermode$Mode extends java.lang.Enum<android.graphics.AvoidXfermode$Mode> {
+  public static final android.graphics.AvoidXfermode$Mode AVOID;
+  public static final android.graphics.AvoidXfermode$Mode TARGET;
+  public static android.graphics.AvoidXfermode$Mode[] values();
+  public static android.graphics.AvoidXfermode$Mode valueOf(java.lang.String);
+  static {};
+}

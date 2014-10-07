@@ -1,0 +1,15 @@
+Compiled from "VelocityTracker.java"
+public final class android.view.VelocityTracker {
+  android.view.VelocityTracker();
+  public static android.view.VelocityTracker obtain();
+  public void recycle();
+  protected void finalize() throws java.lang.Throwable;
+  public void clear();
+  public void addMovement(android.view.MotionEvent);
+  public void computeCurrentVelocity(int);
+  public void computeCurrentVelocity(int, float);
+  public float getXVelocity();
+  public float getYVelocity();
+  public float getXVelocity(int);
+  public float getYVelocity(int);
+}

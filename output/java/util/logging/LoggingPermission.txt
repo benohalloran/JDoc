@@ -1,0 +1,6 @@
+Compiled from "LoggingPermission.java"
+public final class java.util.logging.LoggingPermission extends java.security.BasicPermission implements java.security.Guard,java.io.Serializable {
+  public java.util.logging.LoggingPermission(java.lang.String, java.lang.String);
+  public java.lang.String getActions();
+  public boolean implies(java.security.Permission);
+}

@@ -1,0 +1,12 @@
+Compiled from "Region.java"
+public final class android.graphics.Region$Op extends java.lang.Enum<android.graphics.Region$Op> {
+  public static final android.graphics.Region$Op DIFFERENCE;
+  public static final android.graphics.Region$Op INTERSECT;
+  public static final android.graphics.Region$Op REPLACE;
+  public static final android.graphics.Region$Op REVERSE_DIFFERENCE;
+  public static final android.graphics.Region$Op UNION;
+  public static final android.graphics.Region$Op XOR;
+  public static android.graphics.Region$Op[] values();
+  public static android.graphics.Region$Op valueOf(java.lang.String);
+  static {};
+}

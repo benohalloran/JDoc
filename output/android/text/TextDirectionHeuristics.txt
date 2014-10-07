@@ -1,0 +1,11 @@
+Compiled from "TextDirectionHeuristics.java"
+public class android.text.TextDirectionHeuristics {
+  public static final android.text.TextDirectionHeuristic ANYRTL_LTR;
+  public static final android.text.TextDirectionHeuristic FIRSTSTRONG_LTR;
+  public static final android.text.TextDirectionHeuristic FIRSTSTRONG_RTL;
+  public static final android.text.TextDirectionHeuristic LOCALE;
+  public static final android.text.TextDirectionHeuristic LTR;
+  public static final android.text.TextDirectionHeuristic RTL;
+  public android.text.TextDirectionHeuristics();
+  static {};
+}

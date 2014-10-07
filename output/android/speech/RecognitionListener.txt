@@ -1,0 +1,12 @@
+Compiled from "RecognitionListener.java"
+public interface android.speech.RecognitionListener {
+  public abstract void onReadyForSpeech(android.os.Bundle);
+  public abstract void onBeginningOfSpeech();
+  public abstract void onRmsChanged(float);
+  public abstract void onBufferReceived(byte[]);
+  public abstract void onEndOfSpeech();
+  public abstract void onError(int);
+  public abstract void onResults(android.os.Bundle);
+  public abstract void onPartialResults(android.os.Bundle);
+  public abstract void onEvent(int, android.os.Bundle);
+}

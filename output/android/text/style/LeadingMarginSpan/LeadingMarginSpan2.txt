@@ -1,0 +1,4 @@
+Compiled from "LeadingMarginSpan.java"
+public interface android.text.style.LeadingMarginSpan$LeadingMarginSpan2 extends android.text.style.LeadingMarginSpan,android.text.style.WrapTogetherSpan {
+  public abstract int getLeadingMarginLineCount();
+}

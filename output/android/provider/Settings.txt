@@ -1,0 +1,46 @@
+Compiled from "Settings.java"
+public final class android.provider.Settings {
+  public static final java.lang.String ACTION_ACCESSIBILITY_SETTINGS;
+  public static final java.lang.String ACTION_ADD_ACCOUNT;
+  public static final java.lang.String ACTION_AIRPLANE_MODE_SETTINGS;
+  public static final java.lang.String ACTION_APN_SETTINGS;
+  public static final java.lang.String ACTION_APPLICATION_DETAILS_SETTINGS;
+  public static final java.lang.String ACTION_APPLICATION_DEVELOPMENT_SETTINGS;
+  public static final java.lang.String ACTION_APPLICATION_SETTINGS;
+  public static final java.lang.String ACTION_BLUETOOTH_SETTINGS;
+  public static final java.lang.String ACTION_CAPTIONING_SETTINGS;
+  public static final java.lang.String ACTION_DATA_ROAMING_SETTINGS;
+  public static final java.lang.String ACTION_DATE_SETTINGS;
+  public static final java.lang.String ACTION_DEVICE_INFO_SETTINGS;
+  public static final java.lang.String ACTION_DISPLAY_SETTINGS;
+  public static final java.lang.String ACTION_DREAM_SETTINGS;
+  public static final java.lang.String ACTION_INPUT_METHOD_SETTINGS;
+  public static final java.lang.String ACTION_INPUT_METHOD_SUBTYPE_SETTINGS;
+  public static final java.lang.String ACTION_INTERNAL_STORAGE_SETTINGS;
+  public static final java.lang.String ACTION_LOCALE_SETTINGS;
+  public static final java.lang.String ACTION_LOCATION_SOURCE_SETTINGS;
+  public static final java.lang.String ACTION_MANAGE_ALL_APPLICATIONS_SETTINGS;
+  public static final java.lang.String ACTION_MANAGE_APPLICATIONS_SETTINGS;
+  public static final java.lang.String ACTION_MEMORY_CARD_SETTINGS;
+  public static final java.lang.String ACTION_NETWORK_OPERATOR_SETTINGS;
+  public static final java.lang.String ACTION_NFCSHARING_SETTINGS;
+  public static final java.lang.String ACTION_NFC_PAYMENT_SETTINGS;
+  public static final java.lang.String ACTION_NFC_SETTINGS;
+  public static final java.lang.String ACTION_PRINT_SETTINGS;
+  public static final java.lang.String ACTION_PRIVACY_SETTINGS;
+  public static final java.lang.String ACTION_QUICK_LAUNCH_SETTINGS;
+  public static final java.lang.String ACTION_SEARCH_SETTINGS;
+  public static final java.lang.String ACTION_SECURITY_SETTINGS;
+  public static final java.lang.String ACTION_SETTINGS;
+  public static final java.lang.String ACTION_SOUND_SETTINGS;
+  public static final java.lang.String ACTION_SYNC_SETTINGS;
+  public static final java.lang.String ACTION_USER_DICTIONARY_SETTINGS;
+  public static final java.lang.String ACTION_WIFI_IP_SETTINGS;
+  public static final java.lang.String ACTION_WIFI_SETTINGS;
+  public static final java.lang.String ACTION_WIRELESS_SETTINGS;
+  public static final java.lang.String AUTHORITY;
+  public static final java.lang.String EXTRA_ACCOUNT_TYPES;
+  public static final java.lang.String EXTRA_AUTHORITIES;
+  public static final java.lang.String EXTRA_INPUT_METHOD_ID;
+  public android.provider.Settings();
+}

@@ -1,0 +1,12 @@
+Compiled from "RemoteViewsService.java"
+public interface android.widget.RemoteViewsService$RemoteViewsFactory {
+  public abstract void onCreate();
+  public abstract void onDataSetChanged();
+  public abstract void onDestroy();
+  public abstract int getCount();
+  public abstract android.widget.RemoteViews getViewAt(int);
+  public abstract android.widget.RemoteViews getLoadingView();
+  public abstract int getViewTypeCount();
+  public abstract long getItemId(int);
+  public abstract boolean hasStableIds();
+}

@@ -1,0 +1,11 @@
+Compiled from "FileDescriptor.java"
+public final class java.io.FileDescriptor {
+  public static final java.io.FileDescriptor err;
+  public static final java.io.FileDescriptor in;
+  public static final java.io.FileDescriptor out;
+  public java.io.FileDescriptor();
+  public void sync() throws java.io.SyncFailedException;
+  public boolean valid();
+  public java.lang.String toString();
+  static {};
+}

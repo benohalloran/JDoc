@@ -1,0 +1,14 @@
+Compiled from "MediaController.java"
+public interface android.widget.MediaController$MediaPlayerControl {
+  public abstract void start();
+  public abstract void pause();
+  public abstract int getDuration();
+  public abstract int getCurrentPosition();
+  public abstract void seekTo(int);
+  public abstract boolean isPlaying();
+  public abstract int getBufferPercentage();
+  public abstract boolean canPause();
+  public abstract boolean canSeekBackward();
+  public abstract boolean canSeekForward();
+  public abstract int getAudioSessionId();
+}

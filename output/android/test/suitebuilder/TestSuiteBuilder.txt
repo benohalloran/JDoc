@@ -1,0 +1,13 @@
+Compiled from "TestSuiteBuilder.java"
+public class android.test.suitebuilder.TestSuiteBuilder {
+  public android.test.suitebuilder.TestSuiteBuilder(java.lang.Class);
+  public android.test.suitebuilder.TestSuiteBuilder(java.lang.String, java.lang.ClassLoader);
+  public android.test.suitebuilder.TestSuiteBuilder includePackages(java.lang.String...);
+  public android.test.suitebuilder.TestSuiteBuilder excludePackages(java.lang.String...);
+  public android.test.suitebuilder.TestSuiteBuilder addRequirements(java.util.List<com.android.internal.util.Predicate<android.test.suitebuilder.TestMethod>>);
+  public final android.test.suitebuilder.TestSuiteBuilder includeAllPackagesUnderHere();
+  public android.test.suitebuilder.TestSuiteBuilder named(java.lang.String);
+  public final junit.framework.TestSuite build();
+  protected java.lang.String getSuiteName();
+  public final android.test.suitebuilder.TestSuiteBuilder addRequirements(com.android.internal.util.Predicate<android.test.suitebuilder.TestMethod>...);
+}

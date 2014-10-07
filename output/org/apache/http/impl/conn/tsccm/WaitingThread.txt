@@ -1,0 +1,10 @@
+Compiled from "WaitingThread.java"
+public class org.apache.http.impl.conn.tsccm.WaitingThread {
+  public org.apache.http.impl.conn.tsccm.WaitingThread(java.util.concurrent.locks.Condition, org.apache.http.impl.conn.tsccm.RouteSpecificPool);
+  public final java.util.concurrent.locks.Condition getCondition();
+  public final org.apache.http.impl.conn.tsccm.RouteSpecificPool getPool();
+  public final java.lang.Thread getThread();
+  public boolean await(java.util.Date) throws java.lang.InterruptedException;
+  public void wakeup();
+  public void interrupt();
+}

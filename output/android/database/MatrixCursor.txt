@@ -1,0 +1,19 @@
+Compiled from "MatrixCursor.java"
+public class android.database.MatrixCursor extends android.database.AbstractCursor {
+  public android.database.MatrixCursor(java.lang.String[], int);
+  public android.database.MatrixCursor(java.lang.String[]);
+  public android.database.MatrixCursor$RowBuilder newRow();
+  public void addRow(java.lang.Object[]);
+  public void addRow(java.lang.Iterable<?>);
+  public int getCount();
+  public java.lang.String[] getColumnNames();
+  public java.lang.String getString(int);
+  public short getShort(int);
+  public int getInt(int);
+  public long getLong(int);
+  public float getFloat(int);
+  public double getDouble(int);
+  public byte[] getBlob(int);
+  public int getType(int);
+  public boolean isNull(int);
+}

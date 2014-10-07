@@ -1,0 +1,7 @@
+Compiled from "NsdManager.java"
+public interface android.net.nsd.NsdManager$RegistrationListener {
+  public abstract void onRegistrationFailed(android.net.nsd.NsdServiceInfo, int);
+  public abstract void onUnregistrationFailed(android.net.nsd.NsdServiceInfo, int);
+  public abstract void onServiceRegistered(android.net.nsd.NsdServiceInfo);
+  public abstract void onServiceUnregistered(android.net.nsd.NsdServiceInfo);
+}

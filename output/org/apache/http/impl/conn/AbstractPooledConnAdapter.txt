@@ -1,0 +1,16 @@
+Compiled from "AbstractPooledConnAdapter.java"
+public abstract class org.apache.http.impl.conn.AbstractPooledConnAdapter extends org.apache.http.impl.conn.AbstractClientConnAdapter {
+  protected volatile org.apache.http.impl.conn.AbstractPoolEntry poolEntry;
+  protected org.apache.http.impl.conn.AbstractPooledConnAdapter(org.apache.http.conn.ClientConnectionManager, org.apache.http.impl.conn.AbstractPoolEntry);
+  protected final void assertAttached();
+  protected void detach();
+  public org.apache.http.conn.routing.HttpRoute getRoute();
+  public void open(org.apache.http.conn.routing.HttpRoute, org.apache.http.protocol.HttpContext, org.apache.http.params.HttpParams) throws java.io.IOException;
+  public void tunnelTarget(boolean, org.apache.http.params.HttpParams) throws java.io.IOException;
+  public void tunnelProxy(org.apache.http.HttpHost, boolean, org.apache.http.params.HttpParams) throws java.io.IOException;
+  public void layerProtocol(org.apache.http.protocol.HttpContext, org.apache.http.params.HttpParams) throws java.io.IOException;
+  public void close() throws java.io.IOException;
+  public void shutdown() throws java.io.IOException;
+  public java.lang.Object getState();
+  public void setState(java.lang.Object);
+}

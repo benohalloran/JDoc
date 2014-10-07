@@ -1,0 +1,6 @@
+Compiled from "AbstractCursor.java"
+public class android.database.AbstractCursor$SelfContentObserver extends android.database.ContentObserver {
+  public android.database.AbstractCursor$SelfContentObserver(android.database.AbstractCursor);
+  public boolean deliverSelfNotifications();
+  public void onChange(boolean);
+}

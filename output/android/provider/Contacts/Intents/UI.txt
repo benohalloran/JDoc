@@ -1,0 +1,15 @@
+Compiled from "Contacts.java"
+public final class android.provider.Contacts$Intents$UI {
+  public static final java.lang.String FILTER_CONTACTS_ACTION;
+  public static final java.lang.String FILTER_TEXT_EXTRA_KEY;
+  public static final java.lang.String GROUP_NAME_EXTRA_KEY;
+  public static final java.lang.String LIST_ALL_CONTACTS_ACTION;
+  public static final java.lang.String LIST_CONTACTS_WITH_PHONES_ACTION;
+  public static final java.lang.String LIST_DEFAULT;
+  public static final java.lang.String LIST_FREQUENT_ACTION;
+  public static final java.lang.String LIST_GROUP_ACTION;
+  public static final java.lang.String LIST_STARRED_ACTION;
+  public static final java.lang.String LIST_STREQUENT_ACTION;
+  public static final java.lang.String TITLE_EXTRA_KEY;
+  public android.provider.Contacts$Intents$UI();
+}

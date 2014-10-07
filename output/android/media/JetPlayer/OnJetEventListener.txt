@@ -1,0 +1,7 @@
+Compiled from "JetPlayer.java"
+public interface android.media.JetPlayer$OnJetEventListener {
+  public abstract void onJetEvent(android.media.JetPlayer, short, byte, byte, byte, byte);
+  public abstract void onJetUserIdUpdate(android.media.JetPlayer, int, int);
+  public abstract void onJetNumQueuedSegmentUpdate(android.media.JetPlayer, int);
+  public abstract void onJetPauseUpdate(android.media.JetPlayer, int);
+}

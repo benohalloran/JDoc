@@ -1,0 +1,12 @@
+Compiled from "Thread.java"
+public final class java.lang.Thread$State extends java.lang.Enum<java.lang.Thread$State> {
+  public static final java.lang.Thread$State BLOCKED;
+  public static final java.lang.Thread$State NEW;
+  public static final java.lang.Thread$State RUNNABLE;
+  public static final java.lang.Thread$State TERMINATED;
+  public static final java.lang.Thread$State TIMED_WAITING;
+  public static final java.lang.Thread$State WAITING;
+  public static java.lang.Thread$State[] values();
+  public static java.lang.Thread$State valueOf(java.lang.String);
+  static {};
+}

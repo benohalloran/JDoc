@@ -1,0 +1,12 @@
+Compiled from "SynthesisRequest.java"
+public final class android.speech.tts.SynthesisRequest {
+  public android.speech.tts.SynthesisRequest(java.lang.String, android.os.Bundle);
+  public java.lang.String getText();
+  public java.lang.String getLanguage();
+  public java.lang.String getCountry();
+  public java.lang.String getVariant();
+  public int getSpeechRate();
+  public int getPitch();
+  public android.os.Bundle getParams();
+  public int getCallerUid();
+}

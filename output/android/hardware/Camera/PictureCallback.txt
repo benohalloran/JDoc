@@ -1,0 +1,4 @@
+Compiled from "Camera.java"
+public interface android.hardware.Camera$PictureCallback {
+  public abstract void onPictureTaken(byte[], android.hardware.Camera);
+}

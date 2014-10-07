@@ -1,0 +1,32 @@
+Compiled from "AccessibilityNodeInfo.java"
+public final class android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction {
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_ACCESSIBILITY_FOCUS;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_CLEAR_ACCESSIBILITY_FOCUS;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_CLEAR_FOCUS;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_CLEAR_SELECTION;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_CLICK;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_COLLAPSE;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_COPY;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_CUT;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_DISMISS;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_EXPAND;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_FOCUS;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_LONG_CLICK;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_NEXT_AT_MOVEMENT_GRANULARITY;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_NEXT_HTML_ELEMENT;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_PASTE;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_PREVIOUS_HTML_ELEMENT;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_SCROLL_BACKWARD;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_SCROLL_FORWARD;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_SELECT;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_SET_SELECTION;
+  public static final android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction ACTION_SET_TEXT;
+  public android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction(int, java.lang.CharSequence);
+  public int getId();
+  public java.lang.CharSequence getLabel();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  static {};
+}

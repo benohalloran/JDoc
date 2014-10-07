@@ -1,0 +1,18 @@
+Compiled from "BaseExpandableListAdapter.java"
+public abstract class android.widget.BaseExpandableListAdapter implements android.widget.ExpandableListAdapter,android.widget.HeterogeneousExpandableList {
+  public android.widget.BaseExpandableListAdapter();
+  public void registerDataSetObserver(android.database.DataSetObserver);
+  public void unregisterDataSetObserver(android.database.DataSetObserver);
+  public void notifyDataSetInvalidated();
+  public void notifyDataSetChanged();
+  public boolean areAllItemsEnabled();
+  public void onGroupCollapsed(int);
+  public void onGroupExpanded(int);
+  public long getCombinedChildId(long, long);
+  public long getCombinedGroupId(long);
+  public boolean isEmpty();
+  public int getChildType(int, int);
+  public int getChildTypeCount();
+  public int getGroupType(int);
+  public int getGroupTypeCount();
+}

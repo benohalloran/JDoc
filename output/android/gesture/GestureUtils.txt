@@ -1,0 +1,9 @@
+Compiled from "GestureUtils.java"
+public final class android.gesture.GestureUtils {
+  android.gesture.GestureUtils();
+  public static float[] spatialSampling(android.gesture.Gesture, int);
+  public static float[] spatialSampling(android.gesture.Gesture, int, boolean);
+  public static float[] temporalSampling(android.gesture.GestureStroke, int);
+  public static android.gesture.OrientedBoundingBox computeOrientedBoundingBox(java.util.ArrayList<android.gesture.GesturePoint>);
+  public static android.gesture.OrientedBoundingBox computeOrientedBoundingBox(float[]);
+}

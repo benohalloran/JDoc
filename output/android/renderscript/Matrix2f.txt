@@ -1,0 +1,17 @@
+Compiled from "Matrix2f.java"
+public class android.renderscript.Matrix2f {
+  public android.renderscript.Matrix2f();
+  public android.renderscript.Matrix2f(float[]);
+  public float[] getArray();
+  public float get(int, int);
+  public void set(int, int, float);
+  public void loadIdentity();
+  public void load(android.renderscript.Matrix2f);
+  public void loadRotate(float);
+  public void loadScale(float, float);
+  public void loadMultiply(android.renderscript.Matrix2f, android.renderscript.Matrix2f);
+  public void multiply(android.renderscript.Matrix2f);
+  public void rotate(float);
+  public void scale(float, float);
+  public void transpose();
+}

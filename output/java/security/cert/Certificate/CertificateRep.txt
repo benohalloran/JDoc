@@ -1,0 +1,5 @@
+Compiled from "Certificate.java"
+public class java.security.cert.Certificate$CertificateRep implements java.io.Serializable {
+  protected java.security.cert.Certificate$CertificateRep(java.lang.String, byte[]);
+  protected java.lang.Object readResolve() throws java.io.ObjectStreamException;
+}

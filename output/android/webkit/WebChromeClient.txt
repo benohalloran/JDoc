@@ -1,0 +1,30 @@
+Compiled from "WebChromeClient.java"
+public class android.webkit.WebChromeClient {
+  public android.webkit.WebChromeClient();
+  public void onProgressChanged(android.webkit.WebView, int);
+  public void onReceivedTitle(android.webkit.WebView, java.lang.String);
+  public void onReceivedIcon(android.webkit.WebView, android.graphics.Bitmap);
+  public void onReceivedTouchIconUrl(android.webkit.WebView, java.lang.String, boolean);
+  public void onShowCustomView(android.view.View, android.webkit.WebChromeClient$CustomViewCallback);
+  public void onShowCustomView(android.view.View, int, android.webkit.WebChromeClient$CustomViewCallback);
+  public void onHideCustomView();
+  public boolean onCreateWindow(android.webkit.WebView, boolean, boolean, android.os.Message);
+  public void onRequestFocus(android.webkit.WebView);
+  public void onCloseWindow(android.webkit.WebView);
+  public boolean onJsAlert(android.webkit.WebView, java.lang.String, java.lang.String, android.webkit.JsResult);
+  public boolean onJsConfirm(android.webkit.WebView, java.lang.String, java.lang.String, android.webkit.JsResult);
+  public boolean onJsPrompt(android.webkit.WebView, java.lang.String, java.lang.String, java.lang.String, android.webkit.JsPromptResult);
+  public boolean onJsBeforeUnload(android.webkit.WebView, java.lang.String, java.lang.String, android.webkit.JsResult);
+  public void onExceededDatabaseQuota(java.lang.String, java.lang.String, long, long, long, android.webkit.WebStorage$QuotaUpdater);
+  public void onReachedMaxAppCacheSize(long, long, android.webkit.WebStorage$QuotaUpdater);
+  public void onGeolocationPermissionsShowPrompt(java.lang.String, android.webkit.GeolocationPermissions$Callback);
+  public void onGeolocationPermissionsHidePrompt();
+  public void onPermissionRequest(android.webkit.PermissionRequest);
+  public void onPermissionRequestCanceled(android.webkit.PermissionRequest);
+  public boolean onJsTimeout();
+  public void onConsoleMessage(java.lang.String, int, java.lang.String);
+  public boolean onConsoleMessage(android.webkit.ConsoleMessage);
+  public android.graphics.Bitmap getDefaultVideoPoster();
+  public android.view.View getVideoLoadingProgressView();
+  public void getVisitedHistory(android.webkit.ValueCallback<java.lang.String[]>);
+}

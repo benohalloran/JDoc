@@ -1,0 +1,15 @@
+Compiled from "AndroidCharacter.java"
+public class android.text.AndroidCharacter {
+  public static final int EAST_ASIAN_WIDTH_AMBIGUOUS;
+  public static final int EAST_ASIAN_WIDTH_FULL_WIDTH;
+  public static final int EAST_ASIAN_WIDTH_HALF_WIDTH;
+  public static final int EAST_ASIAN_WIDTH_NARROW;
+  public static final int EAST_ASIAN_WIDTH_NEUTRAL;
+  public static final int EAST_ASIAN_WIDTH_WIDE;
+  public android.text.AndroidCharacter();
+  public static native void getDirectionalities(char[], byte[], int);
+  public static native int getEastAsianWidth(char);
+  public static native void getEastAsianWidths(char[], int, int, byte[]);
+  public static native boolean mirror(char[], int, int);
+  public static native char getMirror(char);
+}

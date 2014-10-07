@@ -1,0 +1,14 @@
+Compiled from "BluetoothHealthAppConfiguration.java"
+public final class android.bluetooth.BluetoothHealthAppConfiguration implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.bluetooth.BluetoothHealthAppConfiguration> CREATOR;
+  android.bluetooth.BluetoothHealthAppConfiguration();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public int describeContents();
+  public int getDataType();
+  public java.lang.String getName();
+  public int getRole();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

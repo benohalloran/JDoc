@@ -1,0 +1,22 @@
+Compiled from "AndroidTestRunner.java"
+public class android.test.AndroidTestRunner extends junit.runner.BaseTestRunner {
+  public android.test.AndroidTestRunner();
+  public void setTestClassName(java.lang.String, java.lang.String);
+  public void setTest(junit.framework.Test);
+  public void clearTestListeners();
+  public void addTestListener(junit.framework.TestListener);
+  protected junit.framework.TestResult createTestResult();
+  public java.util.List<junit.framework.TestCase> getTestCases();
+  public java.lang.String getTestClassName();
+  public junit.framework.TestResult getTestResult();
+  public void runTest();
+  public void runTest(junit.framework.TestResult);
+  public void setContext(android.content.Context);
+  public void setInstrumentation(android.app.Instrumentation);
+  public void setInstrumentaiton(android.app.Instrumentation);
+  protected java.lang.Class loadSuiteClass(java.lang.String) throws java.lang.ClassNotFoundException;
+  public void testStarted(java.lang.String);
+  public void testEnded(java.lang.String);
+  public void testFailed(int, junit.framework.Test, java.lang.Throwable);
+  protected void runFailed(java.lang.String);
+}

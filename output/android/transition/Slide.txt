@@ -1,0 +1,8 @@
+Compiled from "Slide.java"
+public class android.transition.Slide extends android.transition.Visibility {
+  public android.transition.Slide();
+  public android.transition.Slide(int);
+  public void setSlideEdge(int);
+  public android.animation.Animator onAppear(android.view.ViewGroup, android.view.View, android.transition.TransitionValues, android.transition.TransitionValues);
+  public android.animation.Animator onDisappear(android.view.ViewGroup, android.view.View, android.transition.TransitionValues, android.transition.TransitionValues);
+}

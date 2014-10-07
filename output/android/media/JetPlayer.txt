@@ -1,0 +1,23 @@
+Compiled from "JetPlayer.java"
+public class android.media.JetPlayer {
+  android.media.JetPlayer();
+  public static android.media.JetPlayer getJetPlayer();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+  protected void finalize();
+  public void release();
+  public static int getMaxTracks();
+  public boolean loadJetFile(java.lang.String);
+  public boolean loadJetFile(android.content.res.AssetFileDescriptor);
+  public boolean closeJetFile();
+  public boolean play();
+  public boolean pause();
+  public boolean queueJetSegment(int, int, int, int, int, byte);
+  public boolean queueJetSegmentMuteArray(int, int, int, int, boolean[], byte);
+  public boolean setMuteFlags(int, boolean);
+  public boolean setMuteArray(boolean[], boolean);
+  public boolean setMuteFlag(int, boolean, boolean);
+  public boolean triggerClip(int);
+  public boolean clearQueue();
+  public void setEventListener(android.media.JetPlayer$OnJetEventListener);
+  public void setEventListener(android.media.JetPlayer$OnJetEventListener, android.os.Handler);
+}

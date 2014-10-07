@@ -1,0 +1,13 @@
+Compiled from "CellInfoGsm.java"
+public final class android.telephony.CellInfoGsm extends android.telephony.CellInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.telephony.CellInfoGsm> CREATOR;
+  android.telephony.CellInfoGsm();
+  public android.telephony.CellIdentityGsm getCellIdentity();
+  public android.telephony.CellSignalStrengthGsm getCellSignalStrength();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

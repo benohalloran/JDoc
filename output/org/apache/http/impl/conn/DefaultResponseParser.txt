@@ -1,0 +1,5 @@
+Compiled from "DefaultResponseParser.java"
+public class org.apache.http.impl.conn.DefaultResponseParser extends org.apache.http.impl.io.AbstractMessageParser {
+  public org.apache.http.impl.conn.DefaultResponseParser(org.apache.http.io.SessionInputBuffer, org.apache.http.message.LineParser, org.apache.http.HttpResponseFactory, org.apache.http.params.HttpParams);
+  protected org.apache.http.HttpMessage parseHead(org.apache.http.io.SessionInputBuffer) throws java.io.IOException, org.apache.http.HttpException;
+}

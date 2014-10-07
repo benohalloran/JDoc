@@ -1,0 +1,21 @@
+Compiled from "AppOpsManager.java"
+public class android.app.AppOpsManager {
+  public static final int MODE_ALLOWED;
+  public static final int MODE_ERRORED;
+  public static final int MODE_IGNORED;
+  public static final java.lang.String OPSTR_COARSE_LOCATION;
+  public static final java.lang.String OPSTR_FINE_LOCATION;
+  public static final java.lang.String OPSTR_MONITOR_HIGH_POWER_LOCATION;
+  public static final java.lang.String OPSTR_MONITOR_LOCATION;
+  android.app.AppOpsManager();
+  public void startWatchingMode(java.lang.String, java.lang.String, android.app.AppOpsManager$OnOpChangedListener);
+  public void stopWatchingMode(android.app.AppOpsManager$OnOpChangedListener);
+  public int checkOp(java.lang.String, int, java.lang.String);
+  public int checkOpNoThrow(java.lang.String, int, java.lang.String);
+  public int noteOp(java.lang.String, int, java.lang.String);
+  public int noteOpNoThrow(java.lang.String, int, java.lang.String);
+  public int startOp(java.lang.String, int, java.lang.String);
+  public int startOpNoThrow(java.lang.String, int, java.lang.String);
+  public void finishOp(java.lang.String, int, java.lang.String);
+  public void checkPackage(int, java.lang.String);
+}

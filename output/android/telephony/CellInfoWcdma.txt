@@ -1,0 +1,13 @@
+Compiled from "CellInfoWcdma.java"
+public final class android.telephony.CellInfoWcdma extends android.telephony.CellInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.telephony.CellInfoWcdma> CREATOR;
+  android.telephony.CellInfoWcdma();
+  public android.telephony.CellIdentityWcdma getCellIdentity();
+  public android.telephony.CellSignalStrengthWcdma getCellSignalStrength();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

@@ -1,0 +1,21 @@
+Compiled from "SyncAdapterType.java"
+public class android.content.SyncAdapterType implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.SyncAdapterType> CREATOR;
+  public final java.lang.String accountType;
+  public final java.lang.String authority;
+  public final boolean isKey;
+  public android.content.SyncAdapterType(java.lang.String, java.lang.String, boolean, boolean);
+  public android.content.SyncAdapterType(android.os.Parcel);
+  public boolean supportsUploading();
+  public boolean isUserVisible();
+  public boolean allowParallelSyncs();
+  public boolean isAlwaysSyncable();
+  public java.lang.String getSettingsActivity();
+  public static android.content.SyncAdapterType newKey(java.lang.String, java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

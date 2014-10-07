@@ -1,0 +1,12 @@
+Compiled from "ViewDebug.java"
+public final class android.view.ViewDebug$RecyclerTraceType extends java.lang.Enum<android.view.ViewDebug$RecyclerTraceType> {
+  public static final android.view.ViewDebug$RecyclerTraceType BIND_VIEW;
+  public static final android.view.ViewDebug$RecyclerTraceType MOVE_FROM_ACTIVE_TO_SCRAP_HEAP;
+  public static final android.view.ViewDebug$RecyclerTraceType MOVE_TO_SCRAP_HEAP;
+  public static final android.view.ViewDebug$RecyclerTraceType NEW_VIEW;
+  public static final android.view.ViewDebug$RecyclerTraceType RECYCLE_FROM_ACTIVE_HEAP;
+  public static final android.view.ViewDebug$RecyclerTraceType RECYCLE_FROM_SCRAP_HEAP;
+  public static android.view.ViewDebug$RecyclerTraceType[] values();
+  public static android.view.ViewDebug$RecyclerTraceType valueOf(java.lang.String);
+  static {};
+}

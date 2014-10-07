@@ -1,0 +1,37 @@
+Compiled from "CopyOnWriteArrayList.java"
+public class java.util.concurrent.CopyOnWriteArrayList<E> implements java.util.List<E>, java.util.RandomAccess, java.lang.Cloneable, java.io.Serializable {
+  public java.util.concurrent.CopyOnWriteArrayList();
+  public java.util.concurrent.CopyOnWriteArrayList(java.util.Collection<? extends E>);
+  public java.util.concurrent.CopyOnWriteArrayList(E[]);
+  public java.lang.Object clone();
+  public int size();
+  public E get(int);
+  public boolean contains(java.lang.Object);
+  public boolean containsAll(java.util.Collection<?>);
+  public int indexOf(E, int);
+  public int indexOf(java.lang.Object);
+  public int lastIndexOf(E, int);
+  public int lastIndexOf(java.lang.Object);
+  public boolean isEmpty();
+  public java.util.Iterator<E> iterator();
+  public java.util.ListIterator<E> listIterator(int);
+  public java.util.ListIterator<E> listIterator();
+  public java.util.List<E> subList(int, int);
+  public java.lang.Object[] toArray();
+  public <T extends java/lang/Object> T[] toArray(T[]);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public synchronized boolean add(E);
+  public synchronized void add(int, E);
+  public synchronized boolean addAll(java.util.Collection<? extends E>);
+  public synchronized boolean addAll(int, java.util.Collection<? extends E>);
+  public synchronized int addAllAbsent(java.util.Collection<? extends E>);
+  public synchronized boolean addIfAbsent(E);
+  public synchronized void clear();
+  public synchronized E remove(int);
+  public synchronized boolean remove(java.lang.Object);
+  public synchronized boolean removeAll(java.util.Collection<?>);
+  public synchronized boolean retainAll(java.util.Collection<?>);
+  public synchronized E set(int, E);
+}

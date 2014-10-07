@@ -1,0 +1,4 @@
+Compiled from "ConnConnectionPNames.java"
+public interface org.apache.http.conn.params.ConnConnectionPNames {
+  public static final java.lang.String MAX_STATUS_LINE_GARBAGE;
+}

@@ -1,0 +1,15 @@
+Compiled from "Application.java"
+public class android.app.Application extends android.content.ContextWrapper implements android.content.ComponentCallbacks2 {
+  public android.app.Application();
+  public void onCreate();
+  public void onTerminate();
+  public void onConfigurationChanged(android.content.res.Configuration);
+  public void onLowMemory();
+  public void onTrimMemory(int);
+  public void registerComponentCallbacks(android.content.ComponentCallbacks);
+  public void unregisterComponentCallbacks(android.content.ComponentCallbacks);
+  public void registerActivityLifecycleCallbacks(android.app.Application$ActivityLifecycleCallbacks);
+  public void unregisterActivityLifecycleCallbacks(android.app.Application$ActivityLifecycleCallbacks);
+  public void registerOnProvideAssistDataListener(android.app.Application$OnProvideAssistDataListener);
+  public void unregisterOnProvideAssistDataListener(android.app.Application$OnProvideAssistDataListener);
+}

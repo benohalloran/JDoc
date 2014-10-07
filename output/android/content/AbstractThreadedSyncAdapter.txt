@@ -1,0 +1,11 @@
+Compiled from "AbstractThreadedSyncAdapter.java"
+public abstract class android.content.AbstractThreadedSyncAdapter {
+  public static final int LOG_SYNC_DETAILS;
+  public android.content.AbstractThreadedSyncAdapter(android.content.Context, boolean);
+  public android.content.AbstractThreadedSyncAdapter(android.content.Context, boolean, boolean);
+  public android.content.Context getContext();
+  public final android.os.IBinder getSyncAdapterBinder();
+  public abstract void onPerformSync(android.accounts.Account, android.os.Bundle, java.lang.String, android.content.ContentProviderClient, android.content.SyncResult);
+  public void onSyncCanceled();
+  public void onSyncCanceled(java.lang.Thread);
+}

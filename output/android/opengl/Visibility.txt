@@ -1,0 +1,7 @@
+Compiled from "Visibility.java"
+public class android.opengl.Visibility {
+  public android.opengl.Visibility();
+  public static native int visibilityTest(float[], int, float[], int, char[], int, int);
+  public static native int frustumCullSpheres(float[], int, float[], int, int, int[], int, int);
+  public static native void computeBoundingSphere(float[], int, int, float[], int);
+}

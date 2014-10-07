@@ -1,0 +1,12 @@
+Compiled from "TextPaint.java"
+public class android.text.TextPaint extends android.graphics.Paint {
+  public int baselineShift;
+  public int bgColor;
+  public float density;
+  public int[] drawableState;
+  public int linkColor;
+  public android.text.TextPaint();
+  public android.text.TextPaint(int);
+  public android.text.TextPaint(android.graphics.Paint);
+  public void set(android.text.TextPaint);
+}

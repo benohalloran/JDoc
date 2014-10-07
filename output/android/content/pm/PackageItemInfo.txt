@@ -1,0 +1,22 @@
+Compiled from "PackageItemInfo.java"
+public class android.content.pm.PackageItemInfo {
+  public int banner;
+  public int icon;
+  public int labelRes;
+  public int logo;
+  public android.os.Bundle metaData;
+  public java.lang.String name;
+  public java.lang.CharSequence nonLocalizedLabel;
+  public java.lang.String packageName;
+  public android.content.pm.PackageItemInfo();
+  public android.content.pm.PackageItemInfo(android.content.pm.PackageItemInfo);
+  protected android.content.pm.PackageItemInfo(android.os.Parcel);
+  public java.lang.CharSequence loadLabel(android.content.pm.PackageManager);
+  public android.graphics.drawable.Drawable loadIcon(android.content.pm.PackageManager);
+  public android.graphics.drawable.Drawable loadBanner(android.content.pm.PackageManager);
+  public android.graphics.drawable.Drawable loadLogo(android.content.pm.PackageManager);
+  public android.content.res.XmlResourceParser loadXmlMetaData(android.content.pm.PackageManager, java.lang.String);
+  protected void dumpFront(android.util.Printer, java.lang.String);
+  protected void dumpBack(android.util.Printer, java.lang.String);
+  public void writeToParcel(android.os.Parcel, int);
+}

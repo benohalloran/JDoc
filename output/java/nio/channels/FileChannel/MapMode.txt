@@ -1,0 +1,9 @@
+Compiled from "FileChannel.java"
+public class java.nio.channels.FileChannel$MapMode {
+  public static final java.nio.channels.FileChannel$MapMode PRIVATE;
+  public static final java.nio.channels.FileChannel$MapMode READ_ONLY;
+  public static final java.nio.channels.FileChannel$MapMode READ_WRITE;
+  java.nio.channels.FileChannel$MapMode();
+  public java.lang.String toString();
+  static {};
+}

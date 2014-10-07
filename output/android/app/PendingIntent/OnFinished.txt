@@ -1,0 +1,4 @@
+Compiled from "PendingIntent.java"
+public interface android.app.PendingIntent$OnFinished {
+  public abstract void onSendFinished(android.app.PendingIntent, android.content.Intent, int, java.lang.String, android.os.Bundle);
+}

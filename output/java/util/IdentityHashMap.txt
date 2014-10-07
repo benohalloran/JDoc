@@ -1,0 +1,20 @@
+Compiled from "IdentityHashMap.java"
+public class java.util.IdentityHashMap<K, V> extends java.util.AbstractMap<K, V> implements java.util.Map<K, V>, java.io.Serializable, java.lang.Cloneable {
+  public java.util.IdentityHashMap();
+  public java.util.IdentityHashMap(int);
+  public java.util.IdentityHashMap(java.util.Map<? extends K, ? extends V>);
+  public void clear();
+  public boolean containsKey(java.lang.Object);
+  public boolean containsValue(java.lang.Object);
+  public V get(java.lang.Object);
+  public V put(K, V);
+  public void putAll(java.util.Map<? extends K, ? extends V>);
+  public V remove(java.lang.Object);
+  public java.util.Set<java.util.Map$Entry<K, V>> entrySet();
+  public java.util.Set<K> keySet();
+  public java.util.Collection<V> values();
+  public boolean equals(java.lang.Object);
+  public java.lang.Object clone();
+  public boolean isEmpty();
+  public int size();
+}

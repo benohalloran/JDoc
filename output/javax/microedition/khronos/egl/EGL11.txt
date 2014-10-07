@@ -1,0 +1,4 @@
+Compiled from "EGL11.java"
+public interface javax.microedition.khronos.egl.EGL11 extends javax.microedition.khronos.egl.EGL10 {
+  public static final int EGL_CONTEXT_LOST;
+}

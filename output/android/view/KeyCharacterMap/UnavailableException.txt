@@ -1,0 +1,4 @@
+Compiled from "KeyCharacterMap.java"
+public class android.view.KeyCharacterMap$UnavailableException extends android.util.AndroidRuntimeException {
+  public android.view.KeyCharacterMap$UnavailableException(java.lang.String);
+}

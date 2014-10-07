@@ -1,0 +1,8 @@
+Compiled from "AbstractMessageParser.java"
+public abstract class org.apache.http.impl.io.AbstractMessageParser implements org.apache.http.io.HttpMessageParser {
+  protected final org.apache.http.message.LineParser lineParser;
+  public org.apache.http.impl.io.AbstractMessageParser(org.apache.http.io.SessionInputBuffer, org.apache.http.message.LineParser, org.apache.http.params.HttpParams);
+  public static org.apache.http.Header[] parseHeaders(org.apache.http.io.SessionInputBuffer, int, int, org.apache.http.message.LineParser) throws org.apache.http.HttpException, java.io.IOException;
+  protected abstract org.apache.http.HttpMessage parseHead(org.apache.http.io.SessionInputBuffer) throws java.io.IOException, org.apache.http.HttpException, org.apache.http.ParseException;
+  public org.apache.http.HttpMessage parse() throws java.io.IOException, org.apache.http.HttpException;
+}

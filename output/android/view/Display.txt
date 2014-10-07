@@ -1,0 +1,31 @@
+Compiled from "Display.java"
+public final class android.view.Display {
+  public static final int DEFAULT_DISPLAY;
+  public static final int FLAG_PRESENTATION;
+  public static final int FLAG_PRIVATE;
+  public static final int FLAG_SECURE;
+  public static final int FLAG_SUPPORTS_PROTECTED_BUFFERS;
+  public static final int STATE_DOZING;
+  public static final int STATE_OFF;
+  public static final int STATE_ON;
+  public static final int STATE_UNKNOWN;
+  android.view.Display();
+  public int getDisplayId();
+  public boolean isValid();
+  public int getFlags();
+  public java.lang.String getName();
+  public void getSize(android.graphics.Point);
+  public void getRectSize(android.graphics.Rect);
+  public void getCurrentSizeRange(android.graphics.Point, android.graphics.Point);
+  public int getWidth();
+  public int getHeight();
+  public int getRotation();
+  public int getOrientation();
+  public int getPixelFormat();
+  public float getRefreshRate();
+  public void getMetrics(android.util.DisplayMetrics);
+  public void getRealSize(android.graphics.Point);
+  public void getRealMetrics(android.util.DisplayMetrics);
+  public int getState();
+  public java.lang.String toString();
+}

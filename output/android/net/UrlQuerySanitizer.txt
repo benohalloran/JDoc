@@ -1,0 +1,36 @@
+Compiled from "UrlQuerySanitizer.java"
+public class android.net.UrlQuerySanitizer {
+  public android.net.UrlQuerySanitizer();
+  public android.net.UrlQuerySanitizer(java.lang.String);
+  public android.net.UrlQuerySanitizer$ValueSanitizer getUnregisteredParameterValueSanitizer();
+  public void setUnregisteredParameterValueSanitizer(android.net.UrlQuerySanitizer$ValueSanitizer);
+  public static final android.net.UrlQuerySanitizer$ValueSanitizer getAllIllegal();
+  public static final android.net.UrlQuerySanitizer$ValueSanitizer getAllButNulLegal();
+  public static final android.net.UrlQuerySanitizer$ValueSanitizer getAllButWhitespaceLegal();
+  public static final android.net.UrlQuerySanitizer$ValueSanitizer getUrlLegal();
+  public static final android.net.UrlQuerySanitizer$ValueSanitizer getUrlAndSpaceLegal();
+  public static final android.net.UrlQuerySanitizer$ValueSanitizer getAmpLegal();
+  public static final android.net.UrlQuerySanitizer$ValueSanitizer getAmpAndSpaceLegal();
+  public static final android.net.UrlQuerySanitizer$ValueSanitizer getSpaceLegal();
+  public static final android.net.UrlQuerySanitizer$ValueSanitizer getAllButNulAndAngleBracketsLegal();
+  public void parseUrl(java.lang.String);
+  public void parseQuery(java.lang.String);
+  public java.util.Set<java.lang.String> getParameterSet();
+  public java.util.List<android.net.UrlQuerySanitizer$ParameterValuePair> getParameterList();
+  public boolean hasParameter(java.lang.String);
+  public java.lang.String getValue(java.lang.String);
+  public void registerParameter(java.lang.String, android.net.UrlQuerySanitizer$ValueSanitizer);
+  public void registerParameters(java.lang.String[], android.net.UrlQuerySanitizer$ValueSanitizer);
+  public void setAllowUnregisteredParamaters(boolean);
+  public boolean getAllowUnregisteredParamaters();
+  public void setPreferFirstRepeatedParameter(boolean);
+  public boolean getPreferFirstRepeatedParameter();
+  protected void parseEntry(java.lang.String, java.lang.String);
+  protected void addSanitizedEntry(java.lang.String, java.lang.String);
+  public android.net.UrlQuerySanitizer$ValueSanitizer getValueSanitizer(java.lang.String);
+  public android.net.UrlQuerySanitizer$ValueSanitizer getEffectiveValueSanitizer(java.lang.String);
+  public java.lang.String unescape(java.lang.String);
+  protected boolean isHexDigit(char);
+  protected int decodeHexDigit(char);
+  protected void clear();
+}

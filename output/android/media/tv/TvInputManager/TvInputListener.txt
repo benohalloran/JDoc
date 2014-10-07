@@ -1,0 +1,5 @@
+Compiled from "TvInputManager.java"
+public abstract class android.media.tv.TvInputManager$TvInputListener {
+  public android.media.tv.TvInputManager$TvInputListener();
+  public void onAvailabilityChanged(java.lang.String, boolean);
+}

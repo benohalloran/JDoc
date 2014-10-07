@@ -1,0 +1,25 @@
+Compiled from "GridLayoutAnimationController.java"
+public class android.view.animation.GridLayoutAnimationController extends android.view.animation.LayoutAnimationController {
+  public static final int DIRECTION_BOTTOM_TO_TOP;
+  public static final int DIRECTION_HORIZONTAL_MASK;
+  public static final int DIRECTION_LEFT_TO_RIGHT;
+  public static final int DIRECTION_RIGHT_TO_LEFT;
+  public static final int DIRECTION_TOP_TO_BOTTOM;
+  public static final int DIRECTION_VERTICAL_MASK;
+  public static final int PRIORITY_COLUMN;
+  public static final int PRIORITY_NONE;
+  public static final int PRIORITY_ROW;
+  public android.view.animation.GridLayoutAnimationController(android.content.Context, android.util.AttributeSet);
+  public android.view.animation.GridLayoutAnimationController(android.view.animation.Animation);
+  public android.view.animation.GridLayoutAnimationController(android.view.animation.Animation, float, float);
+  public float getColumnDelay();
+  public void setColumnDelay(float);
+  public float getRowDelay();
+  public void setRowDelay(float);
+  public int getDirection();
+  public void setDirection(int);
+  public int getDirectionPriority();
+  public void setDirectionPriority(int);
+  public boolean willOverlap();
+  protected long getDelayForView(android.view.View);
+}

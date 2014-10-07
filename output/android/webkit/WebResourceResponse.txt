@@ -1,0 +1,10 @@
+Compiled from "WebResourceResponse.java"
+public class android.webkit.WebResourceResponse {
+  public android.webkit.WebResourceResponse(java.lang.String, java.lang.String, java.io.InputStream);
+  public void setMimeType(java.lang.String);
+  public java.lang.String getMimeType();
+  public void setEncoding(java.lang.String);
+  public java.lang.String getEncoding();
+  public void setData(java.io.InputStream);
+  public java.io.InputStream getData();
+}

@@ -1,0 +1,27 @@
+Compiled from "Hashtable.java"
+public class java.util.Hashtable<K, V> extends java.util.Dictionary<K, V> implements java.util.Map<K, V>, java.lang.Cloneable, java.io.Serializable {
+  public java.util.Hashtable();
+  public java.util.Hashtable(int);
+  public java.util.Hashtable(int, float);
+  public java.util.Hashtable(java.util.Map<? extends K, ? extends V>);
+  public synchronized java.lang.Object clone();
+  public synchronized boolean isEmpty();
+  public synchronized int size();
+  public synchronized V get(java.lang.Object);
+  public synchronized boolean containsKey(java.lang.Object);
+  public synchronized boolean containsValue(java.lang.Object);
+  public boolean contains(java.lang.Object);
+  public synchronized V put(K, V);
+  public synchronized void putAll(java.util.Map<? extends K, ? extends V>);
+  protected void rehash();
+  public synchronized V remove(java.lang.Object);
+  public synchronized void clear();
+  public synchronized java.util.Set<K> keySet();
+  public synchronized java.util.Collection<V> values();
+  public synchronized java.util.Set<java.util.Map$Entry<K, V>> entrySet();
+  public synchronized java.util.Enumeration<K> keys();
+  public synchronized java.util.Enumeration<V> elements();
+  public synchronized boolean equals(java.lang.Object);
+  public synchronized int hashCode();
+  public synchronized java.lang.String toString();
+}

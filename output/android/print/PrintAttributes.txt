@@ -1,0 +1,17 @@
+Compiled from "PrintAttributes.java"
+public final class android.print.PrintAttributes implements android.os.Parcelable {
+  public static final int COLOR_MODE_COLOR;
+  public static final int COLOR_MODE_MONOCHROME;
+  public static final android.os.Parcelable$Creator<android.print.PrintAttributes> CREATOR;
+  android.print.PrintAttributes();
+  public android.print.PrintAttributes$MediaSize getMediaSize();
+  public android.print.PrintAttributes$Resolution getResolution();
+  public android.print.PrintAttributes$Margins getMinMargins();
+  public int getColorMode();
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  static {};
+}

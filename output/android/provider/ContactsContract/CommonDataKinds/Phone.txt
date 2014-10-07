@@ -1,0 +1,35 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$CommonDataKinds$Phone implements android.provider.ContactsContract$DataColumnsWithJoins,android.provider.ContactsContract$CommonDataKinds$CommonColumns {
+  public static final android.net.Uri CONTENT_FILTER_URI;
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String NORMALIZED_NUMBER;
+  public static final java.lang.String NUMBER;
+  public static final java.lang.String SEARCH_DISPLAY_NAME_KEY;
+  public static final java.lang.String SEARCH_PHONE_NUMBER_KEY;
+  public static final int TYPE_ASSISTANT;
+  public static final int TYPE_CALLBACK;
+  public static final int TYPE_CAR;
+  public static final int TYPE_COMPANY_MAIN;
+  public static final int TYPE_FAX_HOME;
+  public static final int TYPE_FAX_WORK;
+  public static final int TYPE_HOME;
+  public static final int TYPE_ISDN;
+  public static final int TYPE_MAIN;
+  public static final int TYPE_MMS;
+  public static final int TYPE_MOBILE;
+  public static final int TYPE_OTHER;
+  public static final int TYPE_OTHER_FAX;
+  public static final int TYPE_PAGER;
+  public static final int TYPE_RADIO;
+  public static final int TYPE_TELEX;
+  public static final int TYPE_TTY_TDD;
+  public static final int TYPE_WORK;
+  public static final int TYPE_WORK_MOBILE;
+  public static final int TYPE_WORK_PAGER;
+  android.provider.ContactsContract$CommonDataKinds$Phone();
+  public static final int getTypeLabelResource(int);
+  public static final java.lang.CharSequence getTypeLabel(android.content.res.Resources, int, java.lang.CharSequence);
+  static {};
+}

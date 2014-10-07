@@ -1,0 +1,11 @@
+Compiled from "RoundRectShape.java"
+public class android.graphics.drawable.shapes.RoundRectShape extends android.graphics.drawable.shapes.RectShape {
+  public android.graphics.drawable.shapes.RoundRectShape(float[], android.graphics.RectF, float[]);
+  public void draw(android.graphics.Canvas, android.graphics.Paint);
+  public boolean getOutline(android.graphics.Outline);
+  protected void onResize(float, float);
+  public android.graphics.drawable.shapes.RoundRectShape clone() throws java.lang.CloneNotSupportedException;
+  public android.graphics.drawable.shapes.RectShape clone() throws java.lang.CloneNotSupportedException;
+  public android.graphics.drawable.shapes.Shape clone() throws java.lang.CloneNotSupportedException;
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

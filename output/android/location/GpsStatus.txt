@@ -1,0 +1,11 @@
+Compiled from "GpsStatus.java"
+public final class android.location.GpsStatus {
+  public static final int GPS_EVENT_FIRST_FIX;
+  public static final int GPS_EVENT_SATELLITE_STATUS;
+  public static final int GPS_EVENT_STARTED;
+  public static final int GPS_EVENT_STOPPED;
+  android.location.GpsStatus();
+  public int getTimeToFirstFix();
+  public java.lang.Iterable<android.location.GpsSatellite> getSatellites();
+  public int getMaxSatellites();
+}

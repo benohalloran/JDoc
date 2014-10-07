@@ -1,0 +1,4 @@
+Compiled from "GLES31Ext.java"
+public interface android.opengl.GLES31Ext$DebugProcKHR {
+  public abstract void onMessage(int, int, int, int, java.lang.String);
+}

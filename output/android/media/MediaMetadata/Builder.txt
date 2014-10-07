@@ -1,0 +1,10 @@
+Compiled from "MediaMetadata.java"
+public final class android.media.MediaMetadata$Builder {
+  public android.media.MediaMetadata$Builder();
+  public android.media.MediaMetadata$Builder(android.media.MediaMetadata);
+  public android.media.MediaMetadata$Builder putString(java.lang.String, java.lang.String);
+  public android.media.MediaMetadata$Builder putLong(java.lang.String, long);
+  public android.media.MediaMetadata$Builder putRating(java.lang.String, android.media.Rating);
+  public android.media.MediaMetadata$Builder putBitmap(java.lang.String, android.graphics.Bitmap);
+  public android.media.MediaMetadata build();
+}

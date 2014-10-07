@@ -1,0 +1,6 @@
+Compiled from "Spannable.java"
+public class android.text.Spannable$Factory {
+  public android.text.Spannable$Factory();
+  public static android.text.Spannable$Factory getInstance();
+  public android.text.Spannable newSpannable(java.lang.CharSequence);
+}

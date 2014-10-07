@@ -1,0 +1,9 @@
+Compiled from "EventLog.java"
+public final class android.util.EventLog$Event {
+  android.util.EventLog$Event();
+  public int getProcessId();
+  public int getThreadId();
+  public long getTimeNanos();
+  public int getTag();
+  public synchronized java.lang.Object getData();
+}

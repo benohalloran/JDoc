@@ -1,0 +1,23 @@
+Compiled from "RouteSpecificPool.java"
+public class org.apache.http.impl.conn.tsccm.RouteSpecificPool {
+  protected final java.util.LinkedList<org.apache.http.impl.conn.tsccm.BasicPoolEntry> freeEntries;
+  protected final int maxEntries;
+  protected int numEntries;
+  protected final org.apache.http.conn.routing.HttpRoute route;
+  protected final java.util.Queue<org.apache.http.impl.conn.tsccm.WaitingThread> waitingThreads;
+  public org.apache.http.impl.conn.tsccm.RouteSpecificPool(org.apache.http.conn.routing.HttpRoute, int);
+  public final org.apache.http.conn.routing.HttpRoute getRoute();
+  public final int getMaxEntries();
+  public boolean isUnused();
+  public int getCapacity();
+  public final int getEntryCount();
+  public org.apache.http.impl.conn.tsccm.BasicPoolEntry allocEntry(java.lang.Object);
+  public void freeEntry(org.apache.http.impl.conn.tsccm.BasicPoolEntry);
+  public void createdEntry(org.apache.http.impl.conn.tsccm.BasicPoolEntry);
+  public boolean deleteEntry(org.apache.http.impl.conn.tsccm.BasicPoolEntry);
+  public void dropEntry();
+  public void queueThread(org.apache.http.impl.conn.tsccm.WaitingThread);
+  public boolean hasThread();
+  public org.apache.http.impl.conn.tsccm.WaitingThread nextThread();
+  public void removeThread(org.apache.http.impl.conn.tsccm.WaitingThread);
+}

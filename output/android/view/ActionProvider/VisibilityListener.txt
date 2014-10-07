@@ -1,0 +1,4 @@
+Compiled from "ActionProvider.java"
+public interface android.view.ActionProvider$VisibilityListener {
+  public abstract void onActionProviderVisibilityChanged(boolean);
+}

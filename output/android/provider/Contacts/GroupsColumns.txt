@@ -1,0 +1,7 @@
+Compiled from "Contacts.java"
+public interface android.provider.Contacts$GroupsColumns {
+  public static final java.lang.String NAME;
+  public static final java.lang.String NOTES;
+  public static final java.lang.String SHOULD_SYNC;
+  public static final java.lang.String SYSTEM_ID;
+}

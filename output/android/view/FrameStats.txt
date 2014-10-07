@@ -1,0 +1,12 @@
+Compiled from "FrameStats.java"
+public abstract class android.view.FrameStats {
+  public static final long UNDEFINED_TIME_NANO;
+  protected long[] mFramesPresentedTimeNano;
+  protected long mRefreshPeriodNano;
+  public android.view.FrameStats();
+  public final long getRefreshPeriodNano();
+  public final int getFrameCount();
+  public final long getStartTimeNano();
+  public final long getEndTimeNano();
+  public final long getFramePresentedTimeNano(int);
+}

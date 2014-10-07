@@ -1,0 +1,4 @@
+Compiled from "SimpleCursorAdapter.java"
+public interface android.widget.SimpleCursorAdapter$CursorToStringConverter {
+  public abstract java.lang.CharSequence convertToString(android.database.Cursor);
+}

@@ -1,0 +1,14 @@
+Compiled from "BasicHttpParams.java"
+public final class org.apache.http.params.BasicHttpParams extends org.apache.http.params.AbstractHttpParams implements java.io.Serializable,java.lang.Cloneable {
+  public org.apache.http.params.BasicHttpParams();
+  public java.lang.Object getParameter(java.lang.String);
+  public org.apache.http.params.HttpParams setParameter(java.lang.String, java.lang.Object);
+  public boolean removeParameter(java.lang.String);
+  public void setParameters(java.lang.String[], java.lang.Object);
+  public boolean isParameterSet(java.lang.String);
+  public boolean isParameterSetLocally(java.lang.String);
+  public void clear();
+  public org.apache.http.params.HttpParams copy();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+  protected void copyParams(org.apache.http.params.HttpParams);
+}

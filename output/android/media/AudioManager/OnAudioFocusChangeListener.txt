@@ -1,0 +1,4 @@
+Compiled from "AudioManager.java"
+public interface android.media.AudioManager$OnAudioFocusChangeListener {
+  public abstract void onAudioFocusChange(int);
+}

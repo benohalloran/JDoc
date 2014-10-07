@@ -1,0 +1,15 @@
+Compiled from "InstrumentationTestCase.java"
+public class android.test.InstrumentationTestCase extends junit.framework.TestCase {
+  public android.test.InstrumentationTestCase();
+  public void injectInstrumentation(android.app.Instrumentation);
+  public void injectInsrumentation(android.app.Instrumentation);
+  public android.app.Instrumentation getInstrumentation();
+  public final <T extends android/app/Activity> T launchActivity(java.lang.String, java.lang.Class<T>, android.os.Bundle);
+  public final <T extends android/app/Activity> T launchActivityWithIntent(java.lang.String, java.lang.Class<T>, android.content.Intent);
+  public void runTestOnUiThread(java.lang.Runnable) throws java.lang.Throwable;
+  protected void runTest() throws java.lang.Throwable;
+  public void sendKeys(java.lang.String);
+  public void sendKeys(int...);
+  public void sendRepeatedKeys(int...);
+  protected void tearDown() throws java.lang.Exception;
+}

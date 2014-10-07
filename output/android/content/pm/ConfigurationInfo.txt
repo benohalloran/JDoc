@@ -1,0 +1,19 @@
+Compiled from "ConfigurationInfo.java"
+public class android.content.pm.ConfigurationInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.pm.ConfigurationInfo> CREATOR;
+  public static final int GL_ES_VERSION_UNDEFINED;
+  public static final int INPUT_FEATURE_FIVE_WAY_NAV;
+  public static final int INPUT_FEATURE_HARD_KEYBOARD;
+  public int reqGlEsVersion;
+  public int reqInputFeatures;
+  public int reqKeyboardType;
+  public int reqNavigation;
+  public int reqTouchScreen;
+  public android.content.pm.ConfigurationInfo();
+  public android.content.pm.ConfigurationInfo(android.content.pm.ConfigurationInfo);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String getGlEsVersion();
+  static {};
+}

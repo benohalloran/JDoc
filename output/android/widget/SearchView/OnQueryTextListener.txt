@@ -1,0 +1,5 @@
+Compiled from "SearchView.java"
+public interface android.widget.SearchView$OnQueryTextListener {
+  public abstract boolean onQueryTextSubmit(java.lang.String);
+  public abstract boolean onQueryTextChange(java.lang.String);
+}

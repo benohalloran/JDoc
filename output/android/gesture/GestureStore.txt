@@ -1,0 +1,23 @@
+Compiled from "GestureStore.java"
+public class android.gesture.GestureStore {
+  public static final int ORIENTATION_INVARIANT;
+  public static final int ORIENTATION_SENSITIVE;
+  public static final int SEQUENCE_INVARIANT;
+  public static final int SEQUENCE_SENSITIVE;
+  public android.gesture.GestureStore();
+  public void setOrientationStyle(int);
+  public int getOrientationStyle();
+  public void setSequenceType(int);
+  public int getSequenceType();
+  public java.util.Set<java.lang.String> getGestureEntries();
+  public java.util.ArrayList<android.gesture.Prediction> recognize(android.gesture.Gesture);
+  public void addGesture(java.lang.String, android.gesture.Gesture);
+  public void removeGesture(java.lang.String, android.gesture.Gesture);
+  public void removeEntry(java.lang.String);
+  public java.util.ArrayList<android.gesture.Gesture> getGestures(java.lang.String);
+  public boolean hasChanged();
+  public void save(java.io.OutputStream) throws java.io.IOException;
+  public void save(java.io.OutputStream, boolean) throws java.io.IOException;
+  public void load(java.io.InputStream) throws java.io.IOException;
+  public void load(java.io.InputStream, boolean) throws java.io.IOException;
+}

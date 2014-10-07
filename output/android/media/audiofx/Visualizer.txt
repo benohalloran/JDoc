@@ -1,0 +1,36 @@
+Compiled from "Visualizer.java"
+public class android.media.audiofx.Visualizer {
+  public static final int ALREADY_EXISTS;
+  public static final int ERROR;
+  public static final int ERROR_BAD_VALUE;
+  public static final int ERROR_DEAD_OBJECT;
+  public static final int ERROR_INVALID_OPERATION;
+  public static final int ERROR_NO_INIT;
+  public static final int ERROR_NO_MEMORY;
+  public static final int MEASUREMENT_MODE_NONE;
+  public static final int MEASUREMENT_MODE_PEAK_RMS;
+  public static final int SCALING_MODE_AS_PLAYED;
+  public static final int SCALING_MODE_NORMALIZED;
+  public static final int STATE_ENABLED;
+  public static final int STATE_INITIALIZED;
+  public static final int STATE_UNINITIALIZED;
+  public static final int SUCCESS;
+  public android.media.audiofx.Visualizer(int) throws java.lang.UnsupportedOperationException, java.lang.RuntimeException;
+  public void release();
+  protected void finalize();
+  public int setEnabled(boolean) throws java.lang.IllegalStateException;
+  public boolean getEnabled();
+  public static native int[] getCaptureSizeRange();
+  public static native int getMaxCaptureRate();
+  public int setCaptureSize(int) throws java.lang.IllegalStateException;
+  public int getCaptureSize() throws java.lang.IllegalStateException;
+  public int setScalingMode(int) throws java.lang.IllegalStateException;
+  public int getScalingMode() throws java.lang.IllegalStateException;
+  public int setMeasurementMode(int) throws java.lang.IllegalStateException;
+  public int getMeasurementMode() throws java.lang.IllegalStateException;
+  public int getSamplingRate() throws java.lang.IllegalStateException;
+  public int getWaveForm(byte[]) throws java.lang.IllegalStateException;
+  public int getFft(byte[]) throws java.lang.IllegalStateException;
+  public int getMeasurementPeakRms(android.media.audiofx.Visualizer$MeasurementPeakRms);
+  public int setDataCaptureListener(android.media.audiofx.Visualizer$OnDataCaptureListener, int, boolean, boolean);
+}

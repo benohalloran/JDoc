@@ -1,0 +1,18 @@
+Compiled from "ThreadSafeClientConnManager.java"
+public class org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager implements org.apache.http.conn.ClientConnectionManager {
+  protected org.apache.http.conn.ClientConnectionOperator connOperator;
+  protected final org.apache.http.impl.conn.tsccm.AbstractConnPool connectionPool;
+  protected org.apache.http.conn.scheme.SchemeRegistry schemeRegistry;
+  public org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager(org.apache.http.params.HttpParams, org.apache.http.conn.scheme.SchemeRegistry);
+  protected void finalize() throws java.lang.Throwable;
+  protected org.apache.http.impl.conn.tsccm.AbstractConnPool createConnectionPool(org.apache.http.params.HttpParams);
+  protected org.apache.http.conn.ClientConnectionOperator createConnectionOperator(org.apache.http.conn.scheme.SchemeRegistry);
+  public org.apache.http.conn.scheme.SchemeRegistry getSchemeRegistry();
+  public org.apache.http.conn.ClientConnectionRequest requestConnection(org.apache.http.conn.routing.HttpRoute, java.lang.Object);
+  public void releaseConnection(org.apache.http.conn.ManagedClientConnection, long, java.util.concurrent.TimeUnit);
+  public void shutdown();
+  public int getConnectionsInPool(org.apache.http.conn.routing.HttpRoute);
+  public int getConnectionsInPool();
+  public void closeIdleConnections(long, java.util.concurrent.TimeUnit);
+  public void closeExpiredConnections();
+}

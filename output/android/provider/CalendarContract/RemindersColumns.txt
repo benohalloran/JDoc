@@ -1,0 +1,12 @@
+Compiled from "CalendarContract.java"
+public interface android.provider.CalendarContract$RemindersColumns {
+  public static final java.lang.String EVENT_ID;
+  public static final java.lang.String METHOD;
+  public static final int METHOD_ALARM;
+  public static final int METHOD_ALERT;
+  public static final int METHOD_DEFAULT;
+  public static final int METHOD_EMAIL;
+  public static final int METHOD_SMS;
+  public static final java.lang.String MINUTES;
+  public static final int MINUTES_DEFAULT;
+}

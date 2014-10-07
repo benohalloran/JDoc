@@ -1,0 +1,7 @@
+Compiled from "AuthSchemeBase.java"
+public abstract class org.apache.http.impl.auth.AuthSchemeBase implements org.apache.http.auth.AuthScheme {
+  public org.apache.http.impl.auth.AuthSchemeBase();
+  public void processChallenge(org.apache.http.Header) throws org.apache.http.auth.MalformedChallengeException;
+  protected abstract void parseChallenge(org.apache.http.util.CharArrayBuffer, int, int) throws org.apache.http.auth.MalformedChallengeException;
+  public boolean isProxy();
+}

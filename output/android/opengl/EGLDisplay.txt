@@ -1,0 +1,5 @@
+Compiled from "EGLDisplay.java"
+public class android.opengl.EGLDisplay extends android.opengl.EGLObjectHandle {
+  android.opengl.EGLDisplay();
+  public boolean equals(java.lang.Object);
+}

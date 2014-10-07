@@ -1,0 +1,4 @@
+Compiled from "NfcAdapter.java"
+public interface android.nfc.NfcAdapter$CreateNdefMessageCallback {
+  public abstract android.nfc.NdefMessage createNdefMessage(android.nfc.NfcEvent);
+}

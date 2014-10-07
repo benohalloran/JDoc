@@ -1,0 +1,11 @@
+Compiled from "MediaRouteActionProvider.java"
+public class android.app.MediaRouteActionProvider extends android.view.ActionProvider {
+  public android.app.MediaRouteActionProvider(android.content.Context);
+  public void setRouteTypes(int);
+  public void setExtendedSettingsClickListener(android.view.View$OnClickListener);
+  public android.view.View onCreateActionView();
+  public android.view.View onCreateActionView(android.view.MenuItem);
+  public boolean onPerformDefaultAction();
+  public boolean overridesItemVisibility();
+  public boolean isVisible();
+}

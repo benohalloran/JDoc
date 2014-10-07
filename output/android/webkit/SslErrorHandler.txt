@@ -1,0 +1,6 @@
+Compiled from "SslErrorHandler.java"
+public class android.webkit.SslErrorHandler extends android.os.Handler {
+  android.webkit.SslErrorHandler();
+  public void proceed();
+  public void cancel();
+}

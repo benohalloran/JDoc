@@ -1,0 +1,10 @@
+Compiled from "Notification.java"
+public final class android.app.Notification$Action$Builder {
+  public android.app.Notification$Action$Builder(int, java.lang.CharSequence, android.app.PendingIntent);
+  public android.app.Notification$Action$Builder(android.app.Notification$Action);
+  public android.app.Notification$Action$Builder addExtras(android.os.Bundle);
+  public android.os.Bundle getExtras();
+  public android.app.Notification$Action$Builder addRemoteInput(android.app.RemoteInput);
+  public android.app.Notification$Action$Builder extend(android.app.Notification$Action$Extender);
+  public android.app.Notification$Action build();
+}

@@ -1,0 +1,8 @@
+Compiled from "VoiceInteractionSession.java"
+public class android.service.voice.VoiceInteractionSession$Request {
+  android.service.voice.VoiceInteractionSession$Request();
+  public void sendConfirmResult(boolean, android.os.Bundle);
+  public void sendAbortVoiceResult(android.os.Bundle);
+  public void sendCommandResult(boolean, android.os.Bundle);
+  public void sendCancelResult();
+}

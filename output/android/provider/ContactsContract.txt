@@ -1,0 +1,15 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract {
+  public static final java.lang.String AUTHORITY;
+  public static final android.net.Uri AUTHORITY_URI;
+  public static final java.lang.String CALLER_IS_SYNCADAPTER;
+  public static final java.lang.String DIRECTORY_PARAM_KEY;
+  public static final java.lang.String LIMIT_PARAM_KEY;
+  public static final java.lang.String PRIMARY_ACCOUNT_NAME;
+  public static final java.lang.String PRIMARY_ACCOUNT_TYPE;
+  public static final java.lang.String REMOVE_DUPLICATE_ENTRIES;
+  public static final java.lang.String STREQUENT_PHONE_ONLY;
+  public android.provider.ContactsContract();
+  public static boolean isProfileId(long);
+  static {};
+}

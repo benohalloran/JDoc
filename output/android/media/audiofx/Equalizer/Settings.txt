@@ -1,0 +1,9 @@
+Compiled from "Equalizer.java"
+public class android.media.audiofx.Equalizer$Settings {
+  public short[] bandLevels;
+  public short curPreset;
+  public short numBands;
+  public android.media.audiofx.Equalizer$Settings();
+  public android.media.audiofx.Equalizer$Settings(java.lang.String);
+  public java.lang.String toString();
+}

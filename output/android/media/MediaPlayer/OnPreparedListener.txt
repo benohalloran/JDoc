@@ -1,0 +1,4 @@
+Compiled from "MediaPlayer.java"
+public interface android.media.MediaPlayer$OnPreparedListener {
+  public abstract void onPrepared(android.media.MediaPlayer);
+}

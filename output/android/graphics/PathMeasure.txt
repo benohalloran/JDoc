@@ -1,0 +1,15 @@
+Compiled from "PathMeasure.java"
+public class android.graphics.PathMeasure {
+  public static final int POSITION_MATRIX_FLAG;
+  public static final int TANGENT_MATRIX_FLAG;
+  public android.graphics.PathMeasure();
+  public android.graphics.PathMeasure(android.graphics.Path, boolean);
+  public void setPath(android.graphics.Path, boolean);
+  public float getLength();
+  public boolean getPosTan(float, float[], float[]);
+  public boolean getMatrix(float, android.graphics.Matrix, int);
+  public boolean getSegment(float, float, android.graphics.Path, boolean);
+  public boolean isClosed();
+  public boolean nextContour();
+  protected void finalize() throws java.lang.Throwable;
+}

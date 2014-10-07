@@ -1,0 +1,8 @@
+Compiled from "KeyCharacterMap.java"
+public class android.view.KeyCharacterMap$KeyData {
+  public static final int META_LENGTH;
+  public char displayLabel;
+  public char[] meta;
+  public char number;
+  public android.view.KeyCharacterMap$KeyData();
+}

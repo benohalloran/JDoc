@@ -1,0 +1,10 @@
+Compiled from "ContentQueryMap.java"
+public class android.content.ContentQueryMap extends java.util.Observable {
+  public android.content.ContentQueryMap(android.database.Cursor, java.lang.String, boolean, android.os.Handler);
+  public void setKeepUpdated(boolean);
+  public synchronized android.content.ContentValues getValues(java.lang.String);
+  public void requery();
+  public synchronized java.util.Map<java.lang.String, android.content.ContentValues> getRows();
+  public synchronized void close();
+  protected void finalize() throws java.lang.Throwable;
+}

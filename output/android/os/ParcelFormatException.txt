@@ -1,0 +1,5 @@
+Compiled from "ParcelFormatException.java"
+public class android.os.ParcelFormatException extends java.lang.RuntimeException {
+  public android.os.ParcelFormatException();
+  public android.os.ParcelFormatException(java.lang.String);
+}

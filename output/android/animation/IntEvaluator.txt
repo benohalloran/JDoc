@@ -1,0 +1,6 @@
+Compiled from "IntEvaluator.java"
+public class android.animation.IntEvaluator implements android.animation.TypeEvaluator<java.lang.Integer> {
+  public android.animation.IntEvaluator();
+  public java.lang.Integer evaluate(float, java.lang.Integer, java.lang.Integer);
+  public java.lang.Object evaluate(float, java.lang.Object, java.lang.Object);
+}

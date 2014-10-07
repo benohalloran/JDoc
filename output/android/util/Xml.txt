@@ -1,0 +1,12 @@
+Compiled from "Xml.java"
+public class android.util.Xml {
+  public static java.lang.String FEATURE_RELAXED;
+  android.util.Xml();
+  public static void parse(java.lang.String, org.xml.sax.ContentHandler) throws org.xml.sax.SAXException;
+  public static void parse(java.io.Reader, org.xml.sax.ContentHandler) throws java.io.IOException, org.xml.sax.SAXException;
+  public static void parse(java.io.InputStream, android.util.Xml$Encoding, org.xml.sax.ContentHandler) throws java.io.IOException, org.xml.sax.SAXException;
+  public static org.xmlpull.v1.XmlPullParser newPullParser();
+  public static org.xmlpull.v1.XmlSerializer newSerializer();
+  public static android.util.Xml$Encoding findEncodingByName(java.lang.String) throws java.io.UnsupportedEncodingException;
+  public static android.util.AttributeSet asAttributeSet(org.xmlpull.v1.XmlPullParser);
+}

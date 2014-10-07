@@ -1,0 +1,20 @@
+Compiled from "ClipDescription.java"
+public class android.content.ClipDescription implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.ClipDescription> CREATOR;
+  public static final java.lang.String MIMETYPE_TEXT_HTML;
+  public static final java.lang.String MIMETYPE_TEXT_INTENT;
+  public static final java.lang.String MIMETYPE_TEXT_PLAIN;
+  public static final java.lang.String MIMETYPE_TEXT_URILIST;
+  public android.content.ClipDescription(java.lang.CharSequence, java.lang.String[]);
+  public android.content.ClipDescription(android.content.ClipDescription);
+  public static boolean compareMimeTypes(java.lang.String, java.lang.String);
+  public java.lang.CharSequence getLabel();
+  public boolean hasMimeType(java.lang.String);
+  public java.lang.String[] filterMimeTypes(java.lang.String);
+  public int getMimeTypeCount();
+  public java.lang.String getMimeType(int);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

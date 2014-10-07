@@ -1,0 +1,10 @@
+Compiled from "EntityTemplate.java"
+public class org.apache.http.entity.EntityTemplate extends org.apache.http.entity.AbstractHttpEntity {
+  public org.apache.http.entity.EntityTemplate(org.apache.http.entity.ContentProducer);
+  public long getContentLength();
+  public java.io.InputStream getContent();
+  public boolean isRepeatable();
+  public void writeTo(java.io.OutputStream) throws java.io.IOException;
+  public boolean isStreaming();
+  public void consumeContent() throws java.io.IOException;
+}

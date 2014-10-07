@@ -1,0 +1,16 @@
+Compiled from "ColorStateList.java"
+public class android.content.res.ColorStateList implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.res.ColorStateList> CREATOR;
+  public android.content.res.ColorStateList(int[][], int[]);
+  public static android.content.res.ColorStateList valueOf(int);
+  public static android.content.res.ColorStateList createFromXml(android.content.res.Resources, org.xmlpull.v1.XmlPullParser) throws org.xmlpull.v1.XmlPullParserException, java.io.IOException;
+  public android.content.res.ColorStateList withAlpha(int);
+  public boolean isStateful();
+  public boolean isOpaque();
+  public int getColorForState(int[], int);
+  public int getDefaultColor();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

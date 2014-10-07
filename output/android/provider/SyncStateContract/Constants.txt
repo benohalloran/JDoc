@@ -1,0 +1,5 @@
+Compiled from "SyncStateContract.java"
+public class android.provider.SyncStateContract$Constants implements android.provider.SyncStateContract$Columns {
+  public static final java.lang.String CONTENT_DIRECTORY;
+  public android.provider.SyncStateContract$Constants();
+}

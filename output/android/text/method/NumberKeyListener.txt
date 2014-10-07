@@ -1,0 +1,9 @@
+Compiled from "NumberKeyListener.java"
+public abstract class android.text.method.NumberKeyListener extends android.text.method.BaseKeyListener implements android.text.InputFilter {
+  public android.text.method.NumberKeyListener();
+  protected abstract char[] getAcceptedChars();
+  protected int lookup(android.view.KeyEvent, android.text.Spannable);
+  public java.lang.CharSequence filter(java.lang.CharSequence, int, int, android.text.Spanned, int, int);
+  protected static boolean ok(char[], char);
+  public boolean onKeyDown(android.view.View, android.text.Editable, int, android.view.KeyEvent);
+}

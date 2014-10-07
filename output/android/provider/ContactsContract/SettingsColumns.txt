@@ -1,0 +1,11 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$SettingsColumns {
+  public static final java.lang.String ACCOUNT_NAME;
+  public static final java.lang.String ACCOUNT_TYPE;
+  public static final java.lang.String ANY_UNSYNCED;
+  public static final java.lang.String DATA_SET;
+  public static final java.lang.String SHOULD_SYNC;
+  public static final java.lang.String UNGROUPED_COUNT;
+  public static final java.lang.String UNGROUPED_VISIBLE;
+  public static final java.lang.String UNGROUPED_WITH_PHONES;
+}

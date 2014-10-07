@@ -1,0 +1,16 @@
+Compiled from "SimpleAdapter.java"
+public class android.widget.SimpleAdapter extends android.widget.BaseAdapter implements android.widget.Filterable {
+  public android.widget.SimpleAdapter(android.content.Context, java.util.List<? extends java.util.Map<java.lang.String, ?>>, int, java.lang.String[], int[]);
+  public int getCount();
+  public java.lang.Object getItem(int);
+  public long getItemId(int);
+  public android.view.View getView(int, android.view.View, android.view.ViewGroup);
+  public void setDropDownViewResource(int);
+  public android.view.View getDropDownView(int, android.view.View, android.view.ViewGroup);
+  public android.widget.SimpleAdapter$ViewBinder getViewBinder();
+  public void setViewBinder(android.widget.SimpleAdapter$ViewBinder);
+  public void setViewImage(android.widget.ImageView, int);
+  public void setViewImage(android.widget.ImageView, java.lang.String);
+  public void setViewText(android.widget.TextView, java.lang.String);
+  public android.widget.Filter getFilter();
+}

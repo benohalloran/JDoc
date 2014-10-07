@@ -1,0 +1,4 @@
+Compiled from "WrapperListAdapter.java"
+public interface android.widget.WrapperListAdapter extends android.widget.ListAdapter {
+  public abstract android.widget.ListAdapter getWrappedAdapter();
+}

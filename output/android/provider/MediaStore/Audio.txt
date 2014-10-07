@@ -1,0 +1,5 @@
+Compiled from "MediaStore.java"
+public final class android.provider.MediaStore$Audio {
+  public android.provider.MediaStore$Audio();
+  public static java.lang.String keyFor(java.lang.String);
+}

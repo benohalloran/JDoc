@@ -1,0 +1,21 @@
+Compiled from "AuthScope.java"
+public class org.apache.http.auth.AuthScope {
+  public static final org.apache.http.auth.AuthScope ANY;
+  public static final java.lang.String ANY_HOST;
+  public static final int ANY_PORT;
+  public static final java.lang.String ANY_REALM;
+  public static final java.lang.String ANY_SCHEME;
+  public org.apache.http.auth.AuthScope(java.lang.String, int, java.lang.String, java.lang.String);
+  public org.apache.http.auth.AuthScope(java.lang.String, int, java.lang.String);
+  public org.apache.http.auth.AuthScope(java.lang.String, int);
+  public org.apache.http.auth.AuthScope(org.apache.http.auth.AuthScope);
+  public java.lang.String getHost();
+  public int getPort();
+  public java.lang.String getRealm();
+  public java.lang.String getScheme();
+  public int match(org.apache.http.auth.AuthScope);
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public int hashCode();
+  static {};
+}

@@ -1,0 +1,8 @@
+Compiled from "SharedElementListener.java"
+public abstract class android.app.SharedElementListener {
+  public android.app.SharedElementListener();
+  public void setSharedElementStart(java.util.List<java.lang.String>, java.util.List<android.view.View>, java.util.List<android.view.View>);
+  public void setSharedElementEnd(java.util.List<java.lang.String>, java.util.List<android.view.View>, java.util.List<android.view.View>);
+  public void handleRejectedSharedElements(java.util.List<android.view.View>);
+  public void remapSharedElements(java.util.List<java.lang.String>, java.util.Map<java.lang.String, android.view.View>);
+}

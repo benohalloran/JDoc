@@ -1,0 +1,6 @@
+Compiled from "CameraManager.java"
+public abstract class android.hardware.camera2.CameraManager$AvailabilityListener {
+  public android.hardware.camera2.CameraManager$AvailabilityListener();
+  public void onCameraAvailable(java.lang.String);
+  public void onCameraUnavailable(java.lang.String);
+}

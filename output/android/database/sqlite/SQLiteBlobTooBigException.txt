@@ -1,0 +1,5 @@
+Compiled from "SQLiteBlobTooBigException.java"
+public class android.database.sqlite.SQLiteBlobTooBigException extends android.database.sqlite.SQLiteException {
+  public android.database.sqlite.SQLiteBlobTooBigException();
+  public android.database.sqlite.SQLiteBlobTooBigException(java.lang.String);
+}

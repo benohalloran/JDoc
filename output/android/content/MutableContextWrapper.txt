@@ -1,0 +1,5 @@
+Compiled from "MutableContextWrapper.java"
+public class android.content.MutableContextWrapper extends android.content.ContextWrapper {
+  public android.content.MutableContextWrapper(android.content.Context);
+  public void setBaseContext(android.content.Context);
+}

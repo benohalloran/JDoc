@@ -1,0 +1,8 @@
+Compiled from "Reference.java"
+public abstract class java.lang.ref.Reference<T> {
+  java.lang.ref.Reference();
+  public void clear();
+  public boolean enqueue();
+  public T get();
+  public boolean isEnqueued();
+}

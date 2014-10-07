@@ -1,0 +1,7 @@
+Compiled from "Camera.java"
+public class android.hardware.Camera$Area {
+  public android.graphics.Rect rect;
+  public int weight;
+  public android.hardware.Camera$Area(android.graphics.Rect, int);
+  public boolean equals(java.lang.Object);
+}

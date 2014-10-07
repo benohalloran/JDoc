@@ -1,0 +1,16 @@
+Compiled from "ProxyInfo.java"
+public class android.net.ProxyInfo implements android.os.Parcelable {
+  android.net.ProxyInfo();
+  public static android.net.ProxyInfo buildDirectProxy(java.lang.String, int);
+  public static android.net.ProxyInfo buildDirectProxy(java.lang.String, int, java.util.List<java.lang.String>);
+  public static android.net.ProxyInfo buildPacProxy(android.net.Uri);
+  public android.net.Uri getPacFileUrl();
+  public java.lang.String getHost();
+  public int getPort();
+  public java.lang.String[] getExclusionList();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+}

@@ -1,0 +1,8 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$CommonDataKinds$Contactables implements android.provider.ContactsContract$DataColumnsWithJoins,android.provider.ContactsContract$CommonDataKinds$CommonColumns {
+  public static final android.net.Uri CONTENT_FILTER_URI;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String VISIBLE_CONTACTS_ONLY;
+  public android.provider.ContactsContract$CommonDataKinds$Contactables();
+  static {};
+}

@@ -1,0 +1,7 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$PhoneLookupColumns {
+  public static final java.lang.String LABEL;
+  public static final java.lang.String NORMALIZED_NUMBER;
+  public static final java.lang.String NUMBER;
+  public static final java.lang.String TYPE;
+}

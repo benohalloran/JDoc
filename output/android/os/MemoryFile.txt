@@ -1,0 +1,13 @@
+Compiled from "MemoryFile.java"
+public class android.os.MemoryFile {
+  public android.os.MemoryFile(java.lang.String, int) throws java.io.IOException;
+  public void close();
+  protected void finalize();
+  public int length();
+  public boolean isPurgingAllowed();
+  public synchronized boolean allowPurging(boolean) throws java.io.IOException;
+  public java.io.InputStream getInputStream();
+  public java.io.OutputStream getOutputStream();
+  public int readBytes(byte[], int, int, int) throws java.io.IOException;
+  public void writeBytes(byte[], int, int, int) throws java.io.IOException;
+}

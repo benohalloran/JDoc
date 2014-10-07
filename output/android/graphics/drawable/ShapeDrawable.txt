@@ -1,0 +1,34 @@
+Compiled from "ShapeDrawable.java"
+public class android.graphics.drawable.ShapeDrawable extends android.graphics.drawable.Drawable {
+  public android.graphics.drawable.ShapeDrawable();
+  public android.graphics.drawable.ShapeDrawable(android.graphics.drawable.shapes.Shape);
+  public android.graphics.drawable.shapes.Shape getShape();
+  public void setShape(android.graphics.drawable.shapes.Shape);
+  public void setShaderFactory(android.graphics.drawable.ShapeDrawable$ShaderFactory);
+  public android.graphics.drawable.ShapeDrawable$ShaderFactory getShaderFactory();
+  public android.graphics.Paint getPaint();
+  public void setPadding(int, int, int, int);
+  public void setPadding(android.graphics.Rect);
+  public void setIntrinsicWidth(int);
+  public void setIntrinsicHeight(int);
+  public int getIntrinsicWidth();
+  public int getIntrinsicHeight();
+  public boolean getPadding(android.graphics.Rect);
+  protected void onDraw(android.graphics.drawable.shapes.Shape, android.graphics.Canvas, android.graphics.Paint);
+  public void draw(android.graphics.Canvas);
+  public int getChangingConfigurations();
+  public void setAlpha(int);
+  public int getAlpha();
+  public void setTint(android.content.res.ColorStateList, android.graphics.PorterDuff$Mode);
+  public void setColorFilter(android.graphics.ColorFilter);
+  public int getOpacity();
+  public void setDither(boolean);
+  protected void onBoundsChange(android.graphics.Rect);
+  protected boolean onStateChange(int[]);
+  public boolean isStateful();
+  protected boolean inflateTag(java.lang.String, android.content.res.Resources, org.xmlpull.v1.XmlPullParser, android.util.AttributeSet);
+  public void inflate(android.content.res.Resources, org.xmlpull.v1.XmlPullParser, android.util.AttributeSet, android.content.res.Resources$Theme) throws org.xmlpull.v1.XmlPullParserException, java.io.IOException;
+  public boolean getOutline(android.graphics.Outline);
+  public android.graphics.drawable.Drawable$ConstantState getConstantState();
+  public android.graphics.drawable.Drawable mutate();
+}

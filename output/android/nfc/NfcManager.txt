@@ -1,0 +1,5 @@
+Compiled from "NfcManager.java"
+public final class android.nfc.NfcManager {
+  android.nfc.NfcManager();
+  public android.nfc.NfcAdapter getDefaultAdapter();
+}

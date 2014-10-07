@@ -1,0 +1,4 @@
+Compiled from "GLSurfaceView.java"
+public interface android.opengl.GLSurfaceView$GLWrapper {
+  public abstract javax.microedition.khronos.opengles.GL wrap(javax.microedition.khronos.opengles.GL);
+}

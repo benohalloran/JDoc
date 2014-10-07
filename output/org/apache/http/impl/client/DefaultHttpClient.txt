@@ -1,0 +1,23 @@
+Compiled from "DefaultHttpClient.java"
+public class org.apache.http.impl.client.DefaultHttpClient extends org.apache.http.impl.client.AbstractHttpClient {
+  public org.apache.http.impl.client.DefaultHttpClient(org.apache.http.conn.ClientConnectionManager, org.apache.http.params.HttpParams);
+  public org.apache.http.impl.client.DefaultHttpClient(org.apache.http.params.HttpParams);
+  public org.apache.http.impl.client.DefaultHttpClient();
+  protected org.apache.http.params.HttpParams createHttpParams();
+  protected org.apache.http.protocol.HttpRequestExecutor createRequestExecutor();
+  protected org.apache.http.conn.ClientConnectionManager createClientConnectionManager();
+  protected org.apache.http.protocol.HttpContext createHttpContext();
+  protected org.apache.http.ConnectionReuseStrategy createConnectionReuseStrategy();
+  protected org.apache.http.conn.ConnectionKeepAliveStrategy createConnectionKeepAliveStrategy();
+  protected org.apache.http.auth.AuthSchemeRegistry createAuthSchemeRegistry();
+  protected org.apache.http.cookie.CookieSpecRegistry createCookieSpecRegistry();
+  protected org.apache.http.protocol.BasicHttpProcessor createHttpProcessor();
+  protected org.apache.http.client.HttpRequestRetryHandler createHttpRequestRetryHandler();
+  protected org.apache.http.client.RedirectHandler createRedirectHandler();
+  protected org.apache.http.client.AuthenticationHandler createTargetAuthenticationHandler();
+  protected org.apache.http.client.AuthenticationHandler createProxyAuthenticationHandler();
+  protected org.apache.http.client.CookieStore createCookieStore();
+  protected org.apache.http.client.CredentialsProvider createCredentialsProvider();
+  protected org.apache.http.conn.routing.HttpRoutePlanner createHttpRoutePlanner();
+  protected org.apache.http.client.UserTokenHandler createUserTokenHandler();
+}

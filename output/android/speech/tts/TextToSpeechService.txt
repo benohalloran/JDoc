@@ -1,0 +1,13 @@
+Compiled from "TextToSpeechService.java"
+public abstract class android.speech.tts.TextToSpeechService extends android.app.Service {
+  public android.speech.tts.TextToSpeechService();
+  public void onCreate();
+  public void onDestroy();
+  protected abstract int onIsLanguageAvailable(java.lang.String, java.lang.String, java.lang.String);
+  protected abstract java.lang.String[] onGetLanguage();
+  protected abstract int onLoadLanguage(java.lang.String, java.lang.String, java.lang.String);
+  protected abstract void onStop();
+  protected abstract void onSynthesizeText(android.speech.tts.SynthesisRequest, android.speech.tts.SynthesisCallback);
+  protected java.util.Set<java.lang.String> onGetFeaturesForLanguage(java.lang.String, java.lang.String, java.lang.String);
+  public android.os.IBinder onBind(android.content.Intent);
+}

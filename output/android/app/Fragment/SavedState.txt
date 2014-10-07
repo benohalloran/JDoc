@@ -1,0 +1,8 @@
+Compiled from "Fragment.java"
+public class android.app.Fragment$SavedState implements android.os.Parcelable {
+  public static final android.os.Parcelable$ClassLoaderCreator<android.app.Fragment$SavedState> CREATOR;
+  android.app.Fragment$SavedState();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

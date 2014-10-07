@@ -1,0 +1,13 @@
+Compiled from "HttpClient.java"
+public interface org.apache.http.client.HttpClient {
+  public abstract org.apache.http.params.HttpParams getParams();
+  public abstract org.apache.http.conn.ClientConnectionManager getConnectionManager();
+  public abstract org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest) throws java.io.IOException, org.apache.http.client.ClientProtocolException;
+  public abstract org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest, org.apache.http.protocol.HttpContext) throws java.io.IOException, org.apache.http.client.ClientProtocolException;
+  public abstract org.apache.http.HttpResponse execute(org.apache.http.HttpHost, org.apache.http.HttpRequest) throws java.io.IOException, org.apache.http.client.ClientProtocolException;
+  public abstract org.apache.http.HttpResponse execute(org.apache.http.HttpHost, org.apache.http.HttpRequest, org.apache.http.protocol.HttpContext) throws java.io.IOException, org.apache.http.client.ClientProtocolException;
+  public abstract <T extends java/lang/Object> T execute(org.apache.http.client.methods.HttpUriRequest, org.apache.http.client.ResponseHandler<? extends T>) throws java.io.IOException, org.apache.http.client.ClientProtocolException;
+  public abstract <T extends java/lang/Object> T execute(org.apache.http.client.methods.HttpUriRequest, org.apache.http.client.ResponseHandler<? extends T>, org.apache.http.protocol.HttpContext) throws java.io.IOException, org.apache.http.client.ClientProtocolException;
+  public abstract <T extends java/lang/Object> T execute(org.apache.http.HttpHost, org.apache.http.HttpRequest, org.apache.http.client.ResponseHandler<? extends T>) throws java.io.IOException, org.apache.http.client.ClientProtocolException;
+  public abstract <T extends java/lang/Object> T execute(org.apache.http.HttpHost, org.apache.http.HttpRequest, org.apache.http.client.ResponseHandler<? extends T>, org.apache.http.protocol.HttpContext) throws java.io.IOException, org.apache.http.client.ClientProtocolException;
+}

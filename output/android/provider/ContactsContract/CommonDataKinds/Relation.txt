@@ -1,0 +1,22 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$CommonDataKinds$Relation implements android.provider.ContactsContract$DataColumnsWithJoins,android.provider.ContactsContract$CommonDataKinds$CommonColumns {
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String NAME;
+  public static final int TYPE_ASSISTANT;
+  public static final int TYPE_BROTHER;
+  public static final int TYPE_CHILD;
+  public static final int TYPE_DOMESTIC_PARTNER;
+  public static final int TYPE_FATHER;
+  public static final int TYPE_FRIEND;
+  public static final int TYPE_MANAGER;
+  public static final int TYPE_MOTHER;
+  public static final int TYPE_PARENT;
+  public static final int TYPE_PARTNER;
+  public static final int TYPE_REFERRED_BY;
+  public static final int TYPE_RELATIVE;
+  public static final int TYPE_SISTER;
+  public static final int TYPE_SPOUSE;
+  android.provider.ContactsContract$CommonDataKinds$Relation();
+  public static final int getTypeLabelResource(int);
+  public static final java.lang.CharSequence getTypeLabel(android.content.res.Resources, int, java.lang.CharSequence);
+}

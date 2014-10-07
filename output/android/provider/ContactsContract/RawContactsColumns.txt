@@ -1,0 +1,9 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$RawContactsColumns {
+  public static final java.lang.String AGGREGATION_MODE;
+  public static final java.lang.String CONTACT_ID;
+  public static final java.lang.String DATA_SET;
+  public static final java.lang.String DELETED;
+  public static final java.lang.String RAW_CONTACT_IS_READ_ONLY;
+  public static final java.lang.String RAW_CONTACT_IS_USER_PROFILE;
+}

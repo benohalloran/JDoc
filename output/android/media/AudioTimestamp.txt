@@ -1,0 +1,6 @@
+Compiled from "AudioTimestamp.java"
+public final class android.media.AudioTimestamp {
+  public long framePosition;
+  public long nanoTime;
+  public android.media.AudioTimestamp();
+}

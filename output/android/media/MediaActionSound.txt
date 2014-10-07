@@ -1,0 +1,11 @@
+Compiled from "MediaActionSound.java"
+public class android.media.MediaActionSound {
+  public static final int FOCUS_COMPLETE;
+  public static final int SHUTTER_CLICK;
+  public static final int START_VIDEO_RECORDING;
+  public static final int STOP_VIDEO_RECORDING;
+  public android.media.MediaActionSound();
+  public synchronized void load(int);
+  public synchronized void play(int);
+  public void release();
+}

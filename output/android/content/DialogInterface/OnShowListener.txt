@@ -1,0 +1,4 @@
+Compiled from "DialogInterface.java"
+public interface android.content.DialogInterface$OnShowListener {
+  public abstract void onShow(android.content.DialogInterface);
+}

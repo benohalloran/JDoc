@@ -1,0 +1,39 @@
+Compiled from "NdefRecord.java"
+public final class android.nfc.NdefRecord implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.nfc.NdefRecord> CREATOR;
+  public static final byte[] RTD_ALTERNATIVE_CARRIER;
+  public static final byte[] RTD_HANDOVER_CARRIER;
+  public static final byte[] RTD_HANDOVER_REQUEST;
+  public static final byte[] RTD_HANDOVER_SELECT;
+  public static final byte[] RTD_SMART_POSTER;
+  public static final byte[] RTD_TEXT;
+  public static final byte[] RTD_URI;
+  public static final short TNF_ABSOLUTE_URI;
+  public static final short TNF_EMPTY;
+  public static final short TNF_EXTERNAL_TYPE;
+  public static final short TNF_MIME_MEDIA;
+  public static final short TNF_UNCHANGED;
+  public static final short TNF_UNKNOWN;
+  public static final short TNF_WELL_KNOWN;
+  public android.nfc.NdefRecord(short, byte[], byte[], byte[]);
+  public android.nfc.NdefRecord(byte[]) throws android.nfc.FormatException;
+  public static android.nfc.NdefRecord createApplicationRecord(java.lang.String);
+  public static android.nfc.NdefRecord createUri(android.net.Uri);
+  public static android.nfc.NdefRecord createUri(java.lang.String);
+  public static android.nfc.NdefRecord createMime(java.lang.String, byte[]);
+  public static android.nfc.NdefRecord createExternal(java.lang.String, java.lang.String, byte[]);
+  public static android.nfc.NdefRecord createTextRecord(java.lang.String, java.lang.String);
+  public short getTnf();
+  public byte[] getType();
+  public byte[] getId();
+  public byte[] getPayload();
+  public byte[] toByteArray();
+  public java.lang.String toMimeType();
+  public android.net.Uri toUri();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  static {};
+}

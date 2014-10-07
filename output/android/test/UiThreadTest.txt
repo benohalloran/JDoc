@@ -1,0 +1,3 @@
+Compiled from "UiThreadTest.java"
+public interface android.test.UiThreadTest extends java.lang.annotation.Annotation {
+}

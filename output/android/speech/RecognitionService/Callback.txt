@@ -1,0 +1,13 @@
+Compiled from "RecognitionService.java"
+public class android.speech.RecognitionService$Callback {
+  final android.speech.RecognitionService this$0;
+  android.speech.RecognitionService$Callback(android.speech.RecognitionService);
+  public void beginningOfSpeech() throws android.os.RemoteException;
+  public void bufferReceived(byte[]) throws android.os.RemoteException;
+  public void endOfSpeech() throws android.os.RemoteException;
+  public void error(int) throws android.os.RemoteException;
+  public void partialResults(android.os.Bundle) throws android.os.RemoteException;
+  public void readyForSpeech(android.os.Bundle) throws android.os.RemoteException;
+  public void results(android.os.Bundle) throws android.os.RemoteException;
+  public void rmsChanged(float) throws android.os.RemoteException;
+}

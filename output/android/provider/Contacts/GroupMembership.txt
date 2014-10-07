@@ -1,0 +1,16 @@
+Compiled from "Contacts.java"
+public final class android.provider.Contacts$GroupMembership implements android.provider.BaseColumns,android.provider.Contacts$GroupsColumns {
+  public static final java.lang.String CONTENT_DIRECTORY;
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final java.lang.String GROUP_ID;
+  public static final java.lang.String GROUP_SYNC_ACCOUNT;
+  public static final java.lang.String GROUP_SYNC_ACCOUNT_TYPE;
+  public static final java.lang.String GROUP_SYNC_ID;
+  public static final java.lang.String PERSON_ID;
+  public static final android.net.Uri RAW_CONTENT_URI;
+  android.provider.Contacts$GroupMembership();
+  static {};
+}

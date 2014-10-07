@@ -1,0 +1,5 @@
+Compiled from "SweepGradient.java"
+public class android.graphics.SweepGradient extends android.graphics.Shader {
+  public android.graphics.SweepGradient(float, float, int[], float[]);
+  public android.graphics.SweepGradient(float, float, int, int);
+}

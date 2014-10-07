@@ -1,0 +1,5 @@
+Compiled from "ResponseDate.java"
+public class org.apache.http.protocol.ResponseDate implements org.apache.http.HttpResponseInterceptor {
+  public org.apache.http.protocol.ResponseDate();
+  public void process(org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException, java.io.IOException;
+}

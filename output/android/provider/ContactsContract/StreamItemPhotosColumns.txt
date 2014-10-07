@@ -1,0 +1,11 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$StreamItemPhotosColumns {
+  public static final java.lang.String PHOTO_FILE_ID;
+  public static final java.lang.String PHOTO_URI;
+  public static final java.lang.String SORT_INDEX;
+  public static final java.lang.String STREAM_ITEM_ID;
+  public static final java.lang.String SYNC1;
+  public static final java.lang.String SYNC2;
+  public static final java.lang.String SYNC3;
+  public static final java.lang.String SYNC4;
+}

@@ -1,0 +1,5 @@
+Compiled from "TokenIterator.java"
+public interface org.apache.http.TokenIterator extends java.util.Iterator {
+  public abstract boolean hasNext();
+  public abstract java.lang.String nextToken();
+}

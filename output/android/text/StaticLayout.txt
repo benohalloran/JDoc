@@ -1,0 +1,19 @@
+Compiled from "StaticLayout.java"
+public class android.text.StaticLayout extends android.text.Layout {
+  public android.text.StaticLayout(java.lang.CharSequence, android.text.TextPaint, int, android.text.Layout$Alignment, float, float, boolean);
+  public android.text.StaticLayout(java.lang.CharSequence, int, int, android.text.TextPaint, int, android.text.Layout$Alignment, float, float, boolean);
+  public android.text.StaticLayout(java.lang.CharSequence, int, int, android.text.TextPaint, int, android.text.Layout$Alignment, float, float, boolean, android.text.TextUtils$TruncateAt, int);
+  public int getLineForVertical(int);
+  public int getLineCount();
+  public int getLineTop(int);
+  public int getLineDescent(int);
+  public int getLineStart(int);
+  public int getParagraphDirection(int);
+  public boolean getLineContainsTab(int);
+  public final android.text.Layout$Directions getLineDirections(int);
+  public int getTopPadding();
+  public int getBottomPadding();
+  public int getEllipsisCount(int);
+  public int getEllipsisStart(int);
+  public int getEllipsizedWidth();
+}

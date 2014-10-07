@@ -1,0 +1,24 @@
+Compiled from "PorterDuff.java"
+public final class android.graphics.PorterDuff$Mode extends java.lang.Enum<android.graphics.PorterDuff$Mode> {
+  public static final android.graphics.PorterDuff$Mode ADD;
+  public static final android.graphics.PorterDuff$Mode CLEAR;
+  public static final android.graphics.PorterDuff$Mode DARKEN;
+  public static final android.graphics.PorterDuff$Mode DST;
+  public static final android.graphics.PorterDuff$Mode DST_ATOP;
+  public static final android.graphics.PorterDuff$Mode DST_IN;
+  public static final android.graphics.PorterDuff$Mode DST_OUT;
+  public static final android.graphics.PorterDuff$Mode DST_OVER;
+  public static final android.graphics.PorterDuff$Mode LIGHTEN;
+  public static final android.graphics.PorterDuff$Mode MULTIPLY;
+  public static final android.graphics.PorterDuff$Mode OVERLAY;
+  public static final android.graphics.PorterDuff$Mode SCREEN;
+  public static final android.graphics.PorterDuff$Mode SRC;
+  public static final android.graphics.PorterDuff$Mode SRC_ATOP;
+  public static final android.graphics.PorterDuff$Mode SRC_IN;
+  public static final android.graphics.PorterDuff$Mode SRC_OUT;
+  public static final android.graphics.PorterDuff$Mode SRC_OVER;
+  public static final android.graphics.PorterDuff$Mode XOR;
+  public static android.graphics.PorterDuff$Mode[] values();
+  public static android.graphics.PorterDuff$Mode valueOf(java.lang.String);
+  static {};
+}

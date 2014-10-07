@@ -1,0 +1,14 @@
+Compiled from "BidiFormatter.java"
+public final class android.text.BidiFormatter {
+  android.text.BidiFormatter();
+  public static android.text.BidiFormatter getInstance();
+  public static android.text.BidiFormatter getInstance(boolean);
+  public static android.text.BidiFormatter getInstance(java.util.Locale);
+  public boolean isRtlContext();
+  public boolean getStereoReset();
+  public boolean isRtl(java.lang.String);
+  public java.lang.String unicodeWrap(java.lang.String, android.text.TextDirectionHeuristic, boolean);
+  public java.lang.String unicodeWrap(java.lang.String, android.text.TextDirectionHeuristic);
+  public java.lang.String unicodeWrap(java.lang.String, boolean);
+  public java.lang.String unicodeWrap(java.lang.String);
+}

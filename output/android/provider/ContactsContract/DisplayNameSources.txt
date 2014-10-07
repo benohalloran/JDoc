@@ -1,0 +1,9 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$DisplayNameSources {
+  public static final int EMAIL;
+  public static final int NICKNAME;
+  public static final int ORGANIZATION;
+  public static final int PHONE;
+  public static final int STRUCTURED_NAME;
+  public static final int UNDEFINED;
+}

@@ -1,0 +1,7 @@
+Compiled from "RedirectLocations.java"
+public class org.apache.http.impl.client.RedirectLocations {
+  public org.apache.http.impl.client.RedirectLocations();
+  public boolean contains(java.net.URI);
+  public void add(java.net.URI);
+  public boolean remove(java.net.URI);
+}

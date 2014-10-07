@@ -1,0 +1,11 @@
+Compiled from "MotionEvent.java"
+public final class android.view.MotionEvent$PointerProperties {
+  public int id;
+  public int toolType;
+  public android.view.MotionEvent$PointerProperties();
+  public android.view.MotionEvent$PointerProperties(android.view.MotionEvent$PointerProperties);
+  public void clear();
+  public void copyFrom(android.view.MotionEvent$PointerProperties);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

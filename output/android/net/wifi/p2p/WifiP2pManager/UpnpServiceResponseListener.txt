@@ -1,0 +1,4 @@
+Compiled from "WifiP2pManager.java"
+public interface android.net.wifi.p2p.WifiP2pManager$UpnpServiceResponseListener {
+  public abstract void onUpnpServiceAvailable(java.util.List<java.lang.String>, android.net.wifi.p2p.WifiP2pDevice);
+}

@@ -1,0 +1,9 @@
+Compiled from "ContentObservable.java"
+public class android.database.ContentObservable extends android.database.Observable<android.database.ContentObserver> {
+  public android.database.ContentObservable();
+  public void registerObserver(android.database.ContentObserver);
+  public void dispatchChange(boolean);
+  public void dispatchChange(boolean, android.net.Uri);
+  public void notifyChange(boolean);
+  public void registerObserver(java.lang.Object);
+}

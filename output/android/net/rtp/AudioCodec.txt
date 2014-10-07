@@ -1,0 +1,15 @@
+Compiled from "AudioCodec.java"
+public class android.net.rtp.AudioCodec {
+  public static final android.net.rtp.AudioCodec AMR;
+  public static final android.net.rtp.AudioCodec GSM;
+  public static final android.net.rtp.AudioCodec GSM_EFR;
+  public static final android.net.rtp.AudioCodec PCMA;
+  public static final android.net.rtp.AudioCodec PCMU;
+  public final java.lang.String fmtp;
+  public final java.lang.String rtpmap;
+  public final int type;
+  android.net.rtp.AudioCodec();
+  public static android.net.rtp.AudioCodec[] getCodecs();
+  public static android.net.rtp.AudioCodec getCodec(int, java.lang.String, java.lang.String);
+  static {};
+}

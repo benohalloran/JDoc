@@ -1,0 +1,10 @@
+Compiled from "SeekBar.java"
+public class android.widget.SeekBar extends android.widget.AbsSeekBar {
+  public android.widget.SeekBar(android.content.Context);
+  public android.widget.SeekBar(android.content.Context, android.util.AttributeSet);
+  public android.widget.SeekBar(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.SeekBar(android.content.Context, android.util.AttributeSet, int, int);
+  public void setOnSeekBarChangeListener(android.widget.SeekBar$OnSeekBarChangeListener);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

@@ -1,0 +1,41 @@
+Compiled from "ContentValues.java"
+public final class android.content.ContentValues implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.ContentValues> CREATOR;
+  public static final java.lang.String TAG;
+  public android.content.ContentValues();
+  public android.content.ContentValues(int);
+  public android.content.ContentValues(android.content.ContentValues);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public void put(java.lang.String, java.lang.String);
+  public void putAll(android.content.ContentValues);
+  public void put(java.lang.String, java.lang.Byte);
+  public void put(java.lang.String, java.lang.Short);
+  public void put(java.lang.String, java.lang.Integer);
+  public void put(java.lang.String, java.lang.Long);
+  public void put(java.lang.String, java.lang.Float);
+  public void put(java.lang.String, java.lang.Double);
+  public void put(java.lang.String, java.lang.Boolean);
+  public void put(java.lang.String, byte[]);
+  public void putNull(java.lang.String);
+  public int size();
+  public void remove(java.lang.String);
+  public void clear();
+  public boolean containsKey(java.lang.String);
+  public java.lang.Object get(java.lang.String);
+  public java.lang.String getAsString(java.lang.String);
+  public java.lang.Long getAsLong(java.lang.String);
+  public java.lang.Integer getAsInteger(java.lang.String);
+  public java.lang.Short getAsShort(java.lang.String);
+  public java.lang.Byte getAsByte(java.lang.String);
+  public java.lang.Double getAsDouble(java.lang.String);
+  public java.lang.Float getAsFloat(java.lang.String);
+  public java.lang.Boolean getAsBoolean(java.lang.String);
+  public byte[] getAsByteArray(java.lang.String);
+  public java.util.Set<java.util.Map$Entry<java.lang.String, java.lang.Object>> valueSet();
+  public java.util.Set<java.lang.String> keySet();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String toString();
+  static {};
+}

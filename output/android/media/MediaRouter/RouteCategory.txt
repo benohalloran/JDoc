@@ -1,0 +1,10 @@
+Compiled from "MediaRouter.java"
+public class android.media.MediaRouter$RouteCategory {
+  android.media.MediaRouter$RouteCategory();
+  public java.lang.CharSequence getName();
+  public java.lang.CharSequence getName(android.content.Context);
+  public java.util.List<android.media.MediaRouter$RouteInfo> getRoutes(java.util.List<android.media.MediaRouter$RouteInfo>);
+  public int getSupportedTypes();
+  public boolean isGroupable();
+  public java.lang.String toString();
+}

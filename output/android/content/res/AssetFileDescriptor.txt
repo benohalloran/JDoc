@@ -1,0 +1,20 @@
+Compiled from "AssetFileDescriptor.java"
+public class android.content.res.AssetFileDescriptor implements android.os.Parcelable,java.io.Closeable {
+  public static final android.os.Parcelable$Creator<android.content.res.AssetFileDescriptor> CREATOR;
+  public static final long UNKNOWN_LENGTH;
+  public android.content.res.AssetFileDescriptor(android.os.ParcelFileDescriptor, long, long);
+  public android.content.res.AssetFileDescriptor(android.os.ParcelFileDescriptor, long, long, android.os.Bundle);
+  public android.os.ParcelFileDescriptor getParcelFileDescriptor();
+  public java.io.FileDescriptor getFileDescriptor();
+  public long getStartOffset();
+  public android.os.Bundle getExtras();
+  public long getLength();
+  public long getDeclaredLength();
+  public void close() throws java.io.IOException;
+  public java.io.FileInputStream createInputStream() throws java.io.IOException;
+  public java.io.FileOutputStream createOutputStream() throws java.io.IOException;
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

@@ -1,0 +1,16 @@
+Compiled from "PermissionGroupInfo.java"
+public class android.content.pm.PermissionGroupInfo extends android.content.pm.PackageItemInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.pm.PermissionGroupInfo> CREATOR;
+  public static final int FLAG_PERSONAL_INFO;
+  public int descriptionRes;
+  public int flags;
+  public java.lang.CharSequence nonLocalizedDescription;
+  public int priority;
+  public android.content.pm.PermissionGroupInfo();
+  public android.content.pm.PermissionGroupInfo(android.content.pm.PermissionGroupInfo);
+  public java.lang.CharSequence loadDescription(android.content.pm.PackageManager);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

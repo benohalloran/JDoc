@@ -1,0 +1,15 @@
+Compiled from "ZoomButton.java"
+public class android.widget.ZoomButton extends android.widget.ImageButton implements android.view.View$OnLongClickListener {
+  public android.widget.ZoomButton(android.content.Context);
+  public android.widget.ZoomButton(android.content.Context, android.util.AttributeSet);
+  public android.widget.ZoomButton(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.ZoomButton(android.content.Context, android.util.AttributeSet, int, int);
+  public boolean onTouchEvent(android.view.MotionEvent);
+  public void setZoomSpeed(long);
+  public boolean onLongClick(android.view.View);
+  public boolean onKeyUp(int, android.view.KeyEvent);
+  public void setEnabled(boolean);
+  public boolean dispatchUnhandledMove(android.view.View, int);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

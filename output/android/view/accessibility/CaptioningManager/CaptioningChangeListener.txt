@@ -1,0 +1,8 @@
+Compiled from "CaptioningManager.java"
+public abstract class android.view.accessibility.CaptioningManager$CaptioningChangeListener {
+  public android.view.accessibility.CaptioningManager$CaptioningChangeListener();
+  public void onEnabledChanged(boolean);
+  public void onUserStyleChanged(android.view.accessibility.CaptioningManager$CaptionStyle);
+  public void onLocaleChanged(java.util.Locale);
+  public void onFontScaleChanged(float);
+}

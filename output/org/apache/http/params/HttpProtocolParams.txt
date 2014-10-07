@@ -1,0 +1,14 @@
+Compiled from "HttpProtocolParams.java"
+public final class org.apache.http.params.HttpProtocolParams implements org.apache.http.params.CoreProtocolPNames {
+  org.apache.http.params.HttpProtocolParams();
+  public static java.lang.String getHttpElementCharset(org.apache.http.params.HttpParams);
+  public static void setHttpElementCharset(org.apache.http.params.HttpParams, java.lang.String);
+  public static java.lang.String getContentCharset(org.apache.http.params.HttpParams);
+  public static void setContentCharset(org.apache.http.params.HttpParams, java.lang.String);
+  public static org.apache.http.ProtocolVersion getVersion(org.apache.http.params.HttpParams);
+  public static void setVersion(org.apache.http.params.HttpParams, org.apache.http.ProtocolVersion);
+  public static java.lang.String getUserAgent(org.apache.http.params.HttpParams);
+  public static void setUserAgent(org.apache.http.params.HttpParams, java.lang.String);
+  public static boolean useExpectContinue(org.apache.http.params.HttpParams);
+  public static void setUseExpectContinue(org.apache.http.params.HttpParams, boolean);
+}

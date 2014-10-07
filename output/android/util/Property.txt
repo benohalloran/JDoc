@@ -1,0 +1,10 @@
+Compiled from "Property.java"
+public abstract class android.util.Property<T, V> {
+  public android.util.Property(java.lang.Class<V>, java.lang.String);
+  public static <T extends java/lang/Object, V extends java/lang/Object> android.util.Property<T, V> of(java.lang.Class<T>, java.lang.Class<V>, java.lang.String);
+  public boolean isReadOnly();
+  public void set(T, V);
+  public abstract V get(T);
+  public java.lang.String getName();
+  public java.lang.Class<V> getType();
+}

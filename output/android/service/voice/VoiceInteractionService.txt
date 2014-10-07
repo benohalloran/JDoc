@@ -1,0 +1,9 @@
+Compiled from "VoiceInteractionService.java"
+public class android.service.voice.VoiceInteractionService extends android.app.Service {
+  public static final java.lang.String SERVICE_INTERFACE;
+  public static final java.lang.String SERVICE_META_DATA;
+  public android.service.voice.VoiceInteractionService();
+  public void startSession(android.os.Bundle);
+  public void onCreate();
+  public android.os.IBinder onBind(android.content.Intent);
+}

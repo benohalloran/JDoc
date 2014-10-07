@@ -1,0 +1,5 @@
+Compiled from "SensorListener.java"
+public interface android.hardware.SensorListener {
+  public abstract void onSensorChanged(int, float[]);
+  public abstract void onAccuracyChanged(int, int);
+}

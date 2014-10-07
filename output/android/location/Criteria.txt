@@ -1,0 +1,39 @@
+Compiled from "Criteria.java"
+public class android.location.Criteria implements android.os.Parcelable {
+  public static final int ACCURACY_COARSE;
+  public static final int ACCURACY_FINE;
+  public static final int ACCURACY_HIGH;
+  public static final int ACCURACY_LOW;
+  public static final int ACCURACY_MEDIUM;
+  public static final android.os.Parcelable$Creator<android.location.Criteria> CREATOR;
+  public static final int NO_REQUIREMENT;
+  public static final int POWER_HIGH;
+  public static final int POWER_LOW;
+  public static final int POWER_MEDIUM;
+  public android.location.Criteria();
+  public android.location.Criteria(android.location.Criteria);
+  public void setHorizontalAccuracy(int);
+  public int getHorizontalAccuracy();
+  public void setVerticalAccuracy(int);
+  public int getVerticalAccuracy();
+  public void setSpeedAccuracy(int);
+  public int getSpeedAccuracy();
+  public void setBearingAccuracy(int);
+  public int getBearingAccuracy();
+  public void setAccuracy(int);
+  public int getAccuracy();
+  public void setPowerRequirement(int);
+  public int getPowerRequirement();
+  public void setCostAllowed(boolean);
+  public boolean isCostAllowed();
+  public void setAltitudeRequired(boolean);
+  public boolean isAltitudeRequired();
+  public void setSpeedRequired(boolean);
+  public boolean isSpeedRequired();
+  public void setBearingRequired(boolean);
+  public boolean isBearingRequired();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String toString();
+  static {};
+}

@@ -1,0 +1,20 @@
+Compiled from "RenderScript.java"
+public class android.renderscript.RenderScript {
+  public static final int CREATE_FLAG_LOW_LATENCY;
+  public static final int CREATE_FLAG_LOW_POWER;
+  public static final int CREATE_FLAG_NONE;
+  android.renderscript.RenderScript();
+  public void setMessageHandler(android.renderscript.RenderScript$RSMessageHandler);
+  public android.renderscript.RenderScript$RSMessageHandler getMessageHandler();
+  public void sendMessage(int, int[]);
+  public void setErrorHandler(android.renderscript.RenderScript$RSErrorHandler);
+  public android.renderscript.RenderScript$RSErrorHandler getErrorHandler();
+  public void setPriority(android.renderscript.RenderScript$Priority);
+  public final android.content.Context getApplicationContext();
+  public static android.renderscript.RenderScript create(android.content.Context);
+  public static android.renderscript.RenderScript create(android.content.Context, android.renderscript.RenderScript$ContextType);
+  public static android.renderscript.RenderScript create(android.content.Context, android.renderscript.RenderScript$ContextType, int);
+  public void contextDump();
+  public void finish();
+  public void destroy();
+}

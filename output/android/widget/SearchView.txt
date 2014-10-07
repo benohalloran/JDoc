@@ -1,0 +1,42 @@
+Compiled from "SearchView.java"
+public class android.widget.SearchView extends android.widget.LinearLayout implements android.view.CollapsibleActionView {
+  public android.widget.SearchView(android.content.Context);
+  public android.widget.SearchView(android.content.Context, android.util.AttributeSet);
+  public android.widget.SearchView(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.SearchView(android.content.Context, android.util.AttributeSet, int, int);
+  public void setSearchableInfo(android.app.SearchableInfo);
+  public void setImeOptions(int);
+  public int getImeOptions();
+  public void setInputType(int);
+  public int getInputType();
+  public void setOnQueryTextListener(android.widget.SearchView$OnQueryTextListener);
+  public void setOnCloseListener(android.widget.SearchView$OnCloseListener);
+  public void setOnQueryTextFocusChangeListener(android.view.View$OnFocusChangeListener);
+  public void setOnSuggestionListener(android.widget.SearchView$OnSuggestionListener);
+  public void setOnSearchClickListener(android.view.View$OnClickListener);
+  public java.lang.CharSequence getQuery();
+  public void setQuery(java.lang.CharSequence, boolean);
+  public void setQueryHint(java.lang.CharSequence);
+  public java.lang.CharSequence getQueryHint();
+  public void setIconifiedByDefault(boolean);
+  public boolean isIconfiedByDefault();
+  public void setIconified(boolean);
+  public boolean isIconified();
+  public void setSubmitButtonEnabled(boolean);
+  public boolean isSubmitButtonEnabled();
+  public void setQueryRefinementEnabled(boolean);
+  public boolean isQueryRefinementEnabled();
+  public void setSuggestionsAdapter(android.widget.CursorAdapter);
+  public android.widget.CursorAdapter getSuggestionsAdapter();
+  public void setMaxWidth(int);
+  public int getMaxWidth();
+  protected void onMeasure(int, int);
+  protected void onDetachedFromWindow();
+  public boolean onKeyDown(int, android.view.KeyEvent);
+  public void onWindowFocusChanged(boolean);
+  public void onActionViewCollapsed();
+  public void onActionViewExpanded();
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public void onRtlPropertiesChanged(int);
+}

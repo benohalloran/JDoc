@@ -1,0 +1,10 @@
+Compiled from "ProviderTestCase2.java"
+public abstract class android.test.ProviderTestCase2<T extends android.content.ContentProvider> extends android.test.AndroidTestCase {
+  public android.test.ProviderTestCase2(java.lang.Class<T>, java.lang.String);
+  public T getProvider();
+  protected void setUp() throws java.lang.Exception;
+  protected void tearDown() throws java.lang.Exception;
+  public android.test.mock.MockContentResolver getMockContentResolver();
+  public android.test.IsolatedContext getMockContext();
+  public static <T extends android/content/ContentProvider> android.content.ContentResolver newResolverWithContentProviderFromSql(android.content.Context, java.lang.String, java.lang.Class<T>, java.lang.String, java.lang.String, int, java.lang.String) throws java.lang.IllegalAccessException, java.lang.InstantiationException;
+}

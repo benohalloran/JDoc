@@ -1,0 +1,4 @@
+Compiled from "XmlResourceParser.java"
+public interface android.content.res.XmlResourceParser extends org.xmlpull.v1.XmlPullParser,android.util.AttributeSet,java.lang.AutoCloseable {
+  public abstract void close();
+}

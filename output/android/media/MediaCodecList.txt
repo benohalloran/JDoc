@@ -1,0 +1,6 @@
+Compiled from "MediaCodecList.java"
+public final class android.media.MediaCodecList {
+  android.media.MediaCodecList();
+  public static final native int getCodecCount();
+  public static final android.media.MediaCodecInfo getCodecInfoAt(int);
+}

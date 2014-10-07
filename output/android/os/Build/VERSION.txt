@@ -1,0 +1,10 @@
+Compiled from "Build.java"
+public class android.os.Build$VERSION {
+  public static final java.lang.String CODENAME;
+  public static final java.lang.String INCREMENTAL;
+  public static final java.lang.String RELEASE;
+  public static final java.lang.String SDK;
+  public static final int SDK_INT;
+  public android.os.Build$VERSION();
+  static {};
+}

@@ -1,0 +1,11 @@
+Compiled from "RecognitionService.java"
+public abstract class android.speech.RecognitionService extends android.app.Service {
+  public static final java.lang.String SERVICE_INTERFACE;
+  public static final java.lang.String SERVICE_META_DATA;
+  public android.speech.RecognitionService();
+  protected abstract void onStartListening(android.content.Intent, android.speech.RecognitionService$Callback);
+  protected abstract void onCancel(android.speech.RecognitionService$Callback);
+  protected abstract void onStopListening(android.speech.RecognitionService$Callback);
+  public final android.os.IBinder onBind(android.content.Intent);
+  public void onDestroy();
+}

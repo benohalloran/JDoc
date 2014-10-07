@@ -1,0 +1,7 @@
+Compiled from "TransitionInflater.java"
+public class android.transition.TransitionInflater {
+  android.transition.TransitionInflater();
+  public static android.transition.TransitionInflater from(android.content.Context);
+  public android.transition.Transition inflateTransition(int);
+  public android.transition.TransitionManager inflateTransitionManager(int, android.view.ViewGroup);
+}

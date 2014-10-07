@@ -1,0 +1,4 @@
+Compiled from "NoSuchPropertyException.java"
+public class android.util.NoSuchPropertyException extends java.lang.RuntimeException {
+  public android.util.NoSuchPropertyException(java.lang.String);
+}

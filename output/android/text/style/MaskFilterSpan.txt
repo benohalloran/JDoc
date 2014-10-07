@@ -1,0 +1,6 @@
+Compiled from "MaskFilterSpan.java"
+public class android.text.style.MaskFilterSpan extends android.text.style.CharacterStyle implements android.text.style.UpdateAppearance {
+  public android.text.style.MaskFilterSpan(android.graphics.MaskFilter);
+  public android.graphics.MaskFilter getMaskFilter();
+  public void updateDrawState(android.text.TextPaint);
+}

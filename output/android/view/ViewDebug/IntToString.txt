@@ -1,0 +1,5 @@
+Compiled from "ViewDebug.java"
+public interface android.view.ViewDebug$IntToString extends java.lang.annotation.Annotation {
+  public abstract int from();
+  public abstract java.lang.String to();
+}

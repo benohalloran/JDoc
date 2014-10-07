@@ -1,0 +1,8 @@
+Compiled from "AlphaAnimation.java"
+public class android.view.animation.AlphaAnimation extends android.view.animation.Animation {
+  public android.view.animation.AlphaAnimation(android.content.Context, android.util.AttributeSet);
+  public android.view.animation.AlphaAnimation(float, float);
+  protected void applyTransformation(float, android.view.animation.Transformation);
+  public boolean willChangeTransformationMatrix();
+  public boolean willChangeBounds();
+}

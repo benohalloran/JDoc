@@ -1,0 +1,5 @@
+Compiled from "BasicSchemeFactory.java"
+public class org.apache.http.impl.auth.BasicSchemeFactory implements org.apache.http.auth.AuthSchemeFactory {
+  public org.apache.http.impl.auth.BasicSchemeFactory();
+  public org.apache.http.auth.AuthScheme newInstance(org.apache.http.params.HttpParams);
+}

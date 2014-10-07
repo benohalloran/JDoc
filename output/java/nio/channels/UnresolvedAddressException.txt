@@ -1,0 +1,4 @@
+Compiled from "UnresolvedAddressException.java"
+public class java.nio.channels.UnresolvedAddressException extends java.lang.IllegalArgumentException {
+  public java.nio.channels.UnresolvedAddressException();
+}

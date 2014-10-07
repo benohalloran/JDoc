@@ -1,0 +1,15 @@
+Compiled from "ApplicationErrorReport.java"
+public class android.app.ApplicationErrorReport$CrashInfo {
+  public java.lang.String exceptionClassName;
+  public java.lang.String exceptionMessage;
+  public java.lang.String stackTrace;
+  public java.lang.String throwClassName;
+  public java.lang.String throwFileName;
+  public int throwLineNumber;
+  public java.lang.String throwMethodName;
+  public android.app.ApplicationErrorReport$CrashInfo();
+  public android.app.ApplicationErrorReport$CrashInfo(java.lang.Throwable);
+  public android.app.ApplicationErrorReport$CrashInfo(android.os.Parcel);
+  public void writeToParcel(android.os.Parcel, int);
+  public void dump(android.util.Printer, java.lang.String);
+}

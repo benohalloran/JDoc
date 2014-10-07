@@ -1,0 +1,33 @@
+Compiled from "NetworkCapabilities.java"
+public final class android.net.NetworkCapabilities implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.net.NetworkCapabilities> CREATOR;
+  public static final int NET_CAPABILITY_CBS;
+  public static final int NET_CAPABILITY_DUN;
+  public static final int NET_CAPABILITY_EIMS;
+  public static final int NET_CAPABILITY_FOTA;
+  public static final int NET_CAPABILITY_IA;
+  public static final int NET_CAPABILITY_IMS;
+  public static final int NET_CAPABILITY_INTERNET;
+  public static final int NET_CAPABILITY_MMS;
+  public static final int NET_CAPABILITY_NOT_METERED;
+  public static final int NET_CAPABILITY_NOT_RESTRICTED;
+  public static final int NET_CAPABILITY_RCS;
+  public static final int NET_CAPABILITY_SUPL;
+  public static final int NET_CAPABILITY_WIFI_P2P;
+  public static final int NET_CAPABILITY_XCAP;
+  public static final int TRANSPORT_BLUETOOTH;
+  public static final int TRANSPORT_CELLULAR;
+  public static final int TRANSPORT_ETHERNET;
+  public static final int TRANSPORT_WIFI;
+  public android.net.NetworkCapabilities(android.net.NetworkCapabilities);
+  public boolean hasCapability(int);
+  public boolean hasTransport(int);
+  public int getLinkUpstreamBandwidthKbps();
+  public int getLinkDownstreamBandwidthKbps();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String toString();
+  static {};
+}

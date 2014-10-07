@@ -1,0 +1,8 @@
+Compiled from "Path.java"
+public final class android.graphics.Path$Direction extends java.lang.Enum<android.graphics.Path$Direction> {
+  public static final android.graphics.Path$Direction CCW;
+  public static final android.graphics.Path$Direction CW;
+  public static android.graphics.Path$Direction[] values();
+  public static android.graphics.Path$Direction valueOf(java.lang.String);
+  static {};
+}

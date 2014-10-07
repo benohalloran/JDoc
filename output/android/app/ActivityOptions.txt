@@ -1,0 +1,11 @@
+Compiled from "ActivityOptions.java"
+public class android.app.ActivityOptions {
+  android.app.ActivityOptions();
+  public static android.app.ActivityOptions makeCustomAnimation(android.content.Context, int, int);
+  public static android.app.ActivityOptions makeScaleUpAnimation(android.view.View, int, int, int, int);
+  public static android.app.ActivityOptions makeThumbnailScaleUpAnimation(android.view.View, android.graphics.Bitmap, int, int);
+  public static android.app.ActivityOptions makeSceneTransitionAnimation(android.app.Activity, android.view.View, java.lang.String);
+  public static android.app.ActivityOptions makeSceneTransitionAnimation(android.app.Activity, android.util.Pair<android.view.View, java.lang.String>...);
+  public void update(android.app.ActivityOptions);
+  public android.os.Bundle toBundle();
+}

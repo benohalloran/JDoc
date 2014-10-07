@@ -1,0 +1,20 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$StreamItemsColumns {
+  public static final java.lang.String ACCOUNT_NAME;
+  public static final java.lang.String ACCOUNT_TYPE;
+  public static final java.lang.String COMMENTS;
+  public static final java.lang.String CONTACT_ID;
+  public static final java.lang.String CONTACT_LOOKUP_KEY;
+  public static final java.lang.String DATA_SET;
+  public static final java.lang.String RAW_CONTACT_ID;
+  public static final java.lang.String RAW_CONTACT_SOURCE_ID;
+  public static final java.lang.String RES_ICON;
+  public static final java.lang.String RES_LABEL;
+  public static final java.lang.String RES_PACKAGE;
+  public static final java.lang.String SYNC1;
+  public static final java.lang.String SYNC2;
+  public static final java.lang.String SYNC3;
+  public static final java.lang.String SYNC4;
+  public static final java.lang.String TEXT;
+  public static final java.lang.String TIMESTAMP;
+}

@@ -1,0 +1,21 @@
+Compiled from "BluetoothGattDescriptor.java"
+public class android.bluetooth.BluetoothGattDescriptor {
+  public static final byte[] DISABLE_NOTIFICATION_VALUE;
+  public static final byte[] ENABLE_INDICATION_VALUE;
+  public static final byte[] ENABLE_NOTIFICATION_VALUE;
+  public static final int PERMISSION_READ;
+  public static final int PERMISSION_READ_ENCRYPTED;
+  public static final int PERMISSION_READ_ENCRYPTED_MITM;
+  public static final int PERMISSION_WRITE;
+  public static final int PERMISSION_WRITE_ENCRYPTED;
+  public static final int PERMISSION_WRITE_ENCRYPTED_MITM;
+  public static final int PERMISSION_WRITE_SIGNED;
+  public static final int PERMISSION_WRITE_SIGNED_MITM;
+  public android.bluetooth.BluetoothGattDescriptor(java.util.UUID, int);
+  public android.bluetooth.BluetoothGattCharacteristic getCharacteristic();
+  public java.util.UUID getUuid();
+  public int getPermissions();
+  public byte[] getValue();
+  public boolean setValue(byte[]);
+  static {};
+}

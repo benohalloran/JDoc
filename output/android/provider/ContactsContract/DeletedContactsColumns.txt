@@ -1,0 +1,5 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$DeletedContactsColumns {
+  public static final java.lang.String CONTACT_DELETED_TIMESTAMP;
+  public static final java.lang.String CONTACT_ID;
+}

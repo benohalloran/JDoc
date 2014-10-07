@@ -1,0 +1,7 @@
+Compiled from "WebView.java"
+public class android.webkit.WebView$WebViewTransport {
+  final android.webkit.WebView this$0;
+  public android.webkit.WebView$WebViewTransport(android.webkit.WebView);
+  public synchronized void setWebView(android.webkit.WebView);
+  public synchronized android.webkit.WebView getWebView();
+}

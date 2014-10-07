@@ -1,0 +1,9 @@
+Compiled from "AbstractInterruptibleChannel.java"
+public abstract class java.nio.channels.spi.AbstractInterruptibleChannel implements java.nio.channels.Channel,java.nio.channels.InterruptibleChannel {
+  protected java.nio.channels.spi.AbstractInterruptibleChannel();
+  public final synchronized boolean isOpen();
+  public final void close() throws java.io.IOException;
+  protected final void begin();
+  protected final void end(boolean) throws java.nio.channels.AsynchronousCloseException;
+  protected abstract void implCloseChannel() throws java.io.IOException;
+}

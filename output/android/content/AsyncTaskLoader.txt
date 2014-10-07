@@ -1,0 +1,13 @@
+Compiled from "AsyncTaskLoader.java"
+public abstract class android.content.AsyncTaskLoader<D> extends android.content.Loader<D> {
+  public android.content.AsyncTaskLoader(android.content.Context);
+  public void setUpdateThrottle(long);
+  protected void onForceLoad();
+  protected boolean onCancelLoad();
+  public void onCanceled(D);
+  public abstract D loadInBackground();
+  protected D onLoadInBackground();
+  public void cancelLoadInBackground();
+  public boolean isLoadInBackgroundCanceled();
+  public void dump(java.lang.String, java.io.FileDescriptor, java.io.PrintWriter, java.lang.String[]);
+}

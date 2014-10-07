@@ -1,0 +1,5 @@
+Compiled from "LoaderTestCase.java"
+public class android.test.LoaderTestCase extends android.test.AndroidTestCase {
+  public android.test.LoaderTestCase();
+  public <T extends java/lang/Object> T getLoaderResultSynchronously(android.content.Loader<T>);
+}

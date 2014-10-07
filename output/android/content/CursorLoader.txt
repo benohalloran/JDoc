@@ -1,0 +1,26 @@
+Compiled from "CursorLoader.java"
+public class android.content.CursorLoader extends android.content.AsyncTaskLoader<android.database.Cursor> {
+  public android.content.CursorLoader(android.content.Context);
+  public android.content.CursorLoader(android.content.Context, android.net.Uri, java.lang.String[], java.lang.String, java.lang.String[], java.lang.String);
+  public android.database.Cursor loadInBackground();
+  public void cancelLoadInBackground();
+  public void deliverResult(android.database.Cursor);
+  protected void onStartLoading();
+  protected void onStopLoading();
+  public void onCanceled(android.database.Cursor);
+  protected void onReset();
+  public android.net.Uri getUri();
+  public void setUri(android.net.Uri);
+  public java.lang.String[] getProjection();
+  public void setProjection(java.lang.String[]);
+  public java.lang.String getSelection();
+  public void setSelection(java.lang.String);
+  public java.lang.String[] getSelectionArgs();
+  public void setSelectionArgs(java.lang.String[]);
+  public java.lang.String getSortOrder();
+  public void setSortOrder(java.lang.String);
+  public void dump(java.lang.String, java.io.FileDescriptor, java.io.PrintWriter, java.lang.String[]);
+  public java.lang.Object loadInBackground();
+  public void onCanceled(java.lang.Object);
+  public void deliverResult(java.lang.Object);
+}

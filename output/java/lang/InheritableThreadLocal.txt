@@ -1,0 +1,5 @@
+Compiled from "InheritableThreadLocal.java"
+public class java.lang.InheritableThreadLocal<T> extends java.lang.ThreadLocal<T> {
+  public java.lang.InheritableThreadLocal();
+  protected T childValue(T);
+}

@@ -1,0 +1,6 @@
+Compiled from "RasterizerSpan.java"
+public class android.text.style.RasterizerSpan extends android.text.style.CharacterStyle implements android.text.style.UpdateAppearance {
+  public android.text.style.RasterizerSpan(android.graphics.Rasterizer);
+  public android.graphics.Rasterizer getRasterizer();
+  public void updateDrawState(android.text.TextPaint);
+}

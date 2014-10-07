@@ -1,0 +1,6 @@
+Compiled from "Filter.java"
+public class android.widget.Filter$FilterResults {
+  public int count;
+  public java.lang.Object values;
+  public android.widget.Filter$FilterResults();
+}

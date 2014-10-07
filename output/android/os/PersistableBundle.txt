@@ -1,0 +1,15 @@
+Compiled from "PersistableBundle.java"
+public final class android.os.PersistableBundle extends android.os.BaseBundle implements java.lang.Cloneable,android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.os.PersistableBundle> CREATOR;
+  public static final android.os.PersistableBundle EMPTY;
+  public android.os.PersistableBundle();
+  public android.os.PersistableBundle(int);
+  public android.os.PersistableBundle(android.os.PersistableBundle);
+  public java.lang.Object clone();
+  public void putPersistableBundle(java.lang.String, android.os.PersistableBundle);
+  public android.os.PersistableBundle getPersistableBundle(java.lang.String);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public synchronized java.lang.String toString();
+  static {};
+}

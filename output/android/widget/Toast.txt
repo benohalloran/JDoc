@@ -1,0 +1,23 @@
+Compiled from "Toast.java"
+public class android.widget.Toast {
+  public static final int LENGTH_LONG;
+  public static final int LENGTH_SHORT;
+  public android.widget.Toast(android.content.Context);
+  public void show();
+  public void cancel();
+  public void setView(android.view.View);
+  public android.view.View getView();
+  public void setDuration(int);
+  public int getDuration();
+  public void setMargin(float, float);
+  public float getHorizontalMargin();
+  public float getVerticalMargin();
+  public void setGravity(int, int, int);
+  public int getGravity();
+  public int getXOffset();
+  public int getYOffset();
+  public static android.widget.Toast makeText(android.content.Context, java.lang.CharSequence, int);
+  public static android.widget.Toast makeText(android.content.Context, int, int) throws android.content.res.Resources$NotFoundException;
+  public void setText(int);
+  public void setText(java.lang.CharSequence);
+}

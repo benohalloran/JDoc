@@ -1,0 +1,9 @@
+Compiled from "ConnectivityManager.java"
+public class android.net.ConnectivityManager$NetworkCallback {
+  public android.net.ConnectivityManager$NetworkCallback();
+  public void onAvailable(android.net.Network);
+  public void onLosing(android.net.Network, int);
+  public void onLost(android.net.Network);
+  public void onCapabilitiesChanged(android.net.Network, android.net.NetworkCapabilities);
+  public void onLinkPropertiesChanged(android.net.Network, android.net.LinkProperties);
+}

@@ -1,0 +1,5 @@
+Compiled from "LeadingMarginSpan.java"
+public interface android.text.style.LeadingMarginSpan extends android.text.style.ParagraphStyle {
+  public abstract int getLeadingMargin(boolean);
+  public abstract void drawLeadingMargin(android.graphics.Canvas, android.graphics.Paint, int, int, int, int, int, java.lang.CharSequence, int, int, boolean, android.text.Layout);
+}

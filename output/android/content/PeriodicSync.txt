@@ -1,0 +1,14 @@
+Compiled from "PeriodicSync.java"
+public class android.content.PeriodicSync implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.PeriodicSync> CREATOR;
+  public final android.accounts.Account account;
+  public final java.lang.String authority;
+  public final android.os.Bundle extras;
+  public final long period;
+  public android.content.PeriodicSync(android.accounts.Account, java.lang.String, android.os.Bundle, long);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  static {};
+}

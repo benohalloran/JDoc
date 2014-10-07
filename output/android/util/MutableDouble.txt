@@ -1,0 +1,5 @@
+Compiled from "MutableDouble.java"
+public final class android.util.MutableDouble {
+  public double value;
+  public android.util.MutableDouble(double);
+}

@@ -1,0 +1,7 @@
+Compiled from "TextureView.java"
+public interface android.view.TextureView$SurfaceTextureListener {
+  public abstract void onSurfaceTextureAvailable(android.graphics.SurfaceTexture, int, int);
+  public abstract void onSurfaceTextureSizeChanged(android.graphics.SurfaceTexture, int, int);
+  public abstract boolean onSurfaceTextureDestroyed(android.graphics.SurfaceTexture);
+  public abstract void onSurfaceTextureUpdated(android.graphics.SurfaceTexture);
+}

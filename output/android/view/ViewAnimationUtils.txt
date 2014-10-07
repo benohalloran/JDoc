@@ -1,0 +1,5 @@
+Compiled from "ViewAnimationUtils.java"
+public class android.view.ViewAnimationUtils {
+  android.view.ViewAnimationUtils();
+  public static final android.animation.ValueAnimator createCircularReveal(android.view.View, int, int, float, float);
+}

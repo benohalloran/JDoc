@@ -1,0 +1,17 @@
+Compiled from "VoicemailContract.java"
+public final class android.provider.VoicemailContract$Voicemails implements android.provider.BaseColumns,android.provider.OpenableColumns {
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DATE;
+  public static final java.lang.String DIR_TYPE;
+  public static final java.lang.String DURATION;
+  public static final java.lang.String HAS_CONTENT;
+  public static final java.lang.String IS_READ;
+  public static final java.lang.String ITEM_TYPE;
+  public static final java.lang.String MIME_TYPE;
+  public static final java.lang.String NUMBER;
+  public static final java.lang.String SOURCE_DATA;
+  public static final java.lang.String SOURCE_PACKAGE;
+  android.provider.VoicemailContract$Voicemails();
+  public static android.net.Uri buildSourceUri(java.lang.String);
+  static {};
+}

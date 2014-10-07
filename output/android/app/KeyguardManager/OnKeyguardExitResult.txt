@@ -1,0 +1,4 @@
+Compiled from "KeyguardManager.java"
+public interface android.app.KeyguardManager$OnKeyguardExitResult {
+  public abstract void onKeyguardExitResult(boolean);
+}

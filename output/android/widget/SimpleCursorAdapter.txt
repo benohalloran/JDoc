@@ -1,0 +1,17 @@
+Compiled from "SimpleCursorAdapter.java"
+public class android.widget.SimpleCursorAdapter extends android.widget.ResourceCursorAdapter {
+  public android.widget.SimpleCursorAdapter(android.content.Context, int, android.database.Cursor, java.lang.String[], int[]);
+  public android.widget.SimpleCursorAdapter(android.content.Context, int, android.database.Cursor, java.lang.String[], int[], int);
+  public void bindView(android.view.View, android.content.Context, android.database.Cursor);
+  public android.widget.SimpleCursorAdapter$ViewBinder getViewBinder();
+  public void setViewBinder(android.widget.SimpleCursorAdapter$ViewBinder);
+  public void setViewImage(android.widget.ImageView, java.lang.String);
+  public void setViewText(android.widget.TextView, java.lang.String);
+  public int getStringConversionColumn();
+  public void setStringConversionColumn(int);
+  public android.widget.SimpleCursorAdapter$CursorToStringConverter getCursorToStringConverter();
+  public void setCursorToStringConverter(android.widget.SimpleCursorAdapter$CursorToStringConverter);
+  public java.lang.CharSequence convertToString(android.database.Cursor);
+  public android.database.Cursor swapCursor(android.database.Cursor);
+  public void changeCursorAndColumns(android.database.Cursor, java.lang.String[], int[]);
+}

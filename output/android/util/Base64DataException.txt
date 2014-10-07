@@ -1,0 +1,4 @@
+Compiled from "Base64DataException.java"
+public class android.util.Base64DataException extends java.io.IOException {
+  public android.util.Base64DataException(java.lang.String);
+}

@@ -1,0 +1,19 @@
+Compiled from "AssetManager.java"
+public final class android.content.res.AssetManager {
+  public static final int ACCESS_BUFFER;
+  public static final int ACCESS_RANDOM;
+  public static final int ACCESS_STREAMING;
+  public static final int ACCESS_UNKNOWN;
+  android.content.res.AssetManager();
+  public void close();
+  public final java.io.InputStream open(java.lang.String) throws java.io.IOException;
+  public final java.io.InputStream open(java.lang.String, int) throws java.io.IOException;
+  public final android.content.res.AssetFileDescriptor openFd(java.lang.String) throws java.io.IOException;
+  public final native java.lang.String[] list(java.lang.String) throws java.io.IOException;
+  public final android.content.res.AssetFileDescriptor openNonAssetFd(java.lang.String) throws java.io.IOException;
+  public final android.content.res.AssetFileDescriptor openNonAssetFd(int, java.lang.String) throws java.io.IOException;
+  public final android.content.res.XmlResourceParser openXmlResourceParser(java.lang.String) throws java.io.IOException;
+  public final android.content.res.XmlResourceParser openXmlResourceParser(int, java.lang.String) throws java.io.IOException;
+  protected void finalize() throws java.lang.Throwable;
+  public final native java.lang.String[] getLocales();
+}

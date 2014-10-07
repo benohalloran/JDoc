@@ -1,0 +1,16 @@
+Compiled from "Patterns.java"
+public class android.util.Patterns {
+  public static final java.util.regex.Pattern DOMAIN_NAME;
+  public static final java.util.regex.Pattern EMAIL_ADDRESS;
+  public static final java.lang.String GOOD_IRI_CHAR;
+  public static final java.util.regex.Pattern IP_ADDRESS;
+  public static final java.util.regex.Pattern PHONE;
+  public static final java.util.regex.Pattern TOP_LEVEL_DOMAIN;
+  public static final java.lang.String TOP_LEVEL_DOMAIN_STR;
+  public static final java.lang.String TOP_LEVEL_DOMAIN_STR_FOR_WEB_URL;
+  public static final java.util.regex.Pattern WEB_URL;
+  android.util.Patterns();
+  public static final java.lang.String concatGroups(java.util.regex.Matcher);
+  public static final java.lang.String digitsAndPlusOnly(java.util.regex.Matcher);
+  static {};
+}

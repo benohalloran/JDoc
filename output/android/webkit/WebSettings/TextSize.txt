@@ -1,0 +1,11 @@
+Compiled from "WebSettings.java"
+public final class android.webkit.WebSettings$TextSize extends java.lang.Enum<android.webkit.WebSettings$TextSize> {
+  public static final android.webkit.WebSettings$TextSize LARGER;
+  public static final android.webkit.WebSettings$TextSize LARGEST;
+  public static final android.webkit.WebSettings$TextSize NORMAL;
+  public static final android.webkit.WebSettings$TextSize SMALLER;
+  public static final android.webkit.WebSettings$TextSize SMALLEST;
+  public static android.webkit.WebSettings$TextSize[] values();
+  public static android.webkit.WebSettings$TextSize valueOf(java.lang.String);
+  static {};
+}

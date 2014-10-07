@@ -1,0 +1,10 @@
+Compiled from "ColorSpaceTransform.java"
+public final class android.hardware.camera2.params.ColorSpaceTransform {
+  public android.hardware.camera2.params.ColorSpaceTransform(android.util.Rational[]);
+  public android.hardware.camera2.params.ColorSpaceTransform(int[]);
+  public android.util.Rational getElement(int, int);
+  public void copyElements(android.util.Rational[], int);
+  public void copyElements(int[], int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

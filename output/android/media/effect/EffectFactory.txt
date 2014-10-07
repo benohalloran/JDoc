@@ -1,0 +1,33 @@
+Compiled from "EffectFactory.java"
+public class android.media.effect.EffectFactory {
+  public static final java.lang.String EFFECT_AUTOFIX;
+  public static final java.lang.String EFFECT_BACKDROPPER;
+  public static final java.lang.String EFFECT_BITMAPOVERLAY;
+  public static final java.lang.String EFFECT_BLACKWHITE;
+  public static final java.lang.String EFFECT_BRIGHTNESS;
+  public static final java.lang.String EFFECT_CONTRAST;
+  public static final java.lang.String EFFECT_CROP;
+  public static final java.lang.String EFFECT_CROSSPROCESS;
+  public static final java.lang.String EFFECT_DOCUMENTARY;
+  public static final java.lang.String EFFECT_DUOTONE;
+  public static final java.lang.String EFFECT_FILLLIGHT;
+  public static final java.lang.String EFFECT_FISHEYE;
+  public static final java.lang.String EFFECT_FLIP;
+  public static final java.lang.String EFFECT_GRAIN;
+  public static final java.lang.String EFFECT_GRAYSCALE;
+  public static final java.lang.String EFFECT_LOMOISH;
+  public static final java.lang.String EFFECT_NEGATIVE;
+  public static final java.lang.String EFFECT_POSTERIZE;
+  public static final java.lang.String EFFECT_REDEYE;
+  public static final java.lang.String EFFECT_ROTATE;
+  public static final java.lang.String EFFECT_SATURATE;
+  public static final java.lang.String EFFECT_SEPIA;
+  public static final java.lang.String EFFECT_SHARPEN;
+  public static final java.lang.String EFFECT_STRAIGHTEN;
+  public static final java.lang.String EFFECT_TEMPERATURE;
+  public static final java.lang.String EFFECT_TINT;
+  public static final java.lang.String EFFECT_VIGNETTE;
+  android.media.effect.EffectFactory();
+  public android.media.effect.Effect createEffect(java.lang.String);
+  public static boolean isEffectSupported(java.lang.String);
+}

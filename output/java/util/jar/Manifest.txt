@@ -1,0 +1,15 @@
+Compiled from "Manifest.java"
+public class java.util.jar.Manifest implements java.lang.Cloneable {
+  public java.util.jar.Manifest();
+  public java.util.jar.Manifest(java.io.InputStream) throws java.io.IOException;
+  public java.util.jar.Manifest(java.util.jar.Manifest);
+  public void clear();
+  public java.util.jar.Attributes getAttributes(java.lang.String);
+  public java.util.Map<java.lang.String, java.util.jar.Attributes> getEntries();
+  public java.util.jar.Attributes getMainAttributes();
+  public java.lang.Object clone();
+  public void write(java.io.OutputStream) throws java.io.IOException;
+  public void read(java.io.InputStream) throws java.io.IOException;
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+}

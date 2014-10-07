@@ -1,0 +1,31 @@
+Compiled from "FrameLayout.java"
+public class android.widget.FrameLayout extends android.view.ViewGroup {
+  public android.widget.FrameLayout(android.content.Context);
+  public android.widget.FrameLayout(android.content.Context, android.util.AttributeSet);
+  public android.widget.FrameLayout(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.FrameLayout(android.content.Context, android.util.AttributeSet, int, int);
+  public int getForegroundGravity();
+  public void setForegroundGravity(int);
+  protected boolean verifyDrawable(android.graphics.drawable.Drawable);
+  public void jumpDrawablesToCurrentState();
+  protected void drawableStateChanged();
+  protected android.widget.FrameLayout$LayoutParams generateDefaultLayoutParams();
+  public void setForeground(android.graphics.drawable.Drawable);
+  public android.graphics.drawable.Drawable getForeground();
+  protected void onMeasure(int, int);
+  protected void onLayout(boolean, int, int, int, int);
+  protected void onSizeChanged(int, int, int, int);
+  public void draw(android.graphics.Canvas);
+  public boolean gatherTransparentRegion(android.graphics.Region);
+  public void setMeasureAllChildren(boolean);
+  public boolean getConsiderGoneChildrenWhenMeasuring();
+  public boolean getMeasureAllChildren();
+  public android.widget.FrameLayout$LayoutParams generateLayoutParams(android.util.AttributeSet);
+  public boolean shouldDelayChildPressedState();
+  protected boolean checkLayoutParams(android.view.ViewGroup$LayoutParams);
+  protected android.view.ViewGroup$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  protected android.view.ViewGroup$LayoutParams generateDefaultLayoutParams();
+  public android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet);
+}

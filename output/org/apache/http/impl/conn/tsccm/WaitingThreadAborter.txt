@@ -1,0 +1,6 @@
+Compiled from "WaitingThreadAborter.java"
+public class org.apache.http.impl.conn.tsccm.WaitingThreadAborter {
+  public org.apache.http.impl.conn.tsccm.WaitingThreadAborter();
+  public void abort();
+  public void setWaitingThread(org.apache.http.impl.conn.tsccm.WaitingThread);
+}

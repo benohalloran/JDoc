@@ -1,0 +1,6 @@
+Compiled from "URLEncoder.java"
+public class java.net.URLEncoder {
+  java.net.URLEncoder();
+  public static java.lang.String encode(java.lang.String);
+  public static java.lang.String encode(java.lang.String, java.lang.String) throws java.io.UnsupportedEncodingException;
+}

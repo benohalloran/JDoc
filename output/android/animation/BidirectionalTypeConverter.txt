@@ -1,0 +1,6 @@
+Compiled from "BidirectionalTypeConverter.java"
+public abstract class android.animation.BidirectionalTypeConverter<T, V> extends android.animation.TypeConverter<T, V> {
+  public android.animation.BidirectionalTypeConverter(java.lang.Class<T>, java.lang.Class<V>);
+  public abstract T convertBack(V);
+  public android.animation.BidirectionalTypeConverter<V, T> invert();
+}

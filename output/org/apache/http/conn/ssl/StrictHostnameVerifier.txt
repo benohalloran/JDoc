@@ -1,0 +1,6 @@
+Compiled from "StrictHostnameVerifier.java"
+public class org.apache.http.conn.ssl.StrictHostnameVerifier extends org.apache.http.conn.ssl.AbstractVerifier {
+  public org.apache.http.conn.ssl.StrictHostnameVerifier();
+  public final void verify(java.lang.String, java.lang.String[], java.lang.String[]) throws javax.net.ssl.SSLException;
+  public final java.lang.String toString();
+}

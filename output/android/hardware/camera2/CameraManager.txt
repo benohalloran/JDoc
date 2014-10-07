@@ -1,0 +1,9 @@
+Compiled from "CameraManager.java"
+public final class android.hardware.camera2.CameraManager {
+  android.hardware.camera2.CameraManager();
+  public java.lang.String[] getCameraIdList() throws android.hardware.camera2.CameraAccessException;
+  public void addAvailabilityListener(android.hardware.camera2.CameraManager$AvailabilityListener, android.os.Handler);
+  public void removeAvailabilityListener(android.hardware.camera2.CameraManager$AvailabilityListener);
+  public android.hardware.camera2.CameraCharacteristics getCameraCharacteristics(java.lang.String) throws android.hardware.camera2.CameraAccessException;
+  public void openCamera(java.lang.String, android.hardware.camera2.CameraDevice$StateListener, android.os.Handler) throws android.hardware.camera2.CameraAccessException;
+}

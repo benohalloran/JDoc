@@ -1,0 +1,6 @@
+Compiled from "TvInputManager.java"
+public final class android.media.tv.TvInputManager {
+  android.media.tv.TvInputManager();
+  public java.util.List<android.media.tv.TvInputInfo> getTvInputList();
+  public boolean getAvailability(java.lang.String);
+}

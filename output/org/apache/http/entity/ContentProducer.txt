@@ -1,0 +1,4 @@
+Compiled from "ContentProducer.java"
+public interface org.apache.http.entity.ContentProducer {
+  public abstract void writeTo(java.io.OutputStream) throws java.io.IOException;
+}

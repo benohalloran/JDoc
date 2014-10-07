@@ -1,0 +1,4 @@
+Compiled from "SumPathEffect.java"
+public class android.graphics.SumPathEffect extends android.graphics.PathEffect {
+  public android.graphics.SumPathEffect(android.graphics.PathEffect, android.graphics.PathEffect);
+}

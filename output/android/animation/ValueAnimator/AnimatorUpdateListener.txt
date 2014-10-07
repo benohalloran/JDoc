@@ -1,0 +1,4 @@
+Compiled from "ValueAnimator.java"
+public interface android.animation.ValueAnimator$AnimatorUpdateListener {
+  public abstract void onAnimationUpdate(android.animation.ValueAnimator);
+}

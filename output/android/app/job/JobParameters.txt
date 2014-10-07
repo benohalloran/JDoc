@@ -1,0 +1,10 @@
+Compiled from "JobParameters.java"
+public class android.app.job.JobParameters implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.app.job.JobParameters> CREATOR;
+  android.app.job.JobParameters();
+  public int getJobId();
+  public android.os.PersistableBundle getExtras();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

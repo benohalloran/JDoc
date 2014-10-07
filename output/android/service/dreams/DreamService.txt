@@ -1,0 +1,47 @@
+Compiled from "DreamService.java"
+public class android.service.dreams.DreamService extends android.app.Service implements android.view.Window$Callback {
+  public static final java.lang.String DREAM_META_DATA;
+  public static final java.lang.String SERVICE_INTERFACE;
+  public android.service.dreams.DreamService();
+  public boolean dispatchKeyEvent(android.view.KeyEvent);
+  public boolean dispatchKeyShortcutEvent(android.view.KeyEvent);
+  public boolean dispatchTouchEvent(android.view.MotionEvent);
+  public boolean dispatchTrackballEvent(android.view.MotionEvent);
+  public boolean dispatchGenericMotionEvent(android.view.MotionEvent);
+  public boolean dispatchPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public android.view.View onCreatePanelView(int);
+  public boolean onCreatePanelMenu(int, android.view.Menu);
+  public boolean onPreparePanel(int, android.view.View, android.view.Menu);
+  public boolean onMenuOpened(int, android.view.Menu);
+  public boolean onMenuItemSelected(int, android.view.MenuItem);
+  public void onWindowAttributesChanged(android.view.WindowManager$LayoutParams);
+  public void onContentChanged();
+  public void onWindowFocusChanged(boolean);
+  public void onAttachedToWindow();
+  public void onDetachedFromWindow();
+  public void onPanelClosed(int, android.view.Menu);
+  public boolean onSearchRequested();
+  public android.view.ActionMode onWindowStartingActionMode(android.view.ActionMode$Callback);
+  public void onActionModeStarted(android.view.ActionMode);
+  public void onActionModeFinished(android.view.ActionMode);
+  public android.view.WindowManager getWindowManager();
+  public android.view.Window getWindow();
+  public void setContentView(int);
+  public void setContentView(android.view.View);
+  public void setContentView(android.view.View, android.view.ViewGroup$LayoutParams);
+  public void addContentView(android.view.View, android.view.ViewGroup$LayoutParams);
+  public android.view.View findViewById(int);
+  public void setInteractive(boolean);
+  public boolean isInteractive();
+  public void setFullscreen(boolean);
+  public boolean isFullscreen();
+  public void setScreenBright(boolean);
+  public boolean isScreenBright();
+  public void onCreate();
+  public void onDreamingStarted();
+  public void onDreamingStopped();
+  public final android.os.IBinder onBind(android.content.Intent);
+  public final void finish();
+  public void onDestroy();
+  protected void dump(java.io.FileDescriptor, java.io.PrintWriter, java.lang.String[]);
+}

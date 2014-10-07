@@ -1,0 +1,42 @@
+Compiled from "ProgressBar.java"
+public class android.widget.ProgressBar extends android.view.View {
+  public android.widget.ProgressBar(android.content.Context);
+  public android.widget.ProgressBar(android.content.Context, android.util.AttributeSet);
+  public android.widget.ProgressBar(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.ProgressBar(android.content.Context, android.util.AttributeSet, int, int);
+  public synchronized boolean isIndeterminate();
+  public synchronized void setIndeterminate(boolean);
+  public android.graphics.drawable.Drawable getIndeterminateDrawable();
+  public void setIndeterminateDrawable(android.graphics.drawable.Drawable);
+  public void setIndeterminateDrawableTiled(android.graphics.drawable.Drawable);
+  public android.graphics.drawable.Drawable getProgressDrawable();
+  public void setProgressDrawable(android.graphics.drawable.Drawable);
+  public void setProgressDrawableTiled(android.graphics.drawable.Drawable);
+  protected boolean verifyDrawable(android.graphics.drawable.Drawable);
+  public void jumpDrawablesToCurrentState();
+  public void postInvalidate();
+  public synchronized void setProgress(int);
+  public synchronized void setSecondaryProgress(int);
+  public synchronized int getProgress();
+  public synchronized int getSecondaryProgress();
+  public synchronized int getMax();
+  public synchronized void setMax(int);
+  public final synchronized void incrementProgressBy(int);
+  public final synchronized void incrementSecondaryProgressBy(int);
+  public void setInterpolator(android.content.Context, int);
+  public void setInterpolator(android.view.animation.Interpolator);
+  public android.view.animation.Interpolator getInterpolator();
+  public void setVisibility(int);
+  protected void onVisibilityChanged(android.view.View, int);
+  public void invalidateDrawable(android.graphics.drawable.Drawable);
+  protected void onSizeChanged(int, int, int, int);
+  protected synchronized void onDraw(android.graphics.Canvas);
+  protected synchronized void onMeasure(int, int);
+  protected void drawableStateChanged();
+  public android.os.Parcelable onSaveInstanceState();
+  public void onRestoreInstanceState(android.os.Parcelable);
+  protected void onAttachedToWindow();
+  protected void onDetachedFromWindow();
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

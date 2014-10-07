@@ -1,0 +1,7 @@
+Compiled from "ClipboardManager.java"
+public abstract class android.text.ClipboardManager {
+  public android.text.ClipboardManager();
+  public abstract java.lang.CharSequence getText();
+  public abstract void setText(java.lang.CharSequence);
+  public abstract boolean hasText();
+}

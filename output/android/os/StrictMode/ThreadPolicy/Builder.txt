@@ -1,0 +1,22 @@
+Compiled from "StrictMode.java"
+public final class android.os.StrictMode$ThreadPolicy$Builder {
+  public android.os.StrictMode$ThreadPolicy$Builder();
+  public android.os.StrictMode$ThreadPolicy$Builder(android.os.StrictMode$ThreadPolicy);
+  public android.os.StrictMode$ThreadPolicy$Builder detectAll();
+  public android.os.StrictMode$ThreadPolicy$Builder permitAll();
+  public android.os.StrictMode$ThreadPolicy$Builder detectNetwork();
+  public android.os.StrictMode$ThreadPolicy$Builder permitNetwork();
+  public android.os.StrictMode$ThreadPolicy$Builder detectDiskReads();
+  public android.os.StrictMode$ThreadPolicy$Builder permitDiskReads();
+  public android.os.StrictMode$ThreadPolicy$Builder detectCustomSlowCalls();
+  public android.os.StrictMode$ThreadPolicy$Builder permitCustomSlowCalls();
+  public android.os.StrictMode$ThreadPolicy$Builder detectDiskWrites();
+  public android.os.StrictMode$ThreadPolicy$Builder permitDiskWrites();
+  public android.os.StrictMode$ThreadPolicy$Builder penaltyDialog();
+  public android.os.StrictMode$ThreadPolicy$Builder penaltyDeath();
+  public android.os.StrictMode$ThreadPolicy$Builder penaltyDeathOnNetwork();
+  public android.os.StrictMode$ThreadPolicy$Builder penaltyFlashScreen();
+  public android.os.StrictMode$ThreadPolicy$Builder penaltyLog();
+  public android.os.StrictMode$ThreadPolicy$Builder penaltyDropBox();
+  public android.os.StrictMode$ThreadPolicy build();
+}

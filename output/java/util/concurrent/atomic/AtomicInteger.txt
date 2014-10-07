@@ -1,0 +1,22 @@
+Compiled from "AtomicInteger.java"
+public class java.util.concurrent.atomic.AtomicInteger extends java.lang.Number implements java.io.Serializable {
+  public java.util.concurrent.atomic.AtomicInteger(int);
+  public java.util.concurrent.atomic.AtomicInteger();
+  public final int get();
+  public final void set(int);
+  public final void lazySet(int);
+  public final int getAndSet(int);
+  public final boolean compareAndSet(int, int);
+  public final boolean weakCompareAndSet(int, int);
+  public final int getAndIncrement();
+  public final int getAndDecrement();
+  public final int getAndAdd(int);
+  public final int incrementAndGet();
+  public final int decrementAndGet();
+  public final int addAndGet(int);
+  public java.lang.String toString();
+  public int intValue();
+  public long longValue();
+  public float floatValue();
+  public double doubleValue();
+}

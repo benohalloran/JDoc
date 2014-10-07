@@ -1,0 +1,22 @@
+Compiled from "SupplicantState.java"
+public final class android.net.wifi.SupplicantState extends java.lang.Enum<android.net.wifi.SupplicantState> implements android.os.Parcelable {
+  public static final android.net.wifi.SupplicantState ASSOCIATED;
+  public static final android.net.wifi.SupplicantState ASSOCIATING;
+  public static final android.net.wifi.SupplicantState AUTHENTICATING;
+  public static final android.net.wifi.SupplicantState COMPLETED;
+  public static final android.net.wifi.SupplicantState DISCONNECTED;
+  public static final android.net.wifi.SupplicantState DORMANT;
+  public static final android.net.wifi.SupplicantState FOUR_WAY_HANDSHAKE;
+  public static final android.net.wifi.SupplicantState GROUP_HANDSHAKE;
+  public static final android.net.wifi.SupplicantState INACTIVE;
+  public static final android.net.wifi.SupplicantState INTERFACE_DISABLED;
+  public static final android.net.wifi.SupplicantState INVALID;
+  public static final android.net.wifi.SupplicantState SCANNING;
+  public static final android.net.wifi.SupplicantState UNINITIALIZED;
+  public static android.net.wifi.SupplicantState[] values();
+  public static android.net.wifi.SupplicantState valueOf(java.lang.String);
+  public static boolean isValidState(android.net.wifi.SupplicantState);
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

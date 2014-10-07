@@ -1,0 +1,6 @@
+Compiled from "MalformedChallengeException.java"
+public class org.apache.http.auth.MalformedChallengeException extends org.apache.http.ProtocolException {
+  public org.apache.http.auth.MalformedChallengeException();
+  public org.apache.http.auth.MalformedChallengeException(java.lang.String);
+  public org.apache.http.auth.MalformedChallengeException(java.lang.String, java.lang.Throwable);
+}

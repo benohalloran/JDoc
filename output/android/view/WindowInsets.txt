@@ -1,0 +1,14 @@
+Compiled from "WindowInsets.java"
+public final class android.view.WindowInsets {
+  public android.view.WindowInsets(android.view.WindowInsets);
+  public int getSystemWindowInsetLeft();
+  public int getSystemWindowInsetTop();
+  public int getSystemWindowInsetRight();
+  public int getSystemWindowInsetBottom();
+  public boolean hasSystemWindowInsets();
+  public boolean hasInsets();
+  public boolean isRound();
+  public android.view.WindowInsets consumeSystemWindowInsets();
+  public android.view.WindowInsets replaceSystemWindowInsets(int, int, int, int);
+  public java.lang.String toString();
+}

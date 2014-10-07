@@ -1,0 +1,20 @@
+Compiled from "HashMap.java"
+public class java.util.HashMap<K, V> extends java.util.AbstractMap<K, V> implements java.lang.Cloneable, java.io.Serializable {
+  public java.util.HashMap();
+  public java.util.HashMap(int);
+  public java.util.HashMap(int, float);
+  public java.util.HashMap(java.util.Map<? extends K, ? extends V>);
+  public java.lang.Object clone();
+  public boolean isEmpty();
+  public int size();
+  public V get(java.lang.Object);
+  public boolean containsKey(java.lang.Object);
+  public boolean containsValue(java.lang.Object);
+  public V put(K, V);
+  public void putAll(java.util.Map<? extends K, ? extends V>);
+  public V remove(java.lang.Object);
+  public void clear();
+  public java.util.Set<K> keySet();
+  public java.util.Collection<V> values();
+  public java.util.Set<java.util.Map$Entry<K, V>> entrySet();
+}

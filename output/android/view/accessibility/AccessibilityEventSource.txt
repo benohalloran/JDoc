@@ -1,0 +1,5 @@
+Compiled from "AccessibilityEventSource.java"
+public interface android.view.accessibility.AccessibilityEventSource {
+  public abstract void sendAccessibilityEvent(int);
+  public abstract void sendAccessibilityEventUnchecked(android.view.accessibility.AccessibilityEvent);
+}

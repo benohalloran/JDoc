@@ -1,0 +1,13 @@
+Compiled from "DrmErrorEvent.java"
+public class android.drm.DrmErrorEvent extends android.drm.DrmEvent {
+  public static final int TYPE_ACQUIRE_DRM_INFO_FAILED;
+  public static final int TYPE_NOT_SUPPORTED;
+  public static final int TYPE_NO_INTERNET_CONNECTION;
+  public static final int TYPE_OUT_OF_MEMORY;
+  public static final int TYPE_PROCESS_DRM_INFO_FAILED;
+  public static final int TYPE_REMOVE_ALL_RIGHTS_FAILED;
+  public static final int TYPE_RIGHTS_NOT_INSTALLED;
+  public static final int TYPE_RIGHTS_RENEWAL_NOT_ALLOWED;
+  public android.drm.DrmErrorEvent(int, int, java.lang.String);
+  public android.drm.DrmErrorEvent(int, int, java.lang.String, java.util.HashMap<java.lang.String, java.lang.Object>);
+}

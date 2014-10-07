@@ -1,0 +1,27 @@
+Compiled from "Color.java"
+public class android.graphics.Color {
+  public static final int BLACK;
+  public static final int BLUE;
+  public static final int CYAN;
+  public static final int DKGRAY;
+  public static final int GRAY;
+  public static final int GREEN;
+  public static final int LTGRAY;
+  public static final int MAGENTA;
+  public static final int RED;
+  public static final int TRANSPARENT;
+  public static final int WHITE;
+  public static final int YELLOW;
+  public android.graphics.Color();
+  public static int alpha(int);
+  public static int red(int);
+  public static int green(int);
+  public static int blue(int);
+  public static int rgb(int, int, int);
+  public static int argb(int, int, int, int);
+  public static int parseColor(java.lang.String);
+  public static void RGBToHSV(int, int, int, float[]);
+  public static void colorToHSV(int, float[]);
+  public static int HSVToColor(float[]);
+  public static int HSVToColor(int, float[]);
+}

@@ -1,0 +1,12 @@
+Compiled from "AbstractInputMethodService.java"
+public abstract class android.inputmethodservice.AbstractInputMethodService$AbstractInputMethodSessionImpl implements android.view.inputmethod.InputMethodSession {
+  final android.inputmethodservice.AbstractInputMethodService this$0;
+  public android.inputmethodservice.AbstractInputMethodService$AbstractInputMethodSessionImpl(android.inputmethodservice.AbstractInputMethodService);
+  public boolean isEnabled();
+  public boolean isRevoked();
+  public void setEnabled(boolean);
+  public void revokeSelf();
+  public void dispatchKeyEvent(int, android.view.KeyEvent, android.view.inputmethod.InputMethodSession$EventCallback);
+  public void dispatchTrackballEvent(int, android.view.MotionEvent, android.view.inputmethod.InputMethodSession$EventCallback);
+  public void dispatchGenericMotionEvent(int, android.view.MotionEvent, android.view.inputmethod.InputMethodSession$EventCallback);
+}

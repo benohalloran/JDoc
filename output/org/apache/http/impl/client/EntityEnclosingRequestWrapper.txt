@@ -1,0 +1,8 @@
+Compiled from "EntityEnclosingRequestWrapper.java"
+public class org.apache.http.impl.client.EntityEnclosingRequestWrapper extends org.apache.http.impl.client.RequestWrapper implements org.apache.http.HttpEntityEnclosingRequest {
+  public org.apache.http.impl.client.EntityEnclosingRequestWrapper(org.apache.http.HttpEntityEnclosingRequest) throws org.apache.http.ProtocolException;
+  public org.apache.http.HttpEntity getEntity();
+  public void setEntity(org.apache.http.HttpEntity);
+  public boolean expectContinue();
+  public boolean isRepeatable();
+}

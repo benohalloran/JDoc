@@ -1,0 +1,25 @@
+Compiled from "Collator.java"
+public abstract class java.text.Collator implements java.util.Comparator<java.lang.Object>, java.lang.Cloneable {
+  public static final int CANONICAL_DECOMPOSITION;
+  public static final int FULL_DECOMPOSITION;
+  public static final int IDENTICAL;
+  public static final int NO_DECOMPOSITION;
+  public static final int PRIMARY;
+  public static final int SECONDARY;
+  public static final int TERTIARY;
+  protected java.text.Collator();
+  public java.lang.Object clone();
+  public int compare(java.lang.Object, java.lang.Object);
+  public abstract int compare(java.lang.String, java.lang.String);
+  public boolean equals(java.lang.Object);
+  public boolean equals(java.lang.String, java.lang.String);
+  public static java.util.Locale[] getAvailableLocales();
+  public abstract java.text.CollationKey getCollationKey(java.lang.String);
+  public int getDecomposition();
+  public static java.text.Collator getInstance();
+  public static java.text.Collator getInstance(java.util.Locale);
+  public int getStrength();
+  public abstract int hashCode();
+  public void setDecomposition(int);
+  public void setStrength(int);
+}

@@ -1,0 +1,5 @@
+Compiled from "EventListenerProxy.java"
+public abstract class java.util.EventListenerProxy implements java.util.EventListener {
+  public java.util.EventListenerProxy(java.util.EventListener);
+  public java.util.EventListener getListener();
+}

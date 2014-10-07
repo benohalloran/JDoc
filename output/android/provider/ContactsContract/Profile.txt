@@ -1,0 +1,9 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$Profile implements android.provider.BaseColumns,android.provider.ContactsContract$ContactsColumns,android.provider.ContactsContract$ContactOptionsColumns,android.provider.ContactsContract$ContactNameColumns,android.provider.ContactsContract$ContactStatusColumns {
+  public static final android.net.Uri CONTENT_RAW_CONTACTS_URI;
+  public static final android.net.Uri CONTENT_URI;
+  public static final android.net.Uri CONTENT_VCARD_URI;
+  public static final long MIN_ID;
+  android.provider.ContactsContract$Profile();
+  static {};
+}

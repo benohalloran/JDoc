@@ -1,0 +1,10 @@
+Compiled from "CameraCaptureSession.java"
+public abstract class android.hardware.camera2.CameraCaptureSession$CaptureListener {
+  public android.hardware.camera2.CameraCaptureSession$CaptureListener();
+  public void onCaptureStarted(android.hardware.camera2.CameraCaptureSession, android.hardware.camera2.CaptureRequest, long);
+  public void onCaptureProgressed(android.hardware.camera2.CameraCaptureSession, android.hardware.camera2.CaptureRequest, android.hardware.camera2.CaptureResult);
+  public void onCaptureCompleted(android.hardware.camera2.CameraCaptureSession, android.hardware.camera2.CaptureRequest, android.hardware.camera2.TotalCaptureResult);
+  public void onCaptureFailed(android.hardware.camera2.CameraCaptureSession, android.hardware.camera2.CaptureRequest, android.hardware.camera2.CaptureFailure);
+  public void onCaptureSequenceCompleted(android.hardware.camera2.CameraCaptureSession, int, long);
+  public void onCaptureSequenceAborted(android.hardware.camera2.CameraCaptureSession, int);
+}

@@ -1,0 +1,24 @@
+Compiled from "DownloadManager.java"
+public class android.app.DownloadManager$Request {
+  public static final int NETWORK_MOBILE;
+  public static final int NETWORK_WIFI;
+  public static final int VISIBILITY_HIDDEN;
+  public static final int VISIBILITY_VISIBLE;
+  public static final int VISIBILITY_VISIBLE_NOTIFY_COMPLETED;
+  public static final int VISIBILITY_VISIBLE_NOTIFY_ONLY_COMPLETION;
+  public android.app.DownloadManager$Request(android.net.Uri);
+  public android.app.DownloadManager$Request setDestinationUri(android.net.Uri);
+  public android.app.DownloadManager$Request setDestinationInExternalFilesDir(android.content.Context, java.lang.String, java.lang.String);
+  public android.app.DownloadManager$Request setDestinationInExternalPublicDir(java.lang.String, java.lang.String);
+  public void allowScanningByMediaScanner();
+  public android.app.DownloadManager$Request addRequestHeader(java.lang.String, java.lang.String);
+  public android.app.DownloadManager$Request setTitle(java.lang.CharSequence);
+  public android.app.DownloadManager$Request setDescription(java.lang.CharSequence);
+  public android.app.DownloadManager$Request setMimeType(java.lang.String);
+  public android.app.DownloadManager$Request setShowRunningNotification(boolean);
+  public android.app.DownloadManager$Request setNotificationVisibility(int);
+  public android.app.DownloadManager$Request setAllowedNetworkTypes(int);
+  public android.app.DownloadManager$Request setAllowedOverRoaming(boolean);
+  public android.app.DownloadManager$Request setAllowedOverMetered(boolean);
+  public android.app.DownloadManager$Request setVisibleInDownloadsUi(boolean);
+}

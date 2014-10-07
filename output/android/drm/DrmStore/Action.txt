@@ -1,0 +1,12 @@
+Compiled from "DrmStore.java"
+public class android.drm.DrmStore$Action {
+  public static final int DEFAULT;
+  public static final int DISPLAY;
+  public static final int EXECUTE;
+  public static final int OUTPUT;
+  public static final int PLAY;
+  public static final int PREVIEW;
+  public static final int RINGTONE;
+  public static final int TRANSFER;
+  public android.drm.DrmStore$Action();
+}

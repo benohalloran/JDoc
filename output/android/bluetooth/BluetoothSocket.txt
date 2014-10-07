@@ -1,0 +1,10 @@
+Compiled from "BluetoothSocket.java"
+public final class android.bluetooth.BluetoothSocket implements java.io.Closeable {
+  android.bluetooth.BluetoothSocket();
+  public android.bluetooth.BluetoothDevice getRemoteDevice();
+  public java.io.InputStream getInputStream() throws java.io.IOException;
+  public java.io.OutputStream getOutputStream() throws java.io.IOException;
+  public boolean isConnected();
+  public void connect() throws java.io.IOException;
+  public void close() throws java.io.IOException;
+}

@@ -1,0 +1,14 @@
+Compiled from "CellSignalStrengthGsm.java"
+public final class android.telephony.CellSignalStrengthGsm extends android.telephony.CellSignalStrength implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.telephony.CellSignalStrengthGsm> CREATOR;
+  android.telephony.CellSignalStrengthGsm();
+  public int getLevel();
+  public int getDbm();
+  public int getAsuLevel();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  static {};
+}

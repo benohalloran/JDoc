@@ -1,0 +1,9 @@
+Compiled from "WifiConfiguration.java"
+public class android.net.wifi.WifiConfiguration$Protocol {
+  public static final int RSN;
+  public static final int WPA;
+  public static final java.lang.String[] strings;
+  public static final java.lang.String varName;
+  android.net.wifi.WifiConfiguration$Protocol();
+  static {};
+}

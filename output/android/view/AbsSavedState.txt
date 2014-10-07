@@ -1,0 +1,11 @@
+Compiled from "AbsSavedState.java"
+public abstract class android.view.AbsSavedState implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.AbsSavedState> CREATOR;
+  public static final android.view.AbsSavedState EMPTY_STATE;
+  protected android.view.AbsSavedState(android.os.Parcelable);
+  protected android.view.AbsSavedState(android.os.Parcel);
+  public final android.os.Parcelable getSuperState();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

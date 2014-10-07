@@ -1,0 +1,27 @@
+Compiled from "Log.java"
+public final class android.util.Log {
+  public static final int ASSERT;
+  public static final int DEBUG;
+  public static final int ERROR;
+  public static final int INFO;
+  public static final int VERBOSE;
+  public static final int WARN;
+  android.util.Log();
+  public static int v(java.lang.String, java.lang.String);
+  public static int v(java.lang.String, java.lang.String, java.lang.Throwable);
+  public static int d(java.lang.String, java.lang.String);
+  public static int d(java.lang.String, java.lang.String, java.lang.Throwable);
+  public static int i(java.lang.String, java.lang.String);
+  public static int i(java.lang.String, java.lang.String, java.lang.Throwable);
+  public static int w(java.lang.String, java.lang.String);
+  public static int w(java.lang.String, java.lang.String, java.lang.Throwable);
+  public static native boolean isLoggable(java.lang.String, int);
+  public static int w(java.lang.String, java.lang.Throwable);
+  public static int e(java.lang.String, java.lang.String);
+  public static int e(java.lang.String, java.lang.String, java.lang.Throwable);
+  public static int wtf(java.lang.String, java.lang.String);
+  public static int wtf(java.lang.String, java.lang.Throwable);
+  public static int wtf(java.lang.String, java.lang.String, java.lang.Throwable);
+  public static java.lang.String getStackTraceString(java.lang.Throwable);
+  public static int println(int, java.lang.String, java.lang.String);
+}

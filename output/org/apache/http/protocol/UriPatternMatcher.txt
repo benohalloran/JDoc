@@ -1,0 +1,9 @@
+Compiled from "UriPatternMatcher.java"
+public class org.apache.http.protocol.UriPatternMatcher {
+  public org.apache.http.protocol.UriPatternMatcher();
+  public void register(java.lang.String, java.lang.Object);
+  public void unregister(java.lang.String);
+  public void setHandlers(java.util.Map);
+  public java.lang.Object lookup(java.lang.String);
+  protected boolean matchUriRequestPattern(java.lang.String, java.lang.String);
+}

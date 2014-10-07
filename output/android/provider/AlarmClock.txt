@@ -1,0 +1,16 @@
+Compiled from "AlarmClock.java"
+public final class android.provider.AlarmClock {
+  public static final java.lang.String ACTION_SET_ALARM;
+  public static final java.lang.String ACTION_SET_TIMER;
+  public static final java.lang.String ACTION_SHOW_ALARMS;
+  public static final java.lang.String EXTRA_DAYS;
+  public static final java.lang.String EXTRA_HOUR;
+  public static final java.lang.String EXTRA_LENGTH;
+  public static final java.lang.String EXTRA_MESSAGE;
+  public static final java.lang.String EXTRA_MINUTES;
+  public static final java.lang.String EXTRA_RINGTONE;
+  public static final java.lang.String EXTRA_SKIP_UI;
+  public static final java.lang.String EXTRA_VIBRATE;
+  public static final java.lang.String VALUE_RINGTONE_SILENT;
+  public android.provider.AlarmClock();
+}

@@ -1,0 +1,10 @@
+Compiled from "DrmConvertedStatus.java"
+public class android.drm.DrmConvertedStatus {
+  public static final int STATUS_ERROR;
+  public static final int STATUS_INPUTDATA_ERROR;
+  public static final int STATUS_OK;
+  public final byte[] convertedData;
+  public final int offset;
+  public final int statusCode;
+  public android.drm.DrmConvertedStatus(int, byte[], int);
+}

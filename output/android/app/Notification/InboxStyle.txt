@@ -1,0 +1,8 @@
+Compiled from "Notification.java"
+public class android.app.Notification$InboxStyle extends android.app.Notification$Style {
+  public android.app.Notification$InboxStyle();
+  public android.app.Notification$InboxStyle(android.app.Notification$Builder);
+  public android.app.Notification$InboxStyle setBigContentTitle(java.lang.CharSequence);
+  public android.app.Notification$InboxStyle setSummaryText(java.lang.CharSequence);
+  public android.app.Notification$InboxStyle addLine(java.lang.CharSequence);
+}

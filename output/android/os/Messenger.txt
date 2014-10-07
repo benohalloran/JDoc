@@ -1,0 +1,15 @@
+Compiled from "Messenger.java"
+public final class android.os.Messenger implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.os.Messenger> CREATOR;
+  public android.os.Messenger(android.os.Handler);
+  public android.os.Messenger(android.os.IBinder);
+  public void send(android.os.Message) throws android.os.RemoteException;
+  public android.os.IBinder getBinder();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public static void writeMessengerOrNullToParcel(android.os.Messenger, android.os.Parcel);
+  public static android.os.Messenger readMessengerOrNullFromParcel(android.os.Parcel);
+  static {};
+}

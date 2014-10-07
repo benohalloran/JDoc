@@ -1,0 +1,11 @@
+Compiled from "LangUtils.java"
+public final class org.apache.http.util.LangUtils {
+  public static final int HASH_OFFSET;
+  public static final int HASH_SEED;
+  org.apache.http.util.LangUtils();
+  public static int hashCode(int, int);
+  public static int hashCode(int, boolean);
+  public static int hashCode(int, java.lang.Object);
+  public static boolean equals(java.lang.Object, java.lang.Object);
+  public static boolean equals(java.lang.Object[], java.lang.Object[]);
+}

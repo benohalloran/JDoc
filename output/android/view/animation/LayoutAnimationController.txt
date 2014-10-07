@@ -1,0 +1,28 @@
+Compiled from "LayoutAnimationController.java"
+public class android.view.animation.LayoutAnimationController {
+  public static final int ORDER_NORMAL;
+  public static final int ORDER_RANDOM;
+  public static final int ORDER_REVERSE;
+  protected android.view.animation.Animation mAnimation;
+  protected android.view.animation.Interpolator mInterpolator;
+  protected java.util.Random mRandomizer;
+  public android.view.animation.LayoutAnimationController(android.content.Context, android.util.AttributeSet);
+  public android.view.animation.LayoutAnimationController(android.view.animation.Animation);
+  public android.view.animation.LayoutAnimationController(android.view.animation.Animation, float);
+  public int getOrder();
+  public void setOrder(int);
+  public void setAnimation(android.content.Context, int);
+  public void setAnimation(android.view.animation.Animation);
+  public android.view.animation.Animation getAnimation();
+  public void setInterpolator(android.content.Context, int);
+  public void setInterpolator(android.view.animation.Interpolator);
+  public android.view.animation.Interpolator getInterpolator();
+  public float getDelay();
+  public void setDelay(float);
+  public boolean willOverlap();
+  public void start();
+  public final android.view.animation.Animation getAnimationForView(android.view.View);
+  public boolean isDone();
+  protected long getDelayForView(android.view.View);
+  protected int getTransformedIndex(android.view.animation.LayoutAnimationController$AnimationParameters);
+}

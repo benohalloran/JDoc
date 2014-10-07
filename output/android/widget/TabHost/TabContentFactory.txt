@@ -1,0 +1,4 @@
+Compiled from "TabHost.java"
+public interface android.widget.TabHost$TabContentFactory {
+  public abstract android.view.View createTabContent(java.lang.String);
+}

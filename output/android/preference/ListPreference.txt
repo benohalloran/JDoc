@@ -1,0 +1,26 @@
+Compiled from "ListPreference.java"
+public class android.preference.ListPreference extends android.preference.DialogPreference {
+  public android.preference.ListPreference(android.content.Context, android.util.AttributeSet, int, int);
+  public android.preference.ListPreference(android.content.Context, android.util.AttributeSet, int);
+  public android.preference.ListPreference(android.content.Context, android.util.AttributeSet);
+  public android.preference.ListPreference(android.content.Context);
+  public void setEntries(java.lang.CharSequence[]);
+  public void setEntries(int);
+  public java.lang.CharSequence[] getEntries();
+  public void setEntryValues(java.lang.CharSequence[]);
+  public void setEntryValues(int);
+  public java.lang.CharSequence[] getEntryValues();
+  public void setValue(java.lang.String);
+  public java.lang.CharSequence getSummary();
+  public void setSummary(java.lang.CharSequence);
+  public void setValueIndex(int);
+  public java.lang.String getValue();
+  public java.lang.CharSequence getEntry();
+  public int findIndexOfValue(java.lang.String);
+  protected void onPrepareDialogBuilder(android.app.AlertDialog$Builder);
+  protected void onDialogClosed(boolean);
+  protected java.lang.Object onGetDefaultValue(android.content.res.TypedArray, int);
+  protected void onSetInitialValue(boolean, java.lang.Object);
+  protected android.os.Parcelable onSaveInstanceState();
+  protected void onRestoreInstanceState(android.os.Parcelable);
+}

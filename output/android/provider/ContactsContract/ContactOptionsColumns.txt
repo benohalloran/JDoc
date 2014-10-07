@@ -1,0 +1,8 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$ContactOptionsColumns {
+  public static final java.lang.String CUSTOM_RINGTONE;
+  public static final java.lang.String LAST_TIME_CONTACTED;
+  public static final java.lang.String SEND_TO_VOICEMAIL;
+  public static final java.lang.String STARRED;
+  public static final java.lang.String TIMES_CONTACTED;
+}

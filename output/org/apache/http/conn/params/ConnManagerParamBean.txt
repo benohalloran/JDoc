@@ -1,0 +1,7 @@
+Compiled from "ConnManagerParamBean.java"
+public class org.apache.http.conn.params.ConnManagerParamBean extends org.apache.http.params.HttpAbstractParamBean {
+  public org.apache.http.conn.params.ConnManagerParamBean(org.apache.http.params.HttpParams);
+  public void setTimeout(long);
+  public void setMaxTotalConnections(int);
+  public void setConnectionsPerRoute(org.apache.http.conn.params.ConnPerRouteBean);
+}

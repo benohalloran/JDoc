@@ -1,0 +1,3 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$DataColumnsWithJoins extends android.provider.BaseColumns,android.provider.ContactsContract$DataColumns,android.provider.ContactsContract$StatusColumns,android.provider.ContactsContract$RawContactsColumns,android.provider.ContactsContract$ContactsColumns,android.provider.ContactsContract$ContactNameColumns,android.provider.ContactsContract$ContactOptionsColumns,android.provider.ContactsContract$ContactStatusColumns,android.provider.ContactsContract$DataUsageStatColumns {
+}

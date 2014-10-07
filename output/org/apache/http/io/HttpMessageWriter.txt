@@ -1,0 +1,4 @@
+Compiled from "HttpMessageWriter.java"
+public interface org.apache.http.io.HttpMessageWriter {
+  public abstract void write(org.apache.http.HttpMessage) throws java.io.IOException, org.apache.http.HttpException;
+}

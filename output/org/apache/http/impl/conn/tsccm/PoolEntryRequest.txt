@@ -1,0 +1,5 @@
+Compiled from "PoolEntryRequest.java"
+public interface org.apache.http.impl.conn.tsccm.PoolEntryRequest {
+  public abstract org.apache.http.impl.conn.tsccm.BasicPoolEntry getPoolEntry(long, java.util.concurrent.TimeUnit) throws java.lang.InterruptedException, org.apache.http.conn.ConnectionPoolTimeoutException;
+  public abstract void abortRequest();
+}

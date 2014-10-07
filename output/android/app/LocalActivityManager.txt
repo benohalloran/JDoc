@@ -1,0 +1,16 @@
+Compiled from "LocalActivityManager.java"
+public class android.app.LocalActivityManager {
+  public android.app.LocalActivityManager(android.app.Activity, boolean);
+  public android.view.Window startActivity(java.lang.String, android.content.Intent);
+  public android.view.Window destroyActivity(java.lang.String, boolean);
+  public android.app.Activity getCurrentActivity();
+  public java.lang.String getCurrentId();
+  public android.app.Activity getActivity(java.lang.String);
+  public void dispatchCreate(android.os.Bundle);
+  public android.os.Bundle saveInstanceState();
+  public void dispatchResume();
+  public void dispatchPause(boolean);
+  public void dispatchStop();
+  public void removeAllActivities();
+  public void dispatchDestroy(boolean);
+}

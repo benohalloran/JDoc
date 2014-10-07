@@ -1,0 +1,5 @@
+Compiled from "IllegalCharsetNameException.java"
+public class java.nio.charset.IllegalCharsetNameException extends java.lang.IllegalArgumentException {
+  public java.nio.charset.IllegalCharsetNameException(java.lang.String);
+  public java.lang.String getCharsetName();
+}

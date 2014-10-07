@@ -1,0 +1,9 @@
+Compiled from "DefaultClientConnectionOperator.java"
+public class org.apache.http.impl.conn.DefaultClientConnectionOperator implements org.apache.http.conn.ClientConnectionOperator {
+  protected org.apache.http.conn.scheme.SchemeRegistry schemeRegistry;
+  public org.apache.http.impl.conn.DefaultClientConnectionOperator(org.apache.http.conn.scheme.SchemeRegistry);
+  public org.apache.http.conn.OperatedClientConnection createConnection();
+  public void openConnection(org.apache.http.conn.OperatedClientConnection, org.apache.http.HttpHost, java.net.InetAddress, org.apache.http.protocol.HttpContext, org.apache.http.params.HttpParams) throws java.io.IOException;
+  public void updateSecureConnection(org.apache.http.conn.OperatedClientConnection, org.apache.http.HttpHost, org.apache.http.protocol.HttpContext, org.apache.http.params.HttpParams) throws java.io.IOException;
+  protected void prepareSocket(java.net.Socket, org.apache.http.protocol.HttpContext, org.apache.http.params.HttpParams) throws java.io.IOException;
+}

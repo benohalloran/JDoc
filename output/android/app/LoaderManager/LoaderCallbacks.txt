@@ -1,0 +1,6 @@
+Compiled from "LoaderManager.java"
+public interface android.app.LoaderManager$LoaderCallbacks<D> {
+  public abstract android.content.Loader<D> onCreateLoader(int, android.os.Bundle);
+  public abstract void onLoadFinished(android.content.Loader<D>, D);
+  public abstract void onLoaderReset(android.content.Loader<D>);
+}

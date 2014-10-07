@@ -1,0 +1,17 @@
+Compiled from "TaskStackBuilder.java"
+public class android.app.TaskStackBuilder {
+  android.app.TaskStackBuilder();
+  public static android.app.TaskStackBuilder create(android.content.Context);
+  public android.app.TaskStackBuilder addNextIntent(android.content.Intent);
+  public android.app.TaskStackBuilder addNextIntentWithParentStack(android.content.Intent);
+  public android.app.TaskStackBuilder addParentStack(android.app.Activity);
+  public android.app.TaskStackBuilder addParentStack(java.lang.Class<?>);
+  public android.app.TaskStackBuilder addParentStack(android.content.ComponentName);
+  public int getIntentCount();
+  public android.content.Intent editIntentAt(int);
+  public void startActivities();
+  public void startActivities(android.os.Bundle);
+  public android.app.PendingIntent getPendingIntent(int, int);
+  public android.app.PendingIntent getPendingIntent(int, int, android.os.Bundle);
+  public android.content.Intent[] getIntents();
+}

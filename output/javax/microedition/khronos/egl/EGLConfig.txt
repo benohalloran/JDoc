@@ -1,0 +1,4 @@
+Compiled from "EGLConfig.java"
+public abstract class javax.microedition.khronos.egl.EGLConfig {
+  public javax.microedition.khronos.egl.EGLConfig();
+}

@@ -1,0 +1,22 @@
+Compiled from "HttpRoute.java"
+public final class org.apache.http.conn.routing.HttpRoute implements org.apache.http.conn.routing.RouteInfo,java.lang.Cloneable {
+  public org.apache.http.conn.routing.HttpRoute(org.apache.http.HttpHost, java.net.InetAddress, org.apache.http.HttpHost[], boolean, org.apache.http.conn.routing.RouteInfo$TunnelType, org.apache.http.conn.routing.RouteInfo$LayerType);
+  public org.apache.http.conn.routing.HttpRoute(org.apache.http.HttpHost, java.net.InetAddress, org.apache.http.HttpHost, boolean, org.apache.http.conn.routing.RouteInfo$TunnelType, org.apache.http.conn.routing.RouteInfo$LayerType);
+  public org.apache.http.conn.routing.HttpRoute(org.apache.http.HttpHost, java.net.InetAddress, boolean);
+  public org.apache.http.conn.routing.HttpRoute(org.apache.http.HttpHost);
+  public org.apache.http.conn.routing.HttpRoute(org.apache.http.HttpHost, java.net.InetAddress, org.apache.http.HttpHost, boolean);
+  public final org.apache.http.HttpHost getTargetHost();
+  public final java.net.InetAddress getLocalAddress();
+  public final int getHopCount();
+  public final org.apache.http.HttpHost getHopTarget(int);
+  public final org.apache.http.HttpHost getProxyHost();
+  public final org.apache.http.conn.routing.RouteInfo$TunnelType getTunnelType();
+  public final boolean isTunnelled();
+  public final org.apache.http.conn.routing.RouteInfo$LayerType getLayerType();
+  public final boolean isLayered();
+  public final boolean isSecure();
+  public final boolean equals(java.lang.Object);
+  public final int hashCode();
+  public final java.lang.String toString();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

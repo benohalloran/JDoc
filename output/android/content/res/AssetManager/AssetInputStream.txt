@@ -1,0 +1,15 @@
+Compiled from "AssetManager.java"
+public final class android.content.res.AssetManager$AssetInputStream extends java.io.InputStream {
+  final android.content.res.AssetManager this$0;
+  android.content.res.AssetManager$AssetInputStream(android.content.res.AssetManager);
+  public final int read() throws java.io.IOException;
+  public final boolean markSupported();
+  public final int available() throws java.io.IOException;
+  public final void close() throws java.io.IOException;
+  public final void mark(int);
+  public final void reset() throws java.io.IOException;
+  public final int read(byte[]) throws java.io.IOException;
+  public final int read(byte[], int, int) throws java.io.IOException;
+  public final long skip(long) throws java.io.IOException;
+  protected void finalize() throws java.lang.Throwable;
+}

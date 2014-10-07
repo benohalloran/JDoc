@@ -1,0 +1,19 @@
+Compiled from "AtomicIntegerArray.java"
+public class java.util.concurrent.atomic.AtomicIntegerArray implements java.io.Serializable {
+  public java.util.concurrent.atomic.AtomicIntegerArray(int);
+  public java.util.concurrent.atomic.AtomicIntegerArray(int[]);
+  public final int length();
+  public final int get(int);
+  public final void set(int, int);
+  public final void lazySet(int, int);
+  public final int getAndSet(int, int);
+  public final boolean compareAndSet(int, int, int);
+  public final boolean weakCompareAndSet(int, int, int);
+  public final int getAndIncrement(int);
+  public final int getAndDecrement(int);
+  public final int getAndAdd(int, int);
+  public final int incrementAndGet(int);
+  public final int decrementAndGet(int);
+  public final int addAndGet(int, int);
+  public java.lang.String toString();
+}

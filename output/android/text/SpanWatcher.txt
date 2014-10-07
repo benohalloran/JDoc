@@ -1,0 +1,6 @@
+Compiled from "SpanWatcher.java"
+public interface android.text.SpanWatcher extends android.text.NoCopySpan {
+  public abstract void onSpanAdded(android.text.Spannable, java.lang.Object, int, int);
+  public abstract void onSpanRemoved(android.text.Spannable, java.lang.Object, int, int);
+  public abstract void onSpanChanged(android.text.Spannable, java.lang.Object, int, int, int, int);
+}

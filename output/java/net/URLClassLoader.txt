@@ -1,0 +1,15 @@
+Compiled from "URLClassLoader.java"
+public class java.net.URLClassLoader extends java.security.SecureClassLoader {
+  public java.net.URLClassLoader(java.net.URL[]);
+  public java.net.URLClassLoader(java.net.URL[], java.lang.ClassLoader);
+  public java.net.URLClassLoader(java.net.URL[], java.lang.ClassLoader, java.net.URLStreamHandlerFactory);
+  protected void addURL(java.net.URL);
+  public java.util.Enumeration<java.net.URL> findResources(java.lang.String) throws java.io.IOException;
+  protected java.security.PermissionCollection getPermissions(java.security.CodeSource);
+  public java.net.URL[] getURLs();
+  public static java.net.URLClassLoader newInstance(java.net.URL[]);
+  public static java.net.URLClassLoader newInstance(java.net.URL[], java.lang.ClassLoader);
+  protected java.lang.Class<?> findClass(java.lang.String) throws java.lang.ClassNotFoundException;
+  public java.net.URL findResource(java.lang.String);
+  protected java.lang.Package definePackage(java.lang.String, java.util.jar.Manifest, java.net.URL) throws java.lang.IllegalArgumentException;
+}

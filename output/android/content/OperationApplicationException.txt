@@ -1,0 +1,10 @@
+Compiled from "OperationApplicationException.java"
+public class android.content.OperationApplicationException extends java.lang.Exception {
+  public android.content.OperationApplicationException();
+  public android.content.OperationApplicationException(java.lang.String);
+  public android.content.OperationApplicationException(java.lang.String, java.lang.Throwable);
+  public android.content.OperationApplicationException(java.lang.Throwable);
+  public android.content.OperationApplicationException(int);
+  public android.content.OperationApplicationException(java.lang.String, int);
+  public int getNumSuccessfulYieldPoints();
+}

@@ -1,0 +1,4 @@
+Compiled from "DialogInterface.java"
+public interface android.content.DialogInterface$OnKeyListener {
+  public abstract boolean onKey(android.content.DialogInterface, int, android.view.KeyEvent);
+}

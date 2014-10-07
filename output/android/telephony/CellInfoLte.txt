@@ -1,0 +1,13 @@
+Compiled from "CellInfoLte.java"
+public final class android.telephony.CellInfoLte extends android.telephony.CellInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.telephony.CellInfoLte> CREATOR;
+  android.telephony.CellInfoLte();
+  public android.telephony.CellIdentityLte getCellIdentity();
+  public android.telephony.CellSignalStrengthLte getCellSignalStrength();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

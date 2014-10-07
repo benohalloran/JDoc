@@ -1,0 +1,12 @@
+Compiled from "ContextThemeWrapper.java"
+public class android.view.ContextThemeWrapper extends android.content.ContextWrapper {
+  public android.view.ContextThemeWrapper();
+  public android.view.ContextThemeWrapper(android.content.Context, int);
+  protected void attachBaseContext(android.content.Context);
+  public void applyOverrideConfiguration(android.content.res.Configuration);
+  public android.content.res.Resources getResources();
+  public void setTheme(int);
+  public android.content.res.Resources$Theme getTheme();
+  public java.lang.Object getSystemService(java.lang.String);
+  protected void onApplyThemeResource(android.content.res.Resources$Theme, int, boolean);
+}

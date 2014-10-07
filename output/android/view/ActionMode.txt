@@ -1,0 +1,21 @@
+Compiled from "ActionMode.java"
+public abstract class android.view.ActionMode {
+  public android.view.ActionMode();
+  public void setTag(java.lang.Object);
+  public java.lang.Object getTag();
+  public abstract void setTitle(java.lang.CharSequence);
+  public abstract void setTitle(int);
+  public abstract void setSubtitle(java.lang.CharSequence);
+  public abstract void setSubtitle(int);
+  public void setTitleOptionalHint(boolean);
+  public boolean getTitleOptionalHint();
+  public boolean isTitleOptional();
+  public abstract void setCustomView(android.view.View);
+  public abstract void invalidate();
+  public abstract void finish();
+  public abstract android.view.Menu getMenu();
+  public abstract java.lang.CharSequence getTitle();
+  public abstract java.lang.CharSequence getSubtitle();
+  public abstract android.view.View getCustomView();
+  public abstract android.view.MenuInflater getMenuInflater();
+}

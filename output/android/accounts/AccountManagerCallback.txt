@@ -1,0 +1,4 @@
+Compiled from "AccountManagerCallback.java"
+public interface android.accounts.AccountManagerCallback<V> {
+  public abstract void run(android.accounts.AccountManagerFuture<V>);
+}

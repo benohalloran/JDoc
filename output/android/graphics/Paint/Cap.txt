@@ -1,0 +1,9 @@
+Compiled from "Paint.java"
+public final class android.graphics.Paint$Cap extends java.lang.Enum<android.graphics.Paint$Cap> {
+  public static final android.graphics.Paint$Cap BUTT;
+  public static final android.graphics.Paint$Cap ROUND;
+  public static final android.graphics.Paint$Cap SQUARE;
+  public static android.graphics.Paint$Cap[] values();
+  public static android.graphics.Paint$Cap valueOf(java.lang.String);
+  static {};
+}

@@ -1,0 +1,10 @@
+Compiled from "SSLEngineResult.java"
+public final class javax.net.ssl.SSLEngineResult$Status extends java.lang.Enum<javax.net.ssl.SSLEngineResult$Status> {
+  public static final javax.net.ssl.SSLEngineResult$Status BUFFER_OVERFLOW;
+  public static final javax.net.ssl.SSLEngineResult$Status BUFFER_UNDERFLOW;
+  public static final javax.net.ssl.SSLEngineResult$Status CLOSED;
+  public static final javax.net.ssl.SSLEngineResult$Status OK;
+  public static javax.net.ssl.SSLEngineResult$Status[] values();
+  public static javax.net.ssl.SSLEngineResult$Status valueOf(java.lang.String);
+  static {};
+}

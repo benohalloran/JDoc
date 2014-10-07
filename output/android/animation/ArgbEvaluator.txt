@@ -1,0 +1,5 @@
+Compiled from "ArgbEvaluator.java"
+public class android.animation.ArgbEvaluator implements android.animation.TypeEvaluator {
+  public android.animation.ArgbEvaluator();
+  public java.lang.Object evaluate(float, java.lang.Object, java.lang.Object);
+}

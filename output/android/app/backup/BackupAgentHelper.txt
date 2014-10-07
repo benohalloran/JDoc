@@ -1,0 +1,7 @@
+Compiled from "BackupAgentHelper.java"
+public class android.app.backup.BackupAgentHelper extends android.app.backup.BackupAgent {
+  public android.app.backup.BackupAgentHelper();
+  public void onBackup(android.os.ParcelFileDescriptor, android.app.backup.BackupDataOutput, android.os.ParcelFileDescriptor) throws java.io.IOException;
+  public void onRestore(android.app.backup.BackupDataInput, int, android.os.ParcelFileDescriptor) throws java.io.IOException;
+  public void addHelper(java.lang.String, android.app.backup.BackupHelper);
+}

@@ -1,0 +1,14 @@
+Compiled from "AbstractHttpParams.java"
+public abstract class org.apache.http.params.AbstractHttpParams implements org.apache.http.params.HttpParams {
+  protected org.apache.http.params.AbstractHttpParams();
+  public long getLongParameter(java.lang.String, long);
+  public org.apache.http.params.HttpParams setLongParameter(java.lang.String, long);
+  public int getIntParameter(java.lang.String, int);
+  public org.apache.http.params.HttpParams setIntParameter(java.lang.String, int);
+  public double getDoubleParameter(java.lang.String, double);
+  public org.apache.http.params.HttpParams setDoubleParameter(java.lang.String, double);
+  public boolean getBooleanParameter(java.lang.String, boolean);
+  public org.apache.http.params.HttpParams setBooleanParameter(java.lang.String, boolean);
+  public boolean isParameterTrue(java.lang.String);
+  public boolean isParameterFalse(java.lang.String);
+}

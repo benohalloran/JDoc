@@ -1,0 +1,11 @@
+Compiled from "Path.java"
+public final class android.graphics.Path$Op extends java.lang.Enum<android.graphics.Path$Op> {
+  public static final android.graphics.Path$Op DIFFERENCE;
+  public static final android.graphics.Path$Op INTERSECT;
+  public static final android.graphics.Path$Op REVERSE_DIFFERENCE;
+  public static final android.graphics.Path$Op UNION;
+  public static final android.graphics.Path$Op XOR;
+  public static android.graphics.Path$Op[] values();
+  public static android.graphics.Path$Op valueOf(java.lang.String);
+  static {};
+}

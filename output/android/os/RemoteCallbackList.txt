@@ -1,0 +1,15 @@
+Compiled from "RemoteCallbackList.java"
+public class android.os.RemoteCallbackList<E extends android.os.IInterface> {
+  public android.os.RemoteCallbackList();
+  public boolean register(E);
+  public boolean register(E, java.lang.Object);
+  public boolean unregister(E);
+  public void kill();
+  public void onCallbackDied(E);
+  public void onCallbackDied(E, java.lang.Object);
+  public int beginBroadcast();
+  public E getBroadcastItem(int);
+  public java.lang.Object getBroadcastCookie(int);
+  public void finishBroadcast();
+  public int getRegisteredCallbackCount();
+}

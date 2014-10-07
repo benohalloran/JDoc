@@ -1,0 +1,26 @@
+Compiled from "AnimationSet.java"
+public class android.view.animation.AnimationSet extends android.view.animation.Animation {
+  public android.view.animation.AnimationSet(android.content.Context, android.util.AttributeSet);
+  public android.view.animation.AnimationSet(boolean);
+  protected android.view.animation.AnimationSet clone() throws java.lang.CloneNotSupportedException;
+  public void setFillAfter(boolean);
+  public void setFillBefore(boolean);
+  public void setRepeatMode(int);
+  public void setStartOffset(long);
+  public void setDuration(long);
+  public void addAnimation(android.view.animation.Animation);
+  public void setStartTime(long);
+  public long getStartTime();
+  public void restrictDuration(long);
+  public long getDuration();
+  public long computeDurationHint();
+  public boolean getTransformation(long, android.view.animation.Transformation);
+  public void scaleCurrentDuration(float);
+  public void initialize(int, int, int, int);
+  public void reset();
+  public java.util.List<android.view.animation.Animation> getAnimations();
+  public boolean willChangeTransformationMatrix();
+  public boolean willChangeBounds();
+  protected android.view.animation.Animation clone() throws java.lang.CloneNotSupportedException;
+  protected java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

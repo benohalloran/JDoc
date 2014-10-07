@@ -1,0 +1,10 @@
+Compiled from "MimeTypeMap.java"
+public class android.webkit.MimeTypeMap {
+  android.webkit.MimeTypeMap();
+  public static java.lang.String getFileExtensionFromUrl(java.lang.String);
+  public boolean hasMimeType(java.lang.String);
+  public java.lang.String getMimeTypeFromExtension(java.lang.String);
+  public boolean hasExtension(java.lang.String);
+  public java.lang.String getExtensionFromMimeType(java.lang.String);
+  public static android.webkit.MimeTypeMap getSingleton();
+}

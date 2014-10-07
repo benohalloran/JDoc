@@ -1,0 +1,6 @@
+Compiled from "StatusLine.java"
+public interface org.apache.http.StatusLine {
+  public abstract org.apache.http.ProtocolVersion getProtocolVersion();
+  public abstract int getStatusCode();
+  public abstract java.lang.String getReasonPhrase();
+}

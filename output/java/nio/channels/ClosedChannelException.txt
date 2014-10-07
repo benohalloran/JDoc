@@ -1,0 +1,4 @@
+Compiled from "ClosedChannelException.java"
+public class java.nio.channels.ClosedChannelException extends java.io.IOException {
+  public java.nio.channels.ClosedChannelException();
+}

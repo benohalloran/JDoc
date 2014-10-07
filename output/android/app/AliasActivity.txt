@@ -1,0 +1,5 @@
+Compiled from "AliasActivity.java"
+public class android.app.AliasActivity extends android.app.Activity {
+  public android.app.AliasActivity();
+  protected void onCreate(android.os.Bundle);
+}

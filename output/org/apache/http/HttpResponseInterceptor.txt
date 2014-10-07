@@ -1,0 +1,4 @@
+Compiled from "HttpResponseInterceptor.java"
+public interface org.apache.http.HttpResponseInterceptor {
+  public abstract void process(org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException, java.io.IOException;
+}

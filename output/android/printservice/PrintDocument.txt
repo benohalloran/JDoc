@@ -1,0 +1,6 @@
+Compiled from "PrintDocument.java"
+public final class android.printservice.PrintDocument {
+  android.printservice.PrintDocument();
+  public android.print.PrintDocumentInfo getInfo();
+  public android.os.ParcelFileDescriptor getData();
+}

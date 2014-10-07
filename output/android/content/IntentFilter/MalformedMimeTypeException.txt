@@ -1,0 +1,5 @@
+Compiled from "IntentFilter.java"
+public class android.content.IntentFilter$MalformedMimeTypeException extends android.util.AndroidException {
+  public android.content.IntentFilter$MalformedMimeTypeException();
+  public android.content.IntentFilter$MalformedMimeTypeException(java.lang.String);
+}

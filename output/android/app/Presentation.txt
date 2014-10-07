@@ -1,0 +1,12 @@
+Compiled from "Presentation.java"
+public class android.app.Presentation extends android.app.Dialog {
+  public android.app.Presentation(android.content.Context, android.view.Display);
+  public android.app.Presentation(android.content.Context, android.view.Display, int);
+  public android.view.Display getDisplay();
+  public android.content.res.Resources getResources();
+  protected void onStart();
+  protected void onStop();
+  public void show();
+  public void onDisplayRemoved();
+  public void onDisplayChanged();
+}

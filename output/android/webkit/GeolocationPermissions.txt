@@ -1,0 +1,10 @@
+Compiled from "GeolocationPermissions.java"
+public class android.webkit.GeolocationPermissions {
+  android.webkit.GeolocationPermissions();
+  public static android.webkit.GeolocationPermissions getInstance();
+  public void getOrigins(android.webkit.ValueCallback<java.util.Set<java.lang.String>>);
+  public void getAllowed(java.lang.String, android.webkit.ValueCallback<java.lang.Boolean>);
+  public void clear(java.lang.String);
+  public void allow(java.lang.String);
+  public void clearAll();
+}

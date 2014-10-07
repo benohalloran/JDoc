@@ -1,0 +1,17 @@
+Compiled from "HttpConnectionMetricsImpl.java"
+public class org.apache.http.impl.HttpConnectionMetricsImpl implements org.apache.http.HttpConnectionMetrics {
+  public static final java.lang.String RECEIVED_BYTES_COUNT;
+  public static final java.lang.String REQUEST_COUNT;
+  public static final java.lang.String RESPONSE_COUNT;
+  public static final java.lang.String SENT_BYTES_COUNT;
+  public org.apache.http.impl.HttpConnectionMetricsImpl(org.apache.http.io.HttpTransportMetrics, org.apache.http.io.HttpTransportMetrics);
+  public long getReceivedBytesCount();
+  public long getSentBytesCount();
+  public long getRequestCount();
+  public void incrementRequestCount();
+  public long getResponseCount();
+  public void incrementResponseCount();
+  public java.lang.Object getMetric(java.lang.String);
+  public void setMetric(java.lang.String, java.lang.Object);
+  public void reset();
+}

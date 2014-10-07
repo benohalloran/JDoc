@@ -1,0 +1,5 @@
+Compiled from "TestSuiteBuilder.java"
+public class android.test.suitebuilder.TestSuiteBuilder$FailedToCreateTests extends junit.framework.TestCase {
+  public android.test.suitebuilder.TestSuiteBuilder$FailedToCreateTests(java.lang.Exception);
+  public void testSuiteConstructionFailed();
+}

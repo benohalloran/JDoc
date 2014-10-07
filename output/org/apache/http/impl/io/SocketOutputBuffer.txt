@@ -1,0 +1,4 @@
+Compiled from "SocketOutputBuffer.java"
+public class org.apache.http.impl.io.SocketOutputBuffer extends org.apache.http.impl.io.AbstractSessionOutputBuffer {
+  public org.apache.http.impl.io.SocketOutputBuffer(java.net.Socket, int, org.apache.http.params.HttpParams) throws java.io.IOException;
+}

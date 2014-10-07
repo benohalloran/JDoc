@@ -1,0 +1,10 @@
+Compiled from "InputStreamEntity.java"
+public class org.apache.http.entity.InputStreamEntity extends org.apache.http.entity.AbstractHttpEntity {
+  public org.apache.http.entity.InputStreamEntity(java.io.InputStream, long);
+  public boolean isRepeatable();
+  public long getContentLength();
+  public java.io.InputStream getContent() throws java.io.IOException;
+  public void writeTo(java.io.OutputStream) throws java.io.IOException;
+  public boolean isStreaming();
+  public void consumeContent() throws java.io.IOException;
+}

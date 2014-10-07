@@ -1,0 +1,5 @@
+Compiled from "ExceptionUtils.java"
+public final class org.apache.http.util.ExceptionUtils {
+  org.apache.http.util.ExceptionUtils();
+  public static void initCause(java.lang.Throwable, java.lang.Throwable);
+}

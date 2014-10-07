@@ -1,0 +1,11 @@
+Compiled from "SSLEngineResult.java"
+public final class javax.net.ssl.SSLEngineResult$HandshakeStatus extends java.lang.Enum<javax.net.ssl.SSLEngineResult$HandshakeStatus> {
+  public static final javax.net.ssl.SSLEngineResult$HandshakeStatus FINISHED;
+  public static final javax.net.ssl.SSLEngineResult$HandshakeStatus NEED_TASK;
+  public static final javax.net.ssl.SSLEngineResult$HandshakeStatus NEED_UNWRAP;
+  public static final javax.net.ssl.SSLEngineResult$HandshakeStatus NEED_WRAP;
+  public static final javax.net.ssl.SSLEngineResult$HandshakeStatus NOT_HANDSHAKING;
+  public static javax.net.ssl.SSLEngineResult$HandshakeStatus[] values();
+  public static javax.net.ssl.SSLEngineResult$HandshakeStatus valueOf(java.lang.String);
+  static {};
+}

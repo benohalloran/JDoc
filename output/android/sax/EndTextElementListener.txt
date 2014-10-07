@@ -1,0 +1,4 @@
+Compiled from "EndTextElementListener.java"
+public interface android.sax.EndTextElementListener {
+  public abstract void end(java.lang.String);
+}

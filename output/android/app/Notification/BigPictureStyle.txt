@@ -1,0 +1,9 @@
+Compiled from "Notification.java"
+public class android.app.Notification$BigPictureStyle extends android.app.Notification$Style {
+  public android.app.Notification$BigPictureStyle();
+  public android.app.Notification$BigPictureStyle(android.app.Notification$Builder);
+  public android.app.Notification$BigPictureStyle setBigContentTitle(java.lang.CharSequence);
+  public android.app.Notification$BigPictureStyle setSummaryText(java.lang.CharSequence);
+  public android.app.Notification$BigPictureStyle bigPicture(android.graphics.Bitmap);
+  public android.app.Notification$BigPictureStyle bigLargeIcon(android.graphics.Bitmap);
+}

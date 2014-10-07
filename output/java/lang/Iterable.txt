@@ -1,0 +1,4 @@
+Compiled from "Iterable.java"
+public interface java.lang.Iterable<T> {
+  public abstract java.util.Iterator<T> iterator();
+}

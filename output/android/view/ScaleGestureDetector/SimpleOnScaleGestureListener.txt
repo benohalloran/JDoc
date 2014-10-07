@@ -1,0 +1,7 @@
+Compiled from "ScaleGestureDetector.java"
+public class android.view.ScaleGestureDetector$SimpleOnScaleGestureListener implements android.view.ScaleGestureDetector$OnScaleGestureListener {
+  public android.view.ScaleGestureDetector$SimpleOnScaleGestureListener();
+  public boolean onScale(android.view.ScaleGestureDetector);
+  public boolean onScaleBegin(android.view.ScaleGestureDetector);
+  public void onScaleEnd(android.view.ScaleGestureDetector);
+}

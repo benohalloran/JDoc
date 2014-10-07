@@ -1,0 +1,5 @@
+Compiled from "PathEffect.java"
+public class android.graphics.PathEffect {
+  public android.graphics.PathEffect();
+  protected void finalize() throws java.lang.Throwable;
+}

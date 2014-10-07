@@ -1,0 +1,14 @@
+Compiled from "Element.java"
+public class android.sax.Element {
+  android.sax.Element();
+  public android.sax.Element getChild(java.lang.String);
+  public android.sax.Element getChild(java.lang.String, java.lang.String);
+  public android.sax.Element requireChild(java.lang.String);
+  public android.sax.Element requireChild(java.lang.String, java.lang.String);
+  public void setElementListener(android.sax.ElementListener);
+  public void setTextElementListener(android.sax.TextElementListener);
+  public void setStartElementListener(android.sax.StartElementListener);
+  public void setEndElementListener(android.sax.EndElementListener);
+  public void setEndTextElementListener(android.sax.EndTextElementListener);
+  public java.lang.String toString();
+}

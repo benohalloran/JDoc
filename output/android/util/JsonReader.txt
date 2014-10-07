@@ -1,0 +1,22 @@
+Compiled from "JsonReader.java"
+public final class android.util.JsonReader implements java.io.Closeable {
+  public android.util.JsonReader(java.io.Reader);
+  public void setLenient(boolean);
+  public boolean isLenient();
+  public void beginArray() throws java.io.IOException;
+  public void endArray() throws java.io.IOException;
+  public void beginObject() throws java.io.IOException;
+  public void endObject() throws java.io.IOException;
+  public boolean hasNext() throws java.io.IOException;
+  public android.util.JsonToken peek() throws java.io.IOException;
+  public java.lang.String nextName() throws java.io.IOException;
+  public java.lang.String nextString() throws java.io.IOException;
+  public boolean nextBoolean() throws java.io.IOException;
+  public void nextNull() throws java.io.IOException;
+  public double nextDouble() throws java.io.IOException;
+  public long nextLong() throws java.io.IOException;
+  public int nextInt() throws java.io.IOException;
+  public void close() throws java.io.IOException;
+  public void skipValue() throws java.io.IOException;
+  public java.lang.String toString();
+}

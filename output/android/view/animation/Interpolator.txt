@@ -1,0 +1,3 @@
+Compiled from "Interpolator.java"
+public interface android.view.animation.Interpolator extends android.animation.TimeInterpolator {
+}

@@ -1,0 +1,46 @@
+Compiled from "ConnectivityManager.java"
+public class android.net.ConnectivityManager {
+  public static final java.lang.String ACTION_BACKGROUND_DATA_SETTING_CHANGED;
+  public static final java.lang.String CONNECTIVITY_ACTION;
+  public static final int DEFAULT_NETWORK_PREFERENCE;
+  public static final java.lang.String EXTRA_EXTRA_INFO;
+  public static final java.lang.String EXTRA_IS_FAILOVER;
+  public static final java.lang.String EXTRA_NETWORK_INFO;
+  public static final java.lang.String EXTRA_NETWORK_TYPE;
+  public static final java.lang.String EXTRA_NO_CONNECTIVITY;
+  public static final java.lang.String EXTRA_OTHER_NETWORK_INFO;
+  public static final java.lang.String EXTRA_REASON;
+  public static final int TYPE_BLUETOOTH;
+  public static final int TYPE_DUMMY;
+  public static final int TYPE_ETHERNET;
+  public static final int TYPE_MOBILE;
+  public static final int TYPE_MOBILE_DUN;
+  public static final int TYPE_MOBILE_HIPRI;
+  public static final int TYPE_MOBILE_MMS;
+  public static final int TYPE_MOBILE_SUPL;
+  public static final int TYPE_WIFI;
+  public static final int TYPE_WIMAX;
+  android.net.ConnectivityManager();
+  public static boolean isNetworkTypeValid(int);
+  public void setNetworkPreference(int);
+  public int getNetworkPreference();
+  public android.net.NetworkInfo getActiveNetworkInfo();
+  public android.net.NetworkInfo getNetworkInfo(int);
+  public android.net.NetworkInfo[] getAllNetworkInfo();
+  public android.net.LinkProperties getLinkProperties(android.net.Network);
+  public android.net.NetworkCapabilities getNetworkCapabilities(android.net.Network);
+  public int startUsingNetworkFeature(int, java.lang.String);
+  public int stopUsingNetworkFeature(int, java.lang.String);
+  public boolean requestRouteToHost(int, int);
+  public boolean getBackgroundDataSetting();
+  public void registerDefaultNetworkActiveListener(android.net.ConnectivityManager$OnNetworkActiveListener);
+  public void unregisterDefaultNetworkActiveListener(android.net.ConnectivityManager$OnNetworkActiveListener);
+  public boolean isDefaultNetworkActive();
+  public void reportBadNetwork(android.net.Network);
+  public boolean isActiveNetworkMetered();
+  public void requestNetwork(android.net.NetworkRequest, android.net.ConnectivityManager$NetworkCallback);
+  public void registerNetworkCallback(android.net.NetworkRequest, android.net.ConnectivityManager$NetworkCallback);
+  public void unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback);
+  public static boolean setProcessDefaultNetwork(android.net.Network);
+  public static android.net.Network getProcessDefaultNetwork();
+}

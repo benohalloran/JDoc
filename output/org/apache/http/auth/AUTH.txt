@@ -1,0 +1,8 @@
+Compiled from "AUTH.java"
+public final class org.apache.http.auth.AUTH {
+  public static final java.lang.String PROXY_AUTH;
+  public static final java.lang.String PROXY_AUTH_RESP;
+  public static final java.lang.String WWW_AUTH;
+  public static final java.lang.String WWW_AUTH_RESP;
+  org.apache.http.auth.AUTH();
+}

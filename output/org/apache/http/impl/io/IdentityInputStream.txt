@@ -1,0 +1,8 @@
+Compiled from "IdentityInputStream.java"
+public class org.apache.http.impl.io.IdentityInputStream extends java.io.InputStream {
+  public org.apache.http.impl.io.IdentityInputStream(org.apache.http.io.SessionInputBuffer);
+  public int available() throws java.io.IOException;
+  public void close() throws java.io.IOException;
+  public int read() throws java.io.IOException;
+  public int read(byte[], int, int) throws java.io.IOException;
+}

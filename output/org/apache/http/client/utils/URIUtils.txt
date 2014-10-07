@@ -1,0 +1,9 @@
+Compiled from "URIUtils.java"
+public class org.apache.http.client.utils.URIUtils {
+  org.apache.http.client.utils.URIUtils();
+  public static java.net.URI createURI(java.lang.String, java.lang.String, int, java.lang.String, java.lang.String, java.lang.String) throws java.net.URISyntaxException;
+  public static java.net.URI rewriteURI(java.net.URI, org.apache.http.HttpHost, boolean) throws java.net.URISyntaxException;
+  public static java.net.URI rewriteURI(java.net.URI, org.apache.http.HttpHost) throws java.net.URISyntaxException;
+  public static java.net.URI resolve(java.net.URI, java.lang.String);
+  public static java.net.URI resolve(java.net.URI, java.net.URI);
+}

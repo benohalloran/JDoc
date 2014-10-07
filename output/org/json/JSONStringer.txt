@@ -1,0 +1,14 @@
+Compiled from "JSONStringer.java"
+public class org.json.JSONStringer {
+  public org.json.JSONStringer();
+  public org.json.JSONStringer array() throws org.json.JSONException;
+  public org.json.JSONStringer endArray() throws org.json.JSONException;
+  public org.json.JSONStringer object() throws org.json.JSONException;
+  public org.json.JSONStringer endObject() throws org.json.JSONException;
+  public org.json.JSONStringer value(java.lang.Object) throws org.json.JSONException;
+  public org.json.JSONStringer value(boolean) throws org.json.JSONException;
+  public org.json.JSONStringer value(double) throws org.json.JSONException;
+  public org.json.JSONStringer value(long) throws org.json.JSONException;
+  public org.json.JSONStringer key(java.lang.String) throws org.json.JSONException;
+  public java.lang.String toString();
+}

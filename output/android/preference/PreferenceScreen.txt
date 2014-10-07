@@ -1,0 +1,14 @@
+Compiled from "PreferenceScreen.java"
+public final class android.preference.PreferenceScreen extends android.preference.PreferenceGroup implements android.widget.AdapterView$OnItemClickListener,android.content.DialogInterface$OnDismissListener {
+  android.preference.PreferenceScreen();
+  public android.widget.ListAdapter getRootAdapter();
+  protected android.widget.ListAdapter onCreateRootAdapter();
+  public void bind(android.widget.ListView);
+  protected void onClick();
+  public void onDismiss(android.content.DialogInterface);
+  public android.app.Dialog getDialog();
+  public void onItemClick(android.widget.AdapterView, android.view.View, int, long);
+  protected boolean isOnSameScreenAsChildren();
+  protected android.os.Parcelable onSaveInstanceState();
+  protected void onRestoreInstanceState(android.os.Parcelable);
+}

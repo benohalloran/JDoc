@@ -1,0 +1,35 @@
+Compiled from "Element.java"
+public final class android.renderscript.Element$DataType extends java.lang.Enum<android.renderscript.Element$DataType> {
+  public static final android.renderscript.Element$DataType BOOLEAN;
+  public static final android.renderscript.Element$DataType FLOAT_32;
+  public static final android.renderscript.Element$DataType FLOAT_64;
+  public static final android.renderscript.Element$DataType MATRIX_2X2;
+  public static final android.renderscript.Element$DataType MATRIX_3X3;
+  public static final android.renderscript.Element$DataType MATRIX_4X4;
+  public static final android.renderscript.Element$DataType NONE;
+  public static final android.renderscript.Element$DataType RS_ALLOCATION;
+  public static final android.renderscript.Element$DataType RS_ELEMENT;
+  public static final android.renderscript.Element$DataType RS_FONT;
+  public static final android.renderscript.Element$DataType RS_MESH;
+  public static final android.renderscript.Element$DataType RS_PROGRAM_FRAGMENT;
+  public static final android.renderscript.Element$DataType RS_PROGRAM_RASTER;
+  public static final android.renderscript.Element$DataType RS_PROGRAM_STORE;
+  public static final android.renderscript.Element$DataType RS_PROGRAM_VERTEX;
+  public static final android.renderscript.Element$DataType RS_SAMPLER;
+  public static final android.renderscript.Element$DataType RS_SCRIPT;
+  public static final android.renderscript.Element$DataType RS_TYPE;
+  public static final android.renderscript.Element$DataType SIGNED_16;
+  public static final android.renderscript.Element$DataType SIGNED_32;
+  public static final android.renderscript.Element$DataType SIGNED_64;
+  public static final android.renderscript.Element$DataType SIGNED_8;
+  public static final android.renderscript.Element$DataType UNSIGNED_16;
+  public static final android.renderscript.Element$DataType UNSIGNED_32;
+  public static final android.renderscript.Element$DataType UNSIGNED_4_4_4_4;
+  public static final android.renderscript.Element$DataType UNSIGNED_5_5_5_1;
+  public static final android.renderscript.Element$DataType UNSIGNED_5_6_5;
+  public static final android.renderscript.Element$DataType UNSIGNED_64;
+  public static final android.renderscript.Element$DataType UNSIGNED_8;
+  public static android.renderscript.Element$DataType[] values();
+  public static android.renderscript.Element$DataType valueOf(java.lang.String);
+  static {};
+}

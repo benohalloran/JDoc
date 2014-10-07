@@ -1,0 +1,17 @@
+Compiled from "ExpandableListActivity.java"
+public class android.app.ExpandableListActivity extends android.app.Activity implements android.view.View$OnCreateContextMenuListener,android.widget.ExpandableListView$OnChildClickListener,android.widget.ExpandableListView$OnGroupCollapseListener,android.widget.ExpandableListView$OnGroupExpandListener {
+  public android.app.ExpandableListActivity();
+  public void onCreateContextMenu(android.view.ContextMenu, android.view.View, android.view.ContextMenu$ContextMenuInfo);
+  public boolean onChildClick(android.widget.ExpandableListView, android.view.View, int, int, long);
+  public void onGroupCollapse(int);
+  public void onGroupExpand(int);
+  protected void onRestoreInstanceState(android.os.Bundle);
+  public void onContentChanged();
+  public void setListAdapter(android.widget.ExpandableListAdapter);
+  public android.widget.ExpandableListView getExpandableListView();
+  public android.widget.ExpandableListAdapter getExpandableListAdapter();
+  public long getSelectedId();
+  public long getSelectedPosition();
+  public boolean setSelectedChild(int, int, boolean);
+  public void setSelectedGroup(int);
+}

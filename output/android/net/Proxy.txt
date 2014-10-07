@@ -1,0 +1,10 @@
+Compiled from "Proxy.java"
+public final class android.net.Proxy {
+  public static final java.lang.String EXTRA_PROXY_INFO;
+  public static final java.lang.String PROXY_CHANGE_ACTION;
+  public android.net.Proxy();
+  public static final java.lang.String getHost(android.content.Context);
+  public static final int getPort(android.content.Context);
+  public static final java.lang.String getDefaultHost();
+  public static final int getDefaultPort();
+}

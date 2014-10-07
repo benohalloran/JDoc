@@ -1,0 +1,18 @@
+Compiled from "StructStat.java"
+public final class android.system.StructStat {
+  public final long st_atime;
+  public final long st_blksize;
+  public final long st_blocks;
+  public final long st_ctime;
+  public final long st_dev;
+  public final int st_gid;
+  public final long st_ino;
+  public final int st_mode;
+  public final long st_mtime;
+  public final long st_nlink;
+  public final long st_rdev;
+  public final long st_size;
+  public final int st_uid;
+  public android.system.StructStat(long, long, int, long, int, int, long, long, long, long, long, long, long);
+  public java.lang.String toString();
+}

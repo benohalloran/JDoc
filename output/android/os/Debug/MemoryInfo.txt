@@ -1,0 +1,24 @@
+Compiled from "Debug.java"
+public class android.os.Debug$MemoryInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.os.Debug$MemoryInfo> CREATOR;
+  public int dalvikPrivateDirty;
+  public int dalvikPss;
+  public int dalvikSharedDirty;
+  public int nativePrivateDirty;
+  public int nativePss;
+  public int nativeSharedDirty;
+  public int otherPrivateDirty;
+  public int otherPss;
+  public int otherSharedDirty;
+  public android.os.Debug$MemoryInfo();
+  public int getTotalPss();
+  public int getTotalSwappablePss();
+  public int getTotalPrivateDirty();
+  public int getTotalSharedDirty();
+  public int getTotalPrivateClean();
+  public int getTotalSharedClean();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public void readFromParcel(android.os.Parcel);
+  static {};
+}

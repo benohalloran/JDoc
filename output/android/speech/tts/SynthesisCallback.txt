@@ -1,0 +1,8 @@
+Compiled from "SynthesisCallback.java"
+public interface android.speech.tts.SynthesisCallback {
+  public abstract int getMaxBufferSize();
+  public abstract int start(int, int, int);
+  public abstract int audioAvailable(byte[], int, int);
+  public abstract int done();
+  public abstract void error();
+}

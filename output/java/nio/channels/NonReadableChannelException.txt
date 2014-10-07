@@ -1,0 +1,4 @@
+Compiled from "NonReadableChannelException.java"
+public class java.nio.channels.NonReadableChannelException extends java.lang.IllegalStateException {
+  public java.nio.channels.NonReadableChannelException();
+}

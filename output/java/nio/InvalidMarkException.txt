@@ -1,0 +1,4 @@
+Compiled from "InvalidMarkException.java"
+public class java.nio.InvalidMarkException extends java.lang.IllegalStateException {
+  public java.nio.InvalidMarkException();
+}

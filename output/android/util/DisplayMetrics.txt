@@ -1,0 +1,26 @@
+Compiled from "DisplayMetrics.java"
+public class android.util.DisplayMetrics {
+  public static final int DENSITY_400;
+  public static final int DENSITY_DEFAULT;
+  public static final int DENSITY_HIGH;
+  public static final int DENSITY_LOW;
+  public static final int DENSITY_MEDIUM;
+  public static final int DENSITY_TV;
+  public static final int DENSITY_XHIGH;
+  public static final int DENSITY_XXHIGH;
+  public static final int DENSITY_XXXHIGH;
+  public float density;
+  public int densityDpi;
+  public int heightPixels;
+  public float scaledDensity;
+  public int widthPixels;
+  public float xdpi;
+  public float ydpi;
+  public android.util.DisplayMetrics();
+  public void setTo(android.util.DisplayMetrics);
+  public void setToDefaults();
+  public boolean equals(java.lang.Object);
+  public boolean equals(android.util.DisplayMetrics);
+  public int hashCode();
+  public java.lang.String toString();
+}

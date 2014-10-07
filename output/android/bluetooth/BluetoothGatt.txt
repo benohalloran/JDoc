@@ -1,0 +1,33 @@
+Compiled from "BluetoothGatt.java"
+public final class android.bluetooth.BluetoothGatt implements android.bluetooth.BluetoothProfile {
+  public static final int GATT_FAILURE;
+  public static final int GATT_INSUFFICIENT_AUTHENTICATION;
+  public static final int GATT_INSUFFICIENT_ENCRYPTION;
+  public static final int GATT_INVALID_ATTRIBUTE_LENGTH;
+  public static final int GATT_INVALID_OFFSET;
+  public static final int GATT_READ_NOT_PERMITTED;
+  public static final int GATT_REQUEST_NOT_SUPPORTED;
+  public static final int GATT_SUCCESS;
+  public static final int GATT_WRITE_NOT_PERMITTED;
+  android.bluetooth.BluetoothGatt();
+  public void close();
+  public void disconnect();
+  public boolean connect();
+  public android.bluetooth.BluetoothDevice getDevice();
+  public boolean discoverServices();
+  public java.util.List<android.bluetooth.BluetoothGattService> getServices();
+  public android.bluetooth.BluetoothGattService getService(java.util.UUID);
+  public boolean readCharacteristic(android.bluetooth.BluetoothGattCharacteristic);
+  public boolean writeCharacteristic(android.bluetooth.BluetoothGattCharacteristic);
+  public boolean readDescriptor(android.bluetooth.BluetoothGattDescriptor);
+  public boolean writeDescriptor(android.bluetooth.BluetoothGattDescriptor);
+  public boolean beginReliableWrite();
+  public boolean executeReliableWrite();
+  public void abortReliableWrite();
+  public void abortReliableWrite(android.bluetooth.BluetoothDevice);
+  public boolean setCharacteristicNotification(android.bluetooth.BluetoothGattCharacteristic, boolean);
+  public boolean readRemoteRssi();
+  public int getConnectionState(android.bluetooth.BluetoothDevice);
+  public java.util.List<android.bluetooth.BluetoothDevice> getConnectedDevices();
+  public java.util.List<android.bluetooth.BluetoothDevice> getDevicesMatchingConnectionStates(int[]);
+}

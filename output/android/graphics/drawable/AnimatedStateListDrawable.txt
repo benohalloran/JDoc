@@ -1,0 +1,12 @@
+Compiled from "AnimatedStateListDrawable.java"
+public class android.graphics.drawable.AnimatedStateListDrawable extends android.graphics.drawable.StateListDrawable {
+  public android.graphics.drawable.AnimatedStateListDrawable();
+  public boolean setVisible(boolean, boolean);
+  public void addState(int[], android.graphics.drawable.Drawable, int);
+  public void addTransition(int, int, android.graphics.drawable.AnimationDrawable, boolean);
+  public boolean isStateful();
+  protected boolean onStateChange(int[]);
+  public void jumpToCurrentState();
+  public void inflate(android.content.res.Resources, org.xmlpull.v1.XmlPullParser, android.util.AttributeSet, android.content.res.Resources$Theme) throws org.xmlpull.v1.XmlPullParserException, java.io.IOException;
+  public android.graphics.drawable.Drawable mutate();
+}

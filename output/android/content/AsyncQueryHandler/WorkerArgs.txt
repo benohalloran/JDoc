@@ -1,0 +1,13 @@
+Compiled from "AsyncQueryHandler.java"
+public final class android.content.AsyncQueryHandler$WorkerArgs {
+  public java.lang.Object cookie;
+  public android.os.Handler handler;
+  public java.lang.String orderBy;
+  public java.lang.String[] projection;
+  public java.lang.Object result;
+  public java.lang.String selection;
+  public java.lang.String[] selectionArgs;
+  public android.net.Uri uri;
+  public android.content.ContentValues values;
+  protected android.content.AsyncQueryHandler$WorkerArgs();
+}

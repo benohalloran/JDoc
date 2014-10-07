@@ -1,0 +1,11 @@
+Compiled from "MediaScannerConnection.java"
+public class android.media.MediaScannerConnection implements android.content.ServiceConnection {
+  public android.media.MediaScannerConnection(android.content.Context, android.media.MediaScannerConnection$MediaScannerConnectionClient);
+  public void connect();
+  public void disconnect();
+  public synchronized boolean isConnected();
+  public void scanFile(java.lang.String, java.lang.String);
+  public static void scanFile(android.content.Context, java.lang.String[], java.lang.String[], android.media.MediaScannerConnection$OnScanCompletedListener);
+  public void onServiceConnected(android.content.ComponentName, android.os.IBinder);
+  public void onServiceDisconnected(android.content.ComponentName);
+}

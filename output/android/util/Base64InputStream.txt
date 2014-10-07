@@ -1,0 +1,12 @@
+Compiled from "Base64InputStream.java"
+public class android.util.Base64InputStream extends java.io.FilterInputStream {
+  public android.util.Base64InputStream(java.io.InputStream, int);
+  public boolean markSupported();
+  public void mark(int);
+  public void reset();
+  public void close() throws java.io.IOException;
+  public int available();
+  public long skip(long) throws java.io.IOException;
+  public int read() throws java.io.IOException;
+  public int read(byte[], int, int) throws java.io.IOException;
+}

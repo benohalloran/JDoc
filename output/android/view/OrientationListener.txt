@@ -1,0 +1,11 @@
+Compiled from "OrientationListener.java"
+public abstract class android.view.OrientationListener implements android.hardware.SensorListener {
+  public static final int ORIENTATION_UNKNOWN;
+  public android.view.OrientationListener(android.content.Context);
+  public android.view.OrientationListener(android.content.Context, int);
+  public void enable();
+  public void disable();
+  public void onAccuracyChanged(int, int);
+  public void onSensorChanged(int, float[]);
+  public abstract void onOrientationChanged(int);
+}

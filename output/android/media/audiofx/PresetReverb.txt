@@ -1,0 +1,17 @@
+Compiled from "PresetReverb.java"
+public class android.media.audiofx.PresetReverb extends android.media.audiofx.AudioEffect {
+  public static final int PARAM_PRESET;
+  public static final short PRESET_LARGEHALL;
+  public static final short PRESET_LARGEROOM;
+  public static final short PRESET_MEDIUMHALL;
+  public static final short PRESET_MEDIUMROOM;
+  public static final short PRESET_NONE;
+  public static final short PRESET_PLATE;
+  public static final short PRESET_SMALLROOM;
+  public android.media.audiofx.PresetReverb(int, int) throws java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException, java.lang.RuntimeException;
+  public void setPreset(short) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public short getPreset() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setParameterListener(android.media.audiofx.PresetReverb$OnParameterChangeListener);
+  public android.media.audiofx.PresetReverb$Settings getProperties() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setProperties(android.media.audiofx.PresetReverb$Settings) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+}

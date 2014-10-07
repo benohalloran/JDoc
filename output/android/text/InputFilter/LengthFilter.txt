@@ -1,0 +1,5 @@
+Compiled from "InputFilter.java"
+public class android.text.InputFilter$LengthFilter implements android.text.InputFilter {
+  public android.text.InputFilter$LengthFilter(int);
+  public java.lang.CharSequence filter(java.lang.CharSequence, int, int, android.text.Spanned, int, int);
+}

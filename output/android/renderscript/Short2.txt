@@ -1,0 +1,7 @@
+Compiled from "Short2.java"
+public class android.renderscript.Short2 {
+  public short x;
+  public short y;
+  public android.renderscript.Short2();
+  public android.renderscript.Short2(short, short);
+}

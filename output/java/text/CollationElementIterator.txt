@@ -1,0 +1,16 @@
+Compiled from "CollationElementIterator.java"
+public final class java.text.CollationElementIterator {
+  public static final int NULLORDER;
+  java.text.CollationElementIterator();
+  public int getMaxExpansion(int);
+  public int getOffset();
+  public int next();
+  public int previous();
+  public static final int primaryOrder(int);
+  public void reset();
+  public static final short secondaryOrder(int);
+  public void setOffset(int);
+  public void setText(java.text.CharacterIterator);
+  public void setText(java.lang.String);
+  public static final short tertiaryOrder(int);
+}

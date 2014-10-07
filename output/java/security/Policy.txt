@@ -1,0 +1,18 @@
+Compiled from "Policy.java"
+public abstract class java.security.Policy {
+  public static final java.security.PermissionCollection UNSUPPORTED_EMPTY_COLLECTION;
+  public java.security.Policy();
+  public static java.security.Policy getInstance(java.lang.String, java.security.Policy$Parameters) throws java.security.NoSuchAlgorithmException;
+  public static java.security.Policy getInstance(java.lang.String, java.security.Policy$Parameters, java.lang.String) throws java.security.NoSuchProviderException, java.security.NoSuchAlgorithmException;
+  public static java.security.Policy getInstance(java.lang.String, java.security.Policy$Parameters, java.security.Provider) throws java.security.NoSuchAlgorithmException;
+  public java.security.Policy$Parameters getParameters();
+  public java.security.Provider getProvider();
+  public java.lang.String getType();
+  public java.security.PermissionCollection getPermissions(java.security.CodeSource);
+  public void refresh();
+  public java.security.PermissionCollection getPermissions(java.security.ProtectionDomain);
+  public boolean implies(java.security.ProtectionDomain, java.security.Permission);
+  public static java.security.Policy getPolicy();
+  public static void setPolicy(java.security.Policy);
+  static {};
+}

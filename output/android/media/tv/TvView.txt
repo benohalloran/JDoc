@@ -1,0 +1,24 @@
+Compiled from "TvView.java"
+public class android.media.tv.TvView extends android.view.ViewGroup {
+  public static final int ERROR_BUSY;
+  public static final int ERROR_TV_INPUT_DISCONNECTED;
+  public android.media.tv.TvView(android.content.Context);
+  public android.media.tv.TvView(android.content.Context, android.util.AttributeSet);
+  public android.media.tv.TvView(android.content.Context, android.util.AttributeSet, int);
+  public void setTvInputListener(android.media.tv.TvView$TvInputListener);
+  public void setStreamVolume(float);
+  public void tune(java.lang.String, android.net.Uri);
+  public void reset();
+  public boolean dispatchUnhandledInputEvent(android.view.InputEvent);
+  public boolean onUnhandledInputEvent(android.view.InputEvent);
+  public void setOnUnhandledInputEventListener(android.media.tv.TvView$OnUnhandledInputEventListener);
+  public boolean dispatchKeyEvent(android.view.KeyEvent);
+  public boolean dispatchTouchEvent(android.view.MotionEvent);
+  public boolean dispatchTrackballEvent(android.view.MotionEvent);
+  public boolean dispatchGenericMotionEvent(android.view.MotionEvent);
+  protected void onAttachedToWindow();
+  protected void onDetachedFromWindow();
+  protected void onLayout(boolean, int, int, int, int);
+  protected void onMeasure(int, int);
+  public void setVisibility(int);
+}

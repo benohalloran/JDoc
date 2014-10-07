@@ -1,0 +1,9 @@
+Compiled from "Contacts.java"
+public interface android.provider.Contacts$PhotosColumns {
+  public static final java.lang.String DATA;
+  public static final java.lang.String DOWNLOAD_REQUIRED;
+  public static final java.lang.String EXISTS_ON_SERVER;
+  public static final java.lang.String LOCAL_VERSION;
+  public static final java.lang.String PERSON_ID;
+  public static final java.lang.String SYNC_ERROR;
+}

@@ -1,0 +1,12 @@
+Compiled from "GestureDetector.java"
+public class android.view.GestureDetector {
+  public android.view.GestureDetector(android.view.GestureDetector$OnGestureListener, android.os.Handler);
+  public android.view.GestureDetector(android.view.GestureDetector$OnGestureListener);
+  public android.view.GestureDetector(android.content.Context, android.view.GestureDetector$OnGestureListener);
+  public android.view.GestureDetector(android.content.Context, android.view.GestureDetector$OnGestureListener, android.os.Handler);
+  public android.view.GestureDetector(android.content.Context, android.view.GestureDetector$OnGestureListener, android.os.Handler, boolean);
+  public void setOnDoubleTapListener(android.view.GestureDetector$OnDoubleTapListener);
+  public void setIsLongpressEnabled(boolean);
+  public boolean isLongpressEnabled();
+  public boolean onTouchEvent(android.view.MotionEvent);
+}

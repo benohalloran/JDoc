@@ -1,0 +1,8 @@
+Compiled from "PhoneNumberFormattingTextWatcher.java"
+public class android.telephony.PhoneNumberFormattingTextWatcher implements android.text.TextWatcher {
+  public android.telephony.PhoneNumberFormattingTextWatcher();
+  public android.telephony.PhoneNumberFormattingTextWatcher(java.lang.String);
+  public void beforeTextChanged(java.lang.CharSequence, int, int, int);
+  public void onTextChanged(java.lang.CharSequence, int, int, int);
+  public synchronized void afterTextChanged(android.text.Editable);
+}

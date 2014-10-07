@@ -1,0 +1,11 @@
+Compiled from "AbstractMap.java"
+public class java.util.AbstractMap$SimpleEntry<K, V> implements java.util.Map$Entry<K, V>, java.io.Serializable {
+  public java.util.AbstractMap$SimpleEntry(K, V);
+  public java.util.AbstractMap$SimpleEntry(java.util.Map$Entry<? extends K, ? extends V>);
+  public K getKey();
+  public V getValue();
+  public V setValue(V);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}

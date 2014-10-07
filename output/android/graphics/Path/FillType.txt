@@ -1,0 +1,10 @@
+Compiled from "Path.java"
+public final class android.graphics.Path$FillType extends java.lang.Enum<android.graphics.Path$FillType> {
+  public static final android.graphics.Path$FillType EVEN_ODD;
+  public static final android.graphics.Path$FillType INVERSE_EVEN_ODD;
+  public static final android.graphics.Path$FillType INVERSE_WINDING;
+  public static final android.graphics.Path$FillType WINDING;
+  public static android.graphics.Path$FillType[] values();
+  public static android.graphics.Path$FillType valueOf(java.lang.String);
+  static {};
+}

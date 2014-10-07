@@ -1,0 +1,28 @@
+Compiled from "R.java"
+public final class android.R$layout {
+  public static final int activity_list_item;
+  public static final int browser_link_context_header;
+  public static final int expandable_list_content;
+  public static final int list_content;
+  public static final int preference_category;
+  public static final int select_dialog_item;
+  public static final int select_dialog_multichoice;
+  public static final int select_dialog_singlechoice;
+  public static final int simple_dropdown_item_1line;
+  public static final int simple_expandable_list_item_1;
+  public static final int simple_expandable_list_item_2;
+  public static final int simple_gallery_item;
+  public static final int simple_list_item_1;
+  public static final int simple_list_item_2;
+  public static final int simple_list_item_activated_1;
+  public static final int simple_list_item_activated_2;
+  public static final int simple_list_item_checked;
+  public static final int simple_list_item_multiple_choice;
+  public static final int simple_list_item_single_choice;
+  public static final int simple_selectable_list_item;
+  public static final int simple_spinner_dropdown_item;
+  public static final int simple_spinner_item;
+  public static final int test_list_item;
+  public static final int two_line_list_item;
+  public android.R$layout();
+}

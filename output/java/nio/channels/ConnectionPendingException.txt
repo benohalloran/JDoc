@@ -1,0 +1,4 @@
+Compiled from "ConnectionPendingException.java"
+public class java.nio.channels.ConnectionPendingException extends java.lang.IllegalStateException {
+  public java.nio.channels.ConnectionPendingException();
+}

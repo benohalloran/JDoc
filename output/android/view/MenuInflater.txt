@@ -1,0 +1,5 @@
+Compiled from "MenuInflater.java"
+public class android.view.MenuInflater {
+  public android.view.MenuInflater(android.content.Context);
+  public void inflate(int, android.view.Menu);
+}

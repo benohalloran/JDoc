@@ -1,0 +1,4 @@
+Compiled from "RemoteControlClient.java"
+public interface android.media.RemoteControlClient$OnMetadataUpdateListener {
+  public abstract void onMetadataUpdate(int, java.lang.Object);
+}

@@ -1,0 +1,8 @@
+Compiled from "PathInterpolator.java"
+public class android.view.animation.PathInterpolator implements android.view.animation.Interpolator {
+  public android.view.animation.PathInterpolator(android.graphics.Path);
+  public android.view.animation.PathInterpolator(float, float);
+  public android.view.animation.PathInterpolator(float, float, float, float);
+  public android.view.animation.PathInterpolator(android.content.Context, android.util.AttributeSet);
+  public float getInterpolation(float);
+}

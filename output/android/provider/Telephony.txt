@@ -1,0 +1,4 @@
+Compiled from "Telephony.java"
+public final class android.provider.Telephony {
+  android.provider.Telephony();
+}

@@ -1,0 +1,4 @@
+Compiled from "RSInvalidStateException.java"
+public class android.renderscript.RSInvalidStateException extends android.renderscript.RSRuntimeException {
+  public android.renderscript.RSInvalidStateException(java.lang.String);
+}

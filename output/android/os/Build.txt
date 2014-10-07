@@ -1,0 +1,27 @@
+Compiled from "Build.java"
+public class android.os.Build {
+  public static final java.lang.String BOARD;
+  public static final java.lang.String BOOTLOADER;
+  public static final java.lang.String BRAND;
+  public static final java.lang.String CPU_ABI;
+  public static final java.lang.String CPU_ABI2;
+  public static final java.lang.String DEVICE;
+  public static final java.lang.String DISPLAY;
+  public static final java.lang.String FINGERPRINT;
+  public static final java.lang.String HARDWARE;
+  public static final java.lang.String HOST;
+  public static final java.lang.String ID;
+  public static final java.lang.String MANUFACTURER;
+  public static final java.lang.String MODEL;
+  public static final java.lang.String PRODUCT;
+  public static final java.lang.String RADIO;
+  public static final java.lang.String SERIAL;
+  public static final java.lang.String TAGS;
+  public static final long TIME;
+  public static final java.lang.String TYPE;
+  public static final java.lang.String UNKNOWN;
+  public static final java.lang.String USER;
+  public android.os.Build();
+  public static java.lang.String getRadioVersion();
+  static {};
+}

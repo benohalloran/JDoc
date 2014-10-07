@@ -1,0 +1,8 @@
+Compiled from "InstrumentationTestSuite.java"
+public class android.test.InstrumentationTestSuite extends junit.framework.TestSuite {
+  public android.test.InstrumentationTestSuite(android.app.Instrumentation);
+  public android.test.InstrumentationTestSuite(java.lang.String, android.app.Instrumentation);
+  public android.test.InstrumentationTestSuite(java.lang.Class, android.app.Instrumentation);
+  public void addTestSuite(java.lang.Class);
+  public void runTest(junit.framework.Test, junit.framework.TestResult);
+}

@@ -1,0 +1,4 @@
+Compiled from "ClosedSelectorException.java"
+public class java.nio.channels.ClosedSelectorException extends java.lang.IllegalStateException {
+  public java.nio.channels.ClosedSelectorException();
+}

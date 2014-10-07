@@ -1,0 +1,6 @@
+Compiled from "PropertyPermission.java"
+public final class java.util.PropertyPermission extends java.security.BasicPermission {
+  public java.util.PropertyPermission(java.lang.String, java.lang.String);
+  public java.lang.String getActions();
+  public boolean implies(java.security.Permission);
+}

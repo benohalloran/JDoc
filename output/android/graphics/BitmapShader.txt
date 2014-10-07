@@ -1,0 +1,4 @@
+Compiled from "BitmapShader.java"
+public class android.graphics.BitmapShader extends android.graphics.Shader {
+  public android.graphics.BitmapShader(android.graphics.Bitmap, android.graphics.Shader$TileMode, android.graphics.Shader$TileMode);
+}

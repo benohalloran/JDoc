@@ -1,0 +1,19 @@
+Compiled from "JSONTokener.java"
+public class org.json.JSONTokener {
+  public org.json.JSONTokener(java.lang.String);
+  public java.lang.Object nextValue() throws org.json.JSONException;
+  public java.lang.String nextString(char) throws org.json.JSONException;
+  public org.json.JSONException syntaxError(java.lang.String);
+  public java.lang.String toString();
+  public boolean more();
+  public char next();
+  public char next(char) throws org.json.JSONException;
+  public char nextClean() throws org.json.JSONException;
+  public java.lang.String next(int) throws org.json.JSONException;
+  public java.lang.String nextTo(java.lang.String);
+  public java.lang.String nextTo(char);
+  public void skipPast(java.lang.String);
+  public char skipTo(char);
+  public void back();
+  public static int dehexchar(char);
+}

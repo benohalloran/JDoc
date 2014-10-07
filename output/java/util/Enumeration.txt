@@ -1,0 +1,5 @@
+Compiled from "Enumeration.java"
+public interface java.util.Enumeration<E> {
+  public abstract boolean hasMoreElements();
+  public abstract E nextElement();
+}

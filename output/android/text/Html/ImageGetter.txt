@@ -1,0 +1,4 @@
+Compiled from "Html.java"
+public interface android.text.Html$ImageGetter {
+  public abstract android.graphics.drawable.Drawable getDrawable(java.lang.String);
+}

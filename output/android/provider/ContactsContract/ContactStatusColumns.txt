@@ -1,0 +1,10 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$ContactStatusColumns {
+  public static final java.lang.String CONTACT_CHAT_CAPABILITY;
+  public static final java.lang.String CONTACT_PRESENCE;
+  public static final java.lang.String CONTACT_STATUS;
+  public static final java.lang.String CONTACT_STATUS_ICON;
+  public static final java.lang.String CONTACT_STATUS_LABEL;
+  public static final java.lang.String CONTACT_STATUS_RES_PACKAGE;
+  public static final java.lang.String CONTACT_STATUS_TIMESTAMP;
+}

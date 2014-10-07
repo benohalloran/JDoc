@@ -1,0 +1,9 @@
+Compiled from "KeyStore.java"
+public abstract class java.security.KeyStore$Builder {
+  protected java.security.KeyStore$Builder();
+  public abstract java.security.KeyStore getKeyStore() throws java.security.KeyStoreException;
+  public abstract java.security.KeyStore$ProtectionParameter getProtectionParameter(java.lang.String) throws java.security.KeyStoreException;
+  public static java.security.KeyStore$Builder newInstance(java.security.KeyStore, java.security.KeyStore$ProtectionParameter);
+  public static java.security.KeyStore$Builder newInstance(java.lang.String, java.security.Provider, java.io.File, java.security.KeyStore$ProtectionParameter);
+  public static java.security.KeyStore$Builder newInstance(java.lang.String, java.security.Provider, java.security.KeyStore$ProtectionParameter);
+}

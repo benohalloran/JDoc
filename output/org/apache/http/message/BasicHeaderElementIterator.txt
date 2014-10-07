@@ -1,0 +1,9 @@
+Compiled from "BasicHeaderElementIterator.java"
+public class org.apache.http.message.BasicHeaderElementIterator implements org.apache.http.HeaderElementIterator {
+  public org.apache.http.message.BasicHeaderElementIterator(org.apache.http.HeaderIterator, org.apache.http.message.HeaderValueParser);
+  public org.apache.http.message.BasicHeaderElementIterator(org.apache.http.HeaderIterator);
+  public boolean hasNext();
+  public org.apache.http.HeaderElement nextElement() throws java.util.NoSuchElementException;
+  public final java.lang.Object next() throws java.util.NoSuchElementException;
+  public void remove() throws java.lang.UnsupportedOperationException;
+}

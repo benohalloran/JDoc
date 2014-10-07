@@ -1,0 +1,40 @@
+Compiled from "GL11Ext.java"
+public interface javax.microedition.khronos.opengles.GL11Ext extends javax.microedition.khronos.opengles.GL {
+  public static final int GL_MATRIX_INDEX_ARRAY_BUFFER_BINDING_OES;
+  public static final int GL_MATRIX_INDEX_ARRAY_OES;
+  public static final int GL_MATRIX_INDEX_ARRAY_POINTER_OES;
+  public static final int GL_MATRIX_INDEX_ARRAY_SIZE_OES;
+  public static final int GL_MATRIX_INDEX_ARRAY_STRIDE_OES;
+  public static final int GL_MATRIX_INDEX_ARRAY_TYPE_OES;
+  public static final int GL_MATRIX_PALETTE_OES;
+  public static final int GL_MAX_PALETTE_MATRICES_OES;
+  public static final int GL_MAX_VERTEX_UNITS_OES;
+  public static final int GL_TEXTURE_CROP_RECT_OES;
+  public static final int GL_WEIGHT_ARRAY_BUFFER_BINDING_OES;
+  public static final int GL_WEIGHT_ARRAY_OES;
+  public static final int GL_WEIGHT_ARRAY_POINTER_OES;
+  public static final int GL_WEIGHT_ARRAY_SIZE_OES;
+  public static final int GL_WEIGHT_ARRAY_STRIDE_OES;
+  public static final int GL_WEIGHT_ARRAY_TYPE_OES;
+  public abstract void glTexParameterfv(int, int, float[], int);
+  public abstract void glCurrentPaletteMatrixOES(int);
+  public abstract void glDrawTexfOES(float, float, float, float, float);
+  public abstract void glDrawTexfvOES(float[], int);
+  public abstract void glDrawTexfvOES(java.nio.FloatBuffer);
+  public abstract void glDrawTexiOES(int, int, int, int, int);
+  public abstract void glDrawTexivOES(int[], int);
+  public abstract void glDrawTexivOES(java.nio.IntBuffer);
+  public abstract void glDrawTexsOES(short, short, short, short, short);
+  public abstract void glDrawTexsvOES(short[], int);
+  public abstract void glDrawTexsvOES(java.nio.ShortBuffer);
+  public abstract void glDrawTexxOES(int, int, int, int, int);
+  public abstract void glDrawTexxvOES(int[], int);
+  public abstract void glDrawTexxvOES(java.nio.IntBuffer);
+  public abstract void glEnable(int);
+  public abstract void glEnableClientState(int);
+  public abstract void glLoadPaletteFromModelViewMatrixOES();
+  public abstract void glMatrixIndexPointerOES(int, int, int, java.nio.Buffer);
+  public abstract void glMatrixIndexPointerOES(int, int, int, int);
+  public abstract void glWeightPointerOES(int, int, int, java.nio.Buffer);
+  public abstract void glWeightPointerOES(int, int, int, int);
+}

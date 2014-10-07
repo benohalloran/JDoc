@@ -1,0 +1,46 @@
+Compiled from "ObjectAnimator.java"
+public final class android.animation.ObjectAnimator extends android.animation.ValueAnimator {
+  public android.animation.ObjectAnimator();
+  public void setPropertyName(java.lang.String);
+  public void setProperty(android.util.Property);
+  public java.lang.String getPropertyName();
+  public static android.animation.ObjectAnimator ofInt(java.lang.Object, java.lang.String, int...);
+  public static android.animation.ObjectAnimator ofInt(java.lang.Object, java.lang.String, java.lang.String, android.graphics.Path);
+  public static <T extends java/lang/Object> android.animation.ObjectAnimator ofInt(T, android.util.Property<T, java.lang.Integer>, int...);
+  public static <T extends java/lang/Object> android.animation.ObjectAnimator ofInt(T, android.util.Property<T, java.lang.Integer>, android.util.Property<T, java.lang.Integer>, android.graphics.Path);
+  public static android.animation.ObjectAnimator ofMultiInt(java.lang.Object, java.lang.String, int[][]);
+  public static android.animation.ObjectAnimator ofMultiInt(java.lang.Object, java.lang.String, android.graphics.Path);
+  public static <T extends java/lang/Object> android.animation.ObjectAnimator ofMultiInt(java.lang.Object, java.lang.String, android.animation.TypeConverter<T, int[]>, android.animation.TypeEvaluator<T>, T...);
+  public static android.animation.ObjectAnimator ofArgb(java.lang.Object, java.lang.String, int...);
+  public static <T extends java/lang/Object> android.animation.ObjectAnimator ofArgb(T, android.util.Property<T, java.lang.Integer>, int...);
+  public static android.animation.ObjectAnimator ofFloat(java.lang.Object, java.lang.String, float...);
+  public static android.animation.ObjectAnimator ofFloat(java.lang.Object, java.lang.String, java.lang.String, android.graphics.Path);
+  public static <T extends java/lang/Object> android.animation.ObjectAnimator ofFloat(T, android.util.Property<T, java.lang.Float>, float...);
+  public static <T extends java/lang/Object> android.animation.ObjectAnimator ofFloat(T, android.util.Property<T, java.lang.Float>, android.util.Property<T, java.lang.Float>, android.graphics.Path);
+  public static android.animation.ObjectAnimator ofMultiFloat(java.lang.Object, java.lang.String, float[][]);
+  public static android.animation.ObjectAnimator ofMultiFloat(java.lang.Object, java.lang.String, android.graphics.Path);
+  public static <T extends java/lang/Object> android.animation.ObjectAnimator ofMultiFloat(java.lang.Object, java.lang.String, android.animation.TypeConverter<T, float[]>, android.animation.TypeEvaluator<T>, T...);
+  public static android.animation.ObjectAnimator ofObject(java.lang.Object, java.lang.String, android.animation.TypeEvaluator, java.lang.Object...);
+  public static android.animation.ObjectAnimator ofObject(java.lang.Object, java.lang.String, android.animation.TypeConverter<android.graphics.PointF, ?>, android.graphics.Path);
+  public static <T extends java/lang/Object, V extends java/lang/Object> android.animation.ObjectAnimator ofObject(T, android.util.Property<T, V>, android.animation.TypeEvaluator<V>, V...);
+  public static <T extends java/lang/Object, V extends java/lang/Object, P extends java/lang/Object> android.animation.ObjectAnimator ofObject(T, android.util.Property<T, P>, android.animation.TypeConverter<V, P>, android.animation.TypeEvaluator<V>, V...);
+  public static <T extends java/lang/Object, V extends java/lang/Object> android.animation.ObjectAnimator ofObject(T, android.util.Property<T, V>, android.animation.TypeConverter<android.graphics.PointF, V>, android.graphics.Path);
+  public static android.animation.ObjectAnimator ofPropertyValuesHolder(java.lang.Object, android.animation.PropertyValuesHolder...);
+  public void setIntValues(int...);
+  public void setFloatValues(float...);
+  public void setObjectValues(java.lang.Object...);
+  public void setAutoCancel(boolean);
+  public void start();
+  public android.animation.ObjectAnimator setDuration(long);
+  public java.lang.Object getTarget();
+  public void setTarget(java.lang.Object);
+  public void setupStartValues();
+  public void setupEndValues();
+  public android.animation.ObjectAnimator clone();
+  public java.lang.String toString();
+  public android.animation.ValueAnimator clone();
+  public android.animation.ValueAnimator setDuration(long);
+  public android.animation.Animator clone();
+  public android.animation.Animator setDuration(long);
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

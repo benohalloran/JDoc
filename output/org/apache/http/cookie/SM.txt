@@ -1,0 +1,7 @@
+Compiled from "SM.java"
+public interface org.apache.http.cookie.SM {
+  public static final java.lang.String COOKIE;
+  public static final java.lang.String COOKIE2;
+  public static final java.lang.String SET_COOKIE;
+  public static final java.lang.String SET_COOKIE2;
+}

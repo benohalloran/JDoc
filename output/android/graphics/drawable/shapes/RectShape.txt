@@ -1,0 +1,11 @@
+Compiled from "RectShape.java"
+public class android.graphics.drawable.shapes.RectShape extends android.graphics.drawable.shapes.Shape {
+  public android.graphics.drawable.shapes.RectShape();
+  public void draw(android.graphics.Canvas, android.graphics.Paint);
+  public boolean getOutline(android.graphics.Outline);
+  protected void onResize(float, float);
+  protected final android.graphics.RectF rect();
+  public android.graphics.drawable.shapes.RectShape clone() throws java.lang.CloneNotSupportedException;
+  public android.graphics.drawable.shapes.Shape clone() throws java.lang.CloneNotSupportedException;
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

@@ -1,0 +1,26 @@
+Compiled from "Selection.java"
+public class android.text.Selection {
+  public static final java.lang.Object SELECTION_END;
+  public static final java.lang.Object SELECTION_START;
+  android.text.Selection();
+  public static final int getSelectionStart(java.lang.CharSequence);
+  public static final int getSelectionEnd(java.lang.CharSequence);
+  public static void setSelection(android.text.Spannable, int, int);
+  public static final void setSelection(android.text.Spannable, int);
+  public static final void selectAll(android.text.Spannable);
+  public static final void extendSelection(android.text.Spannable, int);
+  public static final void removeSelection(android.text.Spannable);
+  public static boolean moveUp(android.text.Spannable, android.text.Layout);
+  public static boolean moveDown(android.text.Spannable, android.text.Layout);
+  public static boolean moveLeft(android.text.Spannable, android.text.Layout);
+  public static boolean moveRight(android.text.Spannable, android.text.Layout);
+  public static boolean extendUp(android.text.Spannable, android.text.Layout);
+  public static boolean extendDown(android.text.Spannable, android.text.Layout);
+  public static boolean extendLeft(android.text.Spannable, android.text.Layout);
+  public static boolean extendRight(android.text.Spannable, android.text.Layout);
+  public static boolean extendToLeftEdge(android.text.Spannable, android.text.Layout);
+  public static boolean extendToRightEdge(android.text.Spannable, android.text.Layout);
+  public static boolean moveToLeftEdge(android.text.Spannable, android.text.Layout);
+  public static boolean moveToRightEdge(android.text.Spannable, android.text.Layout);
+  static {};
+}

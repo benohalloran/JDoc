@@ -1,0 +1,5 @@
+Compiled from "StringBuilderPrinter.java"
+public class android.util.StringBuilderPrinter implements android.util.Printer {
+  public android.util.StringBuilderPrinter(java.lang.StringBuilder);
+  public void println(java.lang.String);
+}

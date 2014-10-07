@@ -1,0 +1,10 @@
+Compiled from "DrmInfoStatus.java"
+public class android.drm.DrmInfoStatus {
+  public static final int STATUS_ERROR;
+  public static final int STATUS_OK;
+  public final android.drm.ProcessedData data;
+  public final int infoType;
+  public final java.lang.String mimeType;
+  public final int statusCode;
+  public android.drm.DrmInfoStatus(int, int, android.drm.ProcessedData, java.lang.String);
+}

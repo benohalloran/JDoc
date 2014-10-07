@@ -1,0 +1,17 @@
+Compiled from "DocumentsContract.java"
+public final class android.provider.DocumentsContract$Root {
+  public static final java.lang.String COLUMN_AVAILABLE_BYTES;
+  public static final java.lang.String COLUMN_DOCUMENT_ID;
+  public static final java.lang.String COLUMN_FLAGS;
+  public static final java.lang.String COLUMN_ICON;
+  public static final java.lang.String COLUMN_MIME_TYPES;
+  public static final java.lang.String COLUMN_ROOT_ID;
+  public static final java.lang.String COLUMN_SUMMARY;
+  public static final java.lang.String COLUMN_TITLE;
+  public static final int FLAG_LOCAL_ONLY;
+  public static final int FLAG_SUPPORTS_CREATE;
+  public static final int FLAG_SUPPORTS_IS_CHILD;
+  public static final int FLAG_SUPPORTS_RECENTS;
+  public static final int FLAG_SUPPORTS_SEARCH;
+  android.provider.DocumentsContract$Root();
+}

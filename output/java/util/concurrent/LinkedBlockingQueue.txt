@@ -1,0 +1,24 @@
+Compiled from "LinkedBlockingQueue.java"
+public class java.util.concurrent.LinkedBlockingQueue<E> extends java.util.AbstractQueue<E> implements java.util.concurrent.BlockingQueue<E>, java.io.Serializable {
+  public java.util.concurrent.LinkedBlockingQueue();
+  public java.util.concurrent.LinkedBlockingQueue(int);
+  public java.util.concurrent.LinkedBlockingQueue(java.util.Collection<? extends E>);
+  public int size();
+  public int remainingCapacity();
+  public void put(E) throws java.lang.InterruptedException;
+  public boolean offer(E, long, java.util.concurrent.TimeUnit) throws java.lang.InterruptedException;
+  public boolean offer(E);
+  public E take() throws java.lang.InterruptedException;
+  public E poll(long, java.util.concurrent.TimeUnit) throws java.lang.InterruptedException;
+  public E poll();
+  public E peek();
+  public boolean remove(java.lang.Object);
+  public boolean contains(java.lang.Object);
+  public java.lang.Object[] toArray();
+  public <T extends java/lang/Object> T[] toArray(T[]);
+  public java.lang.String toString();
+  public void clear();
+  public int drainTo(java.util.Collection<? super E>);
+  public int drainTo(java.util.Collection<? super E>, int);
+  public java.util.Iterator<E> iterator();
+}

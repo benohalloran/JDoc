@@ -1,0 +1,5 @@
+Compiled from "InputQueue.java"
+public final class android.view.InputQueue {
+  android.view.InputQueue();
+  protected void finalize() throws java.lang.Throwable;
+}

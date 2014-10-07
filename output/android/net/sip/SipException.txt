@@ -1,0 +1,6 @@
+Compiled from "SipException.java"
+public class android.net.sip.SipException extends java.lang.Exception {
+  public android.net.sip.SipException();
+  public android.net.sip.SipException(java.lang.String);
+  public android.net.sip.SipException(java.lang.String, java.lang.Throwable);
+}

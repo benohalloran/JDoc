@@ -1,0 +1,26 @@
+Compiled from "WifiP2pDevice.java"
+public class android.net.wifi.p2p.WifiP2pDevice implements android.os.Parcelable {
+  public static final int AVAILABLE;
+  public static final int CONNECTED;
+  public static final android.os.Parcelable$Creator<android.net.wifi.p2p.WifiP2pDevice> CREATOR;
+  public static final int FAILED;
+  public static final int INVITED;
+  public static final int UNAVAILABLE;
+  public java.lang.String deviceAddress;
+  public java.lang.String deviceName;
+  public java.lang.String primaryDeviceType;
+  public java.lang.String secondaryDeviceType;
+  public int status;
+  public android.net.wifi.p2p.WifiP2pDevice();
+  public android.net.wifi.p2p.WifiP2pDevice(android.net.wifi.p2p.WifiP2pDevice);
+  public boolean wpsPbcSupported();
+  public boolean wpsKeypadSupported();
+  public boolean wpsDisplaySupported();
+  public boolean isServiceDiscoveryCapable();
+  public boolean isGroupOwner();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

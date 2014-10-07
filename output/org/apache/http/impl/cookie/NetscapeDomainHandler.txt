@@ -1,0 +1,6 @@
+Compiled from "NetscapeDomainHandler.java"
+public class org.apache.http.impl.cookie.NetscapeDomainHandler extends org.apache.http.impl.cookie.BasicDomainHandler {
+  public org.apache.http.impl.cookie.NetscapeDomainHandler();
+  public void validate(org.apache.http.cookie.Cookie, org.apache.http.cookie.CookieOrigin) throws org.apache.http.cookie.MalformedCookieException;
+  public boolean match(org.apache.http.cookie.Cookie, org.apache.http.cookie.CookieOrigin);
+}

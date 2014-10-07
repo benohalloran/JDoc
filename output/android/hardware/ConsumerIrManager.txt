@@ -1,0 +1,7 @@
+Compiled from "ConsumerIrManager.java"
+public final class android.hardware.ConsumerIrManager {
+  android.hardware.ConsumerIrManager();
+  public boolean hasIrEmitter();
+  public void transmit(int, int[]);
+  public android.hardware.ConsumerIrManager$CarrierFrequencyRange[] getCarrierFrequencies();
+}

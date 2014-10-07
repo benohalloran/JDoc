@@ -1,0 +1,9 @@
+Compiled from "Adler32.java"
+public class java.util.zip.Adler32 implements java.util.zip.Checksum {
+  public java.util.zip.Adler32();
+  public long getValue();
+  public void reset();
+  public void update(int);
+  public void update(byte[]);
+  public void update(byte[], int, int);
+}

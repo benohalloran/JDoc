@@ -1,0 +1,4 @@
+Compiled from "Printer.java"
+public interface android.util.Printer {
+  public abstract void println(java.lang.String);
+}

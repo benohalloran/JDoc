@@ -1,0 +1,6 @@
+Compiled from "GridLayout.java"
+public class android.widget.GridLayout$Spec {
+  android.widget.GridLayout$Spec();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

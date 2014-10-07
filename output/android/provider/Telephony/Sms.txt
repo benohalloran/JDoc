@@ -1,0 +1,8 @@
+Compiled from "Telephony.java"
+public final class android.provider.Telephony$Sms implements android.provider.BaseColumns,android.provider.Telephony$TextBasedSmsColumns {
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  android.provider.Telephony$Sms();
+  public static java.lang.String getDefaultSmsPackage(android.content.Context);
+  static {};
+}

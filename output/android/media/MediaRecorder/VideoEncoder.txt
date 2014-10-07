@@ -1,0 +1,9 @@
+Compiled from "MediaRecorder.java"
+public final class android.media.MediaRecorder$VideoEncoder {
+  public static final int DEFAULT;
+  public static final int H263;
+  public static final int H264;
+  public static final int MPEG_4_SP;
+  final android.media.MediaRecorder this$0;
+  android.media.MediaRecorder$VideoEncoder(android.media.MediaRecorder);
+}

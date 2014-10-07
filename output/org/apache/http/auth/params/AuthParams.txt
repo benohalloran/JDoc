@@ -1,0 +1,6 @@
+Compiled from "AuthParams.java"
+public final class org.apache.http.auth.params.AuthParams {
+  org.apache.http.auth.params.AuthParams();
+  public static java.lang.String getCredentialCharset(org.apache.http.params.HttpParams);
+  public static void setCredentialCharset(org.apache.http.params.HttpParams, java.lang.String);
+}

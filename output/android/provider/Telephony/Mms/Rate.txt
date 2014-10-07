@@ -1,0 +1,7 @@
+Compiled from "Telephony.java"
+public final class android.provider.Telephony$Mms$Rate {
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String SENT_TIME;
+  android.provider.Telephony$Mms$Rate();
+  static {};
+}

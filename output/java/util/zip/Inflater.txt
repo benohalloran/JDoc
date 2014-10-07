@@ -1,0 +1,23 @@
+Compiled from "Inflater.java"
+public class java.util.zip.Inflater {
+  public java.util.zip.Inflater();
+  public java.util.zip.Inflater(boolean);
+  public synchronized void end();
+  protected void finalize();
+  public synchronized boolean finished();
+  public synchronized int getAdler();
+  public synchronized long getBytesRead();
+  public synchronized long getBytesWritten();
+  public synchronized int getRemaining();
+  public synchronized int getTotalIn();
+  public synchronized int getTotalOut();
+  public int inflate(byte[]) throws java.util.zip.DataFormatException;
+  public synchronized int inflate(byte[], int, int) throws java.util.zip.DataFormatException;
+  public synchronized boolean needsDictionary();
+  public synchronized boolean needsInput();
+  public synchronized void reset();
+  public synchronized void setDictionary(byte[]);
+  public synchronized void setDictionary(byte[], int, int);
+  public synchronized void setInput(byte[]);
+  public synchronized void setInput(byte[], int, int);
+}

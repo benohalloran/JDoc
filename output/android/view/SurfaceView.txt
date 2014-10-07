@@ -1,0 +1,18 @@
+Compiled from "SurfaceView.java"
+public class android.view.SurfaceView extends android.view.View {
+  public android.view.SurfaceView(android.content.Context);
+  public android.view.SurfaceView(android.content.Context, android.util.AttributeSet);
+  public android.view.SurfaceView(android.content.Context, android.util.AttributeSet, int);
+  public android.view.SurfaceView(android.content.Context, android.util.AttributeSet, int, int);
+  public android.view.SurfaceHolder getHolder();
+  protected void onAttachedToWindow();
+  protected void onWindowVisibilityChanged(int);
+  public void setVisibility(int);
+  protected void onMeasure(int, int);
+  public boolean gatherTransparentRegion(android.graphics.Region);
+  public void draw(android.graphics.Canvas);
+  protected void dispatchDraw(android.graphics.Canvas);
+  public void setZOrderMediaOverlay(boolean);
+  public void setZOrderOnTop(boolean);
+  public void setSecure(boolean);
+}

@@ -1,0 +1,11 @@
+Compiled from "LoggingSessionInputBuffer.java"
+public class org.apache.http.impl.conn.LoggingSessionInputBuffer implements org.apache.http.io.SessionInputBuffer {
+  public org.apache.http.impl.conn.LoggingSessionInputBuffer(org.apache.http.io.SessionInputBuffer, org.apache.http.impl.conn.Wire);
+  public boolean isDataAvailable(int) throws java.io.IOException;
+  public int read(byte[], int, int) throws java.io.IOException;
+  public int read() throws java.io.IOException;
+  public int read(byte[]) throws java.io.IOException;
+  public java.lang.String readLine() throws java.io.IOException;
+  public int readLine(org.apache.http.util.CharArrayBuffer) throws java.io.IOException;
+  public org.apache.http.io.HttpTransportMetrics getMetrics();
+}

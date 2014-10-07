@@ -1,0 +1,4 @@
+Compiled from "TvContract.java"
+public interface android.media.tv.TvContract$BaseTvColumns extends android.provider.BaseColumns {
+  public static final java.lang.String COLUMN_PACKAGE_NAME;
+}

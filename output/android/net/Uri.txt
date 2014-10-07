@@ -1,0 +1,47 @@
+Compiled from "Uri.java"
+public abstract class android.net.Uri implements android.os.Parcelable, java.lang.Comparable<android.net.Uri> {
+  public static final android.os.Parcelable$Creator<android.net.Uri> CREATOR;
+  public static final android.net.Uri EMPTY;
+  android.net.Uri();
+  public abstract boolean isHierarchical();
+  public boolean isOpaque();
+  public abstract boolean isRelative();
+  public boolean isAbsolute();
+  public abstract java.lang.String getScheme();
+  public abstract java.lang.String getSchemeSpecificPart();
+  public abstract java.lang.String getEncodedSchemeSpecificPart();
+  public abstract java.lang.String getAuthority();
+  public abstract java.lang.String getEncodedAuthority();
+  public abstract java.lang.String getUserInfo();
+  public abstract java.lang.String getEncodedUserInfo();
+  public abstract java.lang.String getHost();
+  public abstract int getPort();
+  public abstract java.lang.String getPath();
+  public abstract java.lang.String getEncodedPath();
+  public abstract java.lang.String getQuery();
+  public abstract java.lang.String getEncodedQuery();
+  public abstract java.lang.String getFragment();
+  public abstract java.lang.String getEncodedFragment();
+  public abstract java.util.List<java.lang.String> getPathSegments();
+  public abstract java.lang.String getLastPathSegment();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public int compareTo(android.net.Uri);
+  public abstract java.lang.String toString();
+  public abstract android.net.Uri$Builder buildUpon();
+  public static android.net.Uri parse(java.lang.String);
+  public static android.net.Uri fromFile(java.io.File);
+  public static android.net.Uri fromParts(java.lang.String, java.lang.String, java.lang.String);
+  public java.util.Set<java.lang.String> getQueryParameterNames();
+  public java.util.List<java.lang.String> getQueryParameters(java.lang.String);
+  public java.lang.String getQueryParameter(java.lang.String);
+  public boolean getBooleanQueryParameter(java.lang.String, boolean);
+  public android.net.Uri normalizeScheme();
+  public static void writeToParcel(android.os.Parcel, android.net.Uri);
+  public static java.lang.String encode(java.lang.String);
+  public static java.lang.String encode(java.lang.String, java.lang.String);
+  public static java.lang.String decode(java.lang.String);
+  public static android.net.Uri withAppendedPath(android.net.Uri, java.lang.String);
+  public int compareTo(java.lang.Object);
+  static {};
+}

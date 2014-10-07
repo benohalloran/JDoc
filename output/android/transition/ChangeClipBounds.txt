@@ -1,0 +1,8 @@
+Compiled from "ChangeClipBounds.java"
+public class android.transition.ChangeClipBounds extends android.transition.Transition {
+  public android.transition.ChangeClipBounds();
+  public java.lang.String[] getTransitionProperties();
+  public void captureStartValues(android.transition.TransitionValues);
+  public void captureEndValues(android.transition.TransitionValues);
+  public android.animation.Animator createAnimator(android.view.ViewGroup, android.transition.TransitionValues, android.transition.TransitionValues);
+}

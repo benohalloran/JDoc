@@ -1,0 +1,13 @@
+Compiled from "SpellCheckerSession.java"
+public class android.view.textservice.SpellCheckerSession {
+  public static final java.lang.String SERVICE_META_DATA;
+  android.view.textservice.SpellCheckerSession();
+  public boolean isSessionDisconnected();
+  public android.view.textservice.SpellCheckerInfo getSpellChecker();
+  public void cancel();
+  public void close();
+  public void getSentenceSuggestions(android.view.textservice.TextInfo[], int);
+  public void getSuggestions(android.view.textservice.TextInfo, int);
+  public void getSuggestions(android.view.textservice.TextInfo[], int, boolean);
+  protected void finalize() throws java.lang.Throwable;
+}

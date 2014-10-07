@@ -1,0 +1,9 @@
+Compiled from "TextView.java"
+public final class android.widget.TextView$BufferType extends java.lang.Enum<android.widget.TextView$BufferType> {
+  public static final android.widget.TextView$BufferType EDITABLE;
+  public static final android.widget.TextView$BufferType NORMAL;
+  public static final android.widget.TextView$BufferType SPANNABLE;
+  public static android.widget.TextView$BufferType[] values();
+  public static android.widget.TextView$BufferType valueOf(java.lang.String);
+  static {};
+}

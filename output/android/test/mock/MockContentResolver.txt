@@ -1,0 +1,7 @@
+Compiled from "MockContentResolver.java"
+public class android.test.mock.MockContentResolver extends android.content.ContentResolver {
+  public android.test.mock.MockContentResolver();
+  public android.test.mock.MockContentResolver(android.content.Context);
+  public void addProvider(java.lang.String, android.content.ContentProvider);
+  public void notifyChange(android.net.Uri, android.database.ContentObserver, boolean);
+}

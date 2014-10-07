@@ -1,0 +1,5 @@
+Compiled from "NetscapeDraftSpecFactory.java"
+public class org.apache.http.impl.cookie.NetscapeDraftSpecFactory implements org.apache.http.cookie.CookieSpecFactory {
+  public org.apache.http.impl.cookie.NetscapeDraftSpecFactory();
+  public org.apache.http.cookie.CookieSpec newInstance(org.apache.http.params.HttpParams);
+}

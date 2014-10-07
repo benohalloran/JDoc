@@ -1,0 +1,11 @@
+Compiled from "Type.java"
+public class android.renderscript.Type$Builder {
+  public android.renderscript.Type$Builder(android.renderscript.RenderScript, android.renderscript.Element);
+  public android.renderscript.Type$Builder setX(int);
+  public android.renderscript.Type$Builder setY(int);
+  public android.renderscript.Type$Builder setZ(int);
+  public android.renderscript.Type$Builder setMipmaps(boolean);
+  public android.renderscript.Type$Builder setFaces(boolean);
+  public android.renderscript.Type$Builder setYuvFormat(int);
+  public android.renderscript.Type create();
+}

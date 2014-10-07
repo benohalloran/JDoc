@@ -1,0 +1,12 @@
+Compiled from "DrmRights.java"
+public class android.drm.DrmRights {
+  public android.drm.DrmRights(java.lang.String, java.lang.String);
+  public android.drm.DrmRights(java.lang.String, java.lang.String, java.lang.String);
+  public android.drm.DrmRights(java.lang.String, java.lang.String, java.lang.String, java.lang.String);
+  public android.drm.DrmRights(java.io.File, java.lang.String);
+  public android.drm.DrmRights(android.drm.ProcessedData, java.lang.String);
+  public byte[] getData();
+  public java.lang.String getMimeType();
+  public java.lang.String getAccountId();
+  public java.lang.String getSubscriptionId();
+}

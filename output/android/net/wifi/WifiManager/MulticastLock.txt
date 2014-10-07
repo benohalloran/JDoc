@@ -1,0 +1,11 @@
+Compiled from "WifiManager.java"
+public class android.net.wifi.WifiManager$MulticastLock {
+  final android.net.wifi.WifiManager this$0;
+  android.net.wifi.WifiManager$MulticastLock(android.net.wifi.WifiManager);
+  public void acquire();
+  public void release();
+  public void setReferenceCounted(boolean);
+  public boolean isHeld();
+  public java.lang.String toString();
+  protected void finalize() throws java.lang.Throwable;
+}

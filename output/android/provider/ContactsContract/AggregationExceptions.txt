@@ -1,0 +1,14 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$AggregationExceptions implements android.provider.BaseColumns {
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String RAW_CONTACT_ID1;
+  public static final java.lang.String RAW_CONTACT_ID2;
+  public static final java.lang.String TYPE;
+  public static final int TYPE_AUTOMATIC;
+  public static final int TYPE_KEEP_SEPARATE;
+  public static final int TYPE_KEEP_TOGETHER;
+  android.provider.ContactsContract$AggregationExceptions();
+  static {};
+}

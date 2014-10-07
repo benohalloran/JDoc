@@ -1,0 +1,4 @@
+Compiled from "HttpRoutePlanner.java"
+public interface org.apache.http.conn.routing.HttpRoutePlanner {
+  public abstract org.apache.http.conn.routing.HttpRoute determineRoute(org.apache.http.HttpHost, org.apache.http.HttpRequest, org.apache.http.protocol.HttpContext) throws org.apache.http.HttpException;
+}

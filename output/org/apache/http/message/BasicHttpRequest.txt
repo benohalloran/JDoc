@@ -1,0 +1,8 @@
+Compiled from "BasicHttpRequest.java"
+public class org.apache.http.message.BasicHttpRequest extends org.apache.http.message.AbstractHttpMessage implements org.apache.http.HttpRequest {
+  public org.apache.http.message.BasicHttpRequest(java.lang.String, java.lang.String);
+  public org.apache.http.message.BasicHttpRequest(java.lang.String, java.lang.String, org.apache.http.ProtocolVersion);
+  public org.apache.http.message.BasicHttpRequest(org.apache.http.RequestLine);
+  public org.apache.http.ProtocolVersion getProtocolVersion();
+  public org.apache.http.RequestLine getRequestLine();
+}

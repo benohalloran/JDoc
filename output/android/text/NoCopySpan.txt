@@ -1,0 +1,3 @@
+Compiled from "NoCopySpan.java"
+public interface android.text.NoCopySpan {
+}

@@ -1,0 +1,4 @@
+Compiled from "AutoCompleteTextView.java"
+public interface android.widget.AutoCompleteTextView$OnDismissListener {
+  public abstract void onDismiss();
+}

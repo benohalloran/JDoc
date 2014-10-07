@@ -1,0 +1,7 @@
+Compiled from "OpcodeInfo.java"
+public final class dalvik.bytecode.OpcodeInfo {
+  public static final int MAXIMUM_PACKED_VALUE;
+  public static final int MAXIMUM_VALUE;
+  dalvik.bytecode.OpcodeInfo();
+  static {};
+}

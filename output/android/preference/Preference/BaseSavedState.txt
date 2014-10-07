@@ -1,0 +1,7 @@
+Compiled from "Preference.java"
+public class android.preference.Preference$BaseSavedState extends android.view.AbsSavedState {
+  public static final android.os.Parcelable$Creator<android.preference.Preference$BaseSavedState> CREATOR;
+  public android.preference.Preference$BaseSavedState(android.os.Parcel);
+  public android.preference.Preference$BaseSavedState(android.os.Parcelable);
+  static {};
+}

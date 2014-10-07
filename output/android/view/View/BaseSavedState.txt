@@ -1,0 +1,7 @@
+Compiled from "View.java"
+public class android.view.View$BaseSavedState extends android.view.AbsSavedState {
+  public static final android.os.Parcelable$Creator<android.view.View$BaseSavedState> CREATOR;
+  public android.view.View$BaseSavedState(android.os.Parcel);
+  public android.view.View$BaseSavedState(android.os.Parcelable);
+  static {};
+}

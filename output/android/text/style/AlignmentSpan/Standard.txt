@@ -1,0 +1,9 @@
+Compiled from "AlignmentSpan.java"
+public class android.text.style.AlignmentSpan$Standard implements android.text.style.AlignmentSpan,android.text.ParcelableSpan {
+  public android.text.style.AlignmentSpan$Standard(android.text.Layout$Alignment);
+  public android.text.style.AlignmentSpan$Standard(android.os.Parcel);
+  public int getSpanTypeId();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public android.text.Layout$Alignment getAlignment();
+}

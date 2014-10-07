@@ -1,0 +1,36 @@
+Compiled from "RecognizerIntent.java"
+public class android.speech.RecognizerIntent {
+  public static final java.lang.String ACTION_GET_LANGUAGE_DETAILS;
+  public static final java.lang.String ACTION_RECOGNIZE_SPEECH;
+  public static final java.lang.String ACTION_VOICE_SEARCH_HANDS_FREE;
+  public static final java.lang.String ACTION_WEB_SEARCH;
+  public static final java.lang.String DETAILS_META_DATA;
+  public static final java.lang.String EXTRA_CALLING_PACKAGE;
+  public static final java.lang.String EXTRA_CONFIDENCE_SCORES;
+  public static final java.lang.String EXTRA_LANGUAGE;
+  public static final java.lang.String EXTRA_LANGUAGE_MODEL;
+  public static final java.lang.String EXTRA_LANGUAGE_PREFERENCE;
+  public static final java.lang.String EXTRA_MAX_RESULTS;
+  public static final java.lang.String EXTRA_ONLY_RETURN_LANGUAGE_PREFERENCE;
+  public static final java.lang.String EXTRA_ORIGIN;
+  public static final java.lang.String EXTRA_PARTIAL_RESULTS;
+  public static final java.lang.String EXTRA_PROMPT;
+  public static final java.lang.String EXTRA_RESULTS;
+  public static final java.lang.String EXTRA_RESULTS_PENDINGINTENT;
+  public static final java.lang.String EXTRA_RESULTS_PENDINGINTENT_BUNDLE;
+  public static final java.lang.String EXTRA_SECURE;
+  public static final java.lang.String EXTRA_SPEECH_INPUT_COMPLETE_SILENCE_LENGTH_MILLIS;
+  public static final java.lang.String EXTRA_SPEECH_INPUT_MINIMUM_LENGTH_MILLIS;
+  public static final java.lang.String EXTRA_SPEECH_INPUT_POSSIBLY_COMPLETE_SILENCE_LENGTH_MILLIS;
+  public static final java.lang.String EXTRA_SUPPORTED_LANGUAGES;
+  public static final java.lang.String EXTRA_WEB_SEARCH_ONLY;
+  public static final java.lang.String LANGUAGE_MODEL_FREE_FORM;
+  public static final java.lang.String LANGUAGE_MODEL_WEB_SEARCH;
+  public static final int RESULT_AUDIO_ERROR;
+  public static final int RESULT_CLIENT_ERROR;
+  public static final int RESULT_NETWORK_ERROR;
+  public static final int RESULT_NO_MATCH;
+  public static final int RESULT_SERVER_ERROR;
+  android.speech.RecognizerIntent();
+  public static final android.content.Intent getVoiceDetailsIntent(android.content.Context);
+}

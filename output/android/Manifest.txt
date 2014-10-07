@@ -1,0 +1,4 @@
+Compiled from "Manifest.java"
+public final class android.Manifest {
+  public android.Manifest();
+}

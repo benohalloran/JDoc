@@ -1,0 +1,4 @@
+Compiled from "AlreadyConnectedException.java"
+public class java.nio.channels.AlreadyConnectedException extends java.lang.IllegalStateException {
+  public java.nio.channels.AlreadyConnectedException();
+}

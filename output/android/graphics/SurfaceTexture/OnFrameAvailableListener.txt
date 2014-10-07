@@ -1,0 +1,4 @@
+Compiled from "SurfaceTexture.java"
+public interface android.graphics.SurfaceTexture$OnFrameAvailableListener {
+  public abstract void onFrameAvailable(android.graphics.SurfaceTexture);
+}

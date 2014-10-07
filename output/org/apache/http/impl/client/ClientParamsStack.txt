@@ -1,0 +1,18 @@
+Compiled from "ClientParamsStack.java"
+public class org.apache.http.impl.client.ClientParamsStack extends org.apache.http.params.AbstractHttpParams {
+  protected final org.apache.http.params.HttpParams applicationParams;
+  protected final org.apache.http.params.HttpParams clientParams;
+  protected final org.apache.http.params.HttpParams overrideParams;
+  protected final org.apache.http.params.HttpParams requestParams;
+  public org.apache.http.impl.client.ClientParamsStack(org.apache.http.params.HttpParams, org.apache.http.params.HttpParams, org.apache.http.params.HttpParams, org.apache.http.params.HttpParams);
+  public org.apache.http.impl.client.ClientParamsStack(org.apache.http.impl.client.ClientParamsStack);
+  public org.apache.http.impl.client.ClientParamsStack(org.apache.http.impl.client.ClientParamsStack, org.apache.http.params.HttpParams, org.apache.http.params.HttpParams, org.apache.http.params.HttpParams, org.apache.http.params.HttpParams);
+  public final org.apache.http.params.HttpParams getApplicationParams();
+  public final org.apache.http.params.HttpParams getClientParams();
+  public final org.apache.http.params.HttpParams getRequestParams();
+  public final org.apache.http.params.HttpParams getOverrideParams();
+  public java.lang.Object getParameter(java.lang.String);
+  public org.apache.http.params.HttpParams setParameter(java.lang.String, java.lang.Object) throws java.lang.UnsupportedOperationException;
+  public boolean removeParameter(java.lang.String);
+  public org.apache.http.params.HttpParams copy();
+}

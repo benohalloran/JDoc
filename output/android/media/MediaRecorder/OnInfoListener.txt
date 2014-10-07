@@ -1,0 +1,4 @@
+Compiled from "MediaRecorder.java"
+public interface android.media.MediaRecorder$OnInfoListener {
+  public abstract void onInfo(android.media.MediaRecorder, int, int);
+}

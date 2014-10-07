@@ -1,0 +1,16 @@
+Compiled from "Outline.java"
+public final class android.graphics.Outline {
+  public android.graphics.Outline();
+  public android.graphics.Outline(android.graphics.Outline);
+  public void setEmpty();
+  public boolean isEmpty();
+  public void set(android.graphics.Outline);
+  public void setRect(int, int, int, int);
+  public void setRect(android.graphics.Rect);
+  public void setRoundRect(int, int, int, int, float);
+  public void setRoundRect(android.graphics.Rect, float);
+  public void setOval(int, int, int, int);
+  public void setOval(android.graphics.Rect);
+  public void setConvexPath(android.graphics.Path);
+  public boolean canClip();
+}

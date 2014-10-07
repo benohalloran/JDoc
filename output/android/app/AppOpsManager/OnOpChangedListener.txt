@@ -1,0 +1,4 @@
+Compiled from "AppOpsManager.java"
+public interface android.app.AppOpsManager$OnOpChangedListener {
+  public abstract void onOpChanged(java.lang.String, java.lang.String);
+}

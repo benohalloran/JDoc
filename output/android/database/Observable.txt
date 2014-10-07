@@ -1,0 +1,8 @@
+Compiled from "Observable.java"
+public abstract class android.database.Observable<T> {
+  protected final java.util.ArrayList<T> mObservers;
+  public android.database.Observable();
+  public void registerObserver(T);
+  public void unregisterObserver(T);
+  public void unregisterAll();
+}

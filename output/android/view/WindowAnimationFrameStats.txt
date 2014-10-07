@@ -1,0 +1,9 @@
+Compiled from "WindowAnimationFrameStats.java"
+public final class android.view.WindowAnimationFrameStats extends android.view.FrameStats implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.WindowAnimationFrameStats> CREATOR;
+  android.view.WindowAnimationFrameStats();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String toString();
+  static {};
+}

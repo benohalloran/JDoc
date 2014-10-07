@@ -1,0 +1,4 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$CommonDataKinds {
+  android.provider.ContactsContract$CommonDataKinds();
+}

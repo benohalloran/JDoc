@@ -1,0 +1,9 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$FullNameStyle {
+  public static final int CHINESE;
+  public static final int CJK;
+  public static final int JAPANESE;
+  public static final int KOREAN;
+  public static final int UNDEFINED;
+  public static final int WESTERN;
+}

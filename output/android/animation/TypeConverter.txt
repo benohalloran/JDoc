@@ -1,0 +1,5 @@
+Compiled from "TypeConverter.java"
+public abstract class android.animation.TypeConverter<T, V> {
+  public android.animation.TypeConverter(java.lang.Class<T>, java.lang.Class<V>);
+  public abstract V convert(T);
+}

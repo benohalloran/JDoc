@@ -1,0 +1,6 @@
+Compiled from "UnsupportedDigestAlgorithmException.java"
+public class org.apache.http.impl.auth.UnsupportedDigestAlgorithmException extends java.lang.RuntimeException {
+  public org.apache.http.impl.auth.UnsupportedDigestAlgorithmException();
+  public org.apache.http.impl.auth.UnsupportedDigestAlgorithmException(java.lang.String);
+  public org.apache.http.impl.auth.UnsupportedDigestAlgorithmException(java.lang.String, java.lang.Throwable);
+}

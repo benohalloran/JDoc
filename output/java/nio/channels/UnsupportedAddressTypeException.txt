@@ -1,0 +1,4 @@
+Compiled from "UnsupportedAddressTypeException.java"
+public class java.nio.channels.UnsupportedAddressTypeException extends java.lang.IllegalArgumentException {
+  public java.nio.channels.UnsupportedAddressTypeException();
+}

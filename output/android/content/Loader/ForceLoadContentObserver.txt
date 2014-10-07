@@ -1,0 +1,7 @@
+Compiled from "Loader.java"
+public final class android.content.Loader$ForceLoadContentObserver extends android.database.ContentObserver {
+  final android.content.Loader this$0;
+  public android.content.Loader$ForceLoadContentObserver(android.content.Loader);
+  public boolean deliverSelfNotifications();
+  public void onChange(boolean);
+}

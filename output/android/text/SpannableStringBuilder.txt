@@ -1,0 +1,45 @@
+Compiled from "SpannableStringBuilder.java"
+public class android.text.SpannableStringBuilder implements java.lang.CharSequence,android.text.GetChars,android.text.Spannable,android.text.Editable,java.lang.Appendable {
+  public android.text.SpannableStringBuilder();
+  public android.text.SpannableStringBuilder(java.lang.CharSequence);
+  public android.text.SpannableStringBuilder(java.lang.CharSequence, int, int);
+  public static android.text.SpannableStringBuilder valueOf(java.lang.CharSequence);
+  public char charAt(int);
+  public int length();
+  public android.text.SpannableStringBuilder insert(int, java.lang.CharSequence, int, int);
+  public android.text.SpannableStringBuilder insert(int, java.lang.CharSequence);
+  public android.text.SpannableStringBuilder delete(int, int);
+  public void clear();
+  public void clearSpans();
+  public android.text.SpannableStringBuilder append(java.lang.CharSequence);
+  public android.text.SpannableStringBuilder append(java.lang.CharSequence, int, int);
+  public android.text.SpannableStringBuilder append(char);
+  public android.text.SpannableStringBuilder replace(int, int, java.lang.CharSequence);
+  public android.text.SpannableStringBuilder replace(int, int, java.lang.CharSequence, int, int);
+  public void setSpan(java.lang.Object, int, int, int);
+  public void removeSpan(java.lang.Object);
+  public int getSpanStart(java.lang.Object);
+  public int getSpanEnd(java.lang.Object);
+  public int getSpanFlags(java.lang.Object);
+  public <T extends java/lang/Object> T[] getSpans(int, int, java.lang.Class<T>);
+  public int nextSpanTransition(int, int, java.lang.Class);
+  public java.lang.CharSequence subSequence(int, int);
+  public void getChars(int, int, char[], int);
+  public java.lang.String toString();
+  public int getTextRunCursor(int, int, int, int, int, android.graphics.Paint);
+  public void setFilters(android.text.InputFilter[]);
+  public android.text.InputFilter[] getFilters();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public android.text.Editable append(char);
+  public android.text.Editable append(java.lang.CharSequence, int, int);
+  public android.text.Editable append(java.lang.CharSequence);
+  public android.text.Editable delete(int, int);
+  public android.text.Editable insert(int, java.lang.CharSequence);
+  public android.text.Editable insert(int, java.lang.CharSequence, int, int);
+  public android.text.Editable replace(int, int, java.lang.CharSequence);
+  public android.text.Editable replace(int, int, java.lang.CharSequence, int, int);
+  public java.lang.Appendable append(java.lang.CharSequence, int, int) throws java.io.IOException;
+  public java.lang.Appendable append(java.lang.CharSequence) throws java.io.IOException;
+  public java.lang.Appendable append(char) throws java.io.IOException;
+}

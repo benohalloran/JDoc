@@ -1,0 +1,5 @@
+Compiled from "ConnectTimeoutException.java"
+public class org.apache.http.conn.ConnectTimeoutException extends java.io.InterruptedIOException {
+  public org.apache.http.conn.ConnectTimeoutException();
+  public org.apache.http.conn.ConnectTimeoutException(java.lang.String);
+}

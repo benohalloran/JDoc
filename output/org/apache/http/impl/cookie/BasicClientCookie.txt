@@ -1,0 +1,28 @@
+Compiled from "BasicClientCookie.java"
+public class org.apache.http.impl.cookie.BasicClientCookie implements org.apache.http.cookie.SetCookie,org.apache.http.cookie.ClientCookie,java.lang.Cloneable {
+  public org.apache.http.impl.cookie.BasicClientCookie(java.lang.String, java.lang.String);
+  public java.lang.String getName();
+  public java.lang.String getValue();
+  public void setValue(java.lang.String);
+  public java.lang.String getComment();
+  public void setComment(java.lang.String);
+  public java.lang.String getCommentURL();
+  public java.util.Date getExpiryDate();
+  public void setExpiryDate(java.util.Date);
+  public boolean isPersistent();
+  public java.lang.String getDomain();
+  public void setDomain(java.lang.String);
+  public java.lang.String getPath();
+  public void setPath(java.lang.String);
+  public boolean isSecure();
+  public void setSecure(boolean);
+  public int[] getPorts();
+  public int getVersion();
+  public void setVersion(int);
+  public boolean isExpired(java.util.Date);
+  public void setAttribute(java.lang.String, java.lang.String);
+  public java.lang.String getAttribute(java.lang.String);
+  public boolean containsAttribute(java.lang.String);
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+  public java.lang.String toString();
+}

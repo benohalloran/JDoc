@@ -1,0 +1,14 @@
+Compiled from "MediaController.java"
+public final class android.media.session.MediaController {
+  android.media.session.MediaController();
+  public static android.media.session.MediaController fromToken(android.media.session.MediaSessionToken);
+  public android.media.session.MediaController$TransportControls getTransportControls();
+  public boolean dispatchMediaButtonEvent(android.view.KeyEvent);
+  public android.media.session.PlaybackState getPlaybackState();
+  public android.media.MediaMetadata getMetadata();
+  public int getRatingType();
+  public void addCallback(android.media.session.MediaController$Callback);
+  public void addCallback(android.media.session.MediaController$Callback, android.os.Handler);
+  public void removeCallback(android.media.session.MediaController$Callback);
+  public void sendControlCommand(java.lang.String, android.os.Bundle, android.os.ResultReceiver);
+}

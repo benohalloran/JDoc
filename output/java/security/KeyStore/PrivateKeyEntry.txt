@@ -1,0 +1,8 @@
+Compiled from "KeyStore.java"
+public final class java.security.KeyStore$PrivateKeyEntry implements java.security.KeyStore$Entry {
+  public java.security.KeyStore$PrivateKeyEntry(java.security.PrivateKey, java.security.cert.Certificate[]);
+  public java.security.PrivateKey getPrivateKey();
+  public java.security.cert.Certificate[] getCertificateChain();
+  public java.security.cert.Certificate getCertificate();
+  public java.lang.String toString();
+}

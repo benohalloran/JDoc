@@ -1,0 +1,22 @@
+Compiled from "PreferenceGroup.java"
+public abstract class android.preference.PreferenceGroup extends android.preference.Preference {
+  public android.preference.PreferenceGroup(android.content.Context, android.util.AttributeSet, int, int);
+  public android.preference.PreferenceGroup(android.content.Context, android.util.AttributeSet, int);
+  public android.preference.PreferenceGroup(android.content.Context, android.util.AttributeSet);
+  public void setOrderingAsAdded(boolean);
+  public boolean isOrderingAsAdded();
+  public void addItemFromInflater(android.preference.Preference);
+  public int getPreferenceCount();
+  public android.preference.Preference getPreference(int);
+  public boolean addPreference(android.preference.Preference);
+  public boolean removePreference(android.preference.Preference);
+  public void removeAll();
+  protected boolean onPrepareAddPreference(android.preference.Preference);
+  public android.preference.Preference findPreference(java.lang.CharSequence);
+  protected boolean isOnSameScreenAsChildren();
+  protected void onAttachedToActivity();
+  protected void onPrepareForRemoval();
+  public void notifyDependencyChange(boolean);
+  protected void dispatchSaveInstanceState(android.os.Bundle);
+  protected void dispatchRestoreInstanceState(android.os.Bundle);
+}

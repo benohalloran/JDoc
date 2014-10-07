@@ -1,0 +1,20 @@
+Compiled from "MediaRouter.java"
+public class android.media.MediaRouter$UserRouteInfo extends android.media.MediaRouter$RouteInfo {
+  android.media.MediaRouter$UserRouteInfo();
+  public void setName(java.lang.CharSequence);
+  public void setName(int);
+  public void setDescription(java.lang.CharSequence);
+  public void setStatus(java.lang.CharSequence);
+  public void setRemoteControlClient(android.media.RemoteControlClient);
+  public android.media.RemoteControlClient getRemoteControlClient();
+  public void setIconDrawable(android.graphics.drawable.Drawable);
+  public void setIconResource(int);
+  public void setVolumeCallback(android.media.MediaRouter$VolumeCallback);
+  public void setPlaybackType(int);
+  public void setVolumeHandling(int);
+  public void setVolume(int);
+  public void requestSetVolume(int);
+  public void requestUpdateVolume(int);
+  public void setVolumeMax(int);
+  public void setPlaybackStream(int);
+}

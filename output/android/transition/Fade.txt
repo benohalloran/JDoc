@@ -1,0 +1,9 @@
+Compiled from "Fade.java"
+public class android.transition.Fade extends android.transition.Visibility {
+  public static final int IN;
+  public static final int OUT;
+  public android.transition.Fade();
+  public android.transition.Fade(int);
+  public android.animation.Animator onAppear(android.view.ViewGroup, android.view.View, android.transition.TransitionValues, android.transition.TransitionValues);
+  public android.animation.Animator onDisappear(android.view.ViewGroup, android.view.View, android.transition.TransitionValues, android.transition.TransitionValues);
+}

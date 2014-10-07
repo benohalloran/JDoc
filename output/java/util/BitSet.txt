@@ -1,0 +1,39 @@
+Compiled from "BitSet.java"
+public class java.util.BitSet implements java.io.Serializable,java.lang.Cloneable {
+  public java.util.BitSet();
+  public java.util.BitSet(int);
+  public java.lang.Object clone();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public boolean get(int);
+  public void set(int);
+  public void clear(int);
+  public void flip(int);
+  public java.util.BitSet get(int, int);
+  public void set(int, boolean);
+  public void set(int, int, boolean);
+  public void clear();
+  public void set(int, int);
+  public void clear(int, int);
+  public void flip(int, int);
+  public boolean intersects(java.util.BitSet);
+  public void and(java.util.BitSet);
+  public void andNot(java.util.BitSet);
+  public void or(java.util.BitSet);
+  public void xor(java.util.BitSet);
+  public int size();
+  public int length();
+  public java.lang.String toString();
+  public int nextSetBit(int);
+  public int nextClearBit(int);
+  public int previousSetBit(int);
+  public int previousClearBit(int);
+  public boolean isEmpty();
+  public int cardinality();
+  public static java.util.BitSet valueOf(long[]);
+  public static java.util.BitSet valueOf(java.nio.LongBuffer);
+  public static java.util.BitSet valueOf(byte[]);
+  public static java.util.BitSet valueOf(java.nio.ByteBuffer);
+  public long[] toLongArray();
+  public byte[] toByteArray();
+}

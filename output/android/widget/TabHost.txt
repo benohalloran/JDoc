@@ -1,0 +1,29 @@
+Compiled from "TabHost.java"
+public class android.widget.TabHost extends android.widget.FrameLayout implements android.view.ViewTreeObserver$OnTouchModeChangeListener {
+  public android.widget.TabHost(android.content.Context);
+  public android.widget.TabHost(android.content.Context, android.util.AttributeSet);
+  public android.widget.TabHost(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.TabHost(android.content.Context, android.util.AttributeSet, int, int);
+  public android.widget.TabHost$TabSpec newTabSpec(java.lang.String);
+  public void setup();
+  public void sendAccessibilityEvent(int);
+  public void setup(android.app.LocalActivityManager);
+  protected void onAttachedToWindow();
+  protected void onDetachedFromWindow();
+  public void onTouchModeChanged(boolean);
+  public void addTab(android.widget.TabHost$TabSpec);
+  public void clearAllTabs();
+  public android.widget.TabWidget getTabWidget();
+  public int getCurrentTab();
+  public java.lang.String getCurrentTabTag();
+  public android.view.View getCurrentTabView();
+  public android.view.View getCurrentView();
+  public void setCurrentTabByTag(java.lang.String);
+  public android.widget.FrameLayout getTabContentView();
+  public boolean dispatchKeyEvent(android.view.KeyEvent);
+  public void dispatchWindowFocusChanged(boolean);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public void setCurrentTab(int);
+  public void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener);
+}

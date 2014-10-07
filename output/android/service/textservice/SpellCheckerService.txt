@@ -1,0 +1,7 @@
+Compiled from "SpellCheckerService.java"
+public abstract class android.service.textservice.SpellCheckerService extends android.app.Service {
+  public static final java.lang.String SERVICE_INTERFACE;
+  public android.service.textservice.SpellCheckerService();
+  public final android.os.IBinder onBind(android.content.Intent);
+  public abstract android.service.textservice.SpellCheckerService$Session createSession();
+}

@@ -1,0 +1,7 @@
+Compiled from "MediaController.java"
+public abstract class android.media.session.MediaController$Callback {
+  public android.media.session.MediaController$Callback();
+  public void onSessionEvent(java.lang.String, android.os.Bundle);
+  public void onPlaybackStateChanged(android.media.session.PlaybackState);
+  public void onMetadataChanged(android.media.MediaMetadata);
+}

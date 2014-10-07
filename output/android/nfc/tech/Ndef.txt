@@ -1,0 +1,22 @@
+Compiled from "Ndef.java"
+public final class android.nfc.tech.Ndef extends android.nfc.tech.BasicTagTechnology {
+  public static final java.lang.String MIFARE_CLASSIC;
+  public static final java.lang.String NFC_FORUM_TYPE_1;
+  public static final java.lang.String NFC_FORUM_TYPE_2;
+  public static final java.lang.String NFC_FORUM_TYPE_3;
+  public static final java.lang.String NFC_FORUM_TYPE_4;
+  android.nfc.tech.Ndef();
+  public static android.nfc.tech.Ndef get(android.nfc.Tag);
+  public android.nfc.NdefMessage getCachedNdefMessage();
+  public java.lang.String getType();
+  public int getMaxSize();
+  public boolean isWritable();
+  public android.nfc.NdefMessage getNdefMessage() throws java.io.IOException, android.nfc.FormatException;
+  public void writeNdefMessage(android.nfc.NdefMessage) throws java.io.IOException, android.nfc.FormatException;
+  public boolean canMakeReadOnly();
+  public boolean makeReadOnly() throws java.io.IOException;
+  public void close() throws java.io.IOException;
+  public void connect() throws java.io.IOException;
+  public boolean isConnected();
+  public android.nfc.Tag getTag();
+}

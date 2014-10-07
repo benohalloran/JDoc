@@ -1,0 +1,6 @@
+Compiled from "AutomaticGainControl.java"
+public class android.media.audiofx.AutomaticGainControl extends android.media.audiofx.AudioEffect {
+  android.media.audiofx.AutomaticGainControl();
+  public static boolean isAvailable();
+  public static android.media.audiofx.AutomaticGainControl create(int);
+}

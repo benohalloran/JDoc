@@ -1,0 +1,8 @@
+Compiled from "DrawableMarginSpan.java"
+public class android.text.style.DrawableMarginSpan implements android.text.style.LeadingMarginSpan,android.text.style.LineHeightSpan {
+  public android.text.style.DrawableMarginSpan(android.graphics.drawable.Drawable);
+  public android.text.style.DrawableMarginSpan(android.graphics.drawable.Drawable, int);
+  public int getLeadingMargin(boolean);
+  public void drawLeadingMargin(android.graphics.Canvas, android.graphics.Paint, int, int, int, int, int, java.lang.CharSequence, int, int, boolean, android.text.Layout);
+  public void chooseHeight(java.lang.CharSequence, int, int, int, int, android.graphics.Paint$FontMetricsInt);
+}

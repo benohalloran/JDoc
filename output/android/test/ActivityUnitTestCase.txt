@@ -1,0 +1,15 @@
+Compiled from "ActivityUnitTestCase.java"
+public abstract class android.test.ActivityUnitTestCase<T extends android.app.Activity> extends android.test.ActivityTestCase {
+  public android.test.ActivityUnitTestCase(java.lang.Class<T>);
+  public T getActivity();
+  protected void setUp() throws java.lang.Exception;
+  protected T startActivity(android.content.Intent, android.os.Bundle, java.lang.Object);
+  protected void tearDown() throws java.lang.Exception;
+  public void setApplication(android.app.Application);
+  public void setActivityContext(android.content.Context);
+  public int getRequestedOrientation();
+  public android.content.Intent getStartedActivityIntent();
+  public int getStartedActivityRequest();
+  public boolean isFinishCalled();
+  public int getFinishedActivityRequest();
+}

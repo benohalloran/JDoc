@@ -1,0 +1,21 @@
+Compiled from "LayoutInflater.java"
+public abstract class android.view.LayoutInflater {
+  protected android.view.LayoutInflater(android.content.Context);
+  protected android.view.LayoutInflater(android.view.LayoutInflater, android.content.Context);
+  public static android.view.LayoutInflater from(android.content.Context);
+  public abstract android.view.LayoutInflater cloneInContext(android.content.Context);
+  public android.content.Context getContext();
+  public final android.view.LayoutInflater$Factory getFactory();
+  public final android.view.LayoutInflater$Factory2 getFactory2();
+  public void setFactory(android.view.LayoutInflater$Factory);
+  public void setFactory2(android.view.LayoutInflater$Factory2);
+  public android.view.LayoutInflater$Filter getFilter();
+  public void setFilter(android.view.LayoutInflater$Filter);
+  public android.view.View inflate(int, android.view.ViewGroup);
+  public android.view.View inflate(org.xmlpull.v1.XmlPullParser, android.view.ViewGroup);
+  public android.view.View inflate(int, android.view.ViewGroup, boolean);
+  public android.view.View inflate(org.xmlpull.v1.XmlPullParser, android.view.ViewGroup, boolean);
+  public final android.view.View createView(java.lang.String, java.lang.String, android.util.AttributeSet) throws java.lang.ClassNotFoundException, android.view.InflateException;
+  protected android.view.View onCreateView(java.lang.String, android.util.AttributeSet) throws java.lang.ClassNotFoundException;
+  protected android.view.View onCreateView(android.view.View, java.lang.String, android.util.AttributeSet) throws java.lang.ClassNotFoundException;
+}

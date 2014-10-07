@@ -1,0 +1,26 @@
+Compiled from "Scroller.java"
+public class android.widget.Scroller {
+  public android.widget.Scroller(android.content.Context);
+  public android.widget.Scroller(android.content.Context, android.view.animation.Interpolator);
+  public android.widget.Scroller(android.content.Context, android.view.animation.Interpolator, boolean);
+  public final void setFriction(float);
+  public final boolean isFinished();
+  public final void forceFinished(boolean);
+  public final int getDuration();
+  public final int getCurrX();
+  public final int getCurrY();
+  public float getCurrVelocity();
+  public final int getStartX();
+  public final int getStartY();
+  public final int getFinalX();
+  public final int getFinalY();
+  public boolean computeScrollOffset();
+  public void startScroll(int, int, int, int);
+  public void startScroll(int, int, int, int, int);
+  public void fling(int, int, int, int, int, int, int, int);
+  public void abortAnimation();
+  public void extendDuration(int);
+  public int timePassed();
+  public void setFinalX(int);
+  public void setFinalY(int);
+}

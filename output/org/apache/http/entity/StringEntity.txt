@@ -1,0 +1,12 @@
+Compiled from "StringEntity.java"
+public class org.apache.http.entity.StringEntity extends org.apache.http.entity.AbstractHttpEntity implements java.lang.Cloneable {
+  protected final byte[] content;
+  public org.apache.http.entity.StringEntity(java.lang.String, java.lang.String) throws java.io.UnsupportedEncodingException;
+  public org.apache.http.entity.StringEntity(java.lang.String) throws java.io.UnsupportedEncodingException;
+  public boolean isRepeatable();
+  public long getContentLength();
+  public java.io.InputStream getContent() throws java.io.IOException;
+  public void writeTo(java.io.OutputStream) throws java.io.IOException;
+  public boolean isStreaming();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

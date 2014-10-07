@@ -1,0 +1,12 @@
+Compiled from "MediaRecorder.java"
+public final class android.media.MediaRecorder$OutputFormat {
+  public static final int AAC_ADTS;
+  public static final int AMR_NB;
+  public static final int AMR_WB;
+  public static final int DEFAULT;
+  public static final int MPEG_4;
+  public static final int RAW_AMR;
+  public static final int THREE_GPP;
+  final android.media.MediaRecorder this$0;
+  android.media.MediaRecorder$OutputFormat(android.media.MediaRecorder);
+}

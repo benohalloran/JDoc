@@ -1,0 +1,16 @@
+Compiled from "InstrumentationInfo.java"
+public class android.content.pm.InstrumentationInfo extends android.content.pm.PackageItemInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.pm.InstrumentationInfo> CREATOR;
+  public java.lang.String dataDir;
+  public boolean functionalTest;
+  public boolean handleProfiling;
+  public java.lang.String publicSourceDir;
+  public java.lang.String sourceDir;
+  public java.lang.String targetPackage;
+  public android.content.pm.InstrumentationInfo();
+  public android.content.pm.InstrumentationInfo(android.content.pm.InstrumentationInfo);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

@@ -1,0 +1,4 @@
+Compiled from "PreferenceManager.java"
+public interface android.preference.PreferenceManager$OnActivityDestroyListener {
+  public abstract void onActivityDestroy();
+}

@@ -1,0 +1,5 @@
+Compiled from "LinearGradient.java"
+public class android.graphics.LinearGradient extends android.graphics.Shader {
+  public android.graphics.LinearGradient(float, float, float, float, int[], float[], android.graphics.Shader$TileMode);
+  public android.graphics.LinearGradient(float, float, float, float, int, int, android.graphics.Shader$TileMode);
+}

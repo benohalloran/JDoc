@@ -1,0 +1,40 @@
+Compiled from "Region.java"
+public class android.graphics.Region implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.graphics.Region> CREATOR;
+  public android.graphics.Region();
+  public android.graphics.Region(android.graphics.Region);
+  public android.graphics.Region(android.graphics.Rect);
+  public android.graphics.Region(int, int, int, int);
+  public void setEmpty();
+  public boolean set(android.graphics.Region);
+  public boolean set(android.graphics.Rect);
+  public boolean set(int, int, int, int);
+  public boolean setPath(android.graphics.Path, android.graphics.Region);
+  public native boolean isEmpty();
+  public native boolean isRect();
+  public native boolean isComplex();
+  public android.graphics.Rect getBounds();
+  public boolean getBounds(android.graphics.Rect);
+  public android.graphics.Path getBoundaryPath();
+  public boolean getBoundaryPath(android.graphics.Path);
+  public native boolean contains(int, int);
+  public boolean quickContains(android.graphics.Rect);
+  public native boolean quickContains(int, int, int, int);
+  public boolean quickReject(android.graphics.Rect);
+  public native boolean quickReject(int, int, int, int);
+  public native boolean quickReject(android.graphics.Region);
+  public void translate(int, int);
+  public native void translate(int, int, android.graphics.Region);
+  public final boolean union(android.graphics.Rect);
+  public boolean op(android.graphics.Rect, android.graphics.Region$Op);
+  public boolean op(int, int, int, int, android.graphics.Region$Op);
+  public boolean op(android.graphics.Region, android.graphics.Region$Op);
+  public boolean op(android.graphics.Rect, android.graphics.Region, android.graphics.Region$Op);
+  public boolean op(android.graphics.Region, android.graphics.Region, android.graphics.Region$Op);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public boolean equals(java.lang.Object);
+  protected void finalize() throws java.lang.Throwable;
+  static {};
+}

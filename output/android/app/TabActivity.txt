@@ -1,0 +1,13 @@
+Compiled from "TabActivity.java"
+public class android.app.TabActivity extends android.app.ActivityGroup {
+  public android.app.TabActivity();
+  public void setDefaultTab(java.lang.String);
+  public void setDefaultTab(int);
+  protected void onRestoreInstanceState(android.os.Bundle);
+  protected void onPostCreate(android.os.Bundle);
+  protected void onSaveInstanceState(android.os.Bundle);
+  public void onContentChanged();
+  protected void onChildTitleChanged(android.app.Activity, java.lang.CharSequence);
+  public android.widget.TabHost getTabHost();
+  public android.widget.TabWidget getTabWidget();
+}

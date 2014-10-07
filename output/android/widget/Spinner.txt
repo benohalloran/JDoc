@@ -1,0 +1,40 @@
+Compiled from "Spinner.java"
+public class android.widget.Spinner extends android.widget.AbsSpinner implements android.content.DialogInterface$OnClickListener {
+  public static final int MODE_DIALOG;
+  public static final int MODE_DROPDOWN;
+  public android.widget.Spinner(android.content.Context);
+  public android.widget.Spinner(android.content.Context, int);
+  public android.widget.Spinner(android.content.Context, android.util.AttributeSet);
+  public android.widget.Spinner(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.Spinner(android.content.Context, android.util.AttributeSet, int, int);
+  public android.widget.Spinner(android.content.Context, android.util.AttributeSet, int, int, int);
+  public void setPopupBackgroundDrawable(android.graphics.drawable.Drawable);
+  public void setPopupBackgroundResource(int);
+  public android.graphics.drawable.Drawable getPopupBackground();
+  public void setDropDownVerticalOffset(int);
+  public int getDropDownVerticalOffset();
+  public void setDropDownHorizontalOffset(int);
+  public int getDropDownHorizontalOffset();
+  public void setDropDownWidth(int);
+  public int getDropDownWidth();
+  public void setEnabled(boolean);
+  public void setGravity(int);
+  public int getGravity();
+  public void setAdapter(android.widget.SpinnerAdapter);
+  public int getBaseline();
+  protected void onDetachedFromWindow();
+  public void setOnItemClickListener(android.widget.AdapterView$OnItemClickListener);
+  public boolean onTouchEvent(android.view.MotionEvent);
+  protected void onMeasure(int, int);
+  protected void onLayout(boolean, int, int, int, int);
+  public boolean performClick();
+  public void onClick(android.content.DialogInterface, int);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public void setPrompt(java.lang.CharSequence);
+  public void setPromptId(int);
+  public java.lang.CharSequence getPrompt();
+  public android.os.Parcelable onSaveInstanceState();
+  public void onRestoreInstanceState(android.os.Parcelable);
+  public void setAdapter(android.widget.Adapter);
+}

@@ -1,0 +1,5 @@
+Compiled from "ColorFilter.java"
+public class android.graphics.ColorFilter {
+  public android.graphics.ColorFilter();
+  protected void finalize() throws java.lang.Throwable;
+}

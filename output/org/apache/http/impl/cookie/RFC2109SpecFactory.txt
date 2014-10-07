@@ -1,0 +1,5 @@
+Compiled from "RFC2109SpecFactory.java"
+public class org.apache.http.impl.cookie.RFC2109SpecFactory implements org.apache.http.cookie.CookieSpecFactory {
+  public org.apache.http.impl.cookie.RFC2109SpecFactory();
+  public org.apache.http.cookie.CookieSpec newInstance(org.apache.http.params.HttpParams);
+}

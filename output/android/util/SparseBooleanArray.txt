@@ -1,0 +1,19 @@
+Compiled from "SparseBooleanArray.java"
+public class android.util.SparseBooleanArray implements java.lang.Cloneable {
+  public android.util.SparseBooleanArray();
+  public android.util.SparseBooleanArray(int);
+  public android.util.SparseBooleanArray clone();
+  public boolean get(int);
+  public boolean get(int, boolean);
+  public void delete(int);
+  public void put(int, boolean);
+  public int size();
+  public int keyAt(int);
+  public boolean valueAt(int);
+  public int indexOfKey(int);
+  public int indexOfValue(boolean);
+  public void clear();
+  public void append(int, boolean);
+  public java.lang.String toString();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

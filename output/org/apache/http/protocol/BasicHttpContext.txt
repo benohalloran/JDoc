@@ -1,0 +1,8 @@
+Compiled from "BasicHttpContext.java"
+public class org.apache.http.protocol.BasicHttpContext implements org.apache.http.protocol.HttpContext {
+  public org.apache.http.protocol.BasicHttpContext();
+  public org.apache.http.protocol.BasicHttpContext(org.apache.http.protocol.HttpContext);
+  public java.lang.Object getAttribute(java.lang.String);
+  public void setAttribute(java.lang.String, java.lang.Object);
+  public java.lang.Object removeAttribute(java.lang.String);
+}

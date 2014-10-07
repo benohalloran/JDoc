@@ -1,0 +1,4 @@
+Compiled from "InputFilter.java"
+public interface android.text.InputFilter {
+  public abstract java.lang.CharSequence filter(java.lang.CharSequence, int, int, android.text.Spanned, int, int);
+}

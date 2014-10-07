@@ -1,0 +1,10 @@
+Compiled from "SQLiteClosable.java"
+public abstract class android.database.sqlite.SQLiteClosable implements java.io.Closeable {
+  public android.database.sqlite.SQLiteClosable();
+  protected abstract void onAllReferencesReleased();
+  protected void onAllReferencesReleasedFromContainer();
+  public void acquireReference();
+  public void releaseReference();
+  public void releaseReferenceFromContainer();
+  public void close();
+}

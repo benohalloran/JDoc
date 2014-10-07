@@ -1,0 +1,14 @@
+Compiled from "MediaRecorder.java"
+public final class android.media.MediaRecorder$AudioSource {
+  public static final int CAMCORDER;
+  public static final int DEFAULT;
+  public static final int MIC;
+  public static final int REMOTE_SUBMIX;
+  public static final int VOICE_CALL;
+  public static final int VOICE_COMMUNICATION;
+  public static final int VOICE_DOWNLINK;
+  public static final int VOICE_RECOGNITION;
+  public static final int VOICE_UPLINK;
+  final android.media.MediaRecorder this$0;
+  android.media.MediaRecorder$AudioSource(android.media.MediaRecorder);
+}

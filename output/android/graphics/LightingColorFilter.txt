@@ -1,0 +1,8 @@
+Compiled from "LightingColorFilter.java"
+public class android.graphics.LightingColorFilter extends android.graphics.ColorFilter {
+  public android.graphics.LightingColorFilter(int, int);
+  public int getColorMultiply();
+  public void setColorMultiply(int);
+  public int getColorAdd();
+  public void setColorAdd(int);
+}

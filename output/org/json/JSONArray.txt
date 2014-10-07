@@ -1,0 +1,48 @@
+Compiled from "JSONArray.java"
+public class org.json.JSONArray {
+  public org.json.JSONArray();
+  public org.json.JSONArray(java.util.Collection);
+  public org.json.JSONArray(org.json.JSONTokener) throws org.json.JSONException;
+  public org.json.JSONArray(java.lang.String) throws org.json.JSONException;
+  public org.json.JSONArray(java.lang.Object) throws org.json.JSONException;
+  public int length();
+  public org.json.JSONArray put(boolean);
+  public org.json.JSONArray put(double) throws org.json.JSONException;
+  public org.json.JSONArray put(int);
+  public org.json.JSONArray put(long);
+  public org.json.JSONArray put(java.lang.Object);
+  public org.json.JSONArray put(int, boolean) throws org.json.JSONException;
+  public org.json.JSONArray put(int, double) throws org.json.JSONException;
+  public org.json.JSONArray put(int, int) throws org.json.JSONException;
+  public org.json.JSONArray put(int, long) throws org.json.JSONException;
+  public org.json.JSONArray put(int, java.lang.Object) throws org.json.JSONException;
+  public boolean isNull(int);
+  public java.lang.Object get(int) throws org.json.JSONException;
+  public java.lang.Object opt(int);
+  public java.lang.Object remove(int);
+  public boolean getBoolean(int) throws org.json.JSONException;
+  public boolean optBoolean(int);
+  public boolean optBoolean(int, boolean);
+  public double getDouble(int) throws org.json.JSONException;
+  public double optDouble(int);
+  public double optDouble(int, double);
+  public int getInt(int) throws org.json.JSONException;
+  public int optInt(int);
+  public int optInt(int, int);
+  public long getLong(int) throws org.json.JSONException;
+  public long optLong(int);
+  public long optLong(int, long);
+  public java.lang.String getString(int) throws org.json.JSONException;
+  public java.lang.String optString(int);
+  public java.lang.String optString(int, java.lang.String);
+  public org.json.JSONArray getJSONArray(int) throws org.json.JSONException;
+  public org.json.JSONArray optJSONArray(int);
+  public org.json.JSONObject getJSONObject(int) throws org.json.JSONException;
+  public org.json.JSONObject optJSONObject(int);
+  public org.json.JSONObject toJSONObject(org.json.JSONArray) throws org.json.JSONException;
+  public java.lang.String join(java.lang.String) throws org.json.JSONException;
+  public java.lang.String toString();
+  public java.lang.String toString(int) throws org.json.JSONException;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

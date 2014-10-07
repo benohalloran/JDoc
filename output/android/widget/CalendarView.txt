@@ -1,0 +1,43 @@
+Compiled from "CalendarView.java"
+public class android.widget.CalendarView extends android.widget.FrameLayout {
+  public android.widget.CalendarView(android.content.Context);
+  public android.widget.CalendarView(android.content.Context, android.util.AttributeSet);
+  public android.widget.CalendarView(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.CalendarView(android.content.Context, android.util.AttributeSet, int, int);
+  public void setShownWeekCount(int);
+  public int getShownWeekCount();
+  public void setSelectedWeekBackgroundColor(int);
+  public int getSelectedWeekBackgroundColor();
+  public void setFocusedMonthDateColor(int);
+  public int getFocusedMonthDateColor();
+  public void setUnfocusedMonthDateColor(int);
+  public int getUnfocusedMonthDateColor();
+  public void setWeekNumberColor(int);
+  public int getWeekNumberColor();
+  public void setWeekSeparatorLineColor(int);
+  public int getWeekSeparatorLineColor();
+  public void setSelectedDateVerticalBar(int);
+  public void setSelectedDateVerticalBar(android.graphics.drawable.Drawable);
+  public android.graphics.drawable.Drawable getSelectedDateVerticalBar();
+  public void setWeekDayTextAppearance(int);
+  public int getWeekDayTextAppearance();
+  public void setDateTextAppearance(int);
+  public int getDateTextAppearance();
+  public void setEnabled(boolean);
+  public boolean isEnabled();
+  public long getMinDate();
+  public void setMinDate(long);
+  public long getMaxDate();
+  public void setMaxDate(long);
+  public void setShowWeekNumber(boolean);
+  public boolean getShowWeekNumber();
+  public int getFirstDayOfWeek();
+  public void setFirstDayOfWeek(int);
+  public void setOnDateChangeListener(android.widget.CalendarView$OnDateChangeListener);
+  public long getDate();
+  public void setDate(long);
+  public void setDate(long, boolean, boolean);
+  protected void onConfigurationChanged(android.content.res.Configuration);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

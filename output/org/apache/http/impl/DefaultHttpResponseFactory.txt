@@ -1,0 +1,9 @@
+Compiled from "DefaultHttpResponseFactory.java"
+public class org.apache.http.impl.DefaultHttpResponseFactory implements org.apache.http.HttpResponseFactory {
+  protected final org.apache.http.ReasonPhraseCatalog reasonCatalog;
+  public org.apache.http.impl.DefaultHttpResponseFactory(org.apache.http.ReasonPhraseCatalog);
+  public org.apache.http.impl.DefaultHttpResponseFactory();
+  public org.apache.http.HttpResponse newHttpResponse(org.apache.http.ProtocolVersion, int, org.apache.http.protocol.HttpContext);
+  public org.apache.http.HttpResponse newHttpResponse(org.apache.http.StatusLine, org.apache.http.protocol.HttpContext);
+  protected java.util.Locale determineLocale(org.apache.http.protocol.HttpContext);
+}

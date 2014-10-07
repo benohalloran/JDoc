@@ -1,0 +1,12 @@
+Compiled from "NetworkInfo.java"
+public final class android.net.NetworkInfo$State extends java.lang.Enum<android.net.NetworkInfo$State> {
+  public static final android.net.NetworkInfo$State CONNECTED;
+  public static final android.net.NetworkInfo$State CONNECTING;
+  public static final android.net.NetworkInfo$State DISCONNECTED;
+  public static final android.net.NetworkInfo$State DISCONNECTING;
+  public static final android.net.NetworkInfo$State SUSPENDED;
+  public static final android.net.NetworkInfo$State UNKNOWN;
+  public static android.net.NetworkInfo$State[] values();
+  public static android.net.NetworkInfo$State valueOf(java.lang.String);
+  static {};
+}

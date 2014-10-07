@@ -1,0 +1,10 @@
+Compiled from "KeyEvent.java"
+public class android.view.KeyEvent$DispatcherState {
+  public android.view.KeyEvent$DispatcherState();
+  public void reset();
+  public void reset(java.lang.Object);
+  public void startTracking(android.view.KeyEvent, java.lang.Object);
+  public boolean isTracking(android.view.KeyEvent);
+  public void performedLongPress(android.view.KeyEvent);
+  public void handleUpEvent(android.view.KeyEvent);
+}

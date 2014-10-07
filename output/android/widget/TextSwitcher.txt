@@ -1,0 +1,10 @@
+Compiled from "TextSwitcher.java"
+public class android.widget.TextSwitcher extends android.widget.ViewSwitcher {
+  public android.widget.TextSwitcher(android.content.Context);
+  public android.widget.TextSwitcher(android.content.Context, android.util.AttributeSet);
+  public void addView(android.view.View, int, android.view.ViewGroup$LayoutParams);
+  public void setText(java.lang.CharSequence);
+  public void setCurrentText(java.lang.CharSequence);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

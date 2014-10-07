@@ -1,0 +1,5 @@
+Compiled from "TextServicesManager.java"
+public final class android.view.textservice.TextServicesManager {
+  android.view.textservice.TextServicesManager();
+  public android.view.textservice.SpellCheckerSession newSpellCheckerSession(android.os.Bundle, java.util.Locale, android.view.textservice.SpellCheckerSession$SpellCheckerSessionListener, boolean);
+}

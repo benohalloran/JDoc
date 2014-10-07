@@ -1,0 +1,16 @@
+Compiled from "EofSensorInputStream.java"
+public class org.apache.http.conn.EofSensorInputStream extends java.io.InputStream implements org.apache.http.conn.ConnectionReleaseTrigger {
+  protected java.io.InputStream wrappedStream;
+  public org.apache.http.conn.EofSensorInputStream(java.io.InputStream, org.apache.http.conn.EofSensorWatcher);
+  protected boolean isReadAllowed() throws java.io.IOException;
+  public int read() throws java.io.IOException;
+  public int read(byte[], int, int) throws java.io.IOException;
+  public int read(byte[]) throws java.io.IOException;
+  public int available() throws java.io.IOException;
+  public void close() throws java.io.IOException;
+  protected void checkEOF(int) throws java.io.IOException;
+  protected void checkClose() throws java.io.IOException;
+  protected void checkAbort() throws java.io.IOException;
+  public void releaseConnection() throws java.io.IOException;
+  public void abortConnection() throws java.io.IOException;
+}

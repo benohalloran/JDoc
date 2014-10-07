@@ -1,0 +1,20 @@
+Compiled from "JsonWriter.java"
+public final class android.util.JsonWriter implements java.io.Closeable {
+  public android.util.JsonWriter(java.io.Writer);
+  public void setIndent(java.lang.String);
+  public void setLenient(boolean);
+  public boolean isLenient();
+  public android.util.JsonWriter beginArray() throws java.io.IOException;
+  public android.util.JsonWriter endArray() throws java.io.IOException;
+  public android.util.JsonWriter beginObject() throws java.io.IOException;
+  public android.util.JsonWriter endObject() throws java.io.IOException;
+  public android.util.JsonWriter name(java.lang.String) throws java.io.IOException;
+  public android.util.JsonWriter value(java.lang.String) throws java.io.IOException;
+  public android.util.JsonWriter nullValue() throws java.io.IOException;
+  public android.util.JsonWriter value(boolean) throws java.io.IOException;
+  public android.util.JsonWriter value(double) throws java.io.IOException;
+  public android.util.JsonWriter value(long) throws java.io.IOException;
+  public android.util.JsonWriter value(java.lang.Number) throws java.io.IOException;
+  public void flush() throws java.io.IOException;
+  public void close() throws java.io.IOException;
+}

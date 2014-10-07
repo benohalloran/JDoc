@@ -1,0 +1,17 @@
+Compiled from "ClipData.java"
+public class android.content.ClipData$Item {
+  public android.content.ClipData$Item(java.lang.CharSequence);
+  public android.content.ClipData$Item(java.lang.CharSequence, java.lang.String);
+  public android.content.ClipData$Item(android.content.Intent);
+  public android.content.ClipData$Item(android.net.Uri);
+  public android.content.ClipData$Item(java.lang.CharSequence, android.content.Intent, android.net.Uri);
+  public android.content.ClipData$Item(java.lang.CharSequence, java.lang.String, android.content.Intent, android.net.Uri);
+  public java.lang.CharSequence getText();
+  public java.lang.String getHtmlText();
+  public android.content.Intent getIntent();
+  public android.net.Uri getUri();
+  public java.lang.CharSequence coerceToText(android.content.Context);
+  public java.lang.CharSequence coerceToStyledText(android.content.Context);
+  public java.lang.String coerceToHtmlText(android.content.Context);
+  public java.lang.String toString();
+}

@@ -1,0 +1,6 @@
+Compiled from "EventLogTags.java"
+public class android.util.EventLogTags$Description {
+  public final java.lang.String mName;
+  public final int mTag;
+  android.util.EventLogTags$Description();
+}

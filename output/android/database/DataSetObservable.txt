@@ -1,0 +1,6 @@
+Compiled from "DataSetObservable.java"
+public class android.database.DataSetObservable extends android.database.Observable<android.database.DataSetObserver> {
+  public android.database.DataSetObservable();
+  public void notifyChanged();
+  public void notifyInvalidated();
+}

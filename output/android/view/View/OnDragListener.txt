@@ -1,0 +1,4 @@
+Compiled from "View.java"
+public interface android.view.View$OnDragListener {
+  public abstract boolean onDrag(android.view.View, android.view.DragEvent);
+}

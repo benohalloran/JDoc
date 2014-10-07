@@ -1,0 +1,37 @@
+Compiled from "UsbConstants.java"
+public final class android.hardware.usb.UsbConstants {
+  public static final int USB_CLASS_APP_SPEC;
+  public static final int USB_CLASS_AUDIO;
+  public static final int USB_CLASS_CDC_DATA;
+  public static final int USB_CLASS_COMM;
+  public static final int USB_CLASS_CONTENT_SEC;
+  public static final int USB_CLASS_CSCID;
+  public static final int USB_CLASS_HID;
+  public static final int USB_CLASS_HUB;
+  public static final int USB_CLASS_MASS_STORAGE;
+  public static final int USB_CLASS_MISC;
+  public static final int USB_CLASS_PER_INTERFACE;
+  public static final int USB_CLASS_PHYSICA;
+  public static final int USB_CLASS_PRINTER;
+  public static final int USB_CLASS_STILL_IMAGE;
+  public static final int USB_CLASS_VENDOR_SPEC;
+  public static final int USB_CLASS_VIDEO;
+  public static final int USB_CLASS_WIRELESS_CONTROLLER;
+  public static final int USB_DIR_IN;
+  public static final int USB_DIR_OUT;
+  public static final int USB_ENDPOINT_DIR_MASK;
+  public static final int USB_ENDPOINT_NUMBER_MASK;
+  public static final int USB_ENDPOINT_XFERTYPE_MASK;
+  public static final int USB_ENDPOINT_XFER_BULK;
+  public static final int USB_ENDPOINT_XFER_CONTROL;
+  public static final int USB_ENDPOINT_XFER_INT;
+  public static final int USB_ENDPOINT_XFER_ISOC;
+  public static final int USB_INTERFACE_SUBCLASS_BOOT;
+  public static final int USB_SUBCLASS_VENDOR_SPEC;
+  public static final int USB_TYPE_CLASS;
+  public static final int USB_TYPE_MASK;
+  public static final int USB_TYPE_RESERVED;
+  public static final int USB_TYPE_STANDARD;
+  public static final int USB_TYPE_VENDOR;
+  public android.hardware.usb.UsbConstants();
+}

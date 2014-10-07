@@ -1,0 +1,4 @@
+Compiled from "OverlappingFileLockException.java"
+public class java.nio.channels.OverlappingFileLockException extends java.lang.IllegalStateException {
+  public java.nio.channels.OverlappingFileLockException();
+}

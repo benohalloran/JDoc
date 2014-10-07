@@ -1,0 +1,14 @@
+Compiled from "HttpRequestBase.java"
+public abstract class org.apache.http.client.methods.HttpRequestBase extends org.apache.http.message.AbstractHttpMessage implements org.apache.http.client.methods.HttpUriRequest,org.apache.http.client.methods.AbortableHttpRequest,java.lang.Cloneable {
+  public org.apache.http.client.methods.HttpRequestBase();
+  public abstract java.lang.String getMethod();
+  public org.apache.http.ProtocolVersion getProtocolVersion();
+  public java.net.URI getURI();
+  public org.apache.http.RequestLine getRequestLine();
+  public void setURI(java.net.URI);
+  public void setConnectionRequest(org.apache.http.conn.ClientConnectionRequest) throws java.io.IOException;
+  public void setReleaseTrigger(org.apache.http.conn.ConnectionReleaseTrigger) throws java.io.IOException;
+  public void abort();
+  public boolean isAborted();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

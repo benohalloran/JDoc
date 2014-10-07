@@ -1,0 +1,5 @@
+Compiled from "Comparator.java"
+public interface java.util.Comparator<T> {
+  public abstract int compare(T, T);
+  public abstract boolean equals(java.lang.Object);
+}

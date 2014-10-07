@@ -1,0 +1,20 @@
+Compiled from "ClipData.java"
+public class android.content.ClipData implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.ClipData> CREATOR;
+  public android.content.ClipData(java.lang.CharSequence, java.lang.String[], android.content.ClipData$Item);
+  public android.content.ClipData(android.content.ClipDescription, android.content.ClipData$Item);
+  public android.content.ClipData(android.content.ClipData);
+  public static android.content.ClipData newPlainText(java.lang.CharSequence, java.lang.CharSequence);
+  public static android.content.ClipData newHtmlText(java.lang.CharSequence, java.lang.CharSequence, java.lang.String);
+  public static android.content.ClipData newIntent(java.lang.CharSequence, android.content.Intent);
+  public static android.content.ClipData newUri(android.content.ContentResolver, java.lang.CharSequence, android.net.Uri);
+  public static android.content.ClipData newRawUri(java.lang.CharSequence, android.net.Uri);
+  public android.content.ClipDescription getDescription();
+  public void addItem(android.content.ClipData$Item);
+  public int getItemCount();
+  public android.content.ClipData$Item getItemAt(int);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

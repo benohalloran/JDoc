@@ -1,0 +1,6 @@
+Compiled from "LinearInterpolator.java"
+public class android.view.animation.LinearInterpolator implements android.view.animation.Interpolator {
+  public android.view.animation.LinearInterpolator();
+  public android.view.animation.LinearInterpolator(android.content.Context, android.util.AttributeSet);
+  public float getInterpolation(float);
+}

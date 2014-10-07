@@ -1,0 +1,16 @@
+Compiled from "CellIdentityCdma.java"
+public final class android.telephony.CellIdentityCdma implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.telephony.CellIdentityCdma> CREATOR;
+  android.telephony.CellIdentityCdma();
+  public int getNetworkId();
+  public int getSystemId();
+  public int getBasestationId();
+  public int getLongitude();
+  public int getLatitude();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

@@ -1,0 +1,22 @@
+Compiled from "LruCache.java"
+public class android.util.LruCache<K, V> {
+  public android.util.LruCache(int);
+  public void resize(int);
+  public final V get(K);
+  public final V put(K, V);
+  public void trimToSize(int);
+  public final V remove(K);
+  protected void entryRemoved(boolean, K, V, V);
+  protected V create(K);
+  protected int sizeOf(K, V);
+  public final void evictAll();
+  public final synchronized int size();
+  public final synchronized int maxSize();
+  public final synchronized int hitCount();
+  public final synchronized int missCount();
+  public final synchronized int createCount();
+  public final synchronized int putCount();
+  public final synchronized int evictionCount();
+  public final synchronized java.util.Map<K, V> snapshot();
+  public final synchronized java.lang.String toString();
+}

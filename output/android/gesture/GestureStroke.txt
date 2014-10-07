@@ -1,0 +1,12 @@
+Compiled from "GestureStroke.java"
+public class android.gesture.GestureStroke {
+  public final android.graphics.RectF boundingBox;
+  public final float length;
+  public final float[] points;
+  public android.gesture.GestureStroke(java.util.ArrayList<android.gesture.GesturePoint>);
+  public java.lang.Object clone();
+  public android.graphics.Path getPath();
+  public android.graphics.Path toPath(float, float, int);
+  public void clearPath();
+  public android.gesture.OrientedBoundingBox computeOrientedBoundingBox();
+}

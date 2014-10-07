@@ -1,0 +1,7 @@
+Compiled from "DecelerateInterpolator.java"
+public class android.view.animation.DecelerateInterpolator implements android.view.animation.Interpolator {
+  public android.view.animation.DecelerateInterpolator();
+  public android.view.animation.DecelerateInterpolator(float);
+  public android.view.animation.DecelerateInterpolator(android.content.Context, android.util.AttributeSet);
+  public float getInterpolation(float);
+}

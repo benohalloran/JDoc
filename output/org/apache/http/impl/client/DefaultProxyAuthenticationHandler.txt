@@ -1,0 +1,6 @@
+Compiled from "DefaultProxyAuthenticationHandler.java"
+public class org.apache.http.impl.client.DefaultProxyAuthenticationHandler extends org.apache.http.impl.client.AbstractAuthenticationHandler {
+  public org.apache.http.impl.client.DefaultProxyAuthenticationHandler();
+  public boolean isAuthenticationRequested(org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext);
+  public java.util.Map<java.lang.String, org.apache.http.Header> getChallenges(org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext) throws org.apache.http.auth.MalformedChallengeException;
+}

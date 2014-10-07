@@ -1,0 +1,5 @@
+Compiled from "AssertionFailedError.java"
+public class android.test.AssertionFailedError extends java.lang.Error {
+  public android.test.AssertionFailedError();
+  public android.test.AssertionFailedError(java.lang.String);
+}

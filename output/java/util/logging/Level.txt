@@ -1,0 +1,23 @@
+Compiled from "Level.java"
+public class java.util.logging.Level implements java.io.Serializable {
+  public static final java.util.logging.Level ALL;
+  public static final java.util.logging.Level CONFIG;
+  public static final java.util.logging.Level FINE;
+  public static final java.util.logging.Level FINER;
+  public static final java.util.logging.Level FINEST;
+  public static final java.util.logging.Level INFO;
+  public static final java.util.logging.Level OFF;
+  public static final java.util.logging.Level SEVERE;
+  public static final java.util.logging.Level WARNING;
+  protected java.util.logging.Level(java.lang.String, int);
+  protected java.util.logging.Level(java.lang.String, int, java.lang.String);
+  public static java.util.logging.Level parse(java.lang.String) throws java.lang.IllegalArgumentException;
+  public java.lang.String getName();
+  public java.lang.String getResourceBundleName();
+  public final int intValue();
+  public java.lang.String getLocalizedName();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public final java.lang.String toString();
+  static {};
+}

@@ -1,0 +1,5 @@
+Compiled from "InternalError.java"
+public class java.lang.InternalError extends java.lang.VirtualMachineError {
+  public java.lang.InternalError();
+  public java.lang.InternalError(java.lang.String);
+}

@@ -1,0 +1,31 @@
+Compiled from "DatePicker.java"
+public class android.widget.DatePicker extends android.widget.FrameLayout {
+  public android.widget.DatePicker(android.content.Context);
+  public android.widget.DatePicker(android.content.Context, android.util.AttributeSet);
+  public android.widget.DatePicker(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.DatePicker(android.content.Context, android.util.AttributeSet, int, int);
+  public void init(int, int, int, android.widget.DatePicker$OnDateChangedListener);
+  public void updateDate(int, int, int);
+  public int getYear();
+  public int getMonth();
+  public int getDayOfMonth();
+  public long getMinDate();
+  public void setMinDate(long);
+  public long getMaxDate();
+  public void setMaxDate(long);
+  public void setEnabled(boolean);
+  public boolean isEnabled();
+  public boolean dispatchPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  protected void onConfigurationChanged(android.content.res.Configuration);
+  public boolean getCalendarViewShown();
+  public android.widget.CalendarView getCalendarView();
+  public void setCalendarViewShown(boolean);
+  public boolean getSpinnersShown();
+  public void setSpinnersShown(boolean);
+  protected void dispatchRestoreInstanceState(android.util.SparseArray<android.os.Parcelable>);
+  protected android.os.Parcelable onSaveInstanceState();
+  protected void onRestoreInstanceState(android.os.Parcelable);
+}

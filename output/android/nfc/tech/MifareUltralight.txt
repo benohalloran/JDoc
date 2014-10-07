@@ -1,0 +1,20 @@
+Compiled from "MifareUltralight.java"
+public final class android.nfc.tech.MifareUltralight extends android.nfc.tech.BasicTagTechnology {
+  public static final int PAGE_SIZE;
+  public static final int TYPE_ULTRALIGHT;
+  public static final int TYPE_ULTRALIGHT_C;
+  public static final int TYPE_UNKNOWN;
+  android.nfc.tech.MifareUltralight();
+  public static android.nfc.tech.MifareUltralight get(android.nfc.Tag);
+  public int getType();
+  public byte[] readPages(int) throws java.io.IOException;
+  public void writePage(int, byte[]) throws java.io.IOException;
+  public byte[] transceive(byte[]) throws java.io.IOException;
+  public int getMaxTransceiveLength();
+  public void setTimeout(int);
+  public int getTimeout();
+  public void close() throws java.io.IOException;
+  public void connect() throws java.io.IOException;
+  public boolean isConnected();
+  public android.nfc.Tag getTag();
+}

@@ -1,0 +1,30 @@
+Compiled from "ConcurrentHashMap.java"
+public class java.util.concurrent.ConcurrentHashMap<K, V> extends java.util.AbstractMap<K, V> implements java.util.concurrent.ConcurrentMap<K, V>, java.io.Serializable {
+  public java.util.concurrent.ConcurrentHashMap();
+  public java.util.concurrent.ConcurrentHashMap(int);
+  public java.util.concurrent.ConcurrentHashMap(java.util.Map<? extends K, ? extends V>);
+  public java.util.concurrent.ConcurrentHashMap(int, float);
+  public java.util.concurrent.ConcurrentHashMap(int, float, int);
+  public int size();
+  public boolean isEmpty();
+  public V get(java.lang.Object);
+  public boolean containsKey(java.lang.Object);
+  public boolean containsValue(java.lang.Object);
+  public V put(K, V);
+  public void putAll(java.util.Map<? extends K, ? extends V>);
+  public V remove(java.lang.Object);
+  public void clear();
+  public java.util.Set<K> keySet();
+  public java.util.Collection<V> values();
+  public java.util.Set<java.util.Map$Entry<K, V>> entrySet();
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public V putIfAbsent(K, V);
+  public boolean remove(java.lang.Object, java.lang.Object);
+  public boolean replace(K, V, V);
+  public V replace(K, V);
+  public boolean contains(java.lang.Object);
+  public java.util.Enumeration<K> keys();
+  public java.util.Enumeration<V> elements();
+}

@@ -1,0 +1,4 @@
+Compiled from "KeyStore.java"
+public interface java.security.KeyStore$LoadStoreParameter {
+  public abstract java.security.KeyStore$ProtectionParameter getProtectionParameter();
+}

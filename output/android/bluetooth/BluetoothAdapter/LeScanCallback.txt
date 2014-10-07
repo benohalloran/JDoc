@@ -1,0 +1,4 @@
+Compiled from "BluetoothAdapter.java"
+public interface android.bluetooth.BluetoothAdapter$LeScanCallback {
+  public abstract void onLeScan(android.bluetooth.BluetoothDevice, int, byte[]);
+}

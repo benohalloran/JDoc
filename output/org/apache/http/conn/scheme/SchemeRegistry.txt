@@ -1,0 +1,11 @@
+Compiled from "SchemeRegistry.java"
+public final class org.apache.http.conn.scheme.SchemeRegistry {
+  public org.apache.http.conn.scheme.SchemeRegistry();
+  public final synchronized org.apache.http.conn.scheme.Scheme getScheme(java.lang.String);
+  public final synchronized org.apache.http.conn.scheme.Scheme getScheme(org.apache.http.HttpHost);
+  public final synchronized org.apache.http.conn.scheme.Scheme get(java.lang.String);
+  public final synchronized org.apache.http.conn.scheme.Scheme register(org.apache.http.conn.scheme.Scheme);
+  public final synchronized org.apache.http.conn.scheme.Scheme unregister(java.lang.String);
+  public final synchronized java.util.List<java.lang.String> getSchemeNames();
+  public synchronized void setItems(java.util.Map<java.lang.String, org.apache.http.conn.scheme.Scheme>);
+}

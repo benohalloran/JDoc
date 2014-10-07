@@ -1,0 +1,11 @@
+Compiled from "Keyboard.java"
+public class android.inputmethodservice.Keyboard$Row {
+  public int defaultHeight;
+  public int defaultHorizontalGap;
+  public int defaultWidth;
+  public int mode;
+  public int rowEdgeFlags;
+  public int verticalGap;
+  public android.inputmethodservice.Keyboard$Row(android.inputmethodservice.Keyboard);
+  public android.inputmethodservice.Keyboard$Row(android.content.res.Resources, android.inputmethodservice.Keyboard, android.content.res.XmlResourceParser);
+}

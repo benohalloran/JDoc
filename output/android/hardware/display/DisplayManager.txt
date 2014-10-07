@@ -1,0 +1,15 @@
+Compiled from "DisplayManager.java"
+public final class android.hardware.display.DisplayManager {
+  public static final java.lang.String DISPLAY_CATEGORY_PRESENTATION;
+  public static final int VIRTUAL_DISPLAY_FLAG_OWN_CONTENT_ONLY;
+  public static final int VIRTUAL_DISPLAY_FLAG_PRESENTATION;
+  public static final int VIRTUAL_DISPLAY_FLAG_PUBLIC;
+  public static final int VIRTUAL_DISPLAY_FLAG_SECURE;
+  android.hardware.display.DisplayManager();
+  public android.view.Display getDisplay(int);
+  public android.view.Display[] getDisplays();
+  public android.view.Display[] getDisplays(java.lang.String);
+  public void registerDisplayListener(android.hardware.display.DisplayManager$DisplayListener, android.os.Handler);
+  public void unregisterDisplayListener(android.hardware.display.DisplayManager$DisplayListener);
+  public android.hardware.display.VirtualDisplay createVirtualDisplay(java.lang.String, int, int, int, android.view.Surface, int);
+}

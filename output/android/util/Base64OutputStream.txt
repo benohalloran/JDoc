@@ -1,0 +1,7 @@
+Compiled from "Base64OutputStream.java"
+public class android.util.Base64OutputStream extends java.io.FilterOutputStream {
+  public android.util.Base64OutputStream(java.io.OutputStream, int);
+  public void write(int) throws java.io.IOException;
+  public void write(byte[], int, int) throws java.io.IOException;
+  public void close() throws java.io.IOException;
+}

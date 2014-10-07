@@ -1,0 +1,10 @@
+Compiled from "YuvImage.java"
+public class android.graphics.YuvImage {
+  public android.graphics.YuvImage(byte[], int, int, int, int[]);
+  public boolean compressToJpeg(android.graphics.Rect, int, java.io.OutputStream);
+  public byte[] getYuvData();
+  public int getYuvFormat();
+  public int[] getStrides();
+  public int getWidth();
+  public int getHeight();
+}

@@ -1,0 +1,6 @@
+Compiled from "CrossProcessCursor.java"
+public interface android.database.CrossProcessCursor extends android.database.Cursor {
+  public abstract android.database.CursorWindow getWindow();
+  public abstract void fillWindow(int, android.database.CursorWindow);
+  public abstract boolean onMove(int, int);
+}

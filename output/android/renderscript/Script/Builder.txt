@@ -1,0 +1,4 @@
+Compiled from "Script.java"
+public class android.renderscript.Script$Builder {
+  android.renderscript.Script$Builder();
+}

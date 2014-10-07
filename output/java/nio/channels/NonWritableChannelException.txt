@@ -1,0 +1,4 @@
+Compiled from "NonWritableChannelException.java"
+public class java.nio.channels.NonWritableChannelException extends java.lang.IllegalStateException {
+  public java.nio.channels.NonWritableChannelException();
+}

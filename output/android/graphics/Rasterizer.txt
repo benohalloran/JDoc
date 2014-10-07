@@ -1,0 +1,5 @@
+Compiled from "Rasterizer.java"
+public class android.graphics.Rasterizer {
+  public android.graphics.Rasterizer();
+  protected void finalize() throws java.lang.Throwable;
+}

@@ -1,0 +1,5 @@
+Compiled from "VoiceInteractor.java"
+public class android.app.VoiceInteractor$CommandRequest extends android.app.VoiceInteractor$Request {
+  public android.app.VoiceInteractor$CommandRequest(java.lang.String, android.os.Bundle);
+  public void onCommandResult(android.os.Bundle);
+}

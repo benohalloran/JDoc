@@ -1,0 +1,6 @@
+Compiled from "MediaStore.java"
+public final class android.provider.MediaStore$Video {
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public android.provider.MediaStore$Video();
+  public static final android.database.Cursor query(android.content.ContentResolver, android.net.Uri, java.lang.String[]);
+}

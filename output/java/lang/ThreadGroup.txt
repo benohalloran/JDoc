@@ -1,0 +1,29 @@
+Compiled from "ThreadGroup.java"
+public class java.lang.ThreadGroup implements java.lang.Thread$UncaughtExceptionHandler {
+  public java.lang.ThreadGroup(java.lang.String);
+  public java.lang.ThreadGroup(java.lang.ThreadGroup, java.lang.String);
+  public int activeCount();
+  public int activeGroupCount();
+  public boolean allowThreadSuspension(boolean);
+  public final void checkAccess();
+  public final void destroy();
+  public int enumerate(java.lang.Thread[]);
+  public int enumerate(java.lang.Thread[], boolean);
+  public int enumerate(java.lang.ThreadGroup[]);
+  public int enumerate(java.lang.ThreadGroup[], boolean);
+  public final int getMaxPriority();
+  public final java.lang.String getName();
+  public final java.lang.ThreadGroup getParent();
+  public final void interrupt();
+  public final boolean isDaemon();
+  public synchronized boolean isDestroyed();
+  public void list();
+  public final boolean parentOf(java.lang.ThreadGroup);
+  public final void resume();
+  public final void setDaemon(boolean);
+  public final void setMaxPriority(int);
+  public final void stop();
+  public final void suspend();
+  public java.lang.String toString();
+  public void uncaughtException(java.lang.Thread, java.lang.Throwable);
+}

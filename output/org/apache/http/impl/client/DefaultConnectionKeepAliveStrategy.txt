@@ -1,0 +1,5 @@
+Compiled from "DefaultConnectionKeepAliveStrategy.java"
+public class org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy implements org.apache.http.conn.ConnectionKeepAliveStrategy {
+  public org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy();
+  public long getKeepAliveDuration(org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext);
+}

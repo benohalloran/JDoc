@@ -1,0 +1,5 @@
+Compiled from "ShapeDrawable.java"
+public abstract class android.graphics.drawable.ShapeDrawable$ShaderFactory {
+  public android.graphics.drawable.ShapeDrawable$ShaderFactory();
+  public abstract android.graphics.Shader resize(int, int);
+}

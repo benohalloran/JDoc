@@ -1,0 +1,5 @@
+Compiled from "SocketInputBuffer.java"
+public class org.apache.http.impl.io.SocketInputBuffer extends org.apache.http.impl.io.AbstractSessionInputBuffer {
+  public org.apache.http.impl.io.SocketInputBuffer(java.net.Socket, int, org.apache.http.params.HttpParams) throws java.io.IOException;
+  public boolean isDataAvailable(int) throws java.io.IOException;
+}

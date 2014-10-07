@@ -1,0 +1,6 @@
+Compiled from "DefaultConnectionReuseStrategy.java"
+public class org.apache.http.impl.DefaultConnectionReuseStrategy implements org.apache.http.ConnectionReuseStrategy {
+  public org.apache.http.impl.DefaultConnectionReuseStrategy();
+  public boolean keepAlive(org.apache.http.HttpResponse, org.apache.http.protocol.HttpContext);
+  protected org.apache.http.TokenIterator createTokenIterator(org.apache.http.HeaderIterator);
+}

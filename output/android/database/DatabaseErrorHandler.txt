@@ -1,0 +1,4 @@
+Compiled from "DatabaseErrorHandler.java"
+public interface android.database.DatabaseErrorHandler {
+  public abstract void onCorruption(android.database.sqlite.SQLiteDatabase);
+}

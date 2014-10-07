@@ -1,0 +1,20 @@
+Compiled from "AbstractHttpClientConnection.java"
+public abstract class org.apache.http.impl.AbstractHttpClientConnection implements org.apache.http.HttpClientConnection {
+  public org.apache.http.impl.AbstractHttpClientConnection();
+  protected abstract void assertOpen() throws java.lang.IllegalStateException;
+  protected org.apache.http.impl.entity.EntityDeserializer createEntityDeserializer();
+  protected org.apache.http.impl.entity.EntitySerializer createEntitySerializer();
+  protected org.apache.http.HttpResponseFactory createHttpResponseFactory();
+  protected org.apache.http.io.HttpMessageParser createResponseParser(org.apache.http.io.SessionInputBuffer, org.apache.http.HttpResponseFactory, org.apache.http.params.HttpParams);
+  protected org.apache.http.io.HttpMessageWriter createRequestWriter(org.apache.http.io.SessionOutputBuffer, org.apache.http.params.HttpParams);
+  protected void init(org.apache.http.io.SessionInputBuffer, org.apache.http.io.SessionOutputBuffer, org.apache.http.params.HttpParams);
+  public boolean isResponseAvailable(int) throws java.io.IOException;
+  public void sendRequestHeader(org.apache.http.HttpRequest) throws org.apache.http.HttpException, java.io.IOException;
+  public void sendRequestEntity(org.apache.http.HttpEntityEnclosingRequest) throws org.apache.http.HttpException, java.io.IOException;
+  protected void doFlush() throws java.io.IOException;
+  public void flush() throws java.io.IOException;
+  public org.apache.http.HttpResponse receiveResponseHeader() throws org.apache.http.HttpException, java.io.IOException;
+  public void receiveResponseEntity(org.apache.http.HttpResponse) throws org.apache.http.HttpException, java.io.IOException;
+  public boolean isStale();
+  public org.apache.http.HttpConnectionMetrics getMetrics();
+}

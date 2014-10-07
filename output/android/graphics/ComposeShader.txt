@@ -1,0 +1,5 @@
+Compiled from "ComposeShader.java"
+public class android.graphics.ComposeShader extends android.graphics.Shader {
+  public android.graphics.ComposeShader(android.graphics.Shader, android.graphics.Shader, android.graphics.Xfermode);
+  public android.graphics.ComposeShader(android.graphics.Shader, android.graphics.Shader, android.graphics.PorterDuff$Mode);
+}

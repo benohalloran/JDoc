@@ -1,0 +1,18 @@
+Compiled from "VersionInfo.java"
+public class org.apache.http.util.VersionInfo {
+  public static final java.lang.String PROPERTY_MODULE;
+  public static final java.lang.String PROPERTY_RELEASE;
+  public static final java.lang.String PROPERTY_TIMESTAMP;
+  public static final java.lang.String UNAVAILABLE;
+  public static final java.lang.String VERSION_PROPERTY_FILE;
+  protected org.apache.http.util.VersionInfo(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String);
+  public final java.lang.String getPackage();
+  public final java.lang.String getModule();
+  public final java.lang.String getRelease();
+  public final java.lang.String getTimestamp();
+  public final java.lang.String getClassloader();
+  public java.lang.String toString();
+  public static final org.apache.http.util.VersionInfo[] loadVersionInfo(java.lang.String[], java.lang.ClassLoader);
+  public static final org.apache.http.util.VersionInfo loadVersionInfo(java.lang.String, java.lang.ClassLoader);
+  protected static final org.apache.http.util.VersionInfo fromMap(java.lang.String, java.util.Map, java.lang.ClassLoader);
+}

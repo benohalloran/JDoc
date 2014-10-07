@@ -1,0 +1,4 @@
+Compiled from "ExpandableListView.java"
+public interface android.widget.ExpandableListView$OnGroupExpandListener {
+  public abstract void onGroupExpand(int);
+}

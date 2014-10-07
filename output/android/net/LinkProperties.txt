@@ -1,0 +1,17 @@
+Compiled from "LinkProperties.java"
+public final class android.net.LinkProperties implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.net.LinkProperties> CREATOR;
+  android.net.LinkProperties();
+  public java.lang.String getInterfaceName();
+  public java.util.List<android.net.LinkAddress> getLinkAddresses();
+  public java.util.List<java.net.InetAddress> getDnsServers();
+  public java.lang.String getDomains();
+  public java.util.List<android.net.RouteInfo> getRoutes();
+  public android.net.ProxyInfo getHttpProxy();
+  public int describeContents();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

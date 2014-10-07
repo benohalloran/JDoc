@@ -1,0 +1,17 @@
+Compiled from "CameraDevice.java"
+public abstract class android.hardware.camera2.CameraDevice$StateListener {
+  public static final int ERROR_CAMERA_DEVICE;
+  public static final int ERROR_CAMERA_DISABLED;
+  public static final int ERROR_CAMERA_IN_USE;
+  public static final int ERROR_CAMERA_SERVICE;
+  public static final int ERROR_MAX_CAMERAS_IN_USE;
+  public android.hardware.camera2.CameraDevice$StateListener();
+  public abstract void onOpened(android.hardware.camera2.CameraDevice);
+  public void onUnconfigured(android.hardware.camera2.CameraDevice);
+  public void onActive(android.hardware.camera2.CameraDevice);
+  public void onBusy(android.hardware.camera2.CameraDevice);
+  public void onClosed(android.hardware.camera2.CameraDevice);
+  public void onIdle(android.hardware.camera2.CameraDevice);
+  public abstract void onDisconnected(android.hardware.camera2.CameraDevice);
+  public abstract void onError(android.hardware.camera2.CameraDevice, int);
+}

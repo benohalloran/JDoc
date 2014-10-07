@@ -1,0 +1,4 @@
+Compiled from "KeyChainAliasCallback.java"
+public interface android.security.KeyChainAliasCallback {
+  public abstract void alias(java.lang.String);
+}

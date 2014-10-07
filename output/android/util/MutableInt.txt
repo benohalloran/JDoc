@@ -1,0 +1,5 @@
+Compiled from "MutableInt.java"
+public final class android.util.MutableInt {
+  public int value;
+  public android.util.MutableInt(int);
+}

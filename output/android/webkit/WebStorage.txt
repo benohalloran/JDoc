@@ -1,0 +1,11 @@
+Compiled from "WebStorage.java"
+public class android.webkit.WebStorage {
+  android.webkit.WebStorage();
+  public void getOrigins(android.webkit.ValueCallback<java.util.Map>);
+  public void getUsageForOrigin(java.lang.String, android.webkit.ValueCallback<java.lang.Long>);
+  public void getQuotaForOrigin(java.lang.String, android.webkit.ValueCallback<java.lang.Long>);
+  public void setQuotaForOrigin(java.lang.String, long);
+  public void deleteOrigin(java.lang.String);
+  public void deleteAllData();
+  public static android.webkit.WebStorage getInstance();
+}

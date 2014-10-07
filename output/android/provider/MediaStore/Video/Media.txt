@@ -1,0 +1,10 @@
+Compiled from "MediaStore.java"
+public final class android.provider.MediaStore$Video$Media implements android.provider.MediaStore$Video$VideoColumns {
+  public static final java.lang.String CONTENT_TYPE;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final android.net.Uri EXTERNAL_CONTENT_URI;
+  public static final android.net.Uri INTERNAL_CONTENT_URI;
+  public android.provider.MediaStore$Video$Media();
+  public static android.net.Uri getContentUri(java.lang.String);
+  static {};
+}

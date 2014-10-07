@@ -1,0 +1,6 @@
+Compiled from "SyncContext.java"
+public class android.content.SyncContext {
+  android.content.SyncContext();
+  public void onFinished(android.content.SyncResult);
+  public android.os.IBinder getSyncContextBinder();
+}

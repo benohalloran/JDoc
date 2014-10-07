@@ -1,0 +1,14 @@
+Compiled from "SipAudioCall.java"
+public class android.net.sip.SipAudioCall$Listener {
+  public android.net.sip.SipAudioCall$Listener();
+  public void onReadyToCall(android.net.sip.SipAudioCall);
+  public void onCalling(android.net.sip.SipAudioCall);
+  public void onRinging(android.net.sip.SipAudioCall, android.net.sip.SipProfile);
+  public void onRingingBack(android.net.sip.SipAudioCall);
+  public void onCallEstablished(android.net.sip.SipAudioCall);
+  public void onCallEnded(android.net.sip.SipAudioCall);
+  public void onCallBusy(android.net.sip.SipAudioCall);
+  public void onCallHeld(android.net.sip.SipAudioCall);
+  public void onError(android.net.sip.SipAudioCall, int, java.lang.String);
+  public void onChanged(android.net.sip.SipAudioCall);
+}

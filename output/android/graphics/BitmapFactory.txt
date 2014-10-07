@@ -1,0 +1,15 @@
+Compiled from "BitmapFactory.java"
+public class android.graphics.BitmapFactory {
+  public android.graphics.BitmapFactory();
+  public static android.graphics.Bitmap decodeFile(java.lang.String, android.graphics.BitmapFactory$Options);
+  public static android.graphics.Bitmap decodeFile(java.lang.String);
+  public static android.graphics.Bitmap decodeResourceStream(android.content.res.Resources, android.util.TypedValue, java.io.InputStream, android.graphics.Rect, android.graphics.BitmapFactory$Options);
+  public static android.graphics.Bitmap decodeResource(android.content.res.Resources, int, android.graphics.BitmapFactory$Options);
+  public static android.graphics.Bitmap decodeResource(android.content.res.Resources, int);
+  public static android.graphics.Bitmap decodeByteArray(byte[], int, int, android.graphics.BitmapFactory$Options);
+  public static android.graphics.Bitmap decodeByteArray(byte[], int, int);
+  public static android.graphics.Bitmap decodeStream(java.io.InputStream, android.graphics.Rect, android.graphics.BitmapFactory$Options);
+  public static android.graphics.Bitmap decodeStream(java.io.InputStream);
+  public static android.graphics.Bitmap decodeFileDescriptor(java.io.FileDescriptor, android.graphics.Rect, android.graphics.BitmapFactory$Options);
+  public static android.graphics.Bitmap decodeFileDescriptor(java.io.FileDescriptor);
+}

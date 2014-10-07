@@ -1,0 +1,9 @@
+Compiled from "IdleConnectionHandler.java"
+public class org.apache.http.impl.conn.IdleConnectionHandler {
+  public org.apache.http.impl.conn.IdleConnectionHandler();
+  public void add(org.apache.http.HttpConnection, long, java.util.concurrent.TimeUnit);
+  public boolean remove(org.apache.http.HttpConnection);
+  public void removeAll();
+  public void closeIdleConnections(long);
+  public void closeExpiredConnections();
+}

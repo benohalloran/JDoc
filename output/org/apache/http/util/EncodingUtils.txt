@@ -1,0 +1,10 @@
+Compiled from "EncodingUtils.java"
+public final class org.apache.http.util.EncodingUtils {
+  org.apache.http.util.EncodingUtils();
+  public static java.lang.String getString(byte[], int, int, java.lang.String);
+  public static java.lang.String getString(byte[], java.lang.String);
+  public static byte[] getBytes(java.lang.String, java.lang.String);
+  public static byte[] getAsciiBytes(java.lang.String);
+  public static java.lang.String getAsciiString(byte[], int, int);
+  public static java.lang.String getAsciiString(byte[]);
+}

@@ -1,0 +1,47 @@
+Compiled from "LocationManager.java"
+public class android.location.LocationManager {
+  public static final java.lang.String GPS_PROVIDER;
+  public static final java.lang.String KEY_LOCATION_CHANGED;
+  public static final java.lang.String KEY_PROVIDER_ENABLED;
+  public static final java.lang.String KEY_PROXIMITY_ENTERING;
+  public static final java.lang.String KEY_STATUS_CHANGED;
+  public static final java.lang.String MODE_CHANGED_ACTION;
+  public static final java.lang.String NETWORK_PROVIDER;
+  public static final java.lang.String PASSIVE_PROVIDER;
+  public static final java.lang.String PROVIDERS_CHANGED_ACTION;
+  android.location.LocationManager();
+  public java.util.List<java.lang.String> getAllProviders();
+  public java.util.List<java.lang.String> getProviders(boolean);
+  public android.location.LocationProvider getProvider(java.lang.String);
+  public java.util.List<java.lang.String> getProviders(android.location.Criteria, boolean);
+  public java.lang.String getBestProvider(android.location.Criteria, boolean);
+  public void requestLocationUpdates(java.lang.String, long, float, android.location.LocationListener);
+  public void requestLocationUpdates(java.lang.String, long, float, android.location.LocationListener, android.os.Looper);
+  public void requestLocationUpdates(long, float, android.location.Criteria, android.location.LocationListener, android.os.Looper);
+  public void requestLocationUpdates(java.lang.String, long, float, android.app.PendingIntent);
+  public void requestLocationUpdates(long, float, android.location.Criteria, android.app.PendingIntent);
+  public void requestSingleUpdate(java.lang.String, android.location.LocationListener, android.os.Looper);
+  public void requestSingleUpdate(android.location.Criteria, android.location.LocationListener, android.os.Looper);
+  public void requestSingleUpdate(java.lang.String, android.app.PendingIntent);
+  public void requestSingleUpdate(android.location.Criteria, android.app.PendingIntent);
+  public void removeUpdates(android.location.LocationListener);
+  public void removeUpdates(android.app.PendingIntent);
+  public void addProximityAlert(double, double, float, long, android.app.PendingIntent);
+  public void removeProximityAlert(android.app.PendingIntent);
+  public boolean isProviderEnabled(java.lang.String);
+  public android.location.Location getLastKnownLocation(java.lang.String);
+  public void addTestProvider(java.lang.String, boolean, boolean, boolean, boolean, boolean, boolean, boolean, int, int);
+  public void removeTestProvider(java.lang.String);
+  public void setTestProviderLocation(java.lang.String, android.location.Location);
+  public void clearTestProviderLocation(java.lang.String);
+  public void setTestProviderEnabled(java.lang.String, boolean);
+  public void clearTestProviderEnabled(java.lang.String);
+  public void setTestProviderStatus(java.lang.String, int, android.os.Bundle, long);
+  public void clearTestProviderStatus(java.lang.String);
+  public boolean addGpsStatusListener(android.location.GpsStatus$Listener);
+  public void removeGpsStatusListener(android.location.GpsStatus$Listener);
+  public boolean addNmeaListener(android.location.GpsStatus$NmeaListener);
+  public void removeNmeaListener(android.location.GpsStatus$NmeaListener);
+  public android.location.GpsStatus getGpsStatus(android.location.GpsStatus);
+  public boolean sendExtraCommand(java.lang.String, java.lang.String, android.os.Bundle);
+}

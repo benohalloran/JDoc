@@ -1,0 +1,21 @@
+Compiled from "ExpandableListAdapter.java"
+public interface android.widget.ExpandableListAdapter {
+  public abstract void registerDataSetObserver(android.database.DataSetObserver);
+  public abstract void unregisterDataSetObserver(android.database.DataSetObserver);
+  public abstract int getGroupCount();
+  public abstract int getChildrenCount(int);
+  public abstract java.lang.Object getGroup(int);
+  public abstract java.lang.Object getChild(int, int);
+  public abstract long getGroupId(int);
+  public abstract long getChildId(int, int);
+  public abstract boolean hasStableIds();
+  public abstract android.view.View getGroupView(int, boolean, android.view.View, android.view.ViewGroup);
+  public abstract android.view.View getChildView(int, int, boolean, android.view.View, android.view.ViewGroup);
+  public abstract boolean isChildSelectable(int, int);
+  public abstract boolean areAllItemsEnabled();
+  public abstract boolean isEmpty();
+  public abstract void onGroupExpanded(int);
+  public abstract void onGroupCollapsed(int);
+  public abstract long getCombinedChildId(long, long);
+  public abstract long getCombinedGroupId(long);
+}

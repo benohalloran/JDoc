@@ -1,0 +1,5 @@
+Compiled from "RemoteException.java"
+public class android.os.RemoteException extends android.util.AndroidException {
+  public android.os.RemoteException();
+  public android.os.RemoteException(java.lang.String);
+}

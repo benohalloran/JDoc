@@ -1,0 +1,20 @@
+Compiled from "SslError.java"
+public class android.net.http.SslError {
+  public static final int SSL_DATE_INVALID;
+  public static final int SSL_EXPIRED;
+  public static final int SSL_IDMISMATCH;
+  public static final int SSL_INVALID;
+  public static final int SSL_MAX_ERROR;
+  public static final int SSL_NOTYETVALID;
+  public static final int SSL_UNTRUSTED;
+  public android.net.http.SslError(int, android.net.http.SslCertificate);
+  public android.net.http.SslError(int, java.security.cert.X509Certificate);
+  public android.net.http.SslError(int, android.net.http.SslCertificate, java.lang.String);
+  public android.net.http.SslError(int, java.security.cert.X509Certificate, java.lang.String);
+  public android.net.http.SslCertificate getCertificate();
+  public java.lang.String getUrl();
+  public boolean addError(int);
+  public boolean hasError(int);
+  public int getPrimaryError();
+  public java.lang.String toString();
+}

@@ -1,0 +1,12 @@
+Compiled from "XmlPullParserException.java"
+public class org.xmlpull.v1.XmlPullParserException extends java.lang.Exception {
+  protected int column;
+  protected java.lang.Throwable detail;
+  protected int row;
+  public org.xmlpull.v1.XmlPullParserException(java.lang.String);
+  public org.xmlpull.v1.XmlPullParserException(java.lang.String, org.xmlpull.v1.XmlPullParser, java.lang.Throwable);
+  public java.lang.Throwable getDetail();
+  public int getLineNumber();
+  public int getColumnNumber();
+  public void printStackTrace();
+}

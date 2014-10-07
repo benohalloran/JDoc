@@ -1,0 +1,27 @@
+Compiled from "CursorAdapter.java"
+public abstract class android.widget.CursorAdapter extends android.widget.BaseAdapter implements android.widget.Filterable {
+  public static final int FLAG_AUTO_REQUERY;
+  public static final int FLAG_REGISTER_CONTENT_OBSERVER;
+  public android.widget.CursorAdapter(android.content.Context, android.database.Cursor);
+  public android.widget.CursorAdapter(android.content.Context, android.database.Cursor, boolean);
+  public android.widget.CursorAdapter(android.content.Context, android.database.Cursor, int);
+  protected void init(android.content.Context, android.database.Cursor, boolean);
+  public android.database.Cursor getCursor();
+  public int getCount();
+  public java.lang.Object getItem(int);
+  public long getItemId(int);
+  public boolean hasStableIds();
+  public android.view.View getView(int, android.view.View, android.view.ViewGroup);
+  public android.view.View getDropDownView(int, android.view.View, android.view.ViewGroup);
+  public abstract android.view.View newView(android.content.Context, android.database.Cursor, android.view.ViewGroup);
+  public android.view.View newDropDownView(android.content.Context, android.database.Cursor, android.view.ViewGroup);
+  public abstract void bindView(android.view.View, android.content.Context, android.database.Cursor);
+  public void changeCursor(android.database.Cursor);
+  public android.database.Cursor swapCursor(android.database.Cursor);
+  public java.lang.CharSequence convertToString(android.database.Cursor);
+  public android.database.Cursor runQueryOnBackgroundThread(java.lang.CharSequence);
+  public android.widget.Filter getFilter();
+  public android.widget.FilterQueryProvider getFilterQueryProvider();
+  public void setFilterQueryProvider(android.widget.FilterQueryProvider);
+  protected void onContentChanged();
+}

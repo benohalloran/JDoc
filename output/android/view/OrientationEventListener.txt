@@ -1,0 +1,10 @@
+Compiled from "OrientationEventListener.java"
+public abstract class android.view.OrientationEventListener {
+  public static final int ORIENTATION_UNKNOWN;
+  public android.view.OrientationEventListener(android.content.Context);
+  public android.view.OrientationEventListener(android.content.Context, int);
+  public void enable();
+  public void disable();
+  public boolean canDetectOrientation();
+  public abstract void onOrientationChanged(int);
+}

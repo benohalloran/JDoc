@@ -1,0 +1,13 @@
+Compiled from "PopupMenu.java"
+public class android.widget.PopupMenu {
+  public android.widget.PopupMenu(android.content.Context, android.view.View);
+  public android.widget.PopupMenu(android.content.Context, android.view.View, int);
+  public android.view.View$OnTouchListener getDragToOpenListener();
+  public android.view.Menu getMenu();
+  public android.view.MenuInflater getMenuInflater();
+  public void inflate(int);
+  public void show();
+  public void dismiss();
+  public void setOnMenuItemClickListener(android.widget.PopupMenu$OnMenuItemClickListener);
+  public void setOnDismissListener(android.widget.PopupMenu$OnDismissListener);
+}

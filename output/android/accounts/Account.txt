@@ -1,0 +1,14 @@
+Compiled from "Account.java"
+public class android.accounts.Account implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.accounts.Account> CREATOR;
+  public final java.lang.String name;
+  public final java.lang.String type;
+  public android.accounts.Account(java.lang.String, java.lang.String);
+  public android.accounts.Account(android.os.Parcel);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public java.lang.String toString();
+  static {};
+}

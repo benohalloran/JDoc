@@ -1,0 +1,22 @@
+Compiled from "SSLCertificateSocketFactory.java"
+public class android.net.SSLCertificateSocketFactory extends javax.net.ssl.SSLSocketFactory {
+  public android.net.SSLCertificateSocketFactory(int);
+  public static javax.net.SocketFactory getDefault(int);
+  public static javax.net.ssl.SSLSocketFactory getDefault(int, android.net.SSLSessionCache);
+  public static javax.net.ssl.SSLSocketFactory getInsecure(int, android.net.SSLSessionCache);
+  public static org.apache.http.conn.ssl.SSLSocketFactory getHttpSocketFactory(int, android.net.SSLSessionCache);
+  public void setTrustManagers(javax.net.ssl.TrustManager[]);
+  public void setNpnProtocols(byte[][]);
+  public byte[] getNpnSelectedProtocol(java.net.Socket);
+  public void setKeyManagers(javax.net.ssl.KeyManager[]);
+  public void setUseSessionTickets(java.net.Socket, boolean);
+  public void setHostname(java.net.Socket, java.lang.String);
+  public java.net.Socket createSocket(java.net.Socket, java.lang.String, int, boolean) throws java.io.IOException;
+  public java.net.Socket createSocket() throws java.io.IOException;
+  public java.net.Socket createSocket(java.net.InetAddress, int, java.net.InetAddress, int) throws java.io.IOException;
+  public java.net.Socket createSocket(java.net.InetAddress, int) throws java.io.IOException;
+  public java.net.Socket createSocket(java.lang.String, int, java.net.InetAddress, int) throws java.io.IOException;
+  public java.net.Socket createSocket(java.lang.String, int) throws java.io.IOException;
+  public java.lang.String[] getDefaultCipherSuites();
+  public java.lang.String[] getSupportedCipherSuites();
+}

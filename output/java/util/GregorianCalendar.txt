@@ -1,0 +1,28 @@
+Compiled from "GregorianCalendar.java"
+public class java.util.GregorianCalendar extends java.util.Calendar {
+  public static final int AD;
+  public static final int BC;
+  public java.util.GregorianCalendar();
+  public java.util.GregorianCalendar(int, int, int);
+  public java.util.GregorianCalendar(int, int, int, int, int);
+  public java.util.GregorianCalendar(int, int, int, int, int, int);
+  public java.util.GregorianCalendar(java.util.Locale);
+  public java.util.GregorianCalendar(java.util.TimeZone);
+  public java.util.GregorianCalendar(java.util.TimeZone, java.util.Locale);
+  public void add(int, int);
+  protected void computeFields();
+  protected void computeTime();
+  public boolean equals(java.lang.Object);
+  public int getActualMaximum(int);
+  public int getActualMinimum(int);
+  public int getGreatestMinimum(int);
+  public final java.util.Date getGregorianChange();
+  public int getLeastMaximum(int);
+  public int getMaximum(int);
+  public int getMinimum(int);
+  public int hashCode();
+  public boolean isLeapYear(int);
+  public void roll(int, int);
+  public void roll(int, boolean);
+  public void setGregorianChange(java.util.Date);
+}

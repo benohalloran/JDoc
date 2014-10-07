@@ -1,0 +1,5 @@
+Compiled from "UnsupportedCharsetException.java"
+public class java.nio.charset.UnsupportedCharsetException extends java.lang.IllegalArgumentException {
+  public java.nio.charset.UnsupportedCharsetException(java.lang.String);
+  public java.lang.String getCharsetName();
+}

@@ -1,0 +1,5 @@
+Compiled from "BaseColumns.java"
+public interface android.provider.BaseColumns {
+  public static final java.lang.String _COUNT;
+  public static final java.lang.String _ID;
+}

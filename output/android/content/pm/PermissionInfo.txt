@@ -1,0 +1,25 @@
+Compiled from "PermissionInfo.java"
+public class android.content.pm.PermissionInfo extends android.content.pm.PackageItemInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.content.pm.PermissionInfo> CREATOR;
+  public static final int FLAG_COSTS_MONEY;
+  public static final int PROTECTION_DANGEROUS;
+  public static final int PROTECTION_FLAG_DEVELOPMENT;
+  public static final int PROTECTION_FLAG_SYSTEM;
+  public static final int PROTECTION_MASK_BASE;
+  public static final int PROTECTION_MASK_FLAGS;
+  public static final int PROTECTION_NORMAL;
+  public static final int PROTECTION_SIGNATURE;
+  public static final int PROTECTION_SIGNATURE_OR_SYSTEM;
+  public int descriptionRes;
+  public int flags;
+  public java.lang.String group;
+  public java.lang.CharSequence nonLocalizedDescription;
+  public int protectionLevel;
+  public android.content.pm.PermissionInfo();
+  public android.content.pm.PermissionInfo(android.content.pm.PermissionInfo);
+  public java.lang.CharSequence loadDescription(android.content.pm.PackageManager);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

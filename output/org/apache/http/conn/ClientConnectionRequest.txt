@@ -1,0 +1,5 @@
+Compiled from "ClientConnectionRequest.java"
+public interface org.apache.http.conn.ClientConnectionRequest {
+  public abstract org.apache.http.conn.ManagedClientConnection getConnection(long, java.util.concurrent.TimeUnit) throws java.lang.InterruptedException, org.apache.http.conn.ConnectionPoolTimeoutException;
+  public abstract void abortRequest();
+}

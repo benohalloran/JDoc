@@ -1,0 +1,8 @@
+Compiled from "ScriptGroup.java"
+public final class android.renderscript.ScriptGroup$Builder {
+  public android.renderscript.ScriptGroup$Builder(android.renderscript.RenderScript);
+  public android.renderscript.ScriptGroup$Builder addKernel(android.renderscript.Script$KernelID);
+  public android.renderscript.ScriptGroup$Builder addConnection(android.renderscript.Type, android.renderscript.Script$KernelID, android.renderscript.Script$FieldID);
+  public android.renderscript.ScriptGroup$Builder addConnection(android.renderscript.Type, android.renderscript.Script$KernelID, android.renderscript.Script$KernelID);
+  public android.renderscript.ScriptGroup create();
+}

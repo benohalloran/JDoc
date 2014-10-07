@@ -1,0 +1,9 @@
+Compiled from "CalendarContract.java"
+public final class android.provider.CalendarContract$Calendars implements android.provider.BaseColumns,android.provider.CalendarContract$SyncColumns,android.provider.CalendarContract$CalendarColumns {
+  public static final java.lang.String CALENDAR_LOCATION;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final java.lang.String NAME;
+  android.provider.CalendarContract$Calendars();
+  static {};
+}

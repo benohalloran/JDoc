@@ -1,0 +1,16 @@
+Compiled from "UsbEndpoint.java"
+public class android.hardware.usb.UsbEndpoint implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.hardware.usb.UsbEndpoint> CREATOR;
+  android.hardware.usb.UsbEndpoint();
+  public int getAddress();
+  public int getEndpointNumber();
+  public int getDirection();
+  public int getAttributes();
+  public int getType();
+  public int getMaxPacketSize();
+  public int getInterval();
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

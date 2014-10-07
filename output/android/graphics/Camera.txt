@@ -1,0 +1,19 @@
+Compiled from "Camera.java"
+public class android.graphics.Camera {
+  public android.graphics.Camera();
+  public native void save();
+  public native void restore();
+  public native void translate(float, float, float);
+  public native void rotateX(float);
+  public native void rotateY(float);
+  public native void rotateZ(float);
+  public native void rotate(float, float, float);
+  public native float getLocationX();
+  public native float getLocationY();
+  public native float getLocationZ();
+  public native void setLocation(float, float, float);
+  public void getMatrix(android.graphics.Matrix);
+  public void applyToCanvas(android.graphics.Canvas);
+  public native float dotWithNormal(float, float, float);
+  protected void finalize() throws java.lang.Throwable;
+}

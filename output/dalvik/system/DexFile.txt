@@ -1,0 +1,12 @@
+Compiled from "DexFile.java"
+public final class dalvik.system.DexFile {
+  public dalvik.system.DexFile(java.io.File) throws java.io.IOException;
+  public dalvik.system.DexFile(java.lang.String) throws java.io.IOException;
+  public static dalvik.system.DexFile loadDex(java.lang.String, java.lang.String, int) throws java.io.IOException;
+  public java.lang.String getName();
+  public void close() throws java.io.IOException;
+  public java.lang.Class loadClass(java.lang.String, java.lang.ClassLoader);
+  public java.util.Enumeration<java.lang.String> entries();
+  protected void finalize() throws java.lang.Throwable;
+  public static native boolean isDexOptNeeded(java.lang.String) throws java.io.FileNotFoundException, java.io.IOException;
+}

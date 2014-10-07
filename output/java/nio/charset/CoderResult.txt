@@ -1,0 +1,17 @@
+Compiled from "CoderResult.java"
+public class java.nio.charset.CoderResult {
+  public static final java.nio.charset.CoderResult OVERFLOW;
+  public static final java.nio.charset.CoderResult UNDERFLOW;
+  java.nio.charset.CoderResult();
+  public static synchronized java.nio.charset.CoderResult malformedForLength(int) throws java.lang.IllegalArgumentException;
+  public static synchronized java.nio.charset.CoderResult unmappableForLength(int) throws java.lang.IllegalArgumentException;
+  public boolean isUnderflow();
+  public boolean isError();
+  public boolean isMalformed();
+  public boolean isOverflow();
+  public boolean isUnmappable();
+  public int length() throws java.lang.UnsupportedOperationException;
+  public void throwException() throws java.nio.BufferUnderflowException, java.nio.BufferOverflowException, java.nio.charset.UnmappableCharacterException, java.nio.charset.MalformedInputException, java.nio.charset.CharacterCodingException;
+  public java.lang.String toString();
+  static {};
+}

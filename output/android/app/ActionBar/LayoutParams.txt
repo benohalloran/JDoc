@@ -1,0 +1,11 @@
+Compiled from "ActionBar.java"
+public class android.app.ActionBar$LayoutParams extends android.view.ViewGroup$MarginLayoutParams {
+  public int gravity;
+  public android.app.ActionBar$LayoutParams(android.content.Context, android.util.AttributeSet);
+  public android.app.ActionBar$LayoutParams(int, int);
+  public android.app.ActionBar$LayoutParams(int, int, int);
+  public android.app.ActionBar$LayoutParams(int);
+  public android.app.ActionBar$LayoutParams(android.app.ActionBar$LayoutParams);
+  public android.app.ActionBar$LayoutParams(android.view.ViewGroup$LayoutParams);
+  public android.app.ActionBar$LayoutParams(android.view.ViewGroup$MarginLayoutParams);
+}

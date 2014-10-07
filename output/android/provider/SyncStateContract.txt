@@ -1,0 +1,4 @@
+Compiled from "SyncStateContract.java"
+public class android.provider.SyncStateContract {
+  public android.provider.SyncStateContract();
+}

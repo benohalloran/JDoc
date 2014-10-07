@@ -1,0 +1,15 @@
+Compiled from "CalendarContract.java"
+public final class android.provider.CalendarContract {
+  public static final java.lang.String ACCOUNT_TYPE_LOCAL;
+  public static final java.lang.String ACTION_EVENT_REMINDER;
+  public static final java.lang.String ACTION_HANDLE_CUSTOM_EVENT;
+  public static final java.lang.String AUTHORITY;
+  public static final java.lang.String CALLER_IS_SYNCADAPTER;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String EXTRA_CUSTOM_APP_URI;
+  public static final java.lang.String EXTRA_EVENT_ALL_DAY;
+  public static final java.lang.String EXTRA_EVENT_BEGIN_TIME;
+  public static final java.lang.String EXTRA_EVENT_END_TIME;
+  android.provider.CalendarContract();
+  static {};
+}

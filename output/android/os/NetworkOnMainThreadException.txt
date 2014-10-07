@@ -1,0 +1,4 @@
+Compiled from "NetworkOnMainThreadException.java"
+public class android.os.NetworkOnMainThreadException extends java.lang.RuntimeException {
+  public android.os.NetworkOnMainThreadException();
+}

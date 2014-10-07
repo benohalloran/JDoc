@@ -1,0 +1,44 @@
+Compiled from "AudioEffect.java"
+public class android.media.audiofx.AudioEffect {
+  public static final java.lang.String ACTION_CLOSE_AUDIO_EFFECT_CONTROL_SESSION;
+  public static final java.lang.String ACTION_DISPLAY_AUDIO_EFFECT_CONTROL_PANEL;
+  public static final java.lang.String ACTION_OPEN_AUDIO_EFFECT_CONTROL_SESSION;
+  public static final int ALREADY_EXISTS;
+  public static final int CONTENT_TYPE_GAME;
+  public static final int CONTENT_TYPE_MOVIE;
+  public static final int CONTENT_TYPE_MUSIC;
+  public static final int CONTENT_TYPE_VOICE;
+  public static final java.lang.String EFFECT_AUXILIARY;
+  public static final java.lang.String EFFECT_INSERT;
+  public static final java.util.UUID EFFECT_TYPE_AEC;
+  public static final java.util.UUID EFFECT_TYPE_AGC;
+  public static final java.util.UUID EFFECT_TYPE_BASS_BOOST;
+  public static final java.util.UUID EFFECT_TYPE_ENV_REVERB;
+  public static final java.util.UUID EFFECT_TYPE_EQUALIZER;
+  public static final java.util.UUID EFFECT_TYPE_LOUDNESS_ENHANCER;
+  public static final java.util.UUID EFFECT_TYPE_NS;
+  public static final java.util.UUID EFFECT_TYPE_PRESET_REVERB;
+  public static final java.util.UUID EFFECT_TYPE_VIRTUALIZER;
+  public static final int ERROR;
+  public static final int ERROR_BAD_VALUE;
+  public static final int ERROR_DEAD_OBJECT;
+  public static final int ERROR_INVALID_OPERATION;
+  public static final int ERROR_NO_INIT;
+  public static final int ERROR_NO_MEMORY;
+  public static final java.lang.String EXTRA_AUDIO_SESSION;
+  public static final java.lang.String EXTRA_CONTENT_TYPE;
+  public static final java.lang.String EXTRA_PACKAGE_NAME;
+  public static final int SUCCESS;
+  android.media.audiofx.AudioEffect();
+  public void release();
+  protected void finalize();
+  public android.media.audiofx.AudioEffect$Descriptor getDescriptor() throws java.lang.IllegalStateException;
+  public static android.media.audiofx.AudioEffect$Descriptor[] queryEffects();
+  public int setEnabled(boolean) throws java.lang.IllegalStateException;
+  public int getId() throws java.lang.IllegalStateException;
+  public boolean getEnabled() throws java.lang.IllegalStateException;
+  public boolean hasControl() throws java.lang.IllegalStateException;
+  public void setEnableStatusListener(android.media.audiofx.AudioEffect$OnEnableStatusChangeListener);
+  public void setControlStatusListener(android.media.audiofx.AudioEffect$OnControlStatusChangeListener);
+  static {};
+}

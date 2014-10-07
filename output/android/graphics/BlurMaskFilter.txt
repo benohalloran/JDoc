@@ -1,0 +1,4 @@
+Compiled from "BlurMaskFilter.java"
+public class android.graphics.BlurMaskFilter extends android.graphics.MaskFilter {
+  public android.graphics.BlurMaskFilter(float, android.graphics.BlurMaskFilter$Blur);
+}

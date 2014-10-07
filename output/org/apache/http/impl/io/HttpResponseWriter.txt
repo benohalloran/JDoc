@@ -1,0 +1,5 @@
+Compiled from "HttpResponseWriter.java"
+public class org.apache.http.impl.io.HttpResponseWriter extends org.apache.http.impl.io.AbstractMessageWriter {
+  public org.apache.http.impl.io.HttpResponseWriter(org.apache.http.io.SessionOutputBuffer, org.apache.http.message.LineFormatter, org.apache.http.params.HttpParams);
+  protected void writeHeadLine(org.apache.http.HttpMessage) throws java.io.IOException;
+}

@@ -1,0 +1,34 @@
+Compiled from "WallpaperManager.java"
+public class android.app.WallpaperManager {
+  public static final java.lang.String ACTION_CHANGE_LIVE_WALLPAPER;
+  public static final java.lang.String ACTION_CROP_AND_SET_WALLPAPER;
+  public static final java.lang.String ACTION_LIVE_WALLPAPER_CHOOSER;
+  public static final java.lang.String COMMAND_DROP;
+  public static final java.lang.String COMMAND_SECONDARY_TAP;
+  public static final java.lang.String COMMAND_TAP;
+  public static final java.lang.String EXTRA_LIVE_WALLPAPER_COMPONENT;
+  public static final java.lang.String WALLPAPER_PREVIEW_META_DATA;
+  android.app.WallpaperManager();
+  public static android.app.WallpaperManager getInstance(android.content.Context);
+  public android.graphics.drawable.Drawable getDrawable();
+  public android.graphics.drawable.Drawable getBuiltInDrawable();
+  public android.graphics.drawable.Drawable getBuiltInDrawable(int, int, boolean, float, float);
+  public android.graphics.drawable.Drawable peekDrawable();
+  public android.graphics.drawable.Drawable getFastDrawable();
+  public android.graphics.drawable.Drawable peekFastDrawable();
+  public void forgetLoadedWallpaper();
+  public android.app.WallpaperInfo getWallpaperInfo();
+  public android.content.Intent getCropAndSetWallpaperIntent(android.net.Uri);
+  public void setResource(int) throws java.io.IOException;
+  public void setBitmap(android.graphics.Bitmap) throws java.io.IOException;
+  public void setStream(java.io.InputStream) throws java.io.IOException;
+  public boolean hasResourceWallpaper(int);
+  public int getDesiredMinimumWidth();
+  public int getDesiredMinimumHeight();
+  public void suggestDesiredDimensions(int, int);
+  public void setWallpaperOffsets(android.os.IBinder, float, float);
+  public void setWallpaperOffsetSteps(float, float);
+  public void sendWallpaperCommand(android.os.IBinder, java.lang.String, int, int, int, android.os.Bundle);
+  public void clearWallpaperOffsets(android.os.IBinder);
+  public void clear() throws java.io.IOException;
+}

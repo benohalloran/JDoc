@@ -1,0 +1,7 @@
+Compiled from "HeaderValueFormatter.java"
+public interface org.apache.http.message.HeaderValueFormatter {
+  public abstract org.apache.http.util.CharArrayBuffer formatElements(org.apache.http.util.CharArrayBuffer, org.apache.http.HeaderElement[], boolean);
+  public abstract org.apache.http.util.CharArrayBuffer formatHeaderElement(org.apache.http.util.CharArrayBuffer, org.apache.http.HeaderElement, boolean);
+  public abstract org.apache.http.util.CharArrayBuffer formatParameters(org.apache.http.util.CharArrayBuffer, org.apache.http.NameValuePair[], boolean);
+  public abstract org.apache.http.util.CharArrayBuffer formatNameValuePair(org.apache.http.util.CharArrayBuffer, org.apache.http.NameValuePair, boolean);
+}

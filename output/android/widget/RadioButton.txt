@@ -1,0 +1,10 @@
+Compiled from "RadioButton.java"
+public class android.widget.RadioButton extends android.widget.CompoundButton {
+  public android.widget.RadioButton(android.content.Context);
+  public android.widget.RadioButton(android.content.Context, android.util.AttributeSet);
+  public android.widget.RadioButton(android.content.Context, android.util.AttributeSet, int);
+  public android.widget.RadioButton(android.content.Context, android.util.AttributeSet, int, int);
+  public void toggle();
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+}

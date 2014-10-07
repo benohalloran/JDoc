@@ -1,0 +1,12 @@
+Compiled from "ExtractedTextRequest.java"
+public class android.view.inputmethod.ExtractedTextRequest implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.inputmethod.ExtractedTextRequest> CREATOR;
+  public int flags;
+  public int hintMaxChars;
+  public int hintMaxLines;
+  public int token;
+  public android.view.inputmethod.ExtractedTextRequest();
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  static {};
+}

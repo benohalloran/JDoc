@@ -1,0 +1,6 @@
+Compiled from "Telephony.java"
+public final class android.provider.Telephony$Mms$Intents {
+  public static final java.lang.String CONTENT_CHANGED_ACTION;
+  public static final java.lang.String DELETED_CONTENTS;
+  android.provider.Telephony$Mms$Intents();
+}

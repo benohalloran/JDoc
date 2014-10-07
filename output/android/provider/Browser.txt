@@ -1,0 +1,38 @@
+Compiled from "Browser.java"
+public class android.provider.Browser {
+  public static final android.net.Uri BOOKMARKS_URI;
+  public static final java.lang.String EXTRA_APPLICATION_ID;
+  public static final java.lang.String EXTRA_CREATE_NEW_TAB;
+  public static final java.lang.String EXTRA_HEADERS;
+  public static final java.lang.String[] HISTORY_PROJECTION;
+  public static final int HISTORY_PROJECTION_BOOKMARK_INDEX;
+  public static final int HISTORY_PROJECTION_DATE_INDEX;
+  public static final int HISTORY_PROJECTION_FAVICON_INDEX;
+  public static final int HISTORY_PROJECTION_ID_INDEX;
+  public static final int HISTORY_PROJECTION_TITLE_INDEX;
+  public static final int HISTORY_PROJECTION_URL_INDEX;
+  public static final int HISTORY_PROJECTION_VISITS_INDEX;
+  public static final java.lang.String INITIAL_ZOOM_LEVEL;
+  public static final java.lang.String[] SEARCHES_PROJECTION;
+  public static final int SEARCHES_PROJECTION_DATE_INDEX;
+  public static final int SEARCHES_PROJECTION_SEARCH_INDEX;
+  public static final android.net.Uri SEARCHES_URI;
+  public static final java.lang.String[] TRUNCATE_HISTORY_PROJECTION;
+  public static final int TRUNCATE_HISTORY_PROJECTION_ID_INDEX;
+  public static final int TRUNCATE_N_OLDEST;
+  public android.provider.Browser();
+  public static final void saveBookmark(android.content.Context, java.lang.String, java.lang.String);
+  public static final void sendString(android.content.Context, java.lang.String);
+  public static final android.database.Cursor getAllBookmarks(android.content.ContentResolver) throws java.lang.IllegalStateException;
+  public static final android.database.Cursor getAllVisitedUrls(android.content.ContentResolver) throws java.lang.IllegalStateException;
+  public static final void updateVisitedHistory(android.content.ContentResolver, java.lang.String, boolean);
+  public static final void truncateHistory(android.content.ContentResolver);
+  public static final boolean canClearHistory(android.content.ContentResolver);
+  public static final void clearHistory(android.content.ContentResolver);
+  public static final void deleteHistoryTimeFrame(android.content.ContentResolver, long, long);
+  public static final void deleteFromHistory(android.content.ContentResolver, java.lang.String);
+  public static final void addSearchUrl(android.content.ContentResolver, java.lang.String);
+  public static final void clearSearches(android.content.ContentResolver);
+  public static final void requestAllIcons(android.content.ContentResolver, java.lang.String, android.webkit.WebIconDatabase$IconListener);
+  static {};
+}

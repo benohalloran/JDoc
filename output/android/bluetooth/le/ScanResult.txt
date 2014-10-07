@@ -1,0 +1,15 @@
+Compiled from "ScanResult.java"
+public final class android.bluetooth.le.ScanResult implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.bluetooth.le.ScanResult> CREATOR;
+  android.bluetooth.le.ScanResult();
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  public android.bluetooth.BluetoothDevice getDevice();
+  public byte[] getScanRecord();
+  public int getRssi();
+  public long getTimestampNanos();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  static {};
+}

@@ -1,0 +1,4 @@
+Compiled from "TextToSpeech.java"
+public interface android.speech.tts.TextToSpeech$OnInitListener {
+  public abstract void onInit(int);
+}

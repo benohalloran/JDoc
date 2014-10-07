@@ -1,0 +1,14 @@
+Compiled from "ScanRecord.java"
+public final class android.bluetooth.le.ScanRecord {
+  android.bluetooth.le.ScanRecord();
+  public int getAdvertiseFlags();
+  public java.util.List<android.os.ParcelUuid> getServiceUuids();
+  public int getManufacturerId();
+  public byte[] getManufacturerSpecificData();
+  public android.os.ParcelUuid getServiceDataUuid();
+  public byte[] getServiceData();
+  public int getTxPowerLevel();
+  public java.lang.String getLocalName();
+  public java.lang.String toString();
+  public static android.bluetooth.le.ScanRecord parseFromBytes(byte[]);
+}

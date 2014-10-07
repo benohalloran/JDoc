@@ -1,0 +1,12 @@
+Compiled from "BassBoost.java"
+public class android.media.audiofx.BassBoost extends android.media.audiofx.AudioEffect {
+  public static final int PARAM_STRENGTH;
+  public static final int PARAM_STRENGTH_SUPPORTED;
+  public android.media.audiofx.BassBoost(int, int) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException, java.lang.RuntimeException;
+  public boolean getStrengthSupported();
+  public void setStrength(short) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public short getRoundedStrength() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setParameterListener(android.media.audiofx.BassBoost$OnParameterChangeListener);
+  public android.media.audiofx.BassBoost$Settings getProperties() throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+  public void setProperties(android.media.audiofx.BassBoost$Settings) throws java.lang.IllegalStateException, java.lang.IllegalArgumentException, java.lang.UnsupportedOperationException;
+}

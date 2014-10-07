@@ -1,0 +1,6 @@
+Compiled from "DownloadManager.java"
+public class android.app.DownloadManager$Query {
+  public android.app.DownloadManager$Query();
+  public android.app.DownloadManager$Query setFilterById(long...);
+  public android.app.DownloadManager$Query setFilterByStatus(int);
+}

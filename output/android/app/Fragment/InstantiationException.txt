@@ -1,0 +1,4 @@
+Compiled from "Fragment.java"
+public class android.app.Fragment$InstantiationException extends android.util.AndroidRuntimeException {
+  public android.app.Fragment$InstantiationException(java.lang.String, java.lang.Exception);
+}

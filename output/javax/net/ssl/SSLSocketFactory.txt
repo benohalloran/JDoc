@@ -1,0 +1,8 @@
+Compiled from "SSLSocketFactory.java"
+public abstract class javax.net.ssl.SSLSocketFactory extends javax.net.SocketFactory {
+  public javax.net.ssl.SSLSocketFactory();
+  public static synchronized javax.net.SocketFactory getDefault();
+  public abstract java.lang.String[] getDefaultCipherSuites();
+  public abstract java.lang.String[] getSupportedCipherSuites();
+  public abstract java.net.Socket createSocket(java.net.Socket, java.lang.String, int, boolean) throws java.io.IOException;
+}

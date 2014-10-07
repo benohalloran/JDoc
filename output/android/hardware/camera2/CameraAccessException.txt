@@ -1,0 +1,11 @@
+Compiled from "CameraAccessException.java"
+public class android.hardware.camera2.CameraAccessException extends android.util.AndroidException {
+  public static final int CAMERA_DISABLED;
+  public static final int CAMERA_DISCONNECTED;
+  public static final int CAMERA_ERROR;
+  public android.hardware.camera2.CameraAccessException(int);
+  public android.hardware.camera2.CameraAccessException(int, java.lang.String);
+  public android.hardware.camera2.CameraAccessException(int, java.lang.String, java.lang.Throwable);
+  public android.hardware.camera2.CameraAccessException(int, java.lang.Throwable);
+  public final int getReason();
+}

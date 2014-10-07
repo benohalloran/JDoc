@@ -1,0 +1,6 @@
+Compiled from "PendingIntent.java"
+public class android.app.PendingIntent$CanceledException extends android.util.AndroidException {
+  public android.app.PendingIntent$CanceledException();
+  public android.app.PendingIntent$CanceledException(java.lang.String);
+  public android.app.PendingIntent$CanceledException(java.lang.Exception);
+}

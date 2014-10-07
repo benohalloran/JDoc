@@ -1,0 +1,4 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$CommonDataKinds$BaseTypes {
+  public static final int TYPE_CUSTOM;
+}

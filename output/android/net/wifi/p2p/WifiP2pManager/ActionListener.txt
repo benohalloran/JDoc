@@ -1,0 +1,5 @@
+Compiled from "WifiP2pManager.java"
+public interface android.net.wifi.p2p.WifiP2pManager$ActionListener {
+  public abstract void onSuccess();
+  public abstract void onFailure(int);
+}

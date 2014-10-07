@@ -1,0 +1,8 @@
+Compiled from "Explode.java"
+public class android.transition.Explode extends android.transition.Visibility {
+  public android.transition.Explode();
+  public void captureStartValues(android.transition.TransitionValues);
+  public void captureEndValues(android.transition.TransitionValues);
+  public android.animation.Animator onAppear(android.view.ViewGroup, android.view.View, android.transition.TransitionValues, android.transition.TransitionValues);
+  public android.animation.Animator onDisappear(android.view.ViewGroup, android.view.View, android.transition.TransitionValues, android.transition.TransitionValues);
+}

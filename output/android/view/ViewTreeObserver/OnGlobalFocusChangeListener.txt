@@ -1,0 +1,4 @@
+Compiled from "ViewTreeObserver.java"
+public interface android.view.ViewTreeObserver$OnGlobalFocusChangeListener {
+  public abstract void onGlobalFocusChanged(android.view.View, android.view.View);
+}

@@ -1,0 +1,4 @@
+Compiled from "WebIconDatabase.java"
+public interface android.webkit.WebIconDatabase$IconListener {
+  public abstract void onReceivedIcon(java.lang.String, android.graphics.Bitmap);
+}

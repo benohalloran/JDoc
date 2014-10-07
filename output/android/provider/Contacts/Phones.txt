@@ -1,0 +1,13 @@
+Compiled from "Contacts.java"
+public final class android.provider.Contacts$Phones implements android.provider.BaseColumns,android.provider.Contacts$PhonesColumns,android.provider.Contacts$PeopleColumns {
+  public static final android.net.Uri CONTENT_FILTER_URL;
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  public static final java.lang.String DEFAULT_SORT_ORDER;
+  public static final java.lang.String PERSON_ID;
+  android.provider.Contacts$Phones();
+  public static final java.lang.CharSequence getDisplayLabel(android.content.Context, int, java.lang.CharSequence, java.lang.CharSequence[]);
+  public static final java.lang.CharSequence getDisplayLabel(android.content.Context, int, java.lang.CharSequence);
+  static {};
+}

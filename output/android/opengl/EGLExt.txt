@@ -1,0 +1,9 @@
+Compiled from "EGLExt.java"
+public class android.opengl.EGLExt {
+  public static final int EGL_CONTEXT_FLAGS_KHR;
+  public static final int EGL_CONTEXT_MAJOR_VERSION_KHR;
+  public static final int EGL_CONTEXT_MINOR_VERSION_KHR;
+  public static final int EGL_OPENGL_ES3_BIT_KHR;
+  public android.opengl.EGLExt();
+  public static native boolean eglPresentationTimeANDROID(android.opengl.EGLDisplay, android.opengl.EGLSurface, long);
+}

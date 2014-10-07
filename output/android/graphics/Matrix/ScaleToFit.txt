@@ -1,0 +1,10 @@
+Compiled from "Matrix.java"
+public final class android.graphics.Matrix$ScaleToFit extends java.lang.Enum<android.graphics.Matrix$ScaleToFit> {
+  public static final android.graphics.Matrix$ScaleToFit CENTER;
+  public static final android.graphics.Matrix$ScaleToFit END;
+  public static final android.graphics.Matrix$ScaleToFit FILL;
+  public static final android.graphics.Matrix$ScaleToFit START;
+  public static android.graphics.Matrix$ScaleToFit[] values();
+  public static android.graphics.Matrix$ScaleToFit valueOf(java.lang.String);
+  static {};
+}

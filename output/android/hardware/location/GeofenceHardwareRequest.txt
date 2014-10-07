@@ -1,0 +1,16 @@
+Compiled from "GeofenceHardwareRequest.java"
+public final class android.hardware.location.GeofenceHardwareRequest {
+  public android.hardware.location.GeofenceHardwareRequest();
+  public static android.hardware.location.GeofenceHardwareRequest createCircularGeofence(double, double, double);
+  public void setLastTransition(int);
+  public void setUnknownTimer(int);
+  public void setMonitorTransitions(int);
+  public void setNotificationResponsiveness(int);
+  public double getLatitude();
+  public double getLongitude();
+  public double getRadius();
+  public int getMonitorTransitions();
+  public int getUnknownTimer();
+  public int getNotificationResponsiveness();
+  public int getLastTransition();
+}

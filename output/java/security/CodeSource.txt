@@ -1,0 +1,9 @@
+Compiled from "CodeSource.java"
+public class java.security.CodeSource implements java.io.Serializable {
+  public java.security.CodeSource(java.net.URL, java.security.cert.Certificate[]);
+  public java.security.CodeSource(java.net.URL, java.security.CodeSigner[]);
+  public final java.security.cert.Certificate[] getCertificates();
+  public final java.security.CodeSigner[] getCodeSigners();
+  public final java.net.URL getLocation();
+  public boolean implies(java.security.CodeSource);
+}

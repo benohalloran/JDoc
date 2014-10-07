@@ -1,0 +1,5 @@
+Compiled from "GLException.java"
+public class android.opengl.GLException extends java.lang.RuntimeException {
+  public android.opengl.GLException(int);
+  public android.opengl.GLException(int, java.lang.String);
+}

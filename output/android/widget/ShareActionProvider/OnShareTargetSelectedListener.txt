@@ -1,0 +1,4 @@
+Compiled from "ShareActionProvider.java"
+public interface android.widget.ShareActionProvider$OnShareTargetSelectedListener {
+  public abstract boolean onShareTargetSelected(android.widget.ShareActionProvider, android.content.Intent);
+}

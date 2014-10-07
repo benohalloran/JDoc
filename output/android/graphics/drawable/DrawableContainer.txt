@@ -1,0 +1,38 @@
+Compiled from "DrawableContainer.java"
+public class android.graphics.drawable.DrawableContainer extends android.graphics.drawable.Drawable implements android.graphics.drawable.Drawable$Callback {
+  public android.graphics.drawable.DrawableContainer();
+  public void draw(android.graphics.Canvas);
+  public int getChangingConfigurations();
+  public boolean getPadding(android.graphics.Rect);
+  public void setAlpha(int);
+  public int getAlpha();
+  public void setDither(boolean);
+  public void setColorFilter(android.graphics.ColorFilter);
+  public void setEnterFadeDuration(int);
+  public void setExitFadeDuration(int);
+  protected void onBoundsChange(android.graphics.Rect);
+  public boolean isStateful();
+  public void setAutoMirrored(boolean);
+  public boolean isAutoMirrored();
+  public void jumpToCurrentState();
+  public void setHotspot(float, float);
+  public void setHotspotBounds(int, int, int, int);
+  protected boolean onStateChange(int[]);
+  protected boolean onLevelChange(int);
+  public int getIntrinsicWidth();
+  public int getIntrinsicHeight();
+  public int getMinimumWidth();
+  public int getMinimumHeight();
+  public void invalidateDrawable(android.graphics.drawable.Drawable);
+  public void scheduleDrawable(android.graphics.drawable.Drawable, java.lang.Runnable, long);
+  public void unscheduleDrawable(android.graphics.drawable.Drawable, java.lang.Runnable);
+  public boolean setVisible(boolean, boolean);
+  public int getOpacity();
+  public boolean selectDrawable(int);
+  public android.graphics.drawable.Drawable getCurrent();
+  public void applyTheme(android.content.res.Resources$Theme);
+  public boolean canApplyTheme();
+  public android.graphics.drawable.Drawable$ConstantState getConstantState();
+  public android.graphics.drawable.Drawable mutate();
+  protected void setConstantState(android.graphics.drawable.DrawableContainer$DrawableContainerState);
+}

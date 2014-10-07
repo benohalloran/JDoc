@@ -1,0 +1,6 @@
+Compiled from "AsyncPlayer.java"
+public class android.media.AsyncPlayer {
+  public android.media.AsyncPlayer(java.lang.String);
+  public void play(android.content.Context, android.net.Uri, boolean, int);
+  public void stop();
+}

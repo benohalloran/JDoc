@@ -1,0 +1,21 @@
+Compiled from "CellSignalStrengthCdma.java"
+public final class android.telephony.CellSignalStrengthCdma extends android.telephony.CellSignalStrength implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.telephony.CellSignalStrengthCdma> CREATOR;
+  android.telephony.CellSignalStrengthCdma();
+  public int getLevel();
+  public int getAsuLevel();
+  public int getCdmaLevel();
+  public int getEvdoLevel();
+  public int getDbm();
+  public int getCdmaDbm();
+  public int getCdmaEcio();
+  public int getEvdoDbm();
+  public int getEvdoEcio();
+  public int getEvdoSnr();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  static {};
+}

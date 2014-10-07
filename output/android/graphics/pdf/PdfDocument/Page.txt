@@ -1,0 +1,6 @@
+Compiled from "PdfDocument.java"
+public final class android.graphics.pdf.PdfDocument$Page {
+  android.graphics.pdf.PdfDocument$Page();
+  public android.graphics.Canvas getCanvas();
+  public android.graphics.pdf.PdfDocument$PageInfo getInfo();
+}

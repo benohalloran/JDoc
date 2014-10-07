@@ -1,0 +1,10 @@
+Compiled from "Normalizer.java"
+public final class java.text.Normalizer$Form extends java.lang.Enum<java.text.Normalizer$Form> {
+  public static final java.text.Normalizer$Form NFC;
+  public static final java.text.Normalizer$Form NFD;
+  public static final java.text.Normalizer$Form NFKC;
+  public static final java.text.Normalizer$Form NFKD;
+  public static java.text.Normalizer$Form[] values();
+  public static java.text.Normalizer$Form valueOf(java.lang.String);
+  static {};
+}

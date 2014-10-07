@@ -1,0 +1,9 @@
+Compiled from "BackupDataInputStream.java"
+public class android.app.backup.BackupDataInputStream extends java.io.InputStream {
+  android.app.backup.BackupDataInputStream();
+  public int read() throws java.io.IOException;
+  public int read(byte[], int, int) throws java.io.IOException;
+  public int read(byte[]) throws java.io.IOException;
+  public java.lang.String getKey();
+  public int size();
+}

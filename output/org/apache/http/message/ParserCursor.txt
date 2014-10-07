@@ -1,0 +1,10 @@
+Compiled from "ParserCursor.java"
+public class org.apache.http.message.ParserCursor {
+  public org.apache.http.message.ParserCursor(int, int);
+  public int getLowerBound();
+  public int getUpperBound();
+  public int getPos();
+  public void updatePos(int);
+  public boolean atEnd();
+  public java.lang.String toString();
+}

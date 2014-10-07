@@ -1,0 +1,16 @@
+Compiled from "PrintJob.java"
+public final class android.print.PrintJob {
+  android.print.PrintJob();
+  public android.print.PrintJobId getId();
+  public android.print.PrintJobInfo getInfo();
+  public void cancel();
+  public void restart();
+  public boolean isQueued();
+  public boolean isStarted();
+  public boolean isBlocked();
+  public boolean isCompleted();
+  public boolean isFailed();
+  public boolean isCancelled();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

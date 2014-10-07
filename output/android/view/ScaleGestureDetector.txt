@@ -1,0 +1,20 @@
+Compiled from "ScaleGestureDetector.java"
+public class android.view.ScaleGestureDetector {
+  public android.view.ScaleGestureDetector(android.content.Context, android.view.ScaleGestureDetector$OnScaleGestureListener);
+  public android.view.ScaleGestureDetector(android.content.Context, android.view.ScaleGestureDetector$OnScaleGestureListener, android.os.Handler);
+  public boolean onTouchEvent(android.view.MotionEvent);
+  public void setQuickScaleEnabled(boolean);
+  public boolean isQuickScaleEnabled();
+  public boolean isInProgress();
+  public float getFocusX();
+  public float getFocusY();
+  public float getCurrentSpan();
+  public float getCurrentSpanX();
+  public float getCurrentSpanY();
+  public float getPreviousSpan();
+  public float getPreviousSpanX();
+  public float getPreviousSpanY();
+  public float getScaleFactor();
+  public long getTimeDelta();
+  public long getEventTime();
+}

@@ -1,0 +1,4 @@
+Compiled from "UiAutomation.java"
+public interface android.app.UiAutomation$AccessibilityEventFilter {
+  public abstract boolean accept(android.view.accessibility.AccessibilityEvent);
+}

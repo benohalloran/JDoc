@@ -1,0 +1,21 @@
+Compiled from "ContactsContract.java"
+public interface android.provider.ContactsContract$StatusColumns {
+  public static final int AVAILABLE;
+  public static final int AWAY;
+  public static final int CAPABILITY_HAS_CAMERA;
+  public static final int CAPABILITY_HAS_VIDEO;
+  public static final int CAPABILITY_HAS_VOICE;
+  public static final java.lang.String CHAT_CAPABILITY;
+  public static final int DO_NOT_DISTURB;
+  public static final int IDLE;
+  public static final int INVISIBLE;
+  public static final int OFFLINE;
+  public static final java.lang.String PRESENCE;
+  public static final java.lang.String PRESENCE_CUSTOM_STATUS;
+  public static final java.lang.String PRESENCE_STATUS;
+  public static final java.lang.String STATUS;
+  public static final java.lang.String STATUS_ICON;
+  public static final java.lang.String STATUS_LABEL;
+  public static final java.lang.String STATUS_RES_PACKAGE;
+  public static final java.lang.String STATUS_TIMESTAMP;
+}

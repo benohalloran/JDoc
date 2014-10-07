@@ -1,0 +1,10 @@
+Compiled from "Camera.java"
+public class android.hardware.Camera$Face {
+  public int id;
+  public android.graphics.Point leftEye;
+  public android.graphics.Point mouth;
+  public android.graphics.Rect rect;
+  public android.graphics.Point rightEye;
+  public int score;
+  public android.hardware.Camera$Face();
+}

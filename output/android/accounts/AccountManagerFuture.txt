@@ -1,0 +1,8 @@
+Compiled from "AccountManagerFuture.java"
+public interface android.accounts.AccountManagerFuture<V> {
+  public abstract boolean cancel(boolean);
+  public abstract boolean isCancelled();
+  public abstract boolean isDone();
+  public abstract V getResult() throws android.accounts.OperationCanceledException, java.io.IOException, android.accounts.AuthenticatorException;
+  public abstract V getResult(long, java.util.concurrent.TimeUnit) throws android.accounts.OperationCanceledException, java.io.IOException, android.accounts.AuthenticatorException;
+}

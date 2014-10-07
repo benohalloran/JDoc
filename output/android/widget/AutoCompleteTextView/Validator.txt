@@ -1,0 +1,5 @@
+Compiled from "AutoCompleteTextView.java"
+public interface android.widget.AutoCompleteTextView$Validator {
+  public abstract boolean isValid(java.lang.CharSequence);
+  public abstract java.lang.CharSequence fixText(java.lang.CharSequence);
+}

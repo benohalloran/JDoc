@@ -1,0 +1,14 @@
+Compiled from "FragmentBreadCrumbs.java"
+public class android.app.FragmentBreadCrumbs extends android.view.ViewGroup implements android.app.FragmentManager$OnBackStackChangedListener {
+  public android.app.FragmentBreadCrumbs(android.content.Context);
+  public android.app.FragmentBreadCrumbs(android.content.Context, android.util.AttributeSet);
+  public android.app.FragmentBreadCrumbs(android.content.Context, android.util.AttributeSet, int);
+  public void setActivity(android.app.Activity);
+  public void setMaxVisible(int);
+  public void setParentTitle(java.lang.CharSequence, java.lang.CharSequence, android.view.View$OnClickListener);
+  public void setOnBreadCrumbClickListener(android.app.FragmentBreadCrumbs$OnBreadCrumbClickListener);
+  public void setTitle(java.lang.CharSequence, java.lang.CharSequence);
+  protected void onLayout(boolean, int, int, int, int);
+  protected void onMeasure(int, int);
+  public void onBackStackChanged();
+}

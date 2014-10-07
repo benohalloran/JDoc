@@ -1,0 +1,7 @@
+Compiled from "RectEvaluator.java"
+public class android.animation.RectEvaluator implements android.animation.TypeEvaluator<android.graphics.Rect> {
+  public android.animation.RectEvaluator();
+  public android.animation.RectEvaluator(android.graphics.Rect);
+  public android.graphics.Rect evaluate(float, android.graphics.Rect, android.graphics.Rect);
+  public java.lang.Object evaluate(float, java.lang.Object, java.lang.Object);
+}

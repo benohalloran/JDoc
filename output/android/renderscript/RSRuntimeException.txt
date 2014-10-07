@@ -1,0 +1,4 @@
+Compiled from "RSRuntimeException.java"
+public class android.renderscript.RSRuntimeException extends java.lang.RuntimeException {
+  public android.renderscript.RSRuntimeException(java.lang.String);
+}

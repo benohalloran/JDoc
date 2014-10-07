@@ -1,0 +1,9 @@
+Compiled from "AdvertisementData.java"
+public final class android.bluetooth.le.AdvertisementData$Builder {
+  public android.bluetooth.le.AdvertisementData$Builder();
+  public android.bluetooth.le.AdvertisementData$Builder setServiceUuids(java.util.List<android.os.ParcelUuid>);
+  public android.bluetooth.le.AdvertisementData$Builder setServiceData(android.os.ParcelUuid, byte[]);
+  public android.bluetooth.le.AdvertisementData$Builder setManufacturerData(int, byte[]);
+  public android.bluetooth.le.AdvertisementData$Builder setIncludeTxPowerLevel(boolean);
+  public android.bluetooth.le.AdvertisementData build();
+}

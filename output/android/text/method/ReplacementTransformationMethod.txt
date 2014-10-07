@@ -1,0 +1,8 @@
+Compiled from "ReplacementTransformationMethod.java"
+public abstract class android.text.method.ReplacementTransformationMethod implements android.text.method.TransformationMethod {
+  public android.text.method.ReplacementTransformationMethod();
+  protected abstract char[] getOriginal();
+  protected abstract char[] getReplacement();
+  public java.lang.CharSequence getTransformation(java.lang.CharSequence, android.view.View);
+  public void onFocusChanged(android.view.View, java.lang.CharSequence, boolean, int, android.graphics.Rect);
+}

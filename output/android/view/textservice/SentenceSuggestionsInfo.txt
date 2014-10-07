@@ -1,0 +1,13 @@
+Compiled from "SentenceSuggestionsInfo.java"
+public final class android.view.textservice.SentenceSuggestionsInfo implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.textservice.SentenceSuggestionsInfo> CREATOR;
+  public android.view.textservice.SentenceSuggestionsInfo(android.view.textservice.SuggestionsInfo[], int[], int[]);
+  public android.view.textservice.SentenceSuggestionsInfo(android.os.Parcel);
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  public int getSuggestionsCount();
+  public android.view.textservice.SuggestionsInfo getSuggestionsInfoAt(int);
+  public int getOffsetAt(int);
+  public int getLengthAt(int);
+  static {};
+}

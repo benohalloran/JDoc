@@ -1,0 +1,13 @@
+Compiled from "AtomicReferenceArray.java"
+public class java.util.concurrent.atomic.AtomicReferenceArray<E> implements java.io.Serializable {
+  public java.util.concurrent.atomic.AtomicReferenceArray(int);
+  public java.util.concurrent.atomic.AtomicReferenceArray(E[]);
+  public final int length();
+  public final E get(int);
+  public final void set(int, E);
+  public final void lazySet(int, E);
+  public final E getAndSet(int, E);
+  public final boolean compareAndSet(int, E, E);
+  public final boolean weakCompareAndSet(int, E, E);
+  public java.lang.String toString();
+}

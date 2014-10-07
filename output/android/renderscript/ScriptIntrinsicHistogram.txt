@@ -1,0 +1,13 @@
+Compiled from "ScriptIntrinsicHistogram.java"
+public final class android.renderscript.ScriptIntrinsicHistogram extends android.renderscript.ScriptIntrinsic {
+  android.renderscript.ScriptIntrinsicHistogram();
+  public static android.renderscript.ScriptIntrinsicHistogram create(android.renderscript.RenderScript, android.renderscript.Element);
+  public void forEach(android.renderscript.Allocation);
+  public void forEach(android.renderscript.Allocation, android.renderscript.Script$LaunchOptions);
+  public void setDotCoefficients(float, float, float, float);
+  public void setOutput(android.renderscript.Allocation);
+  public void forEach_Dot(android.renderscript.Allocation);
+  public void forEach_Dot(android.renderscript.Allocation, android.renderscript.Script$LaunchOptions);
+  public android.renderscript.Script$KernelID getKernelID_Separate();
+  public android.renderscript.Script$FieldID getFieldID_Input();
+}

@@ -1,0 +1,7 @@
+Compiled from "NetscapeDraftHeaderParser.java"
+public class org.apache.http.impl.cookie.NetscapeDraftHeaderParser {
+  public static final org.apache.http.impl.cookie.NetscapeDraftHeaderParser DEFAULT;
+  public org.apache.http.impl.cookie.NetscapeDraftHeaderParser();
+  public org.apache.http.HeaderElement parseHeader(org.apache.http.util.CharArrayBuffer, org.apache.http.message.ParserCursor) throws org.apache.http.ParseException;
+  static {};
+}

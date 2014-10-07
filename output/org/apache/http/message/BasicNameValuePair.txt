@@ -1,0 +1,10 @@
+Compiled from "BasicNameValuePair.java"
+public class org.apache.http.message.BasicNameValuePair implements org.apache.http.NameValuePair,java.lang.Cloneable {
+  public org.apache.http.message.BasicNameValuePair(java.lang.String, java.lang.String);
+  public java.lang.String getName();
+  public java.lang.String getValue();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.Object clone() throws java.lang.CloneNotSupportedException;
+}

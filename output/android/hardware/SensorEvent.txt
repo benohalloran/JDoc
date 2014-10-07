@@ -1,0 +1,8 @@
+Compiled from "SensorEvent.java"
+public class android.hardware.SensorEvent {
+  public int accuracy;
+  public android.hardware.Sensor sensor;
+  public long timestamp;
+  public final float[] values;
+  android.hardware.SensorEvent();
+}

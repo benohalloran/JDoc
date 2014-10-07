@@ -1,0 +1,9 @@
+Compiled from "MediaDrm.java"
+public final class android.media.MediaDrm$CryptoSession {
+  final android.media.MediaDrm this$0;
+  android.media.MediaDrm$CryptoSession(android.media.MediaDrm);
+  public byte[] encrypt(byte[], byte[], byte[]);
+  public byte[] decrypt(byte[], byte[], byte[]);
+  public byte[] sign(byte[], byte[]);
+  public boolean verify(byte[], byte[], byte[]);
+}

@@ -1,0 +1,7 @@
+Compiled from "DngCreator.java"
+public final class android.hardware.camera2.DngCreator implements java.lang.AutoCloseable {
+  public android.hardware.camera2.DngCreator(android.hardware.camera2.CameraCharacteristics, android.hardware.camera2.CaptureResult);
+  public void writeImage(java.io.OutputStream, android.media.Image) throws java.io.IOException;
+  public void close();
+  protected void finalize() throws java.lang.Throwable;
+}

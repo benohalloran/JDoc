@@ -1,0 +1,9 @@
+Compiled from "JobService.java"
+public abstract class android.app.job.JobService extends android.app.Service {
+  public static final java.lang.String PERMISSION_BIND;
+  public android.app.job.JobService();
+  public abstract boolean onStartJob(android.app.job.JobParameters);
+  public abstract boolean onStopJob(android.app.job.JobParameters);
+  public final void jobFinished(android.app.job.JobParameters, boolean);
+  public final android.os.IBinder onBind(android.content.Intent);
+}

@@ -1,0 +1,11 @@
+Compiled from "CalendarContract.java"
+public final class android.provider.CalendarContract$CalendarCache implements android.provider.CalendarContract$CalendarCacheColumns {
+  public static final java.lang.String KEY_TIMEZONE_INSTANCES;
+  public static final java.lang.String KEY_TIMEZONE_INSTANCES_PREVIOUS;
+  public static final java.lang.String KEY_TIMEZONE_TYPE;
+  public static final java.lang.String TIMEZONE_TYPE_AUTO;
+  public static final java.lang.String TIMEZONE_TYPE_HOME;
+  public static final android.net.Uri URI;
+  android.provider.CalendarContract$CalendarCache();
+  static {};
+}

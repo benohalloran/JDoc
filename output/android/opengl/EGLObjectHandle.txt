@@ -1,0 +1,8 @@
+Compiled from "EGLObjectHandle.java"
+public abstract class android.opengl.EGLObjectHandle {
+  protected android.opengl.EGLObjectHandle(int);
+  protected android.opengl.EGLObjectHandle(long);
+  public int getHandle();
+  public long getNativeHandle();
+  public int hashCode();
+}

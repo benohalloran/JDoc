@@ -1,0 +1,16 @@
+Compiled from "TestCase.java"
+public abstract class junit.framework.TestCase extends junit.framework.Assert implements junit.framework.Test {
+  public junit.framework.TestCase();
+  public junit.framework.TestCase(java.lang.String);
+  public int countTestCases();
+  protected junit.framework.TestResult createResult();
+  public junit.framework.TestResult run();
+  public void run(junit.framework.TestResult);
+  public void runBare() throws java.lang.Throwable;
+  protected void runTest() throws java.lang.Throwable;
+  protected void setUp() throws java.lang.Exception;
+  protected void tearDown() throws java.lang.Exception;
+  public java.lang.String toString();
+  public java.lang.String getName();
+  public void setName(java.lang.String);
+}

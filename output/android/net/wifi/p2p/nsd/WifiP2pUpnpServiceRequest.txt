@@ -1,0 +1,6 @@
+Compiled from "WifiP2pUpnpServiceRequest.java"
+public class android.net.wifi.p2p.nsd.WifiP2pUpnpServiceRequest extends android.net.wifi.p2p.nsd.WifiP2pServiceRequest {
+  android.net.wifi.p2p.nsd.WifiP2pUpnpServiceRequest();
+  public static android.net.wifi.p2p.nsd.WifiP2pUpnpServiceRequest newInstance();
+  public static android.net.wifi.p2p.nsd.WifiP2pUpnpServiceRequest newInstance(java.lang.String);
+}

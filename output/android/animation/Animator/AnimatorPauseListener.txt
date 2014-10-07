@@ -1,0 +1,5 @@
+Compiled from "Animator.java"
+public interface android.animation.Animator$AnimatorPauseListener {
+  public abstract void onAnimationPause(android.animation.Animator);
+  public abstract void onAnimationResume(android.animation.Animator);
+}

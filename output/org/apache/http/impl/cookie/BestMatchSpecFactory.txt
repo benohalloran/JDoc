@@ -1,0 +1,5 @@
+Compiled from "BestMatchSpecFactory.java"
+public class org.apache.http.impl.cookie.BestMatchSpecFactory implements org.apache.http.cookie.CookieSpecFactory {
+  public org.apache.http.impl.cookie.BestMatchSpecFactory();
+  public org.apache.http.cookie.CookieSpec newInstance(org.apache.http.params.HttpParams);
+}

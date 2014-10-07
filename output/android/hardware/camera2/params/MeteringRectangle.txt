@@ -1,0 +1,20 @@
+Compiled from "MeteringRectangle.java"
+public final class android.hardware.camera2.params.MeteringRectangle {
+  public static final int METERING_WEIGHT_DONT_CARE;
+  public static final int METERING_WEIGHT_MAX;
+  public static final int METERING_WEIGHT_MIN;
+  public android.hardware.camera2.params.MeteringRectangle(int, int, int, int, int);
+  public android.hardware.camera2.params.MeteringRectangle(android.graphics.Point, android.util.Size, int);
+  public android.hardware.camera2.params.MeteringRectangle(android.graphics.Rect, int);
+  public int getX();
+  public int getY();
+  public int getWidth();
+  public int getHeight();
+  public int getMeteringWeight();
+  public android.graphics.Point getUpperLeftPoint();
+  public android.util.Size getSize();
+  public android.graphics.Rect getRect();
+  public boolean equals(java.lang.Object);
+  public boolean equals(android.hardware.camera2.params.MeteringRectangle);
+  public int hashCode();
+}

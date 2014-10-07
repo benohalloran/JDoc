@@ -1,0 +1,11 @@
+Compiled from "Range.java"
+public final class android.util.Range<T extends java.lang.Comparable<? super T>> {
+  public android.util.Range(T, T);
+  public static <T extends java/lang/Comparable<? super T>> android.util.Range<T> create(T, T);
+  public T getLower();
+  public T getUpper();
+  public boolean inRange(T);
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public int hashCode();
+}

@@ -1,0 +1,9 @@
+Compiled from "BidiFormatter.java"
+public final class android.text.BidiFormatter$Builder {
+  public android.text.BidiFormatter$Builder();
+  public android.text.BidiFormatter$Builder(boolean);
+  public android.text.BidiFormatter$Builder(java.util.Locale);
+  public android.text.BidiFormatter$Builder stereoReset(boolean);
+  public android.text.BidiFormatter$Builder setTextDirectionHeuristic(android.text.TextDirectionHeuristic);
+  public android.text.BidiFormatter build();
+}

@@ -1,0 +1,5 @@
+Compiled from "TabStopSpan.java"
+public class android.text.style.TabStopSpan$Standard implements android.text.style.TabStopSpan {
+  public android.text.style.TabStopSpan$Standard(int);
+  public int getTabStop();
+}

@@ -1,0 +1,44 @@
+Compiled from "AppWidgetManager.java"
+public class android.appwidget.AppWidgetManager {
+  public static final java.lang.String ACTION_APPWIDGET_BIND;
+  public static final java.lang.String ACTION_APPWIDGET_CONFIGURE;
+  public static final java.lang.String ACTION_APPWIDGET_DELETED;
+  public static final java.lang.String ACTION_APPWIDGET_DISABLED;
+  public static final java.lang.String ACTION_APPWIDGET_ENABLED;
+  public static final java.lang.String ACTION_APPWIDGET_HOST_RESTORED;
+  public static final java.lang.String ACTION_APPWIDGET_OPTIONS_CHANGED;
+  public static final java.lang.String ACTION_APPWIDGET_PICK;
+  public static final java.lang.String ACTION_APPWIDGET_RESTORED;
+  public static final java.lang.String ACTION_APPWIDGET_UPDATE;
+  public static final java.lang.String EXTRA_APPWIDGET_ID;
+  public static final java.lang.String EXTRA_APPWIDGET_IDS;
+  public static final java.lang.String EXTRA_APPWIDGET_OLD_IDS;
+  public static final java.lang.String EXTRA_APPWIDGET_OPTIONS;
+  public static final java.lang.String EXTRA_APPWIDGET_PROVIDER;
+  public static final java.lang.String EXTRA_CUSTOM_EXTRAS;
+  public static final java.lang.String EXTRA_CUSTOM_INFO;
+  public static final java.lang.String EXTRA_HOST_ID;
+  public static final int INVALID_APPWIDGET_ID;
+  public static final java.lang.String META_DATA_APPWIDGET_PROVIDER;
+  public static final java.lang.String OPTION_APPWIDGET_HOST_CATEGORY;
+  public static final java.lang.String OPTION_APPWIDGET_MAX_HEIGHT;
+  public static final java.lang.String OPTION_APPWIDGET_MAX_WIDTH;
+  public static final java.lang.String OPTION_APPWIDGET_MIN_HEIGHT;
+  public static final java.lang.String OPTION_APPWIDGET_MIN_WIDTH;
+  android.appwidget.AppWidgetManager();
+  public static android.appwidget.AppWidgetManager getInstance(android.content.Context);
+  public void updateAppWidget(int[], android.widget.RemoteViews);
+  public void updateAppWidgetOptions(int, android.os.Bundle);
+  public android.os.Bundle getAppWidgetOptions(int);
+  public void updateAppWidget(int, android.widget.RemoteViews);
+  public void partiallyUpdateAppWidget(int[], android.widget.RemoteViews);
+  public void partiallyUpdateAppWidget(int, android.widget.RemoteViews);
+  public void updateAppWidget(android.content.ComponentName, android.widget.RemoteViews);
+  public void notifyAppWidgetViewDataChanged(int[], int);
+  public void notifyAppWidgetViewDataChanged(int, int);
+  public java.util.List<android.appwidget.AppWidgetProviderInfo> getInstalledProviders();
+  public android.appwidget.AppWidgetProviderInfo getAppWidgetInfo(int);
+  public boolean bindAppWidgetIdIfAllowed(int, android.content.ComponentName);
+  public boolean bindAppWidgetIdIfAllowed(int, android.content.ComponentName, android.os.Bundle);
+  public int[] getAppWidgetIds(android.content.ComponentName);
+}

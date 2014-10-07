@@ -1,0 +1,5 @@
+Compiled from "BasicCommentHandler.java"
+public class org.apache.http.impl.cookie.BasicCommentHandler extends org.apache.http.impl.cookie.AbstractCookieAttributeHandler {
+  public org.apache.http.impl.cookie.BasicCommentHandler();
+  public void parse(org.apache.http.cookie.SetCookie, java.lang.String) throws org.apache.http.cookie.MalformedCookieException;
+}

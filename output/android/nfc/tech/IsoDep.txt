@@ -1,0 +1,16 @@
+Compiled from "IsoDep.java"
+public final class android.nfc.tech.IsoDep extends android.nfc.tech.BasicTagTechnology {
+  android.nfc.tech.IsoDep();
+  public static android.nfc.tech.IsoDep get(android.nfc.Tag);
+  public void setTimeout(int);
+  public int getTimeout();
+  public byte[] getHistoricalBytes();
+  public byte[] getHiLayerResponse();
+  public byte[] transceive(byte[]) throws java.io.IOException;
+  public int getMaxTransceiveLength();
+  public boolean isExtendedLengthApduSupported();
+  public void close() throws java.io.IOException;
+  public void connect() throws java.io.IOException;
+  public boolean isConnected();
+  public android.nfc.Tag getTag();
+}

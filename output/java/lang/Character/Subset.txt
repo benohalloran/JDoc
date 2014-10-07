@@ -1,0 +1,7 @@
+Compiled from "Character.java"
+public class java.lang.Character$Subset {
+  protected java.lang.Character$Subset(java.lang.String);
+  public final boolean equals(java.lang.Object);
+  public final int hashCode();
+  public final java.lang.String toString();
+}

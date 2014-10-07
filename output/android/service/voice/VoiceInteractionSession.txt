@@ -1,0 +1,30 @@
+Compiled from "VoiceInteractionSession.java"
+public abstract class android.service.voice.VoiceInteractionSession implements android.view.KeyEvent$Callback {
+  public android.service.voice.VoiceInteractionSession(android.content.Context);
+  public android.service.voice.VoiceInteractionSession(android.content.Context, android.os.Handler);
+  public void showWindow();
+  public void hideWindow();
+  public void setTheme(int);
+  public void startVoiceActivity(android.content.Intent);
+  public android.view.LayoutInflater getLayoutInflater();
+  public android.app.Dialog getWindow();
+  public void finish();
+  public void onCreate(android.os.Bundle);
+  public void onDestroy();
+  public android.view.View onCreateContentView();
+  public void setContentView(android.view.View);
+  public boolean onKeyDown(int, android.view.KeyEvent);
+  public boolean onKeyLongPress(int, android.view.KeyEvent);
+  public boolean onKeyUp(int, android.view.KeyEvent);
+  public boolean onKeyMultiple(int, int, android.view.KeyEvent);
+  public void onBackPressed();
+  public void onCloseSystemDialogs();
+  public void onComputeInsets(android.service.voice.VoiceInteractionSession$Insets);
+  public void onTaskStarted(android.content.Intent, int);
+  public void onTaskFinished(android.content.Intent, int);
+  public boolean[] onGetSupportedCommands(android.service.voice.VoiceInteractionSession$Caller, java.lang.String[]);
+  public abstract void onConfirm(android.service.voice.VoiceInteractionSession$Caller, android.service.voice.VoiceInteractionSession$Request, java.lang.CharSequence, android.os.Bundle);
+  public void onAbortVoice(android.service.voice.VoiceInteractionSession$Caller, android.service.voice.VoiceInteractionSession$Request, java.lang.CharSequence, android.os.Bundle);
+  public abstract void onCommand(android.service.voice.VoiceInteractionSession$Caller, android.service.voice.VoiceInteractionSession$Request, java.lang.String, android.os.Bundle);
+  public abstract void onCancel(android.service.voice.VoiceInteractionSession$Request);
+}

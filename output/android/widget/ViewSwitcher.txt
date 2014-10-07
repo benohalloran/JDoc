@@ -1,0 +1,11 @@
+Compiled from "ViewSwitcher.java"
+public class android.widget.ViewSwitcher extends android.widget.ViewAnimator {
+  public android.widget.ViewSwitcher(android.content.Context);
+  public android.widget.ViewSwitcher(android.content.Context, android.util.AttributeSet);
+  public void addView(android.view.View, int, android.view.ViewGroup$LayoutParams);
+  public void onInitializeAccessibilityEvent(android.view.accessibility.AccessibilityEvent);
+  public void onInitializeAccessibilityNodeInfo(android.view.accessibility.AccessibilityNodeInfo);
+  public android.view.View getNextView();
+  public void setFactory(android.widget.ViewSwitcher$ViewFactory);
+  public void reset();
+}

@@ -1,0 +1,7 @@
+Compiled from "KeyChainException.java"
+public class android.security.KeyChainException extends java.lang.Exception {
+  public android.security.KeyChainException();
+  public android.security.KeyChainException(java.lang.String);
+  public android.security.KeyChainException(java.lang.String, java.lang.Throwable);
+  public android.security.KeyChainException(java.lang.Throwable);
+}

@@ -1,0 +1,11 @@
+Compiled from "AbstractSequentialList.java"
+public abstract class java.util.AbstractSequentialList<E> extends java.util.AbstractList<E> {
+  protected java.util.AbstractSequentialList();
+  public void add(int, E);
+  public boolean addAll(int, java.util.Collection<? extends E>);
+  public E get(int);
+  public java.util.Iterator<E> iterator();
+  public abstract java.util.ListIterator<E> listIterator(int);
+  public E remove(int);
+  public E set(int, E);
+}

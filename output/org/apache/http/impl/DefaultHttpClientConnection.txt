@@ -1,0 +1,6 @@
+Compiled from "DefaultHttpClientConnection.java"
+public class org.apache.http.impl.DefaultHttpClientConnection extends org.apache.http.impl.SocketHttpClientConnection {
+  public org.apache.http.impl.DefaultHttpClientConnection();
+  public void bind(java.net.Socket, org.apache.http.params.HttpParams) throws java.io.IOException;
+  public java.lang.String toString();
+}

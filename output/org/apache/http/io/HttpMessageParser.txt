@@ -1,0 +1,4 @@
+Compiled from "HttpMessageParser.java"
+public interface org.apache.http.io.HttpMessageParser {
+  public abstract org.apache.http.HttpMessage parse() throws java.io.IOException, org.apache.http.HttpException;
+}

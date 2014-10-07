@@ -1,0 +1,10 @@
+Compiled from "Paint.java"
+public class android.graphics.Paint$FontMetricsInt {
+  public int ascent;
+  public int bottom;
+  public int descent;
+  public int leading;
+  public int top;
+  public android.graphics.Paint$FontMetricsInt();
+  public java.lang.String toString();
+}

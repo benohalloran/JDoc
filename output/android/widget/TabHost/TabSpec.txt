@@ -1,0 +1,12 @@
+Compiled from "TabHost.java"
+public class android.widget.TabHost$TabSpec {
+  final android.widget.TabHost this$0;
+  android.widget.TabHost$TabSpec(android.widget.TabHost);
+  public android.widget.TabHost$TabSpec setIndicator(java.lang.CharSequence);
+  public android.widget.TabHost$TabSpec setIndicator(java.lang.CharSequence, android.graphics.drawable.Drawable);
+  public android.widget.TabHost$TabSpec setIndicator(android.view.View);
+  public android.widget.TabHost$TabSpec setContent(int);
+  public android.widget.TabHost$TabSpec setContent(android.widget.TabHost$TabContentFactory);
+  public android.widget.TabHost$TabSpec setContent(android.content.Intent);
+  public java.lang.String getTag();
+}

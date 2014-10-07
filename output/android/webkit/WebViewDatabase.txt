@@ -1,0 +1,11 @@
+Compiled from "WebViewDatabase.java"
+public class android.webkit.WebViewDatabase {
+  android.webkit.WebViewDatabase();
+  public static android.webkit.WebViewDatabase getInstance(android.content.Context);
+  public boolean hasUsernamePassword();
+  public void clearUsernamePassword();
+  public boolean hasHttpAuthUsernamePassword();
+  public void clearHttpAuthUsernamePassword();
+  public boolean hasFormData();
+  public void clearFormData();
+}

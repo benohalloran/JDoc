@@ -1,0 +1,15 @@
+Compiled from "SslCertificate.java"
+public class android.net.http.SslCertificate {
+  public android.net.http.SslCertificate(java.lang.String, java.lang.String, java.lang.String, java.lang.String);
+  public android.net.http.SslCertificate(java.lang.String, java.lang.String, java.util.Date, java.util.Date);
+  public android.net.http.SslCertificate(java.security.cert.X509Certificate);
+  public static android.os.Bundle saveState(android.net.http.SslCertificate);
+  public static android.net.http.SslCertificate restoreState(android.os.Bundle);
+  public java.util.Date getValidNotBeforeDate();
+  public java.lang.String getValidNotBefore();
+  public java.util.Date getValidNotAfterDate();
+  public java.lang.String getValidNotAfter();
+  public android.net.http.SslCertificate$DName getIssuedTo();
+  public android.net.http.SslCertificate$DName getIssuedBy();
+  public java.lang.String toString();
+}

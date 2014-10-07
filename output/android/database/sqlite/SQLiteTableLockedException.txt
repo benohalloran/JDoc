@@ -1,0 +1,5 @@
+Compiled from "SQLiteTableLockedException.java"
+public class android.database.sqlite.SQLiteTableLockedException extends android.database.sqlite.SQLiteException {
+  public android.database.sqlite.SQLiteTableLockedException();
+  public android.database.sqlite.SQLiteTableLockedException(java.lang.String);
+}

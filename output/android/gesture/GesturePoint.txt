@@ -1,0 +1,8 @@
+Compiled from "GesturePoint.java"
+public class android.gesture.GesturePoint {
+  public final long timestamp;
+  public final float x;
+  public final float y;
+  public android.gesture.GesturePoint(float, float, long);
+  public java.lang.Object clone();
+}

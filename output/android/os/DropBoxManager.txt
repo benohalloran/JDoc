@@ -1,0 +1,15 @@
+Compiled from "DropBoxManager.java"
+public class android.os.DropBoxManager {
+  public static final java.lang.String ACTION_DROPBOX_ENTRY_ADDED;
+  public static final java.lang.String EXTRA_TAG;
+  public static final java.lang.String EXTRA_TIME;
+  public static final int IS_EMPTY;
+  public static final int IS_GZIPPED;
+  public static final int IS_TEXT;
+  protected android.os.DropBoxManager();
+  public void addText(java.lang.String, java.lang.String);
+  public void addData(java.lang.String, byte[], int);
+  public void addFile(java.lang.String, java.io.File, int) throws java.io.IOException;
+  public boolean isTagEnabled(java.lang.String);
+  public android.os.DropBoxManager$Entry getNextEntry(java.lang.String, long);
+}

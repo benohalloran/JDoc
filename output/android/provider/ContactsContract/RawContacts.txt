@@ -1,0 +1,14 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$RawContacts implements android.provider.BaseColumns,android.provider.ContactsContract$RawContactsColumns,android.provider.ContactsContract$ContactOptionsColumns,android.provider.ContactsContract$ContactNameColumns,android.provider.ContactsContract$SyncColumns {
+  public static final int AGGREGATION_MODE_DEFAULT;
+  public static final int AGGREGATION_MODE_DISABLED;
+  public static final int AGGREGATION_MODE_IMMEDIATE;
+  public static final int AGGREGATION_MODE_SUSPENDED;
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String CONTENT_TYPE;
+  public static final android.net.Uri CONTENT_URI;
+  android.provider.ContactsContract$RawContacts();
+  public static android.net.Uri getContactLookupUri(android.content.ContentResolver, android.net.Uri);
+  public static android.content.EntityIterator newEntityIterator(android.database.Cursor);
+  static {};
+}

@@ -1,0 +1,13 @@
+Compiled from "Console.java"
+public final class java.io.Console implements java.io.Flushable {
+  java.io.Console();
+  public void flush();
+  public java.io.Console format(java.lang.String, java.lang.Object...);
+  public java.io.Console printf(java.lang.String, java.lang.Object...);
+  public java.io.Reader reader();
+  public java.lang.String readLine();
+  public java.lang.String readLine(java.lang.String, java.lang.Object...);
+  public char[] readPassword();
+  public char[] readPassword(java.lang.String, java.lang.Object...);
+  public java.io.PrintWriter writer();
+}

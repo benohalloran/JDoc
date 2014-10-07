@@ -1,0 +1,6 @@
+Compiled from "MediaMuxer.java"
+public final class android.media.MediaMuxer$OutputFormat {
+  public static final int MUXER_OUTPUT_MPEG_4;
+  public static final int MUXER_OUTPUT_WEBM;
+  android.media.MediaMuxer$OutputFormat();
+}

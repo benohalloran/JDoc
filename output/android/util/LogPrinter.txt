@@ -1,0 +1,5 @@
+Compiled from "LogPrinter.java"
+public class android.util.LogPrinter implements android.util.Printer {
+  public android.util.LogPrinter(int, java.lang.String);
+  public void println(java.lang.String);
+}

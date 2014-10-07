@@ -1,0 +1,16 @@
+Compiled from "TextKeyListener.java"
+public class android.text.method.TextKeyListener extends android.text.method.BaseKeyListener implements android.text.SpanWatcher {
+  public android.text.method.TextKeyListener(android.text.method.TextKeyListener$Capitalize, boolean);
+  public static android.text.method.TextKeyListener getInstance(boolean, android.text.method.TextKeyListener$Capitalize);
+  public static android.text.method.TextKeyListener getInstance();
+  public static boolean shouldCap(android.text.method.TextKeyListener$Capitalize, java.lang.CharSequence, int);
+  public int getInputType();
+  public boolean onKeyDown(android.view.View, android.text.Editable, int, android.view.KeyEvent);
+  public boolean onKeyUp(android.view.View, android.text.Editable, int, android.view.KeyEvent);
+  public boolean onKeyOther(android.view.View, android.text.Editable, android.view.KeyEvent);
+  public static void clear(android.text.Editable);
+  public void onSpanAdded(android.text.Spannable, java.lang.Object, int, int);
+  public void onSpanRemoved(android.text.Spannable, java.lang.Object, int, int);
+  public void onSpanChanged(android.text.Spannable, java.lang.Object, int, int, int, int);
+  public void release();
+}

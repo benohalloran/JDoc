@@ -1,0 +1,5 @@
+Compiled from "WindowManager.java"
+public interface android.view.WindowManager extends android.view.ViewManager {
+  public abstract android.view.Display getDefaultDisplay();
+  public abstract void removeViewImmediate(android.view.View);
+}

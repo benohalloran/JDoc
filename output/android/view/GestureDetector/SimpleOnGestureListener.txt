@@ -1,0 +1,13 @@
+Compiled from "GestureDetector.java"
+public class android.view.GestureDetector$SimpleOnGestureListener implements android.view.GestureDetector$OnGestureListener,android.view.GestureDetector$OnDoubleTapListener {
+  public android.view.GestureDetector$SimpleOnGestureListener();
+  public boolean onSingleTapUp(android.view.MotionEvent);
+  public void onLongPress(android.view.MotionEvent);
+  public boolean onScroll(android.view.MotionEvent, android.view.MotionEvent, float, float);
+  public boolean onFling(android.view.MotionEvent, android.view.MotionEvent, float, float);
+  public void onShowPress(android.view.MotionEvent);
+  public boolean onDown(android.view.MotionEvent);
+  public boolean onDoubleTap(android.view.MotionEvent);
+  public boolean onDoubleTapEvent(android.view.MotionEvent);
+  public boolean onSingleTapConfirmed(android.view.MotionEvent);
+}

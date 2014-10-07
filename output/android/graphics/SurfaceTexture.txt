@@ -1,0 +1,16 @@
+Compiled from "SurfaceTexture.java"
+public class android.graphics.SurfaceTexture {
+  public android.graphics.SurfaceTexture(int);
+  public android.graphics.SurfaceTexture(int, boolean);
+  public void setOnFrameAvailableListener(android.graphics.SurfaceTexture$OnFrameAvailableListener);
+  public void setOnFrameAvailableListener(android.graphics.SurfaceTexture$OnFrameAvailableListener, android.os.Handler);
+  public void setDefaultBufferSize(int, int);
+  public void updateTexImage();
+  public void releaseTexImage();
+  public void detachFromGLContext();
+  public void attachToGLContext(int);
+  public void getTransformMatrix(float[]);
+  public long getTimestamp();
+  public void release();
+  protected void finalize() throws java.lang.Throwable;
+}

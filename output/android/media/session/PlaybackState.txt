@@ -1,0 +1,41 @@
+Compiled from "PlaybackState.java"
+public final class android.media.session.PlaybackState implements android.os.Parcelable {
+  public static final long ACTION_FAST_FORWARD;
+  public static final long ACTION_PAUSE;
+  public static final long ACTION_PLAY;
+  public static final long ACTION_PLAY_PAUSE;
+  public static final long ACTION_REWIND;
+  public static final long ACTION_SEEK_TO;
+  public static final long ACTION_SET_RATING;
+  public static final long ACTION_SKIP_TO_NEXT;
+  public static final long ACTION_SKIP_TO_PREVIOUS;
+  public static final long ACTION_STOP;
+  public static final android.os.Parcelable$Creator<android.media.session.PlaybackState> CREATOR;
+  public static final long PLAYBACK_POSITION_UNKNOWN;
+  public static final int STATE_BUFFERING;
+  public static final int STATE_ERROR;
+  public static final int STATE_FAST_FORWARDING;
+  public static final int STATE_NONE;
+  public static final int STATE_PAUSED;
+  public static final int STATE_PLAYING;
+  public static final int STATE_REWINDING;
+  public static final int STATE_SKIPPING_TO_NEXT;
+  public static final int STATE_SKIPPING_TO_PREVIOUS;
+  public static final int STATE_STOPPED;
+  public android.media.session.PlaybackState();
+  public android.media.session.PlaybackState(android.media.session.PlaybackState);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  public int getState();
+  public void setState(int, long, float);
+  public long getPosition();
+  public long getBufferPosition();
+  public void setBufferPosition(long);
+  public float getPlaybackRate();
+  public long getActions();
+  public void setActions(long);
+  public java.lang.CharSequence getErrorMessage();
+  public void setErrorMessage(java.lang.CharSequence);
+  static {};
+}

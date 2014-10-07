@@ -1,0 +1,17 @@
+Compiled from "ExtractedText.java"
+public class android.view.inputmethod.ExtractedText implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.view.inputmethod.ExtractedText> CREATOR;
+  public static final int FLAG_SELECTING;
+  public static final int FLAG_SINGLE_LINE;
+  public int flags;
+  public int partialEndOffset;
+  public int partialStartOffset;
+  public int selectionEnd;
+  public int selectionStart;
+  public int startOffset;
+  public java.lang.CharSequence text;
+  public android.view.inputmethod.ExtractedText();
+  public void writeToParcel(android.os.Parcel, int);
+  public int describeContents();
+  static {};
+}

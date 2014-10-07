@@ -1,0 +1,6 @@
+Compiled from "InputManager.java"
+public interface android.hardware.input.InputManager$InputDeviceListener {
+  public abstract void onInputDeviceAdded(int);
+  public abstract void onInputDeviceRemoved(int);
+  public abstract void onInputDeviceChanged(int);
+}

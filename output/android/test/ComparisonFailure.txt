@@ -1,0 +1,5 @@
+Compiled from "ComparisonFailure.java"
+public class android.test.ComparisonFailure extends android.test.AssertionFailedError {
+  public android.test.ComparisonFailure(java.lang.String, java.lang.String, java.lang.String);
+  public java.lang.String getMessage();
+}

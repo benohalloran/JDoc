@@ -1,0 +1,9 @@
+Compiled from "VirtualDisplay.java"
+public final class android.hardware.display.VirtualDisplay {
+  android.hardware.display.VirtualDisplay();
+  public android.view.Display getDisplay();
+  public android.view.Surface getSurface();
+  public void setSurface(android.view.Surface);
+  public void release();
+  public java.lang.String toString();
+}

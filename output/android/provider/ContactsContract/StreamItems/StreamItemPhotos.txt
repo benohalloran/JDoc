@@ -1,0 +1,7 @@
+Compiled from "ContactsContract.java"
+public final class android.provider.ContactsContract$StreamItems$StreamItemPhotos implements android.provider.BaseColumns,android.provider.ContactsContract$StreamItemPhotosColumns {
+  public static final java.lang.String CONTENT_DIRECTORY;
+  public static final java.lang.String CONTENT_ITEM_TYPE;
+  public static final java.lang.String CONTENT_TYPE;
+  android.provider.ContactsContract$StreamItems$StreamItemPhotos();
+}

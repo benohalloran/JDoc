@@ -1,0 +1,5 @@
+Compiled from "CertPath.java"
+public class java.security.cert.CertPath$CertPathRep implements java.io.Serializable {
+  protected java.security.cert.CertPath$CertPathRep(java.lang.String, byte[]);
+  protected java.lang.Object readResolve() throws java.io.ObjectStreamException;
+}

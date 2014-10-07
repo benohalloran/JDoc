@@ -1,0 +1,8 @@
+Compiled from "Debug.java"
+public class android.os.Debug$InstructionCount {
+  public android.os.Debug$InstructionCount();
+  public boolean resetAndStart();
+  public boolean collect();
+  public int globalTotal();
+  public int globalMethodInvocations();
+}

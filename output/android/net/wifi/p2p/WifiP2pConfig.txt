@@ -1,0 +1,13 @@
+Compiled from "WifiP2pConfig.java"
+public class android.net.wifi.p2p.WifiP2pConfig implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator<android.net.wifi.p2p.WifiP2pConfig> CREATOR;
+  public java.lang.String deviceAddress;
+  public int groupOwnerIntent;
+  public android.net.wifi.WpsInfo wps;
+  public android.net.wifi.p2p.WifiP2pConfig();
+  public android.net.wifi.p2p.WifiP2pConfig(android.net.wifi.p2p.WifiP2pConfig);
+  public java.lang.String toString();
+  public int describeContents();
+  public void writeToParcel(android.os.Parcel, int);
+  static {};
+}

@@ -1,0 +1,9 @@
+Compiled from "SizeF.java"
+public final class android.util.SizeF {
+  public android.util.SizeF(float, float);
+  public float getWidth();
+  public float getHeight();
+  public boolean equals(java.lang.Object);
+  public java.lang.String toString();
+  public int hashCode();
+}

@@ -1,0 +1,6 @@
+Compiled from "SyncStateContract.java"
+public interface android.provider.SyncStateContract$Columns extends android.provider.BaseColumns {
+  public static final java.lang.String ACCOUNT_NAME;
+  public static final java.lang.String ACCOUNT_TYPE;
+  public static final java.lang.String DATA;
+}
