@@ -25,14 +25,16 @@ public class Driver {
 	}
 
 	static class Timer extends Thread {
-		final static long start = System.currentTimeMillis();
 		public Timer() {
 			super(new Runnable() {
+				final long start = System.currentTimeMillis();
 
 				@Override
 				public void run() {
-					System.out.println("Processed " + classCount + " classes Ran: "
-							+ (System.currentTimeMillis() - start) / 1000D);
+					System.out.println("Processed " + classCount
+							+ " classes Ran: "
+							+ (System.currentTimeMillis() - start) / 1000D
+							+ " seconds");
 				}
 
 			});

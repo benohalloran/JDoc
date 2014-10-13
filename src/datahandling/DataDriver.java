@@ -3,8 +3,10 @@ package datahandling;
 import java.io.File;
 
 public class DataDriver {
+	static int classCount = 0;
 
 	public static void main(String[] args) {
+		Runtime.getRuntime().addShutdownHook(new Timer());
 		recurseFile(new File(
 				"C:\\Users\\Ben\\School\\CSC 200\\Honors Project\\InfoParser\\output"));
 	}
@@ -24,8 +26,26 @@ public class DataDriver {
 		if (f.isDirectory())
 			return;
 		InfoObject parsed = FileInfoFactory.parseFile(f);
-		if (parsed != null)
+		if (parsed != null) {
 			System.out.println(parsed);
+			classCount++;
+		}
 	}
 
+	static class Timer extends Thread {
+		public Timer() {
+			super(new Runnable() {
+				final long start = System.currentTimeMillis();
+
+				@Override
+				public void run() {
+					System.out.println("Processed " + classCount
+							+ " classes Ran: "
+							+ (System.currentTimeMillis() - start) / 1000D
+							+ " seconds");
+				}
+
+			});
+		}
+	}
 }
