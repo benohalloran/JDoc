@@ -6,36 +6,23 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
-import disassembly.Driver;
-
-public class ClassInfo {
-	public static final String path = Driver.outputPath;
-
-	private String className;
-	private String javaFile;
-	private List<Keyword> modifiers;
-	private List<MethodInfo> methods;
+public class ClassInfo extends InfoObject {
 	private List<ConstantInfo> constants;
-	// private ClassInfo parent;
-	private String parent;
-	private List<String> interfaces;
 
-	public ClassInfo(String filePath) {
-		modifiers = new ArrayList<Keyword>();
-		methods = new ArrayList<MethodInfo>();
-		constants = new ArrayList<ConstantInfo>();
-		interfaces = new ArrayList<String>();
-		parse(filePath);
+	public ClassInfo(File file) {
+		super(file);
 	}
 
-	private void parse(String absPath) {
+	@Override
+	protected void initializeFeilds() {
+		constants = new ArrayList<ConstantInfo>();
+	}
+
+	protected void parse(File f) {
 		try {
-			BufferedReader input = new BufferedReader(new FileReader(new File(
-					absPath)));
+			BufferedReader input = new BufferedReader(new FileReader(f));
 			parseJavaFile(input.readLine());
 			parseClassHeader(input.readLine());
 			while (input.ready()) {
@@ -44,8 +31,10 @@ public class ClassInfo {
 			input.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
+			System.exit(-1);
 		} catch (IOException e) {
 			e.printStackTrace();
+			System.exit(-1);
 		}
 	}
 
@@ -67,7 +56,7 @@ public class ClassInfo {
 			;
 		info.retType = tokens[index++];
 		info.methodName = tokens[index].split("\\(")[0];
-		tokens = readLine.trim().split(info.methodName + "|\\(|\\);");
+		tokens = readLine.trim().split("\\(");
 		for (index = 2; index < tokens.length; index++) {
 			info.args.add(tokens[index]);
 		}
@@ -90,7 +79,11 @@ public class ClassInfo {
 				else if (word.equals("extends"))
 					seenExtends = true;
 				else if (word.equals("implements"))
-					seenImplements = true;
+					if (seenImplements)
+						throw new IllegalStateException(
+								"Found implements twice in file");
+					else
+						seenImplements = true;
 				else {
 					if (seenExtends)
 						parent = word;
@@ -105,7 +98,7 @@ public class ClassInfo {
 
 	private boolean addKeyword(List<Keyword> modifiers, String word) {
 		try {
-			Keyword key = Keyword.valueOf(word.toUpperCase());
+			Keyword key = Keyword.getEnum(word.toUpperCase());
 			modifiers.add(key);
 			return true;
 		} catch (IllegalArgumentException e) {
@@ -125,9 +118,5 @@ public class ClassInfo {
 				+ listToString(methods) + ", constants="
 				+ listToString(constants) + ", parent=" + parent
 				+ ", interfaces=" + listToString(interfaces) + "]";
-	}
-
-	private <T> String listToString(List<T> list) {
-		return Arrays.toString(list.toArray());
 	}
 }

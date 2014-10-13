@@ -6,11 +6,16 @@ public enum Keyword {
 	STATIC,
 	FINAL,
 	PROTECTED,
+	INTERFACE,
+	CLASS,
 	ABSTRACT;
 
 	@Override
 	public String toString() {
 		return super.toString().toLowerCase();
+	}
+	public static Keyword getEnum(String s){
+		return Keyword.valueOf(s.toUpperCase());
 	}
 	
 }
