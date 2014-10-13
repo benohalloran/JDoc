@@ -3,7 +3,7 @@ package datahandling;
 import java.io.File;
 
 public class DataDriver {
-	static int classCount = 0;
+	static int filesCount = 0;
 
 	public static void main(String[] args) {
 		Runtime.getRuntime().addShutdownHook(new Timer());
@@ -28,7 +28,7 @@ public class DataDriver {
 		InfoObject parsed = FileInfoFactory.parseFile(f);
 		if (parsed != null) {
 			System.out.println(parsed);
-			classCount++;
+			filesCount++;
 		}
 	}
 
@@ -39,10 +39,12 @@ public class DataDriver {
 
 				@Override
 				public void run() {
-					System.out.println("Processed " + classCount
-							+ " classes Ran: "
+					System.out.println("Processed " + filesCount
+							+ " files in Ran: "
 							+ (System.currentTimeMillis() - start) / 1000D
 							+ " seconds");
+					System.out.println("Classes: " + FileInfoFactory.getClasses().size());
+					System.out.println("Interfaces: " + FileInfoFactory.getInterfaces().size());
 				}
 
 			});

@@ -73,6 +73,7 @@ public abstract class InfoObject {
 		}
 	}
 
+	//This might/probably have a bug when interfaces extend interfaces.
 	private void parseClassHeader(String readLine) {
 		boolean seenExtends = false;
 		boolean seenImplements = false;

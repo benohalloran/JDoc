@@ -43,13 +43,13 @@ public class FileInfoFactory {
 		return null;
 	}
 
-	public static ClassInfo parseClass(File f) {
+	private static ClassInfo parseClass(File f) {
 		ClassInfo info = new ClassInfo(f);
 		putValue(classes, f, info);
 		return info;
 	}
 
-	public static InterfaceInfo parseInterface(File f) {
+	private static InterfaceInfo parseInterface(File f) {
 		InterfaceInfo info = new InterfaceInfo(f);
 		putValue(interfaces, f, info);
 		return info;
@@ -93,7 +93,15 @@ public class FileInfoFactory {
 		return checkForExisting(f) != null;
 	}
 
-	public static String getFileNamePath(File f) {
+	private static String getFileNamePath(File f) {
 		return f.getAbsolutePath() + "\\" + f.getName() + ".txt";
+	}
+
+	public static HashMap<String, ClassInfo> getClasses() {
+		return classes;
+	}
+
+	public static HashMap<String, InterfaceInfo> getInterfaces() {
+		return interfaces;
 	}
 }
