@@ -32,16 +32,15 @@ public class FileInfoFactory {
 			else if (fileType == Keyword.INTERFACE)
 				return parseInterface(file);
 			else {
-				System.err.println("Unkown file type: " + fileType);
+				System.err.println("Unknown file type: " + fileType);
 				return null;
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace(); // Should never hit this.
-			return null;
 		} catch (IOException e) {
 			e.printStackTrace();
-			return null;
 		}
+		return null;
 	}
 
 	public static ClassInfo parseClass(File f) {
