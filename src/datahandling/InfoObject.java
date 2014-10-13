@@ -1,6 +1,10 @@
 package datahandling;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -9,7 +13,7 @@ import java.util.List;
  * Parent for file-bound info objects, namely interface and class info objects.
  */
 public abstract class InfoObject {
-	protected String className; //For interfaces, interface name
+	protected String className; // For interfaces, interface name
 	protected String javaFile;
 	protected List<Keyword> modifiers;
 	protected List<MethodInfo> methods;
@@ -26,7 +30,75 @@ public abstract class InfoObject {
 		modifiers = new ArrayList<Keyword>();
 		methods = new ArrayList<MethodInfo>();
 		interfaces = new ArrayList<String>();
-		parse(file);
+		try {
+			parse(new BufferedReader(new FileReader(file)));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void parse(BufferedReader input) {
+		// parse the header lines, which are common to both Class and Interface
+		try {
+			parseJavaFile(input.readLine());
+			parseClassHeader(input.readLine());
+			while (input.ready()) {
+				parseLine(input.readLine());
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+			System.exit(1);
+		}
+	}
+
+	/**
+	 * Parsing for content lines. Type-specific
+	 */
+	protected abstract void parseLine(String readLine);
+
+	protected abstract void initializeFeilds();
+
+	private void parseJavaFile(String readLine) {
+		String[] tokens = readLine.split("\"");
+		javaFile = tokens[1];
+	}
+
+	protected boolean addKeyword(List<Keyword> modifiers, String word) {
+		try {
+			Keyword key = Keyword.getEnum(word.toUpperCase());
+			modifiers.add(key);
+			return true;
+		} catch (IllegalArgumentException e) {
+			return word.equals("class");
+		}
+	}
+
+	private void parseClassHeader(String readLine) {
+		boolean seenExtends = false;
+		boolean seenImplements = false;
+		String[] words = readLine.split(" ");
+		for (String word : words) {
+			if (!addKeyword(modifiers, word)) {
+				if (className == null)
+					className = word;
+				else if (word.equals("extends"))
+					seenExtends = true;
+				else if (word.equals("implements"))
+					if (seenImplements)
+						throw new IllegalStateException(
+								"Found implements twice in file");
+					else
+						seenImplements = true;
+				else {
+					if (seenExtends)
+						parent = word;
+					else
+						interfaces.add(word);
+				}
+			}
+		}
+		if (parent == null)
+			parent = "java.lang.Object";
 	}
 
 	protected void addModifier(Keyword k) {
@@ -35,6 +107,24 @@ public abstract class InfoObject {
 					+ " is not a valid modifier");
 		else
 			modifiers.add(k);
+	}
+
+	protected void parseMethodLine(String Line) {
+		String[] tokens = Line.trim().split(" |\\(\\);");
+		if (tokens.length <= 2)
+			return; // TODO handle constructor prob constructor, will handle
+		MethodInfo info = new MethodInfo();
+		int index = 0;
+		for (; index < tokens.length
+				&& addKeyword(info.keyWords, tokens[index]); index++)
+			;
+		info.retType = tokens[index++];
+		info.methodName = tokens[index].split("\\(")[0];
+		tokens = Line.trim().split("\\(");
+		for (index = 2; index < tokens.length; index++) {
+			info.args.add(tokens[index]);
+		}
+		methods.add(info);
 	}
 
 	private <T> boolean contains(T[] arr, T key) {
@@ -47,7 +137,6 @@ public abstract class InfoObject {
 	protected <T> String listToString(List<T> list) {
 		return Arrays.toString(list.toArray());
 	}
-	
 
 	public String getClassName() {
 		return className;
@@ -96,8 +185,4 @@ public abstract class InfoObject {
 	public void setInterfaces(List<String> interfaces) {
 		this.interfaces = interfaces;
 	}
-
-	protected abstract void initializeFeilds();
-
-	protected abstract void parse(File file);
 }
