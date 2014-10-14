@@ -19,6 +19,11 @@ public class InterfaceInfo extends InfoObject {
 	}
 
 	@Override
+	protected Keyword myType() {
+		return Keyword.INTERFACE;
+	}
+
+	@Override
 	public String toString() {
 		return "Interface [className=" + className + ", javaFile=" + javaFile
 				+ ", modifiers=" + listToString(modifiers) + ", methods="

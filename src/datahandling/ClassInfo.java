@@ -27,6 +27,10 @@ public class ClassInfo extends InfoObject {
 		// TODO Auto-generated method stub
 
 	}
+	@Override
+	protected Keyword myType() {
+		return Keyword.CLASS;
+	}
 
 	@Override
 	public String toString() {

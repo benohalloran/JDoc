@@ -60,16 +60,15 @@ public class FileInfoFactory {
 		reader.readLine(); // thrown out, states compiled from line
 		String classInterfaceLine = reader.readLine();
 		String[] tokens = classInterfaceLine.split(" ");
-		Keyword ret = null;
 		for (String s : tokens) {
 			Keyword k = Keyword.getEnum(s);
 			if (k == Keyword.CLASS || k == Keyword.INTERFACE) {
-				ret = k;
-				break;
+				reader.close();
+				return k;
 			}
 		}
 		reader.close();
-		return ret;
+		throw new IllegalArgumentException("Unknown File type. Declaration line " + classInterfaceLine);
 	}
 
 	private static <V extends InfoObject> V getValue(HashMap<String, V> map,

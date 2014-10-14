@@ -40,10 +40,11 @@ public abstract class InfoObject {
 	private void parse(BufferedReader input) {
 		// parse the header lines, which are common to both Class and Interface
 		try {
+			//TODO parse constructor lines
 			parseJavaFile(input.readLine());
 			parseClassHeader(input.readLine());
 			while (input.ready()) {
-				parseLine(input.readLine());
+				parseLine(input.readLine()); //These are only method and field lines, enum values
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -58,6 +59,9 @@ public abstract class InfoObject {
 
 	protected abstract void initializeFeilds();
 
+	//Get the type represented by this class. This is used so keywords like class and interface aren't listed as modifiers.
+	protected abstract Keyword myType();
+
 	private void parseJavaFile(String readLine) {
 		String[] tokens = readLine.split("\"");
 		javaFile = tokens[1];
@@ -66,14 +70,15 @@ public abstract class InfoObject {
 	protected boolean addKeyword(List<Keyword> modifiers, String word) {
 		try {
 			Keyword key = Keyword.getEnum(word.toUpperCase());
-			modifiers.add(key);
+			if (key != myType() || modifiers != this.modifiers)
+				modifiers.add(key);
 			return true;
 		} catch (IllegalArgumentException e) {
 			return word.equals("class");
 		}
 	}
-
-	//This might/probably have a bug when interfaces extend interfaces.
+	
+	// This might/probably have a bug when interfaces extend interfaces.
 	private void parseClassHeader(String readLine) {
 		boolean seenExtends = false;
 		boolean seenImplements = false;
@@ -102,15 +107,7 @@ public abstract class InfoObject {
 			parent = "java.lang.Object";
 	}
 
-	protected void addModifier(Keyword k) {
-		if (contains(NON_MODIFIERS, k))
-			throw new IllegalArgumentException("Keyword " + k
-					+ " is not a valid modifier");
-		else
-			modifiers.add(k);
-	}
-
-	protected void parseMethodLine(String Line) {
+	protected final void parseMethodLine(String Line) {
 		String[] tokens = Line.trim().split(" |\\(\\);");
 		if (tokens.length <= 2)
 			return; // TODO handle constructor prob constructor, will handle
@@ -128,7 +125,7 @@ public abstract class InfoObject {
 		methods.add(info);
 	}
 
-	private <T> boolean contains(T[] arr, T key) {
+	protected <T> boolean contains(T[] arr, T key) {
 		for (T t : arr)
 			if (t.equals(key))
 				return true;
