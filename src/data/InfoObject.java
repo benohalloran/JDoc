@@ -82,7 +82,7 @@ public abstract class InfoObject {
 	private void parseClassHeader(String readLine) {
 		boolean seenExtends = false;
 		boolean seenImplements = false;
-		String[] words = readLine.split(" ");
+		String[] words = readLine.replace("{","").split(" ");
 		for (String word : words) {
 			if (!addKeyword(modifiers, word)) {
 				if (className == null)

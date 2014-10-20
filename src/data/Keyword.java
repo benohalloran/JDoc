@@ -12,4 +12,12 @@ public enum Keyword {
 		return Keyword.valueOf(s.trim().toUpperCase());
 	}
 
+	public static boolean isKeyword(String s) {
+		try {
+			getEnum(s);
+			return true;
+		} catch (IllegalArgumentException e) {
+			return false;
+		}
+	}
 }
