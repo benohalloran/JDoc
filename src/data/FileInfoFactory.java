@@ -14,10 +14,34 @@ import java.util.HashMap;
 public class FileInfoFactory {
 	private static HashMap<String, ClassInfo> classes;
 	private static HashMap<String, InterfaceInfo> interfaces;
+	private static int count = 0;
 
 	static {
 		classes = new HashMap<String, ClassInfo>();
 		interfaces = new HashMap<String, InterfaceInfo>();
+	}
+
+	public static int parseDirectory(String path) {
+		return parseDirectory(new File(path));
+	}
+
+	public static int parseDirectory(File dir) {
+		count = 0;
+		recurseFile(dir);
+		return count;
+	}
+
+	private static void recurseFile(File root) {
+		File[] children = root.listFiles();
+		if (children == null)
+			return;
+		for (File cur : children)
+			if (cur.isDirectory())
+				recurseFile(cur);
+			else if (cur.exists()) {
+				count++;
+				parseFile(cur);
+			}
 	}
 
 	public static InfoObject parseFile(File file) {
@@ -73,16 +97,6 @@ public class FileInfoFactory {
 				"Unknown File type. Declaration line " + declarationLine);
 	}
 
-	private static <V extends InfoObject> V getValue(HashMap<String, V> map,
-			File key) {
-		return map.get(getName(key));
-	}
-
-	private static <V extends InfoObject> V putValue(HashMap<String, V> map,
-			File key, V value) {
-		return map.put(getName(key), value);
-	}
-
 	private static InfoObject checkForExisting(File f) {
 		InfoObject prev = getValue(classes, f);
 		if (prev != null)
@@ -94,12 +108,8 @@ public class FileInfoFactory {
 		return checkForExisting(f) != null;
 	}
 
-	private static String getName(File f) {
-		return f.getName();
-	}
-
 	private static String getFileNamePath(File f) {
-		return f.getAbsolutePath() + "\\" + f.getName() + ".txt";
+		return f.getAbsolutePath();
 	}
 
 	public static HashMap<String, ClassInfo> getClasses() {
@@ -108,5 +118,48 @@ public class FileInfoFactory {
 
 	public static HashMap<String, InterfaceInfo> getInterfaces() {
 		return interfaces;
+	}
+
+	private static <V extends InfoObject> V getValue(HashMap<String, V> map,
+			File keyFile) {
+		String key = getFileObject(keyFile);
+		return map.get(key);
+	}
+
+	private static String getFileObject(File fileKey) {
+		try {
+			BufferedReader reader = new BufferedReader(new FileReader(fileKey));
+			reader.readLine(); // compiled from line
+			String[] tokens;
+			tokens = reader.readLine().split(" ");
+			for (String s : tokens)
+				if (!Keyword.isKeyword(s)) {
+					reader.close();
+					return s;
+				}
+			reader.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	private static <V extends InfoObject> V putValue(HashMap<String, V> map,
+			File key, V value) {
+		String strkey = getFileObject(key);
+		return map.put(strkey, value);
+	}
+
+	/**
+	 * @param in
+	 *            the full name of the object, i.e. java.lang.Object
+	 */
+	public static InfoObject get(String in) {
+		// TODO Auto-generated method stub
+		InfoObject obj = interfaces.get(in);
+		if (obj != null)
+			return obj;
+		else
+			return classes.get(in);
 	}
 }
