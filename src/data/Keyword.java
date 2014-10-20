@@ -1,4 +1,4 @@
-package datahandling;
+package data;
 
 public enum Keyword {
 	PUBLIC, PRIVATE, STATIC, FINAL, PROTECTED, INTERFACE, CLASS, ABSTRACT, VOLATILE, TRANSIENT;
