@@ -1,11 +1,14 @@
 package datahandling;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ConstantInfo {
-	private String type;
-	private String name;
-	private List<Keyword> keywords;
-	
-		
+	String type;
+	String name;
+	List<Keyword> keywords;
+	public ConstantInfo(){
+		keywords = new ArrayList<Keyword>();
+	}
+
 }

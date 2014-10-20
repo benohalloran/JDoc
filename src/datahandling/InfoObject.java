@@ -44,11 +44,11 @@ public abstract class InfoObject {
 			parseJavaFile(input.readLine());
 			parseClassHeader(input.readLine());
 			while (input.ready()) {
-				parseLine(input.readLine()); //These are only method and field lines, enum values
+				parseLine(input.readLine().trim()); //These are only method and field lines, enum values
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
-			System.exit(1);
+			System.exit(-1);
 		}
 	}
 
