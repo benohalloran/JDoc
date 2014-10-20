@@ -9,6 +9,10 @@ public class DataDriver {
 		Runtime.getRuntime().addShutdownHook(new Timer());
 		recurseFile(new File(
 				"C:\\Users\\Ben\\School\\CSC 200\\Honors Project\\InfoParser\\output"));
+		if (false)
+			for (String s : FileInfoFactory.getClasses().keySet()) {
+				System.out.println(s);
+			}
 	}
 
 	public static void recurseFile(File root) {
@@ -27,7 +31,7 @@ public class DataDriver {
 			return;
 		InfoObject parsed = FileInfoFactory.parseFile(f);
 		if (parsed != null) {
-			System.out.println(parsed);
+			// System.out.println(parsed);
 			filesCount++;
 		}
 	}
@@ -43,8 +47,10 @@ public class DataDriver {
 							+ " files in Ran: "
 							+ (System.currentTimeMillis() - start) / 1000D
 							+ " seconds");
-					System.out.println("Classes: " + FileInfoFactory.getClasses().size());
-					System.out.println("Interfaces: " + FileInfoFactory.getInterfaces().size());
+					System.out.println("Classes: "
+							+ FileInfoFactory.getClasses().size());
+					System.out.println("Interfaces: "
+							+ FileInfoFactory.getInterfaces().size());
 				}
 
 			});

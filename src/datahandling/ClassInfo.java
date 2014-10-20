@@ -39,8 +39,7 @@ public class ClassInfo extends InfoObject {
 	private String[] constLineParser(String line) {
 		String[] tokens = {};
 		ArrayList<String> list = new ArrayList<String>();
-		int start;
-		start = 0;
+		int start = 0;
 		char[] chars = line.toCharArray();
 		for (int i = 0; i < chars.length; i++) {
 			char current = chars[i];

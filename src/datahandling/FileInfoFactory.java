@@ -27,11 +27,12 @@ public class FileInfoFactory {
 			return prev;
 		try {
 			Keyword fileType = getFileType(file);
-			if (fileType == Keyword.CLASS)
+			switch (fileType) {
+			case CLASS:
 				return parseClass(file);
-			else if (fileType == Keyword.INTERFACE)
+			case INTERFACE:
 				return parseInterface(file);
-			else {
+			default:
 				System.err.println("Unknown file type: " + fileType);
 				return null;
 			}
@@ -58,8 +59,8 @@ public class FileInfoFactory {
 	private static Keyword getFileType(File f) throws IOException {
 		BufferedReader reader = new BufferedReader(new FileReader(f));
 		reader.readLine(); // thrown out, states compiled from line
-		String classInterfaceLine = reader.readLine();
-		String[] tokens = classInterfaceLine.split(" ");
+		String declarationLine = reader.readLine();
+		String[] tokens = declarationLine.split(" ");
 		for (String s : tokens) {
 			Keyword k = Keyword.getEnum(s);
 			if (k == Keyword.CLASS || k == Keyword.INTERFACE) {
@@ -68,17 +69,18 @@ public class FileInfoFactory {
 			}
 		}
 		reader.close();
-		throw new IllegalArgumentException("Unknown File type. Declaration line " + classInterfaceLine);
+		throw new IllegalArgumentException(
+				"Unknown File type. Declaration line " + declarationLine);
 	}
 
 	private static <V extends InfoObject> V getValue(HashMap<String, V> map,
 			File key) {
-		return map.get(getFileNamePath(key));
+		return map.get(getName(key));
 	}
 
 	private static <V extends InfoObject> V putValue(HashMap<String, V> map,
 			File key, V value) {
-		return map.put(getFileNamePath(key), value);
+		return map.put(getName(key), value);
 	}
 
 	private static InfoObject checkForExisting(File f) {
@@ -90,6 +92,10 @@ public class FileInfoFactory {
 
 	private static boolean haveParsed(File f) {
 		return checkForExisting(f) != null;
+	}
+
+	private static String getName(File f) {
+		return f.getName();
 	}
 
 	private static String getFileNamePath(File f) {
