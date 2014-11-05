@@ -1,15 +1,8 @@
-JARDecomp
+JDoc
 =========
 
-Extract all classes from a JAR file and display class hierarchy and generics.
+An interactive documentation system.
 
-Final product will be an interactive Java program to decompose a JAR file and display all classes and heirarchy visually.
-Full feature set TBD.
+JDoc parses JAR files to extract inheritance and dependencies between different packages and classes. Instead of traditional Java Documentation tools, which simply spit back HTML pages with some links and some occasional styling, JDoc provides a way for new students to see real world examples of inheritance and be able to automatically trace the origin of functions and where the funtion is actually implemented.
 
-Example of valid generics: [ArrayAdapter](/output/android/widget/ArrayAdapter.txt)
-
-Runtimes for Android-L Preview
-Single Thread: ~36 minutes
-
-[5 Worker threads](https://github.com/benohalloran/JAR-Inheritance-Viewer/tree/80769de68971667a3ad555713763618913f15815): ~29 minutes
-May need a better concurrent data structure...
+JDoc displays both the methods and fields defined within a class source file and methods defined in it's heirarchy. Since methods come from a variety of classes in real-world systems, individual method's have their own 'heirarchy', tracing back where in the hierarchy it was declared, and where it was implemented.
