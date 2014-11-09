@@ -16,9 +16,15 @@ public class FileInfoFactory {
 	private static HashMap<String, InterfaceInfo> interfaces;
 	private static int count = 0;
 
+	private static final String defaultDir = "C:\\Users\\Ben\\School\\CSC 200\\Honors Project\\InfoParser\\output";
+
 	static {
 		classes = new HashMap<String, ClassInfo>();
 		interfaces = new HashMap<String, InterfaceInfo>();
+	}
+
+	public static int parseDirectory() {
+		return parseDirectory(defaultDir);
 	}
 
 	public static int parseDirectory(String path) {
